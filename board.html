@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESG 자료실 | BrightPath ESG Consulting</title>
+  <meta name="description" content="BrightPath ESG Consulting 자료실 - ESG 경영, 에코바디스, RBA, 중대재해처벌법 관련 최신 소식과 자료를 제공합니다.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/board.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-symbol">明</span>
+        <span class="logo-text">BrightPath <em>ESG</em></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#services" class="nav-link">서비스</a>
+        <a href="index.html#process" class="nav-link">프로세스</a>
+        <a href="index.html#industries" class="nav-link">산업분야</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link nav-link--dropdown">인증 가이드 <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+          <div class="nav-dropdown-menu">
+            <a href="guide/rba.html">RBA 인증</a>
+            <a href="guide/rba-checklist.html">RBA 체크리스트</a>
+            <a href="guide/rba-process.html">RBA 평가 절차</a>
+            <a href="guide/rba-members.html">RBA 회원사 리스트</a>
+            <div class="nav-dropdown-divider"></div>
+            <a href="guide/kcgs.html">KCGS</a>
+            <a href="guide/sbti.html">SBTi 인증</a>
+            <a href="guide/cbam.html">CBAM 인증</a>
+          </div>
+        </div>
+        <a href="board.html" class="nav-link nav-link--active">자료실</a>
+        <a href="index.html#team" class="nav-link">컨설턴트</a>
+        <a href="index.html#contact" class="nav-link nav-link--cta">상담 신청</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Board Hero -->
+  <section class="board-hero">
+    <div class="container board-hero-content">
+      <p class="section-label">Resources</p>
+      <h1 class="section-title">ESG 자료실</h1>
+      <p class="section-desc">ESG 경영, 에코바디스, RBA, 중대재해처벌법 관련 최신 소식과 자료를 제공합니다.</p>
+    </div>
+  </section>
+
+  <!-- Board Content -->
+  <section class="board-section">
+    <div class="container" id="boardContent">
+
+      <!-- Toolbar -->
+      <div class="board-toolbar">
+        <div class="board-total">
+          <div class="board-total-icon">
+            <svg viewBox="0 0 16 16"><rect x="2" y="3" width="12" height="2"/><rect x="2" y="7" width="12" height="2"/><rect x="2" y="11" width="12" height="2"/></svg>
+          </div>
+          <span>TOTAL. <strong id="boardTotalCount">0</strong></span>
+        </div>
+        <div class="board-search">
+          <div class="board-filter">
+            <select id="boardFilter" aria-label="카테고리 필터">
+              <option value="">전체</option>
+              <option value="esg">ESG</option>
+              <option value="cert">인증</option>
+              <option value="law">법규</option>
+              <option value="news">소식</option>
+            </select>
+          </div>
+          <input type="text" class="board-search-input" id="boardSearchInput" placeholder="검색어입력">
+          <button type="button" class="board-search-btn" id="boardSearchBtn">
+            <svg viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5"/><path d="M11 11l4 4"/></svg>
+            검색
+          </button>
+        </div>
+      </div>
+
+      <!-- Table -->
+      <div class="board-table-wrap">
+        <table class="board-table">
+          <thead>
+            <tr>
+              <th class="col-no">No.</th>
+              <th class="col-title">제목</th>
+              <th class="col-author">작성자</th>
+              <th class="col-date">등록일</th>
+              <th class="col-views">조회수</th>
+            </tr>
+          </thead>
+          <tbody id="boardBody">
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Pagination -->
+      <div class="board-pagination" id="boardPagination"></div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-symbol">明</span>
+            <span class="logo-text">BrightPath <em>ESG</em></span>
+          </a>
+          <p class="footer-slogan">明경영, 밝은 길로 안내합니다</p>
+        </div>
+        <div class="footer-links">
+          <h4>서비스</h4>
+          <a href="index.html#services">ESG 경영 컨설팅</a>
+          <a href="index.html#services">에코바디스 인증</a>
+          <a href="index.html#services">중대재해처벌법 대응</a>
+          <a href="index.html#services">ISO 인증</a>
+          <a href="index.html#services">RBA 인증</a>
+        </div>
+        <div class="footer-links">
+          <h4>회사</h4>
+          <a href="index.html#about">About</a>
+          <a href="index.html#team">컨설턴트</a>
+          <a href="index.html#process">프로세스</a>
+          <a href="index.html#contact">상담 신청</a>
+        </div>
+        <div class="footer-links">
+          <h4>연락처</h4>
+          <a href="tel:02-XXX-XXXX">02-XXX-XXXX</a>
+          <a href="mailto:contact@brightpathesg.co.kr">contact@brightpathesg.co.kr</a>
+          <p class="footer-address">서울특별시 강남구</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BrightPath ESG Consulting. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/board.js"></script>
+</body>
+</html>

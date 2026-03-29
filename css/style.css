@@ -154,6 +154,11 @@ ul {
   color: var(--black);
 }
 
+.nav-link--active {
+  color: var(--navy) !important;
+  font-weight: 600;
+}
+
 .nav-link:hover::after {
   width: 100%;
 }

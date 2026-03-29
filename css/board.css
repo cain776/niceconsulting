@@ -1,0 +1,704 @@
+/* ============================================
+   BrightPath ESG Board
+   게시판 / 자료실 전용 스타일
+   ============================================ */
+
+/* --- Board Page Hero (Mini) --- */
+.board-hero {
+  background: var(--navy-dark);
+  padding: 140px 0 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.board-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--gold);
+  opacity: 0.07;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+.board-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.board-hero .section-label {
+  color: var(--gold-light);
+}
+
+.board-hero .section-title {
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.board-hero .section-desc {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
+
+/* --- Board Section --- */
+.board-section {
+  padding: 60px 0 120px;
+  background: var(--white);
+  min-height: 60vh;
+}
+
+/* --- Board Toolbar --- */
+.board-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.board-total {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+.board-total-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--navy);
+  border-radius: 6px;
+}
+
+.board-total-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: var(--white);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.board-total strong {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black);
+  margin-left: 2px;
+}
+
+.board-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.board-filter {
+  position: relative;
+}
+
+.board-filter select {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 10px 36px 10px 16px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  border: 1px solid #D0D0D0;
+  border-radius: 2px;
+  background: var(--white);
+  color: var(--gray-700);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+  min-width: 100px;
+}
+
+.board-filter select:focus {
+  border-color: var(--navy);
+}
+
+.board-filter::after {
+  content: '';
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--gray-500);
+  pointer-events: none;
+}
+
+.board-search-input {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  border: 1px solid #D0D0D0;
+  border-radius: 2px;
+  background: var(--white);
+  color: var(--black);
+  outline: none;
+  transition: border-color 0.2s;
+  width: 220px;
+}
+
+.board-search-input::placeholder {
+  color: var(--gray-300);
+}
+
+.board-search-input:focus {
+  border-color: var(--navy);
+}
+
+.board-search-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  background: var(--navy);
+  color: var(--white);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.board-search-btn:hover {
+  background: var(--navy-dark);
+}
+
+.board-search-btn svg {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+/* --- Board Table --- */
+.board-table-wrap {
+  margin-top: 20px;
+  border-top: 2px solid var(--navy);
+  overflow-x: auto;
+}
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.board-table thead th {
+  padding: 16px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-700);
+  background: var(--gray-100);
+  text-align: center;
+  border-bottom: 1px solid #E0E0E0;
+  white-space: nowrap;
+}
+
+.board-table thead th.col-title {
+  text-align: left;
+  padding-left: 24px;
+}
+
+.board-table tbody tr {
+  transition: background 0.15s;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.board-table tbody tr:hover {
+  background: rgba(26, 39, 68, 0.02);
+}
+
+.board-table tbody tr.pinned {
+  background: rgba(212, 168, 67, 0.04);
+}
+
+.board-table tbody tr.pinned:hover {
+  background: rgba(212, 168, 67, 0.08);
+}
+
+.board-table tbody td {
+  padding: 18px 12px;
+  font-size: 14px;
+  color: var(--gray-700);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.board-table .col-no {
+  width: 70px;
+  color: var(--gray-500);
+  font-size: 13px;
+}
+
+.board-table .col-title {
+  text-align: left;
+  padding-left: 24px;
+  max-width: 0;
+}
+
+.board-table .col-title a {
+  display: inline;
+  color: var(--black);
+  font-weight: 400;
+  transition: color 0.2s;
+}
+
+.board-table .col-title .badge-category {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.board-table .col-title .attach-icon {
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.board-table .col-title .badge-new {
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.board-table .col-title a:hover {
+  color: var(--navy);
+}
+
+.board-table tr.pinned .col-title a {
+  font-weight: 600;
+  color: var(--navy-dark);
+}
+
+.board-table .col-author {
+  width: 100px;
+  font-size: 13px;
+}
+
+.board-table .col-date {
+  width: 120px;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.board-table .col-views {
+  width: 80px;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+/* --- Pin Icon --- */
+.pin-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--navy);
+  flex-shrink: 0;
+}
+
+.pin-icon svg {
+  width: 12px;
+  height: 12px;
+  fill: none;
+  stroke: var(--white);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+/* --- Attachment Icon --- */
+.attach-icon {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--gray-300);
+  margin-left: 2px;
+}
+
+.attach-icon svg {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+}
+
+/* --- New Badge --- */
+.badge-new {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--white);
+  background: #C0392B;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+/* --- Category Badge --- */
+.badge-category {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 6px;
+  flex-shrink: 0;
+  letter-spacing: 0.3px;
+}
+
+.badge-category--esg {
+  background: rgba(26, 39, 68, 0.08);
+  color: var(--navy);
+}
+
+.badge-category--cert {
+  background: rgba(212, 168, 67, 0.15);
+  color: var(--gold-dark);
+}
+
+.badge-category--law {
+  background: rgba(192, 57, 43, 0.08);
+  color: #C0392B;
+}
+
+.badge-category--news {
+  background: rgba(39, 174, 96, 0.1);
+  color: #27ae60;
+}
+
+/* --- Pagination --- */
+.board-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 48px;
+}
+
+.board-pagination button {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  color: var(--gray-700);
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.board-pagination button:hover {
+  border-color: #D0D0D0;
+  background: var(--gray-100);
+}
+
+.board-pagination button.active {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+  font-weight: 700;
+}
+
+.board-pagination button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.board-pagination button:disabled:hover {
+  border-color: transparent;
+  background: none;
+}
+
+.board-pagination .page-arrow {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* --- Empty State --- */
+.board-empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--gray-500);
+}
+
+.board-empty-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-100);
+  border-radius: 50%;
+}
+
+.board-empty-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: var(--gray-300);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+}
+
+.board-empty h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 8px;
+}
+
+.board-empty p {
+  font-size: 14px;
+}
+
+/* --- Board Detail (Article View) --- */
+.board-detail {
+  margin-top: 20px;
+  border-top: 2px solid var(--navy);
+}
+
+.board-detail-header {
+  padding: 32px 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.board-detail-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black);
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.board-detail-meta {
+  display: flex;
+  gap: 24px;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.board-detail-meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.board-detail-meta strong {
+  font-weight: 600;
+  color: var(--gray-700);
+}
+
+.board-detail-body {
+  padding: 40px 0;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--gray-700);
+  min-height: 200px;
+}
+
+.board-detail-body h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+  margin: 32px 0 16px;
+}
+
+.board-detail-body h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--black);
+  margin: 24px 0 12px;
+}
+
+.board-detail-body p {
+  margin-bottom: 16px;
+}
+
+.board-detail-body ul,
+.board-detail-body ol {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+.board-detail-body li {
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+.board-detail-footer {
+  padding: 24px 0;
+  border-top: 1px solid #E8E8E8;
+  display: flex;
+  justify-content: center;
+}
+
+.board-detail-footer .btn {
+  min-width: 120px;
+}
+
+/* --- Navigation between articles --- */
+.board-nav-list {
+  border-top: 1px solid #E8E8E8;
+  margin-bottom: 40px;
+}
+
+.board-nav-item {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #F0F0F0;
+  font-size: 14px;
+}
+
+.board-nav-item-label {
+  font-weight: 600;
+  color: var(--gray-500);
+  min-width: 60px;
+  font-size: 13px;
+}
+
+.board-nav-item a {
+  color: var(--gray-700);
+  transition: color 0.2s;
+}
+
+.board-nav-item a:hover {
+  color: var(--navy);
+}
+
+/* --- Responsive --- */
+@media (max-width: 1024px) {
+  .board-search-input {
+    width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .board-hero {
+    padding: 120px 0 40px;
+  }
+
+  .board-hero .section-title {
+    font-size: 28px;
+  }
+
+  .board-section {
+    padding: 36px 0 80px;
+  }
+
+  .board-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .board-search {
+    width: 100%;
+  }
+
+  .board-filter select {
+    flex: 0 0 auto;
+  }
+
+  .board-search-input {
+    width: 100%;
+    flex: 1;
+  }
+
+  .board-search-btn {
+    flex-shrink: 0;
+  }
+
+  /* Table — card style on mobile */
+  .board-table thead {
+    display: none;
+  }
+
+  .board-table tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0;
+    border-bottom: 1px solid #E8E8E8;
+    gap: 4px 12px;
+    align-items: center;
+  }
+
+  .board-table tbody td {
+    padding: 0;
+    text-align: left;
+    border: none;
+  }
+
+  .board-table .col-no {
+    width: auto;
+    font-size: 12px;
+    color: var(--gold-dark);
+    font-weight: 600;
+  }
+
+  .board-table .col-title {
+    width: 100%;
+    order: -1;
+    padding-left: 0;
+    max-width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .board-table .col-title a {
+    font-size: 15px;
+    white-space: normal;
+  }
+
+  .board-table .col-author,
+  .board-table .col-date,
+  .board-table .col-views {
+    width: auto;
+    font-size: 12px;
+    color: var(--gray-500);
+  }
+
+  .board-table .col-views::before {
+    content: '조회 ';
+  }
+
+  .board-pagination {
+    margin-top: 32px;
+  }
+
+  .board-detail-title {
+    font-size: 20px;
+  }
+
+  .board-detail-meta {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
