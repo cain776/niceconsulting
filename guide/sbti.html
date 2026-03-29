@@ -19,25 +19,32 @@
         <span class="logo-text">BrightPath <em>ESG</em></span>
       </a>
       <nav class="nav" id="nav">
-        <a href="../index.html#about" class="nav-link">About</a>
-        <a href="../index.html#services" class="nav-link">서비스</a>
-        <a href="../index.html#process" class="nav-link">프로세스</a>
-        <a href="../index.html#industries" class="nav-link">산업분야</a>
+        <div class="nav-dropdown">
+          <a href="../index.html#about" class="nav-link nav-link--dropdown">About <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+          <div class="nav-dropdown-menu">
+            <a href="../index.html#about">회사 소개</a>
+            <a href="../index.html#services">서비스</a>
+            <a href="../index.html#process">프로세스</a>
+            <a href="../index.html#industries">산업분야</a>
+            <a href="../index.html#team">컨설턴트</a>
+          </div>
+        </div>
+        <a href="../portfolio.html" class="nav-link">실적</a>
+        <a href="../esg/index.html" class="nav-link">ESG</a>
+        <a href="../ecovadis/index.html" class="nav-link">에코바디스</a>
+        <a href="../iso/index.html" class="nav-link">ISO</a>
+        <a href="../safety/index.html" class="nav-link">중대재해처벌법</a>
         <div class="nav-dropdown">
           <a href="#" class="nav-link nav-link--dropdown nav-link--active">인증 가이드 <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
           <div class="nav-dropdown-menu">
-            <a href="rba.html">RBA 인증</a>
-            <a href="rba-checklist.html">RBA 체크리스트</a>
-            <a href="rba-process.html">RBA 평가 절차</a>
-            <a href="rba-members.html">RBA 회원사 리스트</a>
-            <div class="nav-dropdown-divider"></div>
+            <a href="rba.html">RBA</a>
             <a href="kcgs.html">KCGS</a>
-            <a href="sbti.html">SBTi 인증</a>
-            <a href="cbam.html">CBAM 인증</a>
+            <a href="sbti.html">SBTi</a>
+            <a href="cbam.html">CBAM</a>
           </div>
         </div>
+        <a href="../consult-board.html" class="nav-link">게시판</a>
         <a href="../board.html" class="nav-link">자료실</a>
-        <a href="../index.html#team" class="nav-link">컨설턴트</a>
         <a href="../index.html#contact" class="nav-link nav-link--cta">상담 신청</a>
       </nav>
       <button type="button" class="hamburger" id="hamburger" aria-label="메뉴 열기">
@@ -151,5 +158,6 @@
   </div>
 
   <script src="../js/main.js"></script>
+  <script src="../js/guide.js"></script>
 </body>
 </html>

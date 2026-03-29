@@ -263,15 +263,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const ITEMS_PER_PAGE = 10;
   let currentPage = 1;
   let filteredData = [...boardData];
-  let currentView = 'list'; // 'list' or 'detail'
 
   // --- DOM Elements ---
-  const boardBody = document.getElementById('boardBody');
-  const boardPagination = document.getElementById('boardPagination');
-  const searchInput = document.getElementById('boardSearchInput');
-  const filterSelect = document.getElementById('boardFilter');
-  const searchBtn = document.getElementById('boardSearchBtn');
-  const totalCount = document.getElementById('boardTotalCount');
+  let boardBody = document.getElementById('boardBody');
+  let boardPagination = document.getElementById('boardPagination');
+  let searchInput = document.getElementById('boardSearchInput');
+  let filterSelect = document.getElementById('boardFilter');
+  let searchBtn = document.getElementById('boardSearchBtn');
+  let totalCount = document.getElementById('boardTotalCount');
   const boardContent = document.getElementById('boardContent');
 
   // --- SVG Icons ---
@@ -333,7 +332,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
-    renderPagination(totalPages);
+    renderPagination();
   }
 
   function buildRow(item, isPinned) {
@@ -357,7 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- Render Pagination ---
-  function renderPagination(totalPages) {
+  function renderPagination() {
     const normal = filteredData.filter(d => !d.pinned);
     const realTotalPages = Math.max(1, Math.ceil(normal.length / ITEMS_PER_PAGE));
 
@@ -429,7 +428,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let html = `
       <div class="board-detail">
         <div class="board-detail-header">
-          <div style="margin-bottom: 12px;">
+          <div class="board-detail-category">
             <span class="badge-category ${categoryClass}">${item.categoryName}</span>
           </div>
           <h1 class="board-detail-title">${item.title}</h1>
@@ -467,7 +466,6 @@ document.addEventListener('DOMContentLoaded', () => {
     html += `</div>`;
 
     boardContent.innerHTML = html;
-    currentView = 'detail';
 
     // Scroll to top of section
     document.querySelector('.board-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -484,21 +482,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Store original list HTML for restore
+  const listHTML = boardContent.innerHTML;
+
   function showList() {
-    currentView = 'list';
-    boardContent.innerHTML = getListHTML();
+    boardContent.innerHTML = listHTML;
 
     // Re-bind DOM refs
-    const newBoardBody = document.getElementById('boardBody');
-    const newBoardPagination = document.getElementById('boardPagination');
+    boardBody = document.getElementById('boardBody');
+    boardPagination = document.getElementById('boardPagination');
+    searchInput = document.getElementById('boardSearchInput');
+    filterSelect = document.getElementById('boardFilter');
+    searchBtn = document.getElementById('boardSearchBtn');
+    totalCount = document.getElementById('boardTotalCount');
 
-    // Replace refs — we need to use the module-level variables trick
-    // Instead, just re-render fully
-    location.reload();
-  }
+    // Re-bind events
+    searchBtn.addEventListener('click', applyFilter);
+    searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') applyFilter(); });
+    filterSelect.addEventListener('change', applyFilter);
 
-  function getListHTML() {
-    return ''; // Handled by reload
+    renderTable();
+    document.querySelector('.board-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   // --- Initial Render ---
@@ -506,48 +510,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderTable();
   }
 
-  // --- Header scroll (reuse from main.js) ---
-  const header = document.getElementById('header');
-  if (header) {
-    window.addEventListener('scroll', () => {
-      requestAnimationFrame(() => {
-        if (window.pageYOffset > 10) {
-          header.classList.add('scrolled');
-        } else {
-          header.classList.remove('scrolled');
-        }
-      });
-    });
-  }
-
-  // --- Mobile hamburger ---
-  const hamburger = document.getElementById('hamburger');
-  const nav = document.getElementById('nav');
-  if (hamburger && nav) {
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      nav.classList.toggle('open');
-      document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
-    });
-
-    nav.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        nav.classList.remove('open');
-        document.body.style.overflow = '';
-      });
-    });
-  }
-
-  // --- Mobile dropdown toggle ---
-  const dropdownToggle = document.querySelector('.nav-link--dropdown');
-  if (dropdownToggle) {
-    dropdownToggle.addEventListener('click', (e) => {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        dropdownToggle.closest('.nav-dropdown').classList.toggle('open');
-      }
-    });
-  }
+  // Header scroll, hamburger, dropdown handled by main.js
 
 });

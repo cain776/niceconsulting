@@ -6,7 +6,7 @@
 /* --- Board Page Hero (Mini) --- */
 .board-hero {
   background: var(--navy-dark);
-  padding: 140px 0 60px;
+  padding: 120px 0 44px;
   position: relative;
   overflow: hidden;
 }
@@ -201,7 +201,7 @@
 }
 
 .board-table thead th {
-  padding: 16px 12px;
+  padding: 12px 12px;
   font-size: 13px;
   font-weight: 600;
   color: var(--gray-700);
@@ -212,8 +212,7 @@
 }
 
 .board-table thead th.col-title {
-  text-align: left;
-  padding-left: 24px;
+  text-align: center;
 }
 
 .board-table tbody tr {
@@ -234,7 +233,7 @@
 }
 
 .board-table tbody td {
-  padding: 18px 12px;
+  padding: 14px 12px;
   font-size: 14px;
   color: var(--gray-700);
   text-align: center;
@@ -388,6 +387,26 @@
   color: #27ae60;
 }
 
+.badge-category--ecovadis {
+  background: rgba(212, 168, 67, 0.15);
+  color: var(--gold-dark);
+}
+
+.badge-category--rba {
+  background: rgba(39, 174, 96, 0.1);
+  color: #27ae60;
+}
+
+.badge-category--safety {
+  background: rgba(192, 57, 43, 0.08);
+  color: #C0392B;
+}
+
+.badge-category--iso {
+  background: rgba(52, 152, 219, 0.1);
+  color: #2980b9;
+}
+
 /* --- Pagination --- */
 .board-pagination {
   display: flex;
@@ -483,6 +502,10 @@
 .board-detail {
   margin-top: 20px;
   border-top: 2px solid var(--navy);
+}
+
+.board-detail-category {
+  margin-bottom: 12px;
 }
 
 .board-detail-header {

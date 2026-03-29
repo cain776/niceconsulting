@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
   let headerHeight = header.offsetHeight;
   let scrollTicking = false;
+  let onScrollExtra = null;
 
   // Cache header height, update on resize
   window.addEventListener('resize', () => {
@@ -42,6 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
             link.classList.add('active');
           }
         });
+
+        if (onScrollExtra) onScrollExtra(currentScroll);
 
         scrollTicking = false;
       });
@@ -142,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Contact form handler ---
   const contactForm = document.getElementById('contactForm');
 
-  contactForm.addEventListener('submit', (e) => {
+  if (contactForm) contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
     const form = e.target;
@@ -167,6 +170,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Floating Section Navigator ---
   const sectionNav = document.getElementById('sectionNav');
+  if (!sectionNav) return;
+
   const navUp = document.getElementById('navUp');
   const navDown = document.getElementById('navDown');
   const navCurrent = document.getElementById('navCurrent');
@@ -178,18 +183,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   navTotal.textContent = sectionCount;
 
-  // Show/hide nav based on scroll
-  function updateSectionNav() {
-    const scrollY = window.pageYOffset;
-
-    // Show after hero
+  function updateSectionNav(scrollY) {
     if (scrollY > 200) {
       sectionNav.classList.add('visible');
     } else {
       sectionNav.classList.remove('visible');
     }
 
-    // Find current section
     for (let i = navSections.length - 1; i >= 0; i--) {
       if (scrollY >= navSections[i].offsetTop - headerHeight - 150) {
         currentSectionIndex = i;
@@ -202,31 +202,21 @@ document.addEventListener('DOMContentLoaded', () => {
     navDown.disabled = currentSectionIndex === sectionCount - 1;
   }
 
-  // Add to existing scroll handler by observing
-  window.addEventListener('scroll', () => {
-    requestAnimationFrame(updateSectionNav);
-  });
-
   navUp.addEventListener('click', () => {
     if (currentSectionIndex > 0) {
       const target = navSections[currentSectionIndex - 1];
-      window.scrollTo({
-        top: target.offsetTop - headerHeight,
-        behavior: 'smooth'
-      });
+      window.scrollTo({ top: target.offsetTop - headerHeight, behavior: 'smooth' });
     }
   });
 
   navDown.addEventListener('click', () => {
     if (currentSectionIndex < sectionCount - 1) {
       const target = navSections[currentSectionIndex + 1];
-      window.scrollTo({
-        top: target.offsetTop - headerHeight,
-        behavior: 'smooth'
-      });
+      window.scrollTo({ top: target.offsetTop - headerHeight, behavior: 'smooth' });
     }
   });
 
-  updateSectionNav();
+  onScrollExtra = updateSectionNav;
+  updateSectionNav(window.pageYOffset);
 
 });

@@ -1,0 +1,240 @@
+/* ============================================
+   BrightPath ESG - Consulting Board
+   자료실(board.css) 위에 추가되는 스타일만
+   ============================================ */
+
+/* --- Hero --- */
+.cb-hero {
+  background: var(--navy-dark);
+  padding: 120px 0 44px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cb-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--gold);
+  opacity: 0.07;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+.cb-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.cb-hero .section-label { color: var(--gold-light); }
+.cb-hero .section-title { color: var(--white); margin-bottom: 12px; }
+.cb-hero .section-desc { color: rgba(255, 255, 255, 0.7); margin-bottom: 0; }
+
+/* --- Section --- */
+.cb-section {
+  padding: 60px 0 120px;
+  background: var(--white);
+  min-height: 60vh;
+}
+
+/* --- Consult board table overrides --- */
+.cb-section .board-table thead th.col-title {
+  text-align: center;
+}
+
+.cb-section .board-table .col-title .badge-category {
+  min-width: 64px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* --- Lock icon in table --- */
+.cb-lock-icon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--gray-400);
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.cb-lock-icon svg {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+}
+
+.cb-row--locked .col-title a {
+  color: var(--gray-500);
+  cursor: pointer;
+}
+
+.cb-row--locked .col-title a:hover {
+  color: var(--gray-700);
+}
+
+.cb-row--open .col-title a {
+  color: var(--black);
+  font-weight: 500;
+}
+
+/* --- Status badge in table --- */
+.cb-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.cb-status-badge--complete {
+  background: rgba(39, 174, 96, 0.1);
+  color: #27ae60;
+}
+
+.cb-status-badge--progress {
+  background: rgba(52, 152, 219, 0.1);
+  color: #2980b9;
+}
+
+.cb-status-badge--new {
+  background: rgba(192, 57, 43, 0.08);
+  color: #C0392B;
+}
+
+.cb-status-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* --- Modal --- */
+.cb-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+}
+
+.cb-modal.visible {
+  display: flex;
+}
+
+.cb-modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cb-modal-content {
+  position: relative;
+  background: var(--white);
+  padding: 48px 40px;
+  border-radius: 8px;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.cb-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--gray-500);
+  transition: color 0.2s;
+}
+
+.cb-modal-close:hover { color: var(--black); }
+
+.cb-modal-icon {
+  margin-bottom: 20px;
+  color: var(--navy);
+}
+
+.cb-modal h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 12px;
+}
+
+.cb-modal p {
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+/* --- Detail expand --- */
+.cb-detail-row {
+  display: none;
+}
+
+.cb-detail-row.visible {
+  display: table-row;
+}
+
+.cb-detail-cell {
+  padding: 28px 24px;
+  background: var(--gray-100);
+  border-bottom: 2px solid var(--navy);
+}
+
+.cb-detail-body {
+  font-size: 15px;
+  color: var(--gray-700);
+  line-height: 1.8;
+}
+
+.cb-detail-body h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--black);
+  margin: 20px 0 10px;
+}
+
+.cb-detail-body ul {
+  padding-left: 20px;
+  margin: 12px 0;
+}
+
+.cb-detail-body li {
+  margin-bottom: 6px;
+  list-style: disc;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .cb-hero {
+    padding: 120px 0 40px;
+  }
+
+  .cb-section {
+    padding: 36px 0 80px;
+  }
+
+  .cb-modal-content {
+    padding: 36px 28px;
+  }
+}

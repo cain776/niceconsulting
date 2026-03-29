@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ESG 자료실 | BrightPath ESG Consulting</title>
-  <meta name="description" content="BrightPath ESG Consulting 자료실 - ESG 경영, 에코바디스, RBA, 중대재해처벌법 관련 최신 소식과 자료를 제공합니다.">
+  <title>주요 실적 | BrightPath ESG Consulting</title>
+  <meta name="description" content="BrightPath ESG Consulting 주요 실적 - ESG 경영, 에코바디스, RBA, ISO 컨설팅 수행 실적">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <!-- Header / Navigation -->
+  <!-- Header -->
   <header class="header" id="header">
     <div class="header-inner">
       <a href="index.html" class="logo">
@@ -31,7 +31,7 @@
             <a href="index.html#team">컨설턴트</a>
           </div>
         </div>
-        <a href="portfolio.html" class="nav-link">실적</a>
+        <a href="portfolio.html" class="nav-link nav-link--active">실적</a>
         <a href="esg/index.html" class="nav-link">ESG</a>
         <a href="ecovadis/index.html" class="nav-link">에코바디스</a>
         <a href="iso/index.html" class="nav-link">ISO</a>
@@ -46,55 +46,37 @@
           </div>
         </div>
         <a href="consult-board.html" class="nav-link">게시판</a>
-        <a href="board.html" class="nav-link nav-link--active">자료실</a>
+        <a href="board.html" class="nav-link">자료실</a>
         <a href="index.html#contact" class="nav-link nav-link--cta">상담 신청</a>
       </nav>
-      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+      <button type="button" class="hamburger" id="hamburger" aria-label="메뉴 열기">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <!-- Board Hero -->
+  <!-- Hero -->
   <section class="board-hero">
     <div class="container board-hero-content">
-      <p class="section-label">Resources</p>
-      <h1 class="section-title">ESG 자료실</h1>
-      <p class="section-desc">ESG 경영, 에코바디스, RBA, 중대재해처벌법 관련 최신 소식과 자료를 제공합니다.</p>
+      <p class="section-label">Portfolio</p>
+      <h1 class="section-title">주요 실적</h1>
+      <p class="section-desc">BrightPath ESG Consulting의 컨설팅 수행 실적입니다.</p>
     </div>
   </section>
 
-  <!-- Board Content -->
+  <!-- Board -->
   <section class="board-section">
-    <div class="container" id="boardContent">
+    <div class="container">
 
-      <!-- Toolbar -->
       <div class="board-toolbar">
         <div class="board-total">
           <div class="board-total-icon">
             <svg viewBox="0 0 16 16"><rect x="2" y="3" width="12" height="2"/><rect x="2" y="7" width="12" height="2"/><rect x="2" y="11" width="12" height="2"/></svg>
           </div>
-          <span>TOTAL. <strong id="boardTotalCount">0</strong></span>
-        </div>
-        <div class="board-search">
-          <div class="board-filter">
-            <select id="boardFilter" aria-label="카테고리 필터">
-              <option value="">전체</option>
-              <option value="esg">ESG</option>
-              <option value="cert">인증</option>
-              <option value="law">법규</option>
-              <option value="news">소식</option>
-            </select>
-          </div>
-          <input type="text" class="board-search-input" id="boardSearchInput" placeholder="검색어 입력">
-          <button type="button" class="board-search-btn" id="boardSearchBtn">
-            <svg viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5"/><path d="M11 11l4 4"/></svg>
-            검색
-          </button>
+          <span>TOTAL. <strong>0</strong></span>
         </div>
       </div>
 
-      <!-- Table -->
       <div class="board-table-wrap">
         <table class="board-table">
           <thead>
@@ -106,13 +88,21 @@
               <th class="col-views">조회수</th>
             </tr>
           </thead>
-          <tbody id="boardBody">
+          <tbody>
+            <tr>
+              <td colspan="5">
+                <div class="board-empty">
+                  <div class="board-empty-icon">
+                    <svg viewBox="0 0 24 24"><path d="M9 12h6M12 9v6M3 12a9 9 0 1118 0 9 9 0 01-18 0z"/></svg>
+                  </div>
+                  <h3>등록된 실적이 없습니다</h3>
+                  <p>컨설팅 수행 실적이 곧 업데이트될 예정입니다.</p>
+                </div>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
-
-      <!-- Pagination -->
-      <div class="board-pagination" id="boardPagination"></div>
 
     </div>
   </section>
@@ -139,8 +129,9 @@
         <div class="footer-links">
           <h4>회사</h4>
           <a href="index.html#about">About</a>
-          <a href="index.html#team">컨설턴트</a>
-          <a href="index.html#process">프로세스</a>
+          <a href="portfolio.html">실적</a>
+          <a href="consult-board.html">게시판</a>
+          <a href="board.html">자료실</a>
           <a href="index.html#contact">상담 신청</a>
         </div>
         <div class="footer-links">
@@ -157,6 +148,5 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/board.js"></script>
 </body>
 </html>

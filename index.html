@@ -20,25 +20,32 @@
         <span class="logo-text">BrightPath <em>ESG</em></span>
       </a>
       <nav class="nav" id="nav">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#services" class="nav-link">서비스</a>
-        <a href="#process" class="nav-link">프로세스</a>
-        <a href="#industries" class="nav-link">산업분야</a>
+        <div class="nav-dropdown">
+          <a href="#about" class="nav-link nav-link--dropdown">About <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+          <div class="nav-dropdown-menu">
+            <a href="#about">회사 소개</a>
+            <a href="#services">서비스</a>
+            <a href="#process">프로세스</a>
+            <a href="#industries">산업분야</a>
+            <a href="#team">컨설턴트</a>
+          </div>
+        </div>
+        <a href="portfolio.html" class="nav-link">실적</a>
+        <a href="esg/index.html" class="nav-link">ESG</a>
+        <a href="ecovadis/index.html" class="nav-link">에코바디스</a>
+        <a href="iso/index.html" class="nav-link">ISO</a>
+        <a href="safety/index.html" class="nav-link">중대재해처벌법</a>
         <div class="nav-dropdown">
           <a href="#" class="nav-link nav-link--dropdown">인증 가이드 <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
           <div class="nav-dropdown-menu">
-            <a href="guide/rba.html">RBA 인증</a>
-            <a href="guide/rba-checklist.html">RBA 체크리스트</a>
-            <a href="guide/rba-process.html">RBA 평가 절차</a>
-            <a href="guide/rba-members.html">RBA 회원사 리스트</a>
-            <div class="nav-dropdown-divider"></div>
+            <a href="guide/rba.html">RBA</a>
             <a href="guide/kcgs.html">KCGS</a>
-            <a href="guide/sbti.html">SBTi 인증</a>
-            <a href="guide/cbam.html">CBAM 인증</a>
+            <a href="guide/sbti.html">SBTi</a>
+            <a href="guide/cbam.html">CBAM</a>
           </div>
         </div>
+        <a href="consult-board.html" class="nav-link">게시판</a>
         <a href="board.html" class="nav-link">자료실</a>
-        <a href="#team" class="nav-link">컨설턴트</a>
         <a href="#contact" class="nav-link nav-link--cta">상담 신청</a>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
@@ -49,7 +56,6 @@
 
   <!-- Hero Section -->
   <section class="hero" id="hero">
-    <div class="hero-overlay"></div>
     <div class="hero-content">
       <p class="hero-tag fade-up">BrightPath ESG Consulting</p>
       <h1 class="hero-title fade-up delay-1">
@@ -207,7 +213,7 @@
         <div class="service-card fade-up delay-1">
           <div class="service-card-number">05</div>
           <h3 class="service-card-title">RBA 인증</h3>
-          <p class="service-card-desc">글로벌 공급망 사회적 책임 인증. 노동, 안전보건, 환경, 윤리, 경영시스템 5대 영역 대응합니다.</p>
+          <p class="service-card-desc">글로벌 공급망 사회적 책임 인증. 노동, 안전보건, 환경, 윤리, 경영시스템 5대 영역에 대응합니다.</p>
           <ul class="service-card-list">
             <li>자가진단 및 격차 분석</li>
             <li>RBA 8.0 대응</li>
@@ -458,7 +464,7 @@
         <div class="cta-right fade-up delay-1">
           <form class="contact-form" id="contactForm">
             <div class="form-intro">
-              <p>ESG, 에코바디스, 중대재해처벌법을 준비를 위한 컨설팅이 필요하신 기업은 아래 기입해주시면 1일내로 연락드립니다.</p>
+              <p>ESG, 에코바디스, 중대재해처벌법 준비를 위한 컨설팅이 필요하신 기업은 아래 기입해주시면 1영업일 이내에 연락드립니다.</p>
               <p class="form-required-note"><span class="required">*</span> 표시는 필수 질문임</p>
             </div>
 
@@ -529,14 +535,14 @@
 
             <div class="form-divider"></div>
             <div class="form-group">
-              <label for="message">기타 설명해줄 사항 (현재 회사의 준비 현황등)</label>
+              <label for="message">기타 설명해줄 사항 (현재 회사의 준비 현황 등)</label>
               <textarea id="message" name="message" rows="5" placeholder="내 답변"></textarea>
             </div>
 
             <div class="form-agreement">
               <label class="checkbox-label">
                 <input type="checkbox" id="privacy" name="privacy" required>
-                <span>위 정보는 고객님에게 법인 서비스를 설명하기 위해서만 사용 됩니다. 이에 동의하시면 아래를 선택하고 보내주세요. <span class="required">*</span></span>
+                <span>위 정보는 고객님에게 법인 서비스를 설명하기 위해서만 사용됩니다. 이에 동의하시면 아래를 선택하고 보내주세요. <span class="required">*</span></span>
               </label>
             </div>
 

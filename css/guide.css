@@ -9,8 +9,10 @@
 /* --- Layout --- */
 .guide-layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 300px 1fr;
   min-height: calc(100vh - var(--header-height));
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 /* --- Sidebar --- */
@@ -127,12 +129,13 @@
 
 /* --- Content Area --- */
 .guide-content {
-  max-width: 1024px;
-  padding: 48px 60px 80px;
+  max-width: 100%;
+  padding: 48px 80px 80px;
 }
 
 /* --- Article --- */
 .guide-article {
+  max-width: 960px;
   padding-bottom: 80px;
   margin-bottom: 60px;
   border-bottom: 1px solid #E8E8E8;
@@ -175,11 +178,6 @@
   padding-bottom: 8px;
   border-bottom: 2px solid var(--gold);
   display: inline-block;
-}
-
-.guide-article h2::after {
-  content: '';
-  display: block;
 }
 
 .guide-article p {
