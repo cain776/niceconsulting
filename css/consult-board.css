@@ -48,6 +48,11 @@
   min-width: 64px;
   text-align: center;
   justify-content: center;
+  margin-right: 6px;
+}
+
+.cb-section .board-table .col-title .cb-status-badge {
+  margin-right: 8px;
 }
 
 /* --- Lock icon in table --- */
