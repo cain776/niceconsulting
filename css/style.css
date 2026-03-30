@@ -1412,10 +1412,16 @@ ul {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-company {
+  font-size: 13px;
+  color: var(--gray-400);
+  margin-top: 10px;
+}
+
 .footer-slogan {
   font-size: 14px;
   color: var(--gray-300);
-  margin-top: 12px;
+  margin-top: 6px;
   letter-spacing: 0.5px;
 }
 
