@@ -71,11 +71,35 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
     });
 
-    nav.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        nav.classList.remove('open');
-        document.body.style.overflow = '';
+    // 일반 nav-link만 즉시 닫기 (드롭다운 트리거/내부 링크 제외)
+    nav.querySelectorAll('.nav-link:not(.nav-link--dropdown)').forEach(link => {
+      if (!link.closest('.nav-dropdown-menu')) {
+        link.addEventListener('click', () => {
+          hamburger.classList.remove('active');
+          nav.classList.remove('open');
+          document.body.style.overflow = '';
+        });
+      }
+    });
+
+    // 드롭다운 내부 링크: 선택 표시 후 잠깐 뒤 이동
+    nav.querySelectorAll('.nav-dropdown-menu a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+          e.preventDefault();
+          var href = link.getAttribute('href');
+          // 선택 표시
+          link.style.background = 'rgba(26, 39, 68, 0.1)';
+          link.style.color = 'var(--navy)';
+          link.style.fontWeight = '600';
+          // 300ms 후 이동
+          setTimeout(function() {
+            hamburger.classList.remove('active');
+            nav.classList.remove('open');
+            document.body.style.overflow = '';
+            window.location.href = href;
+          }, 300);
+        }
       });
     });
   }
