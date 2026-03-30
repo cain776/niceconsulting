@@ -299,4 +299,16 @@ document.addEventListener('DOMContentLoaded', () => {
   onScrollExtra = updateSectionNav;
   updateSectionNav(window.pageYOffset);
 
+  // --- Auto-check service from URL param ---
+  // e.g. ?service=에코바디스 → checks "에코바디스 인증 컨설팅"
+  const urlParams = new URLSearchParams(window.location.search);
+  const serviceParam = urlParams.get('service');
+  if (serviceParam) {
+    document.querySelectorAll('input[name="services"]').forEach(cb => {
+      if (cb.value.indexOf(serviceParam) !== -1) {
+        cb.checked = true;
+      }
+    });
+  }
+
 });
