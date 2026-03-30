@@ -871,36 +871,18 @@ ul {
 .ceo-profile {
   display: flex;
   gap: 60px;
-  align-items: flex-start;
+  align-items: stretch;
   margin-top: 48px;
 }
 
 .ceo-photo {
   flex-shrink: 0;
-  width: 280px;
-}
-
-.ceo-photo-placeholder {
-  width: 280px;
-  height: 350px;
-  background: var(--gray-100);
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: var(--gray-400);
-  gap: 12px;
-  border: 2px dashed var(--gray-300);
-}
-
-.ceo-photo-placeholder span {
-  font-size: 14px;
+  width: 320px;
 }
 
 .ceo-photo img {
-  width: 280px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 12px;
 }
