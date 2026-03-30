@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- 메인 -->
   <url><loc>https://brightpathesg.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://brightpathesg.com/board.html</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://brightpathesg.com/consult-board.html</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://brightpathesg.com/portfolio.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpathesg.com/pages/board.html</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://brightpathesg.com/pages/consult-board.html</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://brightpathesg.com/pages/portfolio.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
   <!-- ESG 경영 -->
   <url><loc>https://brightpathesg.com/esg/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
