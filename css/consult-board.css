@@ -248,4 +248,43 @@
   .cb-modal-content {
     padding: 36px 28px;
   }
+
+  /* 게시판 모바일 카드형 */
+  .cb-section .board-table .col-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .cb-labels {
+    min-width: auto;
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+    gap: 6px;
+    order: -1;
+  }
+
+  .cb-title-text {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .cb-lock-emoji,
+  .cb-unlock-emoji {
+    font-size: 13px;
+  }
+
+  .cb-detail-cell {
+    padding: 20px 16px;
+  }
+
+  .cb-detail-body {
+    font-size: 14px;
+  }
+
+  .cb-detail-body h3 {
+    font-size: 15px;
+  }
 }
