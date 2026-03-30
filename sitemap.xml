@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 메인 -->
+  <url><loc>https://brightpath-esg.co.kr/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/board.html</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/consult-board.html</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/portfolio.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- ESG 경영 -->
+  <url><loc>https://brightpath-esg.co.kr/esg/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/certification.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/consulting.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/evaluation.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/industry.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/kesg.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/marketing.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/practice.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/preparation.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/esg/report.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- 에코바디스 -->
+  <url><loc>https://brightpath-esg.co.kr/ecovadis/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/ecovadis/consulting.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/ecovadis/esg-compare.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/ecovadis/evaluation.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/ecovadis/grade.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/ecovadis/preparation.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/ecovadis/strategy.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- ISO 인증 -->
+  <url><loc>https://brightpath-esg.co.kr/iso/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/consulting.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/iso-9001.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/iso-14001.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/iso-27001.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/iso-37001.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/iso-45001.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/iso-50001.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/iso/iso-for-esg.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- 중대재해처벌법 -->
+  <url><loc>https://brightpath-esg.co.kr/safety/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/safety/industry.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/safety/penalty.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/safety/system.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- 가이드 -->
+  <url><loc>https://brightpath-esg.co.kr/guide/rba.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/guide/rba-process.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/guide/rba-checklist.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/guide/rba-members.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/guide/kcgs.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/guide/sbti.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://brightpath-esg.co.kr/guide/cbam.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+</urlset>

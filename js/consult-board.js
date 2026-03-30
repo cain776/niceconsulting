@@ -43,6 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalBackdrop = document.getElementById('cbModalBackdrop');
   const modalClose = document.getElementById('cbModalClose');
 
+  function escapeHTML(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
   const lockSVG = '<span class="cb-lock-icon"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></span>';
   const attachSVG = '<span class="attach-icon"><svg viewBox="0 0 16 16"><path d="M14 5l-7.5 7.5a3.5 3.5 0 01-5-5L9 0a2 2 0 013 3L5 10a.5.5 0 01-1-1L11 2"/></svg></span>';
 
@@ -68,8 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
         html += `<tr class="${rowClass}">
           <td class="col-no">${item.id}</td>
           <td class="col-title">
-            <span class="badge-category ${categoryClass}">${item.categoryName}</span>
-            ${lockIcon}<a href="#" data-id="${item.id}">${item.title}</a>${statusBadge}
+            <span class="badge-category ${categoryClass}">${escapeHTML(item.categoryName)}</span>
+            ${lockIcon}<a href="#" data-id="${item.id}">${escapeHTML(item.title)}</a>${statusBadge}
           </td>
           <td class="col-author">${item.author}</td>
           <td class="col-date">${item.date}</td>
@@ -166,6 +172,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   modalBackdrop.addEventListener('click', hideModal);
   modalClose.addEventListener('click', hideModal);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('visible')) hideModal();
+  });
 
   render();
 });

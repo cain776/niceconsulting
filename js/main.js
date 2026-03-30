@@ -56,19 +56,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.getElementById('hamburger');
   const nav = document.getElementById('nav');
 
-  hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    nav.classList.toggle('open');
-    document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
-  });
-
-  nav.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', () => {
-      hamburger.classList.remove('active');
-      nav.classList.remove('open');
-      document.body.style.overflow = '';
+  if (hamburger && nav) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      nav.classList.toggle('open');
+      document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
     });
-  });
+
+    nav.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        nav.classList.remove('open');
+        document.body.style.overflow = '';
+      });
+    });
+  }
 
   // --- Mobile dropdown toggle ---
   const dropdownToggle = document.querySelector('.nav-link--dropdown');
@@ -134,11 +136,36 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // --- Inquiry type card toggle ---
+  // --- Inquiry type card toggle + form switch ---
+  const inquiryTypeInput = document.getElementById('inquiryType');
+  const checkboxGrids = document.querySelectorAll('.checkbox-grid[data-form-type]');
+  const formIntroTexts = {
+    consulting: 'ESG, 에코바디스, 중대재해처벌법 준비를 위한 컨설팅이 필요하신 기업은 아래 기입해주시면 1영업일 이내에 연락드립니다.',
+    safety: '중대재해처벌법 대응 및 안전보건관리체계 구축이 필요하신 기업은 아래 기입해주시면 1영업일 이내에 연락드립니다.',
+    training: 'ESG, 에코바디스, 중처법 등 교육·강의가 필요하신 기업은 아래 기입해주시면 1영업일 이내에 연락드립니다.'
+  };
+  const formIntroEl = document.querySelector('.form-intro p');
+
   document.querySelectorAll('.inquiry-type-card').forEach(card => {
     card.addEventListener('click', () => {
       document.querySelectorAll('.inquiry-type-card').forEach(c => c.classList.remove('active'));
       card.classList.add('active');
+
+      const type = card.dataset.type;
+      if (inquiryTypeInput) inquiryTypeInput.value = type;
+
+      // 체크박스 그룹 전환
+      checkboxGrids.forEach(grid => {
+        grid.style.display = grid.dataset.formType === type ? '' : 'none';
+        if (grid.dataset.formType !== type) {
+          grid.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+        }
+      });
+
+      // 안내문 변경
+      if (formIntroEl && formIntroTexts[type]) {
+        formIntroEl.textContent = formIntroTexts[type];
+      }
     });
   });
 
@@ -154,7 +181,19 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    if (form.querySelectorAll('input[name="services"]:checked').length === 0) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email.value)) {
+      alert('올바른 이메일 형식을 입력해주세요.');
+      return;
+    }
+
+    // 현재 선택된 문의유형 확인
+    const typeLabels = { consulting: '컨설팅 상담', safety: 'ESG & 중처법', training: '교육·강의' };
+    const activeCard = document.querySelector('.inquiry-type-card.active');
+    const inquiryType = activeCard ? activeCard.dataset.type : 'consulting';
+    const activeGrid = form.querySelector('.checkbox-grid[data-form-type="' + inquiryType + '"]');
+
+    if (!activeGrid || activeGrid.querySelectorAll('input[name="services"]:checked').length === 0) {
       alert('컨설팅 종류를 1개 이상 선택해주세요.');
       return;
     }
@@ -164,13 +203,53 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    alert('접수가 완료되었습니다.\n1영업일 이내 담당 컨설턴트가 연락드리겠습니다.\n\n감사합니다.');
-    form.reset();
+    // Google Sheets + Telegram 전송
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalText = submitBtn.textContent;
+    submitBtn.disabled = true;
+    submitBtn.textContent = '접수 중...';
+
+    const services = Array.from(activeGrid.querySelectorAll('input[name="services"]:checked'))
+      .map(cb => cb.value === 'other' ? '기타: ' + (form.services_other ? form.services_other.value : '') : cb.value)
+      .join(', ');
+
+    const payload = {
+      inquiryType: typeLabels[inquiryType] || inquiryType,
+      company: form.company.value,
+      name: form.name.value,
+      position: form.position.value,
+      phone: form.phone.value,
+      email: form.email.value,
+      services: services,
+      message: form.message ? form.message.value : ''
+    };
+
+    fetch('https://script.google.com/macros/s/AKfycbxOY-5vpEgqoRCinI6-SK-RS0ss62b8qcUcghMBLOFRUsLYhPMpEm4NGgXWRkxdmwY70Q/exec', {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.result === 'success') {
+        alert('접수가 완료되었습니다.\n1영업일 이내 담당 컨설턴트가 연락드리겠습니다.\n\n감사합니다.');
+        form.reset();
+        form.querySelectorAll('.inquiry-type-card').forEach(c => c.classList.remove('active'));
+      } else {
+        alert('전송 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.');
+      }
+    })
+    .catch(() => {
+      alert('네트워크 오류가 발생했습니다. 잠시 후 다시 시도해주세요.');
+    })
+    .finally(() => {
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalText;
+    });
   });
 
   // --- Floating Section Navigator ---
   const sectionNav = document.getElementById('sectionNav');
-  if (!sectionNav) return;
+  if (!sectionNav) return;  // 이하 섹션 네비게이터 전용 코드이므로 early return OK
 
   const navUp = document.getElementById('navUp');
   const navDown = document.getElementById('navDown');

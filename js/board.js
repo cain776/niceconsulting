@@ -273,6 +273,13 @@ document.addEventListener('DOMContentLoaded', () => {
   let totalCount = document.getElementById('boardTotalCount');
   const boardContent = document.getElementById('boardContent');
 
+  // --- Utility ---
+  function escapeHTML(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
   // --- SVG Icons ---
   const pinSVG = `<span class="pin-icon"><svg viewBox="0 0 16 16"><polygon points="8,1 10,6 15,7 11,11 12,16 8,13 4,16 5,11 1,7 6,6"/></svg></span>`;
   const attachSVG = `<span class="attach-icon"><svg viewBox="0 0 16 16"><path d="M14 5l-7.5 7.5a3.5 3.5 0 01-5-5L9 0a2 2 0 013 3L5 10a.5.5 0 01-1-1L11 2"/></svg></span>`;
@@ -340,8 +347,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const pinnedClass = isPinned ? ' pinned' : '';
     const noText = isPinned ? pinSVG : item.id;
 
-    let titleParts = `<span class="badge-category ${categoryClass}">${item.categoryName}</span>`;
-    titleParts += `<a href="#" data-id="${item.id}">${item.title}</a>`;
+    let titleParts = `<span class="badge-category ${categoryClass}">${escapeHTML(item.categoryName)}</span>`;
+    titleParts += `<a href="#" data-id="${item.id}">${escapeHTML(item.title)}</a>`;
     if (item.hasAttachment) titleParts += attachSVG;
     if (item.isNew) titleParts += `<span class="badge-new">N</span>`;
 
@@ -431,7 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="board-detail-category">
             <span class="badge-category ${categoryClass}">${item.categoryName}</span>
           </div>
-          <h1 class="board-detail-title">${item.title}</h1>
+          <h1 class="board-detail-title">${escapeHTML(item.title)}</h1>
           <div class="board-detail-meta">
             <span><strong>작성자</strong> ${item.author}</span>
             <span><strong>등록일</strong> ${item.date}</span>
@@ -496,13 +503,13 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBtn = document.getElementById('boardSearchBtn');
     totalCount = document.getElementById('boardTotalCount');
 
-    // Re-bind events
-    searchBtn.addEventListener('click', applyFilter);
-    searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') applyFilter(); });
-    filterSelect.addEventListener('change', applyFilter);
+    // Re-bind events (guard against missing elements)
+    if (searchBtn) searchBtn.addEventListener('click', applyFilter);
+    if (searchInput) searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') applyFilter(); });
+    if (filterSelect) filterSelect.addEventListener('change', applyFilter);
 
     renderTable();
-    document.querySelector('.board-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.querySelector('.board-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   // --- Initial Render ---
