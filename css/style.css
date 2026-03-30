@@ -116,12 +116,36 @@ ul {
   font-weight: 600;
   color: var(--black);
   letter-spacing: -0.3px;
+  position: relative;
+  display: inline-grid;
 }
 
 .logo-text em {
   font-style: normal;
   color: var(--gold-dark);
   font-weight: 700;
+}
+
+.header .logo-text .logo-text-en,
+.header .logo-text .logo-text-ko {
+  grid-area: 1 / 1;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  white-space: nowrap;
+}
+
+.header .logo-text .logo-text-ko {
+  opacity: 0;
+  transform: translateY(4px);
+}
+
+.header .logo-text.show-ko .logo-text-en {
+  opacity: 0;
+  transform: translateY(-4px);
+}
+
+.header .logo-text.show-ko .logo-text-ko {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* --- Navigation --- */

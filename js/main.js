@@ -6,6 +6,14 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   const header = document.getElementById('header');
+
+  // --- Logo text animation (EN ↔ KO) ---
+  const logoText = document.getElementById('logoText');
+  if (logoText) {
+    setInterval(() => {
+      logoText.classList.toggle('show-ko');
+    }, 4000);
+  }
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
   let headerHeight = header.offsetHeight;
