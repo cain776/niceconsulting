@@ -255,6 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navDown = document.getElementById('navDown');
   const navCurrent = document.getElementById('navCurrent');
   const navTotal = document.getElementById('navTotal');
+  if (!navUp || !navDown || !navCurrent || !navTotal) return;
 
   const navSections = document.querySelectorAll('section[id]');
   const sectionCount = navSections.length;

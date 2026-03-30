@@ -2,10 +2,17 @@
 document.addEventListener('DOMContentLoaded', function () {
   var article = document.querySelector('.guide-article');
   var layout = document.querySelector('.guide-layout');
-  if (!article || !layout) return;
+  var header = document.getElementById('header');
+  if (!article || !layout || !header) return;
 
   var headings = article.querySelectorAll('h2');
-  if (headings.length < 2) return; // Skip if fewer than 2 headings
+  if (headings.length < 2) return;
+
+  function escapeHTML(str) {
+    var div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
 
   // Ensure each h2 has an id
   headings.forEach(function (h, i) {
@@ -15,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Build TOC HTML
   var tocHTML = '<div class="guide-toc-title">목차</div><ul class="guide-toc-list">';
   headings.forEach(function (h) {
-    tocHTML += '<li><a href="#' + h.id + '">' + h.textContent.trim() + '</a></li>';
+    tocHTML += '<li><a href="#' + h.id + '">' + escapeHTML(h.textContent.trim()) + '</a></li>';
   });
   tocHTML += '</ul>';
 
@@ -30,26 +37,32 @@ document.addEventListener('DOMContentLoaded', function () {
     e.preventDefault();
     var target = document.querySelector(e.target.getAttribute('href'));
     if (target) {
-      var headerHeight = document.getElementById('header').offsetHeight;
-      window.scrollTo({ top: target.offsetTop - headerHeight - 20, behavior: 'smooth' });
+      window.scrollTo({ top: target.offsetTop - header.offsetHeight - 20, behavior: 'smooth' });
     }
   });
 
-  // Highlight active heading on scroll
+  // Highlight active heading on scroll (throttled via rAF)
   var tocLinks = toc.querySelectorAll('a');
-  var headerHeight = document.getElementById('header').offsetHeight;
+  var ticking = false;
 
   window.addEventListener('scroll', function () {
-    var scrollY = window.pageYOffset;
-    var activeIndex = 0;
-    for (var i = headings.length - 1; i >= 0; i--) {
-      if (scrollY >= headings[i].offsetTop - headerHeight - 80) {
-        activeIndex = i;
-        break;
-      }
+    if (!ticking) {
+      requestAnimationFrame(function () {
+        var scrollY = window.pageYOffset;
+        var headerHeight = header.offsetHeight;
+        var activeIndex = 0;
+        for (var i = headings.length - 1; i >= 0; i--) {
+          if (scrollY >= headings[i].offsetTop - headerHeight - 80) {
+            activeIndex = i;
+            break;
+          }
+        }
+        tocLinks.forEach(function (link, idx) {
+          link.classList.toggle('active', idx === activeIndex);
+        });
+        ticking = false;
+      });
+      ticking = true;
     }
-    tocLinks.forEach(function (link, idx) {
-      link.classList.toggle('active', idx === activeIndex);
-    });
   });
 });

@@ -63,7 +63,8 @@
     breadcrumbItems.push({
       '@type': 'ListItem',
       'position': 3,
-      'name': pageTitle
+      'name': pageTitle,
+      'item': canonical
     });
   }
 

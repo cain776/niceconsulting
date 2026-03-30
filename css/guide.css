@@ -212,10 +212,16 @@
 }
 
 /* --- Table --- */
+.guide-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 32px;
+}
+
 .guide-table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 32px;
+  min-width: 480px;
 }
 
 .guide-table th,
