@@ -80,16 +80,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- Mobile dropdown toggle ---
-  const dropdownToggle = document.querySelector('.nav-link--dropdown');
-  if (dropdownToggle) {
-    dropdownToggle.addEventListener('click', (e) => {
+  // --- Mobile dropdown toggle (all dropdowns) ---
+  document.querySelectorAll('.nav-link--dropdown').forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
       if (window.innerWidth <= 768) {
         e.preventDefault();
-        dropdownToggle.closest('.nav-dropdown').classList.toggle('open');
+        const parent = toggle.closest('.nav-dropdown');
+        // Close other dropdowns
+        document.querySelectorAll('.nav-dropdown.open').forEach(d => {
+          if (d !== parent) d.classList.remove('open');
+        });
+        parent.classList.toggle('open');
       }
     });
-  }
+  });
 
   // --- Intersection Observer factory ---
   function createOneTimeObserver(threshold, callback, rootMargin) {

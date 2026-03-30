@@ -1719,7 +1719,7 @@ ul {
     border-bottom: none;
   }
 
-  /* Dropdown - 모바일 */
+  /* Dropdown - 모바일 (아코디언 방식) */
   .nav-dropdown {
     width: 100%;
   }
@@ -1729,6 +1729,17 @@ ul {
     padding: 16px 0;
     width: 100%;
     border-bottom: 1px solid var(--gray-100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-link--dropdown svg {
+    transition: transform 0.3s;
+  }
+
+  .nav-dropdown.open .nav-link--dropdown svg {
+    transform: rotate(180deg);
   }
 
   .nav-dropdown-menu {
@@ -1737,20 +1748,39 @@ ul {
     margin-top: 0;
     box-shadow: none;
     border: none;
-    border-bottom: 1px solid var(--gray-100);
-    padding: 0 0 8px 16px;
+    padding: 0;
     opacity: 1;
     visibility: visible;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: var(--gray-100);
+    border-radius: 0;
   }
 
   .nav-dropdown.open .nav-dropdown-menu {
-    display: block;
+    max-height: 400px;
+    padding: 8px 0;
+    border-bottom: 1px solid #E0E0E0;
   }
 
   .nav-dropdown-menu a {
     font-size: 16px;
-    padding: 10px 12px;
+    padding: 12px 24px;
+    display: block;
+    color: var(--gray-700);
+    border-bottom: none;
+  }
+
+  .nav-dropdown-menu a:hover {
+    background: rgba(26, 39, 68, 0.06);
+    color: var(--navy);
+  }
+
+  .nav-dropdown-divider {
+    height: 1px;
+    background: #E0E0E0;
+    margin: 4px 16px;
   }
 
   .hamburger {
