@@ -73,7 +73,7 @@
   padding: 8px 12px;
   font-size: 14px;
   color: var(--gray-700);
-  border-radius: 4px;
+  border-radius: 8px;
   transition: all 0.15s;
   border-left: 2px solid transparent;
 }
@@ -246,7 +246,7 @@
 .guide-badge {
   display: inline-block;
   padding: 3px 10px;
-  border-radius: 2px;
+  border-radius: 8px;
   font-size: 13px;
   font-weight: 600;
 }
@@ -272,7 +272,7 @@
 .guide-card {
   padding: 20px;
   background: var(--gray-100);
-  border-radius: 4px;
+  border-radius: 8px;
   border-left: 3px solid var(--navy);
 }
 
@@ -383,7 +383,7 @@
   background: var(--gray-100);
   color: var(--gray-700);
   font-size: 13px;
-  border-radius: 2px;
+  border-radius: 8px;
 }
 
 /* --- Footer CTA --- */
