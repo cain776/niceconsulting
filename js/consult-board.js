@@ -99,8 +99,8 @@ document.addEventListener('DOMContentLoaded', () => {
         html += `<tr class="${rowClass}">
           <td class="col-no">${item.id}</td>
           <td class="col-title">
-            <span class="badge-category ${categoryClass}">${escapeHTML(item.categoryName)}</span>${statusBadge}
-            ${lockIcon}<a href="#" data-id="${item.id}">${escapeHTML(item.title)}</a>
+            <span class="cb-labels"><span class="badge-category ${categoryClass}">${escapeHTML(item.categoryName)}</span>${statusBadge}</span>
+            <span class="cb-title-text">${lockIcon}<a href="#" data-id="${item.id}">${escapeHTML(item.title)}</a></span>
           </td>
           <td class="col-author">${item.author}</td>
           <td class="col-date">${item.date}</td>

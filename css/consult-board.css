@@ -44,15 +44,26 @@
   text-align: center;
 }
 
+/* 라벨 영역 (카테고리 + 상태) - 고정 너비 + 우측 구분선 */
+.cb-labels {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 160px;
+  padding-right: 14px;
+  margin-right: 14px;
+  border-right: 1px solid #E8E8E8;
+  vertical-align: middle;
+}
+
 .cb-section .board-table .col-title .badge-category {
   min-width: 64px;
   text-align: center;
   justify-content: center;
-  margin-right: 6px;
 }
 
-.cb-section .board-table .col-title .cb-status-badge {
-  margin-right: 8px;
+.cb-title-text {
+  vertical-align: middle;
 }
 
 /* --- Lock icon in table --- */
