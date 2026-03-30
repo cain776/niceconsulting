@@ -1,5 +1,7 @@
 // Auto-generate JSON-LD structured data for guide pages
 (function () {
+  if (document.querySelector('script[type="application/ld+json"]')) return;
+
   var title = document.querySelector('title');
   var desc = document.querySelector('meta[name="description"]');
   var canonical = window.location.href;

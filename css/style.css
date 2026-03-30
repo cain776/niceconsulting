@@ -21,6 +21,7 @@
   --black: #1A1A1A;
   --gray-700: #4A4A4A;
   --gray-500: #6E6E6E;
+  --gray-400: #9A9A9A;
   --gray-300: #B0B0B0;
   --gray-100: #F5F5F5;
   --white: #FFFFFF;
@@ -131,6 +132,13 @@ ul {
   grid-area: 1 / 1;
   transition: opacity 2s ease, transform 2s ease;
   white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header .logo-text .logo-text-en,
+  .header .logo-text .logo-text-ko {
+    transition: none;
+  }
 }
 
 .header .logo-text .logo-text-ko {
