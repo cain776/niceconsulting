@@ -1727,6 +1727,7 @@ ul {
   .nav-link--dropdown {
     font-size: 18px;
     padding: 16px 0;
+    padding-right: 20px;
     width: 100%;
     border-bottom: 1px solid var(--gray-100);
     display: flex;
