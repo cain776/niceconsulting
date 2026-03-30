@@ -16,7 +16,9 @@
     '/ecovadis/': '에코바디스',
     '/iso/': 'ISO 인증',
     '/safety/': '중대재해처벌법',
-    '/guide/': '인증 가이드'
+    '/smallbiz/': '소상공인',
+    '/guide/': '인증 가이드',
+    '/pages/': '자료'
   };
 
   var sectionName = '';
