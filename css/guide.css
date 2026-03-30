@@ -501,26 +501,104 @@
   }
 
   .guide-content {
-    padding: 32px 20px 60px;
+    padding: 24px 16px 60px;
+  }
+
+  .guide-article {
+    padding-bottom: 48px;
+    margin-bottom: 32px;
   }
 
   .guide-article h1 {
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 1.4;
   }
 
   .guide-lead {
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 28px;
+    padding-bottom: 20px;
   }
 
   .guide-article h2 {
-    font-size: 19px;
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 14px;
+  }
+
+  .guide-article p {
+    font-size: 14px;
+  }
+
+  .guide-article ul li {
+    font-size: 14px;
+    padding-left: 16px;
   }
 
   .guide-cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .guide-card {
+    padding: 16px;
+  }
+
+  .guide-steps {
+    margin-bottom: 24px;
+  }
+
+  .guide-step {
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .guide-step-num {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .guide-step-body h3 {
+    font-size: 15px;
+  }
+
+  .guide-step-body p {
+    font-size: 13px;
+  }
+
+  .guide-table {
+    min-width: 360px;
+  }
+
+  .guide-table th,
+  .guide-table td {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .guide-tag {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .guide-callout {
+    padding: 16px 18px;
+  }
+
+  .guide-footer-cta {
+    padding: 40px 0;
   }
 
   .guide-footer-cta h2 {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  .guide-footer-cta p {
+    font-size: 14px;
+  }
+
+  .guide-breadcrumb {
+    font-size: 12px;
   }
 }
