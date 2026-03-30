@@ -1815,14 +1815,9 @@ ul {
     display: none;
   }
 
-  /* Hero 배경 그라데이션 - 모바일은 좌우 대신 위아래 */
+  /* Hero 배경 - 모바일은 살짝 어둡게만 */
   .hero::after {
-    background: linear-gradient(
-      180deg,
-      rgba(17, 27, 48, 0.75) 0%,
-      rgba(17, 27, 48, 0.5) 50%,
-      rgba(17, 27, 48, 0.75) 100%
-    );
+    background: rgba(0, 0, 0, 0.08);
   }
 
   /* About + Stats */
