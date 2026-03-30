@@ -955,6 +955,15 @@ ul {
   border-radius: 50%;
 }
 
+.ceo-section ul li a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.ceo-section ul li a:hover {
+  color: #1d4ed8;
+}
+
 .ceo-tags {
   display: flex;
   flex-wrap: wrap;
