@@ -858,6 +858,7 @@ ul {
 /* --- CEO Profile --- */
 .section--ceo {
   background: var(--white);
+  padding: 60px 0 40px;
 }
 
 .ceo-profile {
