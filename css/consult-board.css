@@ -56,32 +56,25 @@
   vertical-align: middle;
 }
 
+/* 카테고리 배지 - 에코바디스 사이즈 기준 통일 */
 .cb-section .board-table .col-title .badge-category {
-  min-width: 64px;
+  min-width: 72px;
   text-align: center;
   justify-content: center;
+  padding: 4px 10px;
+  font-size: 11px;
 }
 
 .cb-title-text {
   vertical-align: middle;
 }
 
-/* --- Lock icon in table --- */
-.cb-lock-icon {
-  display: inline-flex;
-  align-items: center;
-  color: var(--gray-400);
+/* --- Lock/Unlock emoji --- */
+.cb-lock-emoji,
+.cb-unlock-emoji {
+  font-size: 14px;
   margin-right: 6px;
   vertical-align: middle;
-}
-
-.cb-lock-icon svg {
-  width: 14px;
-  height: 14px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.5;
-  stroke-linecap: round;
 }
 
 .cb-row--locked .col-title a {
@@ -98,16 +91,18 @@
   font-weight: 500;
 }
 
-/* --- Status badge in table --- */
+/* --- Status badge in table - 진행중 사이즈 기준 통일 --- */
 .cb-status-badge {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 2px 8px;
+  min-width: 56px;
+  justify-content: center;
+  padding: 4px 10px;
   font-size: 11px;
   font-weight: 600;
   border-radius: 3px;
-  margin-left: 8px;
+  margin-left: 0;
   vertical-align: middle;
 }
 
