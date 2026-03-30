@@ -44,7 +44,7 @@
   text-align: center;
 }
 
-/* 라벨 영역 (카테고리 + 상태) - 고정 너비 + 우측 구분선 */
+/* 라벨 영역 (카테고리 + 상태) - 고정 너비 + 투명 구분선(간격용) */
 .cb-labels {
   display: inline-flex;
   align-items: center;
@@ -52,7 +52,7 @@
   min-width: 160px;
   padding-right: 14px;
   margin-right: 14px;
-  border-right: 1px solid #E8E8E8;
+  border-right: 1px solid transparent;
   vertical-align: middle;
 }
 
@@ -91,14 +91,14 @@
   font-weight: 500;
 }
 
-/* --- Status badge in table - 진행중 사이즈 기준 통일 --- */
+/* --- Status badge in table - 사이즈 완전 통일 --- */
 .cb-status-badge {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  min-width: 56px;
+  width: 62px;
   justify-content: center;
-  padding: 4px 10px;
+  padding: 4px 0;
   font-size: 11px;
   font-weight: 600;
   border-radius: 3px;
