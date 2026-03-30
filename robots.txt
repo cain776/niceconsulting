@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /crawled-data/
 
-Sitemap: https://brightpath-esg.co.kr/sitemap.xml
+Sitemap: https://brightpathesg.com/sitemap.xml
