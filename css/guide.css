@@ -4,6 +4,7 @@
 
 .guide-body {
   padding-top: var(--header-height);
+  overflow-x: hidden;
 }
 
 /* --- Layout --- */
@@ -11,8 +12,8 @@
   display: grid;
   grid-template-columns: 300px 1fr 220px;
   min-height: calc(100vh - var(--header-height));
-  max-width: 1920px;
-  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* --- Sidebar --- */
@@ -131,6 +132,8 @@
 .guide-content {
   max-width: 100%;
   padding: 48px 80px 80px;
+  overflow-x: hidden;
+  min-width: 0;
 }
 
 /* --- Article --- */
