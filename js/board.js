@@ -1,17 +1,64 @@
 /* ============================================
    BrightPath ESG Board - JavaScript
-   검색, 필터, 페이지네이션, 상세보기
+   이중 필터(유형+주제), 검색, 페이지네이션, 상세보기
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // --- 게시판 데이터 (JSON) ---
+  // --- 게시판 데이터 ---
+  // category: 유형 (news/law/cert/insight)
+  // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
+    {
+      id: 18,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에너베뉴, 리튬 없는 ESS 확대를 위해 3억 달러 유치',
+      author: '관리자',
+      date: '2026.04.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 저장 솔루션 기업 에너베뉴(EnerVenue)가 리튬을 사용하지 않는 차세대 배터리 기술 상용화를 위해 3억 달러 규모의 시리즈 B 투자를 유치했습니다. 이 회사는 NASA의 우주 탐사선에서 사용되던 금속-수소 배터리 기술을 지상용 에너지 저장 장치(ESS)에 적합하도록 발전시켰습니다.</p><h3>주요 포인트</h3><ul><li>3만 회 이상의 충·방전 사이클을 견디는 뛰어난 내구성과 20년 이상의 긴 수명 제공</li><li>리튬 이온 배터리와 달리 화재 위험이 없는 높은 안전성 및 100% 재활용 가능한 친환경성 확보</li><li>슐룸베르거, 사우디 아람코 등 글로벌 에너지 및 투자 기업들이 대거 참여하여 기술력 입증</li></ul><p>원문: <a href="https://www.esgtoday.com/enervenue-raises-300-million-to-scale-lithium-free-energy-storage-solution/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 17,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에메랄드 AI, 데이터센터 에너지 최적화 위해 2,500만 달러 유치',
+      author: '관리자',
+      date: '2026.04.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 기술 스타트업 에메랄드 AI(Emerald AI)가 데이터센터의 에너지 사용을 전력망 용량에 맞게 조정하는 기술 개발을 위해 2,500만 달러의 전략적 투자를 유치했습니다.</p><h3>주요 포인트</h3><ul><li>AI 기반 플랫폼을 활용해 데이터센터의 전력 수요와 지역 전력망의 공급 능력을 실시간으로 동기화</li><li>데이터센터를 '유연한 부하(flexible load)'로 전환하여 전력망 과부하를 방지하고 재생 에너지 활용도 제고</li><li>이클립스(Eclipse)가 주도한 이번 펀딩을 통해 기술 고도화 및 시장 확대를 가속화할 계획</li></ul><p>원문: <a href="https://www.esgtoday.com/emerald-ai-raises-25-million-to-align-data-center-energy-use-with-grid-capacity/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 16,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '네슬레, 커피 공급망 인권 개선 프로젝트 착수',
+      author: '관리자',
+      date: '2026.04.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 식품 기업 네슬레가 국제노동기구(ILO)와 협력하여 커피 공급망 내 인권 보호를 위한 새로운 프로젝트를 시작했습니다.</p><h3>주요 포인트</h3><ul><li>네슬레와 ILO의 파트너십을 통한 커피 공급망 내 노동권 및 인권 강화</li><li>베트남, 멕시코, 인도네시아를 중심으로 노동 감독 시스템 강화 및 사회적 보호 확대</li><li>아동 노동 근절 및 농가 소득 증대를 포함한 네스카페 플랜 2030 전략의 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/nestle-launches-project-to-improve-human-rights-in-coffee-supply-chain/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
     {
       id: 15,
       pinned: true,
-      category: 'cert',
-      categoryName: '인증',
+      category: 'cert', categoryName: '인증자료',
+      topic: 'ecovadis', topicName: '에코바디스',
       title: '글로벌 공급망 지속가능성(ESG) 평가 – 에코바디스 \'EcoVadis\'',
       author: '관리자',
       date: '2025.08.23',
@@ -37,8 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 14,
       pinned: false,
-      category: 'esg',
-      categoryName: 'ESG',
+      category: 'law', categoryName: '법규',
+      topic: 'esg', topicName: 'ESG',
       title: 'EU 기업지속가능성실사지침(CSDDD) 최종 확정 – 기업 대응 가이드',
       author: '관리자',
       date: '2025.07.15',
@@ -55,8 +102,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 13,
       pinned: false,
-      category: 'law',
-      categoryName: '법규',
+      category: 'law', categoryName: '법규',
+      topic: 'safety', topicName: '중대재해처벌법',
       title: '2025년 중대재해처벌법 시행령 개정사항 총정리',
       author: '관리자',
       date: '2025.06.20',
@@ -71,8 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 12,
       pinned: false,
-      category: 'cert',
-      categoryName: '인증',
+      category: 'cert', categoryName: '인증자료',
+      topic: 'rba', topicName: 'RBA',
       title: 'RBA CoC 8.0 / RBA VAP Standard 8.0.1 발표',
       author: '관리자',
       date: '2024.03.28',
@@ -94,8 +141,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 11,
       pinned: false,
-      category: 'news',
-      categoryName: '소식',
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
       title: 'BrightPath ESG, 2024년 상반기 컨설팅 실적 보고',
       author: '관리자',
       date: '2024.07.02',
@@ -109,8 +156,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 10,
       pinned: false,
-      category: 'esg',
-      categoryName: 'ESG',
+      category: 'law', categoryName: '법규',
+      topic: 'esg', topicName: 'ESG',
       title: 'KSSB, 국내 지속가능성 공시기준 초안 공개',
       author: '관리자',
       date: '2024.05.03',
@@ -125,8 +172,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 9,
       pinned: false,
-      category: 'esg',
-      categoryName: 'ESG',
+      category: 'insight', categoryName: '인사이트',
+      topic: 'esg', topicName: 'ESG',
       title: '2023년 평가자 평가: 갈림길에 선 ESG 등급',
       author: '관리자',
       date: '2024.04.04',
@@ -140,8 +187,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 8,
       pinned: false,
-      category: 'cert',
-      categoryName: '인증',
+      category: 'cert', categoryName: '인증자료',
+      topic: 'esg', topicName: 'ESG',
       title: 'IPCC 제6차 종합보고서 영문/국문 번역본',
       author: '관리자',
       date: '2024.03.19',
@@ -155,8 +202,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 7,
       pinned: false,
-      category: 'cert',
-      categoryName: '인증',
+      category: 'cert', categoryName: '인증자료',
+      topic: 'esg', topicName: 'ESG',
       title: 'GRI, 생물다양성 표준(GRI 101 Biodiversity 2024) 발표',
       author: '관리자',
       date: '2024.02.13',
@@ -170,8 +217,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 6,
       pinned: false,
-      category: 'cert',
-      categoryName: '인증',
+      category: 'cert', categoryName: '인증자료',
+      topic: 'esg', topicName: 'ESG',
       title: 'GRI, 광업 지속가능성 표준(GRI 14: Mining Sector 2024) 발표',
       author: '관리자',
       date: '2024.02.13',
@@ -185,8 +232,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 5,
       pinned: false,
-      category: 'law',
-      categoryName: '법규',
+      category: 'law', categoryName: '법규',
+      topic: 'safety', topicName: '중대재해처벌법',
       title: '산업안전보건법 개정안 주요 내용 및 기업 대응 방안',
       author: '관리자',
       date: '2024.01.15',
@@ -200,8 +247,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 4,
       pinned: false,
-      category: 'esg',
-      categoryName: 'ESG',
+      category: 'cert', categoryName: '인증자료',
+      topic: 'esg', topicName: 'ESG',
       title: 'SBTi 목표 설정 가이드라인 업데이트 (2024)',
       author: '관리자',
       date: '2024.01.08',
@@ -215,8 +262,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 3,
       pinned: false,
-      category: 'news',
-      categoryName: '소식',
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
       title: 'BrightPath ESG Consulting 홈페이지 오픈',
       author: '관리자',
       date: '2023.12.01',
@@ -230,8 +277,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 2,
       pinned: false,
-      category: 'cert',
-      categoryName: '인증',
+      category: 'cert', categoryName: '인증자료',
+      topic: 'esg', topicName: 'ESG',
       title: 'CBAM(탄소국경조정제도) 전환기간 시작 – 기업 대비 체크리스트',
       author: '관리자',
       date: '2023.10.15',
@@ -245,8 +292,8 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 1,
       pinned: false,
-      category: 'esg',
-      categoryName: 'ESG',
+      category: 'insight', categoryName: '인사이트',
+      topic: 'esg', topicName: 'ESG',
       title: 'K-ESG 가이드라인 개정판 주요 변경사항 분석',
       author: '관리자',
       date: '2023.09.05',
@@ -268,7 +315,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let boardBody = document.getElementById('boardBody');
   let boardPagination = document.getElementById('boardPagination');
   let searchInput = document.getElementById('boardSearchInput');
-  let filterSelect = document.getElementById('boardFilter');
+  let typeFilter = document.getElementById('boardTypeFilter');
+  let topicFilter = document.getElementById('boardTopicFilter');
   let searchBtn = document.getElementById('boardSearchBtn');
   let totalCount = document.getElementById('boardTotalCount');
   const boardContent = document.getElementById('boardContent');
@@ -286,28 +334,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Render Table ---
   function renderTable() {
-    // Split pinned vs normal
     const pinned = filteredData.filter(d => d.pinned);
     const normal = filteredData.filter(d => !d.pinned);
 
-    // Pagination for normal items only
     const totalPages = Math.max(1, Math.ceil(normal.length / ITEMS_PER_PAGE));
     if (currentPage > totalPages) currentPage = totalPages;
 
     const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
     const pageItems = normal.slice(startIdx, startIdx + ITEMS_PER_PAGE);
 
-    // Update count
     totalCount.textContent = filteredData.length;
 
-    // Build rows
     let html = '';
 
-    // Pinned rows (always show on page 1)
     if (currentPage === 1) {
-      pinned.forEach(item => {
-        html += buildRow(item, true);
-      });
+      pinned.forEach(item => { html += buildRow(item, true); });
     }
 
     if (pageItems.length === 0 && pinned.length === 0) {
@@ -319,19 +360,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 <svg viewBox="0 0 24 24"><path d="M9 12h6M12 9v6M3 12a9 9 0 1118 0 9 9 0 01-18 0z"/></svg>
               </div>
               <h3>검색 결과가 없습니다</h3>
-              <p>다른 검색어나 카테고리를 시도해보세요.</p>
+              <p>다른 검색어나 필터를 시도해보세요.</p>
             </div>
           </td>
         </tr>`;
     } else {
-      pageItems.forEach(item => {
-        html += buildRow(item, false);
-      });
+      pageItems.forEach(item => { html += buildRow(item, false); });
     }
 
     boardBody.innerHTML = html;
 
-    // Add click events
     boardBody.querySelectorAll('[data-id]').forEach(link => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
@@ -343,11 +381,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function buildRow(item, isPinned) {
-    const categoryClass = `badge-category--${item.category}`;
+    const catClass = `badge-category--${item.category}`;
+    const topClass = `badge-category--${item.topic}`;
     const pinnedClass = isPinned ? ' pinned' : '';
     const noText = isPinned ? pinSVG : item.id;
 
-    let titleParts = `<span class="badge-category ${categoryClass}">${escapeHTML(item.categoryName)}</span>`;
+    let titleParts = `<span class="badge-category ${catClass}">${escapeHTML(item.categoryName)}</span>`;
+    titleParts += `<span class="badge-category ${topClass}">${escapeHTML(item.topicName)}</span>`;
     titleParts += `<a href="#" data-id="${item.id}">${escapeHTML(item.title)}</a>`;
     if (item.hasAttachment) titleParts += attachSVG;
     if (item.isNew) titleParts += `<span class="badge-new">N</span>`;
@@ -371,7 +411,6 @@ document.addEventListener('DOMContentLoaded', () => {
     html += `<button class="page-arrow" data-page="1" ${currentPage === 1 ? 'disabled' : ''}>&laquo;</button>`;
     html += `<button class="page-arrow" data-page="${currentPage - 1}" ${currentPage === 1 ? 'disabled' : ''}>&lsaquo;</button>`;
 
-    // Page numbers
     let startPage = Math.max(1, currentPage - 2);
     let endPage = Math.min(realTotalPages, startPage + 4);
     if (endPage - startPage < 4) startPage = Math.max(1, endPage - 4);
@@ -385,7 +424,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     boardPagination.innerHTML = html;
 
-    // Events
     boardPagination.querySelectorAll('button:not(:disabled)').forEach(btn => {
       btn.addEventListener('click', () => {
         currentPage = parseInt(btn.dataset.page);
@@ -395,48 +433,53 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- Filter & Search ---
+  // --- Filter & Search (이중 필터) ---
   function applyFilter() {
-    const category = filterSelect.value;
-    const keyword = searchInput.value.trim().toLowerCase();
+    const type = typeFilter ? typeFilter.value : '';
+    const topic = topicFilter ? topicFilter.value : '';
+    const keyword = searchInput ? searchInput.value.trim().toLowerCase() : '';
 
     filteredData = boardData.filter(item => {
-      const matchCategory = !category || item.category === category;
+      const matchType = !type || item.category === type;
+      const matchTopic = !topic || item.topic === topic;
       const matchKeyword = !keyword || item.title.toLowerCase().includes(keyword);
-      return matchCategory && matchKeyword;
+      return matchType && matchTopic && matchKeyword;
     });
 
     currentPage = 1;
     renderTable();
   }
 
-  searchBtn.addEventListener('click', applyFilter);
-  searchInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') applyFilter();
-  });
-  filterSelect.addEventListener('change', applyFilter);
+  function bindFilterEvents() {
+    if (searchBtn) searchBtn.addEventListener('click', applyFilter);
+    if (searchInput) searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') applyFilter(); });
+    if (typeFilter) typeFilter.addEventListener('change', applyFilter);
+    if (topicFilter) topicFilter.addEventListener('change', applyFilter);
+  }
+
+  bindFilterEvents();
 
   // --- Detail View ---
   function showDetail(id) {
     const item = boardData.find(d => d.id === id);
     if (!item) return;
 
-    // Increment views
     item.views++;
 
-    // Find prev/next
     const allSorted = boardData.filter(d => !d.pinned).sort((a, b) => b.id - a.id);
     const idx = allSorted.findIndex(d => d.id === id);
     const prev = idx < allSorted.length - 1 ? allSorted[idx + 1] : null;
     const next = idx > 0 ? allSorted[idx - 1] : null;
 
-    const categoryClass = `badge-category--${item.category}`;
+    const catClass = `badge-category--${item.category}`;
+    const topClass = `badge-category--${item.topic}`;
 
     let html = `
       <div class="board-detail">
         <div class="board-detail-header">
           <div class="board-detail-category">
-            <span class="badge-category ${categoryClass}">${item.categoryName}</span>
+            <span class="badge-category ${catClass}">${item.categoryName}</span>
+            <span class="badge-category ${topClass}">${item.topicName}</span>
           </div>
           <h1 class="board-detail-title">${escapeHTML(item.title)}</h1>
           <div class="board-detail-meta">
@@ -474,13 +517,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     boardContent.innerHTML = html;
 
-    // Scroll to top of section
     document.querySelector('.board-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-    // Back button
     document.getElementById('backToList').addEventListener('click', showList);
 
-    // Nav links
     boardContent.querySelectorAll('.board-nav-item a[data-id]').forEach(link => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
@@ -499,15 +539,12 @@ document.addEventListener('DOMContentLoaded', () => {
     boardBody = document.getElementById('boardBody');
     boardPagination = document.getElementById('boardPagination');
     searchInput = document.getElementById('boardSearchInput');
-    filterSelect = document.getElementById('boardFilter');
+    typeFilter = document.getElementById('boardTypeFilter');
+    topicFilter = document.getElementById('boardTopicFilter');
     searchBtn = document.getElementById('boardSearchBtn');
     totalCount = document.getElementById('boardTotalCount');
 
-    // Re-bind events (guard against missing elements)
-    if (searchBtn) searchBtn.addEventListener('click', applyFilter);
-    if (searchInput) searchInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') applyFilter(); });
-    if (filterSelect) filterSelect.addEventListener('change', applyFilter);
-
+    bindFilterEvents();
     renderTable();
     document.querySelector('.board-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -516,7 +553,5 @@ document.addEventListener('DOMContentLoaded', () => {
   if (boardBody) {
     renderTable();
   }
-
-  // Header scroll, hamburger, dropdown handled by main.js
 
 });

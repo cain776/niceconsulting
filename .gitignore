@@ -1,4 +1,5 @@
 .claude/
 .env
-scripts/collected_urls.json
 scripts/collector.log
+scripts/collector_stdout.log
+scripts/collector_stderr.log

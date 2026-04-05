@@ -32,18 +32,19 @@ load_dotenv(BASE_DIR / ".env")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 # 수집할 RSS 피드 목록
+# category: 유형 (news/law/cert/insight), topic: 주제 (esg/ecovadis/iso/safety/rba)
 RSS_FEEDS = [
     # ESG 종합
-    {"url": "https://www.esgtoday.com/feed/", "category": "esg", "categoryName": "ESG"},
-    {"url": "https://www.greenbiz.com/rss.xml", "category": "esg", "categoryName": "ESG"},
+    {"url": "https://www.esgtoday.com/feed/", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
+    {"url": "https://www.greenbiz.com/rss.xml", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
     # 탄소/기후
-    {"url": "https://www.carbonbrief.org/feed/", "category": "esg", "categoryName": "ESG"},
-    {"url": "https://www.climatechangenews.com/feed/", "category": "esg", "categoryName": "ESG"},
-    {"url": "https://carbonmarketwatch.org/feed/", "category": "esg", "categoryName": "ESG"},
+    {"url": "https://www.carbonbrief.org/feed/", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
+    {"url": "https://www.climatechangenews.com/feed/", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
+    {"url": "https://carbonmarketwatch.org/feed/", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
     # 공급망
-    {"url": "https://www.supplychaindive.com/feeds/news/", "category": "cert", "categoryName": "인증"},
+    {"url": "https://www.supplychaindive.com/feeds/news/", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
     # 안전/노동
-    {"url": "https://www.ehstoday.com/rss", "category": "law", "categoryName": "법규"},
+    {"url": "https://www.ehstoday.com/rss", "category": "news", "categoryName": "소식", "topic": "safety", "topicName": "중대재해처벌법"},
 ]
 
 # 수집 키워드 필터 (하나라도 포함되면 수집)
@@ -129,6 +130,8 @@ def fetch_rss_articles():
                     "date": pub_date.strftime("%Y.%m.%d"),
                     "category": feed_info["category"],
                     "categoryName": feed_info["categoryName"],
+                    "topic": feed_info["topic"],
+                    "topicName": feed_info["topicName"],
                 })
 
         except Exception as e:
@@ -157,13 +160,15 @@ def translate_with_gemini(title, summary, link):
   "content_ko": "<h2>핵심 내용</h2><p>기사 핵심 내용 3~5문장 요약</p><h3>주요 포인트</h3><ul><li>포인트1</li><li>포인트2</li><li>포인트3</li></ul><p>원문: <a href=\\"{link}\\" target=\\"_blank\\" rel=\\"noopener\\">원문 보기</a></p>"
 }}"""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent"
 
     try:
-        resp = requests.post(url, json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.3},
-        }, timeout=30)
+        resp = requests.post(url,
+            headers={"Content-Type": "application/json", "X-goog-api-key": GEMINI_API_KEY},
+            json={
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.3},
+            }, timeout=60)
         resp.raise_for_status()
         data = resp.json()
 
@@ -199,8 +204,8 @@ def insert_to_board_js(articles_data):
         entry = f"""    {{
       id: {new_id},
       pinned: false,
-      category: '{article["category"]}',
-      categoryName: '{article["categoryName"]}',
+      category: '{article["category"]}', categoryName: '{article["categoryName"]}',
+      topic: '{article["topic"]}', topicName: '{article["topicName"]}',
       title: '{article["title_ko"].replace(chr(39), chr(92)+chr(39))}',
       author: '관리자',
       date: '{article["date"]}',

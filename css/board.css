@@ -407,6 +407,11 @@
   color: #2980b9;
 }
 
+.badge-category--insight {
+  background: rgba(142, 68, 173, 0.1);
+  color: #8e44ad;
+}
+
 /* --- Pagination --- */
 .board-pagination {
   display: flex;

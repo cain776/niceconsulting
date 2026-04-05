@@ -42,12 +42,22 @@
         </div>
         <div class="board-search">
           <div class="board-filter">
-            <select id="boardFilter" aria-label="카테고리 필터">
-              <option value="">전체</option>
-              <option value="esg">ESG</option>
-              <option value="cert">인증</option>
-              <option value="law">법규</option>
+            <select id="boardTypeFilter" aria-label="유형 필터">
+              <option value="">유형 전체</option>
               <option value="news">소식</option>
+              <option value="law">법규</option>
+              <option value="cert">인증자료</option>
+              <option value="insight">인사이트</option>
+            </select>
+          </div>
+          <div class="board-filter">
+            <select id="boardTopicFilter" aria-label="주제 필터">
+              <option value="">주제 전체</option>
+              <option value="esg">ESG</option>
+              <option value="ecovadis">에코바디스</option>
+              <option value="iso">ISO</option>
+              <option value="safety">중대재해처벌법</option>
+              <option value="rba">RBA</option>
             </select>
           </div>
           <input type="text" class="board-search-input" id="boardSearchInput" placeholder="검색어 입력">
