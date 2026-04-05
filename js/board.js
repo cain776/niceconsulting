@@ -10,6 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 19,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 집행위, 산업계 압박 속 탄소배출권 거래제(ETS) 개편 착수',
+      author: '관리자',
+      date: '2026.04.02',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회가 산업계의 비용 부담 완화 요구에 대응하여 탄소배출권 거래제(ETS)의 핵심 메커니즘인 시장안정화예비군(MSR) 조정안을 발표했습니다. 이번 조치는 탄소 가격의 과도한 변동성을 억제하고 시장의 안정성을 확보하여 기업들의 경쟁력을 보호하는 데 목적이 있습니다. 이는 EU의 기후 목표 달성과 산업계의 경제적 생존 사이의 균형을 맞추려는 시도로 풀이됩니다.</p><h3>주요 포인트</h3><ul><li>탄소 가격의 급격한 변동을 방지하기 위해 시장안정화예비군(MSR)의 운영 임계값 조정</li><li>에너지 비용 상승으로 어려움을 겪는 유럽 내 제조 및 에너지 집약 산업의 글로벌 경쟁력 보호</li><li>탄소 시장의 투명성과 예측 가능성을 높여 기업들의 장기적인 탈탄소화 투자를 유도</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-commission-launches-first-of-planned-ets-reforms-amid-industry-pressure/?utm_source=rss&utm_medium=rss&utm_campaign=eu-commission-launches-first-of-planned-ets-reforms-amid-industry-pressure" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 20,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미 에너지부-아마존, 의류 및 IT 폐기물서 핵심 광물 회수 협력',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>미국 에너지부(DOE) 산하 에임스 국립연구소와 핵심소재혁신(CMI) 허브가 아마존과 손잡고 폐기물에서 핵심 소재를 회수하는 기술 개발에 착수했습니다. 이번 협력은 수명이 다한 의류와 전자제품 등에서 희토류와 같은 전략적 자원을 추출하여 공급망의 탄력성을 높이는 데 중점을 둡니다. 아마존은 연구를 위해 자사 유통 과정에서 발생하는 폐기물을 제공하며, 이를 통해 자원 순환을 촉진하고 환경 영향을 최소화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>미 에너지부와 아마존의 민관 협력을 통한 핵심 광물 재활용 및 회수 기술 고도화</li><li>전자제품의 희토류 자석 및 의류의 합성 섬유 등 다양한 폐기물 자원화에 집중</li><li>해외 의존도가 높은 핵심 소재의 안정적 공급망 확보 및 순환 경제 모델 구축 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/u-s-doe-partners-with-amazon-on-solutions-to-recover-critical-materials-from-textile-tech-waste/?utm_source=rss&utm_medium=rss&utm_campaign=u-s-doe-partners-with-amazon-on-solutions-to-recover-critical-materials-from-textile-tech-waste" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 21,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '노비스토, 탄소 회계 소프트웨어 기업 \'미니멈\' 인수',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 공시 소프트웨어 기업 노비스토(Novisto)가 탄소 관리 전문 기업 미니멈(Minimum)을 인수했습니다. 이번 인수는 기업들이 CSRD 및 SEC 기후 공시 등 강화되는 글로벌 규제 환경에 효과적으로 대응할 수 있도록 탄소 회계 역량을 강화하기 위한 전략적 결정입니다. 양사의 기술 결합을 통해 고객은 단일 플랫폼에서 보다 정밀하고 감사 가능한 탄소 데이터를 통합 관리할 수 있게 됩니다.</p><h3>주요 포인트</h3><ul><li>노비스토의 ESG 공시 플랫폼에 미니멈의 자동화된 탄소 회계 기술 통합</li><li>데이터 수집, 배출 계수 매핑, 감사 가능한 보고서 생성 프로세스 간소화</li><li>글로벌 규제 준수를 위한 고도화된 탄소 배출량 측정 및 관리 솔루션 제공</li></ul><p>원문: <a href="https://www.esgtoday.com/novisto-acquires-carbon-accounting-software-provider-minimum/?utm_source=rss&utm_medium=rss&utm_campaign=novisto-acquires-carbon-accounting-software-provider-minimum" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 22,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '토요타, 볼보·다임러 수소 연료전지 합작법인 합류',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>볼보 그룹, 다임러 트럭, 토요타 자동차가 수소 연료전지 시스템의 개발 및 양산을 위해 전략적 협력을 체결했습니다. 토요타는 기존 볼보와 다임러가 설립한 합작법인 '셀센트릭(cellcentric)'에 합류하여 대형 트럭용 연료전지 기술 혁신을 가속화할 예정입니다. 이번 파트너십은 운송 부문의 탈탄소화를 위해 수소 솔루션의 비용을 낮추고 상용화를 앞당기는 데 중점을 두고 있습니다.</p><h3>주요 포인트</h3><ul><li>대형 상용차 및 다양한 산업 분야를 위한 수소 연료전지 시스템의 대량 생산 및 상용화 추진</li><li>글로벌 주요 제조사 간의 협력을 통한 기술 표준화 및 생산 규모의 경제 달성</li><li>장거리 운송의 탄소 중립을 위한 배터리 전기차 보완 솔루션으로서 수소 기술 생태계 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/toyota-plans-to-join-volvo-daimler-in-hydrogen-fuel-cell-jv/?utm_source=rss&utm_medium=rss&utm_campaign=toyota-plans-to-join-volvo-daimler-in-hydrogen-fuel-cell-jv" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 18,
       pinned: false,
       category: 'news', categoryName: '소식',
