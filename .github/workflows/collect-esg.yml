@@ -1,0 +1,45 @@
+name: ESG 자료실 자동 수집
+
+on:
+  # 매일 한국시간 오전 9시 (UTC 0시) 실행
+  schedule:
+    - cron: '0 0 * * *'
+  # 수동 실행도 가능
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 패키지 설치
+        run: pip install feedparser beautifulsoup4 requests python-dotenv
+
+      - name: 수집기 실행
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/collector.py --no-git
+
+      - name: 변경사항 확인 및 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add js/board.js scripts/collected_urls.json
+          if git diff --staged --quiet; then
+            echo "변경사항 없음 - 스킵"
+          else
+            COUNT=$(git diff --staged --stat js/board.js | grep -oP '\d+ insertion' | grep -oP '\d+' || echo "0")
+            git commit -m "content: ESG 자료실 자동 업데이트 ($(date +%Y-%m-%d))"
+            git push
+          fi

@@ -262,6 +262,9 @@ def git_commit_and_push(count):
 # ── 메인 실행 ─────────────────────────────────────────
 
 def main():
+    import sys
+    no_git = "--no-git" in sys.argv
+
     log.info("=" * 50)
     log.info("ESG 자료실 자동 수집 시작")
     log.info("=" * 50)
@@ -292,8 +295,9 @@ def main():
     if insert_to_board_js(translated):
         save_history(history)
 
-        # 4. Git 커밋 & 푸시
-        git_commit_and_push(len(translated))
+        # 4. Git 커밋 & 푸시 (--no-git 옵션 시 스킵, GitHub Actions에서는 워크플로우가 처리)
+        if not no_git:
+            git_commit_and_push(len(translated))
 
     log.info(f"완료: {len(translated)}건 등록")
 
