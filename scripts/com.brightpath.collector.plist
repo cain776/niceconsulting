@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- 작업 이름 -->
+    <key>Label</key>
+    <string>com.brightpath.collector</string>
+
+    <!-- 실행할 명령 -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>
+        <string>/Users/사용자이름/niceconsulting/scripts/collector.py</string>
+    </array>
+
+    <!-- 매일 오전 9시 실행 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- 작업 디렉토리 -->
+    <key>WorkingDirectory</key>
+    <string>/Users/사용자이름/niceconsulting</string>
+
+    <!-- 로그 출력 -->
+    <key>StandardOutPath</key>
+    <string>/Users/사용자이름/niceconsulting/scripts/collector_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/사용자이름/niceconsulting/scripts/collector_stderr.log</string>
+
+    <!-- 실패 시 재시도하지 않음 -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
