@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 23,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG 주간 리뷰: EU 탄소 시장 개혁과 기업 지속가능성',
+      author: '관리자',
+      date: '2026.04.05',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 주요 뉴스는 EU의 탄소배출권거래제(ETS) 개혁 본격화와 기업들의 지속가능성 실천 노력을 다루고 있습니다. EU는 탄소 국경 조정 제도(CBAM) 도입과 함께 무료 배출권 할당을 단계적으로 폐지하기 시작하며 탄소 규제를 강화했습니다. 또한, 네슬레와 ILO는 커피 공급망의 아동 노동 문제를 해결하기 위해 협력하기로 했으며, 스탠다드차타드는 철강 및 메탄 부문에 대한 새로운 탄소 감축 목표를 설정했습니다. 블랙록은 재무적 중요성에 초점을 맞춘 새로운 스튜어드십 지침을 발표하며 투자 전략을 정비했습니다.</p><h3>주요 포인트</h3><ul><li>EU ETS 개혁: 탄소 배출권 무료 할당의 단계적 폐지 및 CBAM 체계 본격 가동</li><li>공급망 인권 강화: 네슬레와 ILO의 커피 산업 내 아동 노동 근절을 위한 파트너십 체결</li><li>금융권 기후 대응: 스탠다드차타드의 고탄소 배출 산업에 대한 넷제로 중간 목표 설정</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-255/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-255" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 24,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '테라스파크, 우주 태양광 발전 위해 540만 유로 투자 유치',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스의 우주 기술 스타트업 테라스파크(TerraSpark)가 우주 기반 태양광 발전(SBSP) 기술 상용화를 위해 540만 유로(약 80억 원)의 시드 투자를 유치했습니다. 이 기업은 우주에서 태양 에너지를 수집해 지구로 전송함으로써 기상 조건이나 밤낮의 제한 없이 24시간 깨끗한 에너지를 공급하는 것을 목표로 합니다. 이번 투자금은 기술 실증을 위한 프로토타입 개발에 투입될 예정이며, 이는 글로벌 탄소 중립 달성을 위한 혁신적인 에너지 솔루션으로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>540만 유로 규모의 시드 라운드 투자 완료 (세레나, Bpifrance 등 참여)</li><li>지상 태양광의 한계인 기상 및 야간 제약을 극복하는 24/7 지속 가능한 에너지망 구축</li><li>무선 전력 전송 및 고효율 태양광 패널 기술을 활용한 우주 에너지 인프라 개발 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/terraspark-raises-e5-4-million-to-provide-solar-power-from-space/?utm_source=rss&utm_medium=rss&utm_campaign=terraspark-raises-e5-4-million-to-provide-solar-power-from-space" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 25,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '구글, Amex GBT·쉘과 지속가능항공유(SAF) 장기 계약 체결',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>구글이 비즈니스 출장에서 발생하는 탄소 배출을 줄이기 위해 Amex GBT 및 쉘 에비에이션과 지속가능항공유(SAF) 구매를 위한 장기 파트너십을 체결했습니다. 이번 협력은 블록체인 기반 SAF 솔루션인 '아벨리아(Avelia)' 플랫폼을 통해 이루어지며, 구글은 이를 통해 항공 여행 관련 스코프 3(Scope 3) 배출량을 감축할 계획입니다. 구글은 이번 계약을 통해 SAF 시장의 확대를 지원하고 항공 산업의 탈탄소화를 가속화하는 데 기여하고자 합니다.</p><h3>주요 포인트</h3><ul><li>블록체인 기반 플랫폼 '아벨리아'를 활용해 SAF의 환경적 특성을 구매하고 배출 감축분을 투명하게 인증받는 방식입니다.</li><li>'북앤클레임(Book-and-Claim)' 모델을 적용하여 실제 급유 위치와 상관없이 SAF 사용에 따른 탄소 감축 혜택을 기업이 할당받을 수 있습니다.</li><li>이번 파트너십은 2030년까지 전체 가치 사슬에서 넷제로를 달성하려는 구글의 지속가능성 목표를 뒷받침하는 중요한 행보입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/google-signs-long-term-deal-with-amex-gbt-shell-saf-platform/?utm_source=rss&utm_medium=rss&utm_campaign=google-signs-long-term-deal-with-amex-gbt-shell-saf-platform" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 26,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에너지 위기 대응책 부활과 영국 재생에너지 기록 경신',
+      author: '관리자',
+      date: '2026.04.02',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>전 세계 주요국들이 에너지 가격 불안정에 대응하기 위해 과거의 위기 관리 조치들을 다시 도입하고 있습니다. 영국은 올해 1분기 재생에너지 발전량에서 역대 최고 기록을 세우며 에너지 전환의 성과를 보였습니다. 또한, 독일 등 유럽에서는 간편한 '플러그인 태양광' 시스템이 가계비 절감의 새로운 대안으로 떠오르고 있습니다.</p><h3>주요 포인트</h3><ul><li>에너지 가격 변동성 완화를 위한 각국의 긴급 지원 및 규제 조치 재가동</li><li>영국 내 풍력 및 태양광 발전 비중이 분기 기준 역대 최고치 경신</li><li>베란다형 플러그인 태양광 보급 확대로 일반 가계의 에너지 비용 절감</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-2-april-2026/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 27,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국, 풍력·태양광 발전으로 가스 수입 10억 파운드 절감',
+      author: '관리자',
+      date: '2026.04.02',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>2026년 3월, 영국은 기록적인 풍력 및 태양광 발전량 덕분에 약 10억 파운드(한화 약 1조 7천억 원) 규모의 가스 수입을 대체하는 성과를 거두었습니다. 재생에너지의 비중이 확대되면서 화석 연료에 대한 의존도가 크게 낮아졌으며, 이는 에너지 안보 강화와 수입 비용 절감으로 이어졌습니다. 기상 조건과 설비 용량 확대로 인해 재생에너지가 전력 믹스에서 차지하는 비중이 역대 최고 수준을 기록하며 에너지 전환의 효율성을 입증했습니다.</p><h3>주요 포인트</h3><ul><li>풍력과 태양광의 기록적인 발전으로 10억 파운드 상당의 가스 수입 비용 절감</li><li>재생에너지 비중 확대를 통한 국가 에너지 안보 및 가격 안정성 기여</li><li>탄소 배출량 감소와 함께 화석 연료 의존도를 낮추는 에너지 전환 가속화</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-record-wind-and-solar-saved-uk-from-gas-imports-worth-1bn-in-march-2026/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 19,
       pinned: false,
       category: 'news', categoryName: '소식',
