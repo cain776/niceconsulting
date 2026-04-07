@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 28,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '보잉, 4만 톤 규모 토양 기반 탄소 제거 계약 체결',
+      author: '관리자',
+      date: '2026.04.06',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 항공기 제조사 보잉(Boeing)이 자연 기반 탄소 제거 솔루션 기업인 그래스루츠 카본(Grassroots Carbon)과 4만 톤 규모의 탄소 제거 크레딧 구매 계약을 체결했습니다. 이번 파트너십은 재생 목축 방식을 통해 토양에 탄소를 저장하는 프로젝트를 지원하며, 보잉의 지속 가능성 목표 달성을 돕습니다. 보잉은 이번 계약을 통해 고품질의 탄소 제거 기술 생태계를 강화하고 기후 변화 대응에 기여할 방침입니다.</p><h3>주요 포인트</h3><ul><li>보잉과 그래스루츠 카본 간의 4만 톤 규모 다년 탄소 제거 계약</li><li>재생 목축 및 토양 관리 방식을 활용한 자연 기반 탄소 격리 솔루션</li><li>항공 산업의 넷제로 달성을 위한 보잉의 전략적 탄소 크레딧 확보</li></ul><p>원문: <a href="https://www.esgtoday.com/boeing-signs-40000-ton-soil-based-carbon-removal-deal-with-grassroots-carbon/?utm_source=rss&utm_medium=rss&utm_campaign=boeing-signs-40000-ton-soil-based-carbon-removal-deal-with-grassroots-carbon" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 29,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '토탈에너지스-마스다르, 22억 달러 규모 아시아 재생에너지 합작법인 설립',
+      author: '관리자',
+      date: '2026.04.06',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스 에너지 대기업 토탈에너지스와 아랍에미리트의 재생에너지 기업 마스다르가 아시아 지역 재생에너지 플랫폼을 통합하여 22억 달러 규모의 새로운 합작법인(JV)을 설립하기로 합의했습니다. 이번 파트너십을 통해 양사는 아시아-태평양 지역에서 태양광, 풍력, 에너지 저장 장치(ESS) 프로젝트 개발을 가속화할 계획입니다. 양사는 합작법인의 지분을 각각 50%씩 보유하며, 이를 통해 2030년까지 각사의 재생에너지 용량 목표 달성을 추진합니다.</p><h3>주요 포인트</h3><ul><li>토탈에너지스와 마스다르가 아시아 재생에너지 시장 공략을 위해 50:50 지분의 합작법인을 설립함.</li><li>기업 가치 22억 달러 규모의 이번 협력은 아태 지역 내 태양광 및 풍력 발전 역량 강화를 목표로 함.</li><li>양사는 2030년까지 각각 100GW의 재생에너지 발전 용량 확보라는 야심찬 목표를 공유하고 있음.</li></ul><p>원문: <a href="https://www.esgtoday.com/totalenergies-masdar-merge-asia-renewables-platforms-in-new-2-2-billion-jv/?utm_source=rss&utm_medium=rss&utm_campaign=totalenergies-masdar-merge-asia-renewables-platforms-in-new-2-2-billion-jv" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 30,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '서큘레이트 캐피털, 아시아 순환경제 펀드 2억 2천만 달러 유치',
+      author: '관리자',
+      date: '2026.04.06',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>싱가포르 기반의 투자 운용사 서큘레이트 캐피털이 아시아 지역의 플라스틱 폐기물 문제 해결과 순환경제 구축을 위해 2억 2,000만 달러 규모의 자금을 조달했습니다. 이 펀드는 남남동아시아의 플라스틱 가치 사슬 내 혁신 기업과 중소기업에 투자하여 해양 플라스틱 오염을 방지하는 데 집중합니다. 펩시코, P&G, 코카콜라 등 다수의 글로벌 기업들이 투자자로 참여하여 지속 가능한 미래를 위한 협력을 강화했습니다.</p><h3>주요 포인트</h3><ul><li>아시아 지역의 해양 플라스틱 유출 방지 및 재활용 인프라 구축을 위한 대규모 자금 확보</li><li>플라스틱 가치 사슬 전반의 스타트업 및 중소기업을 대상으로 한 전략적 투자 진행</li><li>글로벌 소비재 및 화학 기업들이 주요 투자자로 참여하여 순환경제 생태계 조성 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/circulate-capital-raises-220-million-for-asia-focused-circular-economy-fund/?utm_source=rss&utm_medium=rss&utm_campaign=circulate-capital-raises-220-million-for-asia-focused-circular-economy-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 31,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 브리핑: 전기차 수익 급증 및 풍력 기업 입찰 거부',
+      author: '관리자',
+      date: '2026.04.02',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>중국 최대 전기차 업체 BYD가 치열한 가격 경쟁 속에서도 전년 대비 80% 이상의 순이익 성장을 기록하며 시장 지배력을 강화했습니다. 한편, 중국의 풍력 터빈 제조사 밍양 스마트 에너지는 안보 및 공급망 우려로 인해 스코틀랜드 해상 풍력 프로젝트 입찰에서 제외되었습니다. 또한 이란과 이스라엘 간의 갈등 고조가 국제 유가와 중국의 에너지 안보에 미칠 영향에 대해 주목하고 있습니다.</p><h3>주요 포인트</h3><ul><li>BYD의 2023년 순이익이 약 300억 위안을 기록하며 사상 최고치를 경신했고, 샤오미가 첫 전기차를 출시하며 시장 경쟁이 심화되었습니다.</li><li>스코틀랜드 당국은 국가 안보와 공급망 신뢰성을 이유로 중국 기업의 핵심 에너지 인프라 사업 참여를 제한했습니다.</li><li>중동의 지정학적 불안정으로 인한 유가 상승 가능성이 중국의 에너지 수급 전략과 탄소 중립 목표 이행에 새로운 변수로 부상했습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/china-briefing-2-april-2026-ev-profits-rise-ming-yang-rejected-iran-war/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 32,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '차기 IPCC 보고서 일정을 둘러싼 국가 간 갈등과 쟁점',
+      author: '관리자',
+      date: '2026.04.02',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화에 관한 정부 간 협의체(IPCC)의 제7차 평가 주기(AR7)가 보고서 발간 일정을 둘러싼 국가 간의 극심한 의견 대립으로 난항을 겪고 있습니다. 논쟁의 핵심은 2028년으로 예정된 파리 협정의 '제2차 전 지구적 이행점검(GST2)' 이전에 보고서를 완성할지 여부입니다. 선진국들은 정책적 시급성을 이유로 빠른 발간을 촉구하는 반면, 많은 개발도상국은 과학적 완성도와 충분한 검토 시간을 보장해야 한다고 맞서고 있습니다. 이러한 갈등은 향후 국제 기후 협상의 과학적 근거가 될 데이터의 적시 제공 여부에 큰 영향을 미칠 전망입니다.</p><h3>주요 포인트</h3><ul><li>2028년 제2차 전 지구적 이행점검(GST2) 일정에 맞춘 보고서 발간 시점을 두고 국가 간 대립</li><li>과학적 엄밀성 유지와 정책 결정에 필요한 시급성 사이의 우선순위 충돌</li><li>한정된 예산과 저술진의 업무 과부하 등 IPCC의 구조적 한계 및 운영 효율화 문제</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-why-the-standoff-between-nations-over-the-next-ipcc-reports-matters/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 23,
       pinned: false,
       category: 'news', categoryName: '소식',
