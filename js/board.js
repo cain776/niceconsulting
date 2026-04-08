@@ -10,6 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 33,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아문디, 스위스 청정에너지 플랫폼 \'유데라\'에 전략적 투자',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽 최대 자산운용사 아문디(Amundi)가 스위스의 상업 및 산업용(C&I) 청정에너지 솔루션 플랫폼인 유데라(Youdera)에 전략적 투자를 단행했습니다. 이번 투자는 아문디의 에너지 전환 전략의 일환으로, 유데라가 유럽 내 시장 점유율을 확대하고 기술 역량을 강화하는 데 사용될 예정입니다. 유데라는 기업 고객에게 초기 비용 부담 없이 태양광 발전 및 에너지 저장 시스템을 제공하는 '서비스형 에너지' 모델을 통해 유럽의 탈탄소화를 가속화하고 있습니다.</p><h3>주요 포인트</h3><ul><li>아문디, 에너지 전환(AET) 전략을 통해 유데라의 지분 확보 및 성장 지원</li><li>유데라는 독일, 스위스, 스페인, 포르투갈 등에서 상업용 태양광 및 EV 충전 솔루션 운영</li><li>전력구매계약(PPA) 기반 모델로 기업의 자본 지출 없이 재생에너지 도입 가능</li></ul><p>원문: <a href="https://www.esgtoday.com/amundi-invests-in-ci-focused-clean-energy-solutions-platform-youdera/?utm_source=rss&utm_medium=rss&utm_campaign=amundi-invests-in-ci-focused-clean-energy-solutions-platform-youdera" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 34,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '블랙스톤, 재생에너지 기업 수노텍에 투자',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>세계 최대 대체 자산 운용사인 블랙스톤이 재생에너지 인프라 통합 기업인 수노텍(Sunotec)과 파트너십을 맺고 전략적 지분 투자를 단행했습니다. 수노텍은 유럽과 아프리카 전역에서 대규모 태양광 발전 프로젝트의 설계, 조달 및 건설(EPC)을 지원하는 선도적인 기업입니다. 이번 투자는 블랙스톤의 '택티컬 오퍼튜니티' 펀드를 통해 이루어졌으며, 수노텍의 글로벌 시장 확장과 기술 혁신을 가속화하는 데 사용될 예정입니다. 양사는 이번 협력을 통해 급증하는 글로벌 재생에너지 수요에 대응하고 지속 가능한 에너지 전환을 선도할 계획입니다.</p><h3>주요 포인트</h3><ul><li>블랙스톤, 수노텍에 대한 전략적 지분 투자 및 파트너십 발표</li><li>수노텍의 유럽 및 아프리카 태양광 인프라 시장 내 영향력 강화</li><li>글로벌 에너지 전환 가속화 및 재생에너지 공급망 확대 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/blackstone-backs-renewable-energy-infrastructure-platform-sunotec/?utm_source=rss&utm_medium=rss&utm_campaign=blackstone-backs-renewable-energy-infrastructure-platform-sunotec" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 35,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, 캐나다 BECCS 기반 탄소 제거 계약 체결',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트가 캐나다 사스카추완주의 메도우 레이크 부족 협의회(MLTC) 및 탄소 포집 기업 스반테와 15년 장기 탄소 제거 계약을 체결했습니다. 이번 협력은 바이오에너지 탄소 포집 및 저장(BECCS) 기술을 활용하여 바이오에너지 센터에서 발생하는 이산화탄소를 포집해 영구 저장하는 것을 골자로 합니다. 이는 2030년까지 탄소 네거티브 달성을 목표로 하는 마이크로소프트의 기후 전략에서 중요한 단계입니다.</p><h3>주요 포인트</h3><ul><li>캐나다 최초의 상업적 규모 BECCS 프로젝트를 통한 장기 탄소 제거 크레딧 확보</li><li>스반테의 혁신적인 고체 흡착제 기술을 적용해 연간 약 10만 톤의 이산화탄소 포집 예정</li><li>원주민 공동체인 MLTC가 소유한 바이오에너지 시설을 활용해 지역 경제와 환경 보호 동시 추구</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-signs-15-year-beccs-based-carbon-removal-deal-in-canada/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-signs-15-year-beccs-based-carbon-removal-deal-in-canada" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 36,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'AWS, 클라우드 탄소 발자국 추적 솔루션 출시',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>아마존웹서비스(AWS)가 고객들이 클라우드 서비스 이용 과정에서 발생하는 탄소 배출량을 측정하고 관리할 수 있는 새로운 솔루션을 출시했습니다. 이 도구는 사용자의 현재 배출량 데이터를 시각화하여 제공할 뿐만 아니라, 향후 사용량 변화에 따른 배출량 예측치도 함께 제시합니다. 이를 통해 기업들은 ESG 공시의 핵심인 공급망 내 간접 배출(Scope 3) 데이터를 더욱 효율적으로 관리할 수 있게 되었습니다.</p><h3>주요 포인트</h3><ul><li>클라우드 서비스 이용에 따른 탄소 배출량의 실시간 추적 및 분석 기능 제공</li><li>자체 데이터 센터 운영 대비 AWS 사용을 통해 절감된 탄소 배출량 비교 데이터 확인 가능</li><li>아마존의 2040년 탄소 중립 목표인 '기후 서약' 이행을 위한 고객 지원 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/aws-launches-solution-enabling-users-to-track-carbon-footprint-of-cloud-usage/?utm_source=rss&utm_medium=rss&utm_campaign=aws-launches-solution-enabling-users-to-track-carbon-footprint-of-cloud-usage" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 28,
       pinned: false,
       category: 'news', categoryName: '소식',
