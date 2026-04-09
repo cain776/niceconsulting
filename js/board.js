@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 37,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아파브, 지속가능성 서비스 플랫폼 \'아파브 임팩트\' 출시',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스의 국제 위험 관리 그룹인 아파브(Apave)가 지속가능성 전문 서비스 플랫폼인 '아파브 임팩트(Apave Impact)'를 새롭게 출시했습니다. 이 플랫폼은 기업들이 복잡해지는 ESG 규제에 대응하고 환경 및 사회적 전환을 가속화할 수 있도록 통합적인 솔루션을 제공합니다. 아파브는 150년 이상의 위험 관리 경험을 바탕으로 고객사의 지속가능한 성장을 지원하며, 특히 유럽의 기업지속가능성보고지침(CSRD) 준수를 돕는 데 중점을 둡니다.</p><h3>주요 포인트</h3><ul><li>탈탄소화, 에너지 효율성, 사회적 책임 등 5가지 핵심 영역에 집중한 서비스 제공</li><li>CSRD 등 강화되는 글로벌 ESG 공시 규제에 대한 전문적인 컨설팅 및 검증 지원</li><li>기존의 위험 관리 전문성을 지속가능성 분야로 확장하여 기업의 실질적인 변화 유도</li></ul><p>원문: <a href="https://www.esgtoday.com/apave-launches-new-sustainability-services-platform/?utm_source=rss&utm_medium=rss&utm_campaign=apave-launches-new-sustainability-services-platform" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 38,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '스위스, 지속가능성 공시 및 실사법 제정 추진',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>스위스 정부가 기업의 지속가능성 보고 및 공급망 실사 의무를 강화하는 새로운 법안을 발표했습니다. 이번 법안은 유럽연합(EU)의 CSRD 및 CSDDD 규정과 일치시키기 위한 것으로, 보고 대상 기업이 기존 약 500개에서 3,500개로 대폭 확대됩니다. 기업은 환경, 인권, 거버넌스 관련 영향을 공시해야 하며, 보고서에 대한 외부 감사가 의무화될 예정입니다.</p><h3>주요 포인트</h3><ul><li>EU의 CSRD 및 CSDDD 기준에 맞춘 규제 강화 및 국제적 정합성 확보</li><li>보고 대상 기업 확대 (대기업 및 일정 규모 이상의 금융기관 포함 약 3,500개사)</li><li>공급망 내 인권 침해 및 환경 파괴 위험에 대한 실사 의무 도입</li><li>지속가능성 보고서에 대한 독립적인 외부 기관의 인증(Assurance) 필수화</li></ul><p>원문: <a href="https://www.esgtoday.com/switzerland-proposes-new-sustainability-reporting-due-diligence-law/?utm_source=rss&utm_medium=rss&utm_campaign=switzerland-proposes-new-sustainability-reporting-due-diligence-law" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 39,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이란 전쟁 분석: 글로벌 에너지 위기에 대한 60개국의 대응',
+      author: '관리자',
+      date: '2026.04.08',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>미국·이스라엘과 이란 간의 전쟁이 발발한 지 한 달 만에 전 세계 최소 60개국이 에너지 위기에 대응하기 위한 긴급 조치를 시행했습니다. 각국은 에너지 안보를 확보하기 위해 화석 연료 공급을 일시적으로 확대하는 동시에, 장기적으로는 에너지 자립을 위한 재생 에너지 전환을 가속화하고 있습니다. 이번 분석은 지정학적 위기가 글로벌 에너지 시장과 탄소 중립 목표에 미치는 복합적인 영향을 심층적으로 다룹니다.</p><h3>주요 포인트</h3><ul><li>전 세계 60개국 이상이 전쟁으로 인한 에너지 공급망 불안정에 대응하여 정책적 변화를 시도함</li><li>단기적인 에너지 수급 불균형을 해소하기 위해 일부 국가에서 화석 연료 사용 및 생산이 일시적으로 증가함</li><li>에너지 안보 강화와 수입 의존도 감소를 위해 태양광, 풍력 등 청정 에너지로의 전환이 더욱 가속화됨</li></ul><p>원문: <a href="https://www.carbonbrief.org/iran-war-analysis-how-60-nations-have-responded-to-the-global-energy-crisis/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 40,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이란 전쟁발 식량 가격 급등과 국제 자연 회의 결과',
+      author: '관리자',
+      date: '2026.04.08',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>이란 전쟁으로 인한 지정학적 불안정이 글로벌 공급망에 타격을 주며 식량 가격을 급등시키고 있습니다. 이와 함께 생물다양성 보존을 위한 두 건의 주요 국제 자연 회의가 마무리되었으며, 영국에서는 멸종 위기였던 가장 키 큰 새인 두루미가 성공적으로 복원되었습니다. 기후, 토지, 식량 시스템이 교차하는 지점에서의 긴급한 현안들을 조명합니다.</p><h3>주요 포인트</h3><ul><li>이란 전쟁의 여파로 전 세계 식량 가격이 상승하며 식량 안보 위기 심화</li><li>생태계 보호 및 자연 복원을 위한 두 개의 주요 국제 협상 및 회의 종료</li><li>영국에서 가장 키가 큰 새인 두루미의 개체 수 회복과 보전 성공 사례</li></ul><p>원문: <a href="https://www.carbonbrief.org/cropped-8-april-2026-iran-war-drives-up-food-prices-two-nature-talks-conclude-return-of-uks-tallest-bird/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 41,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 매체의 이란 에너지 위기 보도 분석',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>중국 언론은 호르무즈 해협 폐쇄 가능성에 따른 화석 연료 공급망 혼란과 이란의 에너지 위기를 집중 조명하고 있습니다. 중국은 세계 최대의 에너지 소비국으로서 중동 정세 불안이 자국의 에너지 안보에 미칠 영향을 우려하며 대응책을 모색 중입니다. 특히 서방의 제재를 비판하는 동시에, 장기적인 해결책으로 재생에너지 전환의 중요성을 강조하는 경향을 보입니다.</p><h3>주요 포인트</h3><ul><li>호르무즈 해협의 지정학적 리스크가 중국의 원유 수입 및 에너지 안보에 미치는 위협 분석</li><li>중국 관영 매체들의 서방 제재 비판 및 중동 지역 내 중국의 중재자 역할 강조</li><li>에너지 위기를 계기로 가속화되는 중국 내 재생에너지 및 저탄소 기술로의 전환 필요성 역설</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-how-chinese-media-is-covering-the-iran-energy-crisis/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 33,
       pinned: false,
       category: 'news', categoryName: '소식',
