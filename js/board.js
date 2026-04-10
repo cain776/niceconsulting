@@ -10,6 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 42,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아라 파트너스, 폐기물 업사이클링 기업 세드론에 5억 달러 투자',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>산업 탈탄소화 전문 사모펀드 아라 파트너스(Ara Partners)가 폐기물 업사이클링 솔루션 기업 세드론 테크놀로지스(Sedron Technologies)에 최대 5억 달러를 투자합니다. 세드론은 가축 분뇨와 하수 슬러지 같은 액체 폐기물을 깨끗한 물과 고농축 비료로 전환하는 독자적인 '바코(Varcor)' 기술을 보유하고 있습니다. 이번 투자금은 북미 전역에 세드론의 폐기물 처리 시설을 확충하여 농업 및 지자체의 환경 발자국을 줄이고 탈탄소화를 가속화하는 데 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>아라 파트너스, 세드론에 최대 5억 달러 규모의 전략적 투자 단행</li><li>세드론의 '바코' 기술로 폐기물을 자원화하여 수질 오염 방지 및 온실가스 감축</li><li>북미 지역 내 설비 확대를 통해 농업 및 산업 부문의 지속 가능한 폐기물 관리 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/ara-partners-invests-500-million-in-waste-upscaling-solutions-provider-sedron/?utm_source=rss&utm_medium=rss&utm_campaign=ara-partners-invests-500-million-in-waste-upscaling-solutions-provider-sedron" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 43,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에너지 볼트, 850MW 규모 BESS 인수로 일본 시장 진출',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 저장 솔루션 전문 기업 에너지 볼트(Energy Vault)가 850MW 규모의 배터리 에너지 저장 장치(BESS) 프로젝트 포트폴리오를 인수하며 일본 시장에 본격 진출합니다. 이번 인수는 일본의 재생에너지 비중 확대에 따른 전력망 안정화 수요를 공략하기 위한 전략적 결정입니다. 에너지 볼트는 자사의 독자적인 에너지 관리 소프트웨어와 통합 플랫폼을 통해 일본 내 에너지 저장 인프라 구축을 가속화할 전망입니다.</p><h3>주요 포인트</h3><ul><li>850MW 규모의 대규모 BESS 프로젝트 포트폴리오 인수를 통한 일본 시장 본격 진입</li><li>일본 정부의 탄소 중립 정책 및 재생에너지 확대에 따른 에너지 저장 장치 수요 대응</li><li>에너지 볼트의 하드웨어 및 소프트웨어 통합 솔루션을 활용한 전력망 효율성 극대화</li></ul><p>원문: <a href="https://www.esgtoday.com/energy-vault-acquires-850-mw-bess-project-portfolio-to-enter-japans-energy-storage-market/?utm_source=rss&utm_medium=rss&utm_campaign=energy-vault-acquires-850-mw-bess-project-portfolio-to-enter-japans-energy-storage-market" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 44,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'JP모건, 10년 장기 바이오매스 탄소 제거 계약 체결',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>JP모건체이스가 클린테크 스타트업 그래파이트(Graphyte)와 10년 동안 총 6만 톤 규모의 탄소 제거 구매 계약을 체결했습니다. 이번 계약은 그래파이트의 '카본 캐스팅' 기술을 통해 농업 및 임업 부산물을 처리하여 탄소를 영구적으로 격리하는 방식을 채택했습니다. JP모건은 이를 통해 자사의 탄소 중립 목표를 가속화하고 혁신적인 탄소 제거 기술의 상용화를 지원할 계획입니다.</p><h3>주요 포인트</h3><ul><li>그래파이트와 10년간 6만 톤 규모의 탄소 제거 크레딧 구매 계약 체결</li><li>바이오매스를 건조·압축해 지하에 저장하는 저비용 '카본 캐스팅' 기술 활용</li><li>초기 단계 탄소 제거 시장의 확장 및 JP모건의 넷제로 전략 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/jpmorgan-signs-10-year-biomass-based-carbon-removal-deal/?utm_source=rss&utm_medium=rss&utm_campaign=jpmorgan-signs-10-year-biomass-based-carbon-removal-deal" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 45,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '소라 퓨얼, 공기·물로 항공유 생산 위해 1,460만 달러 투자 유치',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>기후 테크 스타트업 소라 퓨얼(Sora Fuel)이 공기, 물, 재생 에너지를 활용해 지속가능 항공유(SAF)를 생산하는 기술로 1,460만 달러의 시드 투자를 유치했습니다. 이 회사는 탄소 포집과 연료 생산 과정을 통합한 혁신적인 전기화학적 공정을 통해 기존 방식보다 훨씬 저렴한 비용으로 항공유를 제조합니다. 이번 투자금은 기술 상용화를 위한 팀 확장과 시범 프로젝트 수행에 투입될 예정입니다.</p><h3>주요 포인트</h3><ul><li>공기 중 이산화탄소와 물을 결합해 탄소 중립적인 지속가능 항공유(SAF) 생산 기술 개발</li><li>엔진 벤처스와 시티라이트 주도로 1,460만 달러 규모의 시드 펀딩 성공</li><li>기존 직접 공기 포집(DAC) 기술 대비 에너지 효율을 극대화하고 비용을 획기적으로 절감</li></ul><p>원문: <a href="https://www.esgtoday.com/sora-fuel-raises-14-6-million-to-produce-jet-fuel-from-air-water-and-clean-energy/?utm_source=rss&utm_medium=rss&utm_campaign=sora-fuel-raises-14-6-million-to-produce-jet-fuel-from-air-water-and-clean-energy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 37,
       pinned: false,
       category: 'news', categoryName: '소식',
