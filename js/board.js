@@ -10,6 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 46,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '스탠다드차타드 재단, 신임 글로벌 총괄에 날리니 타라케슈와르 임명',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>영국계 글로벌 은행 스탠다드차타드(Standard Chartered)가 날리니 타라케슈와르를 스탠다드차타드 재단(SCF)의 신임 글로벌 총괄로 임명했습니다. 2014년부터 은행의 기업 홍보 및 마케팅 전략을 담당해온 타라케슈와르는 앞으로 재단의 전략적 방향과 글로벌 자선 프로그램을 총괄하게 됩니다. 스탠다드차타드 재단은 불평등 해소와 경제적 포용성 증진을 목표로 하며, 특히 청년층의 성장을 돕는 '퓨처메이커스' 이니셔티브에 집중하고 있습니다. 이번 인사를 통해 재단은 글로벌 커뮤니티 내 사회적 영향력을 더욱 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>날리니 타라케슈와르, 카이루니사 달라의 후임으로 재단 글로벌 총괄 취임</li><li>청년 및 장애인, 여성의 교육과 경제적 자립을 돕는 '퓨처메이커스' 프로그램 주도</li><li>은행의 자선 활동 전문성을 높이고 글로벌 사회 공헌 전략 고도화 예정</li></ul><p>원문: <a href="https://www.esgtoday.com/standard-chartered-appoints-nalini-tarakeshwar-as-global-head-of-standard-chartered-foundation/?utm_source=rss&utm_medium=rss&utm_campaign=standard-chartered-appoints-nalini-tarakeshwar-as-global-head-of-standard-chartered-foundation" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 47,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '캐나다, 지속가능금융 분류체계 개발 위원회 출범',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>캐나다의 기후 중심 투자자 이니셔티브인 BFP(Business Future Pathways)가 지속가능금융 분류체계(Taxonomy) 개발을 위한 독립 위원회를 구성하고 본격적인 활동에 나섰습니다. 이번 위원회는 투자자들이 녹색 및 전환 금융 활동을 명확히 식별할 수 있도록 돕는 표준 프레임워크를 마련하는 것을 목표로 합니다. 이는 캐나다의 2050년 넷제로 목표 달성을 지원하고 금융 시장의 투명성을 높이기 위한 핵심 조치로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>지속가능금융의 명확한 정의와 기준을 마련하기 위한 독립적인 분류체계 위원회 출범</li><li>녹색(Green) 투자뿐만 아니라 탄소 집약 산업의 저탄소 전환을 돕는 '전환 금융' 기준 정립에 주력</li><li>글로벌 표준과의 정합성을 고려하여 캐나다 경제 특성에 맞는 금융 프레임워크 구축</li></ul><p>원문: <a href="https://www.esgtoday.com/canada-launches-council-to-develop-sustainable-finance-taxonomy/?utm_source=rss&utm_medium=rss&utm_campaign=canada-launches-council-to-develop-sustainable-finance-taxonomy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 48,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '호주 에시컬, 6억 2,500만 호주 달러 규모 기후 펀드 출시',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능 투자 전문 운용사인 호주 에시컬(Australian Ethical)이 6억 2,500만 호주 달러 규모의 '인프라 및 실물 자산 펀드'를 출시했습니다. 이 펀드는 재생 에너지, 사회적 인프라, 친환경 건물 등 저탄소 경제 전환을 지원하는 비상장 실물 자산에 집중 투자합니다. 이를 통해 일반 및 도매 투자자들에게 기관 투자자 수준의 비상장 시장 접근성을 제공하며 넷제로 전환을 가속화하는 것을 목표로 합니다.</p><h3>주요 포인트</h3><ul><li>재생 에너지, 친환경 건물, 지속 가능한 토지 이용 등 기후 솔루션 분야 중점 투자</li><li>비상장 인프라 및 실물 자산 확대를 통한 포트폴리오 다변화 및 수익성 강화</li><li>기존 연금 펀드 자산 일부를 이전하여 초기 규모를 확보하고 투자 기회 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/australian-ethical-launches-a625-million-climate-focused-private-markets-fund/?utm_source=rss&utm_medium=rss&utm_campaign=australian-ethical-launches-a625-million-climate-focused-private-markets-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 49,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'SLR, 기후 분석 플랫폼 2곳 인수하며 역량 강화',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>영국의 지속가능성 전문 컨설팅 기업 SLR이 기후 모델링 및 분석 플랫폼인 플래네트릭스(Planetrics)와 클라임시스템즈(ClimSystems)를 인수했다고 발표했습니다. 이번 인수는 기후 리스크에 대한 정밀한 데이터 분석 수요가 증가함에 따라, 고객들에게 보다 고도화된 기후 회복력 솔루션을 제공하기 위해 추진되었습니다. SLR은 이를 통해 금융 기관과 기업이 기후 변화로 인한 재무적 영향을 정확히 평가하고 대응할 수 있도록 지원할 예정입니다.</p><h3>주요 포인트</h3><ul><li>SLR, 기후 데이터 분석 전문성 확보를 위해 플래네트릭스와 클라임시스템즈 동시 인수</li><li>플래네트릭스는 기후 변화에 따른 자산 가치 변동 및 전환 리스크 분석에 특화된 툴 제공</li><li>클라임시스템즈는 고해상도 기후 모델링을 통해 물리적 리스크 평가 및 적응 전략 수립 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/slr-acquires-climate-analytics-platforms-planetrics-and-climsystems/?utm_source=rss&utm_medium=rss&utm_campaign=slr-acquires-climate-analytics-platforms-planetrics-and-climsystems" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 42,
       pinned: false,
       category: 'news', categoryName: '소식',
