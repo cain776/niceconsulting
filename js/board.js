@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 50,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GHG 프로토콜, 스코프 3 보고 표준 개정 방향 공개',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>온실가스 회계 표준 설정 기구인 GHG 프로토콜이 기업 가치사슬 전반의 배출량을 측정하는 '스코프 3(Scope 3)' 표준의 주요 개정 방향을 발표했습니다. 이번 개정은 급변하는 공시 환경에 맞춰 데이터의 정확성과 일관성을 높이고, 기업들이 간접 배출량을 보다 효과적으로 관리할 수 있도록 지원하는 데 중점을 둡니다. 4,000건 이상의 이해관계자 의견을 바탕으로 보고 요건을 명확히 하고 산정 방식의 복잡성을 해결할 계획입니다.</p><h3>주요 포인트</h3><ul><li>데이터 품질 개선 및 가치사슬 배출량 산정의 일관성 강화</li><li>스코프 3 보고 요건의 명확화 및 기업의 이행 부담 완화 방안 모색</li><li>2025년까지 개정 초안 마련 및 추가적인 이해관계자 협의 진행 예정</li></ul><p>원문: <a href="https://www.esgtoday.com/ghg-protocol-outlines-proposed-changes-to-scope-3-reporting-standard/?utm_source=rss&utm_medium=rss&utm_campaign=ghg-protocol-outlines-proposed-changes-to-scope-3-reporting-standard" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 51,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '감축을 넘어: 지속적인 배출 책임(OER)의 역할과 투자 방향',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>기업들이 탄소 중립을 넘어 '지속적인 배출 책임(OER)'이라는 새로운 기후 전략을 도입하고 있습니다. OER은 기업이 배출하는 탄소에 대해 내부적으로 비용을 책정하고, 그 자금을 단순한 상쇄를 넘어 광범위한 기후 솔루션에 투자하는 방식입니다. 이를 통해 기업은 배출량 감축과 동시에 자연 복원, 기술 혁신, 사회적 회복력 강화에 기여할 수 있습니다. 이는 기후 위기에 대한 기업의 책임을 실질적이고 시스템적인 변화로 연결하는 것을 목표로 합니다.</p><h3>주요 포인트</h3><ul><li>전통적인 탄소 상쇄의 한계를 극복하고 실질적인 기후 행동을 이끌어내기 위한 OER 모델의 중요성 강조</li><li>자연 기반 솔루션(NBS)과 혁신적인 탄소 제거 기술(CDR)에 대한 전략적 자금 지원</li><li>기후 취약 지역의 적응력 강화 및 지속 가능한 시스템 전환을 위한 정책 옹호 활동 포함</li></ul><p>원문: <a href="https://www.esgtoday.com/beyond-mitigation-what-can-ongoing-emissions-responsibility-fund/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-mitigation-what-can-ongoing-emissions-responsibility-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 52,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '해양 폭염, 열대 저기압 경제적 피해 \'두 배\'로 키운다',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>해양 폭염 지역을 통과하는 열대 저기압은 에너지를 급격히 흡수하여 강력해지며, 이로 인한 경제적 피해는 일반적인 경우보다 약 두 배 가까이 증가하는 것으로 나타났습니다. 최근 연구에 따르면 해수면 온도의 상승이 태풍의 급격한 강화를 유도하여 인프라 파괴와 복구 비용을 심화시킵니다. 기후 변화로 해양 폭염이 빈번해짐에 따라 열대 저기압에 의한 전 세계적 경제 손실 위험도 더욱 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li>해양 폭염은 열대 저기압에 막대한 에너지를 공급하여 '급격한 강화' 현상을 일으킴</li><li>강화된 저기압은 상륙 시 파괴력을 높여 경제적 손실 규모를 약 2배 증폭시킴</li><li>기후 변화로 인한 해수 온도 상승이 자연재해의 경제적 파급력을 심화시키는 핵심 요인임</li></ul><p>원문: <a href="https://www.carbonbrief.org/marine-heatwaves-nearly-double-the-economic-damage-caused-by-tropical-cyclones/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 53,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '최악의 에너지 위기와 인도의 COP33 유치 철회',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>Carbon Brief의 이번 주 브리핑은 '역대 최악'으로 묘사되는 심각한 글로벌 에너지 위기 상황을 집중 조명합니다. 인도는 2028년 개최 예정인 제33차 유엔기후변화협약 당사국총회(COP33) 유치 계획을 전격 철회하며 국제 사회의 이목을 끌었습니다. 또한, 기후 변화 메시지를 전달하는 새로운 방식으로서 드래그 아티스트들의 활동과 그 영향력을 다루고 있습니다. 이번 호는 기후 정책과 문화적 접근을 아우르는 주요 소식들을 전달합니다.</p><h3>주요 포인트</h3><ul><li>역대 최악의 수준으로 평가받는 글로벌 에너지 위기 심화</li><li>인도의 COP33 유치 신청 철회 및 국제 기후 정치의 변화</li><li>드래그 아티스트를 통한 기후 변화 소통의 새로운 가능성 제시</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-10-april-2026-worst-energy-crisis-ever-india-withdraws-cop33-bid-drag-artists-and-climate-change/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 54,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '카본 브리프, 2026년 기여 편집자 그룹 발표',
+      author: '관리자',
+      date: '2026.04.07',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>기후 전문 매체 카본 브리프(Carbon Brief)가 2026년 활동할 새로운 기여 편집자(Contributing Editors) 그룹을 발표했습니다. 이 그룹은 기후 과학 및 정책 분야의 전문성을 갖춘 국제적인 학자들로 구성되어 편집팀의 보도 활동을 지원합니다. 이들은 기후 변화와 관련된 복잡한 이슈에 대해 심도 있는 분석과 과학적 정확성을 제공하는 중요한 역할을 맡게 됩니다.</p><h3>주요 포인트</h3><ul><li>글로벌 학계 전문가들로 구성된 2026년 기여 편집자 명단 공개</li><li>기후 과학, 에너지 정책 등 다양한 분야의 전문 지식을 통한 보도 품질 강화</li><li>보도의 신뢰성과 객관성을 높이기 위한 국제적 협력 및 검토 체계 구축</li></ul><p>원문: <a href="https://www.carbonbrief.org/introducing-carbon-briefs-2026-cohort-of-contributing-editors/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 46,
       pinned: false,
       category: 'news', categoryName: '소식',
