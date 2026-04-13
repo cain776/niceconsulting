@@ -10,6 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 55,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GEF, 39억 달러 확보... 이전 예산보다 10억 달러 감소',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>지구환경금융(GEF)이 자금 조달 마감 시한을 앞두고 39억 달러를 모금했으나, 이는 이전 예산 규모보다 10억 달러나 낮은 수준입니다. 주요 기부국들이 원조 예산을 삭감하면서 자연 보호 및 기후 변화 대응을 위한 재원 확보에 어려움을 겪고 있습니다. 이번 4개년 자금 지원 패키지는 오는 5월 말에 최종 확정될 예정입니다.</p><h3>주요 포인트</h3><ul><li>GEF 모금액 39억 달러 기록, 이전 예산 대비 10억 달러 감소</li><li>기부국들의 원조 예산 삭감으로 인한 환경 및 기후 금융 위축</li><li>5월 말 최종 확정될 4개년 자금 패키지와 향후 대응 과제</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/10/gef-raises-3bn-funding-deadline-1bn-below-previous-budget-nature-environment-finance/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 56,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '글로벌 로드맵을 통한 산림 파괴 중단 약속 이행 방안',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>산림 파괴를 중단하겠다는 글로벌 약속을 실현하기 위해서는 강력한 정치적 의지와 더불어 각국의 노력을 통합하고 이행을 촉진할 수 있는 구체적인 경로가 필수적입니다. 브라질이 주도하는 국제 로드맵은 파편화된 노력을 결집하여 전 지구적 산림 보호 공약을 재활성화하는 핵심 동력이 될 수 있습니다. 이 로드맵은 2030년까지 산림 손실을 멈추기 위한 목표 달성에 있어 실질적인 실행 지침을 제공할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>정치적 의지 결집과 통합된 이행 경로의 필요성 강조</li><li>브라질 주도 로드맵을 통한 글로벌 산림 보호 공약의 구체화 및 재건</li><li>단순한 선언을 넘어 실질적인 실행과 성과 도출을 위한 프레임워크 구축</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/10/how-a-brazil-led-roadmap-can-rescue-global-pledge-to-halt-deforestation/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 57,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국 수입 \'친환경\' 항공유, 아마존 삼림 파괴와 연관',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>영국으로 수입되는 지속가능항공유(SAF)가 아마존 삼림 파괴와 연관되어 있다는 의혹이 제기되었습니다. 텍사스의 한 정유소가 유럽으로 수출하는 SAF의 원료인 쇠고기 기름(우지)이 불법 가축 구매로 벌금을 받은 육가공 업체와 연결된 것으로 나타났습니다. 이는 친환경 연료로 홍보되는 SAF의 공급망 투명성에 대한 우려를 낳고 있습니다. 이번 사례는 항공 산업의 탄소 중립 노력이 의도치 않게 환경 파괴를 부추길 수 있음을 시사합니다.</p><h3>주요 포인트</h3><ul><li>텍사스 정유소가 공급하는 SAF의 원료인 우지가 아마존 파괴와 연관된 브라질 육가공 업체에서 유래함</li><li>해당 육가공 업체는 불법 삼림 벌채 지역에서 가축을 구매한 혐의로 벌금을 부과받은 전력이 있음</li><li>친환경 항공유의 공급망 투명성 문제와 실제 환경 보호 효과에 대한 비판이 제기됨</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/10/uk-imports-of-green-jet-fuel-linked-to-amazon-deforestation/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 58,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이탈리아, 가스 가격 상승으로 석탄 발전 퇴출 연기',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>이탈리아 정부가 천연가스 가격 급등에 따른 에너지 비용 부담을 완화하기 위해 당초 계획했던 석탄 발전 퇴출 시점을 연기하기로 결정했습니다. 분석가들은 이번 조치가 기후 위기 대응에 있어 부정적인 신호를 보낼 수 있다고 우려하고 있습니다. 다만, 이탈리아의 전체 에너지 믹스에서 석탄이 차지하는 비중이 매우 낮기 때문에 실질적인 환경적 영향은 제한적일 것으로 분석됩니다.</p><h3>주요 포인트</h3><ul><li>천연가스 가격 상승에 대응하여 에너지 안보와 비용 절감을 위해 석탄 발전 유지 결정</li><li>글로벌 탈탄소화 흐름에 역행한다는 비판과 함께 기후 정책의 신뢰도 저하 우려</li><li>이탈리아 에너지 구조상 석탄 비중이 미미하여 실제 탄소 배출에 미치는 타격은 크지 않을 전망</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/09/italy-pushes-coal-exit-back-after-gas-prices-rise/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 50,
       pinned: false,
       category: 'news', categoryName: '소식',
