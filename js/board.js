@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 59,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '트리오도스 IM-퐁닥시옹, 3억 유로 규모 자연자본 펀드 출시',
+      author: '관리자',
+      date: '2026.04.13',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>임팩트 투자 운용사인 트리오도스 IM과 퐁닥시옹 자산운용(FAM)이 생물다양성 보존과 기후 회복력 강화를 위해 3억 유로 규모의 '트리오도스 퐁닥시옹 자연자본 펀드'를 출시했습니다. 이 펀드는 자연 생태계를 보호하고 복원하는 동시에 재무적 수익을 창출하는 프로젝트에 투자하는 것을 목표로 합니다. 주요 투자 분야는 지속 가능한 농업, 임업 및 자연 기반 솔루션이며, 이를 통해 전 세계적인 자연 자본 금융 격차를 해소하는 데 기여할 전망입니다.</p><h3>주요 포인트</h3><ul><li>네덜란드 트리오도스 IM과 캐나다 퐁닥시옹의 협력으로 조성된 3억 유로 규모의 임팩트 펀드</li><li>생물다양성 손실 방지, 토양 건강 회복 및 탄소 흡수원 보호를 위한 프로젝트에 집중 투자</li><li>지속 가능한 식량 시스템과 산림 경영 등 실질적인 자연 기반 솔루션 구축 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/triodos-im-fondaction-launch-new-e300-million-natural-capital-fund/?utm_source=rss&utm_medium=rss&utm_campaign=triodos-im-fondaction-launch-new-e300-million-natural-capital-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 60,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '롤스로이스, 영국 최초 소형 모듈형 원자로(SMR) 공급 계약 체결',
+      author: '관리자',
+      date: '2026.04.13',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>롤스로이스 SMR이 영국 정부 산하 기구인 '그레이트 브리티시 뉴클리어(GBN)'와 소형 모듈형 원자로(SMR) 공급을 위한 계약을 체결했습니다. 이번 협력은 영국의 2050년 넷제로 달성과 에너지 안보 강화를 위한 국가적 전략의 일환입니다. SMR은 기존 대형 원전보다 건설이 빠르고 비용 효율적이어서 차세대 청정 에너지 솔루션으로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>영국 정부의 SMR 기술 경쟁에서 롤스로이스 SMR이 선정되어 기술 도입 본격화</li><li>공장 제작형 모듈 방식을 통해 건설 기간 단축 및 경제성 확보</li><li>영국 내 수천 개의 고숙련 일자리 창출 및 원자력 발전 비중 확대 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/rolls-royce-signs-deal-with-uk-to-deliver-fleet-of-small-modular-nuclear-reactors/?utm_source=rss&utm_medium=rss&utm_campaign=rolls-royce-signs-deal-with-uk-to-deliver-fleet-of-small-modular-nuclear-reactors" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 61,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'JP모건, 8만 5천 톤 규모 산림 기반 탄소 제거 계약 체결',
+      author: '관리자',
+      date: '2026.04.13',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>JP모건 체이스가 기후 솔루션 기업 어뉴 클라이밋(Anew Climate) 및 오로라 서스테이너블 랜즈(Aurora Sustainable Lands)와 협력하여 8만 5천 톤 규모의 산림 기반 탄소 제거 크레딧을 구매하기로 했습니다. 이번 계약은 미국 내 대규모 산림 관리 개선(IFM) 프로젝트를 통해 생성된 탄소 제거량을 확보하는 것을 골자로 합니다. 이는 JP모건의 자체 운영 탄소 발자국을 상쇄하고 고품질 탄소 제거 시장을 지원하기 위한 전략적 행보입니다.</p><h3>주요 포인트</h3><ul><li>JP모건, 어뉴 클라이밋 및 오로라와 8만 5천 톤 규모의 탄소 제거 크레딧 구매 계약 체결</li><li>미국 내 170만 에이커 이상의 산림을 대상으로 하는 산림 관리 개선(IFM) 프로젝트 기반</li><li>기업의 탄소 중립 목표 달성 및 지속 가능한 산림 보존을 위한 금융권의 대규모 투자 사례</li></ul><p>원문: <a href="https://www.esgtoday.com/jpmorgan-signs-85000-ton-forest-based-carbon-removal-deal/?utm_source=rss&utm_medium=rss&utm_campaign=jpmorgan-signs-85000-ton-forest-based-carbon-removal-deal" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 62,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '임팩트 VC 에카, 탈탄소·건강 펀드에 1억 700만 달러 유치',
+      author: '관리자',
+      date: '2026.04.13',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>영국 기반의 임팩트 벤처캐피털 에카 벤처스(Eka Ventures)가 소비자 건강 및 탈탄소화 솔루션에 투자하기 위해 8,000만 파운드(약 1억 700만 달러) 규모의 펀드를 조성했습니다. 이 펀드는 지속 가능한 소비와 건강한 경제를 구축하려는 초기 단계의 기술 기업들을 지원하는 데 집중할 예정입니다. 에카 벤처스는 이번 자금을 통해 기후 변화 대응과 대중의 건강 증진을 동시에 달성하는 혁신적인 비즈니스 모델을 발굴할 계획입니다.</p><h3>주요 포인트</h3><ul><li>영국 비즈니스 은행(BBB) 등 주요 기관이 참여한 8,000만 파운드 규모 펀드 조성</li><li>탈탄소화, 소비자 건강, 지속 가능한 소비 시스템을 3대 핵심 투자 분야로 설정</li><li>시드(Seed) 및 시리즈 A 단계의 초기 기술 기업을 대상으로 집중 투자 진행</li></ul><p>원문: <a href="https://www.esgtoday.com/impact-vc-investor-eka-raises-107-million-for-fund-targeting-consumer-health-decarbonization-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=impact-vc-investor-eka-raises-107-million-for-fund-targeting-consumer-health-decarbonization-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 63,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, 탄소 제거 크레딧 구매 일시 중단',
+      author: '관리자',
+      date: '2026.04.13',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트가 탄소 제거(CDR) 크레딧 공급업체들에게 신규 구매를 일시 중단한다고 통보한 것으로 알려졌습니다. 세계 최대의 탄소 제거 구매자 중 하나인 마이크로소프트의 이번 결정은 초기 단계인 탄소 제거 시장에 상당한 파장을 일으키고 있습니다. 이번 조치는 내부 전략 검토 및 기존 구매 물량 관리를 위한 것으로 풀이되나, 2030년 탄소 네거티브 달성이라는 장기 목표는 여전히 유지하고 있습니다.</p><h3>주요 포인트</h3><ul><li>탄소 제거(CDR) 크레딧 신규 구매 계약의 일시적 중단 통보</li><li>시장 선도 기업의 행보로 인한 탄소 제거 시장의 불확실성 증대</li><li>2030년 탄소 네거티브 목표 달성을 위한 장기적 의지는 지속</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-pauses-carbon-removal-purchases-reports/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-pauses-carbon-removal-purchases-reports" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 55,
       pinned: false,
       category: 'news', categoryName: '소식',
