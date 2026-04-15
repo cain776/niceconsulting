@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 64,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엔비전, BBVA와 5억 달러 규모 녹색 에너지 금융 협약 체결',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 녹색 기술 기업인 엔비전(Envision)이 스페인 은행 BBVA로부터 5억 달러 규모의 금융 지원을 확보했습니다. 이번 자금은 엔비전의 넷제로 기술 플랫폼을 전 세계적으로 확장하고 풍력 발전, 에너지 저장 시스템(ESS), 그린 수소 솔루션의 보급을 가속화하는 데 사용될 예정입니다. 양사는 이번 전략적 파트너십을 통해 글로벌 에너지 전환을 지원하고 지속 가능한 미래를 구축하는 데 협력하기로 했습니다.</p><h3>주요 포인트</h3><ul><li>BBVA, 엔비전의 글로벌 확장 지원을 위해 5억 달러 규모의 벤더 파이낸싱 제공</li><li>풍력, 에너지 저장, 그린 수소 등 핵심 넷제로 기술 솔루션의 고도화 및 보급 확대</li><li>전략적 협력을 통한 글로벌 에너지 전환 가속화 및 지속 가능성 목표 달성 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/envision-secures-500-million-financing-with-bbva-to-expand-green-energy-tech-platform/?utm_source=rss&utm_medium=rss&utm_campaign=envision-secures-500-million-financing-with-bbva-to-expand-green-energy-tech-platform" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 65,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아홀드 델레이즈, 제품 탄소 발자국 측정 시스템 도입',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>네덜란드의 글로벌 식품 유통 기업 아홀드 델레이즈(Ahold Delhaize)가 개별 제품의 탄소 배출량을 측정하는 '제품 탄소 발자국(PCF)' 시스템을 도입한다고 발표했습니다. 이번 조치는 고객이 환경에 미치는 영향을 고려해 제품을 선택할 수 있도록 돕고, 기업의 공급망 전반에서 발생하는 탄소 배출량을 투명하게 관리하기 위해 추진되었습니다. 이를 통해 아홀드 델레이즈는 2050년 넷제로 목표 달성을 가속화하고 스코프 3(Scope 3) 배출량을 효과적으로 감축할 계획입니다.</p><h3>주요 포인트</h3><ul><li>개별 제품 단위의 탄소 배출량 측정 및 데이터 공개 시스템 구축</li><li>2050년 넷제로 달성을 위한 공급망 전반의 탄소 감축 전략 강화</li><li>자체 브랜드(PB) 상품부터 우선 적용하여 소비자에게 지속 가능한 선택지 제공</li></ul><p>원문: <a href="https://www.esgtoday.com/ahold-delhaize-to-introduce-product-carbon-footprinting/?utm_source=rss&utm_medium=rss&utm_campaign=ahold-delhaize-to-introduce-product-carbon-footprinting" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 66,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ISO-GHG 프로토콜, 제품 단위 온실가스 산정 표준 통합 추진',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>국제표준화기구(ISO)와 온실가스 프로토콜(GHG Protocol)이 제품 수준의 온실가스 배출량 산정 및 보고를 위한 통합 표준을 개발하기 위해 공동 워킹그룹을 출범했습니다. 이번 협력은 기존의 다양한 산정 기준들 사이의 불일치를 해소하고, 전 세계적으로 통용되는 단일화된 방법론을 구축하는 것을 목표로 합니다. 이를 통해 기업들은 공급망 전반의 탄소 발자국을 보다 명확하게 측정하고 공시할 수 있게 될 전망입니다.</p><h3>주요 포인트</h3><ul><li>ISO와 GHG 프로토콜의 협력을 통한 제품 탄소 발자국 산정 표준의 글로벌 통합 추진</li><li>기존 ISO 14067과 GHG 프로토콜 제품 표준 간의 상호 운용성 및 일관성 강화</li><li>기업의 공시 복잡성 해소 및 글로벌 공급망 내 탄소 데이터의 투명성과 비교 가능성 제고</li></ul><p>원문: <a href="https://www.esgtoday.com/iso-ghg-protocol-launch-working-group-to-develop-product-level-ghg-accounting-standard/?utm_source=rss&utm_medium=rss&utm_campaign=iso-ghg-protocol-launch-working-group-to-develop-product-level-ghg-accounting-standard" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 67,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트 "탄소 제거 프로그램 중단 없이 지속될 것"',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트는 자사의 탄소 제거 프로그램이 종료되지 않았으며, 2030년 탄소 네거티브 목표 달성을 위해 핵심적인 역할을 계속 수행할 것이라고 공식 확인했습니다. 최근 프로그램 중단에 대한 우려가 제기되었으나, 회사는 고품질 탄소 제거 기술에 대한 투자를 오히려 강화하고 있다는 입장입니다. 마이크로소프트는 단순한 탄소 상쇄를 넘어 직접 공기 포집(DAC) 등 혁신적인 기술을 통해 실질적인 탄소 제거를 추진하고 있습니다.</p><h3>주요 포인트</h3><ul><li>2030년 탄소 네거티브 및 2050년 역사적 배출량 전량 제거 목표 재확인</li><li>직접 공기 포집(DAC) 및 바이오에너지 탄소 포집(BECCS) 등 고품질 탄소 제거(CDR) 시장 주도</li><li>대규모 탄소 제거 크레딧 구매 계약을 통해 관련 산업 생태계 확장 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-says-its-carbon-removal-program-has-not-ended/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-says-its-carbon-removal-program-has-not-ended" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 68,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메이커사이트, 지멘스의 탄소 발자국 플랫폼 SiGREEN 인수',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>공급망 데이터 전문 기업 메이커사이트(Makersite)가 지멘스의 제품 탄소 발자국(PCF) 관리 플랫폼인 SiGREEN을 인수했습니다. 이번 인수를 통해 메이커사이트는 제품 수명 주기 전반에 걸친 탄소 배출 추적 역량을 강화하고, 기업들이 공급망 내 실제 데이터를 기반으로 정확한 탄소 발자국을 산출할 수 있도록 지원할 계획입니다. 지멘스는 플랫폼 매각 이후에도 메이커사이트의 전략적 파트너이자 고객으로 남아 협력을 지속할 예정입니다.</p><h3>주요 포인트</h3><ul><li>메이커사이트의 AI 기반 공급망 데이터와 SiGREEN의 탄소 추적 기술 결합</li><li>공급망 전체의 실제 배출 데이터를 활용한 제품 탄소 발자국(PCF) 측정의 정밀화</li><li>지멘스와의 파트너십 유지를 통한 산업용 지속가능성 솔루션 생태계 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/makersite-acquires-product-carbon-footprint-platform-sigreen-from-siemens/?utm_source=rss&utm_medium=rss&utm_campaign=makersite-acquires-product-carbon-footprint-platform-sigreen-from-siemens" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 59,
       pinned: false,
       category: 'news', categoryName: '소식',
