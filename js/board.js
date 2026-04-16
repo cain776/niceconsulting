@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 69,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '리비안, 폐배터리 재활용 시스템으로 전기차 공장 가동',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>미국 전기차 제조사 리비안(Rivian)이 배터리 재활용 전문 기업 레드우드 머티리얼즈(Redwood Materials)와 협력하여 일리노이주 제조 공장에 재활용 배터리를 활용한 에너지 저장 시스템(ESS)을 도입합니다. 이번 파트너십은 공장 운영에 필요한 재생 에너지를 효율적으로 관리하고 전력망의 안정성을 확보하는 것을 목표로 합니다. 양사는 배터리 수명이 다한 소재를 회수하여 다시 에너지 저장 장치로 재탄생시킴으로써 배터리 산업의 순환 경제 모델을 실현하고자 합니다.</p><h3>주요 포인트</h3><ul><li>리비안 일리노이 공장에 레드우드 머티리얼즈의 재활용 배터리 기반 ESS 구축</li><li>재생 에너지 활용 극대화 및 피크 시간대 전력 수요 관리로 운영 효율성 제고</li><li>배터리 소재의 폐쇄 루프(Closed-loop) 시스템 구축을 통한 제조 과정의 탄소 발자국 감축</li></ul><p>원문: <a href="https://www.esgtoday.com/rivian-partners-with-redwood-materials-to-power-ev-plant-with-recycled-batteries/?utm_source=rss&utm_medium=rss&utm_campaign=rivian-partners-with-redwood-materials-to-power-ev-plant-with-recycled-batteries" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 70,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ISS, \'반(反)경영진 투표 권고\' 규제한 인디애나주에 소송 제기',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>세계적인 의결권 자문사 ISS가 인디애나주의 새로운 '반(反) ESG' 성격의 법률에 대해 위헌 소송을 제기했습니다. 해당 법률은 자문사가 기업 경영진의 의사에 반하는 투표를 권고할 경우 이를 별도로 공시하도록 강제하는 내용을 담고 있습니다. ISS는 이 법이 수정헌법 제1조에 명시된 표현의 자유를 침해하며, 규정 자체가 모호하여 정상적인 자문 활동을 방해한다고 주장합니다. 이번 소송은 미국 내 공화당 주도 주정부들이 추진하는 ESG 규제 움직임에 대한 강력한 법적 대응으로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>인디애나주 하원 법안 1008호(HB 1008)의 위헌성 여부를 두고 법적 공방 시작</li><li>ISS, 해당 법률이 자문사의 독립적인 의결권 행사 권고를 부당하게 간섭한다고 비판</li><li>미국 내 ESG 투자 및 자문 활동을 둘러싼 정치적·법적 갈등 심화 양상</li></ul><p>원문: <a href="https://www.esgtoday.com/iss-sues-indiana-over-new-law-mandating-disclosures-for-proxy-advice-against-management/?utm_source=rss&utm_medium=rss&utm_campaign=iss-sues-indiana-over-new-law-mandating-disclosures-for-proxy-advice-against-management" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 71,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '헨켈, 2030 기후·순환성·공급망 지속가능성 목표 발표',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 소비재 및 산업용 제품 기업 헨켈(Henkel)이 기후 보호와 순환 경제 강화를 위한 '2030+ 지속가능성 야망 프레임워크'의 신규 목표를 공개했습니다. 헨켈은 2045년까지 가치 사슬 전반에서 넷제로를 달성하고, 2030년까지 전 세계 사업장 전력을 100% 재생 에너지로 전환할 방침입니다. 또한 포장재의 재활용성을 높이고 공급망 내 책임 있는 원자재 조달을 확대하는 등 환경 및 사회적 책임을 통합적으로 관리할 계획입니다.</p><h3>주요 포인트</h3><ul><li>2045년까지 전 가치 사슬 넷제로 달성 및 2030년 재생 에너지 100% 전환</li><li>2025년까지 포장재 100% 재활용·재사용 설계 및 신규 플라스틱 사용 50% 감축</li><li>팜유 및 종재 등 핵심 원자재 100% 책임 조달 및 경영진 성별 균형 추진</li></ul><p>원문: <a href="https://www.esgtoday.com/henkel-unveils-new-2030-climate-circularity-supply-chain-sustainability-targets/?utm_source=rss&utm_medium=rss&utm_campaign=henkel-unveils-new-2030-climate-circularity-supply-chain-sustainability-targets" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 72,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'DHL-IAG 카고, 항공 탄소 감축 위해 5년 SAF 도입 계약 체결',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 물류 기업 DHL과 IAG 카고가 항공 화물 운송 과정에서 발생하는 탄소 배출을 줄이기 위해 5년 기간의 지속가능항공유(SAF) 사용 계약을 체결했습니다. 이번 계약을 통해 DHL은 약 6,000만 리터의 SAF를 확보하게 되며, 이는 약 16만 톤의 이산화탄소 배출량을 감축하는 효과가 있을 것으로 기대됩니다. 이는 화물 운송업체와 항공사 그룹 간 체결된 역대 최대 규모의 SAF 계약 중 하나로, 양사의 지속가능성 목표 달성에 중요한 이정표가 될 전망입니다.</p><h3>주요 포인트</h3><ul><li>5년간 약 6,000만 리터의 SAF를 도입하여 항공 화물 탄소 배출량 16만 톤 감축 예정</li><li>폐식용유 및 음식물 쓰레기 등 폐기물 원료 기반의 SAF를 사용하여 기존 항공유 대비 탄소 배출 대폭 절감</li><li>DHL의 2030년까지 SAF 혼합 비중 30% 달성 목표 및 IAG의 지속가능 경영 전략의 일환</li></ul><p>원문: <a href="https://www.esgtoday.com/dhl-iag-cargo-sign-5-year-deal-to-use-sustainable-aviation-fuel-for-air-freight/?utm_source=rss&utm_medium=rss&utm_campaign=dhl-iag-cargo-sign-5-year-deal-to-use-sustainable-aviation-fuel-for-air-freight" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 73,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EFRAG, 지속가능성 보고 위원회 신임 의장에 케르스틴 로파타 임명',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽 재무보고자문그룹(EFRAG)은 지속가능성 보고 위원회(SRB)의 신임 의장으로 케르스틴 로파타(Kerstin Lopatta) 교수를 임명했습니다. 로파타 의장은 이전 SRB 부의장으로서 유럽 지속가능성 공시 표준(ESRS) 개발에 핵심적인 역할을 수행해 왔으며, 패트릭 드 캠부르의 뒤를 이어 위원회를 이끌게 됩니다. 이번 인사는 EFRAG가 표준 수립 단계를 넘어 기업들의 실제 이행 지원과 부문별 표준 개발에 집중하는 중요한 전환기에 이루어졌습니다.</p><h3>주요 포인트</h3><ul><li>케르스틴 로파타, EFRAG 지속가능성 보고 위원회(SRB)의 신임 의장으로 선임</li><li>함부르크 대학교 교수이자 ESRS 개발에 참여해 온 지속가능성 보고 전문가</li><li>기업 지속가능성 보고 지침(CSRD) 이행을 위한 기술적 자문 및 표준화 작업 주도 예정</li></ul><p>원문: <a href="https://www.esgtoday.com/efrag-appoints-kerstin-lopatta-as-new-chair-of-sustainability-reporting-board/?utm_source=rss&utm_medium=rss&utm_campaign=efrag-appoints-kerstin-lopatta-as-new-chair-of-sustainability-reporting-board" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 64,
       pinned: false,
       category: 'news', categoryName: '소식',
