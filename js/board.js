@@ -10,6 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 74,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엑소매드 그린-슈퍼크리티컬, 50만 톤 규모 바이오차 탄소 제거 협약',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>탄소 제거 기업 엑소매드 그린과 탄소 제거 마켓플레이스 슈퍼크리티컬이 50만 톤 규모의 바이오차(Biochar) 탄소 제거권 공급 계약을 체결했습니다. 이번 협약은 바이오차 산업 역사상 최대 규모 중 하나로, 기업들이 기후 목표를 달성할 수 있도록 고품질의 탄소 제거 크레딧을 제공하는 것을 목표로 합니다. 엑소매드 그린은 볼리비아의 지속 가능한 목재 폐기물을 활용해 탄소를 수백 년간 격리하는 동시에 토양 질을 개선하는 바이오차를 생산합니다.</p><h3>주요 포인트</h3><ul><li>역대 최대 규모 중 하나인 50만 톤의 바이오차 탄소 제거 크레딧 거래</li><li>볼리비아 내 지속 가능한 산림 폐기물을 활용한 친환경 바이오차 생산 방식 채택</li><li>기업들의 넷제로(Net Zero) 달성을 위한 고품질 탄소 제거 솔루션 공급 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/exomad-green-supercritical-sign-500000-ton-biochar-carbon-removal-agreement/?utm_source=rss&utm_medium=rss&utm_campaign=exomad-green-supercritical-sign-500000-ton-biochar-carbon-removal-agreement" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 75,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '글래스 루이스, 투자자용 기후 전략 평가 솔루션 출시',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 의결권 자문사 글래스 루이스가 투자자들이 기업의 기후 전환 계획과 이행 성과를 정밀하게 평가할 수 있도록 돕는 '기후 전략 평가(Climate Strategy Assessment)' 솔루션을 출시했습니다. 이 솔루션은 기업의 탄소 감축 목표, 기후 거버넌스, 공시 수준을 분석하여 데이터 기반의 통찰력을 제공합니다. 이를 통해 투자자들은 '기후에 대한 주주투표(Say on Climate)' 등 의결권 행사 시 보다 객관적이고 정보에 입각한 의사결정을 내릴 수 있게 되었습니다.</p><h3>주요 포인트</h3><ul><li>기업의 기후 전환 계획 및 넷제로 목표 달성 가능성에 대한 정량적·정성적 분석 제공</li><li>TCFD 및 ISSB 등 글로벌 공시 표준을 반영하여 투자자에게 일관된 평가 프레임워크 지원</li><li>의결권 행사 및 기업 관여(Engagement) 전략 수립을 위한 전문적인 벤치마크 데이터 활용 가능</li></ul><p>원문: <a href="https://www.esgtoday.com/glass-lewis-launches-new-climate-strategy-assessment-solution-for-investors/?utm_source=rss&utm_medium=rss&utm_campaign=glass-lewis-launches-new-climate-strategy-assessment-solution-for-investors" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 76,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존, 호주 데이터 센터용 대규모 재생에너지 계약 체결',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>아마존이 호주 내 데이터 센터와 운영 시설에 전력을 공급하기 위해 9개의 새로운 전력 구매 계약(PPA)을 체결했습니다. 이번 계약을 통해 확보한 약 1GW 규모의 청정에너지는 아마존의 호주 내 재생에너지 용량을 기존 대비 대폭 확대할 전망입니다. 아마존은 이를 통해 2025년까지 전 세계 운영 전력의 100%를 재생에너지로 전환하겠다는 목표에 한 걸음 더 다가섰습니다.</p><h3>주요 포인트</h3><ul><li>호주 뉴사우스웨일스, 퀸즐랜드, 빅토리아주 전역에서 총 1GW 규모의 신규 태양광 및 풍력 프로젝트 확보</li><li>2025년까지 기업 운영 전력 100%를 재생에너지로 충당하겠다는 조기 목표 달성 가속화</li><li>세계 최대의 재생에너지 구매 기업으로서 호주 전력망의 탄소 집약도 감소 및 에너지 전환 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/amazon-signs-new-series-of-clean-energy-deals-to-power-data-centers-in-australia/?utm_source=rss&utm_medium=rss&utm_campaign=amazon-signs-new-series-of-clean-energy-deals-to-power-data-centers-in-australia" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 77,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EBA, 은행권 ESG 감독 보고 요건 대폭 간소화 제안',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽은행감독청(EBA)이 은행들의 ESG 관련 감독 보고 및 공시 요건을 대폭 간소화하는 방안을 발표했습니다. 이번 제안은 EU의 보고 부담을 25% 감축하려는 목표의 일환으로, 중복되는 공시 항목을 통합하고 데이터 요구 사항을 줄이는 데 중점을 둡니다. 이를 통해 은행권의 행정적 부담을 완화하고 최신 EU 지속가능성 표준과의 정합성을 높일 계획입니다.</p><h3>주요 포인트</h3><ul><li>Pillar 3 공시와 감독 보고 체계의 통합 및 간소화 추진</li><li>중소형 금융기관(SNCI)에 대한 비례성 원칙 적용 및 보고 요건 완화</li><li>CSRD 및 ESRS 등 최신 EU 규제 체계와 일치하도록 보고 템플릿 재정비</li></ul><p>원문: <a href="https://www.esgtoday.com/eba-proposes-major-simplification-for-esg-supervisory-reporting-requirements-for-banks/?utm_source=rss&utm_medium=rss&utm_campaign=eba-proposes-major-simplification-for-esg-supervisory-reporting-requirements-for-banks" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 69,
       pinned: false,
       category: 'news', categoryName: '소식',
