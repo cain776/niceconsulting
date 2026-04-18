@@ -10,6 +10,51 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 78,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'BTG 팍투알, 남미 산림 복원 위해 3억 7천만 달러 조달',
+      author: '관리자',
+      date: '2026.04.17',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>BTG 팍투알 산림투자그룹(TIG)이 라틴아메리카의 황폐화된 토지 복원과 지속 가능한 산림 관리를 위해 3억 7,000만 달러의 자금을 조달했습니다. 이 전략은 브라질 등지의 퇴화된 목초지를 매입하여 자생림을 복원하고 상업용 산림을 조성하는 것을 목표로 합니다. 이를 통해 탄소 격리와 생물다양성 보존이라는 환경적 가치와 경제적 수익을 동시에 창출할 계획입니다.</p><h3>주요 포인트</h3><ul><li>영국 국제투자공사(BII) 등 주요 기관 투자자들이 참여하여 총 10억 달러 목표 중 초기 자금을 확보했습니다.</li><li>약 135,000 헥타르의 토지를 대상으로 자생림 복원 및 지속 가능한 목재 생산용 산림 조성을 추진합니다.</li><li>수백만 톤의 이산화탄소를 흡수하고 수천 개의 일자리를 창출하여 지역 경제와 기후 위기 대응에 기여할 전망입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/btg-pactual-tig-raises-370-million-for-latin-america-timberland-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=btg-pactual-tig-raises-370-million-for-latin-america-timberland-strategy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 79,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마스트 리포레스트레이션, 美 재조림 탄소 크레딧 6주 만에 완판',
+      author: '관리자',
+      date: '2026.04.17',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>산불 피해 복구 전문 기업 마스트 리포레스트레이션(Mast Reforestation)이 미국 몬태나주에서 진행한 '쉽 크리크(Sheep Creek)' 재조림 프로젝트의 탄소 제거 크레딧을 출시 6주 만에 전량 판매했습니다. 이번 프로젝트는 산불로 파괴된 사유지를 복구하여 탄소를 흡수하는 자연 기반 솔루션으로, 고품질 탄소 크레딧에 대한 기업들의 강력한 수요를 입증했습니다. 마스트는 종자 채취부터 묘목 식재까지 전 과정을 수직 통합하여 산림 복구의 효율성을 극대화하고 있습니다.</p><h3>주요 포인트</h3><ul><li>몬태나주 산불 피해 지역 복구를 위한 재조림 탄소 크레딧 100% 판매 달성</li><li>제품 출시 후 단 6주 만에 완판되며 고품질 자연 기반 탄소 제거 시장의 높은 관심 증명</li><li>종자 확보, 묘목 재배, 식재를 아우르는 수직 통합 모델을 통해 복구 속도와 규모 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/mast-reforestation-sells-out-carbon-credits-from-u-s-reforestation-project-in-6-weeks/?utm_source=rss&utm_medium=rss&utm_campaign=mast-reforestation-sells-out-carbon-credits-from-u-s-reforestation-project-in-6-weeks" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 80,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '화석연료 발전 감소와 슈퍼 엘니뇨 경고',
+      author: '관리자',
+      date: '2026.04.17',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 싱크탱크 엠버(Ember)의 보고서에 따르면, 재생에너지의 급격한 성장으로 인해 전 세계 화석연료 발전 비중이 감소하고 있습니다. 한편, 과학자들은 기록적인 기온 상승에 이어 강력한 '슈퍼 엘니뇨'가 발생할 가능성을 경고하며 기후 위기의 심각성을 강조했습니다. 또한, 아프가니스탄은 극심한 기후 변화의 영향을 받고 있음에도 불구하고 정치적 상황으로 인해 국제적인 기후 금융 지원에서 소외되어 이중고를 겪고 있습니다.</p><h3>주요 포인트</h3><ul><li>재생에너지 확대에 따른 전 세계 화석연료 발전량의 유의미한 감소 추세</li><li>역대급 고온 현상과 결합된 '슈퍼 엘니뇨' 발생 가능성에 대한 과학계의 경고</li><li>기후 위기 취약국인 아프가니스탄의 인도적 위기와 국제 지원 단절 문제</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-17-april-2024-fossil-fuel-power-slumps-super-el-nino-warning-afghanistans-climate-struggle/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 74,
       pinned: false,
       category: 'news', categoryName: '소식',
