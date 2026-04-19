@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 81,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '지속가능성 공시, 불완전한 데이터라도 시작이 중요하다',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>최근 지속가능성 공시 규제가 강화되면서 완벽한 데이터에 대한 압박이 커지고 있으나, 현실적으로 비재무 데이터는 추정치와 외부 의존도가 높아 완벽할 수 없습니다. 전문가들은 완벽한 데이터를 기다리기보다 현재 가용한 정보를 바탕으로 공시를 시작하고 점진적으로 품질을 개선해 나가는 과정이 더 중요하다고 강조합니다. 데이터의 한계를 투명하게 공개하고 체계적인 관리 프로세스를 구축하는 것이 공시의 신뢰성을 확보하는 현실적인 방안입니다.</p><h3>주요 포인트</h3><ul><li>지속가능성 데이터는 재무 데이터와 달리 측정 방식의 복잡성으로 인해 본질적으로 불완전할 수 있음을 인정해야 합니다.</li><li>불완전한 데이터라도 기업의 ESG 성과를 파악하고 의사결정을 내리는 데 유용한 기초 자료가 되며, 공시 반복을 통해 정확도를 높일 수 있습니다.</li><li>데이터의 출처와 한계를 명확히 밝히는 투명성이 중요하며, 재무 전문가의 분석 역량을 활용해 비재무 정보의 신뢰성을 보완해야 합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/sustainability-reporting-is-built-on-imperfect-data-and-thats-okay/?utm_source=rss&utm_medium=rss&utm_campaign=sustainability-reporting-is-built-on-imperfect-data-and-thats-okay" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 82,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '골드만삭스 지원 LRQA, \'파트너 아프리카\' 인수',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>런던에 본사를 둔 글로벌 인증 서비스 기업 LRQA가 아프리카의 책임 경영 및 윤리적 소싱 자문 기관인 '파트너 아프리카(Partner Africa)'를 인수했습니다. 이번 인수는 글로벌 공급망의 투명성과 인권 실사에 대한 수요가 급증하는 가운데, LRQA의 ESG 자문 역량을 아프리카 전역으로 확대하기 위해 추진되었습니다. 파트너 아프리카는 아프리카 40개국 이상에서 활동하며 노동 조건 개선과 지속 가능한 무역을 지원해온 전문성을 보유하고 있습니다.</p><h3>주요 포인트</h3><ul><li>LRQA의 글로벌 공급망 실사 및 ESG 자문 서비스 포트폴리오 강화</li><li>아프리카 40개국 이상을 아우르는 윤리적 소싱 및 인권 보호 전문성 확보</li><li>골드만삭스 자산운용의 지원을 바탕으로 한 LRQA의 전략적 시장 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/goldman-sachs-backed-lrqa-acquires-responsible-sourcing-advisory-partner-africa/?utm_source=rss&utm_medium=rss&utm_campaign=goldman-sachs-backed-lrqa-acquires-responsible-sourcing-advisory-partner-africa" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 83,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '헝가리 오르반의 선거 패배와 기후·에너지 정책 전망',
+      author: '관리자',
+      date: '2026.04.17',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>헝가리 유럽의회 선거에서 페테르 머저르가 이끄는 야당이 집권 여당인 피데스(Fidesz)에 큰 타격을 입히며 정치 지형이 변화하고 있습니다. 오르반 정부는 그동안 친러시아 에너지 정책과 EU 기후 정책에 회의적인 태도를 보여왔으나, 이번 선거 결과로 인해 정책 변화의 압박을 받게 되었습니다. 새로운 정치 세력의 등장은 헝가리의 에너지 안보와 EU 그린딜 이행에 있어 중대한 전환점이 될 것으로 전망됩니다.</p><h3>주요 포인트</h3><ul><li>페테르 머저르의 티사(Tisza) 당이 부상하며 오르반 총리의 장기 독주 체제에 강력한 제동을 걸었습니다.</li><li>러시아산 화석 연료 및 원자력에 의존해온 기존 에너지 정책의 투명성과 방향성에 대한 비판이 거세질 것으로 보입니다.</li><li>헝가리가 EU의 기후 목표에 더 협조적인 태도로 돌아설 경우, 유럽 공동의 탄소 중립 달성 속도가 빨라질 수 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-what-magyars-defeat-of-orban-in-hungary-means-for-climate-and-energy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 84,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 브리핑: 전력망 대규모 투자 및 석유화학 친환경 전략',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>중국은 재생에너지 통합을 위해 전력망 현대화에 수십조 원을 투자하고, 석유화학 산업의 탄소 배출을 줄이기 위한 새로운 가이드라인을 발표했습니다. 국가전망공사는 초고압 송전망 확충에 집중하고 있으며, 산업계 전반의 저효율 설비 감축을 추진 중입니다. 또한, UN 공해 조약 비준을 통해 글로벌 해양 보전 분야에서도 영향력을 넓히고 있습니다.</p><h3>주요 포인트</h3><ul><li>국가전망공사, 전력망 확충 및 현대화에 5,000억 위안(약 95조 원) 이상 투자 계획 발표</li><li>석유화학 및 화학 산업의 과잉 생산 억제와 고부가가치·친환경 공정으로의 전환 지침 마련</li><li>UN 공해 조약(BBNJ) 비준 절차 착수를 통한 국제 해양 거버넌스 참여 및 영향력 확대</li></ul><p>원문: <a href="https://www.carbonbrief.org/china-briefing-16-april-2026-billions-for-grid-petrochemical-plan-chinas-high-seas-bid/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 85,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '트럼프 너머를 보라: 미국 기후 행동의 진실',
+      author: '관리자',
+      date: '2026.04.17',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>클라크 대학교 기후 대학의 루 레너드 학장은 워싱턴의 정치적 공격이 미국 사회 전반의 기후 변화 대응 노력을 멈추지 못했다고 강조합니다. 그는 연방 정부의 정책 변화와 상관없이 주 정부, 도시, 기업들이 여전히 탄소 감축 목표를 향해 나아가고 있다고 설명합니다. 특히 경제적 이익과 기술 발전이 기후 행동의 강력한 동력이 되고 있어, 정치적 수사보다는 실질적인 현장의 변화에 주목해야 한다고 조언합니다.</p><h3>주요 포인트</h3><ul><li>연방 정부의 기후 정책 후퇴 시도에도 불구하고 지방 정부와 민간 부문의 실질적인 기후 행동은 지속되고 있음</li><li>재생 에너지의 경제성 확보와 기술 혁신이 정치적 외풍을 견디는 핵심 동력으로 작용함</li><li>미국의 기후 대응 역량을 평가할 때 백악관의 행보뿐만 아니라 사회 전반의 다층적인 노력을 종합적으로 고려해야 함</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/17/qa-look-beyond-trump-for-the-full-story-on-us-climate-action-says-university-dean/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 78,
       pinned: false,
       category: 'news', categoryName: '소식',
