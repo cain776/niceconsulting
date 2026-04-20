@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 86,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG 주간 리뷰: 마이크로소프트 역대급 탄소 제거 계약 및 EU 실사법 승인',
+      author: '관리자',
+      date: '2026.04.19',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 주요 소식으로 마이크로소프트가 역대 최대 규모인 800만 톤의 자연 기반 탄소 제거 크레딧 구매 계약을 체결하며 기후 목표 달성에 박차를 가했습니다. 또한 유럽연합(EU) 이사회는 기업의 공급망 내 인권 및 환경 보호 책임을 강화하는 '기업 지속가능성 실사 지침(CSDDD)'을 최종 승인했습니다. 이와 함께 블랙록과 테마섹의 합작사가 탈탄소화 기술 투자를 위해 14억 달러 규모의 대형 펀드를 조성하는 등 지속가능 금융 시장의 활기도 이어졌습니다.</p><h3>주요 포인트</h3><ul><li>마이크로소프트, BTG 팩추얼과 2043년까지 800만 톤 규모의 세계 최대 탄소 제거 구매 계약 체결</li><li>EU 이사회, 대기업의 공급망 실사를 의무화하는 CSDDD 최종 채택으로 법적 구속력 확보</li><li>블랙록과 테마섹의 '데카보나이제이션 파트너스', 탈탄소 솔루션 투자를 위한 14억 달러 펀드 조성</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-257/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-257" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 87,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미국 압박에 흔들리는 세계은행 기후 계획',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>세계은행의 기후 변화 대응 계획이 미국의 압박으로 인해 중대한 위기에 직면했습니다. 미국은 기존의 친환경 목표를 폐기하고 화석 연료에 대한 지원을 확대하라는 요구를 이어가고 있습니다. 이로 인해 비공개로 진행되던 기후 의제 협상이 중단되었으며, 국제 사회의 기후 위기 대응 노력에 큰 차질이 예상됩니다.</p><h3>주요 포인트</h3><ul><li>미국의 친환경 목표 폐기 및 화석 연료 지원 확대 압박</li><li>세계은행 내부 기후 의제 협상의 전면 중단 및 교착 상태</li><li>글로벌 기후 금융 정책의 불확실성 증대와 환경 단체의 우려</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/16/us-pressure-puts-world-banks-climate-plan-at-risk/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 88,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미·중 희토류 경쟁 속 브라질 국영 개발 기업 설립 추진',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>브라질의 친정부 의원들이 친환경 기술의 핵심인 희토류 채굴을 국가 경제 발전의 동력으로 삼기 위해 국영 기업 설립을 추진하고 있습니다. 미국과 중국이 희토류 공급망 확보를 위해 치열하게 경쟁하는 가운데, 브라질은 자국의 풍부한 자원을 활용해 전략적 이점을 극대화하려 합니다. 이는 단순한 자원 수출을 넘어 가공 및 제조 단계까지 아우르는 산업화를 목표로 하고 있습니다.</p><h3>주요 포인트</h3><ul><li>브라질 의원들이 희토류 산업의 국가적 통제와 개발을 위한 국영 기업 설립 법안을 제안했습니다.</li><li>미국과 중국의 글로벌 공급망 패권 다툼 사이에서 브라질의 자원 주권과 경제적 이익을 강화하려는 의도입니다.</li><li>희토류를 단순 채굴하는 것에 그치지 않고, 자국 내 가공 산업 육성을 통해 경제 발전과 기술 혁신의 기회로 활용하고자 합니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/16/as-us-and-china-seek-rare-earths-brazilian-lawmakers-push-for-state-owned-developer/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 89,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 탄소세, 데이터 부족으로 효율적 기업에 불이익 우려',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>EU의 탄소국경조정제도(CBAM)가 본격화되면서 수입업체들이 새로운 비용 부담에 직면하고 있습니다. 현재 많은 기업들은 실제 탄소 배출량을 줄이는 것보다 정확한 배출 데이터를 확보하는 과정에서 더 큰 비용 절감 기회를 찾고 있는 상황입니다. 만약 생산 공정이 효율적이더라도 관련 데이터가 부족하면 높은 표준 배출량이 적용되어 오히려 더 많은 세금을 낼 위험이 있습니다. 이는 제도의 본래 취지와 달리 효율적인 생산자에게 불이익을 줄 수 있다는 우려를 낳고 있습니다.</p><h3>주요 포인트</h3><ul><li>CBAM 비용 절감의 핵심이 친환경 생산 전환보다 데이터 확보 여부에 좌우됨</li><li>정확한 데이터 부재 시 불리한 표준값(Default values)이 적용되어 효율적 기업이 손해를 볼 가능성</li><li>공급망 전반의 탄소 배출 데이터 투명성 확보가 기업 경쟁력의 필수 요소로 부상</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/16/eu-carbon-tax-risks-penalising-efficient-producers-over-data-gaps/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 90,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'IEA, 이란 전쟁 여파로 석유 수요 전망치 대폭 하향',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>국제에너지기구(IEA)가 이란 전쟁으로 인한 글로벌 에너지 시장의 혼란을 반영하여 석유 수요 전망치를 전쟁 전보다 하루 약 100만 배럴 하향 조정했습니다. 고유가 상황 속에서 각국 정부와 소비자들이 에너지 사용을 줄이면서 수요 감소가 고착화될 조짐을 보이고 있습니다. 이러한 변화는 장기적으로 지구 온난화를 유발하는 온실가스 배출 전망을 낮추는 데 기여할 것으로 분석됩니다.</p><h3>주요 포인트</h3><ul><li>이란 전쟁으로 인한 에너지 시장 불안정 및 유가 급등에 따른 수요 위축</li><li>IEA, 석유 수요 전망치를 전쟁 이전 대비 일일 약 100만 배럴 삭감</li><li>정부와 소비자의 에너지 절감 노력이 탄소 배출 감소로 이어질 가능성</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/15/iea-slashes-pre-war-oil-demand-forecast-by-nearly-a-million-barrels-per-day/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 81,
       pinned: false,
       category: 'news', categoryName: '소식',
