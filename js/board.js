@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 91,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ISSB 실무진, 자연 관련 공시를 독립 기준 대신 \'실무 지침\'으로 권고',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>국제지속가능성기준위원회(ISSB) 실무진은 자연 및 생물다양성 관련 공시를 위해 별도의 독립된 표준을 제정하는 대신, 비강제적인 '실무 지침(Practice Statement)'을 개발할 것을 권고했습니다. 이는 기업들이 기존의 IFRS S1(일반 요구사항)을 자연 관련 위험과 기회에 효과적으로 적용할 수 있도록 돕기 위한 결정입니다. 실무진은 독립 표준 개발에 소요되는 시간을 줄이고, 기업들이 이미 존재하는 프레임워크를 활용해 신속하게 공시를 시작할 수 있도록 지원하고자 합니다.</p><h3>주요 포인트</h3><ul><li>자연 관련 공시를 위한 별도의 강제적 표준 대신 비강제적 실무 지침 제안</li><li>기업이 IFRS S1을 기반으로 생물다양성 및 생태계 관련 정보를 공시하도록 유도</li><li>자연 관련 재무정보 공개 협의체(TNFD)의 권고안을 적극 활용하여 지침 마련</li></ul><p>원문: <a href="https://www.esgtoday.com/issb-staff-recommend-non-mandatory-nature-reporting-statement-instead-of-standalone-standard/?utm_source=rss&utm_medium=rss&utm_campaign=issb-staff-recommend-non-mandatory-nature-reporting-statement-instead-of-standalone-standard" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 92,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '리뉴어블 메탈스, 배터리 재활용 확대를 위해 1,200만 달러 유치',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>호주의 배터리 재활용 스타트업 리뉴어블 메탈스(Renewable Metals)가 1,200만 달러 규모의 시리즈 A 투자 유치에 성공했습니다. 이번 투자 라운드는 빌 게이츠가 설립한 브레이크스루 에너지 벤처스(BEV)와 바이레슨트 벤처스가 주도했습니다. 리뉴어블 메탈스는 독자적인 알칼리 기반 공정을 통해 리튬이온 배터리에서 핵심 광물을 높은 효율로 회수하며, 이번 투자금은 서호주 퍼스에 데모 플랜트를 건설하는 데 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>빌 게이츠의 BEV 등이 참여한 1,200만 달러 규모의 투자를 통해 기술 상용화 및 시설 확대 추진</li><li>기존의 제련이나 산 침출 방식보다 비용이 저렴하고 폐기물 발생이 적은 친환경 알칼리 공법 활용</li><li>'블랙 매스' 공정 없이 배터리에서 직접 리튬, 니켈, 코발트 등 핵심 금속을 95% 이상 회수 가능</li></ul><p>원문: <a href="https://www.esgtoday.com/renewable-metals-raises-12-million-to-scale-battery-recycling-platform/?utm_source=rss&utm_medium=rss&utm_campaign=renewable-metals-raises-12-million-to-scale-battery-recycling-platform" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 93,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '하이네켄, 신임 글로벌 지속가능성 총괄 선임',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 맥주 기업 하이네켄이 이케아(IKEA)의 기후 및 자연 부문 책임자였던 사이먼 헨젤-토마스를 신임 글로벌 지속가능성 총괄로 임명했습니다. 그는 하이네켄의 ESG 전략인 '더 나은 세상 양조(Brew a Better World) 2030'의 실행을 주도하며 전 세계적인 지속가능성 목표 달성에 힘쓸 예정입니다. 헨젤-토마스는 20년 이상의 지속가능성 분야 경험을 바탕으로 하이네켄의 환경 및 사회적 가치 창출을 이끌 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>이케아에서 기후 및 자연 전략을 총괄했던 베테랑 전문가 영입</li><li>하이네켄의 2030 탄소 중립 및 자원 순환 목표 달성 가속화</li><li>공급망 전반의 지속가능성 강화 및 사회적 책임 경영 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/heineken-appoints-simon-henzell-thomas-as-new-global-sustainability-director/?utm_source=rss&utm_medium=rss&utm_campaign=heineken-appoints-simon-henzell-thomas-as-new-global-sustainability-director" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 94,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '델타항공, 2030년 SAF 10% 사용 목표 재확인',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>델타항공은 최근 일부 언론에서 보도된 '지속가능항공유(SAF) 목표 폐기' 설을 공식 부인하며, 2030년까지 전체 연료의 10%를 SAF로 대체하겠다는 기존 목표를 재확인했습니다. 델타항공은 2050년 넷제로 달성을 위해 SAF가 핵심적인 역할을 할 것이라고 강조하며, 공급망 확보를 위한 노력을 지속하고 있습니다. 이번 발표는 항공 산업의 탈탄소화 의지를 다시 한번 공고히 한 것으로 평가받습니다.</p><h3>주요 포인트</h3><ul><li>2030년까지 항공유의 10%를 SAF로 전환한다는 기존 목표 유지 및 확인</li><li>일부 외신에서 제기된 목표 철회 보도에 대해 공식적으로 반박</li><li>공급 부족 및 높은 비용 문제 해결을 위해 파트너십 강화 및 정책 지원 촉구</li></ul><p>원문: <a href="https://www.esgtoday.com/delta-confirms-commitment-to-10-saf-by-2030-countering-media-reports/?utm_source=rss&utm_medium=rss&utm_campaign=delta-confirms-commitment-to-10-saf-by-2030-countering-media-reports" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 95,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '애플, 공급망 재생에너지 확대로 탄소 2,600만 톤 감축',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>애플은 공급망 내 재생에너지 사용을 대폭 확대하여 누적 2,600만 톤 이상의 탄소 배출을 방지했다고 발표했습니다. 현재 320개 이상의 공급업체가 2030년까지 애플 제품 생산에 100% 재생에너지를 사용하기로 약속했으며, 이는 애플 직접 제조 지출의 95%에 달하는 규모입니다. 현재 공급망 전반에서 16.5기가와트(GW)의 재생에너지가 가동 중이며, 이를 통해 작년 한 해에만 1,850만 톤의 배출량을 줄였습니다. 이는 2030년까지 전체 가치 사슬에서 탄소 중립을 달성하려는 애플의 목표에 중요한 이정표가 될 전망입니다.</p><h3>주요 포인트</h3><ul><li>320개 이상의 공급업체가 2030년까지 100% 재생에너지 사용 서약 완료</li><li>공급망 내 16.5GW 규모의 재생에너지 가동으로 연간 2,550만 MWh 청정 전력 생산</li><li>애플 직접 제조 지출의 95%를 차지하는 파트너사들이 탄소 감축 활동에 동참</li></ul><p>원문: <a href="https://www.esgtoday.com/apple-avoids-over-26-million-tons-of-emissions-through-use-of-clean-energy-in-supply-chain/?utm_source=rss&utm_medium=rss&utm_campaign=apple-avoids-over-26-million-tons-of-emissions-through-use-of-clean-energy-in-supply-chain" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 86,
       pinned: false,
       category: 'news', categoryName: '소식',
