@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 96,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Exergy3, 산업용 열 탈탄소화 위해 1,350만 달러 투자 유치',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>에든버러 대학교에서 분사한 클린테크 스타트업 엑서지3(Exergy3)가 1,000만 파운드(약 1,350만 달러) 규모의 시드 투자를 유치했습니다. 이 회사는 남는 재생 에너지를 고온의 열로 변환하여 저장하는 혁신적인 열에너지 저장(TES) 기술을 보유하고 있습니다. 이번 투자금은 산업 공정에서 발생하는 탄소 배출을 줄이기 위한 기술 상용화와 시장 확장에 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>최대 1,200°C의 고온 열을 공급하여 화석 연료 보일러를 대체하는 초고온 열에너지 저장 시스템 개발</li><li>전력망에서 버려지는 잉여 재생 에너지를 활용함으로써 에너지 비용 절감 및 탄소 배출 제로 달성 지원</li><li>에너지 임팩트 파트너스(EIP)가 주도한 이번 투자를 통해 기술 상용화 및 대규모 산업 현장 적용 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/exergy3-raises-13-5-million-to-decarbonize-industrial-heat-with-unused-renewable-energy/?utm_source=rss&utm_medium=rss&utm_campaign=exergy3-raises-13-5-million-to-decarbonize-industrial-heat-with-unused-renewable-energy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 97,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에펠 인베스트먼트, 신규 단기 그린본드 펀드 출시',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>파리에 본사를 둔 자산운용사 에펠 인베스트먼트 그룹이 '에펠 단기 그린본드(Eiffel Short Term Green Bonds)' 펀드를 출시했습니다. 이 펀드는 금리 변동 리스크를 관리하면서도 환경 프로젝트에 자금을 지원하기 위해 만기가 짧은 녹색 채권에 집중 투자합니다. 특히 유럽 지속가능금융공시규제(SFDR)의 가장 엄격한 기준인 제9조(Article 9) 등급을 획득하여 높은 지속가능성을 입증했습니다.</p><h3>주요 포인트</h3><ul><li>SFDR 제9조 등급을 획득하여 최고 수준의 ESG 투자 기준 충족</li><li>단기 채권 포트폴리오 구성을 통해 금리 변동성에 따른 투자 위험 최소화</li><li>에너지 전환 및 기후 변화 대응 프로젝트를 위한 실질적인 자금 조달 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/eiffel-launches-new-short-term-green-bond-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eiffel-launches-new-short-term-green-bond-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 98,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기업들, 기후 행동 유지하며 넷제로 메시지 재구성 중',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>대다수의 기업이 기후 변화 대응 조치를 지속하고 있으나, 넷제로 관련 소통 방식은 전략적으로 수정하고 있습니다. 최근 조사에 따르면 기업들은 넷제로라는 용어 대신 '회복력'과 '비즈니스 가치'를 강조하는 방향으로 메시지를 재구성하고 있습니다. 이는 규제 강화와 외부의 비판적 시선을 의식한 결과로 보이지만, 실제 기후 목표 달성을 위한 내부적인 노력과 예산은 여전히 유지되고 있는 것으로 나타났습니다.</p><h3>주요 포인트</h3><ul><li>기업들이 넷제로 소통 시 '회복력'과 '경제적 이익'을 강조하는 방향으로 선회</li><li>규제 리스크와 감시를 피하기 위해 기후 성과를 대외적으로 알리지 않는 '그린허싱' 현상 관찰</li><li>소통 방식의 변화와 무관하게 대다수 기업은 기존의 기후 행동 계획과 예산을 유지</li></ul><p>원문: <a href="https://www.esgtoday.com/most-businesses-maintaining-climate-action-but-reframing-messaging-on-net-zero-survey/?utm_source=rss&utm_medium=rss&utm_campaign=most-businesses-maintaining-climate-action-but-reframing-messaging-on-net-zero-survey" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 99,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마즈-ofi, 코코아 공급망 탄소 감축 프로젝트 착수',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 식품 기업 마즈(Mars)와 원료 공급사 ofi가 코코아 공급망의 탄소 발자국을 줄이기 위한 대규모 협력 프로젝트를 시작했습니다. 이번 프로젝트는 코트디부아르의 코코아 농가를 대상으로 기후 스마트 농업 기술과 혼농임업을 도입하여 환경 영향을 최소화하는 데 목적이 있습니다. 이를 통해 마즈는 2050년까지 전체 가치 사슬에서 넷제로를 달성하겠다는 지속가능성 목표를 가속화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>코트디부아르 농가 15,000명을 대상으로 지속 가능한 농법 교육 및 묘목 지원</li><li>혼농임업 및 산림 복원을 통해 생물 다양성 보존과 탄소 흡수원 강화</li><li>농가의 기후 변화 대응력을 높이기 위한 재정적 인센티브 및 기술적 지원 제공</li></ul><p>원문: <a href="https://www.esgtoday.com/mars-ofi-partner-to-cut-carbon-footprint-of-cocoa-supply-chain/?utm_source=rss&utm_medium=rss&utm_campaign=mars-ofi-partner-to-cut-carbon-footprint-of-cocoa-supply-chain" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 100,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '맹그로브 시스템즈, 바이오차 탄소 제거 플랫폼 \'그레인 에코시스템\' 인수',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>탄소 제거 측정·보고·검증(dMRV) 플랫폼인 맹그로브 시스템즈가 바이오차 탄소 제거 전문 플랫폼 그레인 에코시스템을 인수했습니다. 이번 인수를 통해 맹그로브 시스템즈는 바이오차 프로젝트 개발자가 탄소 배출권을 보다 효율적으로 생성하고 관리할 수 있는 통합 솔루션을 제공할 계획입니다. 양사의 기술 결합은 탄소 제거 데이터의 투명성을 높이고 복잡한 인증 과정을 간소화하여 탄소 시장의 신뢰도를 높이는 데 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>맹그로브 시스템즈의 dMRV 기술과 그레인 에코시스템의 바이오차 관리 역량 통합</li><li>바이오차 프로젝트의 데이터 수집부터 탄소 배출권 발행까지의 전 과정 디지털화 및 가속화</li><li>탄소 제거 시장의 확장성과 투명성 확보를 위한 전략적 행보</li></ul><p>원문: <a href="https://www.esgtoday.com/mangrove-systems-acquires-biochar-carbon-removal-platform-grain-ecosystem/?utm_source=rss&utm_medium=rss&utm_campaign=mangrove-systems-acquires-biochar-carbon-removal-platform-grain-ecosystem" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 91,
       pinned: false,
       category: 'news', categoryName: '소식',
