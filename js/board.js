@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 101,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'DSV·유나이티드·MS·필립스66, 지속가능 항공유(SAF) 협력 체결',
+      author: '관리자',
+      date: '2026.04.22',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 물류 기업 DSV가 유나이티드 항공, 마이크로소프트, 필립스 66와 협력하여 지속가능 항공유(SAF) 구매 및 사용을 위한 파트너십을 체결했습니다. 이번 협약은 필립스 66가 생산한 SAF를 유나이티드 항공이 운항에 사용하고, 이를 통해 DSV와 마이크로소프트의 항공 화물 운송 과정에서 발생하는 탄소 배출을 줄이는 것을 목표로 합니다. 이는 항공 산업의 탈탄소화를 가속화하기 위한 다자간 협력 모델로, 기업의 공급망 내 탄소 발자국 감축에 기여할 전망입니다.</p><h3>주요 포인트</h3><ul><li>DSV, 유나이티드 항공, 마이크로소프트, 필립스 66 간의 지속가능 항공유(SAF) 공급 및 구매 협력</li><li>필립스 66의 정유 시설에서 생산된 SAF를 활용해 기존 항공유 대비 탄소 배출량 대폭 절감</li><li>마이크로소프트 등 기업 고객의 Scope 3(공급망) 탄소 배출 감축 목표 달성 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/dsv-united-airlines-microsoft-and-phillips-66-ink-sustainable-aviation-fuel-deal/?utm_source=rss&utm_medium=rss&utm_campaign=dsv-united-airlines-microsoft-and-phillips-66-ink-sustainable-aviation-fuel-deal" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 102,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '워터셰드, 지속가능성 데이터 정리를 위한 AI 에이전트 출시',
+      author: '관리자',
+      date: '2026.04.22',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>기후 솔루션 기업 워터셰드(Watershed)가 기업의 복잡하고 파편화된 지속가능성 데이터를 효율적으로 관리할 수 있는 새로운 AI 에이전트를 출시했습니다. 이 도구는 유틸리티 청구서나 공급업체 송장 등 다양한 형식의 데이터를 자동으로 추출하고 분류하여 데이터의 정확성을 높입니다. 이를 통해 기업은 탄소 배출량 측정 및 공시 준비에 소요되는 시간과 비용을 획기적으로 줄일 수 있습니다.</p><h3>주요 포인트</h3><ul><li>파편화된 비정형 데이터를 정형화된 지속가능성 데이터로 자동 변환</li><li>CSRD, SEC 등 강화되는 글로벌 ESG 공시 규제 대응 지원</li><li>데이터 추출 및 공급망 매핑 등 수작업 중심의 프로세스를 AI로 자동화</li></ul><p>원문: <a href="https://www.esgtoday.com/watershed-launches-new-ai-agents-to-clean-messy-sustainability-data/?utm_source=rss&utm_medium=rss&utm_campaign=watershed-launches-new-ai-agents-to-clean-messy-sustainability-data" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 103,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '쉘, 신규 석유·가스 시추 및 배출량 관련 기후 소송 직면',
+      author: '관리자',
+      date: '2026.04.22',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>환경 단체인 '지구의 친구들 네덜란드(Milieudefensie)'가 글로벌 에너지 기업 쉘(Shell)을 상대로 새로운 기후 소송을 제기했습니다. 이번 소송은 쉘이 2021년 법원의 탄소 감축 명령에도 불구하고 신규 석유 및 가스 시추 프로젝트에 지속적으로 투자하고 있다는 점을 문제 삼고 있습니다. 단체는 쉘의 이러한 행보가 파리 협정의 목표 달성을 방해하며 기업의 사회적 주의 의무를 위반하는 것이라고 주장하고 있습니다.</p><h3>주요 포인트</h3><ul><li>환경 단체, 쉘의 신규 화석 연료 탐사 및 개발 중단 강력 촉구</li><li>2021년 1심 판결인 '2030년까지 탄소 배출 45% 감축' 명령 이행 여부 논란</li><li>쉘의 지속적인 화석 연료 투자가 기후 위기 대응에 미치는 부정적 영향 강조</li></ul><p>원문: <a href="https://www.esgtoday.com/shell-faces-new-climate-lawsuit-over-oil-gas-drilling-emissions/?utm_source=rss&utm_medium=rss&utm_campaign=shell-faces-new-climate-lawsuit-over-oil-gas-drilling-emissions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 104,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '위성 영상 활용 산림 파괴 추적과 ESG 규제 대응',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>최근 EU 산림벌채 규정(EUDR) 등 글로벌 환경 규제가 강화되면서 기업 공급망 내의 산림 파괴 여부를 입증하는 것이 필수적인 과제가 되었습니다. 위성 영상 기술과 AI 분석은 광범위한 지역의 토지 이용 변화를 실시간으로 추적하여 객관적이고 신뢰할 수 있는 데이터를 제공합니다. 이를 통해 기업은 ESG 공시 의무를 준수하고 공급망 투명성을 확보하여 환경적 리스크를 선제적으로 관리할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>EUDR 등 엄격해지는 환경 규제 준수를 위한 위성 기반 모니터링의 중요성 증대</li><li>원격 탐사 기술을 활용한 과거 데이터 비교 및 실시간 산림 훼손 탐지 가능</li><li>정확한 데이터 기반의 ESG 리포팅을 통한 기업 신뢰도 및 투자 가치 제고</li></ul><p>원문: <a href="https://www.esgtoday.com/tracking-deforestation-and-land-use-change-with-satellite-imagery-implications-for-esg-compliance/?utm_source=rss&utm_medium=rss&utm_campaign=tracking-deforestation-and-land-use-change-with-satellite-imagery-implications-for-esg-compliance" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 105,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '글로벌 식량 위기, BECCS 배출 및 영국 태양광 논란',
+      author: '관리자',
+      date: '2026.04.22',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화와 분쟁으로 인해 전 세계 식량 시스템이 '대재앙' 수준의 위기에 직면해 있다는 경고가 나왔습니다. 이와 함께 탄소 제거 기술인 BECCS의 실제 배출량 문제와 영국의 태양광 발전소 건설을 둘러싼 토지 이용 갈등이 주요 ESG 쟁점으로 떠올랐습니다. 이번 리포트는 식량 안보, 에너지 전환, 그리고 탄소 중립 기술 간의 복잡한 이해관계를 다룹니다.</p><h3>주요 포인트</h3><ul><li>기후 위기와 지정학적 갈등이 결합되어 글로벌 식량 공급망의 취약성 및 기아 위험 심화</li><li>BECCS(바이오에너지 탄소 포집 및 저장) 기술의 실제 온실가스 감축 효과와 지속 가능성에 대한 의문 제기</li><li>영국 내 식량 생산용 토지의 태양광 발전소 전환을 둘러싼 농민과 에너지 개발자 간의 토지 이용 갈등</li></ul><p>원문: <a href="https://www.carbonbrief.org/cropped-22-april-2026-global-food-catastrophe-beccs-emissions-uk-solar-farm-controversy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 96,
       pinned: false,
       category: 'news', categoryName: '소식',
