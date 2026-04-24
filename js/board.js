@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 106,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '라임 락 뉴 에너지, 에너지 전환 펀드 6억 4천만 달러 유치',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>성장 중심의 사모펀드 투자사인 라임 락 뉴 에너지(LRNE)가 두 번째 에너지 전환 펀드인 'LRNE II'를 6억 4,000만 달러 규모로 최종 마감했습니다. 이 펀드는 북미 지역의 에너지 전환을 가속화하는 성장 단계 기업들에 자본을 제공하는 것을 목표로 합니다. 재생 에너지, 에너지 효율성, 그리드 현대화 등 탈탄소화에 기여하는 기술과 서비스를 보유한 기업에 집중 투자할 계획입니다.</p><h3>주요 포인트</h3><ul><li>목표액을 초과 달성하여 총 6억 4,000만 달러 규모로 펀드 조성 완료</li><li>북미 지역의 에너지 전환 및 탈탄소화 관련 성장 단계 기업에 집중 투자</li><li>2019년 설립 이후 두 번째 펀드로, 1호 펀드(3억 7,500만 달러) 대비 규모 대폭 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/lime-rock-new-energy-raises-640-million-for-energy-transition-private-equity-fund/?utm_source=rss&utm_medium=rss&utm_campaign=lime-rock-new-energy-raises-640-million-for-energy-transition-private-equity-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 107,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메타, 데이터 센터용 1GW 에너지 저장 계약 체결',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>메타(Meta)는 장기 에너지 저장 기술 전문 기업인 눈 에너지(Noon Energy)와 최대 1GW 규모의 에너지 저장 용량을 확보하는 계약을 체결했습니다. 이번 협력은 메타의 데이터 센터에 재생 에너지를 안정적으로 공급하고, 24시간 무탄소 에너지(CFE) 목표를 달성하기 위한 전략적 행보입니다. 눈 에너지의 혁신적인 탄소-산소 배터리 기술은 기존 리튬 이온 배터리보다 훨씬 긴 시간 동안 에너지를 저장할 수 있어 재생 에너지의 간헐성 문제를 해결하는 데 기여할 전망입니다.</p><h3>주요 포인트</h3><ul><li>눈 에너지와 1GW 규모의 초장기 에너지 저장 장치(LDES) 공급 계약 체결</li><li>탄소-산소 배터리 기술을 활용해 재생 에너지의 간헐성 극복 및 24/7 무탄소 전력 공급 추진</li><li>AI 구동 등으로 급증하는 데이터 센터의 전력 수요를 친환경적으로 충족하기 위한 지속 가능한 인프라 확보</li></ul><p>원문: <a href="https://www.esgtoday.com/meta-signs-1-gw-energy-storage-deal-to-power-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=meta-signs-1-gw-energy-storage-deal-to-power-data-centers" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 108,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'bp 주주들, 기후 공시 축소 시도 압도적 부결',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>영국 에너지 기업 bp의 연례 주주총회에서 기후 변화 보고 빈도를 줄이려는 사측의 제안이 주주들의 압도적인 반대로 부결되었습니다. bp 이사회는 기후 전략 보고를 매년에서 3년 주기로 변경하려 했으나, 주주들은 투명성 유지를 선택하며 이를 거부했습니다. 또한, 파리 협정에 부합하는 배출량 감축 목표 설정을 요구하는 행동주의 주주들의 제안도 함께 부결되었습니다. 이번 결과는 에너지 전환 과정에서도 기후 관련 공시의 연속성과 책임 경영을 중시하는 투자자들의 의지를 명확히 보여줍니다.</p><h3>주요 포인트</h3><ul><li>기후 보고 주기를 1년에서 3년으로 연장하려던 bp 이사회의 제안이 약 84%의 반대로 부결됨</li><li>행동주의 투자자 그룹 'Follow This'가 제안한 Scope 3 감축 목표 강화 안건도 낮은 찬성률로 부결</li><li>주주들은 bp의 사업 전략 변화와 무관하게 기후 데이터에 대한 정기적이고 투명한 공개를 강력히 요구</li></ul><p>원문: <a href="https://www.esgtoday.com/bp-shareholders-defeat-resolution-aimed-at-reducing-climate-disclosures/?utm_source=rss&utm_medium=rss&utm_campaign=bp-shareholders-defeat-resolution-aimed-at-reducing-climate-disclosures" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 109,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존, 인도 벼 농사 탄소 감축 위해 68만 톤 탄소 크레딧 계약',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>아마존이 인도 벼 농사에서 발생하는 온실가스 배출을 줄이기 위해 68만 5천 톤 규모의 탄소 크레딧 구매 계약을 체결했습니다. 이번 프로젝트는 국제쌀연구소(IRRI) 및 자연보호협회(TNC)와 협력하여 인도 농민들에게 지속 가능한 농업 기술을 보급하는 데 중점을 둡니다. 이를 통해 쌀 생산 과정의 메탄 배출을 줄이고 농가의 수익성을 높이는 등 환경적·경제적 가치를 동시에 창출할 계획입니다.</p><h3>주요 포인트</h3><ul><li>향후 10년간 68만 5천 톤 규모의 탄소 크레딧을 확보하는 장기 오프테이크 계약 체결</li><li>논물 관리(AWD) 기술 도입을 통해 지구 온난화 지수가 높은 메탄 배출을 획기적으로 감축</li><li>인도 내 수만 명의 농민을 대상으로 교육과 기술을 지원하여 농업 생산성 및 소득 증대 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/amazon-signs-685000-ton-carbon-credit-deal-to-reduce-emissions-from-rice-farming-in-india/?utm_source=rss&utm_medium=rss&utm_campaign=amazon-signs-685000-ton-carbon-credit-deal-to-reduce-emissions-from-rice-farming-in-india" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 110,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU, 화석연료 탈피 위해 \'야심찬\' 전기화 목표 설정',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회(EC)는 화석연료 의존도를 낮추고 탄소 중립을 가속화하기 위한 'AccelerateEU' 전략을 발표했습니다. 이 전략은 현재 약 23% 수준인 최종 에너지 소비 내 전력 비중을 2030년까지 35%, 2040년까지 50%로 대폭 확대하는 것을 목표로 합니다. 이를 위해 산업 공정의 전기화, 히트펌프 보급, 전기차 인프라 확충 및 전력망 현대화에 집중적인 투자가 이루어질 예정입니다.</p><h3>주요 포인트</h3><ul><li>2040년까지 최종 에너지 소비의 절반(50%)을 전력으로 전환하는 야심찬 목표 제시</li><li>산업용 보일러 및 건물 난방의 전기화, 전기차 충전망 확대를 통한 탈탄소화 가속</li><li>재생에너지 수용성 제고를 위한 전력망 현대화 및 디지털화 추진</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-to-set-ambitious-electrification-target-to-accelerate-transition-away-from-fossil-fuels/?utm_source=rss&utm_medium=rss&utm_campaign=eu-to-set-ambitious-electrification-target-to-accelerate-transition-away-from-fossil-fuels" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 101,
       pinned: false,
       category: 'news', categoryName: '소식',
