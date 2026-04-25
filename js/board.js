@@ -10,6 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 111,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존 지원 원전 기업 X-에너지, IPO로 10억 달러 조달',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>아마존이 지원하는 차세대 원자력 기술 기업 X-에너지가 기업공개(IPO)를 통해 10억 달러 이상의 자금을 조달하는 데 성공했습니다. 이번에 확보된 자금은 소형모듈원전(SMR) 기술의 상용화와 프로젝트 배치를 가속화하는 데 투입될 예정입니다. 특히 AI 및 데이터 센터 운영에 필요한 막대한 전력을 탄소 배출 없이 공급하기 위한 대안으로 X-에너지의 기술이 주목받고 있습니다. 이번 성과는 청정 에너지 전환을 위한 민간 부문의 강력한 투자 의지를 보여줍니다.</p><h3>주요 포인트</h3><ul><li>X-에너지, IPO를 통해 10억 달러 이상의 대규모 자본 확충</li><li>차세대 소형모듈원전(SMR) 기술의 상용화 및 시장 진출 가속화</li><li>아마존 등 빅테크 기업의 무탄소 에너지 수요 충족을 위한 전략적 행보</li></ul><p>원문: <a href="https://www.esgtoday.com/amazon-backed-nuclear-tech-company-x-energy-raises-over-1-billion-in-ipo/?utm_source=rss&utm_medium=rss&utm_campaign=amazon-backed-nuclear-tech-company-x-energy-raises-over-1-billion-in-ipo" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 112,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '액센츄어, EMEA 지속가능성 서비스 총괄에 옌스 라우에 선임',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 전문 서비스 기업 액센츄어가 옌스 라우에(Jens Laue)를 유럽·중동·아프리카(EMEA) 지역의 지속가능성 서비스 총괄로 임명했습니다. 라우에는 고객사가 지속가능성을 비즈니스 전략, 운영 및 가치 사슬 전반에 통합할 수 있도록 지원하는 역할을 수행하게 됩니다. 이번 인사는 기업들이 ESG 규제 대응을 넘어 실질적인 비즈니스 가치를 창출할 수 있도록 돕기 위한 액센츄어의 전략적 역량 강화의 일환입니다.</p><h3>주요 포인트</h3><ul><li>옌스 라우에를 EMEA 지역 지속가능성 서비스 부문의 새로운 리더로 선임</li><li>KPMG 독일 ESG 자문 총괄 출신으로, 20년 이상의 풍부한 컨설팅 경험 보유</li><li>고객사의 넷제로 달성 및 순환경제 전환 등 지속가능한 비즈니스 모델 구축 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/accenture-appoints-jens-laue-as-sustainability-services-lead-for-emea/?utm_source=rss&utm_medium=rss&utm_campaign=accenture-appoints-jens-laue-as-sustainability-services-lead-for-emea" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 113,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '데케이드 에너지, 물류 전기화 위해 2,200만 유로 투자 유치',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>파리에 본사를 둔 물류 전기화 전문 기업 데케이드 에너지(Decade Energy)가 2,200만 유로(약 320억 원) 규모의 시리즈 A 투자 유치를 완료했습니다. 이번 투자금은 물류 기업들의 전기차 전환을 지원하는 인프라 플랫폼 확장과 기술 고도화에 사용될 예정입니다. 데케이드 에너지는 충전 인프라 설계부터 설치, 에너지 관리 및 금융 솔루션까지 통합적으로 제공하여 상용차의 탄소 배출 감축을 돕습니다. 특히 '서비스형 충전(CaaS)' 모델을 통해 기업들이 초기 비용 부담 없이 전기차 플릿(Fleet)을 운영할 수 있도록 지원합니다.</p><h3>주요 포인트</h3><ul><li>2,200만 유로 규모의 시리즈 A 투자 유치 성공</li><li>물류 기업을 위한 통합 전기화 인프라 및 에너지 관리 플랫폼 제공</li><li>유럽 전역으로 서비스 확장 및 탄소 중립 물류 생태계 구축 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/decade-energy-raises-e22-million-to-scale-fleet-electrification-infrastructure-platform/?utm_source=rss&utm_medium=rss&utm_campaign=decade-energy-raises-e22-million-to-scale-fleet-electrification-infrastructure-platform" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 114,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GM, 미국 내 모든 사업장 100% 재생에너지 전력 확보',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>GM이 미국 내 모든 제조 시설 및 사무실에 필요한 전력을 100% 재생에너지로 조달하는 이정표를 달성했습니다. 이는 당초 2050년으로 설정했던 목표를 25년 앞당긴 것이며, 2021년에 수정한 2030년 목표보다도 5년이나 빠른 성과입니다. GM은 현재 미국 11개 주에서 17개의 재생에너지 프로젝트를 통해 총 2.35GW 규모의 전력을 확보하고 있습니다. 이번 성과를 발판 삼아 2035년까지 전 세계 모든 사업장의 전력을 100% 재생에너지로 전환할 계획입니다.</p><h3>주요 포인트</h3><ul><li>당초 2050년 목표를 25년 조기 달성하며 업계 내 지속가능성 리더십 강화</li><li>자동차 업계 최대 규모인 2.35GW의 재생에너지 포트폴리오(11개 주, 17개 프로젝트) 구축</li><li>에너지 효율 개선, 직접 구매(PPA), 에너지 저장 시스템을 결합한 탄력적인 전력망 전략 추진</li></ul><p>원문: <a href="https://www.esgtoday.com/gm-achieves-100-renewable-energy-powered-electricity-in-u-s/?utm_source=rss&utm_medium=rss&utm_campaign=gm-achieves-100-renewable-energy-powered-electricity-in-u-s" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 106,
       pinned: false,
       category: 'news', categoryName: '소식',
