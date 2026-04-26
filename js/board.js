@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 115,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '알리안츠GI, 독일 배터리 저장 플랫폼 GESI 지분 과반 인수',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 자산운용사 알리안츠 글로벌 인베스터스(AllianzGI)가 독일의 배터리 에너지 저장 시스템(BESS) 플랫폼인 GESI의 지분 51%를 인수했습니다. 이번 투자는 알리안츠GI의 인프라 주식 전략의 일환으로, 재생 에너지로의 전환을 지원하고 전력망의 유연성을 확보하기 위해 추진되었습니다. GESI는 독일 내 대규모 배터리 저장 시설을 개발 및 운영하며, 풍력 및 태양광 발전의 변동성을 보완하는 역할을 수행합니다. 알리안츠GI는 이번 인수를 통해 지속 가능한 에너지 인프라 포트폴리오를 더욱 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>알리안츠GI, 독일 GESI 지분 51%를 확보하며 대주주 지위 획득</li><li>에너지 전환 가속화를 위한 대규모 배터리 에너지 저장 시스템(BESS) 투자 확대</li><li>전력망 안정성 및 재생 에너지 활용도 제고를 위한 전략적 인프라 구축</li></ul><p>원문: <a href="https://www.esgtoday.com/allianzgi-acquires-majority-stake-in-battery-storage-platform-gesi/?utm_source=rss&utm_medium=rss&utm_campaign=allianzgi-acquires-majority-stake-in-battery-storage-platform-gesi" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 116,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽 에너지 위기 대응과 재생에너지의 석탄 추월',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합(EU)은 과거 에너지 위기 대응 사례를 분석하며 향후 가스 수요 감축과 재생에너지 전환 가속화를 골자로 한 에너지 안보 계획을 점검하고 있습니다. 전 세계적으로, 특히 G7 국가들을 중심으로 재생에너지 발전량이 석탄을 추월하는 역사적인 전환점이 관측되며 에너지 전환이 가속화되고 있습니다. 또한 콜롬비아에서는 화석 연료 사용을 단계적으로 폐지하기 위한 국제적 협력을 논의하는 정상회의가 개최되어 기후 위기 대응을 위한 연대를 강화했습니다.</p><h3>주요 포인트</h3><ul><li>EU의 에너지 안보 강화를 위한 가스 의존도 탈피 및 공급망 다변화 전략 점검</li><li>G7 국가들의 전력 생산에서 재생에너지가 석탄 비중을 넘어서는 에너지 전환의 진전</li><li>화석연료 비확산 조약(Fossil Fuel Non-Proliferation Treaty) 추진을 위한 콜롬비아 정상회의 개최</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-24-april-2024-europes-energy-crisis-plan-renewables-overtake-coal-colombias-fossil-fuel-summit/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 117,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 지도부, 화석 연료 \'엄격 통제\' 및 녹색 전환 가속화',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>중국 정부는 지구의 날을 맞아 화석 연료 소비를 엄격히 통제하고 경제 전반의 녹색 전환을 가속화하기 위한 새로운 정책 지침을 발표했습니다. 이번 지침은 기존의 에너지 소비 총량 관리 체계에서 탄소 배출 총량 관리 체계로의 근본적인 전환을 명시하고 있습니다. 중국은 2030년까지 비화석 에너지 소비 비중을 확대하고 탄소 배출 정점을 달성하기 위한 구체적인 로드맵을 재확인했습니다. 이는 중국이 기후 목표 달성을 위해 에너지 구조를 대대적으로 개편하겠다는 강력한 의지를 표명한 것입니다.</p><h3>주요 포인트</h3><ul><li>석탄, 석유 등 화석 연료 소비에 대한 단계적 감축 및 엄격한 통제 체계 구축</li><li>에너지 효율 중심에서 탄소 배출량 중심으로 국가 관리 지표의 패러다임 전환</li><li>태양광, 풍력 등 재생 에너지와 원자력 발전의 비중을 획기적으로 확대</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-chinas-leadership-calls-for-strict-control-of-fossil-fuels/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 118,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '대서양 해류(AMOC) 붕괴 위기: 지구 온난화의 경고',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>대서양 거대 순환 해류인 AMOC는 전 지구의 열을 재분배하여 기후 균형을 유지하는 핵심적인 시스템입니다. 그러나 지구 온난화로 인한 빙하 해빙과 담수 유입 증가로 인해 이 해류의 순환 동력이 역대 최저 수준으로 약화되었습니다. 최근 과학계는 AMOC가 예상보다 빨리 붕괴 임계점에 도달할 수 있으며, 이는 전 지구적 기후 체계에 돌이킬 수 없는 재앙을 초래할 수 있다고 경고합니다.</p><h3>주요 포인트</h3><ul><li>AMOC는 따뜻한 표층수를 북쪽으로, 차가운 심층수를 남쪽으로 운반하는 '거대 컨베이어 벨트' 역할을 함</li><li>지구 온난화에 따른 북대서양 염도 감소가 해류 순환을 방해하여 현재 1,000년 만에 가장 약해진 상태임</li><li>해류 붕괴 시 유럽의 급격한 기온 하강, 북미 동해안 해수면 상승, 열대 지역 강수 패턴 변화 등 심각한 피해 예상</li></ul><p>원문: <a href="https://www.carbonbrief.org/amoc-is-global-warming-tipping-key-atlantic-ocean-currents-towards-collapse/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 119,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU, 화석 연료 가격 충격 대비 44개 행동 전략 발표',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합(EU) 집행위원회는 중동 분쟁 등으로 인한 화석 연료 가격 변동성으로부터 시민들을 보호하기 위해 44가지 행동 과제를 담은 새로운 전략을 발표했습니다. 이 전략은 에너지 안보를 강화하고 화석 연료에 대한 의존도를 낮추어 외부의 가격 충격이 유럽 경제에 미치는 영향을 최소화하는 데 중점을 둡니다. 재생 에너지 확대와 에너지 효율 개선을 통해 장기적인 에너지 자립을 달성하고 기후 목표를 달성하겠다는 의지를 담고 있습니다. 특히 취약 계층을 보호하기 위한 지원책과 전력 시장 구조 개편을 통한 가격 안정화 방안이 포함되었습니다.</p><h3>주요 포인트</h3><ul><li>화석 연료 가격 급등에 대비한 44개의 구체적인 대응 조치 마련</li><li>히트펌프 보급 및 건물 개보수를 통한 에너지 효율 극대화</li><li>재생 에너지 전환 가속화를 통한 가스 및 석유 의존도 탈피</li><li>전력 가격과 가스 가격의 연동성을 낮추어 소비자 부담 완화</li></ul><p>원문: <a href="https://www.carbonbrief.org/iran-war-eu-strategy-sets-out-44-actions-to-limit-fossil-fuel-price-shocks/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 111,
       pinned: false,
       category: 'news', categoryName: '소식',
