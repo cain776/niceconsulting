@@ -10,6 +10,51 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 120,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국, 가스-전기 요금 연동 해제 및 청정 에너지 확대',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>영국 정부는 천연가스 가격이 전체 전기 요금을 좌우하는 현재의 시장 구조를 개편하여 소비자 부담을 줄이고 청정 에너지로의 전환을 가속화할 계획입니다. '전력 시장 구조 검토(REMA)'를 통해 저렴한 재생에너지의 혜택이 실제 요금 인하로 이어지도록 하는 다양한 방안을 추진 중입니다. 이는 에너지 안보를 강화하고 2035년까지 탈탄소 전력 시스템을 구축하려는 국가 전략의 핵심입니다.</p><h3>주요 포인트</h3><ul><li>가스 가격이 전기 요금을 결정하는 현행 한계가격 결정 방식의 개편 추진</li><li>전력 생산 및 소비 위치에 따라 요금을 차등화하는 지역별 요금제 도입 검토</li><li>차액결제계약(CfD) 확대를 통한 재생에너지 투자 유인 및 가격 안정화 도모</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-how-the-uk-government-aims-to-break-link-between-gas-and-electricity-prices/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 121,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '청정 에너지, 사상 처음으로 화석 연료 발전 감소 견인',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>2025년 재생에너지가 석탄을 제치고 세계 최대의 전력 공급원이 될 것으로 전망됩니다. 이는 청정 에너지의 성장세가 전 세계 전력 수요 증가폭을 앞지르기 시작했음을 의미하며, 화석 연료 발전이 사상 처음으로 구조적 감소 단계에 진입하는 역사적 전환점이 될 것입니다. 국제에너지기구(IEA)에 따르면 향후 3년간 늘어나는 전력 수요는 재생에너지와 원자력 등 저탄소 에너지원만으로도 충분히 충당 가능할 것으로 보입니다.</p><h3>주요 포인트</h3><ul><li>2025년 재생에너지가 석탄을 추월해 세계 최대 전력원으로 부상</li><li>청정 에너지 공급 확대가 화석 연료 발전을 밀어내는 '역전 현상' 발생</li><li>저탄소 에너지원이 2026년까지 전 세계 전력 수요 증가분 전체를 감당할 전망</li></ul><p>원문: <a href="https://www.carbonbrief.org/clean-energy-pushes-fossil-fuel-power-into-reverse-for-first-time-ever/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 122,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '과학자들, 화석연료 신규 확장 중단 촉구',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>콜롬비아에서 개최된 화석연료 전환 정상회의에서 과학자들은 기후 위기 대응을 위해 화석연료의 신규 확장을 즉각 중단해야 한다는 권고안을 제시했습니다. 이번 회의는 화석연료 생산국들이 모여 에너지 전환을 논의하는 첫 사례로, 석탄, 석유, 가스 프로젝트의 추가 개발 금지를 핵심 과제로 다루었습니다. 전문가들은 지구 온난화를 제한하기 위해 기존 화석연료 인프라의 단계적 폐쇄와 재생에너지로의 신속한 전환이 필수적이라고 강조했습니다.</p><h3>주요 포인트</h3><ul><li>화석연료 신규 탐사 및 생산 시설 확장의 즉각적인 중단 권고</li><li>파리 협정 목표에 부합하는 화석연료 퇴출을 위한 국제적 협력 체계 구축</li><li>개발도상국의 에너지 전환을 돕기 위한 재정 지원 및 기술 이전의 중요성 강조</li></ul><p>원문: <a href="https://www.carbonbrief.org/revealed-scientists-tell-colombia-fossil-fuel-transition-summit-to-halt-new-expansion/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 115,
       pinned: false,
       category: 'news', categoryName: '소식',
