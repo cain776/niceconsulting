@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 123,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '빌 게이츠의 테라파워, 미국 최초 차세대 원자로 착공',
+      author: '관리자',
+      date: '2026.04.27',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>빌 게이츠가 설립한 원자력 기술 기업 테라파워가 와이오밍주 케머러에서 미국 최초의 상용 차세대 원자로인 '나트륨(Natrium)' 원자로 건설에 공식 착수했습니다. 이 원자로는 액체 나트륨을 냉각재로 사용하며, 용융염 에너지 저장 시스템을 통합해 재생 에너지의 변동성에 맞춰 전력 출력을 조절할 수 있는 유연성을 갖췄습니다. 이번 프로젝트는 탄소 배출 없는 안정적인 기저 부하 전력을 제공함으로써 미국의 에너지 전환과 탈탄소화 목표 달성에 중요한 이정표가 될 전망입니다.</p><h3>주요 포인트</h3><ul><li>미국 내 최초의 상용 차세대 원자로 건설 프로젝트로, 기존 원전보다 안전하고 효율적인 에너지 생산 지향</li><li>나트륨 냉각 기술과 에너지 저장 시스템을 결합하여 전력망의 유연성과 안정성을 동시에 확보</li><li>노후 석탄 화력 발전소 부지를 활용함으로써 지역 경제 활성화와 청정 에너지로의 전환 모델 제시</li></ul><p>원문: <a href="https://www.esgtoday.com/bill-gates-terrapower-starts-construction-on-first-u-s-advanced-nuclear-reactor/?utm_source=rss&utm_medium=rss&utm_campaign=bill-gates-terrapower-starts-construction-on-first-u-s-advanced-nuclear-reactor" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 124,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '슈나이더 일렉트릭, 기후 리스크 관리 솔루션 출시',
+      author: '관리자',
+      date: '2026.04.27',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>슈나이더 일렉트릭의 컨설팅 부문인 SE 어드바이저리 서비스가 기업의 기후 리스크 관리를 지원하는 '기후를 위한 리소스 어드바이저 플러스(Resource Advisor+ for Climate)'를 출시했습니다. 이 솔루션은 기후 변화로 인한 물리적 위험과 저탄소 경제 전환에 따른 전환 위험을 통합적으로 분석하고 관리할 수 있도록 설계되었습니다. 특히 CSRD 및 SEC와 같은 글로벌 기후 공시 규제가 강화되는 상황에서 기업들이 데이터에 기반한 의사결정을 내리고 비즈니스 회복탄력성을 확보할 수 있도록 돕습니다.</p><h3>주요 포인트</h3><ul><li>물리적 및 전환적 기후 리스크의 식별, 정량화 및 통합 관리 지원</li><li>CSRD, SEC 등 강화되는 글로벌 기후 관련 공시 규제에 대한 대응력 강화</li><li>데이터 기반 시나리오 분석을 통한 재무적 영향 평가 및 전략적 의사결정 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/schneider-electric-launches-new-climate-risk-assessment-and-management-solution/?utm_source=rss&utm_medium=rss&utm_campaign=schneider-electric-launches-new-climate-risk-assessment-and-management-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 125,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메타, 우주 태양광으로 데이터 센터 야간 전력 공급 추진',
+      author: '관리자',
+      date: '2026.04.27',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>메타(Meta)가 위성 스타트업 오버뷰 에너지(Overview Energy)와 협력하여 우주 기반 태양광 에너지를 데이터 센터에 공급하는 계약을 체결했습니다. 이 기술은 우주에서 수집한 태양 에너지를 지상으로 전송하여, 기존 지상 태양광 발전의 한계였던 야간 전력 공급 문제를 해결하는 것을 목표로 합니다. 메타는 이를 통해 2030년 넷제로 달성 및 24시간 무탄소 에너지 운영이라는 지속가능성 목표를 가속화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>우주 기반 태양광 발전(SBSP)을 통한 야간 및 상시 청정 에너지 확보</li><li>지상 태양광의 간헐성 문제를 극복하여 데이터 센터의 안정적인 전력 운영 지원</li><li>메타의 2030년 가치 사슬 전반 넷제로 및 24/7 무탄소 에너지 목표 달성 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/meta-signs-deal-to-power-data-centers-at-night-with-solar-energy-from-space/?utm_source=rss&utm_medium=rss&utm_campaign=meta-signs-deal-to-power-data-centers-at-night-with-solar-energy-from-space" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 126,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '세계은행, 아마존 탄소 제거 연계 1억 2천만 달러 채권 발행',
+      author: '관리자',
+      date: '2026.04.27',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>세계은행이 브라질 아마존의 생태계 복원을 지원하기 위해 1억 2,000만 달러 규모의 '생태계 복원 채권'을 발행했습니다. 이 채권은 투자자들이 정기적인 이자 수익의 일부를 포기하는 대신, 재조림 프로젝트를 통해 생성되는 탄소 제거 크레딧(CRU)의 판매 수익을 배당받는 혁신적인 구조를 가지고 있습니다. 이를 통해 민간 자본을 환경 보호 프로젝트에 효과적으로 유입시키고 기후 변화 대응을 가속화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>브라질 아마존 지역의 대규모 재조림 및 생태계 복원 프로젝트를 지원하기 위한 9년 만기 채권입니다.</li><li>브라질 스타트업 '몸박(Mombak)'이 프로젝트를 수행하며, 생성된 탄소 제거 크레딧은 마이크로소프트 등과의 구매 계약을 통해 수익을 창출합니다.</li><li>세계은행이 원금을 보장하는 구조로 설계되어 민간 투자자의 리스크를 낮추면서 생물다양성 보존 및 탄소 제거에 기여합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/world-bank-launches-120-million-ecosystem-restoration-bond-backed-by-amazon-carbon-removal-deal/?utm_source=rss&utm_medium=rss&utm_campaign=world-bank-launches-120-million-ecosystem-restoration-bond-backed-by-amazon-carbon-removal-deal" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 127,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아문디, 30억 유로 규모 EU 지원 그린본드 펀드 운용',
+      author: '관리자',
+      date: '2026.04.27',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽 최대 자산운용사 아문디(Amundi)가 신흥 시장의 녹색 전환을 지원하기 위한 최대 30억 유로 규모의 '글로벌 그린본드 이니셔티브(GGBI)' 펀드 운용사로 선정되었습니다. 이 펀드는 유럽연합(EU)과 주요 개발금융기관의 지원을 받는 혼합 금융(Blended Finance) 구조를 통해 민간 자본을 유치하는 것을 목표로 합니다. 공공 자금으로 투자 위험을 낮춰 신흥국의 기후 대응 및 지속 가능한 인프라 구축에 필요한 자금을 공급할 예정입니다. 이는 EU의 '글로벌 게이트웨이' 전략의 핵심 프로젝트 중 하나로 평가받습니다.</p><h3>주요 포인트</h3><ul><li>신흥국 및 개발도상국의 녹색 채권 발행 지원을 위해 최대 30억 유로 규모로 조성</li><li>EU와 개발금융기관이 위험을 분담하는 혼합 금융 방식을 통해 민간 투자 유치 촉진</li><li>에너지 전환 및 기후 회복력 강화를 위한 신흥 시장의 자본 접근성 확대 목표</li></ul><p>원문: <a href="https://www.esgtoday.com/amundi-to-manage-new-e3-billion-eu-backed-green-bond-blended-finance-fund/?utm_source=rss&utm_medium=rss&utm_campaign=amundi-to-manage-new-e3-billion-eu-backed-green-bond-blended-finance-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 120,
       pinned: false,
       category: 'news', categoryName: '소식',
