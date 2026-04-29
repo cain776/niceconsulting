@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 128,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'BTG 팩추얼 TIG, 산림 복원 위해 12억 달러 조달',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>BTG 팩추얼 팀버랜드 인베스트먼트 그룹(TIG)이 라틴 아메리카의 산림 재조림 및 복원 전략을 위해 12억 4천만 달러의 자금을 조달했습니다. 이 전략은 브라질, 우루과이, 칠레의 퇴화된 토지를 복원하고 생물 다양성을 보호하며 고품질 탄소 배출권을 생성하는 것을 목표로 합니다. 이번 펀딩에는 영국 국제투자공사(BII)와 캐나다 연금투자위원회(CPP Investments) 등 주요 글로벌 기관 투자자들이 대거 참여했습니다. 이를 통해 향후 15년 동안 약 3,500만 톤의 이산화탄소를 격리할 수 있을 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>라틴 아메리카 내 퇴화된 토지 복원 및 지속 가능한 임업 관리 추진</li><li>글로벌 기관 투자자들의 대규모 참여를 통한 기후 변화 대응 자금 확보</li><li>생물 다양성 보존과 함께 약 3,500만 톤 규모의 탄소 격리 목표</li></ul><p>원문: <a href="https://www.esgtoday.com/btg-pactual-tig-raises-over-1-2-billion-for-reforestation-and-restoration-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=btg-pactual-tig-raises-over-1-2-billion-for-reforestation-and-restoration-strategy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 129,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영 FCA, ESG 평가기관 대상 보고 요건 시범 운영',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>영국 금융감독청(FCA)이 ESG 평가 및 데이터 제공업체를 대상으로 보고 요건을 테스트하는 시범 운영(Pilot) 프로그램을 시작합니다. 이번 조치는 ESG 평가 시장을 FCA의 규제 범위에 포함시키려는 영국 정부의 결정에 따른 것으로, 평가 프로세스의 투명성과 신뢰성을 높이는 것이 목적입니다. 참여 기업들은 향후 도입될 정식 규제에 대비하여 자발적 행동 강령에 따른 보고 체계를 미리 점검하게 됩니다.</p><h3>주요 포인트</h3><ul><li>영국 정부의 ESG 평가 시장 규제 공식화에 따른 선제적 대응</li><li>2023년 발표된 자발적 행동 강령(Code of Conduct)을 기반으로 한 보고 체계 구축</li><li>평가 방법론의 투명성 제고 및 잠재적 이해상충 방지를 통한 시장 무결성 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/fca-to-pilot-reporting-requirements-for-esg-ratings-providers/?utm_source=rss&utm_medium=rss&utm_campaign=fca-to-pilot-reporting-requirements-for-esg-ratings-providers" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 130,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아크메아, 기후 및 자연 전환 계획 발표',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>네덜란드의 보험 및 금융 서비스 그룹인 아크메아(Achmea)가 기후 변화 대응과 자연 보호를 통합한 '기후 및 자연 전환 계획'을 발표했습니다. 이 계획은 2050년까지 투자 및 보험 포트폴리오 전반에서 넷제로를 달성하고, 생물다양성 손실을 막아 '자연 긍정(Nature Positive)'을 실현하는 것을 목표로 합니다. 아크메아는 이를 위해 화석 연료 투자 단계적 폐지, 녹색 금융 확대, 기업 관여 활동 강화 등 구체적인 로드맵을 제시했습니다.</p><h3>주요 포인트</h3><ul><li>2050년까지 투자 및 보험 포트폴리오의 온실가스 순배출 제로(Net Zero) 달성 목표</li><li>2030년까지 기업 채권 및 주식 포트폴리오의 탄소 발자국을 2019년 대비 50% 감축</li><li>생물다양성 보호와 산림 파괴 방지를 위해 투자 대상 기업과의 소통 및 정책 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/achmea-publishes-climate-and-nature-transition-plan/?utm_source=rss&utm_medium=rss&utm_campaign=achmea-publishes-climate-and-nature-transition-plan" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 131,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '美 23개 주, 신용평가사 ESG 활용에 경고 서한 발송',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>미국 23개 주의 검찰총장 연합이 무디스, S&P, 피치 등 세계 3대 신용평가사에 ESG 요소를 신용등급 산정에 활용하는 것에 대해 경고 서한을 보냈습니다. 이들은 ESG 지표가 객관적인 재무 위험 평가보다는 특정 정치적 의제를 추진하는 도구로 오용될 수 있다는 우려를 표명했습니다. 특히 ESG 평가 방식의 불투명성과 일관성 부족이 소비자 보호법 위반 소지가 있음을 지적하며 신용평가사의 중립성을 강력히 요구했습니다.</p><h3>주요 포인트</h3><ul><li>3대 신용평가사에 ESG 평가 기준의 투명성 및 법적 준수 여부 확인 요구</li><li>ESG 요소가 재무적 실질성보다 정치적 목적으로 활용될 가능성에 대한 경고</li><li>미국 내 보수 성향 주들을 중심으로 확산되는 ESG 반대(Anti-ESG) 움직임의 일환</li></ul><p>원문: <a href="https://www.esgtoday.com/multi-state-coalition-warns-moodys-sp-fitch-over-use-of-esg-in-credit-ratings/?utm_source=rss&utm_medium=rss&utm_campaign=multi-state-coalition-warns-moodys-sp-fitch-over-use-of-esg-in-credit-ratings" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 132,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '온실가스 프로토콜, 초대 CEO로 팀 모힌 선임',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>온실가스 배출량 산정 표준을 제공하는 온실가스 프로토콜(GHG Protocol)이 초대 CEO로 지속가능성 전략 전문가인 팀 모힌(Tim Mohin)을 임명했습니다. 팀 모힌은 과거 GRI(글로벌 리포팅 이니셔티브)의 수장을 역임했으며, 인텔과 애플 등 글로벌 기업에서 ESG 전략을 이끈 베테랑입니다. 이번 인사는 전 세계적으로 강화되는 탄소 공시 규제에 대응하여 조직의 거버넌스를 강화하고 표준을 현대화하기 위한 전략적 결정입니다.</p><h3>주요 포인트</h3><ul><li>GRI 전 CEO 출신인 팀 모힌을 초대 CEO로 영입하여 리더십 및 전문성 강화</li><li>글로벌 공시 규제 확대에 따라 신뢰할 수 있는 온실가스 산정 표준의 중요성 증대</li><li>WRI와 WBCSD의 협력 하에 조직 운영 체계를 개편하고 표준 업데이트 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/ghg-protocol-appoints-tim-mohin-as-first-ceo/?utm_source=rss&utm_medium=rss&utm_campaign=ghg-protocol-appoints-tim-mohin-as-first-ceo" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 123,
       pinned: false,
       category: 'news', categoryName: '소식',
