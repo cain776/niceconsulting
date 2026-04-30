@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 133,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '펩시코, 유럽 운영 및 공급망 위한 10년 청정에너지 계약 체결',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>펩시코(PepsiCo)가 유럽 내 자사 운영 시설과 주요 공급업체에 재생 에너지를 공급하기 위해 향후 10년간의 청정에너지 구매 계약을 체결했습니다. 이번 협약에는 향료 기업 지보단(Givaudan)과 포장재 기업 스머핏 웨스트락(Smurfit WestRock)이 공동 참여하여 공급망 전체의 탄소 발자국을 줄이는 데 협력하기로 했습니다. 이는 2040년까지 넷제로를 달성하려는 펩시코의 지속가능성 전략인 'pep+'의 일환으로, 특히 공급망에서 발생하는 스코프 3(Scope 3) 배출량을 감축하는 데 중점을 두고 있습니다.</p><h3>주요 포인트</h3><ul><li>유럽 내 운영 시설 및 공급망을 아우르는 10년 장기 재생에너지 구매 계약(PPA) 체결</li><li>지보단, 스머핏 웨스트락 등 주요 파트너사와의 협력을 통한 공급망 탄소 배출량 공동 감축</li><li>2040년 넷제로 달성 및 재생에너지 전환 가속화를 위한 'pep+' 전략의 핵심 조치</li></ul><p>원문: <a href="https://www.esgtoday.com/pepsico-signs-10-year-clean-energy-deal for-operations-and-suppliers-in-europe/?utm_source=rss&utm_medium=rss&utm_campaign=pepsico-signs-10-year-clean-energy-deal-for-operations-and-suppliers-in-europe" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 134,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'IBM, 기존 시스템 연동 온실가스 배출량 계산 API 출시',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>IBM이 기존 기업 시스템에 온실가스(GHG) 배출량 계산 기능을 직접 통합할 수 있는 'IBM Envizi Emissions API'를 정식 출시했습니다. 이 솔루션은 ERP, 공급망 관리 등 다양한 소프트웨어와 연동되어 데이터 입력 시 자동으로 배출량을 산출해 줍니다. 이를 통해 기업은 별도의 복잡한 데이터 이관 없이도 실시간으로 탄소 발자국을 관리하고 공시 요구에 대응할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>IBM Envizi의 검증된 계산 엔진을 API 형태로 제공하여 시스템 간 유연한 통합 지원</li><li>Scope 1, 2, 3 전반에 걸친 온실가스 배출량 자동 계산 및 데이터 가시성 확보</li><li>기존 비즈니스 워크플로우 내에서 탄소 배출 데이터를 즉각적으로 확인 및 분석 가능</li></ul><p>원문: <a href="https://www.esgtoday.com/ibm-launches-solution-to-embed-ghg-emissions-calculations-into-existing-systems/?utm_source=rss&utm_medium=rss&utm_campaign=ibm-launches-solution-to-embed-ghg-emissions-calculations-into-existing-systems" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 135,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '블랙스톤, 재생에너지 기업 유로윈드에 20억 유로 투자',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 자산운용사 블랙스톤이 덴마크의 재생에너지 개발 기업인 유로윈드 에너지(Eurowind Energy)에 최대 20억 유로(약 3조 원)를 투자합니다. 이번 투자는 블랙스톤의 인프라 및 에너지 전환 펀드를 통해 진행되며, 유로윈드의 풍력, 태양광 및 에너지 저장 장치 포트폴리오 확장을 지원하는 것이 목적입니다. 유로윈드는 현재 유럽과 미국 전역에서 25GW 이상의 개발 파이프라인을 보유하고 있으며, 이번 자본 확충을 통해 글로벌 시장에서의 성장을 가속화할 계획입니다. 블랙스톤은 이번 파트너십이 전 세계적인 에너지 전환을 지원하는 중요한 이정표가 될 것으로 보고 있습니다.</p><h3>주요 포인트</h3><ul><li>블랙스톤, 유로윈드 에너지에 최대 20억 유로 규모의 대규모 자본 투자 발표</li><li>유럽 및 미국 내 육상 풍력, 태양광, PV 및 에너지 저장 프로젝트 개발 가속화</li><li>25GW 이상의 파이프라인을 기반으로 재생에너지 시장 내 리더십 강화 및 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/blackstone-invests-e2-billion-in-european-renewables-developer-eurowind/?utm_source=rss&utm_medium=rss&utm_campaign=blackstone-invests-e2-billion-in-european-renewables-developer-eurowind" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 136,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'PwC: 기업 82%, 기후 목표 유지 및 공급망 탈탄소화 가속',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>PwC의 최신 조사 결과에 따르면, 전 세계 기업의 82%가 기후 변화 대응 목표를 유지하거나 더욱 가속화하고 있는 것으로 나타났습니다. 이러한 탈탄소화 노력은 기업의 직접적인 운영 범위를 넘어 공급망 전체로 빠르게 확대되고 있으며, 많은 기업이 협력사와의 협업을 강화하고 있습니다. 기업들은 규제 준수, 비용 절감, 리스크 관리를 주요 동력으로 삼고 있으나, 데이터 품질 확보와 공급망의 복잡성은 여전히 해결해야 할 과제로 꼽힙니다.</p><h3>주요 포인트</h3><ul><li>전 세계 기업의 82%가 기존 기후 목표를 고수하거나 달성 속도를 높이는 추세</li><li>탈탄소화의 초점이 기업 내부에서 공급망(Scope 3) 전체로 광범위하게 확산</li><li>강화되는 글로벌 규제와 경제적 이익이 기업의 기후 행동을 이끄는 핵심 동력</li></ul><p>원문: <a href="https://www.esgtoday.com/82-of-companies-maintaining-or-accelerating-climate-goals-as-decarbonization-efforts-extend-to-supply-chain-pwc/?utm_source=rss&utm_medium=rss&utm_campaign=82-of-companies-maintaining-or-accelerating-climate-goals-as-decarbonization-efforts-extend-to-supply-chain-pwc" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 137,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '캘리포니아 스코프 3 공시의 명확한 시작이 필요한 이유',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>캘리포니아의 기후 기업 데이터 책임법(SB 253)은 기업의 공급망 전체 탄소 배출량인 스코프 3 공시를 의무화하고 있습니다. 최근 시행 시기에 대한 논의가 활발한 가운데, 저자는 기후 리스크의 정확한 파악을 위해 스코프 3 보고가 반드시 필요하다고 주장합니다. 기업들이 혼란 없이 대비할 수 있도록 명확한 일정과 기준을 제시하는 것이 제도 성공의 핵심입니다.</p><h3>주요 포인트</h3><ul><li>스코프 3는 기업 탄소 발자국의 대부분을 차지하며 기후 리스크를 이해하는 데 필수적인 지표임</li><li>제도 시행의 지연보다는 명확한 시작일 설정을 통해 기업의 준비 기간과 예측 가능성을 확보해야 함</li><li>글로벌 표준(ISSB, EU CSRD)과의 정합성을 유지하여 기업의 공시 부담을 줄이고 데이터 일관성을 높여야 함</li><li>초기 보고 단계에서 발생할 수 있는 오류에 대해 기업을 보호하는 '세이프 하버' 규정 도입이 중요함</li></ul><p>원문: <a href="https://www.esgtoday.com/why-californias-scope-3-reporting-needs-a-clear-start/?utm_source=rss&utm_medium=rss&utm_campaign=why-californias-scope-3-reporting-needs-a-clear-start" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 128,
       pinned: false,
       category: 'news', categoryName: '소식',
