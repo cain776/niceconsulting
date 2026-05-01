@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 138,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '옥토퍼스, 美 재조림 탄소 제거 프로젝트에 5억 달러 투자',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>재생에너지 투자사인 옥토퍼스 에너지 제너레이션이 자연 기반 솔루션 기업 리빙 카본(Living Carbon)과 협력하여 미국 내 재조림 프로젝트에 5억 달러를 투자합니다. 이번 파트너십은 광합성 효율을 높여 일반 나무보다 더 빠르게 성장하고 더 많은 탄소를 흡수하는 바이오 공학 나무를 심는 것을 골자로 합니다. 이를 통해 버려진 농지와 산업 부지를 복원하고 고품질의 탄소 제거 크레딧을 생성하여 기후 변화 대응을 가속화할 전망입니다.</p><h3>주요 포인트</h3><ul><li>옥토퍼스 에너지, 리빙 카본과 5억 달러 규모의 대규모 재조림 파트너십 체결</li><li>광합성 강화 기술을 적용한 나무를 활용해 탄소 흡수 효율 및 속도 극대화</li><li>미국 전역의 유휴 부지 복원 및 신뢰도 높은 탄소 제거 크레딧 공급 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/octopus-invests-500-million-in-u-s-reforestation-based-carbon-removal-projects/?utm_source=rss&utm_medium=rss&utm_campaign=octopus-invests-500-million-in-u-s-reforestation-based-carbon-removal-projects" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 139,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '뉴욕시 연기금, 블랙록·피델리티 기후 대응 미흡 지적',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>뉴욕시 연기금은 블랙록과 피델리티 등 주요 자산운용사들이 기후 변화 대응 기대치에 충분히 부합하지 않는다는 보고서를 발표했습니다. 보고서에 따르면 이들 운용사는 기후 관련 주주 제안에 대한 찬성률이 낮아졌으며, 이는 연기금의 2040년 넷제로 목표 달성에 걸림돌이 되고 있습니다. 브래드 랜더 뉴욕시 감사관은 자산운용사들이 실질적인 탈탄소화 전략을 이행해야 한다고 촉구했습니다.</p><h3>주요 포인트</h3><ul><li>블랙록과 피델리티의 기후 관련 주주 제안 지지율이 최근 몇 년간 크게 하락했습니다.</li><li>뉴욕시 연기금은 2040년까지 포트폴리오 넷제로를 목표로 하며, 운용사들의 정렬된 행동을 요구하고 있습니다.</li><li>아문디 등 유럽계 운용사와 달리 미국 대형 운용사들의 기후 공약 이행이 퇴보하고 있다는 분석입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/nyc-pension-funds-say-blackrock-fidelity-not-aligned-with-climate-expectations/?utm_source=rss&utm_medium=rss&utm_campaign=nyc-pension-funds-say-blackrock-fidelity-not-aligned-with-climate-expectations" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 140,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ERM, 루이즈 피어스 지속가능성 및 리스크 글로벌 리더 임명',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>세계적인 지속가능성 전문 컨설팅 기업 ERM이 루이즈 피어스(Louise Pearce)를 지속가능성 및 리스크 부문의 새로운 글로벌 리더로 임명했습니다. 피어스는 ERM에서 25년 이상 근무한 베테랑으로, 기업들이 복잡한 ESG 규제와 기후 리스크에 대응할 수 있도록 지원하는 역할을 맡게 됩니다. 그녀는 고객사의 지속가능성 전략 수립과 실행을 총괄하며 ERM의 글로벌 성장을 견인할 예정입니다.</p><h3>주요 포인트</h3><ul><li>ERM, 루이즈 피어스를 지속가능성 및 리스크 부문 글로벌 총괄로 선임</li><li>25년 이상의 전문성을 바탕으로 기업의 기후 변화 및 ESG 리스크 대응 지원</li><li>글로벌 규제 강화에 따른 고객사의 지속가능한 비즈니스 전환 및 전략 실행 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/erm-appoints-louise-pearce-as-global-leader-of-sustainability-and-risk/?utm_source=rss&utm_medium=rss&utm_campaign=erm-appoints-louise-pearce-as-global-leader-of-sustainability-and-risk" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 141,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '스코샤은행·RBC, 금융 배출량 감축 목표 철회',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>캐나다의 주요 은행인 스코샤은행(Scotiabank)과 캐나다 왕립은행(RBC)이 2030년까지 석유 및 가스 부문의 금융 배출량을 감축하겠다던 기존 목표를 철회했습니다. 이들은 절대적인 배출량 감축 대신 탄소 집약도 기반의 목표로 전환하거나 고객사와의 협력을 통한 전환 지원에 집중하겠다는 방침입니다. 이러한 변화는 에너지 안보와 현실적인 전환 속도를 고려한 결정으로 풀이되나, 기후 대응 후퇴라는 비판도 제기되고 있습니다.</p><h3>주요 포인트</h3><ul><li>스코샤은행과 RBC가 석유·가스 포트폴리오에 대한 2030년 금융 배출량 감축 목표를 공식적으로 폐기함.</li><li>절대적 배출량 감축 목표 대신 '배출 집약도' 중심의 지표를 도입하여 에너지 기업의 효율성 개선을 유도하는 방향으로 선회함.</li><li>은행 측은 에너지 안보 유지와 고객사의 저탄소 전환을 실질적으로 지원하기 위해 유연한 접근 방식이 필요하다고 주장함.</li></ul><p>원문: <a href="https://www.esgtoday.com/scotiabank-rbc-drop-financed-emissions-goals/?utm_source=rss&utm_medium=rss&utm_campaign=scotiabank-rbc-drop-financed-emissions-goals" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 142,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ROSI, 태양광 패널 재활용 확대를 위해 2,300만 달러 투자 유치',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스의 클린테크 기업 ROSI가 태양광 패널 재활용 역량을 확대하기 위해 2,000만 유로(약 2,300만 달러) 이상의 자금을 조달했습니다. 이번 투자는 수명이 다한 태양광 패널에서 실리콘, 은, 구리 등 고순도 원자재를 회수하는 ROSI의 독자적인 기술력을 강화하고 상업적 규모를 키우는 데 사용될 예정입니다. ROSI는 이를 통해 태양광 산업의 순환 경제를 구축하고 급증하는 폐패널 문제 해결에 앞장설 계획입니다.</p><h3>주요 포인트</h3><ul><li>2,000만 유로 이상의 자금 확보를 통한 글로벌 재활용 시설 확충</li><li>폐태양광 패널에서 은, 구리, 고순도 실리콘을 효율적으로 추출하는 혁신 기술 보유</li><li>이토추 상사 및 유럽혁신위원회(EIC) 기금 등 주요 전략적 투자자 참여</li></ul><p>원문: <a href="https://www.esgtoday.com/rosi-raises-23-million-to-scale-solar-panel-recycling-capacity/?utm_source=rss&utm_medium=rss&utm_campaign=rosi-raises-23-million-to-scale-solar-panel-recycling-capacity" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 133,
       pinned: false,
       category: 'news', categoryName: '소식',
