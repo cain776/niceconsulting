@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 143,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '프랑스, 2050년 화석연료 퇴출 로드맵 발표',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스 정부가 2050년 탄소 중립 달성을 위한 '에너지-기후 전략(SFEC)' 로드맵을 발표했습니다. 이번 계획은 에너지 소비 절감과 원자력 및 재생에너지 생산 확대를 통해 화석연료 의존도를 단계적으로 낮추는 것을 골자로 합니다. 2030년까지 화석연료 비중을 현재 60%에서 42%로 줄이고, 2050년에는 완전히 퇴출하는 것을 목표로 설정했습니다. 이를 위해 건물 에너지 효율 개선, 교통 및 산업 부문의 탈탄소화 등 구체적인 실행 방안이 포함되었습니다.</p><h3>주요 포인트</h3><ul><li>2050년까지 화석연료 사용 0% 달성 및 탄소 중립 목표 명시</li><li>원자력 발전(신규 EPR2 원자로 건설)과 재생에너지(태양광, 해상풍력)의 병행 확대</li><li>에너지 효율성 제고를 위한 건물 개보수 및 산업 공정의 탈탄소화 추진</li></ul><p>원문: <a href="https://www.esgtoday.com/france-unveils-roadmap-to-quit-fossil-fuels-by-2050/?utm_source=rss&utm_medium=rss&utm_campaign=france-unveils-roadmap-to-quit-fossil-fuels-by-2050" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 144,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'CIP, 오르스테드 육상 부문 인수로 \'페리구스 에너지\' 출범',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 인프라 투자 운용사인 코펜하겐 인프라스트럭처 파트너스(CIP)가 새로운 유럽 재생에너지 플랫폼인 '페리구스 에너지(Perigus Energy)'를 출범했습니다. 이번 발표는 오르스테드(Ørsted)의 프랑스, 독일, 영국 내 육상 풍력 및 태양광 사업 인수를 완료한 데 따른 후속 조치입니다. 페리구스 에너지는 유럽 전역에서 재생에너지 프로젝트의 개발, 건설 및 운영을 통합 관리하며 지역 에너지 전환을 가속화할 계획입니다.</p><h3>주요 포인트</h3><ul><li>오르스테드의 유럽 육상 재생에너지 자산 인수 완료 및 신규 플랫폼 '페리구스 에너지' 설립</li><li>프랑스, 독일, 영국을 중심으로 약 12GW 규모의 풍력 및 태양광 프로젝트 파이프라인 확보</li><li>CIP의 플래그십 펀드를 통해 유럽 내 재생에너지 자산의 개발부터 운영까지 전 단계 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/cip-launches-new-european-renewable-energy-platform-following-orsted-acquisition/?utm_source=rss&utm_medium=rss&utm_campaign=cip-launches-new-european-renewable-energy-platform-following-orsted-acquisition" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 145,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엔지, 딥스카이와 DAC 탄소 제거 계약 체결',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스 에너지 기업 엔지(Engie)가 캐나다의 탄소 제거 프로젝트 개발사인 딥스카이(Deep Sky)와 직접공기포집(DAC) 기술을 활용한 탄소 제거 크레딧 구매 계약을 체결했습니다. 이번 협력은 엔지의 첫 번째 DAC 거래로, 2045년 넷제로 목표 달성을 위한 전략적 행보의 일환입니다. 딥스카이는 캐나다 퀘벡에 구축 중인 '딥스카이 Labs' 시설을 통해 대기 중 이산화탄소를 포집하고 영구적으로 격리하여 크레딧을 발행할 계획입니다.</p><h3>주요 포인트</h3><ul><li>엔지의 첫 번째 직접공기포집(DAC) 기반 탄소 제거 크레딧 구매 계약</li><li>캐나다 퀘벡의 '딥스카이 Labs' 프로젝트를 통한 탄소 포집 및 영구 격리</li><li>2045년까지 탄소 중립을 목표로 하는 엔지의 탈탄소화 포트폴리오 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/engie-signs-dac-carbon-removal-deal-with-deep-sky/?utm_source=rss&utm_medium=rss&utm_campaign=engie-signs-dac-carbon-removal-deal-with-deep-sky" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 146,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '솔라리아, 재생에너지 및 데이터센터 확장을 위해 3억 유로 조달',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>스페인의 재생에너지 개발 기업 솔라리아(Solaria)가 재생에너지, 에너지 저장 장치(ESS), 데이터센터 인프라 구축을 위해 3억 유로(약 4,500억 원)의 자금을 조달했습니다. 이번 자금은 솔라리아가 단순 태양광 발전 기업을 넘어 종합 인프라 플랫폼으로 도약하는 데 사용될 예정입니다. 특히 AI 산업 성장에 따른 데이터센터의 전력 수요 급증에 대응하여 친환경 에너지 솔루션을 제공하는 것이 핵심 목표입니다.</p><h3>주요 포인트</h3><ul><li>재생에너지 및 데이터센터 인프라 확장을 위한 3억 유로 규모의 자금 확보</li><li>태양광 발전을 넘어 에너지 저장(ESS) 및 데이터센터를 포함한 비즈니스 모델 다각화</li><li>AI 및 디지털화로 인한 급격한 전력 수요 증가에 대응하는 전략적 행보</li></ul><p>원문: <a href="https://www.esgtoday.com/solaria-raises-e300-million-to-build-out-renewables-storage-data-center-infrastructure-platform/?utm_source=rss&utm_medium=rss&utm_campaign=solaria-raises-e300-million-to-build-out-renewables-storage-data-center-infrastructure-platform" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 147,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '보잉, 바이오차·암석풍화 탄소 제거권 2만 톤 구매',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>보잉이 탄소 제거 마켓플레이스인 슈퍼크리티컬(Supercritical)을 통해 2만 톤 규모의 탄소 제거 크레딧 포트폴리오를 구매했습니다. 이번 포트폴리오는 바이오차(Biochar)와 강화 암석 풍화(ERW) 기술을 활용한 프로젝트들로 구성되어 있습니다. 이는 보잉의 2050년 넷제로(Net Zero) 달성 전략의 일환으로, 초기 단계인 탄소 제거 기술의 상용화를 지원하기 위한 결정입니다. 슈퍼크리티컬은 엄격한 실사를 거쳐 신뢰도가 높은 고품질 프로젝트만을 선별하여 보잉에 제공했습니다.</p><h3>주요 포인트</h3><ul><li>바이오차 및 강화 암석 풍화(ERW) 등 혁신적인 탄소 제거 기술 도입</li><li>2050년 탄소 중립 목표 달성을 위한 보잉의 지속가능성 투자 확대</li><li>슈퍼크리티컬과의 협력을 통한 고품질 탄소 제거 시장의 확장 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/boeing-buys-20000-ton-portfolio-of-biochar-erw-carbon-removals/?utm_source=rss&utm_medium=rss&utm_campaign=boeing-buys-20000-ton-portfolio-of-biochar-erw-carbon-removals" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 138,
       pinned: false,
       category: 'news', categoryName: '소식',
