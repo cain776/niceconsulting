@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 148,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'G7 석탄 발전 퇴출 합의와 글로벌 기후 동향',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>G7 국가들이 2030년대 초반까지 석탄 발전을 단계적으로 폐지하기로 합의하며 탈화석연료를 향한 구체적인 경로를 설정했습니다. 중국은 청정 기술 분야에서 기록적인 성장세를 보이고 있으나 서구권과의 무역 갈등이 심화되는 양상입니다. 또한, 전 세계 산림 손실 속도가 다소 둔화되었다는 데이터가 발표되었으나 2030년 목표 달성을 위해서는 더 강력한 조치가 필요한 상황입니다.</p><h3>주요 포인트</h3><ul><li>G7 에너지·기후 장관들의 2030년대 상반기 내 석탄 발전소 폐쇄 합의</li><li>중국의 청정 에너지 기술 급증과 이에 따른 글로벌 무역 긴장 상태</li><li>글로벌 산림 손실의 완만한 감소세 및 2030년 산림 파괴 중단 목표와의 격차</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-1-may-2026-countries-chart-path-away-from-fossil-fuels-chinas-clean-tech-surge-global-forest-loss-slows/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 149,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '산타마르타 정상회의: 화석연료 탈피를 위한 첫 이행 로드맵',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>콜롬비아 산타마르타에서 화석연료로부터의 전환을 논의하기 위한 세계 최초의 정상회의가 개최되었습니다. 이번 회의는 COP28의 합의 사항을 구체적인 실행 계획으로 옮기기 위해 마련되었으며, 참가국들은 화석연료 의존도를 낮추기 위한 국가별 로드맵을 개발하기로 합의했습니다. 특히 에너지 전환 과정에서 발생할 수 있는 경제적 충격을 완화하고 노동자를 보호하는 '정의로운 전환'이 주요 의제로 다뤄졌습니다.</p><h3>주요 포인트</h3><ul><li>COP28의 '화석연료로부터의 전환' 합의를 실천하기 위해 소집된 최초의 국제 정상회의</li><li>참가국들이 화석연료 생산 및 소비를 단계적으로 줄이기 위한 국가별 이행 계획 수립에 착수</li><li>개발도상국을 위한 금융 지원 메커니즘과 에너지 전환에 따른 공정한 노동 시장 변화 강조</li></ul><p>원문: <a href="https://www.carbonbrief.org/santa-marta-key-outcomes-from-first-summit-on-transitioning-away-from-fossil-fuels/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 150,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 화석연료 통제 강화 및 클린테크 수출 급증',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>중국 정부는 2024-2025년 에너지 절약 및 탄소 감축 실행 계획을 통해 화석 연료 소비에 대한 엄격한 통제와 탄소 배출 관리 체계로의 전환을 선언했습니다. 이와 함께 엘니뇨 현상에 따른 극단적인 기상 이변 가능성에 대비하며 기후 변화 대응력을 높이고 있습니다. 또한 태양광, 배터리, 전기차 등 이른바 '신 3대 산업'의 수출이 급증한 배경과 글로벌 시장에 미치는 영향을 분석했습니다.</p><h3>주요 포인트</h3><ul><li>화석 연료 소비의 엄격한 제한 및 탄소 배출량 중심의 '이중 제어' 관리 시스템 도입 가속화</li><li>엘니뇨에서 라니냐로의 전환기에 따른 홍수 및 폭염 등 극단적 기상 현상에 대한 경고와 대비</li><li>국내 과잉 생산과 글로벌 녹색 전환 수요가 맞물린 클린테크 제품의 폭발적인 수출 성장과 무역 역학 관계</li></ul><p>원문: <a href="https://www.carbonbrief.org/china-briefing-30-april-2024-fossil-fuel-strict-controls-el-nino-approaches-why-cleantech-exports-have-surged/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 151,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기상 이변 예측, 여전히 전통적 모델이 AI보다 우수',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>인공지능(AI) 기상 모델이 속도와 효율성 면에서는 뛰어나지만, 기록적인 기상 이변을 예측하는 데는 여전히 전통적인 물리 기반 모델이 더 우수한 성능을 보인다는 연구 결과가 발표되었습니다. AI 모델은 과거 데이터를 기반으로 학습하기 때문에 데이터 범위를 벗어난 전례 없는 기상 현상을 포착하는 데 한계가 있습니다. 반면 물리 법칙에 기반한 전통적 수치 예보 모델은 미지의 기후 시나리오를 시뮬레이션하는 데 더 강점을 보입니다.</p><h3>주요 포인트</h3><ul><li>AI 모델은 과거 통계에 의존하므로 기록을 경신하는 폭염이나 폭풍 예측에 취약함</li><li>전통적 모델은 물리적 메커니즘을 직접 계산하여 '학습되지 않은' 극단적 상황도 예측 가능함</li><li>AI는 연산 속도가 빠르고 비용이 저렴하여, 향후 두 모델을 결합한 하이브리드 방식이 유망함</li></ul><p>원문: <a href="https://www.carbonbrief.org/traditional-models-still-outperform-ai-for-extreme-weather-forecasts/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 152,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '2026년 세계 석탄 수요, 이란 위기에도 큰 폭의 반등 없을 것',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>이란 위기로 인한 에너지 안보 우려에도 불구하고, 2026년까지 전 세계적인 석탄 회귀 현상은 미미할 것으로 전망됩니다. 재생에너지의 급격한 확산과 원자력 발전의 회복이 석탄 수요를 억제하는 주요 요인으로 작용하고 있습니다. 특히 중국의 에너지 구조 변화가 글로벌 석탄 소비 감소에 결정적인 역할을 할 것으로 보입니다.</p><h3>주요 포인트</h3><ul><li>이란 위기 등 지정학적 불안에도 불구하고 전 세계 석탄 발전 비중은 지속적으로 감소 추세임</li><li>태양광 및 풍력 등 재생에너지 설치량의 기록적인 증가가 석탄의 빈자리를 대체 중임</li><li>중국의 청정 에너지 전환 가속화가 글로벌 석탄 수요의 정점 통과를 견인하고 있음</li></ul><p>원문: <a href="https://www.carbonbrief.org/world-will-not-see-significant-return-to-coal-in-2026-despite-iran-crisis/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 143,
       pinned: false,
       category: 'news', categoryName: '소식',
