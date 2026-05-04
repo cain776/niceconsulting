@@ -10,20 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
-      id: 353,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: '동아ST, 글로벌 ESG 평가 에코바디스 골드 등급 획득',
-      author: '관리자',
-      date: '2025.12.24',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>동아ST가 글로벌 ESG 평가기관 에코바디스(EcoVadis)로부터 골드(Gold) 등급을 획득했다고 발표했습니다. 글로벌 평가 상위권에 진입하며 의약품 산업 내 지속가능성 우수기업으로 인정받은 사례입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 평가에서 골드 등급(상위 5%) 획득</li><li>제약 공급망의 지속가능 경영 인증</li><li>글로벌 파트너십·공급계약 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zbXQ5c3I0RWFTSU4wYzhwYjEtTWFEa0VYRDhGMXNpeVRJSElpSWRiVzlwRm1GTmIwNmY1cVlJOWgxMTJrdjhWekJLZW1LSnp5aGM3b0ZkUTZUUdIBVEFVX3lxTE5iMkllcDRCMVItd3UzeTNYdnB4LUhLdkFRRUF4a3h4YXByOExuZ0VCeURuTmc1eTZGSUV3bTVLa1AxOThMQ3pTNmNfZzU4dC1KVXNGaA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 354,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -35,20 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>글로벌 공급망의 새로운 질서 속에서 에코바디스 평가가 중소기업에게 '신뢰의 여권' 역할을 하고 있다는 칼럼입니다. 글로벌 발주처 입찰·계약에서 ESG 인증이 사실상 진입 조건이 되어가고 있습니다.</p><h3>주요 포인트</h3><ul><li>글로벌 발주처의 ESG 평가 요구 일반화</li><li>중소기업 수출 경쟁력의 핵심 자산화</li><li>인증 → 계약·금융까지 이어지는 효과</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMczg1dWtZaXNUQkVGOE5TSUE4ak5McVJnbnN3Vm1McTVVOWZyME5ELURKQVpZYy1reE5UdmlBTkpoSXc2b2pfMENrU0I1MkNJR2tBQkFTN0RoRFdhQ2xj?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 355,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: 'DH오토리드, 에코바디스 골드메달 획득…글로벌 상위 5%',
-      author: '관리자',
-      date: '2025.12.19',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>자동차 부품 기업 DH오토리드가 에코바디스 평가에서 골드메달을 획득해 글로벌 상위 5%에 진입했다고 발표했습니다. 자동차 산업 공급망 ESG 요구가 점점 강화되는 흐름에서 의미 있는 성과입니다.</p><h3>주요 포인트</h3><ul><li>골드메달로 글로벌 상위 5% ESG 경쟁력 입증</li><li>완성차 OEM 협력사 경쟁력 강화</li><li>자동차 부품 공급망의 ESG 평가 확산</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBVT2hUc0N6V2FiVUEtMGNUcm56dnpFTjNMNUVpZUdBcnhDN0sxSUxac0hQazFvY0d4eXF5N0JNM2xGOUVta1I1aXFqMVRtb1d5dU9LZXEyY3l6eGFNOHZsUEpmLXJvQ1NRNlE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
@@ -133,20 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>유한양행 자회사 유한화학이 에코바디스 평가에서 플래티넘 메달을 획득했다고 발표했습니다. 화학·제약 산업의 한국 기업이 글로벌 최상위 ESG 평가에 도달한 사례로 주목됩니다.</p><h3>주요 포인트</h3><ul><li>플래티넘 메달로 글로벌 상위 1% 진입</li><li>제약·화학 분야 한국 기업 ESG 경쟁력</li><li>글로벌 고객사 공급계약 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE0wMkZxVGhiWldBdFFiUWVXNzFLQUtGMzZYQ3VVYWFkaElEVER6R0NRc2tuS3EyX2NXNGdwd1o2Wl9tc2NfUVZWdmJhX2FLc29ONVZOT0JNOEhqYzVsOTdNeUhkLWRfZWs0VFBESA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 362,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: 'Nagarro, 에코바디스 비즈니스 지속가능성 골드메달 수상',
-      author: '관리자',
-      date: '2025.12.02',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>글로벌 디지털 엔지니어링 기업 Nagarro가 에코바디스 평가에서 비즈니스 지속가능성 부문 골드메달을 받았다고 발표했습니다. IT 서비스 기업의 ESG 경쟁력 사례입니다.</p><h3>주요 포인트</h3><ul><li>IT 서비스 기업의 골드메달 획득 사례</li><li>디지털 산업의 지속가능 경영 확산</li><li>글로벌 고객사 ESG 요구 부합</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPaVN5eE9ER1E5OTF3dTNGNVRLQ0Ftc0dlQ0xYOWVYRVFMRDZLV2JMRW1yMXNBdDNaV1hKekZmUmtBclVmVWJOdTJHY09kMEJ1a2tmYXJQMTk3OWxIV0tNaGt4Y0s4bGYxWjFmemdjbXJTQ2ZnX2JQem9HY0NoVE45QWNNVzVsWng0NnRtZ1JtM1BsRndRTmpidGdiRndZUWo1NWdKZUFkaTVPUzZFLXQ3eEVoMjIyWEk3ZlVkX3MxZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
@@ -388,20 +346,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 380,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: 'AIKO, 지속가능성 우수성으로 에코바디스 실버 메달 수상',
-      author: '관리자',
-      date: '2025.10.13',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>중국 태양광 셀 제조사 AIKO Solar가 지속가능성 우수성을 인정받아 에코바디스 실버 메달을 수상했다고 발표했습니다. 신재생에너지 부품 산업의 ESG 대응 사례입니다.</p><h3>주요 포인트</h3><ul><li>실버 메달로 글로벌 상위 25% ESG 진입</li><li>태양광 산업 공급망 ESG 인증 확산</li><li>중국 신재생 부품 기업의 글로벌 인증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rWmFpX3VDd2VhWS1ndUNfbWw4N0t0SjExak1zS2ZyckdtSEtldU1tRVBYU1p3VWlxaW5zaXNFSGF0NDJ1Q0ZkcmFDV3p3a2o5bDk1elh0QkRZVHJuTWl6YTZBeWR2QQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 381,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -483,48 +427,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>보스턴컨설팅그룹(BCG)이 기후 행동을 미루는 기업이 2030년까지 연간 5,000억 달러 이상의 글로벌 부담을 안게 될 것이라는 분석을 발표했습니다. 기후 무위(無爲)의 비용 정량화입니다.</p><h3>주요 포인트</h3><ul><li>기후 무위의 글로벌 비용 정량화</li><li>2030년 연간 5,000억 달러 잠재 부담</li><li>선제적 행동의 경제적 정당성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPSERzQVF5dG54Q1o5WnJXdWtyRVZoZE5CS0tSQm55RnhiUnY3eW5iR2lyaUNKaGRwTE4tcTRYQ0tlNjFURVhBUTJldDQwSGxJRGdxaDBsZU9DNXF6a3RQM0luSy1sZ2ItYjlpa2hid2pnZl94ZHQ1RmdlUUdLOWRTYzlDeTNmaXFqQTRRdVFORThtSU1BeUk1czQyQ0ZET3ZTMG9nZ2k0VQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 387,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: 'Scan Global Logistics, 에코바디스 골드 두 번째 획득…상위 5%',
-      author: '관리자',
-      date: '2025.09.22',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>덴마크 본사 글로벌 물류 기업 Scan Global Logistics가 에코바디스 평가에서 두 번째 골드 등급을 획득해 글로벌 상위 5% 진입에 성공했습니다.</p><h3>주요 포인트</h3><ul><li>물류 산업의 ESG 모범 평가 사례</li><li>골드 등급 두 번째 획득으로 일관성 입증</li><li>글로벌 화주 ESG 요구 부합 경쟁력</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYm1CaGxYZVJWdjkwU0U5eHJSZHlSVTdrX0ZqTnd0MGtuVEhUUXlEUDVuR3A0cW1ld24tUjhvemRjMUNDU0VFaGctYTl2MWN5dDZqMHIxM0JrY3VDOUZfZ1hjSzgxN1ktZmRUNWt4ZVFZQzJJdW1JcGRJVEJDdUVnLUY2eXAwNWhmTFZUUUVxOEljV3ZzUjN0YVlldkJTQUNoZkZMRDdBcjYtcVFFYXFGWDF4bVhHQXBGRUszZTdNendscHFDQkFzV3EtQzUxTWxObVplMmZn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 388,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: 'XPO Logistics, 2년 연속 에코바디스 골드 메달 획득',
-      author: '관리자',
-      date: '2025.09.18',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>북미 대형 물류 기업 XPO Logistics가 지속가능성 우수성을 인정받아 2년 연속 에코바디스 골드 메달을 획득했다고 발표했습니다.</p><h3>주요 포인트</h3><ul><li>2년 연속 골드 메달 유지</li><li>북미 물류 산업의 ESG 모범 사례</li><li>고객사 ESG 요구 대응 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQbnh1Y1VqLUhjU3Z5eUgtZ01fUVBIZWg5LVFLYUgzOFMxaUNZdnZVdnBNQXpvTy1PQlNCaXVlWmNMcXZzNURQUTZzbGZyalU1b2M4dFRZNXl2TDNFa3NxOWhQWHprT2pjVkduSkprVG1Lb3lOclJrYno2bGpmbEJuaDZJMDczZ1NfSlB4YXpxQWRZMUdZR043X05B?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 389,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: '현대이지웰, 글로벌 ESG 평가서 \'우수 기업\' 인증 획득',
-      author: '관리자',
-      date: '2025.09.17',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>복지 솔루션 기업 현대이지웰이 글로벌 ESG 평가에서 '우수 기업' 인증을 획득했다고 발표했습니다. 한국 서비스 산업의 ESG 모범 사례 중 하나로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>한국 서비스 기업 글로벌 ESG 인증</li><li>복지·HR 솔루션의 ESG 도약</li><li>고객사·임직원 ESG 신뢰 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9pTjhfdEF0c2I2QzhsdUVaMjdJRDhGTVp3MTY5STFKeXlzelhLaU9MWEc5VFpBUE9ZTWh1d3huWkplaDhCSzAwRUE2em5lbzBTM1RPRzVFSWtxOXkwcXZqYzJsUkcyenJSRXVr?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
@@ -693,34 +595,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>EU 옴니버스 등 규제 완화 흐름 속에서 오히려 에코바디스 같은 자율 평가 체계가 더 주목받는 이유를 분석한 칼럼입니다. 시장이 규제 공백을 메우는 메커니즘으로 평가가 부상합니다.</p><h3>주요 포인트</h3><ul><li>규제 완화 → 시장 평가 의존 증가</li><li>에코바디스 등 평가의 시장 표준화</li><li>중소기업의 자율적 입증 수단 확대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE52MDNTaUQ5Q25wQ1lsakNlendMYzhrdTFYNVVuVW81SlkwR3pYQnpwSVNUR1NQelhHZWp5Y1hHRy1aREd6QlQ1QkVGMlVmb0g5YjRqcUNDLWtjMlhmWHlhZ2JxNjZUNFFmUUQ5Qg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 402,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: 'Huhtamaki, 에코바디스 골드 메달 5년 연속 획득',
-      author: '관리자',
-      date: '2025.07.07',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>핀란드 식품 패키징 기업 Huhtamaki가 에코바디스 평가에서 5년 연속 골드 메달을 획득했다고 발표했습니다. 패키징 산업의 ESG 일관성 모범 사례입니다.</p><h3>주요 포인트</h3><ul><li>5년 연속 골드 메달 유지로 일관성 입증</li><li>식품 패키징 산업 ESG 리더십</li><li>지속가능 패키징 솔루션 경쟁력</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnVJcnZ5ZWUxXy15OTFjXzJyRXRSUDRib0RSZGVUQ1JJaVBpa1cyZzl5ZjBpaWhaN0FGQnB3VE1HUzFjVXkwZ0MyLTlRSFFjemZPZDhzaG1RajVoMzJmVjZ6UjJ2RFBuQ3lwMUNNYm11R1JjLWxKX2RlRElmTUFfa3dkenpZUDdkNW5oZk5yTnlFT2JjWUE3aGN1RC1ZTE9OTU9yOGduSEp2ZnM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 403,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'ecovadis', topicName: '에코바디스',
-      title: '코닥, 2025년 에코바디스 동메달 획득…지속가능성 여정의 이정표',
-      author: '관리자',
-      date: '2025.07.01',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>이미징 솔루션 기업 코닥이 2025년 에코바디스 평가에서 동메달을 획득했다고 발표했습니다. 코닥의 장기 지속가능성 여정에서 의미 있는 이정표로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>이미징 산업의 ESG 평가 도전 사례</li><li>동메달로 글로벌 상위 50% 진입</li><li>지속가능성 여정 시작점의 인증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1lUEdzZG56SkNCWU0tbVBHRWVHQTdva3VLcU5DbkZ6XzF4ZC1fNF9EVVlIUVlwNW9IZW04TWg2alhpYl90enBXanlvaVVjcGhIZjVSb0ViQ3d3OFBUc3RvczJCX18yeVhIUDZLOXc1QkxvczRIUVdV?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
