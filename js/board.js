@@ -10,6 +10,2456 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 178,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 옴부즈만, 집행위 지속가능성 보고 규정 절차 결함 지적',
+      author: '관리자',
+      date: '2025.11.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 옴부즈만 테레사 안진호는 EU 집행위가 지속가능성 보고 규정을 완화하는 과정에서 절차상 다수의 미흡함을 발견했다고 발표했습니다. 이번 조사는 옴니버스 패키지의 일환으로 진행된 CSRD·CSDDD 완화 과정의 투명성과 적법성에 대한 의문을 제기합니다.</p><h3>주요 포인트</h3><ul><li>EU 옴부즈만, 집행위의 절차 위반 가능성 공식 지적</li><li>CSRD·CSDDD 완화 추진 과정의 투명성 부족 문제 부각</li><li>지속가능성 규제 체계의 신뢰성 회복을 위한 제도 개선 압박 증대</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-watchdog-says-commission-failed-to-follow-procedures-in-cutting-sustainability-reporting-rules/?utm_source=rss&utm_medium=rss&utm_campaign=eu-watchdog-says-commission-failed-to-follow-procedures-in-cutting-sustainability-reporting-rules" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 179,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Knight Frank, 영국 부동산용 2.38억 달러 그린에너지 계약 체결',
+      author: '관리자',
+      date: '2025.11.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 부동산 컨설팅 기업 나이트프랭크가 영국 내 자사 운영 부동산에 재생에너지를 공급받는 3년 장기 PPA를 체결했습니다. 총 계약 규모는 약 2억 3,800만 달러로, 부동산 관리·임대 사업의 탈탄소 전환을 본격화하는 행보입니다.</p><h3>주요 포인트</h3><ul><li>3년 장기 재생에너지 구매계약(PPA) 체결로 안정적 그린전력 확보</li><li>영국 자산 포트폴리오 전반에 걸친 탄소배출 감축 효과</li><li>대형 부동산 사업자 차원의 ESG 모범 사례로 평가</li></ul><p>원문: <a href="https://www.esgtoday.com/knight-frank-signs-238-million-green-energy-deal-for-uk-properties/?utm_source=rss&utm_medium=rss&utm_campaign=knight-frank-signs-238-million-green-energy-deal-for-uk-properties" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 180,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '모닝스타 서스테이널리틱스, 기후·자연 솔루션 책임자에 조디 탭스콧 선임',
+      author: '관리자',
+      date: '2025.11.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 평가·데이터·리서치 제공기업 모닝스타 서스테이널리틱스가 신규 기후·자연 솔루션 책임자로 조디 탭스콧을 임명했습니다. 자연자본 및 생물다양성 평가 수요 확대에 대응하기 위한 조직 강화의 일환입니다.</p><h3>주요 포인트</h3><ul><li>기후·자연 통합 평가 역량 확대를 위한 리더십 보강</li><li>자연자본·TNFD 등 생물다양성 공시 수요 증가에 대응</li><li>ESG 평가시장에서 자연 관련 솔루션의 중요도 상승 시사</li></ul><p>원문: <a href="https://www.esgtoday.com/morningstar-sustainalytics-appoints-jodie-tapscott-as-head-of-climate-and-nature-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=morningstar-sustainalytics-appoints-jodie-tapscott-as-head-of-climate-and-nature-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 181,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '레고, 종이 기반 친환경 포장재 전환 절반 이상 진행',
+      author: '관리자',
+      date: '2025.11.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>레고 그룹은 브릭 포장재를 비닐에서 종이 기반 친환경 소재로 전환하는 프로젝트가 절반을 넘어섰다고 밝혔습니다. 글로벌 장난감 산업의 플라스틱 절감 전환을 보여주는 대표 사례로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>레고, 종이 포장재 전환율 50% 돌파 발표</li><li>일회용 플라스틱 절감을 위한 다년간 전환 계획 추진</li><li>완구 산업 전반의 친환경 패키징 흐름 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/lego-passes-halfway-point-in-transition-to-paper-based-packaging-for-bricks/?utm_source=rss&utm_medium=rss&utm_campaign=lego-passes-halfway-point-in-transition-to-paper-based-packaging-for-bricks" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 182,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Reverion, 구글·H&M 등과 4,100만 달러 탄소제거 계약 체결',
+      author: '관리자',
+      date: '2025.11.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 기후 스타트업 Reverion이 탄소제거 구매자 연합 Frontier 등을 통해 구글, H&M 등 다수 기업과 총 4,100만 달러 규모의 탄소제거 오프테이크 계약을 체결했습니다. 바이오가스 기반 영구 탄소제거 기술의 상업화 신호탄으로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>구글·H&M 등 글로벌 기업의 영구 탄소제거 수요 가시화</li><li>고정형 바이오가스 발전·CCS 결합 기술의 상용화 진전</li><li>총 4,100만 달러 규모로 스타트업 성장 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/reverion-signs-41-million-in-carbon-removal-agreements-with-google-hm-others/?utm_source=rss&utm_medium=rss&utm_campaign=reverion-signs-41-million-in-carbon-removal-agreements-with-google-hm-others" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 183,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '페라리, 셸과 이탈리아 사업 전력 100% 재생에너지 공급 계약',
+      author: '관리자',
+      date: '2025.11.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 기업 셸이 페라리와 10년 장기 기업 PPA를 체결해 이탈리아 내 페라리 시설 전력을 재생에너지로 공급한다고 발표했습니다. 럭셔리 자동차 브랜드의 본격적인 사업장 단위 탈탄소 전환 사례입니다.</p><h3>주요 포인트</h3><ul><li>10년 장기 PPA로 안정적 재생전력 공급 구조 확보</li><li>이탈리아 본거지 시설의 100% 재생에너지화 추진</li><li>럭셔리·자동차 산업의 SBTi 목표 이행 흐름 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/ferrari-signs-deal-with-shell-to-provide-renewable-power-to-cover-energy-needs-in-italy/?utm_source=rss&utm_medium=rss&utm_campaign=ferrari-signs-deal-with-shell-to-provide-renewable-power-to-cover-energy-needs-in-italy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 184,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'KKR, 청정에너지 플랫폼 Greenvolt에 1.7억 달러 투자',
+      author: '관리자',
+      date: '2025.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 사모펀드 KKR이 포르투갈 청정에너지 개발사 Greenvolt에 1억 5천만 유로(약 1억 7,100만 달러) 규모의 자본 증자에 참여한다고 발표했습니다. 유럽 분산형 재생에너지 시장 확장을 위한 중요한 자본 조달입니다.</p><h3>주요 포인트</h3><ul><li>KKR, 청정에너지 플랫폼 성장 자금 1.7억 달러 공급</li><li>유럽 분산형 태양광·풍력 사업 확장 기반 마련</li><li>대형 PE의 재생에너지 인프라 투자 확대 흐름</li></ul><p>원문: <a href="https://www.esgtoday.com/kkr-commits-170-million-to-grow-clean-energy-platform-greenvolt/?utm_source=rss&utm_medium=rss&utm_campaign=kkr-commits-170-million-to-grow-clean-energy-platform-greenvolt" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 185,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Planted Solar, 토지 효율형 태양광 배포 위해 1,200만 달러 조달',
+      author: '관리자',
+      date: '2025.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>태양광 배포 솔루션 기업 Planted Solar가 시리즈 A 라운드에서 1,200만 달러를 조달했다고 발표했습니다. 동일 면적 대비 더 많은 발전 용량을 가능케 하는 자동화 설치 기술 확장에 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>토지 사용 최소화하는 고밀도 태양광 배치 기술</li><li>자동화·로보틱스 활용한 설치 비용 절감</li><li>1,200만 달러 자금으로 미국 시장 확장 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/planted-solar-raises-12-million-to-enable-faster-solar-deployment-on-less-land/?utm_source=rss&utm_medium=rss&utm_campaign=planted-solar-raises-12-million-to-enable-faster-solar-deployment-on-less-land" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 186,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '누빈, 지속가능 상업용 부동산 대출 펀드로 7.85억 달러 조성',
+      author: '관리자',
+      date: '2025.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>투자운용사 누빈(Nuveen)과 자회사 누빈 그린 캐피털이 지속가능 상업용 부동산 금융 펀드 1차 클로징에서 7억 8,500만 달러를 조성했습니다. C-PACE 등 친환경 건축 금융 솔루션에 투자됩니다.</p><h3>주요 포인트</h3><ul><li>지속가능 부동산 대출 시장 성장 대응 펀드 조성</li><li>C-PACE 중심 친환경 건축 자금 공급 확대</li><li>기관 투자자의 그린빌딩 금융 수요 견조</li></ul><p>원문: <a href="https://www.esgtoday.com/nuveen-raises-785-million-for-sustainable-commercial-real-estate-lending-fund/?utm_source=rss&utm_medium=rss&utm_campaign=nuveen-raises-785-million-for-sustainable-commercial-real-estate-lending-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 187,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '호주, 청정에너지 금융 지원제도 2030년까지 40GW로 확대',
+      author: '관리자',
+      date: '2025.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>호주 정부가 핵심 청정에너지 금융 지원제도인 CIS(Capacity Investment Scheme)의 규모를 2030년까지 40GW로 대폭 확대한다고 발표했습니다. 재생에너지 비중을 빠르게 끌어올리기 위한 정책적 가속화입니다.</p><h3>주요 포인트</h3><ul><li>CIS 목표를 40GW로 상향, 기존 대비 대폭 확대</li><li>풍력·태양광·저장장치 신규 사업 가속</li><li>2030년 호주 재생에너지 비중 82% 목표 뒷받침</li></ul><p>원문: <a href="https://www.esgtoday.com/australia-boosts-clean-energy-financing-scheme-to-40-gw-by-2030/?utm_source=rss&utm_medium=rss&utm_campaign=australia-boosts-clean-energy-financing-scheme-to-40-gw-by-2030" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 188,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '150여 기업·투자자, EU 지속가능성 보고·실사 규정 유지 촉구',
+      author: '관리자',
+      date: '2025.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>150개 이상 기업과 투자자를 포함한 198개 기관 연합이 EU의 지속가능성 보고(CSRD) 및 공급망 실사(CSDDD) 규정을 실효성 있게 유지해야 한다고 EU 집행위에 공개 서한을 보냈습니다. 옴니버스 패키지의 과도한 완화에 대한 우려가 배경입니다.</p><h3>주요 포인트</h3><ul><li>CSRD·CSDDD 완화 반대 기업 연합체 결성</li><li>지속가능성 정보의 비교 가능성·신뢰성 확보 강조</li><li>EU 정책의 글로벌 규제 영향력 유지 호소</li></ul><p>원문: <a href="https://www.esgtoday.com/companies-investors-campaign-to-keep-meaningful-eu-sustainability-reporting-and-due-diligence-requirements/?utm_source=rss&utm_medium=rss&utm_campaign=companies-investors-campaign-to-keep-meaningful-eu-sustainability-reporting-and-due-diligence-requirements" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 189,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Eni·Azimut, 1억 유로 청정에너지 기술 벤처펀드 출범',
+      author: '관리자',
+      date: '2025.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이탈리아 에너지 기업 Eni의 벤처캐피털 부문 Eni Next와 자산운용사 Azimut이 손잡고 1억 유로 규모의 청정에너지 기술 펀드를 출범했습니다. 초기 단계 기후 기술 스타트업에 집중 투자합니다.</p><h3>주요 포인트</h3><ul><li>전략적 협력으로 청정기술 투자 자본 확보</li><li>수소·배터리·CCUS 등 핵심 기후기술 영역 타겟</li><li>유럽 기후테크 생태계 자본 공급 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/eni-azimut-launch-e100-million-clean-energy-tech-venture-fund/?utm_source=rss&utm_medium=rss&utm_campaign=eni-azimut-launch-e100-million-clean-energy-tech-venture-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 190,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, 폐기물 발전 CCS로 110만 톤 CO₂ 제거 계약',
+      author: '관리자',
+      date: '2025.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트가 노르웨이 오슬로의 발전·열공급사 Hafslund Celsio와 폐기물 에너지화 시설에 적용되는 탄소 포집을 통해 110만 톤의 CO₂를 제거하는 계약을 체결했습니다. 도시형 CCS의 대표 사례로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>마이크로소프트, 영구 탄소제거 포트폴리오 확장</li><li>폐기물 에너지화에 CCS 결합한 도시형 솔루션</li><li>북유럽 CCS 인프라의 상용화 진전</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-signs-deal-to-remove-1-1-million-tons-of-co2-through-waste-to-energy-carbon-capture/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-signs-deal-to-remove-1-1-million-tons-of-co2-through-waste-to-energy-carbon-capture" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 191,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '노르웨이, 2035년까지 온실가스 70~75% 감축 목표 설정',
+      author: '관리자',
+      date: '2025.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>노르웨이 정부가 2035년까지 1990년 대비 온실가스 배출량을 70~75% 절대 감축하는 신규 기후 목표를 발표했습니다. 파리협정 NDC 강화 흐름에 부합하는 야심찬 목표입니다.</p><h3>주요 포인트</h3><ul><li>2035년 70~75% 감축 목표 공식화</li><li>2050 탄소중립 경로의 중간 마일스톤 명확화</li><li>유럽 주요국 가운데 가장 강한 수준의 NDC</li></ul><p>원문: <a href="https://www.esgtoday.com/norway-sets-goal-to-reduce-ghg-emissions-by-70-75-by-2035/?utm_source=rss&utm_medium=rss&utm_campaign=norway-sets-goal-to-reduce-ghg-emissions-by-70-75-by-2035" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 192,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰: UK 지속가능성 보고기준 발표 등',
+      author: '관리자',
+      date: '2025.06.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 동향에서는 영국이 자체 지속가능성·기후 보고 기준을 새로 공개했고, GRI가 기후 공시 기준 개정안을 발표했습니다. 글로벌 공시 표준화 진전과 지역별 정합성 확보 노력이 동시에 이뤄졌습니다.</p><h3>주요 포인트</h3><ul><li>영국 SRS(Sustainability Reporting Standards) 공식 공개</li><li>GRI 기후 기준 개정으로 ISSB와의 정합성 강화</li><li>각국 규제와 글로벌 표준의 인터로퍼러빌리티 진전</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-220/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-220" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 193,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메타, 美 데이터센터에 800MW 재생에너지 추가 확보',
+      author: '관리자',
+      date: '2025.06.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>메타와 청정에너지 개발사 Invenergy가 약 800MW 규모의 신규 재생에너지 PPA를 체결했다고 발표했습니다. AI 인프라 확장에 따른 전력 수요 급증에 대응하는 전략입니다.</p><h3>주요 포인트</h3><ul><li>AI 데이터센터 전력 수요 대응 위한 대규모 PPA</li><li>풍력·태양광 통합 패키지로 24/7 매칭 강화</li><li>빅테크의 청정전력 확보 경쟁 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/meta-secures-nearly-800-mw-of-renewable-energy-to-power-u-s-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=meta-secures-nearly-800-mw-of-renewable-energy-to-power-u-s-data-centers" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 194,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '싱가포르 기업들, 중소기업 의무 기후공시 시행 연기 요청',
+      author: '관리자',
+      date: '2025.06.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>싱가포르 비즈니스 연방(SBF)이 중소기업에 적용되는 의무 기후공시 시행을 연기해 줄 것을 정부에 공식 건의했습니다. 데이터 인프라와 역량 부족으로 단기간 내 이행이 어렵다는 입장입니다.</p><h3>주요 포인트</h3><ul><li>중소기업 적용 일정에 대한 산업계 이견 표면화</li><li>Scope 3 데이터 수집 역량 부족이 핵심 이슈</li><li>아세안 권역 공시 도입 속도 조정 가능성</li></ul><p>원문: <a href="https://www.esgtoday.com/singapore-companies-ask-to-delay-mandatory-climate-reporting-for-smaller-businesses/?utm_source=rss&utm_medium=rss&utm_campaign=singapore-companies-ask-to-delay-mandatory-climate-reporting-for-smaller-businesses" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 195,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰 216: 절차 완화 반대 기업 다수',
+      author: '관리자',
+      date: '2025.06.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 뉴스에서는 옴니버스 절차 완화에 대한 기업들의 부정적 인식이 조사 결과로 확인됐고, 다수 기업이 기존 보고 체계 유지를 선호하는 것으로 나타났습니다.</p><h3>주요 포인트</h3><ul><li>설문 결과 기업 다수가 규제 완화에 부정적</li><li>이미 구축한 보고 체계 일관성 유지 선호</li><li>EU 정책 결정에 산업계 의견 반영 필요성 제기</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-216/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-216" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 196,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '구글, 美 농가 물 절약 위해 애그테크 프로젝트 지원',
+      author: '관리자',
+      date: '2025.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>구글이 애그테크 솔루션 기업 Arable과 협업해 미국 농가의 물 사용 효율화를 통해 20억 리터의 물을 보전하는 프로젝트에 자금을 투입한다고 발표했습니다. 기업의 워터 포지티브 전략의 일환입니다.</p><h3>주요 포인트</h3><ul><li>구글의 워터 포지티브 목표 이행 가속화</li><li>정밀 농업 기술로 농업 용수 사용 최적화</li><li>20억 리터 물 절약, 데이터센터 사용량 보전 효과</li></ul><p>원문: <a href="https://www.esgtoday.com/google-backs-agtech-projects-to-save-2-billion-liters-of-water-on-u-s-farms/?utm_source=rss&utm_medium=rss&utm_campaign=google-backs-agtech-projects-to-save-2-billion-liters-of-water-on-u-s-farms" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 197,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, Indigo로부터 토양 탄소크레딧 6만 톤 구매',
+      author: '관리자',
+      date: '2025.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능 농업 솔루션 기업 Indigo Ag와 마이크로소프트가 두 번째 탄소제거 계약을 체결해 토양 기반 탄소크레딧 6만 톤을 거래했습니다. 자연 기반 탄소제거의 신뢰성 확보 흐름을 보여주는 사례입니다.</p><h3>주요 포인트</h3><ul><li>토양 탄소 크레딧의 기업 수요 지속 확대</li><li>지역사회 농가 참여형 친환경 농업 모델</li><li>자연 기반 탄소제거의 검증 체계 발전</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-purchases-60000-soil-carbon-credits-from-sustainable-agriculture-solutions-provider-indigo/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-purchases-60000-soil-carbon-credits-from-sustainable-agriculture-solutions-provider-indigo" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 198,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'OMV, 유럽 최대 규모 그린수소 생산시설 건설 결정',
+      author: '관리자',
+      date: '2025.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>오스트리아 빈 본사의 OMV가 유럽 최대급 그린수소 시설 건설을 위한 최종 투자 결정을 내렸다고 발표했습니다. 정유·화학 공정의 탈탄소를 위한 대규모 인프라 투자입니다.</p><h3>주요 포인트</h3><ul><li>유럽 최대급 그린수소 생산시설 FID 완료</li><li>자체 정유·화학 공정 그린수소 직접 활용</li><li>EU REPowerEU 수소 목표 이행 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/omv-to-build-one-of-largest-green-hydrogen-plants-in-europe/?utm_source=rss&utm_medium=rss&utm_campaign=omv-to-build-one-of-largest-green-hydrogen-plants-in-europe" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 199,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Socialsuite, AI 기반 이중 중요성 평가 솔루션 출시',
+      author: '관리자',
+      date: '2025.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 리스크 관리 기술 기업 Socialsuite가 CSRD 대응을 위한 AI 기반 이중 중요성(Double Materiality) 평가 솔루션을 출시했습니다. 산업 영향과 재무 영향을 동시에 분석합니다.</p><h3>주요 포인트</h3><ul><li>CSRD 핵심 요구사항인 이중 중요성 자동화</li><li>AI로 산업·기업 특화 리스크 매핑 효율화</li><li>중소·중견기업 공시 부담 완화 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/socialsuite-launches-ai-powered-double-materiality-assessment-solution/?utm_source=rss&utm_medium=rss&utm_campaign=socialsuite-launches-ai-powered-double-materiality-assessment-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 200,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'H&M 투자 Syre, 베트남에 기가스케일 의류 재활용 공장 건설',
+      author: '관리자',
+      date: '2025.05.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>순환경제 스타트업 Syre가 베트남 빈푹성과 기가스케일 의류 재활용 공장 건설 협약을 체결했습니다. 폐섬유에서 새 폴리에스터 원사를 만드는 화학적 재활용 시설로 H&M이 주요 투자자입니다.</p><h3>주요 포인트</h3><ul><li>섬유 to 섬유 재활용 상용화 본격화</li><li>아시아 최대 의류 생산 거점 베트남에 입지</li><li>패션 산업 순환경제 전환 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/hm-backed-syre-to-build-gigascale-textile-to-textile-recycling-plant-in-vietnam/?utm_source=rss&utm_medium=rss&utm_campaign=hm-backed-syre-to-build-gigascale-textile-to-textile-recycling-plant-in-vietnam" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 201,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, 웨스트버지니아서 335MW 풍력 PPA 체결',
+      author: '관리자',
+      date: '2025.05.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>청정에너지 개발사 Clearway가 마이크로소프트와 미국 웨스트버지니아의 풍력 발전 사업에 대한 장기 PPA를 체결했다고 발표했습니다. 총 용량 335MW 규모로 데이터센터 전력 매칭에 활용됩니다.</p><h3>주요 포인트</h3><ul><li>335MW 규모 신규 풍력 PPA로 청정전력 확보</li><li>미국 동부 그리드 청정전력 비중 확대 기여</li><li>빅테크의 다지역 PPA 포트폴리오 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-signs-335-mw-wind-power-purchase-agreement-in-west-virginia/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-signs-335-mw-wind-power-purchase-agreement-in-west-virginia" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 202,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'DePoly, 재활용 어려운 플라스틱을 원료화 위해 2,300만 달러 조달',
+      author: '관리자',
+      date: '2025.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>화학적 재활용 스타트업 DePoly가 2,300만 달러를 조달했다고 발표했습니다. 재활용이 어려운 PET 등 플라스틱을 원료 단계 화학 물질로 되돌리는 기술 상용화에 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>화학적 재활용으로 난재활용 플라스틱 처리</li><li>2,300만 달러 자금으로 파일럿 → 상용 확장</li><li>EU 플라스틱 재활용 비중 의무화에 부합</li></ul><p>원문: <a href="https://www.esgtoday.com/depoly-raises-23-million-to-turn-hard-to-recycle-plastics-into-new-raw-materials/?utm_source=rss&utm_medium=rss&utm_campaign=depoly-raises-23-million-to-turn-hard-to-recycle-plastics-into-new-raw-materials" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 203,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Stonepeak, Repsol 美 태양광 포트폴리오에 3.4억 달러 투자',
+      author: '관리자',
+      date: '2025.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대체투자운용사 Stonepeak이 스페인 에너지 기업 Repsol의 미국 태양광·저장장치 포트폴리오 지분 46.3%를 3억 4천만 달러에 인수했다고 발표했습니다. 미국 분산형 청정에너지 자산에 대한 기관 투자가 견조하게 이어지는 흐름입니다.</p><h3>주요 포인트</h3><ul><li>Repsol 자산의 절반 가까운 지분을 Stonepeak이 확보</li><li>미국 태양광·ESS 결합 자산의 가치 증대</li><li>인프라 펀드의 청정에너지 자산 편입 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/stonepeak-acquires-340-million-stake-in-u-s-solar-storage-portfolio-from-repsol/?utm_source=rss&utm_medium=rss&utm_campaign=stonepeak-acquires-340-million-stake-in-u-s-solar-storage-portfolio-from-repsol" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 204,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'L&G, 신흥국 자연 보전 위해 2.35억 달러 전략 출범',
+      author: '관리자',
+      date: '2025.03.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 금융 그룹 Legal & General이 신흥시장의 자연보전과 지속가능 개발을 결합한 신규 투자 전략을 2억 3,500만 달러 규모로 출범했다고 밝혔습니다. 자연자본 보호와 ESG 재무 수익을 동시에 추구하는 모델입니다.</p><h3>주요 포인트</h3><ul><li>자연 보전·지속가능 개발 결합형 신흥국 투자 상품</li><li>2.35억 달러 규모로 시작, 점진적 확대 계획</li><li>자연 기반 솔루션에 대한 기관 자본 유입 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/lg-launches-235-million-emerging-markets-nature-conservation-and-sustainable-development-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=lg-launches-235-million-emerging-markets-nature-conservation-and-sustainable-development-strategy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 205,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메타, 산림 관리 기반 10년 탄소제거 계약 체결',
+      author: '관리자',
+      date: '2025.03.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산림 투자·관리 기업 EFM이 페이스북·인스타그램·왓츠앱 모회사 메타와 10년 장기 산림 기반 탄소제거 계약을 체결했다고 발표했습니다. 자연 기반 탄소제거(NCS) 시장의 성숙을 보여주는 사례입니다.</p><h3>주요 포인트</h3><ul><li>장기 계약으로 안정적인 NCS 크레딧 공급 확보</li><li>지속가능한 산림 관리 기법 확산 효과</li><li>빅테크의 자연 기반 탄소제거 수요 지속</li></ul><p>원문: <a href="https://www.esgtoday.com/meta-signs-ten-year-forestry-management-carbon-removal-deal/?utm_source=rss&utm_medium=rss&utm_campaign=meta-signs-ten-year-forestry-management-carbon-removal-deal" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 206,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰 208: EU 보고규정 시행 연기 승인',
+      author: '관리자',
+      date: '2025.03.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 주요 ESG 뉴스에서는 EU 이사회가 지속가능성 보고 규정의 시행 연기안을 승인했고, ING가 동종 은행 중 최초의 결정을 내리는 등 다수 굵직한 변화가 있었습니다.</p><h3>주요 포인트</h3><ul><li>EU 이사회, CSRD 등 시행 연기안 공식 승인</li><li>ING의 새 정책 결정으로 금융권 동향 변화 시사</li><li>글로벌 ESG 표준화 흐름과 정치적 압력 충돌</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-208/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-208" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 207,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '탄소회계·보고 솔루션 Persefoni, 2,300만 달러 추가 조달',
+      author: '관리자',
+      date: '2025.03.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 관리 소프트웨어 Persefoni가 2,300만 달러를 추가로 조달했다고 발표했습니다. CSRD·SEC 기후공시 등 글로벌 보고 의무 확대로 솔루션 수요가 빠르게 늘고 있습니다.</p><h3>주요 포인트</h3><ul><li>탄소회계 SaaS 시장의 자본 유입 지속</li><li>제품·고객 확장 위한 운영 자금 확보</li><li>공시 규제 강화에 따른 시장 성장 모멘텀</li></ul><p>원문: <a href="https://www.esgtoday.com/carbon-accounting-and-reporting-software-provider-persefoni-raises-23-million/?utm_source=rss&utm_medium=rss&utm_campaign=carbon-accounting-and-reporting-software-provider-persefoni-raises-23-million" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 208,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '토탈·에퀴노르·셸, 탄소저장 프로젝트 7억 달러 추가 투자',
+      author: '관리자',
+      date: '2025.03.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 메이저 TotalEnergies, Equinor, Shell이 노르웨이 Northern Lights CCS 프로젝트 확장을 위해 75억 노르웨이크로네(약 7억 1,400만 달러)를 공동 투자한다고 발표했습니다. 유럽 CCS 인프라 핵심 사업입니다.</p><h3>주요 포인트</h3><ul><li>유럽 최대 해저 CCS 사업 용량 대폭 확장</li><li>3사 공동 투자로 사업 안정성 확보</li><li>EU CCS 정책 가속화에 부합하는 인프라 투자</li></ul><p>원문: <a href="https://www.esgtoday.com/totalenergies-equinor-shell-to-invest-over-700-million-to-expand-carbon-storage-project/?utm_source=rss&utm_medium=rss&utm_campaign=totalenergies-equinor-shell-to-invest-over-700-million-to-expand-carbon-storage-project" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 209,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Equifax, 금융배출량 계산기 출시',
+      author: '관리자',
+      date: '2025.03.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>데이터·분석 기업 Equifax UK가 금융기관 대출·투자 포트폴리오의 탄소배출량을 측정하는 'Financed Emissions Calculator'를 출시했습니다. PCAF 표준 기반으로 금융권 Scope 3 산정을 지원합니다.</p><h3>주요 포인트</h3><ul><li>은행·자산운용사용 PCAF 호환 산정 도구</li><li>Equifax 보유 데이터 활용한 정밀 추정</li><li>금융권 NZBA·SBTi 이행 실무 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/equifax-launches-financed-emissions-calculator/?utm_source=rss&utm_medium=rss&utm_campaign=equifax-launches-financed-emissions-calculator" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 210,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Measurabl, EMEA 디렉터로 Aislinn McCarry 임명',
+      author: '관리자',
+      date: '2025.02.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>부동산 ESG 데이터 기술 기업 Measurabl이 Aislinn McCarry를 EMEA 디렉터로 임명했다고 발표했습니다. 유럽 부동산 시장의 ESG 데이터 수요 확대에 대응하기 위한 조직 강화입니다.</p><h3>주요 포인트</h3><ul><li>EMEA 시장 확장을 위한 리더십 보강</li><li>부동산 운영 단계 ESG 데이터 수요 증가 대응</li><li>유럽 EPBD·SFDR 등 규제 환경 적응 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/real-estate-sustainability-data-provider-measurabl-appoints-aislinn-mccarry-as-director-of-emea/?utm_source=rss&utm_medium=rss&utm_campaign=real-estate-sustainability-data-provider-measurabl-appoints-aislinn-mccarry-as-director-of-emea" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 211,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '블랙스톤, 에너지전환 PE펀드로 56억 달러 조성',
+      author: '관리자',
+      date: '2025.02.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대체자산운용사 블랙스톤이 에너지전환에 특화된 사모펀드를 56억 달러 규모로 클로징했다고 발표했습니다. 청정에너지 인프라·전력망·핵심 광물 등에 폭넓게 투자할 계획입니다.</p><h3>주요 포인트</h3><ul><li>대형 PE의 에너지전환 자본 모집 사상 최대급</li><li>그리드·저장장치·EV 핵심 광물 등 다각화 투자</li><li>인플레이션감축법(IRA) 모멘텀 활용 전략</li></ul><p>원문: <a href="https://www.esgtoday.com/blackstone-raises-5-6-billion-for-energy-transition-focused-private-equity-fund/?utm_source=rss&utm_medium=rss&utm_campaign=blackstone-raises-5-6-billion-for-energy-transition-focused-private-equity-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 212,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유나이티드 항공, 탄소제거 기업 Heirloom에 투자',
+      author: '관리자',
+      date: '2025.02.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유나이티드 항공이 자사 지속가능 비행 펀드(UAV)를 통해 직접공기포집(DAC) 스타트업 Heirloom에 투자했다고 발표했습니다. SAF 외에도 영구 탄소제거 솔루션을 항공산업이 직접 확보하려는 흐름입니다.</p><h3>주요 포인트</h3><ul><li>항공산업의 영구 탄소제거 수요 가시화</li><li>탄산칼슘 기반 DAC 기술의 상업화 진전</li><li>UAV 펀드의 기후기술 포트폴리오 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/united-airlines-backs-carbon-removal-tech-company-heirloom/?utm_source=rss&utm_medium=rss&utm_campaign=united-airlines-backs-carbon-removal-tech-company-heirloom" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 213,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, 저투자 지역 재생에너지 배포 계약 체결',
+      author: '관리자',
+      date: '2025.02.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트가 탄소솔루션 기업 Clearloop과 협업해 미국 내 재생에너지 투자가 부족한 지역에 청정전력을 배포하는 계약을 체결했습니다. 환경 정의(Just Transition) 관점이 강조된 사례입니다.</p><h3>주요 포인트</h3><ul><li>저소득·저투자 지역에 청정에너지 직접 공급</li><li>전력 형평성과 탈탄소를 결합한 임팩트 모델</li><li>커뮤니티 솔라 확산을 위한 기업 자본 동원</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-signs-deal-to-deploy-renewable-energy-in-underinvested-communities/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-signs-deal-to-deploy-renewable-energy-in-underinvested-communities" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 214,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU, 청정 산업 수요 견인 위한 \'Clean Industrial Deal\' 발표',
+      author: '관리자',
+      date: '2025.02.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 집행위가 청정 제품 수요를 자극하고 산업 탈탄소를 가속하기 위한 'Clean Industrial Deal'을 공식 발표했습니다. 보조금·공공조달·전력 가격 안정 등 다층적 정책 패키지로 구성됩니다.</p><h3>주요 포인트</h3><ul><li>청정 철강·시멘트 등 신규 시장 창출 수단 마련</li><li>전력 가격 인하·연결망 확대 인프라 투자</li><li>중국·미국 대비 EU 산업 경쟁력 회복 목표</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-launches-strategy-to-drive-demand-for-clean-products-decarbonize-industry/?utm_source=rss&utm_medium=rss&utm_campaign=eu-launches-strategy-to-drive-demand-for-clean-products-decarbonize-industry" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 215,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU, CSRD 보고 의무에서 기업 80% 면제 추진',
+      author: '관리자',
+      date: '2025.02.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 집행위가 첫 번째 옴니버스 패키지를 발표하며 CSRD 적용 대상 기업 중 약 80%를 면제하는 안을 제시했습니다. 중소·중견기업 부담 완화가 명분이지만 ESG 정보의 비교 가능성 약화 우려가 큽니다.</p><h3>주요 포인트</h3><ul><li>대상 기업 대폭 축소로 적용 범위 재조정</li><li>업계 안도와 시민사회 반발 동시 확산</li><li>EU 지속가능성 표준의 글로벌 영향력 변화</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-to-exempt-80-of-companies-from-csrd-sustainability-reporting-requirements/?utm_source=rss&utm_medium=rss&utm_campaign=eu-to-exempt-80-of-companies-from-csrd-sustainability-reporting-requirements" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 216,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '블랙록, EMEA 지속가능 솔루션 책임자에 Louise Kooy-Henckel 임명',
+      author: '관리자',
+      date: '2025.02.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 자산운용사 블랙록이 EMEA 지속가능·전환 솔루션 책임자로 Louise Kooy-Henckel을 임명했다고 발표했습니다. 미국 정치 변화 속에서도 유럽 지속가능 투자 시장은 견조하다는 신호입니다.</p><h3>주요 포인트</h3><ul><li>EMEA 지속가능 투자 사업 강화 위한 인사</li><li>유럽 SFDR·MiFID 규제 대응 역량 결집</li><li>전환금융 솔루션 시장 성장에 대비</li></ul><p>원문: <a href="https://www.esgtoday.com/blackrock-appoints-louise-kooy-henckel-as-emea-head-of-sustainable-and-transition-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=blackrock-appoints-louise-kooy-henckel-as-emea-head-of-sustainable-and-transition-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 217,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Hydrostor, 압축공기 저장기술 사업화 위해 2억 달러 조달',
+      author: '관리자',
+      date: '2025.02.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>장시간 에너지 저장 솔루션 기업 Hydrostor가 2억 달러 규모의 자금 조달을 완료했다고 발표했습니다. 12시간 이상 저장 가능한 압축공기 저장(CAES) 시설 상용화를 가속합니다.</p><h3>주요 포인트</h3><ul><li>리튬이온을 보완할 장시간 저장 기술 진전</li><li>호주·미국 대형 CAES 사업 가속</li><li>그리드 안정화에 필요한 자본 유치 성공</li></ul><p>원문: <a href="https://www.esgtoday.com/hydrostor-raises-200-million-to-store-energy-using-compressed-air-technology/?utm_source=rss&utm_medium=rss&utm_campaign=hydrostor-raises-200-million-to-store-energy-using-compressed-air-technology" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 218,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Ramboll, IBM과 지속가능성 전략·보고 솔루션 협력',
+      author: '관리자',
+      date: '2025.02.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>덴마크의 엔지니어링·컨설팅 기업 Ramboll과 IBM이 지속가능성 전략 수립 및 보고 솔루션을 공동 제공하기 위해 협력 관계를 맺었습니다. 컨설팅과 IT 솔루션의 결합을 통한 통합 서비스가 핵심입니다.</p><h3>주요 포인트</h3><ul><li>전략·데이터·보고를 잇는 통합 솔루션 제공</li><li>IBM Envizi 플랫폼과 Ramboll 전문성 결합</li><li>대기업 ESG 전사 통합관리 수요 대응</li></ul><p>원문: <a href="https://www.esgtoday.com/ramboll-ibm-partner-to-offer-sustainability-strategy-and-reporting-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=ramboll-ibm-partner-to-offer-sustainability-strategy-and-reporting-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 219,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ACCURE, 배터리 안전 AI 플랫폼 위해 1,600만 달러 조달',
+      author: '관리자',
+      date: '2025.02.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>배터리 기술 스타트업 ACCURE Battery Intelligence가 1,600만 달러를 조달했다고 발표했습니다. AI 기반 배터리 모니터링·진단 플랫폼 확장에 사용될 예정으로, EV·ESS 안전성 향상에 기여합니다.</p><h3>주요 포인트</h3><ul><li>AI로 배터리 화재·열폭주 사전 감지</li><li>EV·전력저장장치 등 산업 전반 적용 확대</li><li>1,600만 달러로 글로벌 시장 진출 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/accure-raises-16-million-to-scale-ai-based-platform-to-make-batteries-safer-and-more-reliable/?utm_source=rss&utm_medium=rss&utm_campaign=accure-raises-16-million-to-scale-ai-based-platform-to-make-batteries-safer-and-more-reliable" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 220,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, EDP와 美 태양광 389MW PPA 체결',
+      author: '관리자',
+      date: '2025.02.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EDP Renewables North America가 마이크로소프트와 미국 신규 태양광 3개 사업 총 389MW의 전력공급계약(PPA)을 체결했다고 밝혔습니다. 데이터센터 24/7 청정에너지 매칭에 활용됩니다.</p><h3>주요 포인트</h3><ul><li>미국 신규 태양광 389MW 확보</li><li>다지역 분산 공급으로 그리드 신뢰도 향상</li><li>빅테크의 청정전력 PPA 포트폴리오 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-purchases-389-mw-of-renewable-energy-from-new-u-s-solar-projects-with-edp/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-purchases-389-mw-of-renewable-energy-from-new-u-s-solar-projects-with-edp" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 221,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Arcadia, 청정에너지 조달 플랫폼 RPD Energy 인수',
+      author: '관리자',
+      date: '2025.02.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 관리 플랫폼 Arcadia가 미국 중견기업 대상 재생전력 조달 서비스를 제공하는 RPD Energy를 인수한다고 발표했습니다. 기업용 청정에너지 조달 시장 통합 흐름이 가속화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>중견기업용 재생전력 조달 서비스 확보</li><li>플랫폼·중개·운영 통합한 종합 솔루션</li><li>미국 기업 청정에너지 조달 수요 견조</li></ul><p>원문: <a href="https://www.esgtoday.com/arcadia-acquires-clean-energy-procurement-platform-rpd-energy/?utm_source=rss&utm_medium=rss&utm_campaign=arcadia-acquires-clean-energy-procurement-platform-rpd-energy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 222,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '모건스탠리, 넷제로 은행연합 탈퇴…넷제로 약속은 유지',
+      author: '관리자',
+      date: '2025.01.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>모건스탠리가 동종 대형은행에 이어 넷제로 은행연합(NZBA)에서 탈퇴했다고 발표했습니다. 다만 자체 넷제로 목표는 유지하겠다는 입장으로 미국 정치 환경 변화의 영향을 받은 결정입니다.</p><h3>주요 포인트</h3><ul><li>월가 대형은행의 NZBA 연쇄 이탈 흐름</li><li>공식 단체 가입은 해소하되 자체 목표는 유지</li><li>금융권 기후 협력의 정치적 부담 증대</li></ul><p>원문: <a href="https://www.esgtoday.com/morgan-stanley-joins-peers-in-leaving-climate-group-maintains-commitment-to-net-zero/?utm_source=rss&utm_medium=rss&utm_campaign=morgan-stanley-joins-peers-in-leaving-climate-group-maintains-commitment-to-net-zero" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 223,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에퀴노르, 뉴욕 해상풍력 사업에 30억 달러 금융 확보',
+      author: '관리자',
+      date: '2025.01.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>노르웨이 에너지 기업 Equinor가 뉴욕주 해상풍력 사업을 위한 30억 달러 규모의 프로젝트 파이낸스를 확보했다고 발표했습니다. 미국 해상풍력 사업의 자본조달 가능성을 보여주는 사례입니다.</p><h3>주요 포인트</h3><ul><li>美 해상풍력 대형 PF 성공 사례</li><li>뉴욕주 청정에너지 목표 이행 핵심 자산</li><li>인플레이션·금리 압력 속 자금 조달 성과</li></ul><p>원문: <a href="https://www.esgtoday.com/equinor-lands-3-billion-financing-package-for-new-york-offshore-wind-project/?utm_source=rss&utm_medium=rss&utm_campaign=equinor-lands-3-billion-financing-package-for-new-york-offshore-wind-project" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 224,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '씨티·BofA, 골드만·웰스파고 이어 NZBA 탈퇴',
+      author: '관리자',
+      date: '2025.01.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>씨티그룹과 뱅크오브아메리카가 골드만삭스·웰스파고에 이어 넷제로 은행연합(NZBA)을 탈퇴하기로 결정했습니다. 미국 6대 은행 가운데 다수가 단체에서 빠지면서 NZBA의 영향력에 의문이 제기됩니다.</p><h3>주요 포인트</h3><ul><li>美 6대 은행 다수의 NZBA 연쇄 이탈</li><li>반-ESG 정치 압력의 직접적 영향</li><li>금융권 기후 협력 메커니즘 재편 가능성</li></ul><p>원문: <a href="https://www.esgtoday.com/citi-bofa-join-goldman-sachs-and-wells-fargo-in-exiting-net-zero-banking-group/?utm_source=rss&utm_medium=rss&utm_campaign=citi-bofa-join-goldman-sachs-and-wells-fargo-in-exiting-net-zero-banking-group" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 225,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '뉴욕주, 기후 적응 인프라 비용 750억 달러 정유사에 부과',
+      author: '관리자',
+      date: '2024.12.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>뉴욕주 캐시 호컬 주지사가 'Climate Change Superfund Act'에 서명했습니다. 향후 25년에 걸쳐 750억 달러를 정유·가스 기업으로부터 거둬 기후 적응 인프라에 투입하는 법안입니다.</p><h3>주요 포인트</h3><ul><li>오염자 부담 원칙 적용한 첫 대형 입법</li><li>해수면 상승 등 기후 적응 자금 확보</li><li>업계의 법적 도전 가능성 예상</li></ul><p>원문: <a href="https://www.esgtoday.com/new-york-to-charge-oil-companies-75-billion-to-pay-for-infrastructure-to-cope-with-climate-change/?utm_source=rss&utm_medium=rss&utm_campaign=new-york-to-charge-oil-companies-75-billion-to-pay-for-infrastructure-to-cope-with-climate-change" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 226,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '웰스파고, 기후 중심 은행연합(NZBA)에서 탈퇴',
+      author: '관리자',
+      date: '2024.12.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>웰스파고가 넷제로 은행연합(NZBA)에서 탈퇴한다고 발표했습니다. 골드만삭스에 이어 두 번째 미국 대형은행의 이탈로, 미국 정치 환경 변화가 글로벌 기후 협력 단체에 미치는 영향을 보여줍니다.</p><h3>주요 포인트</h3><ul><li>美 대형은행 NZBA 이탈 본격화 신호</li><li>주별 반-ESG 입법 압력 영향</li><li>유럽·아시아 회원사 영향 제한적 전망</li></ul><p>원문: <a href="https://www.esgtoday.com/wells-fargo-leaves-climate-focused-banking-initiative/?utm_source=rss&utm_medium=rss&utm_campaign=wells-fargo-leaves-climate-focused-banking-initiative" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 227,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Fervo Energy, 지열 사업 확장 위해 2.55억 달러 조달',
+      author: '관리자',
+      date: '2024.12.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지열 에너지 개발사 Fervo Energy가 2억 5,500만 달러를 조달했다고 발표했습니다. 차세대 강화 지열(EGS) 기술을 활용해 미국 서부에 대형 지열 발전소를 건설하는 데 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>차세대 EGS 기술 상용화 진전</li><li>구글 등 데이터센터 매칭 수요 증가</li><li>안정적 베이스로드 청정전원으로 주목</li></ul><p>원문: <a href="https://www.esgtoday.com/fervo-energy-raises-255-million-to-deploy-geothermal-power-projects/?utm_source=rss&utm_medium=rss&utm_campaign=fervo-energy-raises-255-million-to-deploy-geothermal-power-projects" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 228,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰 196: 바이든 행정부 신규 기후목표 설정',
+      author: '관리자',
+      date: '2024.12.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 뉴스에서는 정권 교체를 앞둔 바이든 행정부가 미국의 새 기후 목표를 발표했고, 다수 굵직한 ESG 정책·자본 동향이 이어졌습니다. 글로벌 기후 정책의 분기점에 해당하는 한 주였습니다.</p><h3>주요 포인트</h3><ul><li>美 신규 NDC 공식 발표</li><li>유럽 옴니버스 패키지 논의 본격화</li><li>주요 기업의 기후 공시·전환 계획 업데이트</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-196/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-196" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 229,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '월마트, 2025·2030 기후 목표 미달 예상',
+      author: '관리자',
+      date: '2024.12.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>월마트가 자체 중간 기후 목표 달성이 어렵다고 인정했습니다. 자사 운영과 공급망 배출 감축 모두 당초 계획보다 진척이 더디다는 평가로, 글로벌 유통기업의 SBTi 이행 어려움을 보여줍니다.</p><h3>주요 포인트</h3><ul><li>2025·2030 임시 목표 모두 미달 가능성</li><li>공급망(Scope 3) 감축의 구조적 난이도 노출</li><li>대형 유통기업 기후 목표 재정비 흐름</li></ul><p>원문: <a href="https://www.esgtoday.com/walmart-to-miss-2025-2030-climate-targets/?utm_source=rss&utm_medium=rss&utm_campaign=walmart-to-miss-2025-2030-climate-targets" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 230,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EV 인프라 기업 JET Charge, 4,500만 달러 조달',
+      author: '관리자',
+      date: '2024.12.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>호주 기반 EV 충전 인프라 기업 JET Charge가 7,200만 호주달러(약 4,500만 달러)를 조달했다고 발표했습니다. 호주·뉴질랜드 충전 네트워크 확장에 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>호주·뉴질랜드 EV 충전 시장 자본 유입</li><li>OCPP 기반 개방형 충전 솔루션 확장</li><li>4,500만 달러로 R&D·서비스 인프라 확충</li></ul><p>원문: <a href="https://www.esgtoday.com/ev-infrastructure-provider-jet-charge-raises-45-million/?utm_source=rss&utm_medium=rss&utm_campaign=ev-infrastructure-provider-jet-charge-raises-45-million" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 231,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '빌 게이츠 펀드, 캐나다 탄소제거 스타트업 Deep Sky에 4천만 달러 투자',
+      author: '관리자',
+      date: '2024.12.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탄소제거 프로젝트 개발사 Deep Sky가 빌 게이츠가 후원하는 Climate Solutions Fund로부터 4천만 달러 투자를 유치했다고 발표했습니다. DAC 다중 기술 통합 플랫폼 구축이 목표입니다.</p><h3>주요 포인트</h3><ul><li>Deep Sky의 'Carbon Removal Hub' 사업 가속</li><li>다양한 DAC 기술 검증·확장 거점 마련</li><li>4천만 달러 자본으로 캐나다 첫 사이트 건설</li></ul><p>원문: <a href="https://www.esgtoday.com/bill-gates-backed-climate-solutions-fund-invests-40-million-in-canadian-carbon-removal-startup-deep-sky/?utm_source=rss&utm_medium=rss&utm_campaign=bill-gates-backed-climate-solutions-fund-invests-40-million-in-canadian-carbon-removal-startup-deep-sky" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 232,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '퇴임 앞둔 바이든 행정부, 美 2035 기후 목표 발표',
+      author: '관리자',
+      date: '2024.12.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>바이든 행정부가 임기 막바지에 미국의 2035년 온실가스 감축 목표를 발표했습니다. 2005년 대비 61~66% 감축이라는 야심찬 수치이지만, 정권 교체로 실현 가능성에 의문이 제기됩니다.</p><h3>주요 포인트</h3><ul><li>美 신규 NDC, 2005년 대비 61~66% 감축 제시</li><li>차기 행정부의 정책 지속성에 대한 불확실성</li><li>주·기업 차원의 자율적 이행 중요성 부각</li></ul><p>원문: <a href="https://www.esgtoday.com/outgoing-biden-administration-sets-new-2035-u-s-climate-goal/?utm_source=rss&utm_medium=rss&utm_campaign=outgoing-biden-administration-sets-new-2035-u-s-climate-goal" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 233,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Frontier, 구글·H&M·Stripe 등에 8천만 달러 신규 탄소제거 계약 중개',
+      author: '관리자',
+      date: '2024.12.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탄소제거 구매자 연합 Frontier가 구글, H&M, Stripe 등을 위해 신규 8천만 달러 규모의 오프테이크 계약을 중개했다고 발표했습니다. 영구 탄소제거 시장의 양적 성장이 가시화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>다수 영구 탄소제거 기술에 분산 발주</li><li>Frontier의 누적 발주 규모 의미있는 도약</li><li>구매자 연합 모델의 시장 형성 효과 확인</li></ul><p>원문: <a href="https://www.esgtoday.com/carbon-removal-coalition-frontier-facilitates-80-million-in-new-offtake-agreements-for-google-hm-stripe-and-others/?utm_source=rss&utm_medium=rss&utm_campaign=carbon-removal-coalition-frontier-facilitates-80-million-in-new-offtake-agreements-for-google-hm-stripe-and-others" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 234,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '액센추어, 넷제로 인프라 강화 위해 IQT Group 인수',
+      author: '관리자',
+      date: '2024.12.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 컨설팅 기업 액센추어가 이탈리아 엔지니어링 서비스 기업 IQT Group을 인수한다고 발표했습니다. 청정에너지·전력망·산업 탈탄소 영역의 실행 역량을 통합하기 위한 행보입니다.</p><h3>주요 포인트</h3><ul><li>액센추어의 넷제로 컨설팅·실행 역량 강화</li><li>유럽 청정 인프라 사업 기회 선점</li><li>전략-기술-실행 통합 서비스 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/accenture-acquires-iqt-group-to-target-net-zero-infrastructure-opportunities/?utm_source=rss&utm_medium=rss&utm_campaign=accenture-acquires-iqt-group-to-target-net-zero-infrastructure-opportunities" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 235,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰 191: 캐나다 정유·가스 배출 감축 의무화',
+      author: '관리자',
+      date: '2024.11.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 주요 ESG 동향에서는 캐나다가 정유·가스 산업의 배출 감축을 의무화하는 정책을 발표했고, 다수 기업의 청정에너지 투자 결정이 잇따랐습니다.</p><h3>주요 포인트</h3><ul><li>캐나다 정유·가스 부문 배출 상한제 도입</li><li>주요 기업의 신규 청정에너지 투자 발표</li><li>정책·시장 양방향에서 탈탄소 모멘텀 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-191/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-191" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 236,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Archer, 일본서 최대 5억 달러 규모 전기 항공기 공급 계약',
+      author: '관리자',
+      date: '2024.11.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전기 항공 모빌리티 기업 Archer가 일본항공(JAL), 스미토모상사와 협력해 최대 5억 달러 규모의 eVTOL 항공기 공급 계약을 체결했습니다. 일본 도심항공모빌리티(UAM) 시장 진출의 발판입니다.</p><h3>주요 포인트</h3><ul><li>일본 UAM 시장 진출 위한 대형 계약</li><li>JAL·스미토모와 운항·인프라 파트너십</li><li>아시아 지역 eVTOL 사업 확장 모멘텀</li></ul><p>원문: <a href="https://www.esgtoday.com/archer-lands-up-to-500-million-purchase-deal-for-electric-aircraft-in-japan/?utm_source=rss&utm_medium=rss&utm_campaign=archer-lands-up-to-500-million-purchase-deal-for-electric-aircraft-in-japan" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 237,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '호주 규제당국, 신규 지속가능성 보고에 "실용적 접근" 약속',
+      author: '관리자',
+      date: '2024.11.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>호주 증권투자위원회(ASIC)가 새로 도입되는 지속가능성 보고 의무에 대해 '실용적' 시행 접근을 약속했습니다. 첫 보고 주기 동안 형식적 위반 단속보다 실질 개선을 우선하겠다는 입장입니다.</p><h3>주요 포인트</h3><ul><li>도입 초기 형식적 위반에 관대한 시행 시그널</li><li>기업의 자발적 역량 확보 시간 확보</li><li>호주 ISSB 호환 보고 체계 안착 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/australia-regulator-pledges-pragmatic-approach-to-enforcing-new-sustainability-reporting-requirements/?utm_source=rss&utm_medium=rss&utm_campaign=australia-regulator-pledges-pragmatic-approach-to-enforcing-new-sustainability-reporting-requirements" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 238,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '생고뱅·Boralex, 프랑스서 20년 PPA로 신규 재생에너지 3개 사업 추진',
+      author: '관리자',
+      date: '2024.11.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>건축자재 기업 생고뱅이 프랑스에서 Boralex와 20년 장기 PPA를 체결해 신규 풍력·태양광 3개 사업 개발을 가능하게 했다고 발표했습니다. 산업 수요가 신규 재생에너지 자산 건설을 견인하는 사례입니다.</p><h3>주요 포인트</h3><ul><li>20년 장기 PPA로 신규 재생에너지 사업 자금화</li><li>프랑스 산업의 직접 그린전력 조달 모델</li><li>생고뱅 SBTi 목표 이행에 핵심 자산 확보</li></ul><p>원문: <a href="https://www.esgtoday.com/saint-gobain-boralex-sign-20-year-ppa-enabling-development-of-three-new-renewable-energy-projects-in-france/?utm_source=rss&utm_medium=rss&utm_campaign=saint-gobain-boralex-sign-20-year-ppa-enabling-development-of-three-new-renewable-energy-projects-in-france" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 239,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'NatureFinance, 투자자·은행용 자연 영향 평가 도구 출시',
+      author: '관리자',
+      date: '2024.11.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>그린 금융 비영리 기관 NatureFinance가 투자·대출 포트폴리오의 자연 영향을 정량적으로 평가하는 'NatureAlign' 도구를 출시했습니다. TNFD 공시 본격화를 앞두고 실무 활용도가 기대됩니다.</p><h3>주요 포인트</h3><ul><li>투자자·은행 포트폴리오의 자연자본 노출도 평가</li><li>TNFD·SBTN 공시 작성 실무 지원</li><li>금융권 자연자본 리스크 인식 확산</li></ul><p>원문: <a href="https://www.esgtoday.com/naturefinance-launches-green-finance-tool-to-help-investors-banks-assess-portfolio-nature-impact/?utm_source=rss&utm_medium=rss&utm_campaign=naturefinance-launches-green-finance-tool-to-help-investors-banks-assess-portfolio-nature-impact" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 240,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'H&M, 텍사스 신규 태양광 건설 PPA 체결',
+      author: '관리자',
+      date: '2024.11.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>H&M 그룹이 미국 텍사스에 신규 태양광 사업 건설을 가능하게 하는 가상 전력공급계약(VPPA)을 체결했다고 발표했습니다. 의류 산업 글로벌 공급망의 재생전력 매칭 노력의 일환입니다.</p><h3>주요 포인트</h3><ul><li>VPPA로 신규 태양광 자산 건설 견인</li><li>H&M 텍사스 매장 전력 환산 매칭</li><li>패션 산업의 청정전력 조달 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/hm-signs-solar-ppa-enabling-new-renewable-energy-construction-in-texas/?utm_source=rss&utm_medium=rss&utm_campaign=hm-signs-solar-ppa-enabling-new-renewable-energy-construction-in-texas" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 241,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'KPMG, 美 지속가능성 부문 책임자에 Maura Hodge 임명',
+      author: '관리자',
+      date: '2024.10.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 회계·컨설팅 기업 KPMG가 미국 지속가능성 컨설팅 사업의 책임자로 Maura Hodge를 임명했다고 발표했습니다. CSRD 등 글로벌 공시 영향을 받는 미국 다국적 기업 수요 대응 강화입니다.</p><h3>주요 포인트</h3><ul><li>美 지속가능성 자문·검증 사업 리더십 보강</li><li>글로벌 공시 표준 통합 흐름 대응 가속</li><li>KPMG의 ESG 어슈어런스 시장 입지 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/kpmg-appoints-maura-hodge-to-lead-us-sustainability-practice/?utm_source=rss&utm_medium=rss&utm_campaign=kpmg-appoints-maura-hodge-to-lead-us-sustainability-practice" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 242,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ASDA, 협력사 금융 금리를 ESG 성과에 연동',
+      author: '관리자',
+      date: '2024.10.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 슈퍼마켓 ASDA가 협력사 운영자금 금리를 탈탄소·ESG 보고 성과에 연동하는 신규 지속가능 공급망 금융 프로그램을 시작했다고 밝혔습니다. 공급망 ESG 인센티브 사례로 주목됩니다.</p><h3>주요 포인트</h3><ul><li>협력사 친환경 성과에 따른 금리 우대</li><li>공급망 단계 Scope 3 감축 유인 강화</li><li>리테일 공급망 금융 모델의 새로운 사례</li></ul><p>원문: <a href="https://www.esgtoday.com/asda-ties-financing-rates-for-suppliers-to-decarbonization-esg-reporting-and-performance/?utm_source=rss&utm_medium=rss&utm_campaign=asda-ties-financing-rates-for-suppliers-to-decarbonization-esg-reporting-and-performance" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 243,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GeoPura, 그린수소 발전기 함대 확장에 2,200만 파운드 조달',
+      author: '관리자',
+      date: '2024.10.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>청정전력 솔루션 기업 GeoPura가 2,200만 파운드(약 2,930만 달러)를 조달해 그린수소 기반 발전기 함대를 확장한다고 발표했습니다. 디젤 발전기를 대체하는 이동형 청정 발전 솔루션입니다.</p><h3>주요 포인트</h3><ul><li>건설현장·이벤트용 무공해 발전기 보급 확대</li><li>그린수소 보급 가시화에 기여</li><li>2,200만 파운드 자본으로 영국 사업 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/geopura-raises-22-million-to-build-out-green-hydrogen-power-unit-fleet/?utm_source=rss&utm_medium=rss&utm_campaign=geopura-raises-22-million-to-build-out-green-hydrogen-power-unit-fleet" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 244,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'TPG·GIC, 건물 에너지관리 플랫폼 Techem을 74억 달러에 인수',
+      author: '관리자',
+      date: '2024.10.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>TPG의 임팩트 투자 플랫폼 TPG Rise Climate와 싱가포르 국부펀드 GIC가 독일 건물 에너지 관리·탈탄소 솔루션 기업 Techem을 74억 달러에 인수한다고 발표했습니다.</p><h3>주요 포인트</h3><ul><li>유럽 최대 규모 건물 탈탄소 플랫폼 인수</li><li>임팩트 PE의 인프라급 투자 사례</li><li>건물 에너지 효율화 시장의 자본 집중</li></ul><p>원문: <a href="https://www.esgtoday.com/tpg-rise-climate-gic-acquire-building-decarbonization-and-energy-management-platform-techem-for-7-4-billion/?utm_source=rss&utm_medium=rss&utm_campaign=tpg-rise-climate-gic-acquire-building-decarbonization-and-energy-management-platform-techem-for-7-4-billion" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 245,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Atlas Metrics, ESG 보고 SaaS 위해 1,220만 유로 조달',
+      author: '관리자',
+      date: '2024.09.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 데이터 관리 스타트업 Atlas Metrics가 1,220만 유로를 추가로 조달했다고 발표했습니다. CSRD 시행을 앞두고 중소·중견기업의 보고 자동화 수요가 빠르게 성장하고 있습니다.</p><h3>주요 포인트</h3><ul><li>CSRD 대응 SaaS 시장의 자본 유입 지속</li><li>중견기업 ESG 보고 자동화 수요 증가</li><li>유럽 핵심 시장 침투 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-reporting-software-startup-atlas-metrics-raises-e12-2-million/?utm_source=rss&utm_medium=rss&utm_campaign=esg-reporting-software-startup-atlas-metrics-raises-e12-2-million" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 246,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: AI 기반 솔루션으로 CSRD 대응 간소화',
+      author: '관리자',
+      date: '2024.09.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 AI 솔루션을 활용한 CSRD 컴플라이언스 간소화 방안을 다루는 웨비나를 개최했습니다. 데이터 수집·검증·보고서 작성의 자동화 사례가 공유됐습니다.</p><h3>주요 포인트</h3><ul><li>CSRD 대응 AI 자동화 베스트 프랙티스 공유</li><li>데이터 품질 관리·이중 중요성 평가 효율화</li><li>중견기업 실무자 대상 실용 콘텐츠</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/csrd-made-easy-compliance-opportunity-ai-enabled-sustainability-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 247,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: COP16 생물다양성 회의 핵심 전략',
+      author: '관리자',
+      date: '2024.09.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 COP16 생물다양성 회의를 앞두고 기업의 효과적 참여 전략을 논의하는 웨비나를 개최했습니다. 자연자본·생물다양성 공시(TNFD) 흐름의 실무적 함의를 다뤘습니다.</p><h3>주요 포인트</h3><ul><li>COP16 주요 의제와 기업 영향 정리</li><li>TNFD 적용 사례 공유</li><li>생물다양성 전략의 비즈니스 통합 방안</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/countdown-cop-16-key-strategies-engaging-biodiversity-conference" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 248,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Novata, 비상장 기업용 ESG 데이터·보고 솔루션 출시',
+      author: '관리자',
+      date: '2024.09.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>비상장(PE) 시장 ESG 데이터 솔루션 기업 Novata가 'Novata for Companies'를 새로 출시했다고 밝혔습니다. 사모펀드 포트폴리오 기업이 LP 보고를 효율화할 수 있도록 지원합니다.</p><h3>주요 포인트</h3><ul><li>PE 포트폴리오사 ESG 보고 자동화</li><li>LP 보고와 규제 보고 동시 충족</li><li>Novata의 비상장 시장 입지 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/novata-launches-esg-data-and-reporting-solutions-for-private-companies/?utm_source=rss&utm_medium=rss&utm_campaign=novata-launches-esg-data-and-reporting-solutions-for-private-companies" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 249,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Euronext, ESG 벤치마킹 도구·중소기업 CSRD 자문 서비스 출시',
+      author: '관리자',
+      date: '2024.09.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽 시장 인프라 사업자 Euronext가 ESG 벤치마킹 도구와 중소기업용 CSRD 보고 자문 솔루션 등 신규 ESG 서비스를 출시했습니다. 거래소가 보고 인프라까지 확장하는 흐름입니다.</p><h3>주요 포인트</h3><ul><li>거래소 발 ESG 데이터 인프라 확장</li><li>중소기업 CSRD 대응 부담 완화 솔루션</li><li>유럽 자본시장 ESG 통합 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/euronext-launches-new-esg-benchmarking-tool-sme-csrd-sustainability-reporting-advisory-solution/?utm_source=rss&utm_medium=rss&utm_campaign=euronext-launches-new-esg-benchmarking-tool-sme-csrd-sustainability-reporting-advisory-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 250,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰 183: MS, 클라우드·AI 협력사 탈탄소 팀 출범',
+      author: '관리자',
+      date: '2024.09.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 뉴스에서는 마이크로소프트가 클라우드·AI 협력사 탈탄소 전담 조직을 신설했고, 다수 기업의 ESG 전략·자본 동향이 이어졌습니다.</p><h3>주요 포인트</h3><ul><li>마이크로소프트 공급망 탈탄소 조직 신설</li><li>다양한 산업의 청정에너지 투자 발표</li><li>글로벌 ESG 정책 환경의 변화 지속</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-183/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-183" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 251,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'BNP파리바AM, ESG 통합한 일본·美 시장 ETF 출시',
+      author: '관리자',
+      date: '2024.09.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>BNP파리바 자산운용이 ESG를 능동적으로 통합한 일본·미국 시장 ETF 2종을 신규 출시했습니다. 인덱스 기반 패시브 운용에 ESG 스크리닝과 가중치 조정을 결합한 모델입니다.</p><h3>주요 포인트</h3><ul><li>액티브 ESG 통합형 신규 ETF 라인업</li><li>일본·미국 코어 시장 노출 + ESG 차별화</li><li>유럽 SFDR 기준 부합 상품군 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/bnp-paribas-am-launches-new-indexing-based-etfs-with-active-esg-integration/?utm_source=rss&utm_medium=rss&utm_campaign=bnp-paribas-am-launches-new-indexing-based-etfs-with-active-esg-integration" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 252,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Mantel, 산업 탄소 포집 기술 위해 3천만 달러 조달',
+      author: '관리자',
+      date: '2024.09.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탄소 포집 스타트업 Mantel이 시리즈 A에서 3천만 달러를 조달했다고 발표했습니다. 시멘트·철강 등 고온 산업 공정에서 사용 가능한 용융염 기반 포집 기술을 상용화합니다.</p><h3>주요 포인트</h3><ul><li>고온 산업 공정 적용 가능한 포집 기술</li><li>시멘트·철강 등 난감축 부문 솔루션</li><li>3천만 달러로 파일럿 → 상용 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/cleantech-startup-mantel-raises-30-million-to-scale-industrial-carbon-capture-solution/?utm_source=rss&utm_medium=rss&utm_campaign=cleantech-startup-mantel-raises-30-million-to-scale-industrial-carbon-capture-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 253,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'TPG, 데이터센터 시장 겨냥해 산업 배출저감 기업 Miratech 인수',
+      author: '관리자',
+      date: '2024.09.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>TPG의 임팩트 투자 플랫폼 TPG Rise Climate가 산업 배출 저감 기술 기업 Miratech을 인수한다고 발표했습니다. AI 데이터센터의 전력 수요 급증에 따른 백업·예비 발전기 배출 저감 솔루션 수요를 겨냥한 행보입니다.</p><h3>주요 포인트</h3><ul><li>발전기 배출저감 기술의 데이터센터 시장 확장</li><li>NOx·SOx 등 대기오염물질 저감 솔루션</li><li>임팩트 PE의 기후기술 인수 사례</li></ul><p>원문: <a href="https://www.esgtoday.com/tpg-acquires-industrial-emissions-reduction-tech-company-miratech-to-address-growing-data-center-opportunity/?utm_source=rss&utm_medium=rss&utm_campaign=tpg-acquires-industrial-emissions-reduction-tech-company-miratech-to-address-growing-data-center-opportunity" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 254,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 2030 목표 달성 위한 운영·가치사슬 탈탄소',
+      author: '관리자',
+      date: '2024.09.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 2030 탈탄소 목표를 향한 진척 부진을 진단하는 웨비나를 개최했습니다. 공개 목표를 세운 기업의 1/5 만이 목표를 달성·초과한다는 ENGIE 보고서를 토대로 가속화 전략을 다뤘습니다.</p><h3>주요 포인트</h3><ul><li>2030 목표 진척 현황 진단</li><li>운영·가치사슬 통합 감축 전략</li><li>실행 가속을 위한 우선순위 도출</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/how-stay-track-2030-decarbonize-your-operations-and-value-chain" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 255,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: CSRD·IFRS·SEC 대응 기후 전환계획 마스터링',
+      author: '관리자',
+      date: '2024.08.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 CSRD, IFRS S2, SEC 기후공시 등 다양한 글로벌 규제에 모두 대응하는 기후 전환 계획 작성 노하우를 공유하는 웨비나를 진행했습니다. 다중 규제 환경에서의 효율적 보고가 주제입니다.</p><h3>주요 포인트</h3><ul><li>다중 규제 호환 전환계획 작성법</li><li>핵심 데이터 매핑·자동화 전략</li><li>실무자 대상 사례 중심 콘텐츠</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/mastering-climate-transition-plans-csrd-ifrs-sec-compliance" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 256,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 신규 탄소시장 규정과 수익 극대화',
+      author: '관리자',
+      date: '2024.08.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 2024년 잇따라 발표된 신규 탄소시장 가이드라인을 분석하고 기업·투자자 관점의 수익 극대화 방안을 다룬 웨비나를 진행했습니다. ICVCM·VCMI 통합 흐름을 다뤘습니다.</p><h3>주요 포인트</h3><ul><li>ICVCM·VCMI 가이드라인 핵심 정리</li><li>신뢰성 있는 크레딧 선정 기준</li><li>구매·매도 양방향 전략 인사이트</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/navigate-new-carbon-market-rules-maximize-returns" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 257,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Sora Fuel, 저비용 SAF 생산 위해 600만 달러 조달',
+      author: '관리자',
+      date: '2024.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능 항공유(SAF) 스타트업 Sora Fuel이 600만 달러를 조달했다고 발표했습니다. 물·공기·재생전력만으로 SAF를 생산하는 e-fuel 기술 상용화에 집중합니다.</p><h3>주요 포인트</h3><ul><li>물·공기 기반 e-fuel SAF 기술 검증</li><li>저비용 합성연료 잠재력 부각</li><li>600만 달러로 파일럿 규모 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/sora-fuel-raises-6-million-to-produce-low-cost-saf-from-water-air-and-renewable-energy/?utm_source=rss&utm_medium=rss&utm_campaign=sora-fuel-raises-6-million-to-produce-low-cost-saf-from-water-air-and-renewable-energy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 258,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Quinbrook, 에너지전환 인프라 펀드 30억 달러 조성',
+      author: '관리자',
+      date: '2024.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>재생에너지 인프라 투자사 Quinbrook Infrastructure Partners가 에너지 전환 인프라 펀드에서 30억 달러를 조성했다고 발표했습니다. 미국·영국·호주 청정에너지·저장장치·데이터센터 인프라에 투자합니다.</p><h3>주요 포인트</h3><ul><li>30억 달러 규모 에너지 전환 인프라 펀드 클로징</li><li>3개 핵심 시장 분산 투자 전략</li><li>그리드·저장·데이터센터 통합 접근</li></ul><p>원문: <a href="https://www.esgtoday.com/quinbrook-raises-3-billion-for-energy-transition-infrastructure-fund/?utm_source=rss&utm_medium=rss&utm_campaign=quinbrook-raises-3-billion-for-energy-transition-infrastructure-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 259,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Stanley Capital·골드만삭스, 수질 솔루션 SePRO에 투자',
+      author: '관리자',
+      date: '2024.08.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>수질 환경 복원 솔루션 기업 SePRO가 Stanley Capital과 골드만삭스 자산운용으로부터 다수 지분 투자를 받았다고 발표했습니다. 수질 관리 시장의 자본 유입을 보여주는 사례입니다.</p><h3>주요 포인트</h3><ul><li>수질·환경 복원 시장에 대형 자본 유입</li><li>북미 호수·저수지 관리 솔루션 확장</li><li>수자원 ESG 투자 카테고리 부상</li></ul><p>원문: <a href="https://www.esgtoday.com/stanley-capital-goldman-sachs-invest-in-water-quality-solutions-provider-sepro/?utm_source=rss&utm_medium=rss&utm_campaign=stanley-capital-goldman-sachs-invest-in-water-quality-solutions-provider-sepro" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 260,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'MUFG, 신규 지속가능 금융 프레임워크 발표',
+      author: '관리자',
+      date: '2024.08.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일본 미쓰비시UFJ금융그룹(MUFG)이 새로운 지속가능 금융 프레임워크를 공개했습니다. 그린·소셜·지속가능성 채권의 적격 자산 기준과 보고 체계를 명시합니다.</p><h3>주요 포인트</h3><ul><li>일본 메가뱅크의 지속가능 금융 체계 강화</li><li>적격 자산·보고 기준 표준화</li><li>아시아 지속가능 채권 시장 확장 신호</li></ul><p>원문: <a href="https://www.esgtoday.com/mufg-releases-new-sustainable-finance-framework/?utm_source=rss&utm_medium=rss&utm_campaign=mufg-releases-new-sustainable-finance-framework" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 261,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 4명의 기후테크 창업가에게 배우는 교훈',
+      author: '관리자',
+      date: '2024.07.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 기후테크 창업가 4인의 사업 경험을 공유하는 웨비나를 진행했습니다. Chris Wedding이 진행하며 자금조달·시장 진입·인재 확보 등 실전 인사이트를 다뤘습니다.</p><h3>주요 포인트</h3><ul><li>창업 단계별 핵심 의사결정 사례</li><li>기후테크 자본 조달 노하우</li><li>창업가 네트워킹 콘텐츠</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/lessons-learned-four-climate-tech-entrepreneurs" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 262,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전문가들 "산림·제약 산업이 지속가능 전환 가장 잘 관리"',
+      author: '관리자',
+      date: '2024.07.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GlobeScan/ERM 설문에 따르면 산림 제품 및 생명과학 산업이 지속가능성 전환을 가장 효과적으로 관리하는 산업으로 평가됐습니다. 은행·전력·자동차 산업은 가장 큰 개선을 보였습니다.</p><h3>주요 포인트</h3><ul><li>산업별 지속가능 전환 관리 평가</li><li>가장 빠르게 개선된 산업: 은행·전력·자동차</li><li>지표·자본·이해관계자 압력의 영향</li></ul><p>원문: <a href="https://www.greenbiz.com/article/experts-view-forest-products-life-sciences-sectors-most-effectively-managing-sustainability" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 263,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Stripe, 2020년 100만 달러 → 2024년 10억 달러 탄소제거 운영',
+      author: '관리자',
+      date: '2024.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2020년 100만 달러로 시작한 Stripe의 탄소제거 프로그램이 4년 만에 10억 달러 규모로 성장했습니다. Frontier 등 구매자 연합을 통해 영구 탄소제거 시장 형성을 주도해온 결과입니다.</p><h3>주요 포인트</h3><ul><li>구매자 연합 모델의 시장 형성 효과</li><li>1억 → 10억 달러 규모 확장 추이</li><li>Stripe Climate 운영자 인터뷰 기반</li></ul><p>원문: <a href="https://www.greenbiz.com/article/stripe-pledged-1-million-carbon-removal-2020-now-it-manages-1-billion" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 264,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 새 ESG 컴플라이언스 시대 대응법',
+      author: '관리자',
+      date: '2024.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 자율적 보고 시대의 종언과 다중 규제 시대의 도래를 다루는 웨비나를 진행했습니다. 신규 미국·유럽 규정에 직면한 실무자에게 항법지도를 제공하는 콘텐츠입니다.</p><h3>주요 포인트</h3><ul><li>자발적 → 의무적 보고 패러다임 전환</li><li>다중 규제 환경 항법 가이드</li><li>실무자 친화적 사례 콘텐츠</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/how-your-team-can-navigate-new-era-esg-compliance" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 265,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '차트 3개로 보는 탄소제거 시장 현황',
+      author: '관리자',
+      date: '2024.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탄소제거 산업이 향후 6년 동안 파리협정 목표를 달성하기 위해 필요한 수준에 비해 크게 뒤처져 있다는 분석 기사입니다. 자본·기술·정책 격차가 모두 가시화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>2030 목표 대비 산업 진척도 부진</li><li>자본·기술·정책 모두에서 격차 확인</li><li>시장 가속화를 위한 정책 신호 필요</li></ul><p>원문: <a href="https://www.greenbiz.com/article/state-carbon-removal-3-charts" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 266,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이번 주 기후 정책 4대 이슈',
+      author: '관리자',
+      date: '2024.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>오하이오 대법원의 태양광 관련 판결 가능성과 캘리포니아 수소 허브 연방 자금 지원 등 미국 기후 정책의 핵심 이슈 4건을 정리한 분석입니다. 주별 입법·법원 판결의 영향이 부각되고 있습니다.</p><h3>주요 포인트</h3><ul><li>오하이오 태양광 판결, 미국 신재생 사업 영향</li><li>캘리포니아 수소 허브 연방 자금 확보</li><li>주별 정책의 산업 영향력 증대</li></ul><p>원문: <a href="https://www.greenbiz.com/article/week-climate-policy-4-stories-you-should-follow-2" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 267,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '뉴욕시, 다양성 기후테크 창업자 지원에서 선두',
+      author: '관리자',
+      date: '2024.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>뉴욕시가 소외계층 출신 기후테크 창업자에 대한 자본·네트워크 접근성을 개선하며 다양성 기후 창업 생태계의 리더로 부상하고 있습니다. 시 차원의 액셀러레이터·펀드 매칭 프로그램이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>다양성 기후 창업가용 자본·네트워킹 지원</li><li>시·민간 협력 액셀러레이터 모델</li><li>지역 기후 생태계 형성의 모범 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/article/nyc-leader-supporting-diverse-climate-tech-founders" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 268,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: Watershed 등 10억 달러 탄소 스타트업 소개',
+      author: '관리자',
+      date: '2024.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Airbnb·블랙록·핀터레스트·캔바 등이 사용하는 탄소회계 스타트업 Watershed의 성장 이야기를 다룬 GreenBiz 웨비나입니다. 기업 탄소 회계 SaaS의 시장 형성 사례로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>탄소 회계 SaaS 시장 리더 사례</li><li>대형 고객 기반 확보 전략</li><li>10억 달러 가치 평가의 시사점</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/get-know-1-billion-carbon-startup-works-airbnb-blackrock-and-pinterest" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 269,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'CO2 AI, 생성형 AI 기반 제품 배출량 평가 솔루션 출시',
+      author: '관리자',
+      date: '2024.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 플랫폼 CO2 AI가 'Product Footprinting'이라는 생성형 AI 기반 제품 배출량 산정 솔루션을 출시했다고 발표했습니다. 복잡한 LCA 작업을 자동화하는 것이 목표입니다.</p><h3>주요 포인트</h3><ul><li>LCA 자동화로 산정 시간 단축</li><li>제품·SKU 단위 배출량 추정</li><li>Scope 3 감축 의사결정 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/co2-ai-launches-generative-ai-powered-product-emissions-assessment-solution/?utm_source=rss&utm_medium=rss&utm_campaign=co2-ai-launches-generative-ai-powered-product-emissions-assessment-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 270,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Vodafone Business, 신규 CSRD 지속가능성 보고 솔루션 출시',
+      author: '관리자',
+      date: '2024.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>보다폰 비즈니스가 CSRD 대응을 지원하는 신규 'Sustainability Reporting Solution'을 출시했다고 발표했습니다. 통신·IT 인프라와 ESG 데이터를 결합한 종합 솔루션입니다.</p><h3>주요 포인트</h3><ul><li>통신사 발 ESG 솔루션 시장 진입</li><li>IoT 데이터 활용한 배출량 산정</li><li>CSRD 통합 보고 자동화 기능</li></ul><p>원문: <a href="https://www.esgtoday.com/vodafone-business-launches-new-csrd-sustainability-reporting-solution/?utm_source=rss&utm_medium=rss&utm_campaign=vodafone-business-launches-new-csrd-sustainability-reporting-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 271,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰 175: ISSB, 기후 전환계획 표준화 추진',
+      author: '관리자',
+      date: '2024.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 주요 ESG 뉴스에서는 ISSB가 기후 전환계획·온실가스 보고의 표준화를 추진하기로 했고, 다양한 기업의 청정에너지 투자가 이어졌습니다.</p><h3>주요 포인트</h3><ul><li>ISSB 기후 전환계획 표준화 추진 결정</li><li>GHG 보고 일관성 강화 흐름</li><li>다양한 청정에너지 자본 동향</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-175/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-175" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 272,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Rondo Energy, 산업 탈탄소 사업에 8천만 달러 추가 확보',
+      author: '관리자',
+      date: '2024.06.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>제로카본 산업열 솔루션 기업 Rondo Energy가 7,500만 유로(약 8천만 달러)의 추가 자금을 확보했다고 발표했습니다. 열저장 배터리 기술로 산업 공정의 탈탄소를 가능케 합니다.</p><h3>주요 포인트</h3><ul><li>전기 → 고온 산업열 저장 솔루션</li><li>시멘트·비료·식음료 산업 탈탄소 적용</li><li>8천만 달러로 신규 프로젝트 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/cleantech-startup-rondo-energy-secures-80-million-funding-for-new-industrial-decarbonization-projects/?utm_source=rss&utm_medium=rss&utm_campaign=cleantech-startup-rondo-energy-secures-80-million-funding-for-new-industrial-decarbonization-projects" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 273,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ISO, 글로벌 넷제로 표준 개발 착수',
+      author: '관리자',
+      date: '2024.06.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제표준화기구(ISO)가 'International Net Zero Standard' 개발에 본격 착수한다고 발표했습니다. 기업의 넷제로 주장에 일관된 글로벌 기준을 제시하는 것이 목표입니다.</p><h3>주요 포인트</h3><ul><li>SBTi 외 글로벌 넷제로 검증 표준 등장 예고</li><li>그린워싱 방지를 위한 검증 체계 정합성</li><li>기업 넷제로 주장의 신뢰성 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/iso-to-launch-international-net-zero-standard/?utm_source=rss&utm_medium=rss&utm_campaign=iso-to-launch-international-net-zero-standard" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 274,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 리스크 평가 플랫폼 Climate X, 1,800만 달러 조달',
+      author: '관리자',
+      date: '2024.06.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 리스크 인텔리전스 기업 Climate X가 1,800만 달러를 조달했다고 발표했습니다. 자산 단위 물리적 기후 리스크 평가 솔루션의 글로벌 확장에 사용됩니다.</p><h3>주요 포인트</h3><ul><li>자산 단위 물리적 기후 리스크 SaaS 성장</li><li>금융·부동산 산업 수요 견조</li><li>1,800만 달러로 글로벌 확장 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/climate-risk-assessment-platform-climate-x-raises-18-million/?utm_source=rss&utm_medium=rss&utm_campaign=climate-risk-assessment-platform-climate-x-raises-18-million" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 275,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존·구글·MS·뉴코, Duke Energy와 청정에너지 리스크 분담 모델',
+      author: '관리자',
+      date: '2024.05.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아마존·구글·마이크로소프트·철강기업 뉴코가 듀크에너지와 함께 청정에너지 투자에 새로운 리스크 분담 모델을 도입했다고 발표했습니다. 대규모 산업 고객이 신규 자산 건설을 견인하는 모델입니다.</p><h3>주요 포인트</h3><ul><li>대형 산업 고객의 청정전력 직접 견인</li><li>유틸리티-기업 협력 신규 PPA 구조</li><li>그리드 신규 자산 건설 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/amazon-google-microsoft-nucor-pioneer-new-clean-energy-investment-risk-sharing-models-with-duke-energy/?utm_source=rss&utm_medium=rss&utm_campaign=amazon-google-microsoft-nucor-pioneer-new-clean-energy-investment-risk-sharing-models-with-duke-energy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 276,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Claros Tech, PFAS \'영구화학물\' 분해 솔루션 위해 2,200만 달러 조달',
+      author: '관리자',
+      date: '2024.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능 소재 스타트업 Claros Technologies가 PFAS '영구 화학물질' 분해 솔루션 상용화를 위해 2,200만 달러를 조달했습니다. PFAS 규제 강화에 따른 시장 수요 급증이 배경입니다.</p><h3>주요 포인트</h3><ul><li>PFAS 분해 기술의 상용화 진전</li><li>美·EU PFAS 규제 강화 대응</li><li>2,200만 달러 자본으로 시설 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/green-materials-startup-claros-technologies-raises-22-million-for-pfas-forever-chemical-destruction-solution/?utm_source=rss&utm_medium=rss&utm_campaign=green-materials-startup-claros-technologies-raises-22-million-for-pfas-forever-chemical-destruction-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 277,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '임팩트 투자사 Lightrock, 신규 글로벌 스몰캡 전략 출범',
+      author: '관리자',
+      date: '2024.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 중심 사모펀드 Lightrock이 첫 공모형 주식 펀드인 글로벌 스몰캡 전략을 출범한다고 발표했습니다. 임팩트 PE의 공모시장 진출 사례로 주목됩니다.</p><h3>주요 포인트</h3><ul><li>임팩트 PE의 공모형 펀드 출시</li><li>지속가능 스몰캡 글로벌 분산 전략</li><li>임팩트 투자 자산군 확대 흐름</li></ul><p>원문: <a href="https://www.esgtoday.com/impact-investor-lightrock-launches-new-global-small-cap-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=impact-investor-lightrock-launches-new-global-small-cap-strategy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 278,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Candriam, 신규 지속가능 신흥국 주식 펀드 출시',
+      author: '관리자',
+      date: '2024.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 중심 자산운용사 Candriam이 'Sustainable Equity Emerging Markets' 펀드를 새로 출시했다고 발표했습니다. 신흥국 ESG 통합 투자에 대한 기관 수요 확대에 맞춰 라인업을 보강한 것입니다.</p><h3>주요 포인트</h3><ul><li>신흥국 ESG 통합 액티브 펀드 출시</li><li>SFDR 8조 분류 등 EU 규제 부합</li><li>신흥국 시장 ESG 투자 옵션 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/candriam-launches-new-sustainable-equity-emerging-markets-fund/?utm_source=rss&utm_medium=rss&utm_campaign=candriam-launches-new-sustainable-equity-emerging-markets-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 279,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Pernod Ricard, ecoSPIRITS와 글로벌 지속가능 패키징 협약',
+      author: '관리자',
+      date: '2024.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>주류 기업 Pernod Ricard와 순환경제 솔루션 ecoSPIRITS가 글로벌 지속가능 패키징 협약을 체결했습니다. 일회용 유리병을 재사용 가능한 시스템으로 전환해 패키징 폐기물을 대폭 줄이는 것이 목표입니다.</p><h3>주요 포인트</h3><ul><li>주류 산업 일회용 패키징 → 재사용 시스템 전환</li><li>호텔·바 채널 중심 글로벌 확장</li><li>Pernod Ricard 환경 목표 이행 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/pernod-ricard-signs-global-sustainable-packaging-agreement-with-circular-economy-startup-ecospirits/?utm_source=rss&utm_medium=rss&utm_campaign=pernod-ricard-signs-global-sustainable-packaging-agreement-with-circular-economy-startup-ecospirits" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 280,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Normative, 탄소감축 행동 매핑·공급사 데이터 통합 도구 출시',
+      author: '관리자',
+      date: '2024.05.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탄소회계 SaaS 기업 Normative가 탄소 감축 액션을 시뮬레이션하고 공급사 배출 데이터를 통합하는 신규 기능을 발표했습니다. 데이터 기반 감축 의사결정을 지원합니다.</p><h3>주요 포인트</h3><ul><li>감축 액션 시나리오 시뮬레이션 기능</li><li>공급사 데이터 자동 통합·검증</li><li>Scope 3 감축 실행 지원 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/normative-launches-new-tools-to-map-carbon-reduction-actions-integrate-supplier-emissions-data/?utm_source=rss&utm_medium=rss&utm_campaign=normative-launches-new-tools-to-map-carbon-reduction-actions-integrate-supplier-emissions-data" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 281,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'BCG, Twelve로부터 CO₂ 기반 SAF 구매 계약 체결',
+      author: '관리자',
+      date: '2024.05.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>보스턴컨설팅그룹(BCG)이 CO₂ 기반 e-SAF를 생산하는 Twelve와 SAF 인증서(SAFc) 구매 계약을 체결했습니다. 컨설팅 업계 출장 항공 배출의 Scope 3 감축에 활용됩니다.</p><h3>주요 포인트</h3><ul><li>컨설팅 업계 항공 출장 배출 감축 사례</li><li>e-fuel 기반 SAF 인증서 시장 성장</li><li>BCG 자체 넷제로 이행 가속</li></ul><p>원문: <a href="https://www.esgtoday.com/bcg-signs-purchase-deal-with-twelve-for-sustainable-aviation-fuel-made-from-co2/?utm_source=rss&utm_medium=rss&utm_campaign=bcg-signs-purchase-deal-with-twelve-for-sustainable-aviation-fuel-made-from-co2" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 282,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ERM·Workiva, 지속가능성 보고 솔루션·서비스 협력',
+      author: '관리자',
+      date: '2024.05.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 컨설팅 ERM과 비즈니스 데이터·보고 솔루션 Workiva가 통합 지속가능성 보고 서비스를 공동 제공하는 파트너십을 체결했습니다. 자문과 플랫폼을 결합한 종합 솔루션입니다.</p><h3>주요 포인트</h3><ul><li>컨설팅·플랫폼 결합형 보고 솔루션</li><li>CSRD·ISSB 호환 자료 작성 지원</li><li>대기업 ESG 보고 일원화 트렌드</li></ul><p>원문: <a href="https://www.esgtoday.com/erm-workiva-partner-to-provide-sustainability-reporting-solutions-and-services/?utm_source=rss&utm_medium=rss&utm_campaign=erm-workiva-partner-to-provide-sustainability-reporting-solutions-and-services" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 283,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Pernod Ricard, 과학기반 배출 감축 목표 채택',
+      author: '관리자',
+      date: '2024.05.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>주류 기업 Pernod Ricard가 과학기반 단·장기 배출 감축 목표를 새로 발표하고 SBTi 검증을 추진합니다. 농업 원료에 의존하는 산업의 Scope 3 감축이 핵심 과제입니다.</p><h3>주요 포인트</h3><ul><li>SBTi 검증 추진하는 신규 단·장기 목표</li><li>농업 공급망의 Scope 3 감축 강화</li><li>주류 산업의 SBTi 채택 확산</li></ul><p>원문: <a href="https://www.esgtoday.com/pernod-ricard-commits-to-science-based-emissions-reduction-goals/?utm_source=rss&utm_medium=rss&utm_campaign=pernod-ricard-commits-to-science-based-emissions-reduction-goals" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 284,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Norrsken VC, 임팩트 솔루션 펀드로 3.45억 달러 조성',
+      author: '관리자',
+      date: '2024.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>스웨덴 기반 임팩트 벤처 투자사 Norrsken VC가 3억 2천만 유로(약 3억 4,500만 달러) 규모의 임팩트 솔루션 펀드를 조성했다고 발표했습니다. 유럽 임팩트 VC 자본 모집 흐름이 강세입니다.</p><h3>주요 포인트</h3><ul><li>유럽 임팩트 VC 시장 자본 유입 지속</li><li>기후·헬스·교육 솔루션에 분산 투자</li><li>3.45억 달러 펀드로 시리즈 A·B 집중</li></ul><p>원문: <a href="https://www.esgtoday.com/norrsken-vc-raises-345-million-for-impact-solutions-venture-fund/?utm_source=rss&utm_medium=rss&utm_campaign=norrsken-vc-raises-345-million-for-impact-solutions-venture-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 285,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, Scope 3 배출 30% 증가 대응 이니셔티브 출범',
+      author: '관리자',
+      date: '2024.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트가 2020년 대비 Scope 3 배출이 30% 증가한 데 대응하기 위한 이니셔티브를 출범했습니다. AI·클라우드 데이터센터 확장이 배출 증가의 주된 요인으로 지목되고 있습니다.</p><h3>주요 포인트</h3><ul><li>AI 인프라 확장이 배출 증가의 핵심 동인</li><li>공급망 협력사 탈탄소 프로그램 강화</li><li>2030 카본 네거티브 목표 이행 압박</li></ul><p>원문: <a href="https://www.greenbiz.com/article/microsoft-launches-initiative-counter-30-rise-scope-3-emissions-2020" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 286,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 정책 전망: 美 첫 고속철도 마침내 첫 삽',
+      author: '관리자',
+      date: '2024.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 핵심 기후 정책 동향에서는 미국 첫 진정한 고속철도 사업이 캘리포니아·네바다 구간에서 본격 착공한 것이 부각됐습니다. 교통 부문 탈탄소의 상징적 진전입니다.</p><h3>주요 포인트</h3><ul><li>美 고속철 첫 본격 착공</li><li>교통 부문 탈탄소 인프라 진전</li><li>주별 청정에너지 정책 동향 정리</li></ul><p>원문: <a href="https://www.greenbiz.com/article/climate-policy-outlook-high-speed-rail-finally-breaks-ground-us" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 287,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Lowe\'s, 협력사 교육으로 Scope 3 배출 감축',
+      author: '관리자',
+      date: '2024.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 홈인프라 기업 Lowe's가 협력사 교육 프로그램을 통해 배출 보고에 참여하는 협력사 수를 두 배로 늘렸다고 발표했습니다. 공급망 ESG 인사이트 확보 사례로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>협력사 교육으로 ESG 데이터 가시성 확보</li><li>Scope 3 산정 정확도 향상</li><li>대형 유통사의 공급망 인게이지먼트 모범</li></ul><p>원문: <a href="https://www.greenbiz.com/article/how-lowes-using-supplier-education-tackle-scope-3-emissions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 288,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'SBTi 기업 넷제로 표준 업데이트 일정 공개',
+      author: '관리자',
+      date: '2024.05.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>표준 설정 기관 SBTi가 'Corporate Net Zero Standard' 업데이트 일정을 공개했습니다. 이해관계자 피드백, 기후과학 업데이트, Scope 3 목표 설정 관련 도전 과제를 반영할 예정입니다.</p><h3>주요 포인트</h3><ul><li>SBTi 표준 업데이트 진행 일정 공식화</li><li>Scope 3 목표 설정 방법론 재검토</li><li>최신 IPCC 과학 반영한 강화 흐름</li></ul><p>원문: <a href="https://www.greenbiz.com/article/heres-timeline-sbtis-corporate-net-zero-update" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 289,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이번 주 기후 정책: USDA 인증·EPA 발전소 규정 소송',
+      author: '관리자',
+      date: '2024.05.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 미국 기후 정책 동향에서는 USDA가 친환경성이 의심되는 소고기 제품에 기후 인증을 부여한 것이 논란이 됐고, 25개 주가 EPA의 발전소 배출 규정에 소송을 제기했습니다.</p><h3>주요 포인트</h3><ul><li>USDA 기후 인증 라벨링 신뢰성 논란</li><li>25개 주의 EPA 발전소 규정 소송</li><li>美 기후 정책의 정치적·법적 도전 가시화</li></ul><p>원문: <a href="https://www.greenbiz.com/article/week-climate-policy-4-updates-you-need-know-3" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 290,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG·지속가능 금융 역량 강화에 도움이 되는 28개 강좌',
+      author: '관리자',
+      date: '2024.05.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 지속가능 투자·기업 ESG 성과 개선에 도움이 되는 28개 온라인 강좌를 큐레이션해 소개했습니다. 입문부터 실무 전문 과정까지 다양한 옵션을 다룹니다.</p><h3>주요 포인트</h3><ul><li>28개 ESG·지속가능 금융 강좌 큐레이션</li><li>입문~실무 전문 과정 단계별 정리</li><li>실무자 역량 개발 가이드</li></ul><p>원문: <a href="https://www.greenbiz.com/article/28-courses-boost-your-esg-sustainable-finance-skills" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 291,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기업, 항공 배출 대응 위해 SAF 인증서 구매 확대',
+      author: '관리자',
+      date: '2024.05.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>점점 더 많은 기업이 출장·물류 항공 배출의 Scope 3 감축을 위해 SAF 인증서(SAFc)를 구매하고 있습니다. 다만 비판자들은 새로운 형태의 그린워싱 가능성을 우려합니다.</p><h3>주요 포인트</h3><ul><li>SAFc 시장의 빠른 성장</li><li>책임 회계·검증 기준 정립의 필요성</li><li>그린워싱 우려와 시장 형성의 균형</li></ul><p>원문: <a href="https://www.greenbiz.com/article/corporations-buy-sustainable-fuel-certificates-address-air-travel-emissions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 292,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 영구 탄소제거 전략',
+      author: '관리자',
+      date: '2024.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GreenBiz가 글로벌 기후 목표 달성에 점점 더 중요해지는 영구 탄소제거 솔루션 전략을 다루는 웨비나를 진행했습니다. 자발적 탄소시장의 고품질·내구성 공급 부족 문제를 짚었습니다.</p><h3>주요 포인트</h3><ul><li>VCM 고품질 공급 부족 문제 진단</li><li>영구 탄소제거 포트폴리오 전략</li><li>구매자 동맹·표준화의 시장 영향</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/future-proof-carbon-removal-strategies-make-impact" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 293,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '보고서 "바이오매스·포집탄소·플라스틱 폐기물로 화학 산업 탈화석화 가능"',
+      author: '관리자',
+      date: '2024.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>화학 산업이 화석연료 원료에서 벗어나 저탄소·지속가능 대체 원료로 전환하는 방안을 제시한 정책 브리핑이 발표됐습니다. 바이오매스·포집 CO₂·플라스틱 폐기물이 핵심 대안입니다.</p><h3>주요 포인트</h3><ul><li>화학 산업 원료 전환 정책 권고</li><li>바이오·재활용 원료의 잠재력 정량화</li><li>EU 화학 산업 탈탄소 정책 연계</li></ul><p>원문: <a href="https://www.greenbiz.com/article/biomass-captured-carbon-and-plastic-waste-can-help-defossilize-chemicals-report-says" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 294,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 이케아의 지속가능성 책임자 인터뷰',
+      author: '관리자',
+      date: '2024.04.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지난 한 해 이케아 매장을 방문한 7억 명의 소비자에게 지속가능 소비 습관을 유도하는 전략을 책임지는 임원과의 대담을 다룬 GreenBiz 웨비나입니다. 식물 기반 식품, 친환경 제품 등이 사례로 등장합니다.</p><h3>주요 포인트</h3><ul><li>대형 유통사의 소비 습관 변화 유도 전략</li><li>식물기반 식품·친환경 제품 라인업</li><li>지속가능 소비 인사이트 공유</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/meet-woman-making-ikea-more-sustainable" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 295,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 차세대 산림 복원 사업 가속화',
+      author: '관리자',
+      date: '2024.04.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전 세계 9억 헥타르의 산림 복원 가능 부지에서 21세기 중반까지 750기가톤의 CO₂를 제거할 잠재력을 다룬 GreenBiz 웨비나입니다. 일자리 창출과 서식지 복원 효과도 기대됩니다.</p><h3>주요 포인트</h3><ul><li>9억 헥타르 산림 복원 잠재력 정량화</li><li>고품질 NCS 사업 설계 가이드</li><li>지역 사회·생태계 동반 효과</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/catalyzing-next-generation-reforestation-projects" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 296,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 벤처 자본 외 기후 솔루션 자금 조달',
+      author: '관리자',
+      date: '2024.04.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>경제 불확실성과 자금조달 환경 변화 속에서 벤처 캐피털 외 기후 스타트업의 다양한 자금 조달 옵션을 다룬 GreenBiz 웨비나입니다. 부채·정부 지원·전략 투자 등 폭넓은 대안이 소개됩니다.</p><h3>주요 포인트</h3><ul><li>VC 외 다각화된 자금 조달 채널</li><li>정부 보조금·세제 인센티브 활용법</li><li>전략적 투자자·기업 파트너십 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/capitalizing-climate-solutions-innovative-financing-beyond-venture-funding" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 297,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이번 주 기후 정책: EPA, \'그린뱅크\' 200억 달러 수혜자 발표',
+      author: '관리자',
+      date: '2024.04.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EPA가 그린뱅크 펀드(Greenhouse Gas Reduction Fund) 200억 달러의 수혜 기관을 발표했고, 버지니아주가 탈탄소 지원을 위해 연방 자금 신청서를 제출하는 등 미국 기후 정책의 핵심 진전이 있었습니다.</p><h3>주요 포인트</h3><ul><li>그린뱅크 200억 달러 첫 수혜자 확정</li><li>주별 탈탄소 자금 활용 본격화</li><li>美 기후 정책 시장 형성 효과 가시화</li></ul><p>원문: <a href="https://www.greenbiz.com/article/week-climate-policy-4-updates-you-need-know" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 298,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EPA, \'그린뱅크\' 200억 달러 첫 수혜자 발표',
+      author: '관리자',
+      date: '2024.04.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Climate United, Power Forward, Coalition for Green Capital 등 3개 단체가 EPA의 Greenhouse Gas Reduction Fund로부터 총 200억 달러 자금을 받게 됐다고 발표됐습니다. 미국 청정에너지 금융 인프라가 한 단계 도약합니다.</p><h3>주요 포인트</h3><ul><li>3개 컨소시엄에 200억 달러 분배</li><li>저소득 지역 청정에너지 금융 강화</li><li>美 그린뱅크 모델의 본격 가동</li></ul><p>원문: <a href="https://www.greenbiz.com/article/epa-announces-awards-20-billion-green-bank" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 299,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '공급망 지속가능성 강화에 도움이 되는 14개 학습 자료',
+      author: '관리자',
+      date: '2024.04.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>공급망과 조달 관행에 지속가능성을 통합하는 전략을 개발·실행하는 데 도움이 되는 14개 교육 옵션을 GreenBiz가 정리했습니다. 실무자에게 유용한 학습 가이드입니다.</p><h3>주요 포인트</h3><ul><li>공급망 ESG 14개 학습 자료 큐레이션</li><li>조달·SRM 실무에 직결되는 콘텐츠</li><li>실무자용 단계별 학습 경로</li></ul><p>원문: <a href="https://www.greenbiz.com/article/learn-how-drive-supply-chain-and-procurement-sustainability-these-14-training-resources" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 300,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'M&A에서 ESG 비중 상승…US Steel 사례 주목',
+      author: '관리자',
+      date: '2024.04.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일본제철의 141억 달러 규모 US Steel 인수 제안이 '탈탄소 가속 가능성'을 전략적 이점으로 명시하는 등 ESG가 M&A 평가에서 점점 중요한 요소로 부상하고 있습니다.</p><h3>주요 포인트</h3><ul><li>M&A 거래에서 탈탄소 시너지 명시화</li><li>ESG가 인수 결정의 정당화 근거</li><li>철강 등 중공업 거래의 새로운 평가 축</li></ul><p>원문: <a href="https://www.greenbiz.com/article/esg-rising-ma-factor-just-ask-us-steel" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 301,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '순환 공급망: 임팩트 극대화를 위한 9개 핵심 영역',
+      author: '관리자',
+      date: '2024.04.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>순환 공급망을 구축하면 자원 소비와 매출 성장의 연결고리를 끊을 수 있다는 분석 기사입니다. 핵심 9개 집중 영역을 통해 실행 가능한 로드맵을 제시합니다.</p><h3>주요 포인트</h3><ul><li>자원 소비-매출 디커플링 가능성</li><li>9개 핵심 실행 영역 정리</li><li>실행 가능한 순환경제 로드맵</li></ul><p>원문: <a href="https://www.greenbiz.com/article/circular-supply-chains-9-focus-areas-maximize-impact" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 302,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '지속가능 분야 의식적 리더가 되는 4가지 방법',
+      author: '관리자',
+      date: '2024.04.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>의식적 리더십(Conscious Leadership)의 핵심은 인간과 지구 모두를 위한 행동에 있다는 통찰을 다룬 GreenBiz 칼럼입니다. 4가지 실천 방법을 제시합니다.</p><h3>주요 포인트</h3><ul><li>의식적 리더십의 4가지 실천 방안</li><li>장기 지향적 의사결정 프레임</li><li>이해관계자 중심 리더십 모델</li></ul><p>원문: <a href="https://www.greenbiz.com/article/4-ways-become-conscious-leader-sustainability" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 303,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이번 주 기후 정책 4대 이슈',
+      author: '관리자',
+      date: '2024.04.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>청정에너지 제조 자금 지원, 기후 변화의 국가 안보 영향에 대한 웨비나 등 이번 주 주목해야 할 4가지 핵심 기후 정책 동향을 정리한 분석 기사입니다.</p><h3>주요 포인트</h3><ul><li>청정에너지 제조 자금 흐름</li><li>기후-국가안보 연계 논의 확산</li><li>주별 청정에너지 정책 진전</li></ul><p>원문: <a href="https://www.greenbiz.com/article/week-climate-policy-4-stories-you-should-follow-0" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 304,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG Today 주간 리뷰 163: 美 산업 탈탄소에 60억 달러 투자',
+      author: '관리자',
+      date: '2024.03.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 주요 뉴스에서는 바이든 행정부가 산업 탈탄소 사업에 60억 달러를 투자한다는 발표가 있었고, 마이크로소프트 등 주요 기업의 청정에너지 투자가 이어졌습니다.</p><h3>주요 포인트</h3><ul><li>미국 산업 탈탄소 60억 달러 자금 지원</li><li>주요 빅테크의 PPA·전환 투자</li><li>다양한 ESG 정책·시장 동향</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-163/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-163" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 305,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '히트펌프 스타트업 Evari, 750만 달러 시드 조달',
+      author: '관리자',
+      date: '2024.03.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>히트펌프 기술 스타트업 Evari가 시드 라운드에서 750만 달러를 조달했다고 발표했습니다. 가정·상업용 히트펌프 보급 가속을 위한 기술 솔루션을 개발 중입니다.</p><h3>주요 포인트</h3><ul><li>히트펌프 보급 확대 위한 기술 혁신</li><li>건물 부문 탈탄소 핵심 솔루션 자본 유입</li><li>750만 달러로 초기 사업 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/heat-pump-tech-startup-evari-raises-7-5-million/?utm_source=rss&utm_medium=rss&utm_campaign=heat-pump-tech-startup-evari-raises-7-5-million" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 306,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유틸리티 ESS 기업 Lightshift, Greenbacker로부터 1억 달러 유치',
+      author: '관리자',
+      date: '2024.03.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유틸리티급 배터리 저장 기업 Lightshift Energy가 청정에너지 투자사 Greenbacker로부터 1억 달러 자금을 확보했다고 발표했습니다. 미국 유틸리티 ESS 자산 개발에 사용됩니다.</p><h3>주요 포인트</h3><ul><li>美 유틸리티 ESS 자산 개발 가속</li><li>1억 달러 자본으로 사업 파이프라인 확장</li><li>그리드 안정·청정전력 통합 효과</li></ul><p>원문: <a href="https://www.esgtoday.com/utility-scale-energy-storage-provider-lightshift-raises-100-million-from-climate-focused-investor-greenbacker/?utm_source=rss&utm_medium=rss&utm_campaign=utility-scale-energy-storage-provider-lightshift-raises-100-million-from-climate-focused-investor-greenbacker" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 307,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미시시피주, BlackRock에 ESG 투자 관련 거액 벌금 추진',
+      author: '관리자',
+      date: '2024.03.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미시시피주 국무부 장관이 BlackRock에 대해 ESG 투자 관행을 둘러싸고 영업중단·과징금 절차를 시작했다고 발표했습니다. 미국 일부 주의 반-ESG 정치 흐름의 직접적 영향입니다.</p><h3>주요 포인트</h3><ul><li>주별 반-ESG 행정조치 본격화</li><li>BlackRock 등 대형 운용사 압박 가시화</li><li>美 정치 환경의 ESG 시장 영향</li></ul><p>원문: <a href="https://www.esgtoday.com/mississippi-seeks-multimillion-dollar-penalty-against-blackrock-over-esg-investing/?utm_source=rss&utm_medium=rss&utm_campaign=mississippi-seeks-multimillion-dollar-penalty-against-blackrock-over-esg-investing" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 308,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, 텍사스 신규 태양광에서 400MW PPA 체결',
+      author: '관리자',
+      date: '2024.03.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>청정에너지 개발사 Leeward Renewable Energy가 마이크로소프트와 텍사스 신규 태양광 사업 2건에 대해 총 400MW 규모의 PPA 2건을 체결했다고 발표했습니다. 데이터센터 전력 매칭이 목적입니다.</p><h3>주요 포인트</h3><ul><li>400MW 규모 신규 태양광 PPA 확보</li><li>데이터센터 24/7 청정전력 매칭</li><li>텍사스 ERCOT 그리드 청정 전원 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-signs-400-mw-renewable-energy-purchase-deals-from-new-texas-solar-projects/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-signs-400-mw-renewable-energy-purchase-deals-from-new-texas-solar-projects" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 309,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'WASE, 폐기물 에너지화 기술 위해 1천만 달러 조달',
+      author: '관리자',
+      date: '2024.03.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>청정연료 기술 스타트업 WASE가 850만 파운드(약 1,070만 달러)를 조달했다고 발표했습니다. 폐기물에서 바이오메탄을 생산하는 혐기성 분해 기술 상용화를 추진합니다.</p><h3>주요 포인트</h3><ul><li>혐기성 분해 기반 바이오메탄 생산 기술</li><li>식음료·물처리 산업의 자원 회수 솔루션</li><li>1천만 달러 자본으로 사업 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/clean-fuel-startup-wase-raises-over-10-million-to-scale-waste-to-energy-solution/?utm_source=rss&utm_medium=rss&utm_campaign=clean-fuel-startup-wase-raises-over-10-million-to-scale-waste-to-energy-solution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 310,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'watttron, 지속가능 패키징 솔루션 위해 1,300만 달러 조달',
+      author: '관리자',
+      date: '2024.03.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지능형 가열 시스템 스타트업 watttron이 1,200만 유로(약 1,300만 달러)를 조달했다고 발표했습니다. 플라스틱 사용량을 30~40% 감축할 수 있는 정밀 가열 패키징 기술이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>패키징 플라스틱 사용량 최대 40% 절감</li><li>정밀 가열 기술의 산업 적용 확대</li><li>유럽 패키징 규제 강화에 부합</li></ul><p>원문: <a href="https://www.esgtoday.com/watttron-raises-13-million-for-sustainable-packaging-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=watttron-raises-13-million-for-sustainable-packaging-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 311,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: Scope 3 트렌드·도전·공시 인사이트',
+      author: '관리자',
+      date: '2024.03.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>복잡한 Scope 3 배출 관리에 어려움을 겪는 실무자를 위한 GreenBiz 웨비나로, 트렌드·핵심 도전 과제·공시 동향을 종합적으로 다룹니다. 가치사슬 전반의 간접 배출 관리가 주제입니다.</p><h3>주요 포인트</h3><ul><li>Scope 3 관리 핵심 도전 과제 정리</li><li>공시 흐름과 데이터 품질 개선 방안</li><li>실무자 사례 중심 인사이트</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/trends-challenges-disclosures-scope-3-readiness-insights" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 312,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 2024 자발적 탄소시장 기회와 책임',
+      author: '관리자',
+      date: '2024.03.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2024년 자발적 탄소시장(VCM)의 변화와 기업의 대응 방향을 다룬 GreenBiz 웨비나입니다. CORSIA 시한, 신규 탄소 국경세, 6.2조 모멘텀, VCMI Scope 3 클레임, ISO 표준 등 주요 변화가 포함됩니다.</p><h3>주요 포인트</h3><ul><li>2024 VCM 핵심 변화 종합 정리</li><li>CORSIA·CBAM 등 정책 시한 점검</li><li>VCMI·ISO 표준의 시장 영향</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/how-corporates-should-navigate-opportunities-and-liability-vcm-2024" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 313,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 생성형 AI의 ESG 활용 사례',
+      author: '관리자',
+      date: '2024.03.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>생성형 AI가 지속가능성·ESG 영역에 가져올 약속(더 나은 답변·시간 절약·매출 견인)을 실제 사례 기반으로 검증하는 GreenBiz 웨비나입니다.</p><h3>주요 포인트</h3><ul><li>생성형 AI의 ESG 실무 활용 사례 공유</li><li>보고서 작성·데이터 분석 자동화 현황</li><li>도입 시 고려사항·리스크 점검</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/concept-reality-real-life-sustainability-and-esg-case-studies-realizing-promise-generative" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 314,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'AT&T, Occidental 자회사 1PointFive와 탄소제거 계약 체결',
+      author: '관리자',
+      date: '2024.03.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Occidental(Oxy)의 직접공기포집(DAC) 자회사 1PointFive가 AT&T와 탄소제거 계약을 체결했다고 발표했습니다. 통신 산업의 영구 탄소제거 활용 사례로 주목됩니다.</p><h3>주요 포인트</h3><ul><li>통신 산업의 영구 탄소제거 수요 가시화</li><li>대규모 DAC 시설의 첫 상업 고객 사례</li><li>1PointFive의 상업 운영 본격화</li></ul><p>원문: <a href="https://www.esgtoday.com/att-signs-carbon-removal-agreement-with-1pointfive/?utm_source=rss&utm_medium=rss&utm_campaign=att-signs-carbon-removal-agreement-with-1pointfive" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 315,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Stonepeak, Ørsted 풍력 포트폴리오에 3억 달러 투자',
+      author: '관리자',
+      date: '2024.03.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대체투자운용사 Stonepeak이 글로벌 에너지 개발사 Ørsted로부터 3억 달러 규모의 풍력 포트폴리오 지분을 인수한다고 발표했습니다. 인프라 자본의 청정에너지 자산 편입 흐름이 지속됩니다.</p><h3>주요 포인트</h3><ul><li>인프라 펀드의 청정에너지 자산 인수 사례</li><li>Ørsted의 자본 회수 + 신규 사업 자금 확보</li><li>3억 달러 규모 거래로 시장 신뢰도 입증</li></ul><p>원문: <a href="https://www.esgtoday.com/stonepeak-acquires-300-million-stake-in-wind-energy-portfolio-from-orsted/?utm_source=rss&utm_medium=rss&utm_campaign=stonepeak-acquires-300-million-stake-in-wind-energy-portfolio-from-orsted" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 316,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Low Carbon, 신임 CEO에 Annabel Wiscarson 임명',
+      author: '관리자',
+      date: '2024.03.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 재생에너지 기업 Low Carbon이 Annabel Wiscarson을 신임 CEO로 임명했다고 발표했습니다. 유럽 재생에너지 개발 사업 확장을 위한 리더십 교체입니다.</p><h3>주요 포인트</h3><ul><li>Low Carbon의 글로벌 사업 확장 가속</li><li>풍부한 재생에너지·인프라 경력 보유</li><li>유럽 발 재생 사업 모멘텀 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/low-carbon-investment-management-appoints-annabel-wiscarson-as-new-ceo/?utm_source=rss&utm_medium=rss&utm_campaign=low-carbon-investment-management-appoints-annabel-wiscarson-as-new-ceo" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 317,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'BlackRock, Excelsior로부터 38개 프로젝트 태양광·ESS 포트폴리오 인수',
+      author: '관리자',
+      date: '2024.03.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>재생에너지 인프라 투자사 Excelsior Energy Capital이 BlackRock에 38개 프로젝트로 구성된 태양광·저장장치 포트폴리오를 매각한다고 발표했습니다. 인프라 펀드의 청정에너지 자산 활성 거래 사례입니다.</p><h3>주요 포인트</h3><ul><li>다중 자산 청정에너지 포트폴리오 거래</li><li>BlackRock 인프라 펀드의 자산 확장</li><li>태양광·ESS 통합 자산의 가치 재평가</li></ul><p>원문: <a href="https://www.esgtoday.com/blackrock-acquires-38-project-solar-and-storage-portfolio-from-excelsior-energy-capital/?utm_source=rss&utm_medium=rss&utm_campaign=blackrock-acquires-38-project-solar-and-storage-portfolio-from-excelsior-energy-capital" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 318,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이번 주 기후 정책 6대 업데이트',
+      author: '관리자',
+      date: '2024.03.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 하원이 원자력 진흥 법안을 통과시켰고, SEC가 기후공시 규정에서 Scope 3 보고 요건을 제외할 계획이라는 등 이번 주 주목할 6가지 기후 정책 동향이 정리됐습니다.</p><h3>주요 포인트</h3><ul><li>美 하원 원자력 법안 통과</li><li>SEC, Scope 3 보고 요건 제외 추진</li><li>주별·연방 차원 정책 흐름 종합</li></ul><p>원문: <a href="https://www.greenbiz.com/article/week-climate-policy-6-updates-you-need-know" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 319,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기업 지속가능성 업스킬링 전략 수립을 위한 5단계',
+      author: '관리자',
+      date: '2024.02.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기업의 지속가능성 교육 전략 수립을 위한 5가지 실행 단계를 제시한 GreenBiz 칼럼입니다. 기업 우선순위, 예산, 자원에 맞춘 맞춤형 접근법이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>기업 맞춤형 ESG 교육 전략 수립 5단계</li><li>역량 격차 진단·우선순위 도출 방법</li><li>실행 가능한 단계별 액션 플랜</li></ul><p>원문: <a href="https://www.greenbiz.com/article/5-steps-create-sustainability-upskilling-strategy-your-company" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 320,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '美 바이오경제 9,500억 달러…연방 정책의 견인 효과',
+      author: '관리자',
+      date: '2024.02.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 바이오경제가 9,500억 달러 규모로 성장했으며 연방 정책이 핵심 동력 역할을 했다는 분석입니다. 바이오 기반 산업의 탈탄소 전환이 다음 과제로 떠오릅니다.</p><h3>주요 포인트</h3><ul><li>美 바이오경제 9,500억 달러 규모 도달</li><li>핵심 연방 정책의 산업 견인 효과</li><li>바이오 산업의 탈탄소화 다음 단계</li></ul><p>원문: <a href="https://www.greenbiz.com/article/us-bioeconomy-worth-950-billion-and-growing-thanks-these-federal-policies" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 321,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'BlackRock·JPM·State Street, 기후 행동 의지 어떻게 보일까',
+      author: '관리자',
+      date: '2024.02.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 대형 자산운용사들이 청정에너지 전환에 대한 기업의 행동을 견인할 책임이 있다는 칼럼입니다. 의결권 행사를 통한 기후 의지 표현이 한 가지 방법으로 제시됩니다.</p><h3>주요 포인트</h3><ul><li>대형 운용사의 의결권 영향력 활용 가능성</li><li>기후 친화적 프록시 보팅 확대 필요</li><li>주주 행동주의의 시장 영향력</li></ul><p>원문: <a href="https://www.greenbiz.com/article/how-blackrock-jpmorgan-and-state-street-can-show-theyre-committed-climate-action" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 322,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 다각화된 탄소제거 포트폴리오로 기후행동 가속',
+      author: '관리자',
+      date: '2024.02.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>CSO와 임원진이 예산 최적화·리스크 완화 속에서 넷제로 전략을 수립하는 데 다각화된 탄소제거 포트폴리오 활용 방안을 다룬 GreenBiz 웨비나입니다.</p><h3>주요 포인트</h3><ul><li>CSO 시각의 탄소제거 포트폴리오 설계</li><li>예산·리스크 균형 잡힌 접근법</li><li>다각화 전략의 구체적 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/accelerating-climate-action-diversified-carbon-removal-portfolios" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 323,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '신임 CSO의 첫 90일에 해야 할 일',
+      author: '관리자',
+      date: '2024.02.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Apollo·James Hardie·Insulet 3개 기업의 CSO들이 신임 CSO에게 추천하는 첫 90일 액션 플랜을 공유한 GreenBiz 칼럼입니다. 피해야 할 함정도 함께 다룹니다.</p><h3>주요 포인트</h3><ul><li>실무 CSO들의 첫 90일 베스트 프랙티스</li><li>이해관계자 매핑·우선순위 도출</li><li>CSO 역할의 핵심 함정 회피 가이드</li></ul><p>원문: <a href="https://www.greenbiz.com/article/what-do-first-90-days-chief-sustainability-officer" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 324,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'PepsiCo·ADM, 농가와 협력해 농업 배출 감축',
+      author: '관리자',
+      date: '2024.02.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>PepsiCo와 ADM이 농가와 협력해 재생농업을 확산함으로써 농업 부문 배출을 줄이고 있다는 사례 분석입니다. 농가가 경제적 가치를 인식할 때 재생농업이 성공할 수 있다는 결론입니다.</p><h3>주요 포인트</h3><ul><li>대형 식품·곡물 기업의 재생농업 견인</li><li>농가 경제 인센티브의 중요성</li><li>식품 산업 Scope 3 감축 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/article/how-pepsico-and-adm-work-farmers-cut-agricultural-emissions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 325,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이번 주 기후 정책 5대 업데이트',
+      author: '관리자',
+      date: '2024.02.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>시카고가 ExxonMobil을 상대로 소송을 제기했고, 유럽 임원들은 새로운 산업 딜을 요구했으며, 상원은 수질 미세플라스틱 검증을 추진하는 등 이번 주 주요 기후 정책 5건이 정리됐습니다.</p><h3>주요 포인트</h3><ul><li>시카고시의 ExxonMobil 기후 책임 소송</li><li>유럽 산업 정책의 재정비 요구</li><li>美 상원 미세플라스틱 의제화</li></ul><p>원문: <a href="https://www.greenbiz.com/article/5-climate-policy-updates-you-need-know-week" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 326,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '승수 효과: 효과적 파트너십을 위한 5가지 팁',
+      author: '관리자',
+      date: '2024.02.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 임팩트를 확장하기 위해 조직 간 협력의 중요성을 강조한 GreenBiz 칼럼입니다. 공동 목표를 향한 파트너십 구축의 5가지 팁을 제시합니다.</p><h3>주요 포인트</h3><ul><li>조직 간 파트너십을 통한 임팩트 확장</li><li>효과적 협력의 5가지 핵심 요소</li><li>스케일업의 승수 효과 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/article/multiplier-effect-5-tips-create-effective-partnerships" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 327,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '그린허싱 멈추려면 지속가능성을 전략적 성장 결정으로',
+      author: '관리자',
+      date: '2024.02.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 늘어난 '그린허싱'(친환경 활동을 의도적으로 숨기는 행위)을 멈추려면 지속가능성을 전략적 성장 결정으로 자리매김해야 한다는 분석입니다. 목적의식의 역할도 강조됩니다.</p><h3>주요 포인트</h3><ul><li>그린허싱 현상의 원인과 해법 진단</li><li>지속가능성 = 성장 전략의 통합 필요성</li><li>목적 기반 커뮤니케이션의 가치</li></ul><p>원문: <a href="https://www.greenbiz.com/article/want-stop-greenhushing-make-sustainability-strategic-growth-decision" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 328,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Comcast, 10억 달러 그린본드 발행에서 얻은 교훈',
+      author: '관리자',
+      date: '2024.02.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2023년 글로벌 지속가능성 채권 시장이 9,400억 달러에 근접한 가운데, Comcast가 10억 달러 규모 그린본드를 발행하며 얻은 교훈을 정리한 GreenBiz 분석입니다. 2024년에도 시장 확장이 예상됩니다.</p><h3>주요 포인트</h3><ul><li>지속가능성 채권 시장 9,400억 달러 규모로 성장</li><li>Comcast 그린본드 발행 사례·교훈 공유</li><li>2024년 추가 성장 전망</li></ul><p>원문: <a href="https://www.greenbiz.com/article/what-comcast-learned-issuing-its-1-billion-green-bond" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 329,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EPA, 공급망에서 제외 추진하는 신규 \'영구 화학물질\' 9종 발표',
+      author: '관리자',
+      date: '2024.02.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>美 환경보호청(EPA)이 공급망에서 사용 중단을 추진하는 PFAS '영구 화학물질' 9종을 신규로 지정해 발표했습니다. 제조·화학 산업이 새로운 사업 환경에 대응하기 시작했습니다.</p><h3>주요 포인트</h3><ul><li>PFAS 규제 대상 9종 추가 지정</li><li>제조·화학 공급망 변화 가속화</li><li>대체 소재·기술 시장 성장 모멘텀</li></ul><p>원문: <a href="https://www.greenbiz.com/article/epa-named-9-new-forever-chemicals-it-wants-out-supply-chains" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 330,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '美 유틸리티·기업, 그리드 탈탄소 가속도에 고전',
+      author: '관리자',
+      date: '2024.02.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전력 수요 폭증 속에서 미국 유틸리티와 기업이 그리드 탈탄소를 어떻게 가속할지 새로운 PPA·인증 메커니즘을 모색하고 있다는 분석입니다. 24/7 청정전력 매칭이 핵심 주제입니다.</p><h3>주요 포인트</h3><ul><li>전력 수요 급증 속 그리드 탈탄소 압박</li><li>24/7 청정전력 매칭 메커니즘 진화</li><li>유틸리티-기업 협력 모델 혁신</li></ul><p>원문: <a href="https://www.greenbiz.com/article/pace-growth-breaking-us-utilities-corporations-grapple-grid-decarbonization" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 331,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'HSBC·구글, 10억 달러 기후테크 금융 공동 배포',
+      author: '관리자',
+      date: '2024.02.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>HSBC와 구글이 손잡고 10억 달러 규모의 기후테크 금융 프로그램을 시작한다고 발표했습니다. 글로벌 기업의 탈탄소 솔루션 도입을 가속화하는 것이 목표입니다.</p><h3>주요 포인트</h3><ul><li>10억 달러 규모 기후테크 금융 협력</li><li>은행·빅테크의 결합 자본 동원</li><li>탈탄소 솔루션 보급 가속화</li></ul><p>원문: <a href="https://www.greenbiz.com/article/hsbc-google-team-deploy-1-billion-climate-tech-financing" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 332,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'SEC 기후 규정 중요할까…투자자는 여전히 공시 요구',
+      author: '관리자',
+      date: '2024.02.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 보고에 대한 정치적 공격에도 불구하고 투자자들은 일관된 비교 가능한 지속가능성 정보를 계속 요구하고 있습니다. SEC 기후 규정의 향배보다 시장 자체의 수요가 결정적이라는 분석입니다.</p><h3>주요 포인트</h3><ul><li>정치적 공세에도 투자자 ESG 공시 수요 견조</li><li>시장 동력의 SEC 의존도 약화</li><li>일관성·비교가능성에 대한 시장 압력</li></ul><p>원문: <a href="https://www.greenbiz.com/article/does-sec-climate-rule-really-matter-investors-will-still-demand-disclosure" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 333,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 2024 지속가능성 보고에서 빠진 핵심 영역',
+      author: '관리자',
+      date: '2024.02.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GHG 배출 보고가 지배해온 지속가능성 공시 환경이 변화하고 있다는 분석을 다룬 GreenBiz 웨비나입니다. 규제·투자자가 ESG 이슈의 통합적 성격을 인식하면서 새로운 보고 영역이 떠오릅니다.</p><h3>주요 포인트</h3><ul><li>GHG 외 보고 영역 확장 흐름</li><li>물·생물다양성·인권 등 통합 공시</li><li>2024 보고 우선순위 가이드</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/whats-missing-your-sustainability-reporting-focus-areas-2024" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 334,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Delta·Prologis·PepsiCo, 사내 지속가능성 동의 확보 노하우',
+      author: '관리자',
+      date: '2024.02.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대형 기업이 내부적으로 지속가능성 이니셔티브에 대한 동의를 확보하는 방법을 Delta·Prologis·PepsiCo 사례로 정리한 GreenBiz 칼럼입니다. 고객 가치 강조가 핵심 전략입니다.</p><h3>주요 포인트</h3><ul><li>내부 동의 확보의 가장 효과적인 메시지</li><li>고객 가치 중심 환경 이니셔티브</li><li>실무자가 활용 가능한 사례 노하우</li></ul><p>원문: <a href="https://www.greenbiz.com/article/delta-prologis-and-pepsico-art-winning-corporate-buy-sustainability" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 335,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 변화에 대해 언제 웃을까: 코미디언이 말하는 지속가능성',
+      author: '관리자',
+      date: '2024.02.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>코미디언 Stuart Goldsmith가 스탠드업 코미디가 기후 위기 완화 활동가들에게 제공할 수 있는 전략을 다룬 GreenBiz 칼럼입니다. 유머가 지속가능성 커뮤니케이션에 미치는 영향을 다룹니다.</p><h3>주요 포인트</h3><ul><li>지속가능성 커뮤니케이션의 유머 활용</li><li>스탠드업이 주는 인사이트</li><li>심리적 회복력과 메시지 전달</li></ul><p>원문: <a href="https://www.greenbiz.com/article/when-laugh-about-climate-change" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 336,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 약속과 운영 현실 격차 좁히는 지속가능 가치 창출',
+      author: '관리자',
+      date: '2024.02.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기업 지속가능성이 핵심 우선순위로 부상했지만 많은 기업이 약속에서 가치를 도출하지 못하고 있다는 진단을 다룬 GreenBiz 웨비나입니다. Robert Eccles 교수와 Alison Taylor의 신규 연구를 바탕으로 합니다.</p><h3>주요 포인트</h3><ul><li>지속가능성 약속 ↔ 운영 격차 진단</li><li>가치 창출형 ESG 통합 모델</li><li>학계·실무 융합 연구 결과 공유</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/sustainable-value-creation-closing-gap-between-commitments-and-operational-realities" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 337,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'BloombergNEF: 2023 청정에너지 투자 1.8조 달러…여전히 부족',
+      author: '관리자',
+      date: '2024.02.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2023년 글로벌 청정에너지 투자가 17% 증가해 1조 8천억 달러에 달했지만 여전히 넷제로 경로에는 미치지 못한다는 BloombergNEF 보고서가 발표됐습니다. 자본 흐름의 가속이 필요합니다.</p><h3>주요 포인트</h3><ul><li>2023 청정에너지 투자 1.8조 달러로 17% 성장</li><li>넷제로 경로 대비 여전히 부족</li><li>지역·기술별 자본 격차 가시화</li></ul><p>원문: <a href="https://www.esgtoday.com/clean-energy-investment-surges-to-1-8-trillion-in-2023-but-still-not-on-track-for-net-zero-bloombergnef/?utm_source=rss&utm_medium=rss&utm_campaign=clean-energy-investment-surges-to-1-8-trillion-in-2023-but-still-not-on-track-for-net-zero-bloombergnef" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 338,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Generate Capital, 지속가능 인프라 투자 위해 15억 달러 조달',
+      author: '관리자',
+      date: '2024.02.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능 인프라 개발사 Generate Capital이 15억 달러를 조달했다고 발표했습니다. 분산형 청정에너지·물·교통·폐기물 인프라에 투자하는 통합 플랫폼 모델이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>15억 달러 자본으로 인프라 사업 가속</li><li>다영역 청정 인프라 통합 플랫폼</li><li>중간 규모 자산의 자본 매칭</li></ul><p>원문: <a href="https://www.esgtoday.com/generate-capital-raises-1-5-billion-for-sustainable-infrastructure-investments/?utm_source=rss&utm_medium=rss&utm_campaign=generate-capital-raises-1-5-billion-for-sustainable-infrastructure-investments" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 339,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Allianz, 넷제로 전환 진척 추적 대시보드 출시',
+      author: '관리자',
+      date: '2024.01.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 보험·투자 그룹 Allianz가 'SAMEpath'라는 넷제로 전환 추적·요건 관리 도구를 출시했습니다. 산업·기업별 넷제로 경로의 가시성을 높이는 것이 목적입니다.</p><h3>주요 포인트</h3><ul><li>산업·기업 단위 넷제로 진척 추적</li><li>보험사의 자체 포트폴리오 관리 도구</li><li>피보험자 전환 인게이지먼트 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/allianz-launches-dashboard-tracking-net-zero-transition-progress-and-requirements/?utm_source=rss&utm_medium=rss&utm_campaign=allianz-launches-dashboard-tracking-net-zero-transition-progress-and-requirements" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 340,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Crux, 청정에너지 세제 혜택 플랫폼 위해 1,800만 달러 조달',
+      author: '관리자',
+      date: '2024.01.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능 핀테크 스타트업 Crux가 시리즈 A에서 1,820만 달러를 조달했다고 발표했습니다. IRA에 따라 양도 가능한 청정에너지 세액공제 거래 플랫폼이 핵심 사업입니다.</p><h3>주요 포인트</h3><ul><li>IRA 양도형 세액공제 거래 시장 형성</li><li>플랫폼 기반 매수자·매도자 매칭</li><li>1,800만 달러 자본으로 시장 점유율 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/sustainable-fintech-startup-crux-raises-18-million-for-clean-energy-tax-credit-platform/?utm_source=rss&utm_medium=rss&utm_campaign=sustainable-fintech-startup-crux-raises-18-million-for-clean-energy-tax-credit-platform" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 341,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Diligent·Manifest Climate, AI 기반 기후 리스크 관리 솔루션 협력',
+      author: '관리자',
+      date: '2024.01.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>거버넌스·리스크·컴플라이언스(GRC) SaaS 기업 Diligent와 Manifest Climate이 AI 기반 기후 리스크 관리 솔루션 공동 제공을 위한 파트너십을 발표했습니다.</p><h3>주요 포인트</h3><ul><li>GRC + AI 기후 리스크 솔루션 결합</li><li>이사회용 통합 보고·분석 도구</li><li>대형 기업 거버넌스 시장 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/diligent-manifest-climate-partner-to-offer-ai-driven-climate-risk-management-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=diligent-manifest-climate-partner-to-offer-ai-driven-climate-risk-management-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 342,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존, Engie와 473MW 해상풍력 PPA 체결',
+      author: '관리자',
+      date: '2024.01.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전력회사 Engie가 아마존과 473MW 규모 해상풍력 기업 PPA(CPPA)를 체결했다고 발표했습니다. 빅테크의 데이터센터 청정전력 확보 사례 가운데 해상풍력의 비중이 점차 늘고 있습니다.</p><h3>주요 포인트</h3><ul><li>473MW 해상풍력 CPPA로 청정전력 확보</li><li>빅테크의 해상풍력 PPA 비중 확대</li><li>유럽 해상풍력 시장 모멘텀 유지</li></ul><p>원문: <a href="https://www.esgtoday.com/amazon-signs-purchase-agreement-for-473-mw-of-offshore-wind-energy-with-engie/?utm_source=rss&utm_medium=rss&utm_campaign=amazon-signs-purchase-agreement-for-473-mw-of-offshore-wind-energy-with-engie" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 343,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'GreenBiz 웨비나: 산림·기후·자연 통합 기업 목표 설정',
+      author: '관리자',
+      date: '2024.01.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>1.5도·30 by 30 목표 달성을 위해 기업이 공급망 전반에서 행동을 가속해야 한다는 GreenBiz 웨비나입니다. 산림·기후·자연의 다양한 목표 설정·회계·공시 이니셔티브를 정리합니다.</p><h3>주요 포인트</h3><ul><li>산림·기후·자연 통합 목표 설정 가이드</li><li>SBTi-FLAG·SBTN 비교 정리</li><li>실무자 친화적 사례 콘텐츠</li></ul><p>원문: <a href="https://www.greenbiz.com/webcast/aligning-corporate-targets-forests-climate-and-nature" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 344,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '글로벌 의류 붐, 기후의 위협',
+      author: '관리자',
+      date: '2024.01.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 의류 산업의 빠른 성장이 환경에 미치는 영향을 다룬 GreenBiz 분석입니다. 산업의 파괴적 환경 영향을 어떻게 줄일지에 대한 진단·해법을 다룹니다.</p><h3>주요 포인트</h3><ul><li>의류 산업의 환경 발자국 정량화</li><li>섬유 재활용·생산 공정 혁신 필요성</li><li>소비자·산업 양방향 변화 압력</li></ul><p>원문: <a href="https://www.greenbiz.com/article/worlds-clothing-boom-climate-changer" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 345,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '올해는 넷제로를 추구하지 마라: 역설의 메시지',
+      author: '관리자',
+      date: '2024.01.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화에 진정한 영향을 끼치고 싶다면 단기적 넷제로 달성에만 매달리지 말라는 역설적 메시지를 담은 GreenBiz 칼럼입니다. 실질 감축 우선 전략을 강조합니다.</p><h3>주요 포인트</h3><ul><li>넷제로 라벨보다 실질 감축 우선</li><li>장기 전환 전략의 중요성</li><li>과대광고된 목표의 함정 경계</li></ul><p>원문: <a href="https://www.greenbiz.com/article/why-you-shouldnt-go-net-zero-year" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 346,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '지속가능성 소셜미디어 인플루언서의 효과적 커뮤니케이션 3가지',
+      author: '관리자',
+      date: '2024.01.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>틱톡·인스타그램·유튜브 등에서 대규모 팔로워 대상 지속가능성 콘텐츠를 만드는 인플루언서들의 효과적 커뮤니케이션 전략 3가지를 GreenBiz가 정리했습니다.</p><h3>주요 포인트</h3><ul><li>지속가능성 인플루언서의 영향력 확대</li><li>효과적 콘텐츠의 3가지 핵심 요소</li><li>다양한 플랫폼별 커뮤니케이션 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/article/3-effective-ways-social-media-influencers-communicate-about-sustainability" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 347,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '조직에 지속가능성을 내재화하는 4가지 핵심 단계',
+      author: '관리자',
+      date: '2024.01.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 전략을 회사 전체에 통합하면 ESG 목표 달성을 가속화할 수 있다는 GreenBiz 칼럼입니다. 조직 내재화를 위한 4가지 핵심 단계를 제시합니다.</p><h3>주요 포인트</h3><ul><li>지속가능성 내재화 4단계 액션 플랜</li><li>전사적 통합의 효과·사례</li><li>실행 가능한 단계별 가이드</li></ul><p>원문: <a href="https://www.greenbiz.com/article/4-critical-steps-embed-sustainability-your-organization" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 348,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '애팔래치아 제조사, 청정에너지 경제 진입 위한 그랜트 모집',
+      author: '관리자',
+      date: '2024.01.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>애팔래치아 지역 협력 단체가 1,000개 이상의 중소·중견 제조사를 청정에너지 산업 공급망에 참여시키기 위한 그랜트를 운영합니다. 지역 산업 전환의 모범 사례입니다.</p><h3>주요 포인트</h3><ul><li>지역 제조 생태계의 청정에너지 전환 지원</li><li>1,000+ 중소 제조사 대상 자금 매칭</li><li>지역 일자리·산업 다각화 효과</li></ul><p>원문: <a href="https://www.greenbiz.com/article/grant-seeks-recruit-appalachian-manufacturers-clean-energy-economy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 349,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '보험사, 탄소 크레딧 신뢰 회복 위한 신상품 출시',
+      author: '관리자',
+      date: '2024.01.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탄소 시장 신뢰가 흔들리는 가운데 Cloverly 등 보험사가 사기·무효화 발생 시 매수자에게 보상하는 보험형 탄소 크레딧을 출시하고 있습니다. 시장 신뢰 회복의 시도입니다.</p><h3>주요 포인트</h3><ul><li>보험형 탄소 크레딧 등장으로 매수자 보호</li><li>VCM 신뢰성 회복 메커니즘 진화</li><li>금융·보험 결합 솔루션 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/article/insurers-hope-new-policies-covering-carbon-credits-will-restore-trust-battered-market" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 350,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'General Mills 재생농업 약속 5년…진척은?',
+      author: '관리자',
+      date: '2024.01.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>General Mills가 2030년까지 100만 에이커에서 재생농업을 추진하겠다는 약속을 한 지 5년이 지나, 그 진척과 성과를 평가한 GreenBiz 분석입니다. 시스템 변화 사례로 주목됩니다.</p><h3>주요 포인트</h3><ul><li>대형 식품기업 재생농업 5년차 진척 평가</li><li>100만 에이커 목표 달성 진행률</li><li>식품 산업 시스템 변화 사례</li></ul><p>원문: <a href="https://www.greenbiz.com/article/5-years-how-does-general-mills-regenerative-agriculture-commitment-measure" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 351,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Macquarie, Enel 그리스 재생에너지 사업 50% 지분 인수',
+      author: '관리자',
+      date: '2024.01.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>호주 자산운용사 Macquarie Asset Management가 Enel Green Power 그리스 사업의 50% 지분을 2억 5천만 유로에 인수한다고 발표했습니다. 남유럽 재생에너지 시장의 자본 활성화를 보여주는 거래입니다.</p><h3>주요 포인트</h3><ul><li>Enel의 자본 회수 + Macquarie의 자산 확보</li><li>그리스 재생에너지 시장 모멘텀</li><li>Macquarie의 유럽 청정에너지 자산 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/macquarie-acquires-50-stake-in-enels-greek-renewables-unit-for-e250-million/?utm_source=rss&utm_medium=rss&utm_campaign=macquarie-acquires-50-stake-in-enels-greek-renewables-unit-for-e250-million" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 352,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'TotalEnergies, Adani Green과 인도 재생에너지에 3억 달러 투자',
+      author: '관리자',
+      date: '2024.01.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인도 재생에너지 개발사 Adani Green Energy(AGEL)가 TotalEnergies로부터 3억 달러 규모의 합작 투자를 받았다고 발표했습니다. 글로벌 자본의 인도 청정에너지 시장 진출 흐름이 강화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>인도 재생에너지 시장의 외자 유치</li><li>TotalEnergies-Adani 합작 모델 확장</li><li>3억 달러로 신규 사업 자금화</li></ul><p>원문: <a href="https://www.esgtoday.com/totalenergies-invests-300-million-in-india-focused-renewables-jv-with-adani-green-energy/?utm_source=rss&utm_medium=rss&utm_campaign=totalenergies-invests-300-million-in-india-focused-renewables-jv-with-adani-green-energy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 163,
       pinned: false,
       category: 'news', categoryName: '소식',
