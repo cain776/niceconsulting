@@ -10,6 +10,902 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 353,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '동아ST, 글로벌 ESG 평가 에코바디스 골드 등급 획득',
+      author: '관리자',
+      date: '2025.12.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>동아ST가 글로벌 ESG 평가기관 에코바디스(EcoVadis)로부터 골드(Gold) 등급을 획득했다고 발표했습니다. 글로벌 평가 상위권에 진입하며 의약품 산업 내 지속가능성 우수기업으로 인정받은 사례입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 평가에서 골드 등급(상위 5%) 획득</li><li>제약 공급망의 지속가능 경영 인증</li><li>글로벌 파트너십·공급계약 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zbXQ5c3I0RWFTSU4wYzhwYjEtTWFEa0VYRDhGMXNpeVRJSElpSWRiVzlwRm1GTmIwNmY1cVlJOWgxMTJrdjhWekJLZW1LSnp5aGM3b0ZkUTZUUdIBVEFVX3lxTE5iMkllcDRCMVItd3UzeTNYdnB4LUhLdkFRRUF4a3h4YXByOExuZ0VCeURuTmc1eTZGSUV3bTVLa1AxOThMQ3pTNmNfZzU4dC1KVXNGaA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 354,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[ESG 칼럼] 에코바디스, 중소기업의 \'신뢰 여권\'이 되다',
+      author: '관리자',
+      date: '2025.12.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망의 새로운 질서 속에서 에코바디스 평가가 중소기업에게 '신뢰의 여권' 역할을 하고 있다는 칼럼입니다. 글로벌 발주처 입찰·계약에서 ESG 인증이 사실상 진입 조건이 되어가고 있습니다.</p><h3>주요 포인트</h3><ul><li>글로벌 발주처의 ESG 평가 요구 일반화</li><li>중소기업 수출 경쟁력의 핵심 자산화</li><li>인증 → 계약·금융까지 이어지는 효과</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMczg1dWtZaXNUQkVGOE5TSUE4ak5McVJnbnN3Vm1McTVVOWZyME5ELURKQVpZYy1reE5UdmlBTkpoSXc2b2pfMENrU0I1MkNJR2tBQkFTN0RoRFdhQ2xj?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 355,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'DH오토리드, 에코바디스 골드메달 획득…글로벌 상위 5%',
+      author: '관리자',
+      date: '2025.12.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>자동차 부품 기업 DH오토리드가 에코바디스 평가에서 골드메달을 획득해 글로벌 상위 5%에 진입했다고 발표했습니다. 자동차 산업 공급망 ESG 요구가 점점 강화되는 흐름에서 의미 있는 성과입니다.</p><h3>주요 포인트</h3><ul><li>골드메달로 글로벌 상위 5% ESG 경쟁력 입증</li><li>완성차 OEM 협력사 경쟁력 강화</li><li>자동차 부품 공급망의 ESG 평가 확산</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBVT2hUc0N6V2FiVUEtMGNUcm56dnpFTjNMNUVpZUdBcnhDN0sxSUxac0hQazFvY0d4eXF5N0JNM2xGOUVta1I1aXFqMVRtb1d5dU9LZXEyY3l6eGFNOHZsUEpmLXJvQ1NRNlE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 356,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 인사이트: 탄소가 새로운 경쟁의 차원으로 부상',
+      author: '관리자',
+      date: '2025.12.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스 분석에 따르면 글로벌 네트워크 기업 다수가 이제 막 탄소 관리에 착수했고 일부만이 본격적으로 확장 중입니다. 탄소 규제와 국경세가 다가오면서 지역별 저탄소 준비도가 새로운 경쟁력으로 떠오르고 있습니다.</p><h3>주요 포인트</h3><ul><li>탄소 관리가 비용 → 경쟁력으로 전환</li><li>지역별 저탄소 준비도 격차 확대</li><li>CBAM 등 국경세 시대 대비 시급</li></ul><p>원문: <a href="https://ecovadis.com/blog/carbon-emerges-as-a-competitive-dimension/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 357,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Nordex Group, 에코바디스 플래티넘 등급 달성',
+      author: '관리자',
+      date: '2025.12.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 풍력 터빈 제조사 Nordex Group이 뛰어난 지속가능성 성과로 에코바디스 플래티넘 등급(상위 1%)을 획득했다고 발표했습니다. 재생에너지 장비 산업의 ESG 모범 사례입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 최상위 플래티넘(상위 1%) 등급</li><li>풍력 산업 공급망의 지속가능 경영 인정</li><li>글로벌 발주 경쟁력 강화 효과</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQVWRLUldkQ2podEk5OUN1OFVPejlPQndDZ19zRnVCNzAyd0c2RmZKTEo1YzlrX3RBYTM0VmVncGZGNENRM2FGcjBTTGZEU2dCdFJqNzViM3k4cFBDZDVXajMyQ3dwX3Q2bGhCcEZWM2pyUFpVb0t4N2dFcEljSzQ2cGNkOGh4bDBNa3BEZEd5cWl4dDhZa0ZMUTRyWHJwVkZxYVNOWUhpY0JmM0xJa0pTTHREMGdaNGs0WGpUY0FfT1V1Yi10VDBwUnotWQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 358,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '피에이치에이, 에코바디스 ESG 평가서 2년 연속 플래티넘',
+      author: '관리자',
+      date: '2025.12.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>자동차 부품기업 피에이치에이(PHA)가 에코바디스 ESG 평가에서 2년 연속 최상위 플래티넘 등급을 획득했습니다. 한국 자동차 부품 업계의 글로벌 ESG 경쟁력 사례로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>2년 연속 플래티넘 유지로 일관성 입증</li><li>글로벌 자동차 OEM 협력 경쟁력 확보</li><li>한국 부품사의 ESG 모범 사례</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2OVVjVWxKTmFTM3oxSnNtMVFBbHJyOHJXT3EtT2xKTWp6ekZTU1NEN0JsaThGN2NtOTFpRzRtQlo5N2szTGhMQ0hYVVFEeVVnWUdRVjU2VlhLUdIBVEFVX3lxTE5MYkFCTmRKZjl6c1RJWW1LZ045WloxTzdPeHpJazlzQWcxcFJNcndoYTVqWU90V2ZOSXNPVkZYSUNaRHZoNEpyaXZBYzdnMzFMSzZRSg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 359,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '투자자 공급망 타깃화 속 에코바디스, 가장 유용한 ESG 평가로',
+      author: '관리자',
+      date: '2025.12.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>투자자들이 공급망 ESG에 점점 더 집중하면서 에코바디스 평가가 가장 유용한 ESG 데이터 소스로 부상했다는 분석입니다. New Private Markets의 데이터 스냅샷 기사입니다.</p><h3>주요 포인트</h3><ul><li>공급망 ESG에 대한 투자자 관심 급증</li><li>에코바디스 평가의 시장 표준 지위 강화</li><li>비공개 시장(PE)의 ESG 데이터 의존도 증가</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxOdDJrdnlvaXMyMVJMMTNiNk9wLXcwR054WUVIa3FscE1SWE9Nc3BJdnlnLXh2dWJTMnJrSEpiY25SUTJaeGJTUm9mMVQ0dnRiVlIwaUVjMkowZlhlaHVHLW9rTVUta0lFYjBvcllVSHNLa1hjeDFGdUlpb1hRT3BBdllLU2UzYUFoSUxJMnIwVkx2cGx5dERwcVVzRklQcDRYaXRuTkl0NmtNUU9lY01QMURZNnE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 360,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'EU, 옴니버스 협상 마무리…지속가능성 체계 대폭 재편',
+      author: '관리자',
+      date: '2025.12.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>브뤼셀이 마지막 트라이얼로그에서 옴니버스 협상을 마무리하며 EU 지속가능성 체계의 대대적 재편이 확정됐습니다. CSRD·CSDDD 적용 범위와 시기에 큰 변화가 예상됩니다.</p><h3>주요 포인트</h3><ul><li>EU 지속가능성 규제 체계의 본격 재편</li><li>적용 범위·시기 조정으로 기업 부담 변화</li><li>글로벌 공급망 ESG 요구의 새로운 균형점</li></ul><p>원문: <a href="https://ecovadis.com/blog/the-eu-closes-deal-on-omnibus/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 361,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '유한양행 자회사 유한화학, 에코바디스 플래티넘 메달 획득',
+      author: '관리자',
+      date: '2025.12.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유한양행 자회사 유한화학이 에코바디스 평가에서 플래티넘 메달을 획득했다고 발표했습니다. 화학·제약 산업의 한국 기업이 글로벌 최상위 ESG 평가에 도달한 사례로 주목됩니다.</p><h3>주요 포인트</h3><ul><li>플래티넘 메달로 글로벌 상위 1% 진입</li><li>제약·화학 분야 한국 기업 ESG 경쟁력</li><li>글로벌 고객사 공급계약 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE0wMkZxVGhiWldBdFFiUWVXNzFLQUtGMzZYQ3VVYWFkaElEVER6R0NRc2tuS3EyX2NXNGdwd1o2Wl9tc2NfUVZWdmJhX2FLc29ONVZOT0JNOEhqYzVsOTdNeUhkLWRfZWs0VFBESA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 362,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Nagarro, 에코바디스 비즈니스 지속가능성 골드메달 수상',
+      author: '관리자',
+      date: '2025.12.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 디지털 엔지니어링 기업 Nagarro가 에코바디스 평가에서 비즈니스 지속가능성 부문 골드메달을 받았다고 발표했습니다. IT 서비스 기업의 ESG 경쟁력 사례입니다.</p><h3>주요 포인트</h3><ul><li>IT 서비스 기업의 골드메달 획득 사례</li><li>디지털 산업의 지속가능 경영 확산</li><li>글로벌 고객사 ESG 요구 부합</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPaVN5eE9ER1E5OTF3dTNGNVRLQ0Ftc0dlQ0xYOWVYRVFMRDZLV2JMRW1yMXNBdDNaV1hKekZmUmtBclVmVWJOdTJHY09kMEJ1a2tmYXJQMTk3OWxIV0tNaGt4Y0s4bGYxWjFmemdjbXJTQ2ZnX2JQem9HY0NoVE45QWNNVzVsWng0NnRtZ1JtM1BsRndRTmpidGdiRndZUWo1NWdKZUFkaTVPUzZFLXQ3eEVoMjIyWEk3ZlVkX3MxZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 363,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ABB, 에코바디스 플래티넘 메달 수상…뛰어난 지속가능성 성과',
+      author: '관리자',
+      date: '2025.12.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>스위스 다국적 산업기술 기업 ABB가 에코바디스 평가에서 플래티넘 메달을 획득했다고 발표했습니다. 산업·전력 자동화 분야의 지속가능 경영 모범 사례로 인정받았습니다.</p><h3>주요 포인트</h3><ul><li>ABB 플래티넘 등급으로 상위 1% 진입</li><li>산업 자동화 분야 ESG 모범 평가</li><li>글로벌 인프라·제조 고객사 신뢰 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNWm1sRDNXNWt3SDR1WWFlMHVvZzhZSnA5UHlDbGNNSGRiWFZxTlV3bDZPMno4VzBTSHk5UU9xYmJacWk4YWpuZ2tZaWNCV0x6MVFmdG52UDR3VV9IZnNXV3dNZVlaWHpuOGFBdktDQTctY2tNS29id3lkMDJoaXpra1Z2U1FleXNaSS0yRFVZN3MxZ0xwSmpBcHFkX3RqVTIwSzJNSS1yT1FjXzdYc05FbGJvMEJ1emdObXJ6TA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 364,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Japan Elastomer 오이타 공장, 에코바디스 플래티넘 메달',
+      author: '관리자',
+      date: '2025.11.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아사히카세이 자회사 Japan Elastomer의 오이타 공장이 에코바디스 평가에서 플래티넘 메달을 받았다고 발표했습니다. 일본 화학 산업의 공장 단위 ESG 평가 모범 사례입니다.</p><h3>주요 포인트</h3><ul><li>공장 단위 플래티넘 평가 사례</li><li>일본 화학산업의 ESG 모범 평가</li><li>고무·엘라스토머 공급망 신뢰성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FbVd5YzZ1Ykp6bHJGcVRyMDRjRzhQdlhlQ1oxTUtHX1FVVmpZaXRhaXNmeXVvUzFqQWROdHpaRExwcklXSW5pN2c4eXVlanZTcTVxMU0za1p2ODJBTzR3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 365,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 인사이트: COP30 진행 중, 기업이 주목할 5가지',
+      author: '관리자',
+      date: '2025.11.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 브라질 벨렘에서 진행되는 COP30의 핵심 의제 5가지를 분석했습니다. 기후 금융, 생물다양성, 책임있는 AI 활용 등 이사회 회의실에서도 다뤄야 할 주제들입니다.</p><h3>주요 포인트</h3><ul><li>COP30 핵심 의제 5가지 정리</li><li>기후 금융·생물다양성·AI 책임</li><li>이사회 차원의 전략적 함의</li></ul><p>원문: <a href="https://ecovadis.com/blog/cop30-is-underway-5-things-businesses-need-to-watch/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 366,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 인사이트: 옴니버스 투표가 조달·공급망에 주는 의미',
+      author: '관리자',
+      date: '2025.11.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 옴니버스 투표 결과가 조달·공급망 리더에게 어떤 의미인지 분석한 에코바디스 칼럼입니다. 정치적 좌절을 전략적 기회로 전환하는 방법이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>규제 변화 속에서도 자발적 ESG 행동 필요성</li><li>조달·공급망 리더의 선제적 대응 전략</li><li>컴플라이언스에서 회복력으로의 전환</li></ul><p>원문: <a href="https://ecovadis.com/blog/what-the-omnibus-vote-means-for-procurement-and-supply-chain-leaders/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 367,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '다온시스, 에코바디스 플래티넘 획득…글로벌 ESG 최상위 기업으로',
+      author: '관리자',
+      date: '2025.11.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>IT 솔루션 기업 다온시스가 에코바디스 평가에서 플래티넘 등급을 획득해 글로벌 ESG 최상위 1%에 진입했다고 발표했습니다. 한국 IT 기업의 ESG 도약 사례입니다.</p><h3>주요 포인트</h3><ul><li>한국 IT 기업의 플래티넘 진입 사례</li><li>글로벌 상위 1% ESG 경쟁력 입증</li><li>공공·민간 발주 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KWHkyZU43Qkh6TlFSTFNoVk9haWZaUkhtSGd3RlVHZWpuYVhONVdsbUtmbzdyTUJMTkNqREtyMm1kWUJ6Q0djMjNQaUk1MThBODV4RWhPZnZiRnFGUm5ZQUhoQUxDb0xY?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 368,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 공급망 ESG 입법 흐름, 리스크·회복력 전략 재편',
+      author: '관리자',
+      date: '2025.11.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>캐나다 S-211, 캘리포니아 SB-253, EU 다중 규제 등 새로운 공급망 ESG 입법 흐름이 기업의 회복력 전략에 도전을 던지고 있다는 에코바디스 분석입니다.</p><h3>주요 포인트</h3><ul><li>다국적 공급망 ESG 입법 동시다발 진행</li><li>선제적 컴플라이언스가 회복력의 핵심</li><li>리스크 관리 프로세스의 전사 통합 필요</li></ul><p>원문: <a href="https://ecovadis.com/blog/wave-of-supply-chain-esg-laws-to-rethink-risk-and-resilience-strategy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 369,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'HS효성첨단소재, 에코바디스서 최상위 등급 유지',
+      author: '관리자',
+      date: '2025.11.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>HS효성첨단소재가 에코바디스 평가에서 최상위 등급을 유지했다고 발표했습니다. 첨단소재 산업의 한국 기업이 지속적으로 글로벌 ESG 우수 기업으로 인정받는 사례입니다.</p><h3>주요 포인트</h3><ul><li>최상위 등급 지속 유지로 일관성 입증</li><li>첨단소재 산업의 ESG 모범 사례</li><li>글로벌 공급망 신뢰성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE1vUTVaTXJ1ZjlNVlphZEtLNjd3ME02VW42S0o3NFc0YWlvMVV1QmJVTXM1a3hCMklacWZwTDljNE5HckZCUFE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 370,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, Amazon Business와 협력해 지속가능 셀러 지원',
+      author: '관리자',
+      date: '2025.11.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 Amazon Business와 새 파트너십을 맺어 지속가능성에 헌신하는 셀러를 구매자에게 부각시킬 수 있도록 지원합니다. 글로벌 B2B 마켓플레이스에서 ESG 인증의 가시성이 강화됩니다.</p><h3>주요 포인트</h3><ul><li>Amazon Business 내 ESG 셀러 차별화</li><li>구매자 검색·필터에 ESG 인증 노출</li><li>중소 셀러의 ESG 인증 가치 가시화</li></ul><p>원문: <a href="https://ecovadis.com/blog/stand-out-on-amazon-business-the-new-way-to-prove-your-commitment-to-sustainability/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 371,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 보고서: 美·캐나다 기업의 Scope 3 행동 준비도',
+      author: '관리자',
+      date: '2025.11.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 3,000개 기업 데이터를 분석해 미국·캐나다 기업의 Scope 3 감축 진척과 가치사슬 탈탄소 준비도를 평가한 보고서를 발표했습니다.</p><h3>주요 포인트</h3><ul><li>3,000개 기업 데이터 기반 정량 분석</li><li>북미 기업의 목표 설정·보고 진척</li><li>가치사슬 탈탄소 가속화 과제 도출</li></ul><p>원문: <a href="https://ecovadis.com/blog/scope-3-us-canada-suppliers-value-chain-decarbonization/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 372,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: EU 비즈니스 자연 정상회의 핵심 인사이트',
+      author: '관리자',
+      date: '2025.10.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>핀란드 헬싱키에서 열린 EU 비즈니스 자연 정상회의 2025의 메시지가 분명했습니다 — 자연 보존이 비즈니스 회복력의 근간이며, 그 쇠퇴는 모든 조직에 재무 리스크를 초래합니다.</p><h3>주요 포인트</h3><ul><li>자연자본 = 비즈니스 회복력의 핵심 자산</li><li>자연 쇠퇴의 재무적 리스크 정량화 흐름</li><li>TNFD·EU 자연복원법 등 정책 동력</li></ul><p>원문: <a href="https://ecovadis.com/blog/nature-takes-center-stage-key-insights-from-the-eu-business-nature-summit-2025/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 373,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: EUDR 동향…집행위, 연기 거부하나 단계적 적용 제안',
+      author: '관리자',
+      date: '2025.10.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 산림 파괴 규제(EUDR) 컴플라이언스가 단계적으로 도입될 가능성이 제기됐습니다. 집행위는 시행 연기는 거부했지만 단계적 적용과 유예 기간을 제안했습니다.</p><h3>주요 포인트</h3><ul><li>EUDR 본격 시행 vs 단계적 적용 절충안</li><li>대형·중소 기업별 적용 시점 차등 가능성</li><li>공급망 추적·문서화 요건 그대로 유지</li></ul><p>원문: <a href="https://ecovadis.com/blog/latest-on-eudr-compliance/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 374,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: EU 옴니버스 사가, 새로운 불확실성 국면 진입',
+      author: '관리자',
+      date: '2025.10.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 의회가 옴니버스 협상 입장에 대한 타협안을 거부하면서 EU 지속가능성 입법은 새로운 불확실성 국면에 진입했습니다. 대폭 완화 시나리오가 후퇴할 가능성도 있습니다.</p><h3>주요 포인트</h3><ul><li>EU 의회의 타협안 거부로 협상 장기화</li><li>대폭 완화 시나리오 후퇴 가능성</li><li>글로벌 기업의 정책 모니터링 강화 필요</li></ul><p>원문: <a href="https://ecovadis.com/blog/the-eus-omnibus-saga-enters-a-new-phase-of-uncertainty/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 375,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, SGS·QIMA와 공급망 지속가능성 감사 서비스 출시',
+      author: '관리자',
+      date: '2025.10.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 글로벌 인증기관 SGS, QIMA와 협력해 공급망 지속가능성 감사 신규 서비스를 출시한다고 발표했습니다. 평가 + 현장 감사를 결합한 통합 솔루션입니다.</p><h3>주요 포인트</h3><ul><li>평가 + 현장 감사 결합한 통합 서비스</li><li>SGS·QIMA의 글로벌 감사 네트워크 활용</li><li>공급망 ESG 검증의 신뢰성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmZHRS1YamhCRWNqUlJGaFBPZnJsNFVlcERJbWRXOHYzWDg5bThIZlJlakQzR3VMMUZ2d3lDa1hvSm8wQkR0d0dlYVhxQ09MNEtqM21MdjFMenIzZFRsV1VXazR0MUdPR180YXliaFZJdlB4XzF1cUEtUEM1XzZ0c0NULW93TXhDWW1sQkJmdk1wS2dPVU5VaVBoN2M1VWZKZV9ya2hFWEFvRUN1em43VjMtUGJSZC1R?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 376,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 컴플라이언스 너머, 근로자 목소리로 공급망 리스크 완화',
+      author: '관리자',
+      date: '2025.10.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>감사 가능한 고충 처리 메커니즘으로서의 '근로자 목소리(Worker Voice)' 활용법을 다룬 에코바디스 분석입니다. HRDD 분절화에 대비한 미래 대응 전략입니다.</p><h3>주요 포인트</h3><ul><li>Worker Voice를 활용한 공급망 인권 검증</li><li>HRDD(인권 실사) 분절화 대비 통합 접근</li><li>중요 공급망 리스크 사전 완화 효과</li></ul><p>원문: <a href="https://ecovadis.com/blog/beyond-compliance-leveraging-worker-voice-to-mitigate-supply-chain-risk/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 377,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 호주 기후공시 의무화, 알아야 할 3가지',
+      author: '관리자',
+      date: '2025.10.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>호주 기후 관련 재무 공시 의무화에 대해 알아야 할 3가지 핵심 사항을 정리한 에코바디스 분석입니다. 보고 대상에는 GHG 프로토콜 표준에 부합하는 15개 Scope 3 카테고리가 모두 포함됩니다.</p><h3>주요 포인트</h3><ul><li>호주 ISSB 호환 기후공시 의무화 임박</li><li>15개 Scope 3 카테고리 전부 보고 요구</li><li>호주 사업장 보유 다국적 기업 영향</li></ul><p>원문: <a href="https://ecovadis.com/blog/three-things-you-should-know-about-the-australian-climate-related-financial-disclosure/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 378,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Atos Group, 6년 연속 에코바디스 플래티넘 메달 획득',
+      author: '관리자',
+      date: '2025.10.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스 IT 서비스 기업 Atos Group이 에코바디스 평가에서 6년 연속 플래티넘 메달을 획득했다고 발표했습니다. 지속가능성에 대한 장기적 헌신이 인정받은 사례입니다.</p><h3>주요 포인트</h3><ul><li>6년 연속 플래티넘 유지로 일관성 입증</li><li>IT 서비스 기업 ESG 모범 사례</li><li>유럽 디지털 서비스 산업 지속가능 경영</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRzdQVU9XT3hXWktkbWtjMnNNdC1TbHlJN2MxYkxYOWp5TlhpWm5tN0NzTlB3elpFS0pua1A2MXhRQjgzUTlRUjJMV0lDTDFuM2VCTWZHY1AtZG1DYzhIM1Q5YkNIVzFDNnJQRS1RaEVCaXZvTzZGUHJ3MXhScVJZRWNnczVWa1A0ME10RUtMMlg1cUY4VW9Td1NoSGd4ZzFtajBURnNmR0l0eGlKU3N1M3pFRkItaGZ2RkYwXzh6dWxjVlhiVkRuZGZuSDcwVS1zTlg4WTh1SXlqbWZNbDlkZUh4RG00ZVpNVUpZ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 379,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 글로벌 공급망 인권 책무 강화 위한 \'Worker Voice Connect\' 출시',
+      author: '관리자',
+      date: '2025.10.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 글로벌 공급망에서 인권 책무성을 강화하기 위한 신규 솔루션 'Worker Voice Connect'를 출시했다고 발표했습니다. 근로자가 직접 의견을 제출하는 디지털 채널이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>근로자 직접 입력 기반 인권 검증 채널</li><li>HRDD 규제 대응 위한 디지털 솔루션</li><li>공급망 인권 리스크 가시화 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdEQwTTRkTlM2X2RrOUoxRC1Cb2NENjZqQkhyMnNGNmdXaWhyTG1SZ21YZE5SRGlEM0NaZWJEclFreG9fSW53T2JOX3RHUnoyd1BxSldQYWFlejdaSVNfRE9LU2tScktYVW94dFU3cS0xNUtxRU9VTUNWQXFWWmhEaUlPdzBGcHVrOGlsSXVvOGFReTctVGxNYjBLSldNRm8xZjFVYUxkWVpZX0prdVo3SHlUZkhiRFZadDFFbS1uMHR4c1Y5eHlOVUZFcUFmVGNKSTdyNUxHclctMWxMSUdqVkhhbTBKeFM2SjEyaHRGbkw3YTA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 380,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'AIKO, 지속가능성 우수성으로 에코바디스 실버 메달 수상',
+      author: '관리자',
+      date: '2025.10.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중국 태양광 셀 제조사 AIKO Solar가 지속가능성 우수성을 인정받아 에코바디스 실버 메달을 수상했다고 발표했습니다. 신재생에너지 부품 산업의 ESG 대응 사례입니다.</p><h3>주요 포인트</h3><ul><li>실버 메달로 글로벌 상위 25% ESG 진입</li><li>태양광 산업 공급망 ESG 인증 확산</li><li>중국 신재생 부품 기업의 글로벌 인증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rWmFpX3VDd2VhWS1ndUNfbWw4N0t0SjExak1zS2ZyckdtSEtldU1tRVBYU1p3VWlxaW5zaXNFSGF0NDJ1Q0ZkcmFDV3p3a2o5bDk1elh0QkRZVHJuTWl6YTZBeWR2QQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 381,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 지속가능성 향상에 맞춰 메달 인정 기준 상향',
+      author: '관리자',
+      date: '2025.10.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망 전반의 지속가능성 관행이 꾸준히 향상됨에 따라 에코바디스가 메달 인정 기준을 상향 조정합니다. 이는 동일 등급 유지에 더 높은 성과가 요구된다는 의미입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 성과 향상에 따른 기준 상향</li><li>메달 등급 유지 위한 추가 노력 필요</li><li>평가 신뢰성·차별성 강화 효과</li></ul><p>원문: <a href="https://ecovadis.com/blog/raising-the-bar-as-sustainability-performance-accelerates-we-re-adapting-our-benchmarks/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 382,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 인사이트: 지속가능 조달 ROI 측정 9가지 지표',
+      author: '관리자',
+      date: '2025.10.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>비즈니스 리더가 지속가능 조달 활동의 ROI를 입증할 수 있는 9가지 핵심 지표를 정리한 에코바디스 분석입니다. 비용 절감, 리스크 감소, 매출 성장 등 다각적 효과를 추적합니다.</p><h3>주요 포인트</h3><ul><li>지속가능 조달 ROI 9가지 지표 정리</li><li>비용·리스크·매출 다차원 효과 측정</li><li>경영진 보고용 실무 프레임워크</li></ul><p>원문: <a href="https://ecovadis.com/blog/unlocking-the-roi-of-sustainable-procurement-9-metrics-every-business-leader-should-track/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 383,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 옴니버스 패키지, EU 지속가능성 보고·실사 규제 현실 점검',
+      author: '관리자',
+      date: '2025.10.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 집행위가 발표한 옴니버스 단순화 패키지가 EU 규제 완화 흐름 속에서 어떤 의미를 갖는지 분석한 에코바디스 칼럼입니다. CSRD·CSDDD 적용 범위 변화를 점검합니다.</p><h3>주요 포인트</h3><ul><li>EU 옴니버스 패키지 핵심 내용 정리</li><li>CSRD·CSDDD 적용 범위 변화 분석</li><li>기업의 실용적 대응 방향 제시</li></ul><p>원문: <a href="https://ecovadis.com/blog/omnibus-package-a-reality-check-for-the-eu-sustainability-reporting-and-due-diligence-policies/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 384,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[ESG 칼럼] 글로벌 공급망 ESG 평가, 에코바디스 이해와 대응',
+      author: '관리자',
+      date: '2025.10.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망 ESG 평가 흐름 속에서 에코바디스를 어떻게 이해하고 대응할 것인지 다룬 칼럼입니다. 평가 체계, 등급 의미, 준비 절차 등을 한국 기업 시각에서 정리했습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 평가 4대 영역 구성</li><li>등급 체계와 글로벌 입지 관계</li><li>한국 기업의 단계별 대응 전략</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIYmVkTjBmTUN2cFNGRXd2ODlsRGtIUnk0UEJGSWl3cE9GRUlZNE5FOTRrM296b1FiQXk5THZISzVLNmFrQnNJT1lheWNqWTEzZzZMQ0RpcTkyVG44R2JNYWFzUnJRZVg2?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 385,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 지속가능 금융이 글로벌 파급효과를 일으킨다',
+      author: '관리자',
+      date: '2025.09.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>JP모건, 브리지스톤, ING, 로레알, 씨티가 지속가능성 평가와 금융을 결합한 혁신적 방식을 통해 새로운 글로벌 임팩트 시대를 열고 있다는 분석입니다.</p><h3>주요 포인트</h3><ul><li>SLB·SLL 등 ESG 연동 금융 확산</li><li>에코바디스 등급의 금융 인센티브 활용</li><li>글로벌 임팩트 금융 모멘텀 강화</li></ul><p>원문: <a href="https://ecovadis.com/blog/sustainable-finance-set-to-make-global-waves/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 386,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'BCG 보고서: 기후 미흡 시 2030 연간 5,000억 달러 손실',
+      author: '관리자',
+      date: '2025.09.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>보스턴컨설팅그룹(BCG)이 기후 행동을 미루는 기업이 2030년까지 연간 5,000억 달러 이상의 글로벌 부담을 안게 될 것이라는 분석을 발표했습니다. 기후 무위(無爲)의 비용 정량화입니다.</p><h3>주요 포인트</h3><ul><li>기후 무위의 글로벌 비용 정량화</li><li>2030년 연간 5,000억 달러 잠재 부담</li><li>선제적 행동의 경제적 정당성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPSERzQVF5dG54Q1o5WnJXdWtyRVZoZE5CS0tSQm55RnhiUnY3eW5iR2lyaUNKaGRwTE4tcTRYQ0tlNjFURVhBUTJldDQwSGxJRGdxaDBsZU9DNXF6a3RQM0luSy1sZ2ItYjlpa2hid2pnZl94ZHQ1RmdlUUdLOWRTYzlDeTNmaXFqQTRRdVFORThtSU1BeUk1czQyQ0ZET3ZTMG9nZ2k0VQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 387,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Scan Global Logistics, 에코바디스 골드 두 번째 획득…상위 5%',
+      author: '관리자',
+      date: '2025.09.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>덴마크 본사 글로벌 물류 기업 Scan Global Logistics가 에코바디스 평가에서 두 번째 골드 등급을 획득해 글로벌 상위 5% 진입에 성공했습니다.</p><h3>주요 포인트</h3><ul><li>물류 산업의 ESG 모범 평가 사례</li><li>골드 등급 두 번째 획득으로 일관성 입증</li><li>글로벌 화주 ESG 요구 부합 경쟁력</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYm1CaGxYZVJWdjkwU0U5eHJSZHlSVTdrX0ZqTnd0MGtuVEhUUXlEUDVuR3A0cW1ld24tUjhvemRjMUNDU0VFaGctYTl2MWN5dDZqMHIxM0JrY3VDOUZfZ1hjSzgxN1ktZmRUNWt4ZVFZQzJJdW1JcGRJVEJDdUVnLUY2eXAwNWhmTFZUUUVxOEljV3ZzUjN0YVlldkJTQUNoZkZMRDdBcjYtcVFFYXFGWDF4bVhHQXBGRUszZTdNendscHFDQkFzV3EtQzUxTWxObVplMmZn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 388,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'XPO Logistics, 2년 연속 에코바디스 골드 메달 획득',
+      author: '관리자',
+      date: '2025.09.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>북미 대형 물류 기업 XPO Logistics가 지속가능성 우수성을 인정받아 2년 연속 에코바디스 골드 메달을 획득했다고 발표했습니다.</p><h3>주요 포인트</h3><ul><li>2년 연속 골드 메달 유지</li><li>북미 물류 산업의 ESG 모범 사례</li><li>고객사 ESG 요구 대응 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQbnh1Y1VqLUhjU3Z5eUgtZ01fUVBIZWg5LVFLYUgzOFMxaUNZdnZVdnBNQXpvTy1PQlNCaXVlWmNMcXZzNURQUTZzbGZyalU1b2M4dFRZNXl2TDNFa3NxOWhQWHprT2pjVkduSkprVG1Lb3lOclJrYno2bGpmbEJuaDZJMDczZ1NfSlB4YXpxQWRZMUdZR043X05B?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 389,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '현대이지웰, 글로벌 ESG 평가서 \'우수 기업\' 인증 획득',
+      author: '관리자',
+      date: '2025.09.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>복지 솔루션 기업 현대이지웰이 글로벌 ESG 평가에서 '우수 기업' 인증을 획득했다고 발표했습니다. 한국 서비스 산업의 ESG 모범 사례 중 하나로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>한국 서비스 기업 글로벌 ESG 인증</li><li>복지·HR 솔루션의 ESG 도약</li><li>고객사·임직원 ESG 신뢰 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9pTjhfdEF0c2I2QzhsdUVaMjdJRDhGTVp3MTY5STFKeXlzelhLaU9MWEc5VFpBUE9ZTWh1d3huWkplaDhCSzAwRUE2em5lbzBTM1RPRzVFSWtxOXkwcXZqYzJsUkcyenJSRXVr?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 390,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: UN Global Compact 20년, 지속가능성 평가의 역할',
+      author: '관리자',
+      date: '2025.09.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>UN Global Compact 20주년을 맞아 지속가능성 평가가 기업의 SDG 대응을 어떻게 지원하는지 분석한 에코바디스 칼럼입니다. 'Decade of Action' 시작과 함께 평가의 중요성이 더 커졌습니다.</p><h3>주요 포인트</h3><ul><li>UN Global Compact 20주년 회고</li><li>지속가능성 평가의 SDG 이행 지원</li><li>공급망 ESG 행동의 가속화 필요성</li></ul><p>원문: <a href="https://ecovadis.com/blog/20-years-of-un-global-compact-how-sustainability-ratings-help-companies-kick-start-the-decade-of-action/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 391,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: EU 강제노동 가이드, CSDDD 대응 5가지 핵심',
+      author: '관리자',
+      date: '2025.09.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 공급망 강제노동 가이드라인이 CSDDD 등 공급망 실사법 대응에 어떻게 활용될 수 있는지 정리한 에코바디스 분석입니다. 조달팀이 미리 대비할 5가지 측면을 제시합니다.</p><h3>주요 포인트</h3><ul><li>EU 강제노동 가이드 5가지 핵심 측면</li><li>CSDDD·관련 입법 사전 대응 방안</li><li>에코바디스 솔루션 활용 가이드</li></ul><p>원문: <a href="https://ecovadis.com/blog/5-ways-businesses-can-plan-for-mandatory-eu-due-diligence-regulations-based-on-new-forced-labour-guidelines/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 392,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 보고서: 영국 기업 지속가능성 진척과 격차',
+      author: '관리자',
+      date: '2025.09.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2020~2024년 동안 159,000개 영국 기업의 에코바디스 평가 데이터를 분석해 강점·격차·기회를 도출한 보고서입니다. 영국 기업의 ESG 회복력 진단을 다룹니다.</p><h3>주요 포인트</h3><ul><li>영국 기업 159,000건 데이터 정량 분석</li><li>지속가능성 강점·격차 부문 도출</li><li>영국 시장 ESG 트렌드 인사이트</li></ul><p>원문: <a href="https://ecovadis.com/blog/uk-companies-on-the-sustainability-journey-ecovadis-data-reveals-strengths-gaps-and-opportunities-for-growth/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 393,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, Microsoft Azure로 AI 기반 공급망 인사이트 제공',
+      author: '관리자',
+      date: '2025.09.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 Microsoft Azure를 활용해 AI 기반 공급망 지속가능성 인사이트를 제공한다고 발표했습니다. 클라우드·AI 결합으로 평가 효율과 정확도가 향상됩니다.</p><h3>주요 포인트</h3><ul><li>Azure 기반 AI 평가·분석 인프라</li><li>공급망 ESG 인사이트 자동 추출</li><li>대규모 데이터 처리 효율화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTZGZk1MMGlwZDdSTUU4aW0zUHJUNEVRbUxWNTlrbEZEcUFLUzl0WVozTzBrdWFjbHZ1bFNuZVBTeXRVZmVETTM0VG1YODhaemx1Rjl5SkdRbjFKSHVXYXZkc2tXeDdpSVRHM25udHpCN2tvangzOWtXUnE5WDEtTjRiNGhFVDJ4?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 394,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 독일 공급망법 — 사실과 오해',
+      author: '관리자',
+      date: '2025.08.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 공급망법(LkSG)에 대한 정확한 사실과 잘못된 정보(오해)를 구분한 에코바디스 분석입니다. 끊임없이 변하는 규제 속에서 기업이 진짜 알아야 할 내용을 정리했습니다.</p><h3>주요 포인트</h3><ul><li>독일 LkSG 적용 범위·의무 정확한 정리</li><li>흔한 오해 5가지 사실 점검</li><li>독일 사업장 보유 다국적 기업 영향</li></ul><p>원문: <a href="https://ecovadis.com/blog/fact-or-fiction-what-companies-really-need-to-know-now-about-germanys-supply-chain-act/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 395,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'TDK, 에코바디스 지속가능성 평가서 첫 플래티넘 등급',
+      author: '관리자',
+      date: '2025.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일본 전자부품 기업 TDK가 에코바디스 평가에서 처음으로 플래티넘 등급을 획득했다고 발표했습니다. 글로벌 전자 산업 공급망 ESG의 진전 사례입니다.</p><h3>주요 포인트</h3><ul><li>TDK 첫 플래티넘 등급 진입</li><li>일본 전자부품 산업 ESG 도약</li><li>글로벌 전자 공급망 ESG 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VTDk1YW4tYTRpclhEVHh1S1VMR093VVFDSlVyNzN5bWF4REIzY3Fka1FjTk84TkFXbVR4M2Rncnl2c2ZFendQNy1PVm9FUEc5UURFcmg2Q251aDlyYnM0VzYzYmQ4Q3BP?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 396,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Neste, 에코바디스 지속가능성 평가서 플래티넘 메달 획득',
+      author: '관리자',
+      date: '2025.08.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>핀란드 재생연료 기업 Neste가 에코바디스 평가에서 플래티넘 메달을 획득했다고 발표했습니다. SAF·재생디젤 등 글로벌 청정연료 시장 리더의 ESG 우수성을 입증한 사례입니다.</p><h3>주요 포인트</h3><ul><li>재생연료 산업 리더의 플래티넘 진입</li><li>SAF·재생디젤 공급망 ESG 모범</li><li>유럽 청정연료 산업 신뢰성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPTl9hcjc0cEI1VENOYmdRdXRWSUdROHVqM2hCRDZDOFU1RHNnYkEyWGVDTm11M00zNEg3cy15NzFpWV9TNkJGRHlIeHFIS2sxMzZkSU1lT1ExemdYelZ4UWxKTmZJUEVaS1VzNnliR2wxVlRYRWxnTWxyZ1V2S3oxZXNaYmZKQjNPT0lZZ1lLWkRJQXc4Nk9xd1hMbw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 397,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '지멘스, 에코바디스 평가서 플래티넘·역대 최고 점수',
+      author: '관리자',
+      date: '2025.08.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 산업 자동화 기업 지멘스가 에코바디스 평가에서 플래티넘 등급과 역대 최고 점수를 동시에 달성했다고 발표했습니다. 산업 자동화 산업의 ESG 모범으로 자리매김했습니다.</p><h3>주요 포인트</h3><ul><li>플래티넘 + 역대 최고 점수 동시 달성</li><li>독일 산업 대표 기업의 ESG 리더십</li><li>유럽 산업 자동화 ESG 표준 제시</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZzZ2Q2hDWF80QjZicUZkTnltVTBSSXdPVExwMWxVMjU5azRyLXg5RDVyODlzS2Y3X1U1Ul9sWmdMNG0xVkw4MldVRkhCSXNpNlgtTzFEY0VpMkt0NTZHZjRhajQ3dzNjaUpIRExFUXl0bVg1WDVOcF85SElHYlNQS1VPUGNqekJLcjVvX0plbmNXY0p5eDZkTXBrajNENmJQb0ZPeGVrVDJrRkRfQnhiOGtqel95U2FxV09fcmRrMmRNbnM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 398,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 순환경제 시대 비즈니스 적응 가이드',
+      author: '관리자',
+      date: '2025.07.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>순환경제는 비교 불가능한 기회를 제공하며 기후변화 대응에 필수적이라는 에코바디스 분석입니다. 협력사와의 효과적인 커뮤니케이션과 지속가능성 평가가 전환의 핵심입니다.</p><h3>주요 포인트</h3><ul><li>순환경제로의 비즈니스 적응 필요성</li><li>협력사 커뮤니케이션과 평가의 역할</li><li>기후 행동과 순환경제 결합 효과</li></ul><p>원문: <a href="https://ecovadis.com/blog/adapting-business-to-a-circular-economy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 399,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 아시아·태평양 신규 지속가능성 보고 요건 점검',
+      author: '관리자',
+      date: '2025.07.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아시아·태평양 지역의 신규 지속가능성 보고 규제 흐름을 정리한 에코바디스 분석입니다. 호주·싱가포르·일본·홍콩 등 주요국의 정책이 어떻게 진화하는지 다룹니다.</p><h3>주요 포인트</h3><ul><li>APAC 주요국 ESG 보고 규제 정리</li><li>호주·싱가포르·일본 ISSB 호환 동향</li><li>아시아 진출 다국적 기업 대응 가이드</li></ul><p>원문: <a href="https://ecovadis.com/blog/navigating-new-sustainability-reporting-requirements-in-the-asia-pacific-region/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 400,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 보고서: 美 기업 87%, 규제 논란 속에도 ESG 지출 증가',
+      author: '관리자',
+      date: '2025.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스 연구 결과 미국 기업 87%가 정치적 논란과 규제 불확실성에도 불구하고 지속가능성 지출을 조용히 늘리고 있다고 밝혀졌습니다. 시장 자체의 동력이 정책에 우선합니다.</p><h3>주요 포인트</h3><ul><li>美 기업 87%의 ESG 지출 확대</li><li>정치 논란에도 시장 동력 유지</li><li>장기 경쟁력 관점의 ESG 투자 지속</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiggJBVV95cUxORkxzbHYzeHF3WVN4cG04R2laazN4RE51WXBUS3VRcXNlUXlzRW1VdUVPcmhZV2ZMZDZoWk92bTNzWXJ4d0VLWGV5d1poTlltZWdOb3ZFRXJzYUpNX2piNEp3c0Z6Vkh4dDV5d1piaXJ1V2FyNDJtTUV0WUhTTnptdDFwUm5lcXdWaW9ORmdGUHg5Ti0xWEhWaEFSSXR1M28xQlRicjhBenE3MGZ0WERwTGduZDdrSnZ6aF9jXzJPck5QTFZGZVU2NFVCZm5pR2p5M3gxNGlaT1ZFbmRMbFhsTVZmMHpLd3d1R2NTdHhsMExVZl9XeGdRckg0Rkc1LVpZTXc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 401,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[ESG 칼럼] 규제 완화의 역설…에코바디스가 주목받는 이유',
+      author: '관리자',
+      date: '2025.07.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 옴니버스 등 규제 완화 흐름 속에서 오히려 에코바디스 같은 자율 평가 체계가 더 주목받는 이유를 분석한 칼럼입니다. 시장이 규제 공백을 메우는 메커니즘으로 평가가 부상합니다.</p><h3>주요 포인트</h3><ul><li>규제 완화 → 시장 평가 의존 증가</li><li>에코바디스 등 평가의 시장 표준화</li><li>중소기업의 자율적 입증 수단 확대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE52MDNTaUQ5Q25wQ1lsakNlendMYzhrdTFYNVVuVW81SlkwR3pYQnpwSVNUR1NQelhHZWp5Y1hHRy1aREd6QlQ1QkVGMlVmb0g5YjRqcUNDLWtjMlhmWHlhZ2JxNjZUNFFmUUQ5Qg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 402,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Huhtamaki, 에코바디스 골드 메달 5년 연속 획득',
+      author: '관리자',
+      date: '2025.07.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>핀란드 식품 패키징 기업 Huhtamaki가 에코바디스 평가에서 5년 연속 골드 메달을 획득했다고 발표했습니다. 패키징 산업의 ESG 일관성 모범 사례입니다.</p><h3>주요 포인트</h3><ul><li>5년 연속 골드 메달 유지로 일관성 입증</li><li>식품 패키징 산업 ESG 리더십</li><li>지속가능 패키징 솔루션 경쟁력</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnVJcnZ5ZWUxXy15OTFjXzJyRXRSUDRib0RSZGVUQ1JJaVBpa1cyZzl5ZjBpaWhaN0FGQnB3VE1HUzFjVXkwZ0MyLTlRSFFjemZPZDhzaG1RajVoMzJmVjZ6UjJ2RFBuQ3lwMUNNYm11R1JjLWxKX2RlRElmTUFfa3dkenpZUDdkNW5oZk5yTnlFT2JjWUE3aGN1RC1ZTE9OTU9yOGduSEp2ZnM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 403,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '코닥, 2025년 에코바디스 동메달 획득…지속가능성 여정의 이정표',
+      author: '관리자',
+      date: '2025.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이미징 솔루션 기업 코닥이 2025년 에코바디스 평가에서 동메달을 획득했다고 발표했습니다. 코닥의 장기 지속가능성 여정에서 의미 있는 이정표로 평가됩니다.</p><h3>주요 포인트</h3><ul><li>이미징 산업의 ESG 평가 도전 사례</li><li>동메달로 글로벌 상위 50% 진입</li><li>지속가능성 여정 시작점의 인증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1lUEdzZG56SkNCWU0tbVBHRWVHQTdva3VLcU5DbkZ6XzF4ZC1fNF9EVVlIUVlwNW9IZW04TWg2alhpYl90enBXanlvaVVjcGhIZjVSb0ViQ3d3OFBUc3RvczJCX18yeVhIUDZLOXc1QkxvczRIUVdV?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 404,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: Scope 3 탈탄소의 빠진 조각, 양질의 1차 배출 데이터',
+      author: '관리자',
+      date: '2025.02.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Scope 3 퍼즐의 핵심 빠진 조각은 양질의 1차 배출 데이터라는 분석입니다. 협력사가 직접 데이터를 보고할 수 있도록 권한을 부여하는 것이 탈탄소 노력을 변화시킬 수 있습니다.</p><h3>주요 포인트</h3><ul><li>Scope 3 정확도의 핵심은 1차 데이터</li><li>협력사 보고 역량 강화의 중요성</li><li>추정치 → 실측치 전환의 효과</li></ul><p>원문: <a href="https://ecovadis.com/blog/scope-3-decarbonization-primary-data/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 405,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: EU 지속가능성 규제가 비EU 기업에 미치는 영향',
+      author: '관리자',
+      date: '2024.11.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2024년 말이 다가오는 가운데 EU의 CSRD가 EU 외 기업에도 새로운 기업 투명성 시대를 열고 있습니다. 비EU 기업의 최선의 대응 방향을 분석한 에코바디스 칼럼입니다.</p><h3>주요 포인트</h3><ul><li>CSRD의 비EU 기업 적용 범위 확대</li><li>한국·미국 등 글로벌 기업 영향</li><li>선제적 대응 전략 5가지 제시</li></ul><p>원문: <a href="https://ecovadis.com/blog/how-are-eu-sustainability-regulations-affecting-non-eu-companies-and-whats-the-best-course-of-action/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 406,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, COP16 이후 민간부문 생물다양성 행동 가속 촉구',
+      author: '관리자',
+      date: '2024.11.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>UN 생물다양성협약 제16차 당사국총회(COP16)가 생물다양성 손실 중단·역전 약속을 보여준 무대였다는 평가와 함께, 에코바디스는 민간부문의 행동 가속화를 촉구했습니다.</p><h3>주요 포인트</h3><ul><li>COP16 성과와 한계 평가</li><li>민간부문 생물다양성 행동 가속 필요</li><li>TNFD·SBTN 활용 실무 가이드</li></ul><p>원문: <a href="https://ecovadis.com/blog/ecovadis-calls-for-accelerated-private-sector-action-on-biodiversity-after-cop16/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 407,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 글로벌 기업·협력사의 Scope 3 탈탄소 협력 가속화',
+      author: '관리자',
+      date: '2024.10.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2024 Carbon Action Report가 에코바디스 네트워크 내 기업의 진척을 분석했습니다. 글로벌 기업이 저탄소 가치사슬을 구축할 시간이 줄어들고 있다는 경고입니다.</p><h3>주요 포인트</h3><ul><li>2024 Carbon Action Report 핵심 인사이트</li><li>글로벌 기업·협력사 협력 모델 진화</li><li>저탄소 가치사슬 구축 가속화 필요</li></ul><p>원문: <a href="https://ecovadis.com/blog/accelerating-scope-3-decarbonization-how-global-businesses-and-suppliers-are-collaborating-for-a-net-zero-future/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 408,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, Carbon Action Manager에 CBAM 기능 추가',
+      author: '관리자',
+      date: '2024.09.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Carbon Action Manager에 추가된 CBAM 기능을 통해 기업이 협력사 네트워크 전반의 탄소 데이터를 식별·평가·수집·협업·보고·개선할 수 있게 됐습니다.</p><h3>주요 포인트</h3><ul><li>EU CBAM 대응 위한 통합 솔루션</li><li>협력사 탄소 데이터 자동 수집</li><li>국경세 보고·개선 워크플로우 일원화</li></ul><p>원문: <a href="https://ecovadis.com/blog/introducing-the-carbon-border-adjustment-mechanism-cbam-enhancement-for-carbon-action-manager/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 409,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, GHG 배출 추정 간소화하는 \'Carbon Estimator\' 출시',
+      author: '관리자',
+      date: '2024.09.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 Carbon Action Manager에 추가된 'Carbon Estimator'를 통해 대형 기업과 협력사의 탈탄소 협업을 강화한다고 발표했습니다. GHG 배출 추정의 진입장벽을 크게 낮추는 도구입니다.</p><h3>주요 포인트</h3><ul><li>중소 협력사도 쉽게 사용하는 추정 도구</li><li>기본 데이터 입력만으로 자동 추정</li><li>탈탄소 협업 진입장벽 대폭 완화</li></ul><p>원문: <a href="https://ecovadis.com/blog/introducing-the-carbon-estimator-a-new-tool-that-makes-ghg-emissions-estimation-simple-enough-for-every-business/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 410,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, Nicole Sherwin을 신임 Chief Impact Officer로 승진',
+      author: '관리자',
+      date: '2024.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 Nicole Sherwin을 신임 Chief Impact Officer로 승진 임명했다고 발표했습니다. 최고 수준의 지속가능성 관행 이행과 사내 Purpose Committee 운영을 책임집니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 자체 임팩트 리더십 강화</li><li>Purpose Committee 등 거버넌스 운영</li><li>플랫폼 가치와 일관된 내부 문화 조성</li></ul><p>원문: <a href="https://ecovadis.com/blog/our-newest-chief-impact-officer-nicole-sherwin/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 411,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 공정 임금이란 무엇이며 왜 비즈니스 우선순위인가',
+      author: '관리자',
+      date: '2024.04.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>도덕적 이유 외에도 공정하고 지속가능한 임금 지급이 비즈니스의 핵심 우선순위가 되어야 하는 이유를 분석한 에코바디스 칼럼입니다. Living Wage 개념과 글로벌 트렌드를 다룹니다.</p><h3>주요 포인트</h3><ul><li>Living Wage 개념과 측정 방법</li><li>임금 격차의 비즈니스 리스크</li><li>공급망 노동 인권의 핵심 지표</li></ul><p>원문: <a href="https://ecovadis.com/blog/toward-fair-compensation-what-is-a-living-wage-and-why-it-is-a-business-priority/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 412,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 영국 ESG 평가·데이터 제공자 행동강령 서명',
+      author: '관리자',
+      date: '2024.04.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제자본시장협회(ICMA)가 시장에서 점점 더 중요해지는 ESG 평가·데이터 제공자를 위한 자율 행동강령을 발표했고, 에코바디스가 이에 서명했다고 발표했습니다.</p><h3>주요 포인트</h3><ul><li>ICMA 행동강령 자율 가입</li><li>ESG 평가 시장의 신뢰성·투명성 강화</li><li>업계 표준화 기여 의지</li></ul><p>원문: <a href="https://ecovadis.com/blog/ecovadis-endorses-the-uk-code-of-conduct-for-esg-ratings-and-data-providers/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 413,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: EU 신규 ESG 평가 규제 환영',
+      author: '관리자',
+      date: '2024.03.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU가 ESG 평가·데이터 시장의 명확성과 무결성을 증진하기 위해 추진하는 신규 규제를 에코바디스가 환영한다고 밝혔습니다. 시장 표준화는 평가 산업의 신뢰 회복에 기여할 것입니다.</p><h3>주요 포인트</h3><ul><li>EU의 ESG 평가 시장 규제 도입 환영</li><li>평가 시장의 표준화·신뢰성 제고</li><li>이해상충 방지 등 거버넌스 강화</li></ul><p>원문: <a href="https://ecovadis.com/blog/new-esg-ratings-regulation-in-the-european-union/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 414,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, Carbon Action Manager 정식 출범',
+      author: '관리자',
+      date: '2024.03.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Sustain 2024 행사에서 에코바디스가 기존 Carbon Action Module을 발전시킨 'EcoVadis Carbon Action Manager'를 정식 출범한다고 발표했습니다. 협력사 탄소 관리 통합 솔루션입니다.</p><h3>주요 포인트</h3><ul><li>Carbon Action Manager 정식 출범</li><li>협력사 탄소 데이터 통합 관리</li><li>대형 기업의 Scope 3 추적 효율화</li></ul><p>원문: <a href="https://ecovadis.com/blog/introducing-the-ecovadis-carbon-action-manager/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 415,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 2024 지속가능 조달 바로미터 핵심 인사이트',
+      author: '관리자',
+      date: '2024.03.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Sustainable Procurement Barometer 2024가 지속가능 성장과 회복력으로 비즈니스를 안내하는 실행 가능한 인사이트를 제시했습니다. 조달 부문의 ESG 진척을 정량화한 보고서입니다.</p><h3>주요 포인트</h3><ul><li>2024 지속가능 조달 진척 정량 분석</li><li>업계·지역별 격차와 모범 사례</li><li>실행 가능한 조달 전략 가이드</li></ul><p>원문: <a href="https://ecovadis.com/blog/unlocking-the-power-of-sustainable-procurement-insights-from-the-2024-barometer/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 416,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 협력사 ESG 인텔리전스 솔루션 \'Vitals\' 출시',
+      author: '관리자',
+      date: '2024.01.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스가 EcoVadis IQ Plus에 추가된 'Vitals' 모듈을 출시했습니다. 협력사 ESG 인텔리전스를 강화해 공급망 리스크와 규제 요건에 대응할 가시성을 제공합니다.</p><h3>주요 포인트</h3><ul><li>협력사 ESG 정보 통합 인텔리전스</li><li>공급망 리스크·규제 가시성 강화</li><li>대규모 협력사 모니터링 효율화</li></ul><p>원문: <a href="https://ecovadis.com/blog/introducing-vitals/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 178,
       pinned: false,
       category: 'news', categoryName: '소식',
