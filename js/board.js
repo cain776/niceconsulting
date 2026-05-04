@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 464,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미 국방부 검토 지연으로 150개 이상 풍력 프로젝트 중단',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미 국방부의 인허가 검토 지연으로 인해 미국 내 150개 이상의 풍력 발전 프로젝트가 중단된 상태입니다. 업계 관계자들은 최근 몇 주 사이 지연 상황이 급격히 악화되었다고 보고하고 있습니다. 이는 트럼프 행정부가 풍력 발전을 억제하려는 시도의 일환으로 해석되며, 재생 에너지 산업 전반에 큰 차질을 빚고 있습니다.</p><h3>주요 포인트</h3><ul><li>미 국방부의 검토 지연으로 150개 이상의 풍력 프로젝트가 발이 묶임</li><li>최근 몇 주간 지연 현상이 심화되며 업계의 불만이 고조됨</li><li>트럼프 행정부의 풍력 발전 차단 정책의 연장선상으로 분석됨</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3rtne/more_than_150_us_wind_projects_stall_as_pentagon/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 461,
       pinned: false,
       category: 'news', categoryName: '소식',
