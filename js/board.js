@@ -15,12 +15,2272 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'news', categoryName: '소식',
       topic: 'esg', topicName: 'ESG',
       title: '미 국방부 검토 지연으로 150개 이상 풍력 프로젝트 중단',
+      id: 566,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '김해시, 중대재해 예방 교육 실시… 관리감독자 안전역량 강화',
       author: '관리자',
       date: '2026.05.04',
       views: 0,
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>미 국방부의 인허가 검토 지연으로 인해 미국 내 150개 이상의 풍력 발전 프로젝트가 중단된 상태입니다. 업계 관계자들은 최근 몇 주 사이 지연 상황이 급격히 악화되었다고 보고하고 있습니다. 이는 트럼프 행정부가 풍력 발전을 억제하려는 시도의 일환으로 해석되며, 재생 에너지 산업 전반에 큰 차질을 빚고 있습니다.</p><h3>주요 포인트</h3><ul><li>미 국방부의 검토 지연으로 150개 이상의 풍력 프로젝트가 발이 묶임</li><li>최근 몇 주간 지연 현상이 심화되며 업계의 불만이 고조됨</li><li>트럼프 행정부의 풍력 발전 차단 정책의 연장선상으로 분석됨</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3rtne/more_than_150_us_wind_projects_stall_as_pentagon/" target="_blank" rel="noopener">원문 보기</a></p>
+        <h2>핵심 내용</h2><p>김해시, 중대재해 예방 교육 실시… 관리감독자 안전역량 강화 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 이뉴스투데이</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBkc3dNWFhnX2t6UThibi1NODBRRGRwN3QxNjNvd1NSckxRaUFKcGZCVDBmTXZuVjAtbFRBRUthTzhYeUJxZFFhUjVESGVwYUdyemJFaEdQYWh0RWZHYTN2a2VORDYyTVpJY3NBX0gwT1HSAXRBVV95cUxQZk1BZ3VoMndoRXdJT3RUYnpSVzJtM3lXMlZnWTNXbDFRd1FCemNNcnE4M0tscDJQb3ZoUk95Z3J4a1dTNG1qU0I1Q2pnaGRERWpUZ21rRUh4WDFwTXljYzYwZ005M0ExdkNtMXVySHNYWE5tVA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 567,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '무안군, 중대재해처벌법 포함 농작업 안전교육 진행',
+      author: '관리자',
+      date: '2026.05.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>무안군, 중대재해처벌법 포함 농작업 안전교육 진행 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 호남타임즈</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9feGZmc0ZBbTdzSlF2eHBwUVgzcWg5ZWlYck5uWDNpMUFIQ2JGLURlTWt3UWhjOUV0NUZ0WElDNjBUOE9EcU5xdXptLURfYTVfOC1qWDFYamJWMVVCZUVOR1E0aFBjVkpaOWJUNw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 568,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '시민 안전이 최우선…포항시, 중대시민재해 예방 의무 이행 총력 점검',
+      author: '관리자',
+      date: '2026.05.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>시민 안전이 최우선…포항시, 중대시민재해 예방 의무 이행 총력 점검 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE92UjN3RDZKSG9pbXhobUMwNndQZFBTRVQxUmt0QmRHTTZXU004UEpRd3VER0RReGlDc1lKY3M0eUFOUWx1LTR1V2d5N21sZU1kRmpfb29RYlNZaWp1WWJQY1dxblo?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 569,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '연수구 2026년 중대재해처벌법 교육 실시 > 뉴스',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>연수구 2026년 중대재해처벌법 교육 실시 > 뉴스 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 더코리아</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9IT3MwNWJobmJyTzQtSGY0OE9LU090TEEwNmZSRVo0dFQzZkRaY294Mi1ub09HOVpoOFhuVFNjWXlRcnc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 570,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '인천 동구, 중대재해처벌법 이해도 제고… 관리 공백 없는 안전체계 구축',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인천 동구, 중대재해처벌법 이해도 제고… 관리 공백 없는 안전체계 구축 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 녹색경제신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4UVR6U0xNclRsU2hEZk9ObjU0dXVlRlk5QzVJelhvc3liczlaYU1LZFlTNDVxbFlqSzZRUGk5UmNOV1B0VnB1RVdPMGVUZmdyYVlmX3NkMDVJX0FLTEpSbU1Td2dQdWc2?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 571,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '손호영 판사의 판례 공부 161 / 중대재해처벌법에서 ‘사업장’은 어디까지일까',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>손호영 판사의 판례 공부 161 / 중대재해처벌법에서 ‘사업장’은 어디까지일까 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MTlV1TlJUdGFCM25Cb0ZuUllvczJ1aml0M3F4YW9rbjQ4LW15OWtodnYyVEJ2SVFTbXJsbGpYalYxR3RnTEc1Vk40LVh0SWtXSkF6SzhiMzhpVjhJcHBBZnh3UU1Eak0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 572,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '\'중대재해처벌법 위반\' 경북 영풍 석포제련소 전 대표 항소 기각',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>'중대재해처벌법 위반' 경북 영풍 석포제련소 전 대표 항소 기각 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대구MBC</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE05djBiSmZ5V2p2VmFSYkhVVGdSb0d0eTRpQ29hUE50UjM0c0s0c1NPb19ua2l6Qm1HQW5MM1VwMWNuUVduRUFUdHJIRlc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 573,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[아리셀 항소심] “중대재해처벌법 적개심 드러낸 판결”',
+      author: '관리자',
+      date: '2026.04.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[아리셀 항소심] “중대재해처벌법 적개심 드러낸 판결” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5kSTdaZWxFR3FpY004V2ktVjFieVBzeV9LUklKa3MyZmZMT0Fkd2FpNFR1TUNRbVEycEVkSHBMVmdYcVFVbEJmOGpQTVJza1V6TS1GeWFZYUZTbWJmLU9SQVNaUFJTRlo1MWlaSlhyQTA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 574,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '파주시, 중대재해 막는다…고위험 사업장 안전관리 전면 재정비',
+      author: '관리자',
+      date: '2026.04.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>파주시, 중대재해 막는다…고위험 사업장 안전관리 전면 재정비 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 경기일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3am9OUmVWQzBJR1ZJbVdMWkpyUWUyT0p1VzRtSVlpV2ZibHJoai02SlRYQ3IwN01kVEI5VlBBWEpiaUdLZXF5LUM0ZERHYUsyYUF3Sm1nWEI0NTg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 575,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 4년, 왜 산업현장 사망자는 늘어났나',
+      author: '관리자',
+      date: '2026.04.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 4년, 왜 산업현장 사망자는 늘어났나 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 조선일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOTjV1dHgyOXh0Y0R6dHF0emVtLUhzOGxLNkdUbWRsTy14UVF1VzZHOW9QVVdkVkdVOVdNTWU3UktJNU1oWUxZak5JSXRkMUQ3OXVHVEV3NHJYaEdKYXZ4dkVBMDg4VEd0d25oNHp0empoU1VtejlXZnhZMFRSZjloVzBDa2M?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 576,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[단독]민간 안전보건평가기관, 평가·컨설팅 ‘동시 수행’ 논란',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[단독]민간 안전보건평가기관, 평가·컨설팅 ‘동시 수행’ 논란 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5BbXA5cl8tMnRFVlZsUTBIYTIxRU5RTDVJTVNQSzdVbEhGVndKV2xhcW5Nc1FqcXpYWXBPZF9lS18zS1MyTTRucnB5R1VMTmYyM3ZZQ29rSVpFbGlwQkR3aGR2ektyOU9qaWp2amZ5NTY?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 577,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[매일 2명씩 목숨 잃는데] 국회 노동안전 관련법 개정 또 무산',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[매일 2명씩 목숨 잃는데] 국회 노동안전 관련법 개정 또 무산 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBWbkVwM2tvejlEdnp3N2Y1ZzF0bFdod0RkQWJJa290eTNyOVMzWmVPOC1zdDFZSy1CQnNRZlBxWDZZWUtTV29KcTBnT1EwaGpTamtydTY1WWh1VHFMWW5NaXY5Y2xTYzlBRnhkLV9nXy0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 578,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '법무법인 B&H·세이프지, 산업안전 플랫폼 구축 협력 MOU 체결',
+      author: '관리자',
+      date: '2026.04.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>법무법인 B&H·세이프지, 산업안전 플랫폼 구축 협력 MOU 체결 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국보험신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5IRDdqNE1ZZHFmNHhQdUplQl9LcC1tTWt6QktDdnZWUHJocHZzMWRpTVg0THVNUFdGNk9mWTdmQUpYVmFFdjE3SGxvUjJTQmpHVkFyVXhYZ1hsVldzY3NLMkdmcDJScTRNUTdJ0gFvQVVfeXFMUFZ2WFMtcWNFY09VYVVORmRGNVFsSWFLTFlkRGFpUzAxbUVPT1d4TlNmYWxUc2Q4QmZvSkNYOEM5SkJnLXJGLVJ4OVJtQ3NHM1RKSE05dk9BMFM0YjJyY2EzQ3Q0QVUybzlfbWFiLUcw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 579,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '개인정보 보호법 개정안, 제2의 중대재해처벌법 되지 말아야 [취재진담]',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>개인정보 보호법 개정안, 제2의 중대재해처벌법 되지 말아야 [취재진담] 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 쿠키뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5TQURDaFpOTC1mUWN0djZ5RkppaUpwX1g2cjF6dUE5X0tjcjNFam5xWG54V0ZMOF83NmJTN19iY2Z4U3QxUFJRbTRhV2RKeDFBR2szSHQ3UTRzUm1td1N0UkFiWQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 580,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[단독] 노동부, 검찰 지휘에 ‘시흥신세계아울렛 감전사’ 중대재해처벌법 적용 검토',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[단독] 노동부, 검찰 지휘에 ‘시흥신세계아울렛 감전사’ 중대재해처벌법 적용 검토 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 시사저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5pSkRLQzU5ZUVjOF9YZzAzMkR3RHRyUGluR1Z0UW9xZUp2R05yX2QzREFDbGc3MnBIeDJRYjZ6WUVvUnNhX28zWnpqS3BsV3RfQmxHR2FmazJodndONHdwV0RudExEQmhxS19mM0JOQdIBc0FVX3lxTE5tTWl6Y2dEQkdiU080UjJKeUk4Z2syQjVPY3hRZWtFamZlWFpxN19yaUJXSzJDV0xOWUF6cGFBeXk0cDFJSWQyNTM5YUFyWktYc0tOTkR2aFM1bG1aNFlBNVF6U1MzTGxjdTJRaFlEbkhzQ0k?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 581,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '"韓 중대재해법 시행 4년, 처벌만으론 한계…제도 개선해야"',
+      author: '관리자',
+      date: '2026.04.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>"韓 중대재해법 시행 4년, 처벌만으론 한계…제도 개선해야" 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SUl9JZDNRaFF5RkdHR0xvZjhfN2puNUprOHh3QU93V2ctdHkwRUVKTVRKQ2pLRTRQd213d1Brc1ZhbTVsV3gwZjhnRjF2UTc0ai00MG5XWDd3QdIBVEFVX3lxTFBMTmx0U2FwLTRUcnJPZGNuWmgybUY4VzVRSEVENTB0eWFRdGtlX254aW12STNoT2VmTTJkTmJYdWwzR3c1LW1hRFNPRmN3Z1VSc3JsLQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 582,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '인명 피해 반복 사고, 정작 \'중대재해처벌법\' 적용에선 배제',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인명 피해 반복 사고, 정작 '중대재해처벌법' 적용에선 배제 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 오마이뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFB6WHdldnhyb0NxNktLX2lXVVFGRF9yWXM3VzlrOUpnRE1UeWZjeGU2dGhXcHA0b1Z1c0RtenJaV0dPQ0IxLS1SYUdZXzNTTFIzV0xjNW9VR3UwMnFQVVZ1OWI3QldTVGVhMXZQazd6eS1EeTcwN2tz?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 583,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '울주군, 간부 공무원 이어 실무자도 중대재해 예방 교육',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>울주군, 간부 공무원 이어 실무자도 중대재해 예방 교육 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 연합뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iVEhja1lPZllpVVJyM1IzOXhPYkEzSUlocGlZVUpzdGVwcUYwOVRzd1p0T1RLdk10bTd2MWRrN2ctU3dFdjRCYkdZam1YdUlZc0VtVW1FSkxrTlXSAWBBVV95cUxPWTdIeVdHUl9yLXV6X3hnaFN3WWFFd2pKUkMybzVqZ0ZhWjFkeXZVaWUzQWVaQnBpM3BSaU9yc3ZRZjVxZkhCSVA4NGNhb2t2SWRuVU44N1BMNFRiREs5Q0k?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 584,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '국힘, 정부여당에 “중대재해처벌법 개정 착수 강력 촉구”',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국힘, 정부여당에 “중대재해처벌법 개정 착수 강력 촉구” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1vcGtLems5LTRRRjZFQXJFMV82Wm95Sm9IMVZwSGZyc00wczJRT0t1Ny1udjRnTmtMOUgyLVhQVzdSZ2FWaEFoUXZ1M3NKOEJpamZhU3Y4VFY1Y3duNnFwQ0NRTEY3VG9qY1RfeUtMRQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 585,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[중대재해처벌법 4년, 무엇이 바뀌었나] ①엇갈린 4년의 명암',
+      author: '관리자',
+      date: '2026.04.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[중대재해처벌법 4년, 무엇이 바뀌었나] ①엇갈린 4년의 명암 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국재난안전뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE54Um9MVlZ1Qjl1enpjR1gtZmdjYXRZZE1Mam0ybVBiUzcySGJKOXBfdnVwbnBfTDk1MlM4dXZGd1B1MFhFeEswRnhmamtSYmh5M1RxeEdMbmlfWEJlTlE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 586,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[정읍시] 농작업 안전 컨설팅 추진… 중대재해 예방 강화',
+      author: '관리자',
+      date: '2026.04.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[정읍시] 농작업 안전 컨설팅 추진… 중대재해 예방 강화 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 투데이안</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9VaXNNSGdFR1IzWHRpTk9XVWJ4aUE0Zzc4aWdZSkpQUWROQmtweUJBUHRIQVlBOF9Pc3RoNWI2X2hXMnBEQWlrV19Wdkxva2RXSERlbTNXanNPa0FXMVNVY25vbmF0M2lwdWc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 587,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“중대재해처벌법 시대, 안전관리의 새로운 기준”',
+      author: '관리자',
+      date: '2026.04.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“중대재해처벌법 시대, 안전관리의 새로운 기준” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국아파트신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ScFdnVlk2RlFhU0VVWnRleEtDN09iaVFZa2xwZVZhaksyZzdJWlBmMTdvSklUVmQxT25zUllQRkNBSHVFSFREU3MtN2dPMnBaRWs4Mnh5Xy1hRFVxOUp5NDJJZ2NLenN6?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 588,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '청주상의, 중대재해방지 컨설팅 참여기업 모집',
+      author: '관리자',
+      date: '2026.04.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>청주상의, 중대재해방지 컨설팅 참여기업 모집 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 충청매일</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9nMFNuYTNKU0c5Y3ZrMFoyTV9BQ3NKR2FGWFVjLTR0dDdDYWhXRnZGMFhmQzlQVEJZUGlSTVZSTm95ZDl4Q0RzRXpfZHNyTm56MlpUS09oUE4tR3JvZFh2SmtmemloVjd3bFE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 589,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '사천시, 2026년 중대재해 예방 컨설팅 지원사업 참여 사업체 모집',
+      author: '관리자',
+      date: '2026.04.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>사천시, 2026년 중대재해 예방 컨설팅 지원사업 참여 사업체 모집 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 브릿지경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFWFlXUWdUR3phYUdCa2d2MWdzX3VnWjUwLUFxT0V2bVhreFlMQmxkNWZVblB1bUNJUkNLaEx0VlJaXzNGNy1NNjM5ZjFTbHpUc3lSeWp0a3FTZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 590,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '가평군, 농작업 ‘중대재해 제로’ 도전 본격화…110농가 현장점검 및 컨설팅',
+      author: '관리자',
+      date: '2026.04.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>가평군, 농작업 ‘중대재해 제로’ 도전 본격화…110농가 현장점검 및 컨설팅 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uR1hPa0dzSlhBb3J2RTNPZ1hjS3R6bkhMT1ExNEVfdTRGMEVndXpQNUU2Yk9SQjJOWnlHbVQ2eHJrS3VYdzV2ekluMGQzaWhYYmRlN3pkVU5Dc19UUGg1OWdSWjE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 591,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '무주군, 중대재해 예방 교육 시행',
+      author: '관리자',
+      date: '2026.04.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>무주군, 중대재해 예방 교육 시행 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 무진장뉴스i</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsd1dHeFJFUG1sbnIwRVA0QllYMHVIUHJWaHFLNVpxeWZOYnNRUU5wNEZLcTlyU0dfOGNZbDhMb3VfTGNERXdwUTJPYkhrZW5paDJ4Sm9uVUpBQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 592,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '밀양시,\'중소기업 중대재해예방 컨설팅\' 참여 기업 모집',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>밀양시,'중소기업 중대재해예방 컨설팅' 참여 기업 모집 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 신아일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFAwLUszN3htQk1LVHBXSHZrN2lPZ3dJcnlBRzFFQi1rSFVWcTJYd2sxdDFXek83Wl9GSVFxYktCVEpUbi1wRUMydjM3aHlGTGpRNFlzcWplU21jQndod3ZDcElfaDBKSmFycmt4MWs5Vkw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 593,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '"강화된 산업안전보건법, 기업 대응 전략 달라져야"',
+      author: '관리자',
+      date: '2026.03.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>"강화된 산업안전보건법, 기업 대응 전략 달라져야" 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 지디넷코리아</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Yb3MzbjZ3WVJ2QldlTUMzdnU5VzBqSUtnbnJmYjI1aHBRUHowT0dDVHlaLVVRdS1OUXgzbDhkZmI3d2xTVkw3bi1zM3l1QnhJVllwWTh3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 594,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '서울시, 소규모 사업장 \'위험성평가 무료 컨설팅\' 지원…산업재해 예방 나선다',
+      author: '관리자',
+      date: '2026.03.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>서울시, 소규모 사업장 '위험성평가 무료 컨설팅' 지원…산업재해 예방 나선다 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대한민국교육신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rckluUFpoNm0wX2Q5Z2t2YjdYdlVUWjktZjRaaTNfSm1XVV9qcXc3MW55eE96U1BONGIyeDZ2cXFHS2xvcndUTkt0LWNpZS1uT080MVM2ZmV3ckhBcEVpaXRuWQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 595,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '서울시, 소규모 사업장 \'위험성평가 컨설팅\' 지원…"산업재해 예방"',
+      author: '관리자',
+      date: '2026.03.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>서울시, 소규모 사업장 '위험성평가 컨설팅' 지원…"산업재해 예방" 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 뉴스1</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBibVB5ODFUN1N4eENFbXR5T0ZRSjJ4cVExdHVMS0dWTmpGU3R4dzlQUDFpeVhfMUVXeXhaYUVBSVZKRFVWME1hUURvczBxVjg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 596,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '창원시, 중소기업 중대재해 예방 컨설팅 지원',
+      author: '관리자',
+      date: '2026.03.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>창원시, 중소기업 중대재해 예방 컨설팅 지원 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 신아일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1qMnhPOUlwV1BubnM3OGwyWGNsRG8zNmUzX3V3SDVpUUVPSm4wTEt4WW9wRzQtcUFiaTdXWFNJclhuN0l0U3pGOFR5TzU5SFJRc1FZVU90aG93eFFkVktiM1N0TGVYVHp1ZU5DaldLano?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 597,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘74명 사상자 발생’ 대전 화재 참사, 중대재해처벌법 적용은 어떻게',
+      author: '관리자',
+      date: '2026.03.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘74명 사상자 발생’ 대전 화재 참사, 중대재해처벌법 적용은 어떻게 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 경향신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBncEN4NmJ3V1BiRk5VY2pfUkhPNmk0c0VmeE9QU3NvQy03NjVLVkJYRFZZYUVTS3B2MlpKWUlCV3o4a3BzU0VjNWVIYkV4cEx5TVQ2MkRJNG1MQdIBX0FVX3lxTE1kQXh5VFNzMVBDa0VJa2dpUEN2SDZpM2pROEFWWEcxU1BRVXprSVhpY0hiUHNPNEwtWjZsbE82Z3BVSGJHelpYQUxja1hCQWFpSHJPLWtHbEtlOGdrNEpZ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 598,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '위험성평가 미실시 과태료 ‘최대 1000만원’',
+      author: '관리자',
+      date: '2026.03.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>위험성평가 미실시 과태료 ‘최대 1000만원’ 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 아파트관리신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HVkJxYWdYRVdKdkZncENNdzAxeHNkUnB2WW5Tc2dqbDJHQjZfQU1NZ3pRYXBQTjNYcXJvakpQcnpxR3NRNjBGR3F5ZnhHY0x0QktoX3BvOGRvalZ6N1M2clAzWmJsQUnSAWtBVV95cUxNQzA3clJzNWZrckNKU2lLdGRiejNKZjB4eTJvb3pkdUprSW54Mm1sRkE0VkNWeXpSNl8tOHVtRXJhTEI0QUpGcUVjaVdRVlJHYWNjYnlSNnVzckZVVnZjNUtILUlBWFpvWDNuOA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 599,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 50문 50답 신청하기',
+      author: '관리자',
+      date: '2026.03.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 50문 50답 신청하기 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법무법인 세종</p><p>원문: <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOWmVreFZzbXF3a1hfVldRT1g5VW1GODFGRDNGN3psWXJGMjBxZnhkVGNPWFFzbGVYUlBmazVlNnZLVlVPM3NBemtHUlhBT2ZzZEE5Uzk4dldDV2JSZ0hVNVdZMHhncE9Fd1VzRTRZQXE1ZWo3Q3lDWWMxbTNOWVdmYlBsZGNucFIwcTNBd2J5eThtRFE1UmlCNUstUU45ZGVRdUJvVGVidw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 600,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[판결] "인사·재무 묶여있으면 같은 회사"',
+      author: '관리자',
+      date: '2026.03.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[판결] "인사·재무 묶여있으면 같은 회사" 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9kU01RNkwzTUo2dk5GcXZkR1p0M1JQY1QyS2QxSGxmNmRWQ2xlQ3JQN2JIbUl5YkN5VG1ZX3owQjdTYUNoNEExWjRmXzRkN1o3d3ZLZHJtbURlRnZocG44eWx6UVl0LWt6VGdvSzF30gFyQVVfeXFMTlpKNFA2SXJwOEtUaW5oNnoxcGlVc1VHclh0LVVoVTdPN293VEJBU0JNaU1EYWRkUlE1OE5kTFluWEIySkI5WFpRcEx1ZjNSNTBRNFhxc2JjVEJPNk84RTFHOVZqRHNLMTN6ZkUtY2J3NkVB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 601,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해법 적용 사업장 기준은? “본사·지점·공장 모두 합쳐야”',
+      author: '관리자',
+      date: '2026.03.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해법 적용 사업장 기준은? “본사·지점·공장 모두 합쳐야” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 중앙일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GcXFOb05ndDIzc2xtQ0Y3U3pHMWQ3cnZpTnV4dGNSUEVlTzJaM1B1eC1RYmNUdmVzNVlaZnU0dktTcWdjMVVtd2JDUXBhcUVvVkVCQ1Vn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 602,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘중대재해처벌법도 유예’ 4대 지역 특별법 독소조항 ‘우후죽순’',
+      author: '관리자',
+      date: '2026.03.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘중대재해처벌법도 유예’ 4대 지역 특별법 독소조항 ‘우후죽순’ 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1rcWotVG9HMXkzUEd2cldZR2RvbWtaa0FFdlQwV1hUa0JmSjRWTV9zZS1nN01Xd1VnYV9mb1B6LXp5REJwQXFEQWJheW9WMER1UlZmUG1sZHNvcW9LdEk3ZmJRWWVhekdSUWlCM2ZrQ0s?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 603,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[기고-신유림]2026년 위험성평가 개정에 주목해야 하는 이유',
+      author: '관리자',
+      date: '2026.03.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[기고-신유림]2026년 위험성평가 개정에 주목해야 하는 이유 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE56UU54YXJNQWpxa3pNWXhkNGs3ME1McEYzRTVPQnhfWXVwbnFBUXNDMWctbnR1SmFtZmxJby1rbzZJaDlOWkYxYTZ3NUsyRVlfSlB3WTA0Mkg0cFRFRkcwSW9yeVBVM3lmaTJKcF9QVWw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 604,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[열린송현] 중대재해처벌법 시행 4년과 향후 과제',
+      author: '관리자',
+      date: '2026.03.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[열린송현] 중대재해처벌법 시행 4년과 향후 과제 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 서울경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xOWZHLUJadHpaNnZLRUo5YnljcHc0QW1hYVB2RWNQa1phNVpvcXUyWEZzZzRIdndYV2hleEtHU1lER0VsOEp6Z1RQeFpzdnIycGfSAVNBVV95cUxOU19kakg1X1dxalVpZVdaOUhCcDdwWXpzTkhoSzd0NkdrbW1fLWxYd0tlbDBnTC1BZDZqd2RLSm5KSElMWFR4ZWpkVml1VHZNcGRJVQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 605,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '그룹 회장, 중대재해처벌법상 경영책임자 아니다.',
+      author: '관리자',
+      date: '2026.02.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>그룹 회장, 중대재해처벌법상 경영책임자 아니다. 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFB1QXFsa2lnNjdJQXJDOVYya3p0YW5yVWp6NXdwNkV4UUtZNVE5R2M3REVlSXlUNml1T2hzZUxXREFZLVptaGlIZ0hWWFFzWDhWMi1tbDJ4NGNEOUVmYWxHOXBhdVJIZnRlMWNhSFpn0gFyQVVfeXFMTTlBb3A1R3F0SHdwT3A4M08tMlJSRHhzODh4bld1emtQeHpzV3B2SzVWVU5yNG1jU0VhQjBmMmpHYmFRbHhpcHViQ1VibHFrT1FtZ3h5SjBZdTVpMWZDOFFYZGVIcGo3UUR0c1dad19yRkx3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 606,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '보람상조, 장례 넘어 ‘안전’까지…중대재해 무료 컨설팅 지원',
+      author: '관리자',
+      date: '2026.02.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>보람상조, 장례 넘어 ‘안전’까지…중대재해 무료 컨설팅 지원 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 헤럴드경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE42ci1CSHpNdmFqNzZuV0UtQzNFYVJpbVBRZEtvT201THM4VmUzbEdRNTBOYVFSNFlTSkdqdkRjZmZPd0IzQVVEM1BYRUFld1ZTZHRFX3Nn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 607,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '안전보건공단, “개정 산안법 현장에 안착시킬 것”',
+      author: '관리자',
+      date: '2026.02.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>안전보건공단, “개정 산안법 현장에 안착시킬 것” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZM2hIUEp1a1BnX1FFalBxZXZTeHk5ZjRUWTAtTU5fTTN6UVhuMTA4NHY4ajluSzRYYVdNN3R6bzlramJUMEVUMW9sOFMta09paTVyWEstcDJiWUlld3pnVFJleGxtamM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 608,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '상장회사 중대재해 발생 시 \'즉시 공시\' 의무화',
+      author: '관리자',
+      date: '2026.02.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>상장회사 중대재해 발생 시 '즉시 공시' 의무화 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ0ZTaGRxellUOUhGc2JrbUQ5aTI0b043RndVTUhnLWZYc2FCWUtjMGJUM0FLWk42S2lybzk0bFA3THlMQk9hRTVRR05UbTVxcE9CQlVUOVF2bDBjTVFiX2l6NGtXaXBWWDU4azln0gFyQVVfeXFMTzZqcGJaaFZBSVJuWHdoeWFzcE1sT0hHTEh6dFpCNkdEbHpMM0g0anRlWkVHR2Y5am1TUVltdXgzZWFPNmRXVEI0ay1BeXNlTUJTbmR3NGZ6b3JHSjZkaWZ4ZnZoalJrcEhiNmxLQ042ZnJn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 609,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: 'CSO 선임한 원청 대표, 중대재해처벌법 무죄',
+      author: '관리자',
+      date: '2026.02.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>CSO 선임한 원청 대표, 중대재해처벌법 무죄 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5IM0YzNVZJdTRkcjdsT0pfVUVya1FtSGc3ZUNlblVWZXo0eGowelp6SWtYYVNXdEROckdZODVMQlVpaGl0akkzbjk0WWZ2dXB5VW5iMWctbWFZY3BteWotMERqYVNfNUwwRFRjendB0gFyQVVfeXFMTV91RnozOF9EcVhEYnphQjdLTlJIZGwxNlJLY21vRFBYdW5rX3dSR1hOMjlYdkVPczJCSUdZYjdhZ3hLYURWbG8zT0pMZ3RxR0ozaGpGeldsQWN4ZGZEM21FaFplby1Fd0lGTkFOS212c01R?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 610,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '울주군, 소규모 사업장 중대재해 예방 무료 컨설팅',
+      author: '관리자',
+      date: '2026.02.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>울주군, 소규모 사업장 중대재해 예방 무료 컨설팅 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 연합뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0em1EdGxxN1pKRldNNFAteGNiNElvVHdiUTJiLUNzYnBtNk9YSnVkRTJ0bDB0NHVkbWpHd2IyLUVOQjRlcUFmeGhWTlhNX0djbEdKeVVqYmp0dmvSAWBBVV95cUxPOGttNThkNDcwWkFjSkhTUVE5SzhRdHRLNG5hZVpCX25tdXFlOVVhTVk5RjZvUEVsblVNajVpZ2h2alNKVTVPUXN6QThRSVkwMkhOZGRaZ2JvWklPUkRBd2I?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 611,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[산업안전 뉴스] 3000만원 지원하는 안전보건 컨설팅 2월 19일부터 접수',
+      author: '관리자',
+      date: '2026.02.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[산업안전 뉴스] 3000만원 지원하는 안전보건 컨설팅 2월 19일부터 접수 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 아웃소싱타임스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBndm5tcXY2LW5uSVhRMVFjTDFPOFRSb0hRcmZ2bXFpdTJRTWt5VlVIcWN5MDJnV2ZrdUJvVkVrbWphUGJWVWMyQTJ1dFlHYnAwS1FycnpfOGJSLXJDMDcxd3Q5dkNmUHo2ZVp4UGpsOVFndw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 612,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[판결] 중대재해법 1호 사건 정도원 삼표 회장 무죄',
+      author: '관리자',
+      date: '2026.02.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[판결] 중대재해법 1호 사건 정도원 삼표 회장 무죄 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE96UEt0M0dpUDAtWG4xX3NzSEdrNzhxRVBudENfRmxobjUzUVFjdDVfSHREaDM3S0lfRGZsYTRkQ1ZZb1dKQ1NPeEc0dDFQYlp4M2puNlVUWUdEQXNxWjd4Mk5NZGRHS0dsRFZlbkhR0gFyQVVfeXFMTXItUXBxMncxMFlUZVhRelhZdTdZeTVlR3QyWEFlZ0trdHVtMWVwRi1RUGliVHdoX2lJVWF6TmZNYlZLQjBsN1ltZVI0QTRpQzBwV0RvVWhaVE1weVFiX0o5ZW9kSzI4WlNIeHExbjcwZDV3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 613,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 4년…현장 변화는 ‘아직’',
+      author: '관리자',
+      date: '2026.02.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 4년…현장 변화는 ‘아직’ 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: KBS 뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TeEM4RDFyUkZuSGNnbnBQSmJ4XzJRd2lJel9ROTlfQ19HNldrVGNvLTJsT3RKeWpGS2xxNW5BcEZETXNXVHRoM2ZZVWpfZDk1VmY2RDdGQlF6Wjg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 614,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '개정 산업안전보건법 4대 포인트',
+      author: '관리자',
+      date: '2026.02.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>개정 산업안전보건법 4대 포인트 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE80UHdXaWNVM3BnQ0RxSFk1bVA4bFdVdGhPOFR1WlZTMDRvejlyQkxIY3FhNVRGYXpwaTRxd1NRR1ZQQWlKTHQ1cHdlYmFJenFTanhDcmxrZ3RvNVBrLXlsTUdjT2Vyd3ZkZG1LNy1n0gFyQVVfeXFMTzY0S0lYWXRCVGZXQTlsc29DZXcwdU1MYVZUdjZsRi1aLVZPSFJJd1lzT2FXTXJZWUQ4YkxEZGYzUmtWNWt2Tk5ET1NFeTNmVkRwT0dxSHRzNXRYd1FpREktR1lDMHRrWXkzY3IyNTJBcFNR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 615,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '산업안전보건법 일부개정',
+      author: '관리자',
+      date: '2026.02.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업안전보건법 일부개정 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5MUXV3aHpqNnE5ZWJCZHcxdHEzVXQzZ2VhVkJfaVZGcmNuRmg0YU5yN0VnZzM0Vm5sRDh5Z3ZtdHdHU2oyX1luZ3hEVWVfQ0hzSVJySndwOHNtMGlMQ3Z2bVE5LVZwSWFOc01qM2Z30gFyQVVfeXFMTkhaMnZoVXpOVms1enI1Q1hUanEtZkROajlZWUM4QmwzMTQwWDZpVkNWdEEyZmZvT3BwSFlDalh1NTJ1UHkxZEVxZDRSTHk5WHU4MF9FanEtRzhVYkhxNm1fSVZDVmx4MFRzZmNLMFZSTXVR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 616,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '김태선 의원 대표 발의 ‘산업안전보건법’ ‘자원재활용법 일부개정법률안’ 국회 통과',
+      author: '관리자',
+      date: '2026.02.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>김태선 의원 대표 발의 ‘산업안전보건법’ ‘자원재활용법 일부개정법률안’ 국회 통과 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: v.daum.net</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHUEg5ZFpNZXpWSEp5ajB6RUlzVXRzcjZSZG9hTlVYaHE2TUZ6eWVnMUFlMWFCZnN4MjdDdncxTDItSGF4TWQ5LVFnek1JZFU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 617,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 이후 판례 분석',
+      author: '관리자',
+      date: '2026.01.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 이후 판례 분석 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 중소기업신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9zT1lXczZIOUc5eUt4U3Z3U25xb2JFaU9ta2ZHMjJ3amRLNEVkT1hDM3lzcUhKbnV2V1hZME1vY0xZSGxWbmFiNVNUSnhJLTNFWkYteVlIeDlZamlLR0V4VVJPd2pZdjV3SmV5OFVB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 618,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[자료집] 중대재해처벌법 시행 4년, 국회토론회 왜 산업재해 공화국 굴욕을 멈추지 못하고 있나',
+      author: '관리자',
+      date: '2026.01.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[자료집] 중대재해처벌법 시행 4년, 국회토론회 왜 산업재해 공화국 굴욕을 멈추지 못하고 있나 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 민주노총</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE92aFBDWDJkb203dXlldzJTV05GdEpzR3BaVUVjWkRwM2xudk9YZUVYRjhXYlZXRldpOWJKcGlEc2UzU19wZmV1X2ktdlAtUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 619,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 4년, 중처법 엄정집행 처벌강화 촉구! 민주노총 경기도본부 기자회견',
+      author: '관리자',
+      date: '2026.01.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 4년, 중처법 엄정집행 처벌강화 촉구! 민주노총 경기도본부 기자회견 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 노동과세계</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1ScGY3N3JtQlpZV0huRzJTMi1pMnhhd0tWcFRaY09fUlZaclNxUF9iMXFrSHB5YnNpaFlDQ3kwZVJFbXh0YUx0QUtkbXNzRVZiMl9wZ0tnRmM0Vm5tXzhtTTNRWDd1NVVvR1hPckJ30gFyQVVfeXFMTTh4YXZ2MUFhTWszX0ZZY0lsd3dwZG5saXBIeDg1enBUbWE1WjUyYjVwenNpUU1sbmFsR0tRVTFOMHNCdlNWa1lQTU5SbVR5UlB0TUJheU9yZ1BtbmN4R3c5OG84ejFhb002N2VSNDJaWnZB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 620,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '\'죽어도 늘지 않는, 너무나 가벼운\' 중대재해처벌법, ‘산재 공화국’을 벗어나지 못하는 이유',
+      author: '관리자',
+      date: '2026.01.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>'죽어도 늘지 않는, 너무나 가벼운' 중대재해처벌법, ‘산재 공화국’을 벗어나지 못하는 이유 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 경향신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRY2hONjhRWmZhaXhvckRkWlZDcGRxNm1MRWd3UDRnWThLV2x1UnNncFRxM0lEQ21FQVhueFVZdVN2Z21VcVhyUFFPM2pCQzRweFdqT25zRVoxQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 621,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '"중대재해처벌법 시행 4년, 노동자 죽음은 멈추지 않았다"',
+      author: '관리자',
+      date: '2026.01.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>"중대재해처벌법 시행 4년, 노동자 죽음은 멈추지 않았다" 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 오마이뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9XaE92MTZYWGlvQ2d2QlZCS3ZSU2NDYUpKTnMtUU1EcnVIUlM4TS0wdWg0QWhlMTJvUG8yTHRlalZRWWdYUUtLWk1zdl92Y1BYY2pxUEtta0VTT3ZQWHA5d0gxajdBYkxEUzM3MExPSGFMRUtZSXQ0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 622,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[토론회] 중대재해처벌법 시행 4년 국회 토론회 - 공지사항',
+      author: '관리자',
+      date: '2026.01.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[토론회] 중대재해처벌법 시행 4년 국회 토론회 - 공지사항 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 민주노총</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGZnJWZHZQbGlVTEU4SnVfNl8tY2pvcDJMd0NseHh3aUtyS3BiVmlfeWNGZjI1NEZkeFE4cUdMSUZPTTdWajVNcw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 623,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '대표이사를 면책해 중대재해처벌법 집행을 위축시킨 일곱 번째 무죄 판결',
+      author: '관리자',
+      date: '2026.01.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대표이사를 면책해 중대재해처벌법 집행을 위축시킨 일곱 번째 무죄 판결 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBsWXNHOXgweFgxQzhoMmZvdGVEaWVQa3ZhUWVIUnNtUkd5bUNlZHVPSXVxWHpqMDBJbDg1bjltaC1FakJ3QjFUeXcwMnpHR0hlYWNhRHhPMjZZQjVLZ3B2OVpwcXNEVGNVZTBzZHVUeXE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 624,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '대기업 오너 등기임원 겸직 줄어…“상법 개정·중대재해법 영향”',
+      author: '관리자',
+      date: '2026.01.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대기업 오너 등기임원 겸직 줄어…“상법 개정·중대재해법 영향” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 인더스트리뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFA1M2tEUmhTZC1OQ2h2dU9TMWRMRml5OGhzTFJ4dG5KMFM3RXBVeVBlUjdBd3hrUGE1MHRvSlFRaDJjUVlmVXNkM1BRVWprODBxQlphaXlXQmVsSV9oV055ZGdWQkgyMXFXOGJaNlZNNVhYUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 625,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“‘산재 과징금’ 법안 조속 처리” 설 전 국회 본회의 통과할까',
+      author: '관리자',
+      date: '2026.01.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“‘산재 과징금’ 법안 조속 처리” 설 전 국회 본회의 통과할까 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBZZHdwMW82RUxuc2g0TFpCXzYyemJsWkhjOEdCRWFQbmFJQUJTWE10ZXVyeFdlLXJGSzZOQ1RSSms2SGpTNFRmakF1dEU1TzdFM25ncUx3Rm5ySkxUM0VyQ2RpQ0VYWldIZnFuV1lkM2g?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 464,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 4년…‘일하다 죽지 않는 사회’ 언제쯤?',
+      author: '관리자',
+      date: '2025.12.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 4년…‘일하다 죽지 않는 사회’ 언제쯤? 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: KBS 뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9heWMwMFJvWE1wQ1RuSzI4NXZJazBmYlktZWRNM3VYQ1dtNXZJZlpXNnVQRFhRbWVFOVhpZ1hKTnBudmNqZTg1R0RiVkE3MEJncWI4V3hGSFNKZXc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 465,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '2026 산업안전 정책 \'소규모 사업장\'에 초점',
+      author: '관리자',
+      date: '2025.12.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2026 산업안전 정책 '소규모 사업장'에 초점 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xaURlUDAxT3prT1g3UW9BVEN0REVWU002UHdtLWFEWHF0Sm5hNEYxRzRXdDJrSG04TFFseDFDMzdxbDBRUjdiQ0JfUEpPYzVaZmNuZlN1Q29tMVpzY1BWTHoyMzFjQVE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 466,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '산업안전보건법상 ‘근로’를 ‘노동’으로 대체 추진',
+      author: '관리자',
+      date: '2025.12.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업안전보건법상 ‘근로’를 ‘노동’으로 대체 추진 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OcE9zdWo2dzBiZkxxRFpIMUh4LXJqRFVId2o5TUFqS05wQ2p3LWlGVDVkQlhTS2t5T2pTRUtTWUdPc0xMUnRuNzYtbkV4Nkw0UmtNVXZYb0ZwQ2lQWFFoVkdWd2x6Wk0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 467,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘어선원 안전·보건 매뉴얼’ 개정판·‘외국인 안전·보건 가이드’ 무료 제공',
+      author: '관리자',
+      date: '2025.12.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘어선원 안전·보건 매뉴얼’ 개정판·‘외국인 안전·보건 가이드’ 무료 제공 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 부산일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE85SzlrekZFWjVCTHAxRWdzVUFVcXZPZnItSGFvYjdkNkhVdWhELXFDckloeGh5dThjcjNKaDYzTEVyd1Vuc0JHdEJQcXBvVXFacC1lRFk0aC1uVTgyX3pIQTdKUGdBNTBQenBiRVJaQUo0Q05k?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 468,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '산안비 목적 외 사용 전면 차단… 박홍배 의원, 산업안전보건법 개정안 발의',
+      author: '관리자',
+      date: '2025.12.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산안비 목적 외 사용 전면 차단… 박홍배 의원, 산업안전보건법 개정안 발의 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 에너지데일리</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1rbHMyQTEwRDFhYW90NHFoZjdyUm9URzUxaWpxandYd3dDR1FtNERLWGhMdHdLSnl3Z3JvN1E2ajIxVEQ3OWQ4X2k2RFpQY3pib3Z4YmpFSkZuU2VXUnFUakJkTlFTak5TQXlQbDVlSG0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 469,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중기 10곳 중 6곳 “중대재해처벌법 시행 후 경영부담”',
+      author: '관리자',
+      date: '2025.12.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중기 10곳 중 6곳 “중대재해처벌법 시행 후 경영부담” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5oaE9fYmFIVWdKVExHOVBJN1h2UGU3N3JBeDV4YXFha2U3TndvbGRCallqZ3pMR1o3b3ZfQnAyLXY4LU9FU3lvam9ScnhfZnN3YlNUQmlfUGpkbThnZzZ3cWppbkZESTQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 470,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“중대재해 전에도 작업중지 명령”..김태선 의원, 산업안전보건법 개정안 발의',
+      author: '관리자',
+      date: '2025.12.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“중대재해 전에도 작업중지 명령”..김태선 의원, 산업안전보건법 개정안 발의 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 에너지데일리</p><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFA1RjRhLU54U2U2SHA3RW9PWWFJQWRaci1yT05WdVktYTRTSlg3ZENMblVTdmNjTDYwT3pSMS1xOVNGb2pYVWxwSkVlaGE2eXpwR1FURUo5MnpvclVNeDRxQjQ5NDVEUVM4QWJQMVNMTG5Ydw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 471,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“작업중지권 실질 보장”...박정 의원, 산업안전보건법 개정안 발의',
+      author: '관리자',
+      date: '2025.12.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“작업중지권 실질 보장”...박정 의원, 산업안전보건법 개정안 발의 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 에너지데일리</p><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE5WZElIY1NCeUpoR1YwdUZHeXRlQWx1NXo3b2llV1FuaVhMbjBNM24wRnktcV9kY3ZLX3dPWU04dmdoeURfa2dyUVZpOUZBZ0trMWo0MnlhWkQ3VW5OTk9RS1c3WmRvWXUzTWU4X0tSa1NlQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 472,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[성명] 죽지 않고 일할 권리. 국회는 지금 당장 산업안전보건법을 개정하라',
+      author: '관리자',
+      date: '2025.11.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[성명] 죽지 않고 일할 권리. 국회는 지금 당장 산업안전보건법을 개정하라 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 민주노총</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ETlFzVDZFN2xfY1h0VFFuYTBwQ1hyQjIyeGtKa2JNZVduay1xZEpSWFBSbDl1a25MRklFVVVCRUlNMHNDcWV0WjhuM3A?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 473,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[근로자 건강이 국가경쟁력] ⑦\'중대재해처벌법 시행 3년\'…사고는 현재 진행형, 실효성은 물음표',
+      author: '관리자',
+      date: '2025.11.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[근로자 건강이 국가경쟁력] ⑦'중대재해처벌법 시행 3년'…사고는 현재 진행형, 실효성은 물음표 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매경헬스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9XSkU4b0VSTnZScjhIUlRKQlRzci1abkdBUUZMVkxfenpKYmNzQ0drOXBXQ2JydnNzLWlobkVsRTZSMDdsU3RYaUVwQTZzS2hSWEJqS01LN2xVdWphMy16cWJTOUJfcWRMQ0lwZg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 474,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '연천교육지원청, 교육현장을 위한 \'중대재해처벌법\' 업무 매뉴얼 교육 실시',
+      author: '관리자',
+      date: '2025.11.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>연천교육지원청, 교육현장을 위한 '중대재해처벌법' 업무 매뉴얼 교육 실시 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국미디어뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mN0xCNjJNM29ONnczRDJjQzllZkV5LVNPa0FIRi0wcVNnSGU1XzFLR3d4ekdrcmVnQzJVb191RGw0VFVHdS1xQ29FRTdJYU9yT2pWanNCOHVkNWJUS0Z0T29kM05YUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 475,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘안전보건공시제·재해조사보고서 공개’ 상임위 문턱 넘었다',
+      author: '관리자',
+      date: '2025.11.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘안전보건공시제·재해조사보고서 공개’ 상임위 문턱 넘었다 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1QOVhTZ0FkbFJiMHQ2NEZHOHNJVm9RQjdHMHRCdnBUM2gwRjBtVDM2X1pDVktoMmJud25EVndPdzVJVk0tS0pwRl9BRmd1aUlJSUhrTXNRQkoyLWdrTnRJNXpEeDhpWXBNRkFRbkpnY3Q?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 476,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“위험성평가 미이행 시 처벌 강화”… 박해철 의원, 산업안전보건법 개정안 발의',
+      author: '관리자',
+      date: '2025.11.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“위험성평가 미이행 시 처벌 강화”… 박해철 의원, 산업안전보건법 개정안 발의 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 에너지데일리</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5XTDNRQl9QODNzTTNsX3NGS01HcWkzRHlzb1VnVzRWRVhrOS1xODViQkRONDJSRDZ0OFRBa2hfM21yN0YtRDJxYmUyY2JzSkpPeW1OZTJWbUlYOFZ6OFN1TzJFZnhUdXhicTZhU1RTOEo?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 477,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '명예산업안전감독관 의무 위촉 추진… “노·사 참여형 산업재해 예방 체계 강화”',
+      author: '관리자',
+      date: '2025.11.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>명예산업안전감독관 의무 위촉 추진… “노·사 참여형 산업재해 예방 체계 강화” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 에너지데일리</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9tcjRWWk1GcG95WnFFbkpudU94LWRyeS1zdVZBWWpDcjdpTEE2MWhkd2t2LUY4SkxWdlFyOWF3N2RURXA0aV9kTFIyaElrQ0JLLU5OaHVqSjAyRkNBSlgzbGJGZzBLVkpjMjB6d3hoMzQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 478,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법에 따른 사업주 책임, 갈수록 무거워져… 사고 발생 전 미리 확인해야',
+      author: '관리자',
+      date: '2025.11.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법에 따른 사업주 책임, 갈수록 무거워져… 사고 발생 전 미리 확인해야 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 로이슈</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTFB6cE1YS0RBRXFZNlluUGJvM1huZ0dvWk1GX040QkxWR0Fmck1oNXUwX29pcUQtY1ZBNzIxWWl1SVpySkdyUV80MU0wckd2TzF3Zk5PU0xqUTJ0LXZ6Ti1VZUZUc0NPOUxwdHBrZWhRS0JvV0VCaHM4SHJ3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 479,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '용산구, 산업재해 예방 앞장… ‘관리감독자 가이드북’ 제작·배포',
+      author: '관리자',
+      date: '2025.11.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>용산구, 산업재해 예방 앞장… ‘관리감독자 가이드북’ 제작·배포 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 핀포인트뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFAwRjk5eDQ1cHpHOURmdWU4c3g5RDFuaWkwQk1Pb3hhUHBYbUZrMW4tSVFUZFljc3dZS1ZkNUd3LVh6bEpJbnBMVkVvT29BSFBDN1JCTkF3QnJvcnl3cW1CM2x2SDJ6SzY4SWQyZjQtTklBNk3SAXdBVV95cUxOZm9JRkR3QVJFdU1ib3RHZDFIS3FRa2xHbjlULWx2b0pxWk9XODVwdDhvelBGMlpzblJPcjJBZV9SOHVVUkxtZ1NTc3VNTEZnLXBBN1ZzZDZoQTlhSGk0WFJpVTI0QmxPRERlbXdHcUpVU2NQMnpFTQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 480,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해조사 전문성 강화…‘산업안전보건법’ 개정 추진',
+      author: '관리자',
+      date: '2025.11.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해조사 전문성 강화…‘산업안전보건법’ 개정 추진 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 에너지데일리</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBzaXJ6ckFkMFFBWjRPOHVMSXd5RDVjY2REV2x4MHoxejU0ZDVuLURkUjhCYnVHaFJYcHdFVGlxeEFpSmRJb2FGdGtYUWc1YWRLVFZwSllpMU1nelJaeFFRcFAtcm1VangtUjFXRndWQ20?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 481,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘산재와의 전쟁’ 따른 산업안전보건법 개정안 무더기 발의',
+      author: '관리자',
+      date: '2025.11.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘산재와의 전쟁’ 따른 산업안전보건법 개정안 무더기 발의 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 아파트관리신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWR2NvZXlFS1VDNHFYTzl4MmhQODR1QjZLeFY1bEhLZG9IcnNfNjR0YTVVcWlCQmJKTVc2eTJDT1NuV1daOGRLd0FRRGJiTVo1Vng2OHlqdkRQSUZhSGZ4dS1uZkQ1S2vSAWtBVV95cUxPVFc4cEFKVWhYX0pKS1ZHbkRmelkwZjZrMjRHZDJrdURYMnFhZThjTHZHaElBMzRJSElGcTFaNjhDd19QLVVSLTV2QnR5eXlGaWxDOXNHd0FZSEwwT19kNEVpb2xwVVFUdzhfdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 482,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 3년, “안전 투자 늘었지만, 재해 예방 효과는 아쉬워”',
+      author: '관리자',
+      date: '2025.11.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 3년, “안전 투자 늘었지만, 재해 예방 효과는 아쉬워” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 물류신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9ORVVjUUhfUXRGVTVVZDVUVURZZnFzT2YzT1AtbURxODNHRkNyTHgzdS1ZcG5WcW8yeDVUZjcwd043TEFVME81MUg4d25WY3hRVG5yQ3VaQ3VoZktwN25rT3ZpTWlNWG15TEow?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 483,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[김민승 변호사의 국가계약 이슈] 중대재해 발생 시 형사처벌을 넘어 입찰제한까지 (국가계약법 개정안에 대하여)',
+      author: '관리자',
+      date: '2025.10.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[김민승 변호사의 국가계약 이슈] 중대재해 발생 시 형사처벌을 넘어 입찰제한까지 (국가계약법 개정안에 대하여) 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 정보통신신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zdE1Dc3ExdTZNU250b1hEYjBrWldzZzdqZGhPTWRRalkydkl1dWF5Z1lrTk83X0lNMW9HUUxlRER5UWJySUx4cjFVN3pPOW10RkIzNUpER3VEd3E0ekQ1VU1XZ2JGNG1R0gFsQVVfeXFMTmtaZlZKeGRPNFQ3Q2xnVGNISlg3b0VzeEgtYmIxNldaMXFpWkhXa0t4MUJXVDdjY2kwSGxyTWJ6cEU5TU9sYUQwZVZjZWxKci1lc3R1eGU1akdaeDVILVppZlUtQTZmdTlfVWhf?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 484,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '작업중지권, 노동자 참여 실질화 산업안전보건법 개정 촉구 선언 운동',
+      author: '관리자',
+      date: '2025.10.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>작업중지권, 노동자 참여 실질화 산업안전보건법 개정 촉구 선언 운동 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 민주노총</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uTzRoRV8tT3hQeDZEajlvVGlWa1huM2dkQ3pYM1lvMldBV2l5QkZqNm1HT1Z3aTNQQUt2V2VJQzlNMUJiMVJRUg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 485,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '입법 취지 달성 못 하고, 산재 책임자 처벌 효과 낮아',
+      author: '관리자',
+      date: '2025.10.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>입법 취지 달성 못 하고, 산재 책임자 처벌 효과 낮아 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: economychosun.com</p><p>원문: <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE00czUzWFNmbDE0dVFaU09Pa3d2cy1Odm9ZQ0VDNWdTTVU0bTJHTFZOYmg1LXBuZnFtbUEydVhTdHYyZHAwcUxLbm5fTFpFclVJeDFESUxCTWVrQy1EaHdmSnNWbC1WX2RWMU9EcWY0NzVqN0lSVDUwTzNQZUVLQUU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 486,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 후 최대 규모 사망자가 발생한 ‘아리셀 참사’ 판결',
+      author: '관리자',
+      date: '2025.10.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 후 최대 규모 사망자가 발생한 ‘아리셀 참사’ 판결 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9QN3hNNWFUcFc0dmlGYlcwekhOR1g1QnlGZlVuRWdmYmJ3WjBObU5oRlpNQ25MTGs1UzctcGk2V0VKYmI4a1U1b3JQTWJUR0xJRkJzUERabkpKaDRmakE2cVJwZVBMU1hEcTl5ZGhxYVo?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 487,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해법 시행에도 재해자 수 오히려 지속 증가',
+      author: '관리자',
+      date: '2025.10.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해법 시행에도 재해자 수 오히려 지속 증가 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DazgwWWpmQ2dPOVJxaHFXUW0zalJGTGl6Z0RKN0o2OXhvcHZ5NTRaOWVWVzJiazNBTUhFS0dqRWt4TFN0bmozWTZXM0c4b1I5dlRrenF4Q1NpYlJ3MHJhZjBTcW5OaVE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 488,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해보험, 약관개정 시급',
+      author: '관리자',
+      date: '2025.09.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해보험, 약관개정 시급 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국보험신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE05Mmkxam5MdWQ3YWxvb3NLXzBqMkZOZXl4MXRtREZxZ1RONWZfQlF2LWVSZ25HNDdKUy1vUFZmUHA1c1l5ZzdCVFQyRDBEbzVXZ2VmSThZbl9JajVMMGF1RmZPT1pPMjdTU2k00gFvQVVfeXFMTjZLN2ZwbWNjdWJfTjJIVmNjQ0hSYzE2LWFybktXVVV5bnkyVWdXbGRTRlZhb1dqdS1IUlhWdlJKc1JHTTZIOWl4UjhqUVNabjllSEZqblpBTzBlZ1JvcnlmLWpwTXp1SWZHVWgtdHZJ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 489,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '화성특례시, 중대재해 예방 위한 안전·보건 매뉴얼 개정·배포 공공시설·산업현장 안전관리 절차 담아 현장 활용도 강화',
+      author: '관리자',
+      date: '2025.09.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>화성특례시, 중대재해 예방 위한 안전·보건 매뉴얼 개정·배포 공공시설·산업현장 안전관리 절차 담아 현장 활용도 강화 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한스경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5TbzJMcm5ma2haMmFCNS1kRDlXZ0ZUTmZZemlkV0w5ck9rYTM0WXRZX1NJRTlBcWJpdVFfdnpmdldreldYMXp4akNNWGpkcHNtOWVqbl9IWDQ5WGoyczUtR3pkV2tFSjdlV0VR0gFvQVVfeXFMTjlDVkhxcDZILTFwZmRwYkY5ZkI3dTBxMGlITkNwTFJHX3dOMDVON1Q4Zl9sWGFQVF9xekFDWHdYNmZ6TURBMWhJcEg2c0lvMU5KZ0hKcjhDVEFPU0MtM19YYjNDU19fRUtna2N0eDhz?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 490,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '산업안전보건법 개정 발의안 동향과 쟁점 (2025. 7. ~ 8. 발의 법안)',
+      author: '관리자',
+      date: '2025.08.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업안전보건법 개정 발의안 동향과 쟁점 (2025. 7. ~ 8. 발의 법안) 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1ET3JLNmZpTy00UFhpTTFuWTA0Rnp1YlFxcC1oOERTWW1IWEFWamNjRGlvcFFvbFc0WVZLZ3dXWlRzVWlPMXBFNk55V1VxQ1U2TlJqcUFleTJXMVo1SW5VX0t5UWNpeUNlQWM2OEtn0gFyQVVfeXFMUGVxV2JTckw2bmlSdzIzR1dBMUcwUlFPU3NxVzJBbllDcFV3UkxiODNOd3VrWG1ya28tR2s5bWFkMTJ0dTF5VThPNGt4dVcyWlQ4WHk4OGdHeWYzYkZ1ZHFjVl9mT1NQS3dZMWNtY3ZsZVBR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 491,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '대구시, 중대재해·재난안전 담당자 실무교육 실시',
+      author: '관리자',
+      date: '2025.08.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대구시, 중대재해·재난안전 담당자 실무교육 실시 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5VZE5jMGV0eENtRm9EOXNfN3V4a1h1WDV6djhWWWNwRkREY3A1TUhXOWJEaXdlckZ0by1mUW04NFVlUkdWbnNmWEpUOUZxdlFRUWtKX2xFTEd6Uy1kTFBjc19MeHdaTnFsNkE3R2ZPakQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 492,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘산재와의 전쟁’ 선포한 李, 다시 ‘뜨거운 감자’된 중대재해처벌법 [옛날신문보기]',
+      author: '관리자',
+      date: '2025.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘산재와의 전쟁’ 선포한 李, 다시 ‘뜨거운 감자’된 중대재해처벌법 [옛날신문보기] 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: sisaon.co.kr</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBtZXcyQVhWVW5BVzk2aUVvLWNUcHBaVTJLaWhxUXV0RmkwZ0s1UTdLRGtlb2pSenBYWDdsLUZxTWw0azBnaXFYZGdzdnZ5ODFDdmphYkY3YzZVMk5adzZMb0NpQ1NtUnRCOTd3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 493,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중처법 3년, 산재는 더 늘었다…李 정부 ‘엄청 처벌’이 산재 줄일까',
+      author: '관리자',
+      date: '2025.08.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중처법 3년, 산재는 더 늘었다…李 정부 ‘엄청 처벌’이 산재 줄일까 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE44OHA0UmkyTkNNZU8zQWlxN3FfTUk5UUcwOEJJMWJTMzFFRzdnbi1qcHNkWndKNHBsYkhHNEIzWnlNNmVVSUh0V3ZXVmFzNHhUSUhkT2NtWUMwS01nVFpKRXhtUk5WYXhtdk11Z0VLYw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 494,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[앵커 브리핑] 중대재해처벌법 시행 3년 지났지만···이재명표 중대재해 예방책은?',
+      author: '관리자',
+      date: '2025.08.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[앵커 브리핑] 중대재해처벌법 시행 3년 지났지만···이재명표 중대재해 예방책은? 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대구MBC</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGakpWVzFvVjJ5N1JOXzluektZYVcxWC1xYlVVdjJzdENkaUltNGFyRnV4S0ZoRklRN3JPZElCcHNBRkdHMFE5ZmdZM2s5X1BoTlRvUy03VEFiZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 495,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '\'산재 엄벌\' 李 발언에 관련 입법 속도내는 與...더 강한 중대재해처벌법 예고',
+      author: '관리자',
+      date: '2025.08.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>'산재 엄벌' 李 발언에 관련 입법 속도내는 與...더 강한 중대재해처벌법 예고 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 뉴스핌</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZOXpMZWI4WjlLclBXVVIzdDRDSWNUenJSZnpsdWFtc080TDlQblNTdE1aTWR4NlV5blYtQU9YeW1ieGtQSjVWNlI3dHU0ZUpxd2h1OFZBdDlwbVBE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 496,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 3.5년, 재해 감소 효과 없고 현장 혼란만 가중',
+      author: '관리자',
+      date: '2025.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 3.5년, 재해 감소 효과 없고 현장 혼란만 가중 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 뉴스1</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DN0taZGFaYU55MmFTZVNVMmFyQWlHbi15cUJJX192eUM2TWZyaTZndmx1anVETTdGRVRSODdqckJ1NzVlb2h0QVRCN1dUaGIwZU5nM2hCV013dElVSzRzdnJoTEk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 497,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '\'폭염작업 시 2시간마다 20분 이상 휴식\' 의무화…17일부터 시행',
+      author: '관리자',
+      date: '2025.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>'폭염작업 시 2시간마다 20분 이상 휴식' 의무화…17일부터 시행 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대한민국 정책브리핑</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBTeGstbDN2b0tkMW5PeGtWSVBRaVNsYUlYWGVSWmRQZGJQWTkwcDd3NXVsaENBNG42MzE4bFRScjdmV0hIbi0zY2pEZENoN0lZMWpFSEFPM1VMcmdsa0FyQjFZNlZuTGV3SW9yLQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 498,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 3년…개정에 나선 국회',
+      author: '관리자',
+      date: '2025.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 3년…개정에 나선 국회 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 네이트</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YM2Fqa19KY1VvRTE3ZzNXUXl3MGJ4M0ZnS1ZBOGtwN0JPbHR0aXRaS1B2eHgtQnc4SU1aSVI5bTNRSTdldWo3bjZtX0xPd0d0Tklv?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 499,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '경총, 원하청 협력 안전관리 가이드북 발간',
+      author: '관리자',
+      date: '2025.06.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>경총, 원하청 협력 안전관리 가이드북 발간 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWS1JYWMzOUhEWURsNVlocWU2R2ZFbG5IWEM3bFBzdVE5QlF6amhhZDgzWXBKU25DRGY3eFRsaXBzNXkycTBNZnl1MHdZNEs3Y1JJeUR5OVBlcUJMZkJmUThGRXF1QTgwa1RLZENSb3k?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 500,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[중대재해처벌법 3년] \'강화 vs 완화\' 21대 대선 후보자별 입장은?',
+      author: '관리자',
+      date: '2025.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[중대재해처벌법 3년] '강화 vs 완화' 21대 대선 후보자별 입장은? 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 비즈한국</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDQkZxVTdOTDkzX19jZHM3NWtqTVFOZTZkUkZqUDBKVGZDY3J6amZuU2MtTzJ2THlLVGNmSVBVUjdaQVFyci1DOTFPNkhKMmZrOWNfeDBB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 501,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“중대재해법, 처벌 대신 예방으로 전환해야”',
+      author: '관리자',
+      date: '2025.05.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“중대재해법, 처벌 대신 예방으로 전환해야” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4ZHh3SmZJaGhRbzZLRkhtSUxfYUxpNEljYmpsS2ZlSERBWW9jWXU3Y1BfbzIyLXVmcHY1d0JkemZVS2JmRmlGdHlOOWNEZ082aGF4eDZnM25nOF90QVp0WmNtcUxsSW8?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 502,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '김문수 "중대재해처벌법은 악법, 노란봉투법은 위헌…모두 고치겠다"',
+      author: '관리자',
+      date: '2025.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>김문수 "중대재해처벌법은 악법, 노란봉투법은 위헌…모두 고치겠다" 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OdDJINHFjbm83bkNvZTYwVDY5R1J4TWtFV2NzNFVGUkVvWHZjdEM0SUhXclpCVFlGX3M1MmxPZ21scThRSjZOT2JiMllLVTFWM3llZkdpYjdDQdIBVEFVX3lxTFBNc09HUktJcTZXMFZBUGJqeTBxRDZvZjhmZGhEamFQeHBDZV9mMEN4TU9jNDVGMHhnNTdfeWRvcWwyOWZSYWFvQ3hxSllPRTBRNHNvbQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 503,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '사무직군 영역으로 중대재해처벌법 확대적용',
+      author: '관리자',
+      date: '2025.03.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>사무직군 영역으로 중대재해처벌법 확대적용 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1vUG1rdVFVQlRsN2ZCZzBDQU43Rlkzd1JaSHpXWUgzTmVEcmxFVGN5UmF3eHZmRVg2Mjd0elRoRjJOWG5WalYzM09wRTR2SGRRTjY3VFVHTldPa2x6a0hieDE4dENoWmpMRTB6UHNR0gFyQVVfeXFMTnJVeXFFTk4tUGlUcFpsS2NDTGRacjdVUmFuOENsbEJocGtVcW1rTW1sT200REtfS19pZTV6S1F3cGRJNXlqRFN3Y0EwaFlFMll0R3c1TTZVQzM3X2NZdmViaW5MMDNIVGRhdkFlUl9nZm9n?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 504,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 처벌·기준 완화 개정 움직임에 노동계 우려',
+      author: '관리자',
+      date: '2025.03.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 처벌·기준 완화 개정 움직임에 노동계 우려 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 경인일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zQ2pGeGE0OXA5aVlkaHdtTzR0YWxyVWdhanYwbmllcXl0bk5UdHV1Mk9LMkxBRTVvYVA3VXV3VXc1ZlNfa3oyN044b3QyTFlCWlE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 505,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[책소개] 중대재해처벌법: 해석과 입법론',
+      author: '관리자',
+      date: '2025.02.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[책소개] 중대재해처벌법: 해석과 입법론 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 환경일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE81VDRFSDJMVHI2M2hTVDkzZERFS3o4RDRXNHNuRHNJUEt1WGdreFNFVGR6UkF6b0hkOEdjOV9KSmZJR1N5NERsQU12YmxQOWhGcGdDRloxVFZTdDNHYzAySmRvdC01Y2JF?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 506,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '순천시, 중대재해 예방 가이드북 및 매뉴얼 제작',
+      author: '관리자',
+      date: '2025.02.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>순천시, 중대재해 예방 가이드북 및 매뉴얼 제작 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 파이낸스투데이</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5FLVJlMUtPdnFRcXlzVDJaUFZjN01KbjdzR0JVWm5DMm9wMWlYelBmSVdqbzJzaUpkOTNxQjctbmQyRUdSVWZVclVNVDVTdXN4U0V0VTFxY2pfTldtam1Ja05Gci01NUc4a0dEZA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 507,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '대기업과 중소기업 안전관리 예산 1255배 차이…의무이행률도 차이 커',
+      author: '관리자',
+      date: '2025.02.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대기업과 중소기업 안전관리 예산 1255배 차이…의무이행률도 차이 커 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5UTHk1cTd5OTIzRUpYUXFjSTFTVlprU1J2aWVnbkZiel9qX1NvQW16MV90VVphQmI3SjJjLTJYS3NGU1N2aFZjbGR0cjJMTnMzRHF4bGV5aFQ2MGZYSnZCSVh6V3lPckZEeVE3WWNMSQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 508,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 사고 예방 효과에 노사 모두 ‘긍정’',
+      author: '관리자',
+      date: '2025.02.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 사고 예방 효과에 노사 모두 ‘긍정’ 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBuYzhQT1JTTmcxeENXSDFJX2VDb1NRQzA5YVAwcEctZ0xtS2ZNTU00cm94cHNYc0tCMS1XaWdHU2UyOTRHSU05Wng0TmdyTzh1QnJJeW9rX0dYcGtBSmR1d0RJdGNKalI3V2RRNlVCSVE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 509,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[서평] 입법과 해석을 아우른 중대재해처벌법의 지침서',
+      author: '관리자',
+      date: '2025.02.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[서평] 입법과 해석을 아우른 중대재해처벌법의 지침서 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1CLWxhYnNxUWxsME96czJCMVM5UzBhbl9EeGswV3plS2ZLeWtKRGI5dnRRNGx1Yzl4UlBJdXdualh5b3BxaVdpM29yRmdjZkNDZjVjdWVRMERLZmZOX1VET25JZFAycUFVRVBGY2lR0gFyQVVfeXFMTTFBWmdOVkM0bnJqdy1HUzZrVzJNdWpaSURoMHFiODVxbzVRVlR4dWpmV0xLYWowR29CNHZaRnNJbEt6SUZUZDhWQzVvaVROQnppMUZkUXBEMVRjQm83RzdDRVVQZl84UEwxTU84cGo3d1JB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 510,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[특별기고-조희태]적격수급업체 선정을 위한 안전보건수준 평가의 시기와 방식',
+      author: '관리자',
+      date: '2024.11.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[특별기고-조희태]적격수급업체 선정을 위한 안전보건수준 평가의 시기와 방식 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9kMjJUaG5FT0JnWlNqWEctM2dqcWxOZW9uaGR0SlBEV2JZb001WjJVeU9sWWlYOEVPT3Fmc2NpVWttLWlydE01U3l6ZHVhUWZrRGYwT3RJa21VQ0p6SjBNNHJpT1V3RDlfaFJHU0tKdzA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 511,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '교통사고와 ‘실질적으로 지배ㆍ운영ㆍ관리(또는 그 책임)’와의 관계',
+      author: '관리자',
+      date: '2024.11.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>교통사고와 ‘실질적으로 지배ㆍ운영ㆍ관리(또는 그 책임)’와의 관계 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQzdXSmM1emQyem5rWURLMmZDcFhIOTZ6c3dYZlliWHVpTnZfT2s3VGhCNkZEUnVuclItVFhJa29iLVNFRjVWZjNIeExtR2lZYl9BRnNJRXVHSWhJZUJoZGdSNDdldTlaOU9kUnUyZkE5d09VSDJKWFQ3NmNVM1c5Y2ZYRE5rU2RjY2RGMHVDQVVuU1VkekkzV0x3OFNRcGk0UW44ZmZDY0xWQXh0S0VfYWNRT21vOWVhQ0d1NFhiM3cyQk9obFFfZGlmZF83R3JYeWdMTFo5UHdxMXpwVERwYQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 512,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '건설업계, 중대재해처벌법 大수술 건의 착수',
+      author: '관리자',
+      date: '2024.11.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>건설업계, 중대재해처벌법 大수술 건의 착수 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대한경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9jYUxWV3JXMXlUTVZRMjJSRUFjSFRiWWJCTnZBSnBaUV95SUIwRFhzcnlJWjdEcDVQUllsNGE1dElPS2ZKX2JtaTIyd040YzJGZXFRUjkzNXJsSXIwTHdUT1JTUnp4V3VibENUX0JzTVE2OFdk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 513,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '김영규 대륙아주 변호사, \'중대재해처벌법 해설-중대산업재해 쟁점과 사례\' 발간',
+      author: '관리자',
+      date: '2024.11.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>김영규 대륙아주 변호사, '중대재해처벌법 해설-중대산업재해 쟁점과 사례' 발간 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE0zeUQ1NjF5MDJ5LXlQVDI1bUdnM3kzRFoyMlNtakRPcHZCT0pMV2JjU3I1UTB2bk9ZSkNzXzl4WElBNG50dzgxVDdFZFhaaWhHZ25XbTR3NHBoU0V0RTVQOTFKT1ZoUWVWOWZVcEJ30gFyQVVfeXFMT0tUeEhwSGxNNUZYd0J2VHlHQTduWVJTVG1TbEdRcEQ1cDV5czg0R1RWVzRPak9Na1EwS2NwOW0tTHdHeVVlbjR6cllSVGxmYldHX2x0TG1mbWpZM0FYNXZTSDdTMHBsQ3VuZzRGcnpEWU9B?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 514,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법상 의무이행의 범위 : 기업이 알아야 할 것들',
+      author: '관리자',
+      date: '2024.10.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법상 의무이행의 범위 : 기업이 알아야 할 것들 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnRldFNsT1hkdjRHYWVUZ1gtM0ZuWkZSUTRIQk12V01KTWRiUVdaTGtWU002WW5DWXRnOS02SnA2ZGFqQXVnLXdZcXJmY2M1QUhERHRMMThzLVI3bEtjSENLRE9vT2JJenRzYnlqYy1oV094NDVWWHRyNEQzOXVxSmpmcm5vM0dMSWxlTjV3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 515,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '경총 “중처법 위헌성 多, 실효성 無…법 개정 서둘러야”',
+      author: '관리자',
+      date: '2024.06.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>경총 “중처법 위헌성 多, 실효성 無…법 개정 서둘러야” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1UQUZwS01tQm15QzE0dzhXc0QwM1k5eGp6SVZBdm9rVU95ZVdUUW5pS0FtQmVWVFoybDhpTWVQUTZOY0w1OWhnTG5UWXFxVE81UlFpdlVmZmh6VWtFZGdLZXMtcjM2dzIxdnZkRFl0RQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 516,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '"중소기업 중대재해처벌법 대응력 제고"…경총, 매뉴얼 2종 발간',
+      author: '관리자',
+      date: '2024.06.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>"중소기업 중대재해처벌법 대응력 제고"…경총, 매뉴얼 2종 발간 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 서울경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BeGpwUFFUdmpGbDNZUW9BUld6SGZlSm9LQXZkOXMtUFZnbi1yb3k2Wk8xUVpzM3JlMUE5dGNhLWVwVlNpay1pQnNQOGxtVXpoOVp30gFTQVVfeXFMTUF4anBQUVR2akZsM1lRb0FSV3pIZmVKb0tBdmQ5cy1QVmduLXJveTZaTzFRWnMzcmUxQTl0Y2EtZXBWU2lrLWlCc1A4bG1Vemg5Wnc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 517,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 명칭, ‘중대재해 예방법’으로 개정 추진',
+      author: '관리자',
+      date: '2024.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 명칭, ‘중대재해 예방법’으로 개정 추진 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00RE9ZLTZNeVZkV1FKYUpPTFA2cFhYREJaZGcwM18xTXctUlFBY3NQNE5SeEFWY3BvbEtLc0hIMmdBNEx2R0ZxanJrMGxBQ0NzeHpoVXRGWWZSaGd3N3BMakI4ZXF3YUU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 518,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해 예방 및 대응 가이드북 나와',
+      author: '관리자',
+      date: '2024.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해 예방 및 대응 가이드북 나와 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9RQWZrTzVScWRBbzFmTUwyakpYby1XNmx6T2dMREo4b09neW9KbUNYdGFkNWU1b0FHQnFTVVhpbTVHckgwTlk2Yjc1YkJQTHZLcGJHbEt0T2ExVS05dklwMTJQNFZVcS1MWHZYejFFRng?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 519,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '고용노동부 군산지청, 안전보건관리 가이드 간소화 제작',
+      author: '관리자',
+      date: '2024.05.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>고용노동부 군산지청, 안전보건관리 가이드 간소화 제작 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 뉴시스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CVEFETkw1Zkh5S19TdWpoSkN6SThkRDBZbFB5d0J4Y25QY1BtVHJSU2dIOUV2eVNCcWpzU213cFFiSG9vb003THdNbURnUnhfMkRzNWZwaHJMR09MN1lPYtIBeEFVX3lxTE1zMVFrOVYwUF9nUzUtYTRLeXppdFJ1VUxNVTQtQ2l1eHU4aFFBVEkwUnl3VWF1cDVBbzZ5ZHZINlNScElhUGZMMkpzOWJpRnd2bGs2Mml0TTZyMFhaTW1NLWh4UFQxZFB1ODdaWVpaVUR0bTZrUXd3Vw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 520,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[산업안전 뉴스] 경비청소업 등 간소화된 \'업종별 안전보건 가이드\' 배포',
+      author: '관리자',
+      date: '2024.04.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[산업안전 뉴스] 경비청소업 등 간소화된 '업종별 안전보건 가이드' 배포 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 아웃소싱타임스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1HTDItZXJaYjgzYVFNdVhaSC0zVF85Sy1YVTdmajV2NE1aTEN3djI1aHhZY0NIZ1VFQ1hkNEMtdGoyTURNUjU4SWdDUE9nZzZobkJVZGhreW8zYmZHbEt3emh3alF0MkRmRTdVRkp3SGQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 521,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해 예방 ‘막막’ 작은 사업장 가이드라인 나왔다',
+      author: '관리자',
+      date: '2024.04.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해 예방 ‘막막’ 작은 사업장 가이드라인 나왔다 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5mUEVaVjNJZi1RbUp0ck56YUk5MlZRWkNSRXJneE0yMEItZGJxTjJPSEFicnlqakE2RTR1dDg1Q0hBT0NVRzhRTHpVVDlUeG4tQ1R5MERZMVFzMGltbG9FOTRlLVd3UVZSTTZES1hiZ1o?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 522,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[HOT ISSUE] 1월 27일 중대재해처벌법 전격 시행',
+      author: '관리자',
+      date: '2024.03.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[HOT ISSUE] 1월 27일 중대재해처벌법 전격 시행 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: igasnet.com</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kNGpQakg0dXdEY3JnbUNGWGFGbEZvdlhNYld6V3c4NDR6U2tkaWxCUjJfVFRJMnJtd256RFBWZGFQZVNOdGs3SnNPd2JsbGNOYTEzR2ppYkJEUE5LRjlGNHczN1NlZ2FI?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 523,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '산업재해예방 가이드',
+      author: '관리자',
+      date: '2024.02.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업재해예방 가이드 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 세종특별자치시청</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQNDh2OEdkUU5obk1XT1AtVlJZcWpKUzZOVEJQcTJVTXhPdmtuUFI1ek9VczJCOTZRMG1SYmstYmoweEViTUZMYy1Ra05JaTRId01uYmUtY2ZRZFBaT2laRWVlTFNINm9ucndicXNpZllFQWZKN3R5cUpJTUpQNUctTlRveENtQ3dyRk9Mamd2cXBpTVBONFI5Y003R2lfT0JOTnZUVmIxTjlWNHllOTVjSGFibWMwa25Wd0NNVFN6S1phYUljcmlDRm1Ecw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 524,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해 처벌 등에 관한 법률 시행 2년 분석 및 시사점',
+      author: '관리자',
+      date: '2024.01.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해 처벌 등에 관한 법률 시행 2년 분석 및 시사점 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBjSWR0dTdOM3NFbEwwRVF0Ri00b2pMcmJmd0VSSVpxc0dKaFFNNWR1c01leU8tUzZSTFMxVkp2NnEtallKUzZSTVZUTFgxVEJxV1RELWpHY2FSdU4zU1gyT2ZXMUdzd0VxN01QUGF30gFyQVVfeXFMTlVtbU1JcldTU1FCU2hjMGVoOU00X1JQU003dERPTGQ5bkI1OG5ocTY3dE1LM0JkUWdwWlowZjNSM2ctNVJaLWxvYmt2d1ZlaVhQTlc5UmstR1N2YVB6QU54UlotOFlWSXUxVElJc0VLeW5B?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 525,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '대통령까지 나선 중대재해처벌법 적용유예',
+      author: '관리자',
+      date: '2024.01.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대통령까지 나선 중대재해처벌법 적용유예 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5taGJDLWtzaTVELTlBbDFXenRHODNZYVV4b3ZodTc5MEp5Ym03OXVUSTI5a0pmbGw3MmZ3V0ZmU09WZ3h1SWQ1WXB2TXdwRGRXaF80ZDk1cXRENFJrYmpNQV9OX1R1VWozdV9xVFh4Qlc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 526,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '\'중대재해 스마트안전 바이블 2024\' 출간...중대재해처벌법 완벽 대비',
+      author: '관리자',
+      date: '2024.01.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>'중대재해 스마트안전 바이블 2024' 출간...중대재해처벌법 완벽 대비 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 뉴스;트리</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE43dkpfT0lwenN6dXlGR1ZJVjZNdFFndHNJTFd2bkVvVFFDNTFicDRMNWktWVRRX2hHYk92Q3Y2OE1YLWQzdkhVOHJvbHQ4c0Nwd1EwSWNQSjBZb0lm?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 527,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 ‘적용 유예’ 안갯속',
+      author: '관리자',
+      date: '2023.11.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 ‘적용 유예’ 안갯속 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBUaldQSGhjc3U4R3g5aUE4LVJCdWhkeXI4R3huaXRCbTU5QlFaOWZySmtWZFpVZXZFRG5ORzRNaWUzM2tnbTBQUTV4cFNydEhUOGtJQ3hEVzBxVkN6WG1NUkNYN0xwRVV2ajJmS2xfakM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 528,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 개정 논의 ‘더 늦출 수 없다’…실질적 대안 마련해야',
+      author: '관리자',
+      date: '2023.09.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 개정 논의 ‘더 늦출 수 없다’…실질적 대안 마련해야 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 전기신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE55SmVyNnE3YkRZd0Z6VlVNbjVIdV9qWlVSMFEzbzZQc0llQ2l6T0Zady1XQWhRLXd6ZlM3MlFhdUhKZWJ0NUJQcTNiU2NBY1ZsQ2lPQ0JlaDlNbzZDTzJmdGdwSzZfODBwRTRBddIBcEFVX3lxTE5FcG5LX05naWxGUm5FaEpXbEE1ZFhCcFBUOVhKWUVkWm1ISTdCQmEtUzJwamVTSlNBWXBBMnQtZUVVTDVxVmxkZk9rVjNSekJ3U1FFSVkwQmFTc3F1SVZUNmhDWmRfNmV0TXprMmxPOWE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 529,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '지금 중대재해처벌법 개정이 필요한 까닭은',
+      author: '관리자',
+      date: '2023.08.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지금 중대재해처벌법 개정이 필요한 까닭은 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9YUEhXeS1FS1l0T2szRjJiMFl1XzBNMzVSdzdvTXhLRTB0M3pSdnBnSUhfRGRuazlabmd4dGw0MG9zZEYxRGJZT2RyTGxaaTFTVjRBU0wxSjM2T3JMTjlfbHgtWlVwbTFVRENXSGh4dkI?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 530,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘오송참사’ 중대재해처벌법 적용될까?',
+      author: '관리자',
+      date: '2023.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘오송참사’ 중대재해처벌법 적용될까? 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFA1cmJTc1pKVXdINHNvZGU4NmZJTEJKNEJoNWc3QjNETVYtOVVYSnFiUGtBZ3BCbE1FYWZNdUVQWjgzRW5YUGR1bGtTYUlhRjI5QWY2Qm1iYXV3U0NtaGpmX2xYYTN2UHRPVHF6VndB0gFyQVVfeXFMT2swbjFyc3VBaC1Oa2xNamFxWGhnLVpUVjJ1M29KenR5U3A0cTVqOG1HYVdmMEczclhMaTUxaHlKN2ktNXMzUEFYYVNYRkFQdHMxY1hNaE9mT0Q2UWRJeWlUMUlHX0NqbG1INFdvdkpEVkVB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 531,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[기고]중대재해처벌법을 통해 지자체장에게 책임을 물을 수 있을까 - 머니투데이',
+      author: '관리자',
+      date: '2023.07.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[기고]중대재해처벌법을 통해 지자체장에게 책임을 물을 수 있을까 - 머니투데이 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 머니투데이</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1YbFlVN3d6UW5GekNseDRleFZmMEpUcDRHQzFKSVlFLWZad0lrZTZlUXdldldIOWQ1YlVsRVVNMXJvVV9sNUlVSnFXZVdWdXhHOVZkMzdxMVgweUpXX1VSeFNQOUpIcEhvTzVj0gFwQVVfeXFMT01wUzJVcnNScEluaXBEUlp0VElVUEhVaDFOY3Zxa041Vkx3UFVwZnd0YTBzVHg5aDhxWUVTc0gtREpaNERCU2MwaXZsb1o4QXlxTU5aVDJlU0lmbllEQWdZYlNwbEJYX0ZabG05NWVEWA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 532,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“중대재해처벌법, 국민 생명·안전 최우선하는 법”',
+      author: '관리자',
+      date: '2023.07.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“중대재해처벌법, 국민 생명·안전 최우선하는 법” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 식품외식경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1aVkpHQkRfaEo0akJKeEJCUHRtMTF1bkV5MjJWSTdKa3UzZ2ROOV9xNE1obE5LQ2R4aG1lR19mWHdiWFhpci1UVlRyNDMxdEdhSEZPV1dpMTdPclhXLUd6WXM3Rzd1elJiTTVKeA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 533,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법과 그럴듯한 말들 - 정기훈의 토론',
+      author: '관리자',
+      date: '2023.05.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법과 그럴듯한 말들 - 정기훈의 토론 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: campaigns.do</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MdzZKUEdtbml5bmZyMDVMcldyTFpVZHZoRUlFcUFQdlFIRkJXc041UWdSRUxnaFQ4YWdtc2xZYTY4WDNuX1dKUGtzREY?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 534,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '소규모 사업장 중대재해 감축위한 \'안전보건교육 가이드북\' 배포',
+      author: '관리자',
+      date: '2023.03.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>소규모 사업장 중대재해 감축위한 '안전보건교육 가이드북' 배포 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: safety1stnews.com</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5nWDJmcFNyMkpCSVA4ekR3YXpPeHBTaVRjY3A2SGpZU3M5UW1rZC0yZE1JenlNalFVMFVPbExzMFdHXzYxTEtiM0VzbldRRTBVSVltTktMOVZwMmdfaGFtNlVwc3lqSGxPaVk0T0MzUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 535,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '"중대재해처벌법 영세기업 대책없다"',
+      author: '관리자',
+      date: '2023.02.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>"중대재해처벌법 영세기업 대책없다" 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 뉴스인</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5PX0d0ZE13R0FNcVBySUdzVDdONk5qdVBGRXFGR0VWYjFoNldaTjBzX3lJY2dUUjJBVGxfODlYMVkxY1c0YUl6RUZiaGdiYzczZW9SQjVkOENqOTZhWW5xaXZpZ3puOWhBdWw0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 536,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '"예방체계부터 실제 사례 분석까지… 중대재해처벌법의 모든 것 한 권에 담았습니다."',
+      author: '관리자',
+      date: '2023.02.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>"예방체계부터 실제 사례 분석까지… 중대재해처벌법의 모든 것 한 권에 담았습니다." 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 한국경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sWWFkS252MVhZWU04MDg0OXNEbnFTVWZWc0JPS1Nxem1ieTN2OVRyX3RLazlzS3JFUmRnajJfVG54eWxQR2lwa3hVWGRsNWdZMXdaTnk1OEhtUdIBVEFVX3lxTE5HdThTWGp5ZVRxamJRT2htZ1BRWXpfMWNWdk5pRTh4bWVCdm41ckxHaEYxc0tkVHBxazk0YlJsY0ZoN3JDcWpQTzB4eDNSZHFXbXo0YQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 537,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[토론회] 중대재해처벌법 과연 위헌인가',
+      author: '관리자',
+      date: '2023.02.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[토론회] 중대재해처벌법 과연 위헌인가 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 참여연대</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uM1dyQzFqNkFNNVdyQU4xMUNNVEtLR1hFS3JOOHhxYk4wdmRzZWsxN2diVnhnQm4zbTVGS3JOWE96T1BZQzQ2RzJRaEJYM3VE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 538,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[신간안내] 중대재해처벌법(개정판)',
+      author: '관리자',
+      date: '2023.01.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[신간안내] 중대재해처벌법(개정판) 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xaHdwS2NBdnV0RkRlLXhsdG5PUzBYdjJCZmxQa2FXZTJ4RmRZUWwwREF4dm52SkhJNmZiOHdzQ21Zeng0V0VTLTdMaGd1T0J2M1hweXJrYy1oQUc1WWV5QWN3Uk5Idw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 539,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '법무법인 동인, 《중대재해처벌법 해설 및 사례집》 발간',
+      author: '관리자',
+      date: '2023.01.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>법무법인 동인, 《중대재해처벌법 해설 및 사례집》 발간 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE4xclpLc3lWSTVJRkNuOHZNVVVibm1tbUNZdl9HdUpsTlc0cEtsWjZELUJyS1YxU052QlpKOEduMUJldFR4aVp1LWZNZ0U1R2tURzZ0czhyTXZyNFB2cmNvUW9KcEhyQ1ZkWVpJTEZR0gFyQVVfeXFMT3M1VkczU0xhNkowY3BXb2M2am1RdW5wVWtWSGZTSmR5Z2I5LTljUUV4MFk4Y2oyQnhUYjBtZHJJQ0c0c1ZNemExOFhpenZSV1dkZzFiRFp5WVV0Mm1CSk5IU0JLQ0wwUTRMc0hXRXlNbU53?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 540,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '강선건조업 등 5개업종 사망자 5년간 192명…안전 가이드북 제작',
+      author: '관리자',
+      date: '2022.11.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>강선건조업 등 5개업종 사망자 5년간 192명…안전 가이드북 제작 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 연합뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IMWFONDZqRW9kZklQLU5VWFNoMkZBVWJ0dnFHdzZPTUs3eTZheDhHYWJnUDl6QUNYYk9KTU1oN2hhczR4dElMT0JXcDRmVTdRQUJBWlZkTTR6R2PSAWBBVV95cUxPSmJZQkZnN0hhYkNqX29TbzVUWjhFQWFGaVQwQzJfTGxoTGo0NjNtLVo0alR1U0RNY0JpQVg3Wm1QRndhazYzNElvUjJzS1FPU0NlckV1UFFMWVhWVWtMRC0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 541,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행령, 지금 개정할 이유 없다',
+      author: '관리자',
+      date: '2022.11.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행령, 지금 개정할 이유 없다 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9BLTVVUGdOemt1aTZLcVhkOWhZM3h5Z2tzd3IzcE85M3N5SUZXX2xNa1drdHBJemVRbnpPMjlqeXdJNWlWMjhKS09JTUFJdU16ZzhSLWcxTUVZN1lVYWZQeDdzNElZQmkwM184SzhYTGk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 542,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '고용노동부, 고위험 소규모 사업장용 안전보건 가이드북 배포',
+      author: '관리자',
+      date: '2022.10.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>고용노동부, 고위험 소규모 사업장용 안전보건 가이드북 배포 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE81aTZZSnhWQVl2aUU3X3I5Ny1ZdWljcWMyV0xHOS1QdVlVaDlxTmNBX0JzVnJRb0hwWjFOV0g0dTJFRmxURXBwbDc3TDd6cGsxSlAxMm45UExCeWJZWEFkbGxIMXl0RU5VcDA5MHpycmU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 543,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '기재부 중대재해법 시행령안 베낀 노동부',
+      author: '관리자',
+      date: '2022.10.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기재부 중대재해법 시행령안 베낀 노동부 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1ObXB1Y1k2ekJGRE8xV1pHSG5QR19kblQ0UVc4VTJsbmdrTnQtaGtBNzFDVThqRk9FbTJtSXYxa0c2UU9uTnpqWlJBOHdlS2pPWEM4cXNGTVVzQ1JjMTFMUzlLbW5INzEtNzFEeTcwU0E?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 544,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[단독] 중대재해법 해석 흔들리나...‘도급인 사업장’ 법원 판단은?',
+      author: '관리자',
+      date: '2022.09.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[단독] 중대재해법 해석 흔들리나...‘도급인 사업장’ 법원 판단은? 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9WS3hSQW5QMWtzazVCMXhzb0k2WFR3ekpELUUyS0QxNnNvSkJJSDdORjB3Sm5KSFNtQ0d6VTlqTGt5NlRlU3o5M2hfNS00X1AwVUFLTjRiQjk2Z2FjX2pHVWc4OTQtaUpwUFRqUEJKZnV5c053RlQ3azFQRWhlSzg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 545,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 해설(중대산업재해)의 몇 가지 쟁점',
+      author: '관리자',
+      date: '2022.08.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 해설(중대산업재해)의 몇 가지 쟁점 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjbDRGcXRzanlXNXlmaFl6dzVQdi1yVWhIWnowRVBubUFCOFkxeDM3ek5RcHRhODhwbHQwZENtbzJNa1RqbG9LMUtYUUM1OE95UVVsaS1KbTlyVUk3R1hJdlJtZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 546,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[칼럼] 중대재해처벌법 제정을 미룬 정당, 반대한 의원은 누구?',
+      author: '관리자',
+      date: '2022.08.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[칼럼] 중대재해처벌법 제정을 미룬 정당, 반대한 의원은 누구? 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 참여연대</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBON3Zhc2NPR214ZXVGZG9jbkIyRkFKdEtRTURtenBFQnR3LUcwdkRYczllMlFiMy1JNURyRWg0d1RnZGpCTjlQU1lFb2JpN0xsek80Wg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 547,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '50인 미만 기업 대상 안전관리체계 안내서 확인하세요',
+      author: '관리자',
+      date: '2022.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>50인 미만 기업 대상 안전관리체계 안내서 확인하세요 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 아웃소싱타임스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFB6YVhNblJ2SE5fb2RsT19hNGVCbU1ydWttSnhHN0RvYnBVV3UwSTJycFBSZHVKU2lDai1aOVRwc3JFUkxsMVhsVUUtMW43NFBHalN2TTR4dHRoQ2F6djRXc2dqbFA2c1lkM09pQ25NQUo?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 548,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '‘금속 주조업’ 안전보건관리 이렇게 하세요',
+      author: '관리자',
+      date: '2022.08.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>‘금속 주조업’ 안전보건관리 이렇게 하세요 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEWWZXSzZmVzJSbEVkXzhPM1BmenIyaWdsdzM4OGZtcUZwQkN4a1dySHlsU0ZDT3FrTTZaQzl0S2trWXRnemh4aHQ5UktVcHBQVEk0c01LT3BsMEtHeUtjbk00YmpXckU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 549,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[안심TV] 최고 전문가의 중대재해처벌법 해설서- 화학공정안전, 권혁면 교수 편',
+      author: '관리자',
+      date: '2022.08.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[안심TV] 최고 전문가의 중대재해처벌법 해설서- 화학공정안전, 권혁면 교수 편 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: safety1stnews.com</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9qczhhQzBYbFBVcTc2VktWTWRJVmpEQng0ZGtuNVFZT3BNRndaN0N6NnNLbUdncTk2YnBVdGRPMXFpWm52d2M4TGNPaWltbHFuX2tqM3d3MXRfa3VsbVdaNmFzN0VFRWFFR2pIaUJSSQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 550,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '항만건설분야 안전관리업무 길라잡이 제작·배포',
+      author: '관리자',
+      date: '2022.07.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>항만건설분야 안전관리업무 길라잡이 제작·배포 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 해사신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE05QXF5V1NleGwybkY2SEdQUFU4N0xCR09rUy1DWDZZUW9Oem8zQWFZN0lkNy13VmZoSzlaaWFNU2VWVUprMC1TYUswTVM5ODlNMWNZeGtRUW83OS0wczBwbWVKVnlOOUpSOFZv?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 551,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: 'LK보험중개, 중대재해처벌법 보험 가입 가이드 공개',
+      author: '관리자',
+      date: '2022.06.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>LK보험중개, 중대재해처벌법 보험 가입 가이드 공개 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 뉴스와이어</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CYWV3eEtvanhDdW1UaWxHU3JRZ1lHTFlxVmhaNU5mTTdoWGM2MUJ3MWZva1NzalJScWFsQW5iQnVrOHczaDNvak1DX1VyUlJ3OVl6VkItMENiMWpHVUE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 552,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[팀 탐방] 법무법인 대륙아주 ‘중대재해처벌법 대응본부’',
+      author: '관리자',
+      date: '2022.06.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[팀 탐방] 법무법인 대륙아주 ‘중대재해처벌법 대응본부’ 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9qS3VtcnkxYVYyNXFZNGZPSWM3dl9uY3VNMmgxX1MtTmNUSHhjXzJ1ejVmbDJyZ2FDRC1DY0tPXzlUU21nX0djOGRaMlNjSjVwa2hwNzNNNy16UnpWdldDazdPNVo3OGlMMmh2a0ZB0gFyQVVfeXFMTkNWTHJ0V1dYN0dZZW14Q3NPQVdNSjVtV2tCVUlYT0RsRUtnd3lwZm9JVDdFeHdiVE1pcGQzeWR0cE13TGlVR29WY1o2TEEwdFNuTGkwVHV5bGtaYU1lSXVtNmNUUk44dUo3N2ZQcGNYNEtn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 553,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[인터뷰] “중대재해처벌법, 실효성 없다" 정진우 서울과기대 안전공학과 교수',
+      author: '관리자',
+      date: '2022.04.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[인터뷰] “중대재해처벌법, 실효성 없다" 정진우 서울과기대 안전공학과 교수 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 오피니언뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1DOHRpVGwxZlJuTExZOWpSNzctQjNGTTFISHR6bzgwdlNMbGcwWWRockpJbE9UWG9oWEdsYTI5d2xCS2VwUUVCUk9SVDBwelBwUDJib3JUdDM1VnFvZDRvRlZKeWFBZ25NenBBMnpKRnE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 554,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '고용부, 중소기업용 ‘중대재해처벌법’ 안내서 배포',
+      author: '관리자',
+      date: '2022.03.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>고용부, 중소기업용 ‘중대재해처벌법’ 안내서 배포 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대한민국 정책브리핑</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5IWC1xUW9oUTV5Y3poOWNOYzdlUHBiZU9Nd2dXQkMzb2RqcThfN0ZnUzBJSldvWWZwLXlZc1d3c28wZml0YXBJdUFRbFVWWC0yeUpQZy0wRUJ5QWRwUmtqME5tWXY5S2RvREpzNA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 555,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[기자수첩] ‘억’ 소리 나는 안전컨설팅 비용',
+      author: '관리자',
+      date: '2022.03.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[기자수첩] ‘억’ 소리 나는 안전컨설팅 비용 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대한전문건설신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EWENPWGdyU2hVamJCSmJrZnFBRW5Kd3BlWHRUU0FqY2ZhcUlqZ20zdlE3VTdST042NmR6UWdmM0tGWmNzN09veDlCUXozOUM1YlJnMFdRSHlYTEZGNHZyRm9ORExXNGlv0gFsQVVfeXFMT0k5S01Va2NqcEpSWTNIOEsxVGNjSXQ4Q1RVczhoVVlrUzQ2YWJ1eUE1TnN6VGlyNFVrdE9ycjVkbXdacHNWZ1huN1RHd2oyY2hLUGlQS2dlLTBYNlN3ZUcybGpKbGpZYlFKLWFm?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 556,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[검찰 ‘중대재해처벌법 벌칙해설서’ 집중분석 ④] ‘치료기간 6개월 이상’ 기준, 중대재해 면죄부 될까',
+      author: '관리자',
+      date: '2022.03.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[검찰 ‘중대재해처벌법 벌칙해설서’ 집중분석 ④] ‘치료기간 6개월 이상’ 기준, 중대재해 면죄부 될까 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE8xSElxeHphdm5wQjIwZmphb2Z3NWs2bzI3SEV0eWVLTDJxd3c2VnBsOU82T3ZFbDBEWVlmZjNJT2ZVd05RcEMzb0VadlhnS1JoNHJhakZ1TWhDazJlNzFOR1pPOGM4VzBzbUtQbHZVYXI?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 557,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[검찰 ‘중대재해처벌법 벌칙해설서’ 집중분석 ③] 특수고용·무급 노동자, 중대재해법이 보호하는 종사자',
+      author: '관리자',
+      date: '2022.03.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[검찰 ‘중대재해처벌법 벌칙해설서’ 집중분석 ③] 특수고용·무급 노동자, 중대재해법이 보호하는 종사자 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1HVWR3bnJpb01na0g0UlNMSlk0Qmowdk14VE5TVWtvd2N0SmZBS0ZMMkFQTkU0VzItTXlSdDMwZ1c1QVVSdTdQU010dm8zOEpONFBpT1JmYms0cVhoRXk1VjN3N1c2MmYyeVJrdVhVSU4?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 558,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '“중대재해처벌법, ‘합리적 실행 가능성’ 법리로 대비해야”',
+      author: '관리자',
+      date: '2022.03.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>“중대재해처벌법, ‘합리적 실행 가능성’ 법리로 대비해야” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 월간노동법률</p><p>원문: <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0g4WFQ1NUlmZ1NoaFZHREpjcTRLa3dZaTdha2hleFBFZ1B0Mi1WOTBNa0s0NFphTzlxdGdaV1dIOEl6TWNpNm5EaXVjdDNvSlFWRkRTcGNuWWdmdzZWOE04YnN3QkdIWXdEcWdVaHRFQkVQVXBoRU5ENXVQaThXcnl3MnZxUjJPckQ2VXg4Q0xxdHk1WmhEY2NKdmhsbDA5NUpNTlJneGlFY0Etb2pMLWQxUmlLbUJ2RWM0MWpwSVh1Wk5saUh3LUtObHFfTTdsbTYzSA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 559,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[기자24시] 검찰만 보는 중대재해법 해설서',
+      author: '관리자',
+      date: '2022.02.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>[기자24시] 검찰만 보는 중대재해법 해설서 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일경제</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wdnZNZG1wcGdFTmVadVZkYkVSNF9yeHlBWlFkeTNVQ2liQ19pcUMyY3A2aGNLVVBwVlVnYU9rbVQxbWpaWlBRdjVHUVdzcU9MMmNvbGF6OWY?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 560,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '한국산업단지공단, 중대재해처벌법 시행 대응 총력',
+      author: '관리자',
+      date: '2022.01.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국산업단지공단, 중대재해처벌법 시행 대응 총력 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: CNB뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE40SExmdEd6cEE0Q0tWOUtDZFVaU3RZZ1AtV3h0a1hnZE50TjhCR2E2SlNGcVdSdlRwMHR6Qzd4dTBkNkNUbE1WZHIwT2UyTk9KSUZvTGt0SjdZSnBJbUF4MjA2aGdyeFN6amc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 561,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '해운협회, \'중대재해처벌법 대응 가이드북\' 발간 배포',
+      author: '관리자',
+      date: '2022.01.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>해운협회, '중대재해처벌법 대응 가이드북' 발간 배포 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 해사신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5EY0dKMDRWLWxmN0JjcmlBOEk5dGNvVENrbDhkTVJXektmNFdfejBfN3FwYUtlR0JOTVRld3c3aGVFVFFZNlhjMm9pMHl4WkFXaHhkdl9FNDI2UWYzenVEQzNHSG94R2NVeVJv?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 562,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '500인 이상 회사, 안전보건계획 이사회 승인받아야…노동부 안내',
+      author: '관리자',
+      date: '2022.01.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>500인 이상 회사, 안전보건계획 이사회 승인받아야…노동부 안내 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 연합뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IdDV6VkRrVHJCUU9rREY5Y2R3MHlTTlB4QTR4N3VndE1PVXN1ZUZOQkpTTUxZX2gzVjBwdl9iQlg1R0lIa2szaVNvenBaQ1lNQzFqNmVvd3V3d2fSAWBBVV95cUxPV1hBU1YxS2tBRkwxdWY1SGs2Sy1VTUhlc3duT1dzX1p5SmprUFdob1EtdmxJNVp0VmxCOU5IVVhYdVEzWlZsd1NaM2pldktqRl9VV0NZdjlseTNTVWxXSkE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 563,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 대비 제조·기타업종 대상 무료 컨설팅 시행',
+      author: '관리자',
+      date: '2022.01.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 대비 제조·기타업종 대상 무료 컨설팅 시행 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 안전신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9CREM5aTk0bUc1dDFrbFBsbzZoalVXR05vU0VWUEJTci16UWdmYlVHVGQ4MEg2NzJieFM3bE1wOHQyMzRwSzlHWmtYbm9Fc0drbVFvRy1lOV9sWjhiX3o3QW5TUFNnZjM4NThiR2xEVWY?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 564,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 앞두고 일제점검',
+      author: '관리자',
+      date: '2022.01.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 앞두고 일제점검 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 환경일보</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sNXhGVUI5cmo3d1pLa21nOEhuTFpyc3NnSDJhYUJkMVkzRTRrVGl5TDZxcDA4SkxidV9lZ2ltb0RDR0Zvb1M5WXdUQmEzYnVrNEZZaEd5c2ZseWpwRDNVcE85Y3R4UzJs?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 565,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '설비건설협회, 중대재해 예방 가이드 교육 시행',
+      author: '관리자',
+      date: '2022.01.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>설비건설협회, 중대재해 예방 가이드 교육 시행 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 기계설비신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9wSVB3VXo1YlB2ZWFMdkd4WEJlMHgxczl6aGJzQ0VhQ3Q1Ml9RWHNvMnlVRlRJcWhSN2tIdkpRRFdOTXA3SE43a2VRR3lmRWRUVkxjVm1CWFlmbGhtNUZJaktBVk5nMWtQaWJn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
