@@ -10,6 +10,216 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 163,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '토탈에너지스, 필리핀에 3억 달러 규모 태양광 발전소 건설',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스 에너지 대기업 토탈에너지스(TotalEnergies)가 재생에너지 개발사 넥스트노스(Nextnorth)와 협력하여 필리핀에 440MWp 규모의 태양광 발전소를 건설합니다. 약 3억 달러가 투입되는 이번 프로젝트는 필리핀 이사벨라 주에 위치하며, 최근 금융 조달을 완료하고 본격적인 착공 단계에 진입했습니다. 완공 시 연간 약 700GWh의 청정 에너지를 생산하여 필리핀의 에너지 전환 및 탄소 중립 목표 달성에 크게 기여할 전망입니다.</p><h3>주요 포인트</h3><ul><li>토탈에너지스와 넥스트노스의 합작을 통한 440MWp 규모 대형 태양광 프로젝트 추진</li><li>총 3억 달러 규모의 투자 및 금융 조달 완료로 사업 가속화</li><li>필리핀의 재생에너지 비중 확대 목표 지원 및 동남아시아 시장 내 영향력 강화</li></ul><p>원문: <a href="https://www.esgtoday.com/totalenergies-to-build-300-million-solar-project-in-the-philippines/?utm_source=rss&utm_medium=rss&utm_campaign=totalenergies-to-build-300-million-solar-project-in-the-philippines" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 164,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG 커리어 시작을 위한 조언 및 인턴십 구직',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인도 출신의 2025년 졸업생이 ESG 분야로의 커리어 전환을 위해 커뮤니티에 조언을 요청했습니다. 과학 전공 배경을 가졌으나 최근 비관련 직무에서 해고된 후, 올해 석사 과정 입학을 앞두고 있는 상황입니다. 작성자는 학업 시작 전 2~3개월의 공백기 동안 실무 경험을 쌓을 수 있는 인턴십이나 단기 기회, 혹은 역량 강화에 도움이 될 교육 과정을 찾고 있습니다.</p><h3>주요 포인트</h3><ul><li>과학 전공 및 기초적인 ESG 연구 경험 보유</li><li>석사 과정 진학 전 단기 인턴십 및 실무 프로젝트 기회 탐색</li><li>ESG 전문성 강화를 위한 추천 교육 과정 및 커리어 가이드 요청</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t3hkxu/help_guidance_needed/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 165,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '1985년 5월 4일, 세계 정상들의 기후 변화 해결 약속',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>1985년 5월 4일, 세계 주요국 정상들은 기후 변화 문제를 해결하겠다고 공식적으로 약속했습니다. 당시 대기 중 이산화탄소 농도는 약 346ppm이었으며, 이는 기후 위기에 대한 국제적 논의가 이미 약 40년 전부터 시작되었음을 보여줍니다. 하지만 이러한 약속에도 불구하고 지구 온난화는 가속화되어 현재 이산화탄소 농도는 당시보다 훨씬 높은 수준에 도달했습니다.</p><h3>주요 포인트</h3><ul><li>1985년 G7 정상회의에서 기후 변화 대응을 위한 국제적 공조를 처음으로 공식화함</li><li>당시 대기 중 이산화탄소 농도는 현재(약 420ppm 이상)보다 현저히 낮은 346ppm 수준</li><li>수십 년 전의 약속과 현재의 심화된 기후 위기 상황 사이의 괴리를 시사함</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3d8qe/on_this_day_in_history_may_4_1985_world_leaders/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 166,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '케냐, 아프리카 광물 가치사슬 구축 위해 지역 협력 추진',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>윌리엄 루토 케냐 대통령은 자국 자원의 부가가치를 높이기 위해 원광석 수출 중단을 선언하며, 아프리카 국가들 간의 긴밀한 협력을 촉구했습니다. 이는 아프리카가 단순히 원자재 공급처에 머물지 않고 가공 및 제조를 포함한 독자적인 광물 가치사슬을 구축하려는 전략적 움직임입니다. 케냐는 이를 통해 역내 산업화와 경제 성장을 도모하고 글로벌 녹색 에너지 전환 시장에서의 영향력을 확대하고자 합니다.</p><h3>주요 포인트</h3><ul><li>원광석 수출 금지: 케냐는 부가가치 창출을 위해 가공되지 않은 상태의 광물 수출을 제한하기로 했습니다.</li><li>역내 조정 및 협력: 아프리카 국가들이 개별적으로 경쟁하기보다 통합된 공급망을 구축하여 협력할 것을 강조했습니다.</li><li>경제적 가치 제고: 광물 가공 시설 확충을 통해 일자리를 창출하고 자원 보유국의 이익을 극대화하는 것이 목표입니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/30/kenya-seeks-regional-coordination-to-build-african-mineral-value-chains/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 167,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존, 모든 기업에 물류 네트워크 전면 개방',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아마존이 자사 플랫폼 입점 여부와 관계없이 모든 기업이 이용할 수 있도록 물류 네트워크를 전면 개방했습니다. '아마존 공급망 서비스'는 화물 운송, 보관, 유통, 라스트마일 배송을 아우르는 통합 솔루션을 제공합니다. 현재 3M과 랜드엔드(Lands' End) 등 글로벌 기업들이 이미 이 서비스를 도입하여 활용 중입니다. 이는 아마존이 구축한 방대한 인프라를 외부 수익원으로 전환하고 물류 시장에서의 영향력을 확대하려는 전략입니다.</p><h3>주요 포인트</h3><ul><li>아마존 미입점 판매자도 화물 운송 및 배송 서비스 이용 가능</li><li>재고 관리부터 최종 배송까지 전 과정을 통합 관리하는 엔드투엔드 솔루션 제공</li><li>기존 물류 인프라의 효율성을 극대화하여 수익성 강화 및 시장 점유율 확대 도모</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/amazon-opens-logistics-network-to-all-businesses/819178/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 168,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 산림파괴 방지법 간소화로 기업 비용 75% 절감',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회가 EU 산림파괴 방지법(EUDR)의 이행 방안을 간소화하여 기업의 행정 비용을 최대 75%까지 절감하겠다고 발표했습니다. 이번 조치는 기업들이 공급망 내 산림 파괴 여부를 확인하는 과정에서 겪는 과도한 부담을 줄이기 위해 마련되었습니다. 특히 '위험 없음' 국가 분류를 도입하여 해당 지역 제품에 대한 실사 의무를 대폭 완화할 예정입니다. 이를 통해 규제 준수의 효율성을 높이면서도 글로벌 산림 보호라는 본래의 목적을 달성하고자 합니다.</p><h3>주요 포인트</h3><ul><li>행정 비용 절감: 규제 간소화를 통해 기업의 관련 비용이 기존 대비 약 75% 감소할 것으로 예상됩니다.</li><li>위험 등급제 도입: 국가별 산림 파괴 위험도를 분류하여, '위험 없음' 지역은 간소화된 실사 절차를 적용받습니다.</li><li>중소기업 지원 및 디지털화: 중소기업을 위한 전용 가이드라인과 디지털 신고 시스템을 구축하여 이행 편의성을 높입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-commission-says-simplification-of-eudr-deforestation-law-will-cut-costs-for-companies-by-75/?utm_source=rss&utm_medium=rss&utm_campaign=eu-commission-says-simplification-of-eudr-deforestation-law-will-cut-costs-for-companies-by-75" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 169,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전기 없이 키우는 수경재배 배럴, 오이 60개 이상 수확',
+      author: '관리자',
+      date: '2026.05.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전기나 펌프를 전혀 사용하지 않는 수동 수경재배 배럴을 활용한 혁신적인 식량 생산 방식이 소개되었습니다. 이 시스템은 에너지 소비 없이도 높은 효율을 자랑하며, 지난 시즌 배럴 하나당 60개 이상의 오이를 수확하는 성과를 거두었습니다. 지속 가능한 도시 농업과 가정용 식량 자급자족을 위한 저비용·고효율 솔루션으로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>펌프와 전기 장치가 필요 없는 완전 수동형 수경재배 시스템</li><li>배럴당 60개 이상의 오이를 생산하는 뛰어난 수확량 증명</li><li>에너지 절약 및 자원 효율성을 극대화한 지속 가능한 농법</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t2iv68/passive_hydroponic_barrels_for_food_production_no/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 170,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '볼리비아 열대우림 파괴와 메노나이트 종파의 콩 재배',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>볼리비아의 중요한 열대우림이 메노나이트(Mennonites) 종파의 대규모 농경지 확장으로 인해 심각한 파괴 위기에 처해 있습니다. 이들은 종교적 신념에 따라 고립된 생활을 유지하면서도, 현대적인 대규모 기계식 농법을 도입하여 콩을 재배하며 산림을 개간하고 있습니다. 이러한 활동은 생물 다양성 손실과 탄소 배출을 가속화하며 지구 환경에 큰 위협이 되고 있습니다.</p><h3>주요 포인트</h3><ul><li>메노나이트 공동체의 확장이 볼리비아 산림 파괴의 주요 원인 중 하나로 지목됨</li><li>전 세계적인 콩 수요 증가가 이들의 공격적인 토지 개간과 농업 확장을 부추김</li><li>정부의 규제 미비와 토지 소유권 문제로 인해 보호 구역 내 산림 훼손이 지속됨</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3hb18/these_tropical_forests_are_critically_important/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 171,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '튀르키예 COP31 의장국-IEA, 청정에너지 전환 위해 협력',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>튀르키예의 COP31 의장국과 국제에너지기구(IEA)가 글로벌 청정에너지 전환을 가속화하기 위해 전략적 파트너십을 체결했습니다. 양측은 기후 변화 대응을 위한 실질적인 해결책을 마련하고 에너지 안보를 강화하는 데 협력하기로 합의했습니다. 특히 개발도상국의 에너지 접근성 향상과 탄소 배출 감축을 위한 구체적인 로드맵을 제시할 계획입니다.</p><h3>주요 포인트</h3><ul><li>청정 조리(Clean Cooking) 보급 및 폐기물 부문 배출량 감축 추진</li><li>청정에너지 전환을 지원하기 위한 새로운 금융 메커니즘 구축</li><li>에너지 효율 개선 및 재생에너지 투자 확대를 위한 정책 공조</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/30/turkiyes-cop31-presidency-and-iea-join-forces-on-clean-energy-push/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 172,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'IBM, 엑셀 기반 온실가스 배출량 계산 솔루션 출시',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>IBM은 엑셀 환경에서 온실가스(GHG) 배출량을 간편하게 계산할 수 있는 'IBM Envizi Emissions Calculations in Excel' 솔루션을 출시했습니다. 이 도구는 IBM Envizi의 검증된 계산 엔진과 방대한 배출 계수 라이브러리를 엑셀과 직접 연결하여 데이터 관리의 효율성을 극대화합니다. 이를 통해 기업들은 기존 스프레드시트 방식의 유연성을 유지하면서도 수동 작업에 따른 오류를 줄이고 공시 기준에 부합하는 신뢰성 높은 데이터를 확보할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>엑셀 내에서 IBM Envizi의 강력한 계산 엔진 및 최신 배출 계수 라이브러리 즉시 활용</li><li>수동 계산 오류를 최소화하고 데이터의 투명성과 감사 가능성을 높여 ESG 공시 대응 강화</li><li>스프레드시트 중심의 보고 체계에서 전문 ESG 데이터 관리 플랫폼으로 전환하려는 기업을 위한 가교 역할 수행</li></ul><p>원문: <a href="https://www.esgtoday.com/ibm-launches-ghg-emissions-calculation-solution-for-spreadsheet-users/?utm_source=rss&utm_medium=rss&utm_campaign=ibm-launches-ghg-emissions-calculation-solution-for-spreadsheet-users" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 173,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '경제·지속가능성 전공생을 위한 ESG 심화 학습 자원 요청',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>경제와 지속가능성을 전공하는 한 대학생이 학교 수업보다 깊이 있는 학습을 위해 실무적인 온라인 자원을 찾고 있습니다. 주요 관심 분야는 지속가능성 공시 프레임워크(GRI, TCFD, ISSB), 기후 정책, 그리고 기후 데이터 분석입니다. 단순한 검색 결과가 아닌, 실제 업계 종사자나 전공자들이 유용하게 활용한 유튜브 채널, 무료 강의, 전문 자격증 등의 검증된 정보를 구하고 있습니다.</p><h3>주요 포인트</h3><ul><li>GRI, TCFD, ISSB 등 글로벌 지속가능성 보고 기준에 대한 전문적인 학습 자료 필요</li><li>기후 정책 및 기후 데이터 분석 역량을 강화할 수 있는 실무 중심의 자원 탐색</li><li>유튜브, 무료 강의, 자격증 등 현업에서 실제로 인정받는 구체적인 교육 경로 문의</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t0pque/undergrad_studying_economics_sustainability/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 174,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '베란다 태양광으로 전기료 절약: 임차인도 가능한 친환경 에너지',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>베란다 태양광 시스템은 임차인과 주택 소유자 모두가 손쉽게 재생 에너지를 생산하고 전기 요금을 절감할 수 있는 혁신적인 솔루션입니다. 이 시스템은 복잡한 설치 과정 없이 일반 콘센트에 꽂아 바로 사용할 수 있는 '플러그인' 방식으로 설계되었습니다. 전문 기술자나 별도의 건축 허가, 전력 회사의 승인 없이도 사용이 가능하여 도시 거주자들의 에너지 자립을 돕습니다.</p><h3>주요 포인트</h3><ul><li>전문가 도움 없이 누구나 직접 설치 가능한 플러그인 방식</li><li>건축 허가나 전력 회사의 복잡한 승인 절차 생략 가능</li><li>주택 개조가 어려운 임차인에게 최적화된 이동식 에너지 솔루션</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3q2mx/how_balcony_solar_can_help_renters_and_homeowners/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 175,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '산타마르타 정상회의, 화석연료 전환 본격화',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>콜롬비아 산타마르타에서 열린 정상회의에서 약 60개국이 화석연료 의존도를 낮추기 위한 구체적인 로드맵 개발에 착수했습니다. 이번 회의는 석탄, 석유, 가스에서 벗어나 경제 구조를 재편하고 국제 무역을 친환경적으로 전환하는 데 중점을 둡니다. 참가국들은 에너지 전환 과정에서 발생할 수 있는 경제적 충격을 완화하고 지속 가능한 성장을 도모하기 위한 국제적 협력을 강화하기로 했습니다.</p><h3>주요 포인트</h3><ul><li>60여 개국 참여: 화석연료 탈피를 위한 국가별 맞춤형 로드맵 수립 지원</li><li>경제 및 무역 혁신: 화석연료 중심의 경제 구조를 녹색 무역 체제로 전환</li><li>글로벌 협력 강화: 기후 위기 대응을 위한 기술 공유 및 금융 지원 방안 논의</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/30/santa-marta-summit-kick-starts-work-on-key-steps-for-fossil-fuel-transition/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 176,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '산림 파괴가 질병 확산의 문을 여는 이유',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>농업을 위한 산림 벌채는 단순한 환경 문제를 넘어 생물 다양성과 공중보건에 심각한 위협이 되고 있습니다. 숲이 파괴됨에 따라 야생동물의 서식지가 줄어들고 인간과의 접촉이 빈번해지면서 새로운 전염병의 발생 가능성이 커지고 있습니다. 이는 생태계의 균형을 무너뜨려 인류 전체의 안전을 위협하는 결과를 초래합니다.</p><h3>주요 포인트</h3><ul><li>농업 확장을 위한 산림 벌채가 공중보건의 새로운 위협으로 부상</li><li>서식지 파괴로 인한 야생동물과 인간 간의 접촉 및 질병 전파 증가</li><li>생물 다양성 보존이 전염병 예방을 위한 핵심적인 방어 기제임</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t02w5x/how_deforestation_opens_the_door_for_diseases/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 177,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '강력한 엘니뇨 예고, 온난화로 예측 불가능해진 영향',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지구 온난화가 가속화됨에 따라 강력한 엘니뇨 현상이 발생할 가능성이 높아지고 있습니다. 하지만 지구가 뜨거워지면서 과거의 엘니뇨 데이터는 더 이상 미래를 예측하는 신뢰할 수 있는 지표가 되지 못하고 있습니다. 기온 상승이 자연적인 기상 현상과 결합하여 전 세계적으로 전례 없는 기후 변화를 초래할 것으로 우려됩니다.</p><h3>주요 포인트</h3><ul><li>강력한 엘니뇨 발생 가능성이 제기되고 있으나, 온난화로 인해 그 영향력과 양상이 변하고 있습니다.</li><li>지구의 평균 기온이 이미 높아진 상태라 과거의 기상 패턴을 통한 예측이 더 이상 유효하지 않습니다.</li><li>엘니뇨와 온난화의 상호작용은 기상 이변의 강도를 증폭시켜 예측 불가능한 피해를 줄 수 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3h9t6/a_strong_el_niño_may_be_coming_global_warming_is/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 158,
       pinned: false,
       category: 'news', categoryName: '소식',
