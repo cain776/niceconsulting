@@ -16,6 +16,7 @@ import hashlib
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
+from xml.etree import ElementTree as ET
 
 import feedparser
 import requests
@@ -52,6 +53,8 @@ RSS_FEEDS = [
     # EcoVadis 전용 (Google News 검색 RSS)
     {"url": "https://news.google.com/rss/search?q=ecovadis&hl=en-US&gl=US&ceid=US:en", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
     {"url": "https://news.google.com/rss/search?q=%EC%97%90%EC%BD%94%EB%B0%94%EB%94%94%EC%8A%A4&hl=ko&gl=KR&ceid=KR:ko", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
+    # EcoVadis 자체 블로그 (RSS 비활성화되어 sitemap 사용)
+    {"url": "https://ecovadis.com/blog-post-sitemap.xml", "type": "sitemap", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
 ]
 
 # Reddit 등 일부 사이트는 기본 User-Agent를 차단하므로 명시적으로 설정
@@ -98,8 +101,66 @@ def url_hash(url):
 
 # ── RSS 수집 ──────────────────────────────────────────
 
+def _collect_sitemap(feed_info, history_set):
+    """sitemap.xml 기반 피드 처리: lastmod 7일 이내 글의 og 메타로 후보 생성"""
+    candidates = []
+    SM_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    try:
+        r = requests.get(feed_info["url"], headers={"User-Agent": USER_AGENT}, timeout=30)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        entries = []
+        for url_el in root.findall("sm:url", SM_NS):
+            loc_el = url_el.find("sm:loc", SM_NS)
+            lm_el = url_el.find("sm:lastmod", SM_NS)
+            if loc_el is None or lm_el is None:
+                continue
+            try:
+                d = datetime.fromisoformat(lm_el.text.replace("Z", "+00:00"))
+            except Exception:
+                continue
+            loc = loc_el.text
+            if loc.endswith("/"):  # 인덱스 페이지 제외
+                continue
+            entries.append((loc, d.replace(tzinfo=None)))
+
+        # 최신순 정렬 후 7일 이내만
+        entries.sort(key=lambda x: x[1], reverse=True)
+        for loc, d in entries:
+            if datetime.now() - d > timedelta(days=7):
+                break  # 정렬되어 있어 이후는 모두 7일 초과
+            if url_hash(loc) in history_set:
+                continue
+            try:
+                page = requests.get(loc, headers={"User-Agent": USER_AGENT}, timeout=20)
+                soup = BeautifulSoup(page.text, "html.parser")
+                og_t = soup.find("meta", property="og:title")
+                og_d = soup.find("meta", property="og:description")
+                title = ((og_t.get("content") if og_t else "") or "").replace(" | EcoVadis", "").strip()
+                summary = ((og_d.get("content") if og_d else "") or "").strip()
+                if not title:
+                    continue
+                # sitemap은 신뢰 소스라 키워드 필터 생략 (피드 정의 자체로 큐레이션됨)
+                candidates.append({
+                    "link": loc,
+                    "title": title,
+                    "summary": summary[:500],
+                    "date": d.strftime("%Y.%m.%d"),
+                    "category": feed_info["category"],
+                    "categoryName": feed_info["categoryName"],
+                    "topic": feed_info["topic"],
+                    "topicName": feed_info["topicName"],
+                })
+            except Exception as e:
+                log.warning(f"  페이지 메타 추출 실패: {e}")
+            time.sleep(0.5)
+    except Exception as e:
+        log.warning(f"sitemap 처리 실패: {feed_info['url']} - {e}")
+    return candidates
+
+
 def fetch_rss_articles():
-    """모든 RSS 피드에서 후보를 모은 뒤 피드 간 라운드로빈으로 선정"""
+    """모든 RSS/sitemap 피드에서 후보를 모은 뒤 피드 간 라운드로빈으로 선정"""
     history = load_history()
     history_set = set(history)
 
@@ -107,8 +168,13 @@ def fetch_rss_articles():
 
     for feed_info in RSS_FEEDS:
         candidates = []
+        log.info(f"피드 수집 중: {feed_info['url']}")
+        if feed_info.get("type") == "sitemap":
+            candidates = _collect_sitemap(feed_info, history_set)
+            log.info(f"  → 후보 {len(candidates)}건")
+            by_feed.append(candidates)
+            continue
         try:
-            log.info(f"피드 수집 중: {feed_info['url']}")
             feed = feedparser.parse(feed_info["url"], agent=USER_AGENT)
 
             for entry in feed.entries[:10]:
