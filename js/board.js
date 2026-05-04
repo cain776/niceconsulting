@@ -10,6 +10,81 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 153,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG 주간 리뷰: 기업 80% 이상 기후 목표 고수',
+      author: '관리자',
+      date: '2026.05.03',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>PwC의 최신 조사에 따르면 전 세계 기업의 80% 이상이 경제적 불확실성 속에서도 기후 변화 대응 목표를 유지하거나 오히려 강화하고 있는 것으로 나타났습니다. 이번 주 ESG 분야에서는 유럽연합(EU)의 공급망 실사 지침(CSDDD)을 둘러싼 규제 동향과 기업들의 지속 가능한 비즈니스 전략 전환이 주요 화두로 떠올랐습니다. 기업들은 탄소 중립 달성을 위해 실질적인 감축 조치를 이행하며 투자자들의 투명성 요구에 대응하고 있습니다.</p><h3>주요 포인트</h3><ul><li>PwC 조사 결과, 대다수 기업이 기후 목표를 경영 전략의 핵심으로 유지하며 철회하지 않음</li><li>EU 공급망 실사 지침(CSDDD)의 최종 승인 과정과 규제 범위에 대한 논의 지속</li><li>글로벌 공시 표준화에 따른 기업들의 ESG 데이터 관리 및 탄소 배출 감축 노력 가속화</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-259/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-259" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 154,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'UN 탄소 시장, 소외된 공동체 보호 실패 우려',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>UN 탄소 시장 내 지속가능발전 도구가 원주민과 지역 공동체를 토지 침해 및 인권 유린으로부터 보호하는 데 실패할 가능성이 높다는 보고서가 발표되었습니다. Carbon Market Watch와 Land Matrix Initiative의 공동 조사 결과, 해당 도구는 소외된 공동체의 권리를 보장하기에 역부족인 것으로 나타났습니다. 이는 탄소 프로젝트가 환경적 이득을 추구하는 과정에서 오히려 사회적 부작용을 초래할 수 있음을 시사합니다.</p><h3>주요 포인트</h3><ul><li>UN 탄소 시장의 지속가능성 도구가 원주민 권리 보호에 취약함</li><li>탄소 배출권 프로젝트로 인한 토지 강탈 및 인권 침해 우려 제기</li><li>소외된 공동체를 위한 실질적인 보호 장치 마련 및 제도 개선 시급</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/04/30/losing-ground-un-carbon-market-will-likely-fail-to-protect-marginalised-communities-report/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 155,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽의 결함 있는 탄소 제거 방식과 기후 위기',
+      author: '관리자',
+      date: '2026.04.28',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>유럽의 탄소 제거 정책이 석유 및 가스 기업들의 이해관계에 의해 왜곡되고 있다는 비판이 제기되었습니다. Carbon Market Watch의 보고서에 따르면, 거대 화석 연료 기업들이 자발적 탄소 시장의 의사 결정 기구에 막대한 영향력을 행사하고 있습니다. 이들은 저품질 탄소 크레딧 시장에 대규모로 투자하며 실질적인 배출 감축보다는 규제 회피 수단으로 활용하고 있어, 유럽의 기후 목표 달성을 위협하고 있습니다.</p><h3>주요 포인트</h3><ul><li>화석 연료 기업들의 자발적 탄소 시장(VCM) 의사 결정 개입 및 영향력 확대</li><li>실효성이 낮은 저품질 탄소 크레딧의 대량 유통과 이를 이용한 그린워싱 우려</li><li>유럽 탄소 제거 정책 프레임워크 내의 구조적 결함과 불확실성 문제 지적</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/04/29/leaning-on-uncertainty-how-europes-flawed-approach-to-carbon-removals-threatens-the-climate/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 156,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'SDV 전환, 자동차 공급망의 새로운 도전 과제',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>SDV(소프트웨어 중심 자동차)는 무선 업데이트가 가능한 플랫폼을 통해 자동차 산업을 혁신하고 있으나, 이는 동시에 공급망에 상당한 부담을 주고 있습니다. 무디스의 분석에 따르면, SDV로의 전환은 초기 개발 비용을 높이고 기존 제조사와 부품 공급업체 간의 협력 관계를 변화시키고 있습니다. 특히 고성능 반도체와 소프트웨어 인력 확보가 핵심 경쟁력으로 부상하며 공급망의 복잡성이 심화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>소프트웨어 및 고성능 연산 칩 도입에 따른 생산 및 R&D 비용 상승</li><li>전통적인 하드웨어 공급업체와 완성차 업체 간의 기술 주도권 및 수익 배분 갈등</li><li>소프트웨어 업데이트(OTA) 기능을 유지하기 위한 지속적인 공급망 관리 필요성</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/software-defined-vehicles-test-auto-supply-chains-moodys/818553/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 157,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '타겟, 재고 효율성 높이는 신규 공급망 시설 도입',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      isNew: true,
+      content: `
+        <h2>핵심 내용</h2><p>미국 유통업체 타겟(Target)이 재고 관리 효율을 극대화하기 위해 휴스턴에 새로운 형태의 '리시브 센터(Receive Center)'를 가동했습니다. 이 시설은 제품을 하류 유통 지점으로 보내기 전 대량의 재고를 보관하는 완충 역할을 수행하여 공급망의 유연성을 높입니다. 이를 통해 타겟은 수요 변화에 기민하게 대응하고 매장 내 품절 현상을 줄이는 등 전반적인 물류 운영을 최적화할 계획입니다.</p><h3>주요 포인트</h3><ul><li>휴스턴에 첫 리시브 센터를 설립하여 대규모 재고 보유 역량 강화</li><li>하류 물류 센터 및 매장으로 가기 전 재고를 관리하는 전략적 완충 지점 확보</li><li>공급망 현대화를 통해 운영 효율성을 높이고 고객 수요에 대한 대응력 개선</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/target-launches-new-kind-of-supply-chain-facility/818848/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 148,
       pinned: false,
       category: 'news', categoryName: '소식',
