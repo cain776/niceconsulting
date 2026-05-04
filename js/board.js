@@ -6134,20 +6134,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 169,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '전기 없이 키우는 수경재배 배럴, 오이 60개 이상 수확',
-      author: '관리자',
-      date: '2026.05.03',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>전기나 펌프를 전혀 사용하지 않는 수동 수경재배 배럴을 활용한 혁신적인 식량 생산 방식이 소개되었습니다. 이 시스템은 에너지 소비 없이도 높은 효율을 자랑하며, 지난 시즌 배럴 하나당 60개 이상의 오이를 수확하는 성과를 거두었습니다. 지속 가능한 도시 농업과 가정용 식량 자급자족을 위한 저비용·고효율 솔루션으로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>펌프와 전기 장치가 필요 없는 완전 수동형 수경재배 시스템</li><li>배럴당 60개 이상의 오이를 생산하는 뛰어난 수확량 증명</li><li>에너지 절약 및 자원 효율성을 극대화한 지속 가능한 농법</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t2iv68/passive_hydroponic_barrels_for_food_production_no/" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 170,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -6187,34 +6173,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>IBM은 엑셀 환경에서 온실가스(GHG) 배출량을 간편하게 계산할 수 있는 'IBM Envizi Emissions Calculations in Excel' 솔루션을 출시했습니다. 이 도구는 IBM Envizi의 검증된 계산 엔진과 방대한 배출 계수 라이브러리를 엑셀과 직접 연결하여 데이터 관리의 효율성을 극대화합니다. 이를 통해 기업들은 기존 스프레드시트 방식의 유연성을 유지하면서도 수동 작업에 따른 오류를 줄이고 공시 기준에 부합하는 신뢰성 높은 데이터를 확보할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>엑셀 내에서 IBM Envizi의 강력한 계산 엔진 및 최신 배출 계수 라이브러리 즉시 활용</li><li>수동 계산 오류를 최소화하고 데이터의 투명성과 감사 가능성을 높여 ESG 공시 대응 강화</li><li>스프레드시트 중심의 보고 체계에서 전문 ESG 데이터 관리 플랫폼으로 전환하려는 기업을 위한 가교 역할 수행</li></ul><p>원문: <a href="https://www.esgtoday.com/ibm-launches-ghg-emissions-calculation-solution-for-spreadsheet-users/?utm_source=rss&utm_medium=rss&utm_campaign=ibm-launches-ghg-emissions-calculation-solution-for-spreadsheet-users" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 173,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '경제·지속가능성 전공생을 위한 ESG 심화 학습 자원 요청',
-      author: '관리자',
-      date: '2026.05.01',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>경제와 지속가능성을 전공하는 한 대학생이 학교 수업보다 깊이 있는 학습을 위해 실무적인 온라인 자원을 찾고 있습니다. 주요 관심 분야는 지속가능성 공시 프레임워크(GRI, TCFD, ISSB), 기후 정책, 그리고 기후 데이터 분석입니다. 단순한 검색 결과가 아닌, 실제 업계 종사자나 전공자들이 유용하게 활용한 유튜브 채널, 무료 강의, 전문 자격증 등의 검증된 정보를 구하고 있습니다.</p><h3>주요 포인트</h3><ul><li>GRI, TCFD, ISSB 등 글로벌 지속가능성 보고 기준에 대한 전문적인 학습 자료 필요</li><li>기후 정책 및 기후 데이터 분석 역량을 강화할 수 있는 실무 중심의 자원 탐색</li><li>유튜브, 무료 강의, 자격증 등 현업에서 실제로 인정받는 구체적인 교육 경로 문의</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t0pque/undergrad_studying_economics_sustainability/" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 174,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '베란다 태양광으로 전기료 절약: 임차인도 가능한 친환경 에너지',
-      author: '관리자',
-      date: '2026.05.04',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>베란다 태양광 시스템은 임차인과 주택 소유자 모두가 손쉽게 재생 에너지를 생산하고 전기 요금을 절감할 수 있는 혁신적인 솔루션입니다. 이 시스템은 복잡한 설치 과정 없이 일반 콘센트에 꽂아 바로 사용할 수 있는 '플러그인' 방식으로 설계되었습니다. 전문 기술자나 별도의 건축 허가, 전력 회사의 승인 없이도 사용이 가능하여 도시 거주자들의 에너지 자립을 돕습니다.</p><h3>주요 포인트</h3><ul><li>전문가 도움 없이 누구나 직접 설치 가능한 플러그인 방식</li><li>건축 허가나 전력 회사의 복잡한 승인 절차 생략 가능</li><li>주택 개조가 어려운 임차인에게 최적화된 이동식 에너지 솔루션</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3q2mx/how_balcony_solar_can_help_renters_and_homeowners/" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {

@@ -47,9 +47,40 @@ RSS_FEEDS = [
     {"url": "https://www.supplychaindive.com/feeds/news/", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
     # 안전/노동
     {"url": "https://www.ehstoday.com/rss", "category": "news", "categoryName": "소식", "topic": "safety", "topicName": "중대재해처벌법"},
-    # Reddit 커뮤니티
-    {"url": "https://www.reddit.com/r/sustainability/.rss", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
-    {"url": "https://www.reddit.com/r/climate/.rss", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
+    # Reddit 커뮤니티 — 개인 Q&A·DIY 차단 위해 exclude 강화
+    {
+        "url": "https://www.reddit.com/r/sustainability/.rss",
+        "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG",
+        "exclude_keywords": [
+            # 개인 조언/구직 요청
+            "조언", "도와주", "도움이 필요", "도와주세요", "추천해주", "추천 부탁",
+            "advice", "guidance", "seeking", "any tips", "any thoughts",
+            "looking for", "i need", "i'm a", "i am a", "as a recent",
+            "career advice", "help me", "any recommendations",
+            # DIY·개인 경험·취미
+            "내가 길", "내 정원", "취미로", "베란다", "옥상에서",
+            "i grew", "my balcony", "my garden", "my apartment",
+            "diy", "tutorial", "how i ", "my experience",
+            # 잡담/의견 청취
+            "wondering", "curious", "thoughts on", "what do you think",
+            "am i the only", "anyone else",
+        ],
+    },
+    {
+        "url": "https://www.reddit.com/r/climate/.rss",
+        "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG",
+        "exclude_keywords": [
+            "조언", "도와주", "도움이 필요", "추천해주", "추천 부탁",
+            "advice", "guidance", "seeking", "any tips", "any thoughts",
+            "looking for", "i need", "i'm a", "i am a", "as a recent",
+            "career advice", "help me", "any recommendations",
+            "내가 길", "내 정원", "취미로", "베란다", "옥상에서",
+            "i grew", "my balcony", "my garden", "my apartment",
+            "diy", "tutorial", "how i ", "my experience",
+            "wondering", "curious", "thoughts on", "what do you think",
+            "am i the only", "anyone else",
+        ],
+    },
     # EcoVadis 전용 (Google News 검색 RSS)
     {"url": "https://news.google.com/rss/search?q=ecovadis&hl=en-US&gl=US&ceid=US:en", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
     {"url": "https://news.google.com/rss/search?q=%EC%97%90%EC%BD%94%EB%B0%94%EB%94%94%EC%8A%A4&hl=ko&gl=KR&ceid=KR:ko", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
