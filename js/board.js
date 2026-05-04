@@ -100,34 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 572,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'safety', topicName: '중대재해처벌법',
-      title: '\'중대재해처벌법 위반\' 경북 영풍 석포제련소 전 대표 항소 기각',
-      author: '관리자',
-      date: '2026.04.28',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>'중대재해처벌법 위반' 경북 영풍 석포제련소 전 대표 항소 기각 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 대구MBC</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE05djBiSmZ5V2p2VmFSYkhVVGdSb0d0eTRpQ29hUE50UjM0c0s0c1NPb19ua2l6Qm1HQW5MM1VwMWNuUVduRUFUdHJIRlc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 573,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'safety', topicName: '중대재해처벌법',
-      title: '[아리셀 항소심] “중대재해처벌법 적개심 드러낸 판결”',
-      author: '관리자',
-      date: '2026.04.27',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>[아리셀 항소심] “중대재해처벌법 적개심 드러낸 판결” 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5kSTdaZWxFR3FpY004V2ktVjFieVBzeV9LUklKa3MyZmZMT0Fkd2FpNFR1TUNRbVEycEVkSHBMVmdYcVFVbEJmOGpQTVJza1V6TS1GeWFZYUZTbWJmLU9SQVNaUFJTRlo1MWlaSlhyQTA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 574,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -209,20 +181,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>개인정보 보호법 개정안, 제2의 중대재해처벌법 되지 말아야 [취재진담] 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 쿠키뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5TQURDaFpOTC1mUWN0djZ5RkppaUpwX1g2cjF6dUE5X0tjcjNFam5xWG54V0ZMOF83NmJTN19iY2Z4U3QxUFJRbTRhV2RKeDFBR2szSHQ3UTRzUm1td1N0UkFiWQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 580,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'safety', topicName: '중대재해처벌법',
-      title: '[단독] 노동부, 검찰 지휘에 ‘시흥신세계아울렛 감전사’ 중대재해처벌법 적용 검토',
-      author: '관리자',
-      date: '2026.04.20',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>[단독] 노동부, 검찰 지휘에 ‘시흥신세계아울렛 감전사’ 중대재해처벌법 적용 검토 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 시사저널</p><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5pSkRLQzU5ZUVjOF9YZzAzMkR3RHRyUGluR1Z0UW9xZUp2R05yX2QzREFDbGc3MnBIeDJRYjZ6WUVvUnNhX28zWnpqS3BsV3RfQmxHR2FmazJodndONHdwV0RudExEQmhxS19mM0JOQdIBc0FVX3lxTE5tTWl6Y2dEQkdiU080UjJKeUk4Z2syQjVPY3hRZWtFamZlWFpxN19yaUJXSzJDV0xOWUF6cGFBeXk0cDFJSWQyNTM5YUFyWktYc0tOTkR2aFM1bG1aNFlBNVF6U1MzTGxjdTJRaFlEbkhzQ0k?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
@@ -618,20 +576,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 609,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'safety', topicName: '중대재해처벌법',
-      title: 'CSO 선임한 원청 대표, 중대재해처벌법 무죄',
-      author: '관리자',
-      date: '2026.02.19',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>CSO 선임한 원청 대표, 중대재해처벌법 무죄 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5IM0YzNVZJdTRkcjdsT0pfVUVya1FtSGc3ZUNlblVWZXo0eGowelp6SWtYYVNXdEROckdZODVMQlVpaGl0akkzbjk0WWZ2dXB5VW5iMWctbWFZY3BteWotMERqYVNfNUwwRFRjendB0gFyQVVfeXFMTV91RnozOF9EcVhEYnphQjdLTlJIZGwxNlJLY21vRFBYdW5rX3dSR1hOMjlYdkVPczJCSUdZYjdhZ3hLYURWbG8zT0pMZ3RxR0ozaGpGeldsQWN4ZGZEM21FaFplby1Fd0lGTkFOS212c01R?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 610,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -657,20 +601,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>[산업안전 뉴스] 3000만원 지원하는 안전보건 컨설팅 2월 19일부터 접수 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 아웃소싱타임스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBndm5tcXY2LW5uSVhRMVFjTDFPOFRSb0hRcmZ2bXFpdTJRTWt5VlVIcWN5MDJnV2ZrdUJvVkVrbWphUGJWVWMyQTJ1dFlHYnAwS1FycnpfOGJSLXJDMDcxd3Q5dkNmUHo2ZVp4UGpsOVFndw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 612,
-      pinned: false,
-      category: 'insight', categoryName: '인사이트',
-      topic: 'safety', topicName: '중대재해처벌법',
-      title: '[판결] 중대재해법 1호 사건 정도원 삼표 회장 무죄',
-      author: '관리자',
-      date: '2026.02.10',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>[판결] 중대재해법 1호 사건 정도원 삼표 회장 무죄 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 법률신문</p><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE96UEt0M0dpUDAtWG4xX3NzSEdrNzhxRVBudENfRmxobjUzUVFjdDVfSHREaDM3S0lfRGZsYTRkQ1ZZb1dKQ1NPeEc0dDFQYlp4M2puNlVUWUdEQXNxWjd4Mk5NZGRHS0dsRFZlbkhR0gFyQVVfeXFMTXItUXBxMncxMFlUZVhRelhZdTdZeTVlR3QyWEFlZ0trdHVtMWVwRi1RUGliVHdoX2lJVWF6TmZNYlZLQjBsN1ltZVI0QTRpQzBwV0RvVWhaVE1weVFiX0o5ZW9kSzI4WlNIeHExbjcwZDV3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
@@ -811,20 +741,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>[토론회] 중대재해처벌법 시행 4년 국회 토론회 - 공지사항 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 민주노총</p><p>원문: <a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGZnJWZHZQbGlVTEU4SnVfNl8tY2pvcDJMd0NseHh3aUtyS3BiVmlfeWNGZjI1NEZkeFE4cUdMSUZPTTdWajVNcw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 623,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'safety', topicName: '중대재해처벌법',
-      title: '대표이사를 면책해 중대재해처벌법 집행을 위축시킨 일곱 번째 무죄 판결',
-      author: '관리자',
-      date: '2026.01.14',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>대표이사를 면책해 중대재해처벌법 집행을 위축시킨 일곱 번째 무죄 판결 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBsWXNHOXgweFgxQzhoMmZvdGVEaWVQa3ZhUWVIUnNtUkd5bUNlZHVPSXVxWHpqMDBJbDg1bjltaC1FakJ3QjFUeXcwMnpHR0hlYWNhRHhPMjZZQjVLZ3B2OVpwcXNEVGNVZTBzZHVUeXE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
@@ -1161,20 +1077,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>입법 취지 달성 못 하고, 산재 책임자 처벌 효과 낮아 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: economychosun.com</p><p>원문: <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE00czUzWFNmbDE0dVFaU09Pa3d2cy1Odm9ZQ0VDNWdTTVU0bTJHTFZOYmg1LXBuZnFtbUEydVhTdHYyZHAwcUxLbm5fTFpFclVJeDFESUxCTWVrQy1EaHdmSnNWbC1WX2RWMU9EcWY0NzVqN0lSVDUwTzNQZUVLQUU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 486,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'safety', topicName: '중대재해처벌법',
-      title: '중대재해처벌법 시행 후 최대 규모 사망자가 발생한 ‘아리셀 참사’ 판결',
-      author: '관리자',
-      date: '2025.10.15',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>중대재해처벌법 시행 후 최대 규모 사망자가 발생한 ‘아리셀 참사’ 판결 관련 보도입니다. 자세한 내용은 원문을 참고하세요.</p><p>출처: 매일노동뉴스</p><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9QN3hNNWFUcFc0dmlGYlcwekhOR1g1QnlGZlVuRWdmYmJ3WjBObU5oRlpNQ25MTGs1UzctcGk2V0VKYmI4a1U1b3JQTWJUR0xJRkJzUERabkpKaDRmakE2cVJwZVBMU1hEcTl5ZGhxYVo?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
