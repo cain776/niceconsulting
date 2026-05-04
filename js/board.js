@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 158,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '암스테르담, 육류 및 화석 연료 공공 광고 금지',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>암스테르담 시가 기후 위기 대응을 위해 육류와 화석 연료 제품의 공공 광고를 금지하는 획기적인 조치를 취했습니다. 그동안 육류 소비는 기후 변화의 주요 원인임에도 불구하고 해결책 논의에서 자주 간과되어 왔으나, 이번 정책을 통해 그 중요성이 부각되었습니다. 이번 결정은 축산업이 환경에 미치는 영향과 기후 위기의 시급성을 대중에게 알리는 데 중점을 두고 있습니다. 이는 다른 도시와 국가들이 벤치마킹할 수 있는 선도적인 정책 사례로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>육류 소비 감축을 기후 위기 대응의 핵심 전략으로 설정</li><li>축산업의 환경적 영향에 대한 대중의 인식 제고 및 경각심 고취</li><li>타 지자체 및 국가에서 도입 가능한 복제 가능한 정책 모델 제시</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t3bn2w/amsterdam_bans_public_adverts_for_meat_and_fossil/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 159,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '포드, 13억 달러 관세 환급 기대에도 공급망 압박 지속',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>포드는 과거 지불한 관세에 대해 약 13억 달러의 환급을 예상하고 있으나, 여전히 공급망 및 원자재 가격 변동으로 인한 도전에 직면해 있습니다. 특히 2026년에는 새로운 관세 정책의 영향으로 약 10억 달러의 추가 비용 부담이 발생할 것으로 전망됩니다. 회사는 이러한 비용 압박을 상쇄하기 위해 공급망 효율화와 원가 절감 전략에 집중하고 있습니다.</p><h3>주요 포인트</h3><ul><li>과거 수입 부품에 대해 지불했던 관세 중 약 13억 달러의 환급을 기대함</li><li>2026년부터 강화되는 관세 규정으로 인해 약 10억 달러 규모의 타격 예상</li><li>원자재 가격 상승 및 공급망 불안정성이 지속적인 경영 리스크로 작용</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/ford-expects-13b-tariff-refund-but-supply-chain-pressure-remains/819136/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 160,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ADB, 아시아 핵심 광물 공급망 확대를 위한 금융 지원 시설 출범',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아시아개발은행(ADB)은 아시아·태평양 지역의 핵심 광물 공급망을 강화하기 위해 '핵심 광물-제조 금융 파트너십 시설(CMF)'을 출범했습니다. 이 이니셔티브는 청정에너지 전환에 필수적인 리튬, 코발트, 니켈 등의 광물 채굴부터 제조 단계까지의 자금 조달을 지원합니다. 이를 통해 개발도상국의 지속 가능한 광물 자원 개발을 촉진하고 글로벌 공급망의 안정성을 높이는 것을 목표로 합니다.</p><h3>주요 포인트</h3><ul><li>전기차 및 재생에너지 기술에 필수적인 핵심 광물 공급망 구축 지원</li><li>민간 및 공공 자본 유입을 통한 대규모 프로젝트 자금난 해소</li><li>환경적·사회적 책임을 준수하는 지속 가능한 광업 관행 장려</li></ul><p>원문: <a href="https://www.esgtoday.com/adb-launches-financing-initiative-to-scale-critical-mineral-supply-chains-in-asia/?utm_source=rss&utm_medium=rss&utm_campaign=adb-launches-financing-initiative-to-scale-critical-mineral-supply-chains-in-asia" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 161,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '2026년 말 친환경 해운 핵심 회담 개최',
+      author: '관리자',
+      date: '2026.05.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전 세계 정부들이 친환경 해운 조치를 최종 확정하기 위해 2026년 말 3주간의 집중 회담을 개최하기로 합의했습니다. 이번 회담은 글로벌 해운 산업의 탈탄소화 목표를 실현하기 위한 결정적인 계기가 될 것으로 전망됩니다. 각국 대표들은 연료 표준 설정 및 탄소 가격 책정과 같은 구체적인 기술적·경제적 이행 방안을 마무리 짓는 데 집중할 예정입니다.</p><h3>주요 포인트</h3><ul><li>친환경 해운 조치 도입을 위한 3주간의 집중 협상 일정 합의</li><li>해운 산업 탈탄소화를 위한 연료 표준 및 탄소세 등 핵심 규제 논의</li><li>국제해사기구(IMO)의 온실가스 감축 목표 달성을 위한 중대한 분수령</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/01/key-green-shipping-talks-to-be-held-in-late-2026/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 162,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '해수면 상승 위기, 뉴올리언스 \'지금 당장 이주 시작해야\'',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 발표된 연구에 따르면 해수면 상승으로 인해 루이지애나주의 문화적 중심지인 뉴올리언스가 이번 세기 말 이전에 멕시코만에 둘러싸일 위기에 처해 있습니다. 전문가들은 이미 '돌아올 수 없는 지점'에 도달했으므로 도시 이주 계획을 즉시 시작해야 한다고 경고하고 있습니다. 기후 변화로 인한 지형 변화가 가속화됨에 따라 단순한 방어벽 구축을 넘어선 근본적인 대책이 시급한 상황입니다.</p><h3>주요 포인트</h3><ul><li>해수면 상승으로 인해 뉴올리언스가 21세기 내에 고립되거나 침수될 가능성 제기</li><li>연구진은 도시 보존을 위한 방어보다 선제적인 이주 계획 수립이 필요하다고 강조</li><li>기후 위기가 루이지애나의 문화적 유산과 거주 지역에 실존적 위협을 가함</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3clqy/point_of_no_return_new_orleans_relocation_must/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 153,
       pinned: false,
       category: 'news', categoryName: '소식',
