@@ -29,8 +29,8 @@
     if (path.indexOf('/safety/') !== -1)    return 'safety';
     if (path.indexOf('/smallbiz/') !== -1)  return 'smallbiz';
     if (path.indexOf('/guide/') !== -1)     return 'guide';
-    if (path.indexOf('/track-record') !== -1) return 'track-record';
     if (path.indexOf('/board') !== -1)      return 'board';
+    if (path === '/' || path === '' || path === '/index.html') return 'board';
     return '';
   }
 
@@ -61,18 +61,7 @@
             '</span>' +
           '</a>' +
           '<nav class="nav" id="nav">' +
-            '<div class="nav-dropdown">' +
-              '<a href="' + bp('/') + '#about" class="nav-link nav-link--dropdown">브라이트패스컨설팅 ' + SVG_ARROW + '</a>' +
-              '<div class="nav-dropdown-menu">' +
-                '<a href="' + bp('/') + '#about">회사 소개</a>' +
-                '<a href="' + bp('/') + '#ceo">대표 소개</a>' +
-                '<a href="' + bp('/') + '#services">서비스</a>' +
-                '<a href="' + bp('/') + '#process">프로세스</a>' +
-                '<a href="' + bp('/') + '#industries">산업분야</a>' +
-                '<a href="' + bp('/') + '#team">컨설턴트</a>' +
-              '</div>' +
-            '</div>' +
-            '<a href="' + bp('/pages/track-record.html') + '" class="nav-link' + ac('track-record') + '">실적</a>' +
+            '<a href="' + bp('/') + '" class="nav-link' + ac('board') + '">자료실</a>' +
             '<a href="' + bp('/esg/index.html') + '" class="nav-link' + ac('esg') + '">ESG</a>' +
             '<a href="' + bp('/ecovadis/index.html') + '" class="nav-link' + ac('ecovadis') + '">에코바디스</a>' +
             '<a href="' + bp('/iso/index.html') + '" class="nav-link' + ac('iso') + '">ISO</a>' +
@@ -87,8 +76,6 @@
                 '<a href="' + bp('/guide/cbam.html') + '">CBAM</a>' +
               '</div>' +
             '</div>' +
-            '<a href="' + bp('/pages/board.html') + '" class="nav-link' + ac('board') + '">자료실</a>' +
-            '<a href="' + bp('/') + '#contact" class="nav-link nav-link--cta">상담 신청</a>' +
           '</nav>' +
           '<button type="button" class="hamburger" id="hamburger" aria-label="메뉴 열기">' +
             '<span></span><span></span><span></span>' +
