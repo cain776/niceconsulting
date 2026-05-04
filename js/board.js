@@ -3838,20 +3838,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 194,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '싱가포르 기업들, 중소기업 의무 기후공시 시행 연기 요청',
-      author: '관리자',
-      date: '2025.06.27',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>싱가포르 비즈니스 연방(SBF)이 중소기업에 적용되는 의무 기후공시 시행을 연기해 줄 것을 정부에 공식 건의했습니다. 데이터 인프라와 역량 부족으로 단기간 내 이행이 어렵다는 입장입니다.</p><h3>주요 포인트</h3><ul><li>중소기업 적용 일정에 대한 산업계 이견 표면화</li><li>Scope 3 데이터 수집 역량 부족이 핵심 이슈</li><li>아세안 권역 공시 도입 속도 조정 가능성</li></ul><p>원문: <a href="https://www.esgtoday.com/singapore-companies-ask-to-delay-mandatory-climate-reporting-for-smaller-businesses/?utm_source=rss&utm_medium=rss&utm_campaign=singapore-companies-ask-to-delay-mandatory-climate-reporting-for-smaller-businesses" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 195,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -5182,20 +5168,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 290,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: 'ESG·지속가능 금융 역량 강화에 도움이 되는 28개 강좌',
-      author: '관리자',
-      date: '2024.05.09',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>GreenBiz가 지속가능 투자·기업 ESG 성과 개선에 도움이 되는 28개 온라인 강좌를 큐레이션해 소개했습니다. 입문부터 실무 전문 과정까지 다양한 옵션을 다룹니다.</p><h3>주요 포인트</h3><ul><li>28개 ESG·지속가능 금융 강좌 큐레이션</li><li>입문~실무 전문 과정 단계별 정리</li><li>실무자 역량 개발 가이드</li></ul><p>원문: <a href="https://www.greenbiz.com/article/28-courses-boost-your-esg-sustainable-finance-skills" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 291,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -5305,20 +5277,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>Climate United, Power Forward, Coalition for Green Capital 등 3개 단체가 EPA의 Greenhouse Gas Reduction Fund로부터 총 200억 달러 자금을 받게 됐다고 발표됐습니다. 미국 청정에너지 금융 인프라가 한 단계 도약합니다.</p><h3>주요 포인트</h3><ul><li>3개 컨소시엄에 200억 달러 분배</li><li>저소득 지역 청정에너지 금융 강화</li><li>美 그린뱅크 모델의 본격 가동</li></ul><p>원문: <a href="https://www.greenbiz.com/article/epa-announces-awards-20-billion-green-bank" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 299,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '공급망 지속가능성 강화에 도움이 되는 14개 학습 자료',
-      author: '관리자',
-      date: '2024.04.04',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>공급망과 조달 관행에 지속가능성을 통합하는 전략을 개발·실행하는 데 도움이 되는 14개 교육 옵션을 GreenBiz가 정리했습니다. 실무자에게 유용한 학습 가이드입니다.</p><h3>주요 포인트</h3><ul><li>공급망 ESG 14개 학습 자료 큐레이션</li><li>조달·SRM 실무에 직결되는 콘텐츠</li><li>실무자용 단계별 학습 경로</li></ul><p>원문: <a href="https://www.greenbiz.com/article/learn-how-drive-supply-chain-and-procurement-sustainability-these-14-training-resources" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
