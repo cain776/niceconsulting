@@ -10,6 +10,272 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 417,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[고객 사례] 시세이도, 지속가능한 뷰티에 대한 도전',
+      author: '관리자',
+      date: '2026.02.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>시세이도는 EcoVadis의 평가와 IQ Plus를 활용해 글로벌 협력사 네트워크의 CSR 리스크를 식별하고 시정조치를 시행하고 있습니다. 동시에 'Responsible Beauty Initiative(RBI)'를 통해 뷰티 산업 전반의 표준 향상과 협력 강화를 추진하고 있습니다.</p><h3>주요 포인트</h3><ul><li>EcoVadis 평가 + IQ Plus 활용으로 협력사 CSR 리스크 가시화</li><li>RBI 이니셔티브로 산업 차원의 표준 상향</li><li>일본 뷰티 산업의 지속가능 공급망 모범 사례</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/buyers-customer-stories/shiseido-the-challenge-of-sustainable-beauty" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 418,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[보도자료] 기후 행동 지연, 2030년까지 글로벌 기업 연간 5,000억 달러 이상 부채 리스크',
+      author: '관리자',
+      date: '2026.01.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 BCG와 공동으로 발표한 보고서에 따르면, 글로벌 기업이 기후 행동을 미룰 경우 2030년까지 연간 5,000억 달러를 초과하는 부채 리스크에 노출될 수 있습니다. 기후 무위(無爲)의 비용을 정량화한 분석입니다.</p><h3>주요 포인트</h3><ul><li>2030년 연간 5,000억 달러 잠재 부채 리스크 정량화</li><li>지연된 기후 대응의 재무적 손실 가시화</li><li>선제적 탈탄소 투자의 경제적 정당성 강화</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/press-releases/delayed-climate-action-could-expose-global-companies-annual-liability-risk" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 419,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[보도자료] SOMPO리스크와 EcoVadis, 일본 기업 공급망 리스크 대응 위한 MOU 체결',
+      author: '관리자',
+      date: '2026.01.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis와 SOMPO 리스크 매니지먼트가 일본 기업의 정보 공시와 리스크 대응을 공동 지원하기 위한 기본 합의서(MOU)를 체결했습니다. 환경·노동·인권 등 공급망 리스크를 가시화·평가해 글로벌 공급망에서 일본 기업의 경쟁력을 뒷받침합니다.</p><h3>주요 포인트</h3><ul><li>일본 보험사와 ESG 평가사의 전략적 제휴</li><li>공급망 '보이지 않는 리스크' 가시화 솔루션</li><li>일본 기업의 정보공시 대응 역량 강화</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/press-releases/joint-release-sompo-risk-and-ecovadis-sign-memorandum-of-understanding" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 420,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[보도자료] LINK-J×BCG 헬스케어 산업 전략 세미나에 EcoVadis 임원 등단',
+      author: '관리자',
+      date: '2026.01.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>LINK-J와 BCG가 공동 주최한 헬스케어 산업 전략 세미나 '헬스케어×지속가능 조달'에 EcoVadis 일본법인 대표 와카츠키 죠와 어카운트 임원 이와야마 료야가 발표자로 참가했습니다.</p><h3>주요 포인트</h3><ul><li>일본 헬스케어 산업의 지속가능 조달 의제 부각</li><li>EcoVadis 임원진의 일본 시장 인사이트 공유</li><li>제약·의료기기 산업의 ESG 공급망 전략</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/press-releases/link-j-x-bcg-healthcare-industry-strategy-seminar" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 421,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[웨비나] 인권 실사·인적자본 공시와 노동·인권 리스크 공동 세미나',
+      author: '관리자',
+      date: '2026.01.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 공동 개최한 일본 시장 대상 세미나로, 인권 실사(HRDD)·인적 자본 공시·노동/인권 리스크의 실무 대응 방안을 다뤘습니다. 일본 기업이 글로벌 인권 규제에 대응하기 위한 실용 가이드입니다.</p><h3>주요 포인트</h3><ul><li>HRDD 글로벌 규제 트렌드 정리</li><li>인적자본 공시(SSBJ 등) 일본 기업 영향</li><li>공급망 노동·인권 리스크 통합 관리 방안</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/webinars/ecovadis-co-hosted-seminar-human-rights-due-diligence-human-capital-disclosure-and-labor-human-rights-risks" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 422,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[솔루션] 바이어-협력사가 함께 만드는 지속가능 공급망 — EcoVadis 활용 대화·개선 실천',
+      author: '관리자',
+      date: '2025.10.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 일본 시장에 제공하는 가이드로, 바이어와 협력사가 EcoVadis를 매개로 어떻게 대화하고 개선 활동을 함께 추진할 수 있는지 실천적 방법론을 정리했습니다.</p><h3>주요 포인트</h3><ul><li>바이어-협력사 ESG 대화 프레임워크</li><li>평가 결과 기반 개선 행동 단계</li><li>일본 산업 특성에 맞춘 사례·노하우</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/solution-materials-for-rated/building-a-sustainable-supply-chain-together-with-buyers-and-suppliers" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 423,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[고객 사례] 후지쯔, 데이터 기반 지속가능 경영…EcoVadis로 공급망 개혁',
+      author: '관리자',
+      date: '2025.09.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일본 IT 기업 후지쯔가 EcoVadis를 활용해 데이터 기반의 지속가능 경영을 추진하고 글로벌 공급망 개혁에 도전하는 사례입니다. 협력사 ESG 데이터를 통합 관리하며 선제적으로 리스크에 대응합니다.</p><h3>주요 포인트</h3><ul><li>대형 IT 기업의 EcoVadis 활용 사례</li><li>협력사 ESG 데이터 통합·분석 체계</li><li>일본 공급망 개혁의 모범 사례</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/buyers-customer-stories/data-driven-sustainability-management-fujitsu-takes-on-supply-chain-reform-with-ecovadis" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 424,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[솔루션] EcoVadis 탄소 평가 방법론 — 개요와 원칙',
+      author: '관리자',
+      date: '2025.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 적용하는 탄소 평가 방법론의 개요와 핵심 원칙을 정리한 일본어 가이드입니다. 기업이 평가 항목과 점수 산정 기준을 사전에 이해하는 데 도움이 됩니다.</p><h3>주요 포인트</h3><ul><li>EcoVadis 탄소 평가 항목·구조 정리</li><li>점수 산정 원칙과 가중치</li><li>기업의 사전 준비를 위한 실무 가이드</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/solution-materials-for-rated/ecovadis-carbon-methodology-overview-principles-ja" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 425,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[백서] 방대한 ESG 데이터를 전략적 액션으로 — ESG 리스크 관리 실천 가이드',
+      author: '관리자',
+      date: '2025.05.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis의 IQ Plus 솔루션을 활용해 방대한 ESG 데이터를 전략적 의사결정으로 연결하는 실천 가이드입니다. 데이터 과부하 시대의 ESG 리스크 관리 모범 사례를 다룹니다.</p><h3>주요 포인트</h3><ul><li>ESG 데이터 과부하 대응 실천 방법</li><li>IQ Plus 활용 우선순위·인사이트 도출</li><li>ESG 리스크 관리 베스트 프랙티스</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/whitepapers/iq-plus-from-data-overload-to-decisive-action-ja" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 426,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[솔루션] 워커 보이스 커넥트 — 공급망 인권 가시성 솔루션',
+      author: '관리자',
+      date: '2025.04.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis의 신규 솔루션 'Worker Voice Connect'는 협력사 공급망의 근로자 목소리를 직접 수집·분석해 인권 책무성을 강화합니다. 글로벌 HRDD 규제에 대응하는 실무 도구입니다.</p><h3>주요 포인트</h3><ul><li>근로자 직접 입력 기반 인권 검증 채널</li><li>HRDD 규제 대응 디지털 솔루션</li><li>일본·아시아 공급망 적용 사례</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/solution-materials-for-requesting/worker-voice-connect-brochure-jp-2" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 427,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[블로그] 2024 최신 데이터 — EcoVadis 평가에서 본 일본 기업의 지속가능성 동향과 과제',
+      author: '관리자',
+      date: '2025.03.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis 평가 데이터를 기반으로 일본 기업의 지속가능성 진척과 주요 과제를 분석한 블로그입니다. 글로벌 평균과의 비교, 강점·약점 영역, 향후 개선 방향을 다룹니다.</p><h3>주요 포인트</h3><ul><li>일본 기업 EcoVadis 등급 분포 현황</li><li>강점 영역(거버넌스)과 약점 영역(인권)</li><li>글로벌 표준 도달을 위한 개선 우선순위</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/blog/sustainability-trends-and-challenges-of-japanese-companies-as-seen-in-ecovadis-ratings" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 428,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[보도자료] EcoVadis, Google Cloud와 제휴…자율형 AI 에이전트로 업무 최적화',
+      author: '관리자',
+      date: '2025.01.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 Google Cloud와 제휴해 '자율형 AI 에이전트'를 활용한 업무 최적화와 고객 가치 향상을 가속한다고 발표했습니다. 평가·분석 자동화로 사용자 경험을 한 단계 끌어올립니다.</p><h3>주요 포인트</h3><ul><li>Google Cloud 기반 자율형 AI 에이전트 도입</li><li>평가·고객 응대 자동화로 효율성 확보</li><li>대규모 ESG 데이터 처리 기반 강화</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/press-releases/ecovadis-google-cloud-partnership" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 429,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[보도자료] EcoVadis, Microsoft \'AI Transformation - Scale\' 부문 FY25 로컬 파트너 어워드 수상',
+      author: '관리자',
+      date: '2024.11.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 Microsoft의 FY25 로컬 파트너 어워드 'AI Transformation - Scale' 부문에서 수상했다고 발표했습니다. AI를 활용한 ESG 평가·인사이트 솔루션의 우수성을 인정받은 사례입니다.</p><h3>주요 포인트</h3><ul><li>Microsoft 공식 파트너 어워드 수상</li><li>AI 활용 ESG 솔루션 시장 인정</li><li>일본 시장 AI 적용 모범 사례</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/press-releases/ecovadis-wins-fy25-local-partner-award-in-the-microsoft-ai-transformation-scale-category" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 430,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[솔루션] EcoVadis 평가용 증빙 자료 가이드',
+      author: '관리자',
+      date: '2024.10.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis 평가에서 제출해야 하는 증빙 자료의 종류와 작성 요건을 정리한 일본어 가이드입니다. 평가 첫 시도 기업이 사전 준비를 통해 실수를 줄일 수 있도록 돕습니다.</p><h3>주요 포인트</h3><ul><li>평가 항목별 필수·권장 증빙 정리</li><li>제출 문서 포맷·언어 요건</li><li>일본 기업 사례 기반 실수 회피 팁</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/solution-materials-for-rated/ecovadis-document-guide-ja" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 431,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[고객 사례] 일본특수도업(Niterra), EcoVadis로 그룹 ESG 거버넌스 강화',
+      author: '관리자',
+      date: '2024.09.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일본특수도업(Niterra, 옛 NGK 스파크 플러그)이 EcoVadis를 활용해 그룹 차원의 ESG 거버넌스를 강화하고 미래지향적 지속가능 경영을 추진하는 사례입니다.</p><h3>주요 포인트</h3><ul><li>Niterra의 그룹 ESG 거버넌스 구축</li><li>EcoVadis 평가 기반 개선 활동 체계화</li><li>일본 자동차 부품 산업 ESG 모범 사례</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/suppliers-customer-stories/strengthening-niterra-s-esg-governance-with-ecovadis" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 432,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[웨비나] EcoVadis 점수 향상 세미나 — 환경 점수 개선',
+      author: '관리자',
+      date: '2024.08.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 공동 개최한 점수 향상 세미나로, 평가 4개 영역 중 환경 점수를 효과적으로 개선하는 실천 방법을 다뤘습니다. 협력사 실무자 대상 콘텐츠입니다.</p><h3>주요 포인트</h3><ul><li>환경 점수 핵심 평가 항목 정리</li><li>개선 우선순위 도출 방법론</li><li>실제 사례 기반 점수 향상 노하우</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/suppliers-customer-stories/ecovadis-joint-seminar-improving-environmental-score" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 433,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[솔루션] EcoVadis 인증 컨설팅 파트너 안내 가이드',
+      author: '관리자',
+      date: '2024.07.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis 평가 준비를 지원하는 공식 인증 컨설팅 파트너 제도와 활용 방법을 정리한 일본어 안내 가이드입니다. 자체 역량이 부족한 기업도 외부 전문가 도움을 받을 수 있습니다.</p><h3>주요 포인트</h3><ul><li>EcoVadis 인증 파트너 제도 개요</li><li>파트너 활용 시점·범위 가이드</li><li>일본 시장 적용 사례·요금 구조</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/solution-materials-for-requesting/ecovadis-accredited-consulting-partner-information-guide-jp-2" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 434,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[웨비나] 데이터로 바꾸는 일본 기업 지속가능 조달 — Barometer 2026과 ROI 극대화',
+      author: '관리자',
+      date: '2024.05.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis Sustainable Procurement Barometer 2026 데이터를 통해 일본 기업의 지속가능 조달 실태를 분석하고, ROI를 최대화하기 위한 다음 단계를 제시한 웨비나입니다.</p><h3>주요 포인트</h3><ul><li>Barometer 2026 일본 시장 핵심 인사이트</li><li>지속가능 조달 ROI 측정·향상 방안</li><li>글로벌 평균 대비 일본 기업 격차 진단</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/webinars/transforming-japanese-companies-sustainable-procurement-through-data-sustainable-procurement-barometer-2026-webinar" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 435,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '[웨비나] EcoVadis 활용한 SSBJ 기준 지속가능성 정보공시 대비',
+      author: '관리자',
+      date: '2024.04.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일본 SSBJ(지속가능성 기준 위원회) 공시 기준 도입에 대비해 EcoVadis를 어떻게 활용할 수 있는지 다룬 SOMPO 공동 웨비나입니다. 일본 기업의 ISSB 호환 보고 준비에 직결되는 실무 콘텐츠입니다.</p><h3>주요 포인트</h3><ul><li>SSBJ 기준의 EcoVadis 활용 매핑</li><li>ISSB 호환 일본 공시 대비 가이드</li><li>SOMPO·EcoVadis 협업 시너지 사례</li></ul><p>원문: <a href="https://resources.ecovadis.com/ja/webinars/sompo-webinar-on-demand" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 354,
       pinned: false,
       category: 'news', categoryName: '소식',
