@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: '미 국방부 검토 지연으로 150개 이상 풍력 프로젝트 중단',
       id: 566,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '김해시, 중대재해 예방 교육 실시… 관리감독자 안전역량 강화',
       author: '관리자',
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 567,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '무안군, 중대재해처벌법 포함 농작업 안전교육 진행',
       author: '관리자',
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 568,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '시민 안전이 최우선…포항시, 중대시민재해 예방 의무 이행 총력 점검',
       author: '관리자',
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 569,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '연수구 2026년 중대재해처벌법 교육 실시 > 뉴스',
       author: '관리자',
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 570,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '인천 동구, 중대재해처벌법 이해도 제고… 관리 공백 없는 안전체계 구축',
       author: '관리자',
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 571,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '손호영 판사의 판례 공부 161 / 중대재해처벌법에서 ‘사업장’은 어디까지일까',
       author: '관리자',
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 572,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '\'중대재해처벌법 위반\' 경북 영풍 석포제련소 전 대표 항소 기각',
       author: '관리자',
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 573,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[아리셀 항소심] “중대재해처벌법 적개심 드러낸 판결”',
       author: '관리자',
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 574,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '파주시, 중대재해 막는다…고위험 사업장 안전관리 전면 재정비',
       author: '관리자',
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 575,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 4년, 왜 산업현장 사망자는 늘어났나',
       author: '관리자',
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 576,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[단독]민간 안전보건평가기관, 평가·컨설팅 ‘동시 수행’ 논란',
       author: '관리자',
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 578,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '법무법인 B&H·세이프지, 산업안전 플랫폼 구축 협력 MOU 체결',
       author: '관리자',
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 579,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '개인정보 보호법 개정안, 제2의 중대재해처벌법 되지 말아야 [취재진담]',
       author: '관리자',
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 580,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[단독] 노동부, 검찰 지휘에 ‘시흥신세계아울렛 감전사’ 중대재해처벌법 적용 검토',
       author: '관리자',
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 581,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '"韓 중대재해법 시행 4년, 처벌만으론 한계…제도 개선해야"',
       author: '관리자',
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 582,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '인명 피해 반복 사고, 정작 \'중대재해처벌법\' 적용에선 배제',
       author: '관리자',
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 583,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '울주군, 간부 공무원 이어 실무자도 중대재해 예방 교육',
       author: '관리자',
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 584,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '국힘, 정부여당에 “중대재해처벌법 개정 착수 강력 촉구”',
       author: '관리자',
@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 585,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[중대재해처벌법 4년, 무엇이 바뀌었나] ①엇갈린 4년의 명암',
       author: '관리자',
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 586,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[정읍시] 농작업 안전 컨설팅 추진… 중대재해 예방 강화',
       author: '관리자',
@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 587,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '“중대재해처벌법 시대, 안전관리의 새로운 기준”',
       author: '관리자',
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 588,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '청주상의, 중대재해방지 컨설팅 참여기업 모집',
       author: '관리자',
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 589,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '사천시, 2026년 중대재해 예방 컨설팅 지원사업 참여 사업체 모집',
       author: '관리자',
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 590,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '가평군, 농작업 ‘중대재해 제로’ 도전 본격화…110농가 현장점검 및 컨설팅',
       author: '관리자',
@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 591,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '무주군, 중대재해 예방 교육 시행',
       author: '관리자',
@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 592,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '밀양시,\'중소기업 중대재해예방 컨설팅\' 참여 기업 모집',
       author: '관리자',
@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 593,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '"강화된 산업안전보건법, 기업 대응 전략 달라져야"',
       author: '관리자',
@@ -410,7 +410,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 594,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '서울시, 소규모 사업장 \'위험성평가 무료 컨설팅\' 지원…산업재해 예방 나선다',
       author: '관리자',
@@ -424,7 +424,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 595,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '서울시, 소규모 사업장 \'위험성평가 컨설팅\' 지원…"산업재해 예방"',
       author: '관리자',
@@ -438,7 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 596,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '창원시, 중소기업 중대재해 예방 컨설팅 지원',
       author: '관리자',
@@ -452,7 +452,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 597,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘74명 사상자 발생’ 대전 화재 참사, 중대재해처벌법 적용은 어떻게',
       author: '관리자',
@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 598,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '위험성평가 미실시 과태료 ‘최대 1000만원’',
       author: '관리자',
@@ -480,7 +480,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 599,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 50문 50답 신청하기',
       author: '관리자',
@@ -494,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 600,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[판결] "인사·재무 묶여있으면 같은 회사"',
       author: '관리자',
@@ -508,7 +508,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 601,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해법 적용 사업장 기준은? “본사·지점·공장 모두 합쳐야”',
       author: '관리자',
@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 602,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘중대재해처벌법도 유예’ 4대 지역 특별법 독소조항 ‘우후죽순’',
       author: '관리자',
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 603,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[기고-신유림]2026년 위험성평가 개정에 주목해야 하는 이유',
       author: '관리자',
@@ -550,7 +550,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 604,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[열린송현] 중대재해처벌법 시행 4년과 향후 과제',
       author: '관리자',
@@ -564,7 +564,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 605,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '그룹 회장, 중대재해처벌법상 경영책임자 아니다.',
       author: '관리자',
@@ -578,7 +578,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 606,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '보람상조, 장례 넘어 ‘안전’까지…중대재해 무료 컨설팅 지원',
       author: '관리자',
@@ -592,7 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 607,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '안전보건공단, “개정 산안법 현장에 안착시킬 것”',
       author: '관리자',
@@ -606,7 +606,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 608,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '상장회사 중대재해 발생 시 \'즉시 공시\' 의무화',
       author: '관리자',
@@ -620,7 +620,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 609,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: 'CSO 선임한 원청 대표, 중대재해처벌법 무죄',
       author: '관리자',
@@ -634,7 +634,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 610,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '울주군, 소규모 사업장 중대재해 예방 무료 컨설팅',
       author: '관리자',
@@ -648,7 +648,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 611,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[산업안전 뉴스] 3000만원 지원하는 안전보건 컨설팅 2월 19일부터 접수',
       author: '관리자',
@@ -662,7 +662,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 612,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[판결] 중대재해법 1호 사건 정도원 삼표 회장 무죄',
       author: '관리자',
@@ -676,7 +676,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 613,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행 4년…현장 변화는 ‘아직’',
       author: '관리자',
@@ -690,7 +690,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 614,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '개정 산업안전보건법 4대 포인트',
       author: '관리자',
@@ -704,7 +704,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 615,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '산업안전보건법 일부개정',
       author: '관리자',
@@ -732,7 +732,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 617,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행 이후 판례 분석',
       author: '관리자',
@@ -746,7 +746,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 618,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[자료집] 중대재해처벌법 시행 4년, 국회토론회 왜 산업재해 공화국 굴욕을 멈추지 못하고 있나',
       author: '관리자',
@@ -760,7 +760,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 619,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행 4년, 중처법 엄정집행 처벌강화 촉구! 민주노총 경기도본부 기자회견',
       author: '관리자',
@@ -774,7 +774,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 620,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '\'죽어도 늘지 않는, 너무나 가벼운\' 중대재해처벌법, ‘산재 공화국’을 벗어나지 못하는 이유',
       author: '관리자',
@@ -788,7 +788,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 621,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '"중대재해처벌법 시행 4년, 노동자 죽음은 멈추지 않았다"',
       author: '관리자',
@@ -802,7 +802,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 622,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[토론회] 중대재해처벌법 시행 4년 국회 토론회 - 공지사항',
       author: '관리자',
@@ -816,7 +816,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 623,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '대표이사를 면책해 중대재해처벌법 집행을 위축시킨 일곱 번째 무죄 판결',
       author: '관리자',
@@ -830,7 +830,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 624,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '대기업 오너 등기임원 겸직 줄어…“상법 개정·중대재해법 영향”',
       author: '관리자',
@@ -858,7 +858,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 464,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행 4년…‘일하다 죽지 않는 사회’ 언제쯤?',
       author: '관리자',
@@ -872,7 +872,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 465,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '2026 산업안전 정책 \'소규모 사업장\'에 초점',
       author: '관리자',
@@ -886,7 +886,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 466,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '산업안전보건법상 ‘근로’를 ‘노동’으로 대체 추진',
       author: '관리자',
@@ -900,7 +900,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 467,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘어선원 안전·보건 매뉴얼’ 개정판·‘외국인 안전·보건 가이드’ 무료 제공',
       author: '관리자',
@@ -928,7 +928,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 469,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중기 10곳 중 6곳 “중대재해처벌법 시행 후 경영부담”',
       author: '관리자',
@@ -984,7 +984,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 473,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[근로자 건강이 국가경쟁력] ⑦\'중대재해처벌법 시행 3년\'…사고는 현재 진행형, 실효성은 물음표',
       author: '관리자',
@@ -998,7 +998,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 474,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '연천교육지원청, 교육현장을 위한 \'중대재해처벌법\' 업무 매뉴얼 교육 실시',
       author: '관리자',
@@ -1012,7 +1012,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 475,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘안전보건공시제·재해조사보고서 공개’ 상임위 문턱 넘었다',
       author: '관리자',
@@ -1040,7 +1040,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 477,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '명예산업안전감독관 의무 위촉 추진… “노·사 참여형 산업재해 예방 체계 강화”',
       author: '관리자',
@@ -1054,7 +1054,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 478,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법에 따른 사업주 책임, 갈수록 무거워져… 사고 발생 전 미리 확인해야',
       author: '관리자',
@@ -1068,7 +1068,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 479,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '용산구, 산업재해 예방 앞장… ‘관리감독자 가이드북’ 제작·배포',
       author: '관리자',
@@ -1082,7 +1082,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 480,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해조사 전문성 강화…‘산업안전보건법’ 개정 추진',
       author: '관리자',
@@ -1096,7 +1096,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 481,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘산재와의 전쟁’ 따른 산업안전보건법 개정안 무더기 발의',
       author: '관리자',
@@ -1110,7 +1110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 482,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 3년, “안전 투자 늘었지만, 재해 예방 효과는 아쉬워”',
       author: '관리자',
@@ -1124,7 +1124,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 483,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[김민승 변호사의 국가계약 이슈] 중대재해 발생 시 형사처벌을 넘어 입찰제한까지 (국가계약법 개정안에 대하여)',
       author: '관리자',
@@ -1138,7 +1138,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 484,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '작업중지권, 노동자 참여 실질화 산업안전보건법 개정 촉구 선언 운동',
       author: '관리자',
@@ -1152,7 +1152,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 485,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '입법 취지 달성 못 하고, 산재 책임자 처벌 효과 낮아',
       author: '관리자',
@@ -1166,7 +1166,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 486,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행 후 최대 규모 사망자가 발생한 ‘아리셀 참사’ 판결',
       author: '관리자',
@@ -1180,7 +1180,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 487,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해법 시행에도 재해자 수 오히려 지속 증가',
       author: '관리자',
@@ -1194,7 +1194,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 488,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해보험, 약관개정 시급',
       author: '관리자',
@@ -1208,7 +1208,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 489,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '화성특례시, 중대재해 예방 위한 안전·보건 매뉴얼 개정·배포 공공시설·산업현장 안전관리 절차 담아 현장 활용도 강화',
       author: '관리자',
@@ -1236,7 +1236,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 491,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '대구시, 중대재해·재난안전 담당자 실무교육 실시',
       author: '관리자',
@@ -1250,7 +1250,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 492,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘산재와의 전쟁’ 선포한 李, 다시 ‘뜨거운 감자’된 중대재해처벌법 [옛날신문보기]',
       author: '관리자',
@@ -1264,7 +1264,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 493,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중처법 3년, 산재는 더 늘었다…李 정부 ‘엄청 처벌’이 산재 줄일까',
       author: '관리자',
@@ -1278,7 +1278,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 494,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[앵커 브리핑] 중대재해처벌법 시행 3년 지났지만···이재명표 중대재해 예방책은?',
       author: '관리자',
@@ -1292,7 +1292,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 495,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '\'산재 엄벌\' 李 발언에 관련 입법 속도내는 與...더 강한 중대재해처벌법 예고',
       author: '관리자',
@@ -1306,7 +1306,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 496,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행 3.5년, 재해 감소 효과 없고 현장 혼란만 가중',
       author: '관리자',
@@ -1320,7 +1320,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 497,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '\'폭염작업 시 2시간마다 20분 이상 휴식\' 의무화…17일부터 시행',
       author: '관리자',
@@ -1334,7 +1334,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 498,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 3년…개정에 나선 국회',
       author: '관리자',
@@ -1348,7 +1348,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 499,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '경총, 원하청 협력 안전관리 가이드북 발간',
       author: '관리자',
@@ -1362,7 +1362,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 500,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[중대재해처벌법 3년] \'강화 vs 완화\' 21대 대선 후보자별 입장은?',
       author: '관리자',
@@ -1376,7 +1376,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 501,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '“중대재해법, 처벌 대신 예방으로 전환해야”',
       author: '관리자',
@@ -1390,7 +1390,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 502,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '김문수 "중대재해처벌법은 악법, 노란봉투법은 위헌…모두 고치겠다"',
       author: '관리자',
@@ -1404,7 +1404,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 503,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '사무직군 영역으로 중대재해처벌법 확대적용',
       author: '관리자',
@@ -1418,7 +1418,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 504,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 처벌·기준 완화 개정 움직임에 노동계 우려',
       author: '관리자',
@@ -1432,7 +1432,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 505,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[책소개] 중대재해처벌법: 해석과 입법론',
       author: '관리자',
@@ -1446,7 +1446,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 506,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '순천시, 중대재해 예방 가이드북 및 매뉴얼 제작',
       author: '관리자',
@@ -1460,7 +1460,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 507,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '대기업과 중소기업 안전관리 예산 1255배 차이…의무이행률도 차이 커',
       author: '관리자',
@@ -1474,7 +1474,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 508,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 사고 예방 효과에 노사 모두 ‘긍정’',
       author: '관리자',
@@ -1488,7 +1488,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 509,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[서평] 입법과 해석을 아우른 중대재해처벌법의 지침서',
       author: '관리자',
@@ -1502,7 +1502,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 510,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[특별기고-조희태]적격수급업체 선정을 위한 안전보건수준 평가의 시기와 방식',
       author: '관리자',
@@ -1516,7 +1516,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 511,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '교통사고와 ‘실질적으로 지배ㆍ운영ㆍ관리(또는 그 책임)’와의 관계',
       author: '관리자',
@@ -1530,7 +1530,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 512,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '건설업계, 중대재해처벌법 大수술 건의 착수',
       author: '관리자',
@@ -1544,7 +1544,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 513,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '김영규 대륙아주 변호사, \'중대재해처벌법 해설-중대산업재해 쟁점과 사례\' 발간',
       author: '관리자',
@@ -1558,7 +1558,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 514,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법상 의무이행의 범위 : 기업이 알아야 할 것들',
       author: '관리자',
@@ -1572,7 +1572,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 515,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '경총 “중처법 위헌성 多, 실효성 無…법 개정 서둘러야”',
       author: '관리자',
@@ -1586,7 +1586,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 516,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '"중소기업 중대재해처벌법 대응력 제고"…경총, 매뉴얼 2종 발간',
       author: '관리자',
@@ -1600,7 +1600,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 517,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 명칭, ‘중대재해 예방법’으로 개정 추진',
       author: '관리자',
@@ -1614,7 +1614,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 518,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해 예방 및 대응 가이드북 나와',
       author: '관리자',
@@ -1628,7 +1628,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 519,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '고용노동부 군산지청, 안전보건관리 가이드 간소화 제작',
       author: '관리자',
@@ -1642,7 +1642,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 520,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[산업안전 뉴스] 경비청소업 등 간소화된 \'업종별 안전보건 가이드\' 배포',
       author: '관리자',
@@ -1656,7 +1656,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 521,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해 예방 ‘막막’ 작은 사업장 가이드라인 나왔다',
       author: '관리자',
@@ -1670,7 +1670,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 522,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[HOT ISSUE] 1월 27일 중대재해처벌법 전격 시행',
       author: '관리자',
@@ -1684,7 +1684,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 523,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '산업재해예방 가이드',
       author: '관리자',
@@ -1698,7 +1698,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 524,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해 처벌 등에 관한 법률 시행 2년 분석 및 시사점',
       author: '관리자',
@@ -1712,7 +1712,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 525,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '대통령까지 나선 중대재해처벌법 적용유예',
       author: '관리자',
@@ -1726,7 +1726,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 526,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '\'중대재해 스마트안전 바이블 2024\' 출간...중대재해처벌법 완벽 대비',
       author: '관리자',
@@ -1740,7 +1740,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 527,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 ‘적용 유예’ 안갯속',
       author: '관리자',
@@ -1754,7 +1754,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 528,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 개정 논의 ‘더 늦출 수 없다’…실질적 대안 마련해야',
       author: '관리자',
@@ -1768,7 +1768,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 529,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '지금 중대재해처벌법 개정이 필요한 까닭은',
       author: '관리자',
@@ -1782,7 +1782,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 530,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘오송참사’ 중대재해처벌법 적용될까?',
       author: '관리자',
@@ -1796,7 +1796,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 531,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[기고]중대재해처벌법을 통해 지자체장에게 책임을 물을 수 있을까 - 머니투데이',
       author: '관리자',
@@ -1810,7 +1810,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 532,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '“중대재해처벌법, 국민 생명·안전 최우선하는 법”',
       author: '관리자',
@@ -1824,7 +1824,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 533,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법과 그럴듯한 말들 - 정기훈의 토론',
       author: '관리자',
@@ -1838,7 +1838,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 534,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '소규모 사업장 중대재해 감축위한 \'안전보건교육 가이드북\' 배포',
       author: '관리자',
@@ -1852,7 +1852,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 535,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '"중대재해처벌법 영세기업 대책없다"',
       author: '관리자',
@@ -1866,7 +1866,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 536,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '"예방체계부터 실제 사례 분석까지… 중대재해처벌법의 모든 것 한 권에 담았습니다."',
       author: '관리자',
@@ -1880,7 +1880,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 537,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[토론회] 중대재해처벌법 과연 위헌인가',
       author: '관리자',
@@ -1894,7 +1894,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 538,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[신간안내] 중대재해처벌법(개정판)',
       author: '관리자',
@@ -1908,7 +1908,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 539,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '법무법인 동인, 《중대재해처벌법 해설 및 사례집》 발간',
       author: '관리자',
@@ -1922,7 +1922,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 540,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '강선건조업 등 5개업종 사망자 5년간 192명…안전 가이드북 제작',
       author: '관리자',
@@ -1936,7 +1936,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 541,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행령, 지금 개정할 이유 없다',
       author: '관리자',
@@ -1950,7 +1950,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 542,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '고용노동부, 고위험 소규모 사업장용 안전보건 가이드북 배포',
       author: '관리자',
@@ -1964,7 +1964,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 543,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '기재부 중대재해법 시행령안 베낀 노동부',
       author: '관리자',
@@ -1978,7 +1978,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 544,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[단독] 중대재해법 해석 흔들리나...‘도급인 사업장’ 법원 판단은?',
       author: '관리자',
@@ -1992,7 +1992,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 545,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 해설(중대산업재해)의 몇 가지 쟁점',
       author: '관리자',
@@ -2006,7 +2006,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 546,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[칼럼] 중대재해처벌법 제정을 미룬 정당, 반대한 의원은 누구?',
       author: '관리자',
@@ -2020,7 +2020,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 547,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '50인 미만 기업 대상 안전관리체계 안내서 확인하세요',
       author: '관리자',
@@ -2034,7 +2034,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 548,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '‘금속 주조업’ 안전보건관리 이렇게 하세요',
       author: '관리자',
@@ -2048,7 +2048,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 549,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[안심TV] 최고 전문가의 중대재해처벌법 해설서- 화학공정안전, 권혁면 교수 편',
       author: '관리자',
@@ -2062,7 +2062,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 550,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '항만건설분야 안전관리업무 길라잡이 제작·배포',
       author: '관리자',
@@ -2076,7 +2076,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 551,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: 'LK보험중개, 중대재해처벌법 보험 가입 가이드 공개',
       author: '관리자',
@@ -2090,7 +2090,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 552,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[팀 탐방] 법무법인 대륙아주 ‘중대재해처벌법 대응본부’',
       author: '관리자',
@@ -2104,7 +2104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 553,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[인터뷰] “중대재해처벌법, 실효성 없다" 정진우 서울과기대 안전공학과 교수',
       author: '관리자',
@@ -2118,7 +2118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 554,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '고용부, 중소기업용 ‘중대재해처벌법’ 안내서 배포',
       author: '관리자',
@@ -2132,7 +2132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 555,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[기자수첩] ‘억’ 소리 나는 안전컨설팅 비용',
       author: '관리자',
@@ -2146,7 +2146,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 556,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[검찰 ‘중대재해처벌법 벌칙해설서’ 집중분석 ④] ‘치료기간 6개월 이상’ 기준, 중대재해 면죄부 될까',
       author: '관리자',
@@ -2160,7 +2160,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 557,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[검찰 ‘중대재해처벌법 벌칙해설서’ 집중분석 ③] 특수고용·무급 노동자, 중대재해법이 보호하는 종사자',
       author: '관리자',
@@ -2174,7 +2174,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 558,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '“중대재해처벌법, ‘합리적 실행 가능성’ 법리로 대비해야”',
       author: '관리자',
@@ -2188,7 +2188,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 559,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '[기자24시] 검찰만 보는 중대재해법 해설서',
       author: '관리자',
@@ -2202,7 +2202,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 560,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '한국산업단지공단, 중대재해처벌법 시행 대응 총력',
       author: '관리자',
@@ -2216,7 +2216,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 561,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '해운협회, \'중대재해처벌법 대응 가이드북\' 발간 배포',
       author: '관리자',
@@ -2230,7 +2230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 562,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '500인 이상 회사, 안전보건계획 이사회 승인받아야…노동부 안내',
       author: '관리자',
@@ -2244,7 +2244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 563,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 대비 제조·기타업종 대상 무료 컨설팅 시행',
       author: '관리자',
@@ -2258,7 +2258,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 564,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '중대재해처벌법 시행 앞두고 일제점검',
       author: '관리자',
@@ -2272,7 +2272,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 565,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'safety', topicName: '중대재해처벌법',
       title: '설비건설협회, 중대재해 예방 가이드 교육 시행',
       author: '관리자',
