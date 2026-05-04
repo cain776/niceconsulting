@@ -49,6 +49,9 @@ RSS_FEEDS = [
     # Reddit 커뮤니티
     {"url": "https://www.reddit.com/r/sustainability/.rss", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
     {"url": "https://www.reddit.com/r/climate/.rss", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
+    # EcoVadis 전용 (Google News 검색 RSS)
+    {"url": "https://news.google.com/rss/search?q=ecovadis&hl=en-US&gl=US&ceid=US:en", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
+    {"url": "https://news.google.com/rss/search?q=%EC%97%90%EC%BD%94%EB%B0%94%EB%94%94%EC%8A%A4&hl=ko&gl=KR&ceid=KR:ko", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
 ]
 
 # Reddit 등 일부 사이트는 기본 User-Agent를 차단하므로 명시적으로 설정
