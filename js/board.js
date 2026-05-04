@@ -8256,7 +8256,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </ul>
         <h3>등급 체계</h3>
         <p>에코바디스는 0~100점 기반으로 평가하며, 상위 1%는 플래티넘, 상위 5%는 골드, 상위 25%는 실버, 상위 50%는 브론즈 메달을 부여합니다.</p>
-        <p>BrightPath ESG Consulting은 에코바디스 고득점 전략 컨설팅을 제공합니다. 현황 진단부터 증빙자료 체계 구축까지, 전 과정을 함께합니다.</p>
+        
       `
     },
     {
@@ -8311,20 +8311,6 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>경영시스템과 실사 프로세스 문서화 핵심 도입</li>
           <li>분쟁광물(Conflict Minerals) 관리 강화</li>
         </ul>
-      `
-    },
-    {
-      id: 11,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: 'BrightPath ESG, 2024년 상반기 컨설팅 실적 보고',
-      author: '관리자',
-      date: '2024.07.02',
-      views: 1245,
-      hasAttachment: false,
-      content: `
-        <p>BrightPath ESG Consulting은 2024년 상반기 총 35건의 컨설팅 프로젝트를 성공적으로 수행하였습니다.</p>
       `
     },
     {
@@ -8424,20 +8410,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <p>SBTi(Science Based Targets initiative)가 2024년 목표 설정 가이드라인을 업데이트하였습니다. Scope 3 감축 목표 설정이 더욱 강화되었습니다.</p>
-      `
-    },
-    {
-      id: 3,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: 'BrightPath ESG Consulting 홈페이지 오픈',
-      author: '관리자',
-      date: '2023.12.01',
-      views: 3201,
-      hasAttachment: false,
-      content: `
-        <p>BrightPath ESG Consulting의 공식 홈페이지가 오픈하였습니다. ESG 경영, 에코바디스, 중대재해처벌법, ISO 인증에 관한 컨설팅 서비스를 제공합니다.</p>
       `
     },
     {

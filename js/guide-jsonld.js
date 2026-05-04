@@ -40,12 +40,12 @@
     'url': canonical,
     'author': {
       '@type': 'Organization',
-      'name': 'BrightPath ESG Consulting',
+      'name': '明, ESG를 말하다',
       'url': 'https://brightpathesg.com'
     },
     'publisher': {
       '@type': 'Organization',
-      'name': 'BrightPath ESG Consulting',
+      'name': '明, ESG를 말하다',
       'url': 'https://brightpathesg.com'
     },
     'mainEntityOfPage': canonical

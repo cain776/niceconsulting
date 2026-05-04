@@ -33,7 +33,7 @@
     { property: 'og:url', content: url },
     { property: 'og:image', content: ogImage },
     { property: 'og:locale', content: 'ko_KR' },
-    { property: 'og:site_name', content: 'BrightPath ESG Consulting' }
+    { property: 'og:site_name', content: '明, ESG를 말하다' }
   ];
 
   tags.forEach(function (tag) {
