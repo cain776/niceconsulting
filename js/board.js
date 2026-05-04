@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 461,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전쟁의 시대, 화석 연료가 초래하는 막대한 비용',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전 세계적인 분쟁 상황 속에서 화석 연료에 대한 의존은 연료 및 식량 가격의 급등을 초래하며 인류에게 막대한 경제적 비용을 지우고 있습니다. 각국 정부는 심화되는 에너지 빈곤과 생활비 위기에 대응해야 한다는 강력한 압박에 직면해 있습니다. 화석 연료는 이제 단순한 환경 오염원을 넘어 국가 안보와 경제적 안정을 위협하는 핵심 요인이 되었습니다. 따라서 지속 가능한 에너지 체제로의 신속한 전환을 통해 에너지 주권을 확보하고 화석 연료 중심의 권력 구조를 재편해야 합니다.</p><h3>주요 포인트</h3><ul><li>전쟁과 지정학적 갈등으로 인한 에너지 및 식량 가격의 연쇄적 상승</li><li>화석 연료 의존에 따른 에너지 빈곤 심화와 가계 경제 부담 가중</li><li>기후 위기 극복과 국가 안보 강화를 위한 에너지 전환의 시급성</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/30/what-fossil-fuels-really-cost-us-in-a-world-at-war/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 462,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Energi.AI, 지속가능성 자문사 CEMAsys 인수',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>노르웨이의 기후 테크 플랫폼 Energi.AI가 지속가능성 전문 자문사인 CEMAsys를 인수하며 서비스 역량을 강화했습니다. 이번 인수는 Energi.AI의 AI 기반 탄소 회계 자동화 기술과 CEMAsys의 ESG 보고 및 컨설팅 전문성을 결합하기 위해 추진되었습니다. 양사는 이를 통해 기업들이 유럽의 CSRD 등 강화되는 ESG 공시 규제에 효율적으로 대응할 수 있도록 통합 솔루션을 제공할 예정입니다.</p><h3>주요 포인트</h3><ul><li>AI 기반 탄소 데이터 분석과 전문가 자문의 결합을 통한 시너지 창출</li><li>유럽 기업지속가능성보고지침(CSRD) 등 글로벌 공시 규제 대응 지원</li><li>탄소 배출량 측정, 관리 및 ESG 보고서 작성의 전 과정 자동화 및 고도화</li></ul><p>원문: <a href="https://www.esgtoday.com/carbon-data-platform-energi-ai-acquires-sustainability-advisory-cemasys/?utm_source=rss&utm_medium=rss&utm_campaign=carbon-data-platform-energi-ai-acquires-sustainability-advisory-cemasys" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 463,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '스페인, 과일 및 채소 플라스틱 포장 금지',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>스페인 정부가 플라스틱 폐기물을 줄이기 위해 소매점에서 판매되는 과일과 채소의 플라스틱 포장을 금지하기로 결정했습니다. 이번 조치는 특히 1.5kg 미만으로 판매되는 농산물에 적용되며, 불필요한 일회용 플라스틱 사용을 억제하는 것을 목표로 합니다. 이는 유럽연합(EU)의 환경 규제 지침에 따른 행보로, 소비자들에게 재사용 가능한 용기 사용을 장려하고 지속 가능한 소비 문화를 확산시킬 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>1.5kg 미만 소량 판매 과일 및 채소의 플라스틱 포장 전면 금지</li><li>플라스틱 폐기물 감축을 통한 환경 보호 및 지속 가능한 유통 생태계 구축</li><li>유럽연합(EU)의 일회용 플라스틱 감축 지침 및 환경 정책 준수</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1sz4vxv/spain_to_ban_plastic_wrap_for_fruits_and_veggies/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 436,
       pinned: false,
       category: 'news', categoryName: '소식',
