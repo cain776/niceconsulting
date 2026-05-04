@@ -56,8 +56,8 @@
           '<a href="' + bp('/') + '" class="logo">' +
             '<span class="logo-symbol">明</span>' +
             '<span class="logo-text" id="logoText">' +
-              '<span class="logo-text-en">BrightPath <em>ESG</em></span>' +
-              '<span class="logo-text-ko">브라이트패스 <em>컨설팅</em></span>' +
+              '<span class="logo-text-en">明, ESG <em>Story</em></span>' +
+              '<span class="logo-text-ko">明, <em>ESG를 말하다</em></span>' +
             '</span>' +
           '</a>' +
           '<nav class="nav" id="nav">' +
@@ -96,7 +96,7 @@
             '<div class="footer-top">' +
               '<a href="' + bp('/') + '" class="logo">' +
                 '<span class="logo-symbol">明</span>' +
-                '<span class="logo-text">BrightPath <em>ESG</em></span>' +
+                '<span class="logo-text">明, <em>ESG를 말하다</em></span>' +
               '</a>' +
               '<div class="footer-nav">' +
                 '<a href="' + bp('/esg/index.html') + '">ESG</a>' +
