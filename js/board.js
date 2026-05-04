@@ -2304,6 +2304,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   ];
 
+  // 등록일 내림차순 정렬 (동일 날짜는 id 내림차순) — 게시판은 항상 최신순 노출
+  boardData.sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
+
   // --- 설정 ---
   const ITEMS_PER_PAGE = 10;
   let currentPage = 1;
@@ -2473,7 +2476,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     item.views++;
 
-    const allSorted = boardData.filter(d => !d.pinned).sort((a, b) => b.id - a.id);
+    const allSorted = boardData.filter(d => !d.pinned);
     const idx = allSorted.findIndex(d => d.id === id);
     const prev = idx < allSorted.length - 1 ? allSorted[idx + 1] : null;
     const next = idx > 0 ? allSorted[idx - 1] : null;
