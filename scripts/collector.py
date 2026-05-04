@@ -11,6 +11,7 @@ import os
 import re
 import json
 import time
+import random
 import hashlib
 import logging
 from datetime import datetime, timedelta
@@ -45,7 +46,13 @@ RSS_FEEDS = [
     {"url": "https://www.supplychaindive.com/feeds/news/", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
     # 안전/노동
     {"url": "https://www.ehstoday.com/rss", "category": "news", "categoryName": "소식", "topic": "safety", "topicName": "중대재해처벌법"},
+    # Reddit 커뮤니티
+    {"url": "https://www.reddit.com/r/sustainability/.rss", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
+    {"url": "https://www.reddit.com/r/climate/.rss", "category": "news", "categoryName": "소식", "topic": "esg", "topicName": "ESG"},
 ]
+
+# Reddit 등 일부 사이트는 기본 User-Agent를 차단하므로 명시적으로 설정
+USER_AGENT = "BrightPath ESG Collector/1.0 (+https://github.com/cain776/niceconsulting)"
 
 # 수집 키워드 필터 (하나라도 포함되면 수집)
 KEYWORDS = [
@@ -89,15 +96,17 @@ def url_hash(url):
 # ── RSS 수집 ──────────────────────────────────────────
 
 def fetch_rss_articles():
-    """모든 RSS 피드에서 최근 기사를 수집"""
+    """모든 RSS 피드에서 후보를 모은 뒤 피드 간 라운드로빈으로 선정"""
     history = load_history()
     history_set = set(history)
-    articles = []
+
+    by_feed = []  # 피드별 후보 리스트의 리스트
 
     for feed_info in RSS_FEEDS:
+        candidates = []
         try:
             log.info(f"피드 수집 중: {feed_info['url']}")
-            feed = feedparser.parse(feed_info["url"])
+            feed = feedparser.parse(feed_info["url"], agent=USER_AGENT)
 
             for entry in feed.entries[:10]:
                 link = entry.get("link", "")
@@ -123,7 +132,7 @@ def fetch_rss_articles():
                 else:
                     pub_date = datetime.now()
 
-                articles.append({
+                candidates.append({
                     "link": link,
                     "title": title,
                     "summary": BeautifulSoup(summary, "html.parser").get_text()[:500],
@@ -137,8 +146,26 @@ def fetch_rss_articles():
         except Exception as e:
             log.warning(f"피드 수집 실패: {feed_info['url']} - {e}")
 
-    log.info(f"새 기사 {len(articles)}건 발견")
-    return articles[:MAX_ARTICLES_PER_RUN]
+        log.info(f"  → 후보 {len(candidates)}건")
+        by_feed.append(candidates)
+
+    # 피드 순서를 매 실행마다 셔플 → 슬롯이 모자랄 때 특정 피드만 우선되지 않게
+    random.shuffle(by_feed)
+
+    # 라운드로빈: 피드마다 1건씩 돌아가며 선정, MAX_ARTICLES_PER_RUN까지
+    selected = []
+    while len(selected) < MAX_ARTICLES_PER_RUN:
+        picked_this_round = False
+        for candidates in by_feed:
+            if not candidates or len(selected) >= MAX_ARTICLES_PER_RUN:
+                continue
+            selected.append(candidates.pop(0))
+            picked_this_round = True
+        if not picked_this_round:
+            break
+
+    log.info(f"최종 선정: {len(selected)}건 (라운드로빈 분배)")
+    return selected
 
 # ── Gemini 번역/요약 ─────────────────────────────────
 
