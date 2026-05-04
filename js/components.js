@@ -55,10 +55,7 @@
         '<div class="header-inner">' +
           '<a href="' + bp('/') + '" class="logo">' +
             '<span class="logo-symbol">明</span>' +
-            '<span class="logo-text" id="logoText">' +
-              '<span class="logo-text-en">明, ESG <em>Story</em></span>' +
-              '<span class="logo-text-ko">明, <em>ESG를 말하다</em></span>' +
-            '</span>' +
+            '<span class="logo-text" id="logoText"><em>ESG를 말하다</em></span>' +
           '</a>' +
           '<nav class="nav" id="nav">' +
             '<a href="' + bp('/') + '" class="nav-link' + ac('board') + '">자료실</a>' +
@@ -96,7 +93,7 @@
             '<div class="footer-top">' +
               '<a href="' + bp('/') + '" class="logo">' +
                 '<span class="logo-symbol">明</span>' +
-                '<span class="logo-text">明, <em>ESG를 말하다</em></span>' +
+                '<span class="logo-text"><em>ESG를 말하다</em></span>' +
               '</a>' +
               '<div class="footer-nav">' +
                 '<a href="' + bp('/esg/index.html') + '">ESG</a>' +
