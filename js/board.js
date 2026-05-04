@@ -4967,6 +4967,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // 등록일 내림차순 정렬 (동일 날짜는 id 내림차순) — 게시판은 항상 최신순 노출
   boardData.sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id);
 
+  // 화면 표시용 번호: 일반 글에 한해 최신=총개수, 가장 오래된=1
+  (() => {
+    const nonPinned = boardData.filter(d => !d.pinned);
+    const total = nonPinned.length;
+    nonPinned.forEach((item, i) => { item.displayNo = total - i; });
+  })();
+
   // --- 설정 ---
   const ITEMS_PER_PAGE = 10;
   let currentPage = 1;
@@ -5054,7 +5061,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const catClass = `badge-category--${item.category}`;
     const topClass = `badge-category--${item.topic}`;
     const pinnedClass = isPinned ? ' pinned' : '';
-    const noText = isPinned ? pinSVG : item.id;
+    const noText = isPinned ? pinSVG : item.displayNo;
 
     let titleParts = `<span class="badge-category ${catClass}">${escapeHTML(item.categoryName)}</span>`;
     titleParts += `<span class="badge-category ${topClass}">${escapeHTML(item.topicName)}</span>`;
