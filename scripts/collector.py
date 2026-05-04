@@ -65,8 +65,8 @@ KEYWORDS = [
     "kcgs", "k-esg",
 ]
 
-# 하루 최대 수집 건수
-MAX_ARTICLES_PER_RUN = 5
+# 하루 최대 수집 건수 (env로 일회성 catch-up 시 오버라이드 가능)
+MAX_ARTICLES_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "5"))
 
 # ── 로깅 ──────────────────────────────────────────────
 

@@ -4,8 +4,13 @@ on:
   # 매일 한국시간 오전 9시 (UTC 0시) 실행
   schedule:
     - cron: '0 0 * * *'
-  # 수동 실행도 가능
+  # 수동 실행도 가능 (catch-up 시 max_articles 늘려서 호출)
   workflow_dispatch:
+    inputs:
+      max_articles:
+        description: '한 번에 수집할 최대 기사 수'
+        required: false
+        default: '5'
 
 permissions:
   contents: write
@@ -29,6 +34,7 @@ jobs:
       - name: 수집기 실행
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MAX_ARTICLES_PER_RUN: ${{ github.event.inputs.max_articles || '5' }}
         run: python scripts/collector.py --no-git
 
       - name: 변경사항 확인 및 커밋
