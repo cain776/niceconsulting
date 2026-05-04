@@ -104,20 +104,6 @@
                 '<a href="' + bp('/smallbiz/index.html') + '">소상공인</a>' +
               '</div>' +
             '</div>' +
-            '<div class="footer-mid">' +
-              '<div class="footer-company-row">' +
-                '<span class="footer-company">브라이트패스 ESG 컨설팅</span>' +
-                '<span class="footer-divider">|</span>' +
-                '<span>인천 계양구 봉오대로651번길 9</span>' +
-                '<span class="footer-divider">|</span>' +
-                '<a href="tel:010-7433-0339">010-7433-0339</a>' +
-                '<span class="footer-divider">|</span>' +
-                '<a href="mailto:contact@brightpathesg.com">contact@brightpathesg.com</a>' +
-              '</div>' +
-            '</div>' +
-          '</div>' +
-          '<div class="footer-bottom">' +
-            '<p>&copy; 2026 BrightPath ESG Consulting. All rights reserved.</p>' +
           '</div>' +
         '</div>' +
       '</footer>';
