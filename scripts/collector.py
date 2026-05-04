@@ -211,7 +211,6 @@ def insert_to_board_js(articles_data):
       date: '{article["date"]}',
       views: 0,
       hasAttachment: false,
-      isNew: true,
       content: `
         {article["content_ko"]}
       `
@@ -227,10 +226,6 @@ def insert_to_board_js(articles_data):
         "const boardData = [\n",
         "const boardData = [\n" + insert_block + "\n",
     )
-
-    # 기존 항목의 isNew를 false로 변경 (새로 추가한 항목 제외)
-    # 새 항목의 id 목록
-    new_ids = set(range(current_max_id + 1, current_max_id + len(articles_data) + 1))
 
     BOARD_JS.write_text(content, encoding="utf-8")
     log.info(f"board.js에 {len(new_entries)}건 등록 완료")
