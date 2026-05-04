@@ -6078,20 +6078,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 164,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: 'ESG 커리어 시작을 위한 조언 및 인턴십 구직',
-      author: '관리자',
-      date: '2026.05.04',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>인도 출신의 2025년 졸업생이 ESG 분야로의 커리어 전환을 위해 커뮤니티에 조언을 요청했습니다. 과학 전공 배경을 가졌으나 최근 비관련 직무에서 해고된 후, 올해 석사 과정 입학을 앞두고 있는 상황입니다. 작성자는 학업 시작 전 2~3개월의 공백기 동안 실무 경험을 쌓을 수 있는 인턴십이나 단기 기회, 혹은 역량 강화에 도움이 될 교육 과정을 찾고 있습니다.</p><h3>주요 포인트</h3><ul><li>과학 전공 및 기초적인 ESG 연구 경험 보유</li><li>석사 과정 진학 전 단기 인턴십 및 실무 프로젝트 기회 탐색</li><li>ESG 전문성 강화를 위한 추천 교육 과정 및 커리어 가이드 요청</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t3hkxu/help_guidance_needed/" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 165,
       pinned: false,
       category: 'news', categoryName: '소식',
