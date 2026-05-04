@@ -10,6 +10,356 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 436,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'EcoVadis/Ulula, OS Hub Spotlight 가입…고충처리 메커니즘 데이터 접근성 확대',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis 산하 Ulula가 Open Supply Hub의 OS Hub Spotlight 프로그램에 합류해 생산 시설별 고충처리 메커니즘 운영 여부 정보를 노출하기 시작했습니다. 글로벌 공급망 인권 책무성을 데이터로 강화하는 협력입니다.</p><h3>주요 포인트</h3><ul><li>공급망 시설 단위 고충처리 메커니즘 가시화</li><li>OSH·Ulula 통합 플랫폼 데이터 활용</li><li>HRDD 규제 대응 위한 협력 인프라 강화</li></ul><p>원문: <a href="https://ecovadis.com/blog/ecovadis-ulula-joins-os-hub-spotlight-to-expand-access-to-grievance-mechanism-data/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 437,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'EU의 새 ESG 평가 규제, EcoVadis와 고객사에 갖는 의미',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU의 신규 ESG 평가 규제는 ESMA 감독과 시장 투명성 강화를 도입합니다. EcoVadis는 이 규제를 환영하며 공급망 평가에 미치는 영향과 고객사의 대응 방향을 정리했습니다.</p><h3>주요 포인트</h3><ul><li>ESMA 감독으로 ESG 평가 시장 표준화</li><li>이해상충 방지·방법론 공개 의무화</li><li>EcoVadis 고객의 평가 신뢰성 강화 효과</li></ul><p>원문: <a href="https://ecovadis.com/blog/esgrr-ecovadis-news/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 438,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '2026년 ESG 규제 핵심 가이드',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2026년은 ESG 규제의 분기점입니다. CSRD, CSDDD, 캘리포니아 기후 법, 글로벌 보고 표준의 핵심 변화를 정리한 EcoVadis 가이드입니다.</p><h3>주요 포인트</h3><ul><li>CSRD·CSDDD 옴니버스 영향 정리</li><li>캘리포니아 SB-253/261 시행 동향</li><li>ISSB 등 글로벌 표준 통합 흐름</li></ul><p>원문: <a href="https://ecovadis.com/blog/guide-esg-regulations/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 439,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '엔터프라이즈 리더를 위한 ESG 전략 실전 가이드',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>공급망 전반에서 작동하는 ESG 전략을 어떻게 수립할지 다룬 EcoVadis 가이드입니다. 프레임워크·통합·사례·구현 지표 등을 종합 정리했습니다.</p><h3>주요 포인트</h3><ul><li>전사 ESG 전략 수립 5단계 프레임워크</li><li>비즈니스·운영·공급망 통합 모델</li><li>실행 지표와 진척 측정 방법</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-strategy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 440,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '2026년 조달 부문에 영향을 미치는 ESG 투자 트렌드',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2026년 ESG 투자 트렌드가 조달에 어떻게 작용할지 분석한 EcoVadis 인사이트입니다. 규제 변화, 투자자 요구, 공급망 지표 중 핵심을 정리했습니다.</p><h3>주요 포인트</h3><ul><li>투자자의 공급망 ESG 데이터 요구 증가</li><li>조달이 ESG 가치 창출의 핵심 채널</li><li>측정 가능한 지표 중심 전환</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-investing-trends/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 441,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ESG 실사(Due Diligence)란? 프로세스와 모범 사례',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 실사의 개념·프레임워크·프로세스를 정리하고 조달팀이 협력사 리스크 통제를 어떻게 구현하는지 실용 체크리스트와 함께 다룬 EcoVadis 가이드입니다.</p><h3>주요 포인트</h3><ul><li>ESG 실사 표준 프로세스 6단계</li><li>협력사 리스크 통제 체크리스트</li><li>CSDDD 등 규제 대응에 직결</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-due-diligence/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 442,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ESG 컨설팅: 데이터에서 지속가능 성과로의 격차 메우기',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 컨설팅이 평가 데이터를 측정 가능한 협력사 성과로 전환하는 방법을 다룬 EcoVadis 인사이트입니다. 평가와 장기 비즈니스 가치 사이의 격차를 메우는 접근법입니다.</p><h3>주요 포인트</h3><ul><li>평가 데이터 → 행동 계획 변환 모델</li><li>지속가능 컨설팅의 ROI 측정</li><li>고객사 성과 연동 사례</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-consulting/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 443,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ESG 표준: 전략적 기업 거버넌스의 기반',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 목표와 결과 사이의 격차를 메우는 데 ESG 표준이 어떤 역할을 하는지 다룬 분석입니다. 효과적 기업 거버넌스에 필요한 검증 가능한 데이터를 제공합니다.</p><h3>주요 포인트</h3><ul><li>주요 ESG 표준(GRI·ISSB·EFRAG 등) 비교</li><li>표준 기반 거버넌스 효과</li><li>검증·감사 가능성 확보 방안</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-standards/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 444,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ESG 커뮤니케이션: 방어 가능한 지속가능성 내러티브 구축법',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>검증된 데이터를 활용해 ESG 커뮤니케이션을 어떻게 개선할지 다룬 EcoVadis 가이드입니다. 제3자 평가가 어떻게 이해관계자 요구에 부응하는 투명성을 제공하는지 설명합니다.</p><h3>주요 포인트</h3><ul><li>그린워싱 리스크 방지 커뮤니케이션</li><li>제3자 평가 기반 신뢰성 확보</li><li>투자자·소비자 대응 메시징 전략</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-communications/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 445,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ESG 갭 분석: 리스크 식별과 ESG 전략 개선',
+      author: '관리자',
+      date: '2026.04.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 전략 개발의 첫 단계인 갭 분석은 '현재 위치'를 알려주는 진단 도구라는 EcoVadis 가이드입니다. 갭 분석은 진단, 전략은 그 이후의 항법지도라는 비유로 설명합니다.</p><h3>주요 포인트</h3><ul><li>ESG 갭 분석의 위치·역할 정의</li><li>핵심 분석 영역과 데이터 소스</li><li>전략으로 연결하는 후속 단계</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-gap-analysis/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 446,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '2026년 공급망 지속가능성 — 데이터가 말하는 것',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2026년 공급망 지속가능성의 현 위치를 데이터로 진단한 EcoVadis 보고서입니다. Scope 3·컴플라이언스·협력사 성과를 어떻게 개선하는지 다룹니다.</p><h3>주요 포인트</h3><ul><li>2026 공급망 핵심 데이터 인사이트</li><li>Scope 3·컴플라이언스 진척 평가</li><li>협력사 성과 개선 모범 사례</li></ul><p>원문: <a href="https://ecovadis.com/blog/supply-chain-sustainability/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 447,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '2026년 신뢰성 있는 Scope 3 보고 프로그램 구축법',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>CSRD, 캘리포니아 SB 253, 호주 기후 규정으로 Scope 3 보고가 의무화되고 있습니다. 2026년 시작점부터 신뢰성 있는 프로그램을 어떻게 구축할지 다룬 실용 가이드입니다.</p><h3>주요 포인트</h3><ul><li>Scope 3 의무화 규제 현황 정리</li><li>1차 데이터 수집 체계 구축법</li><li>거버넌스·검증 프로세스 베스트 프랙티스</li></ul><p>원문: <a href="https://ecovadis.com/blog/build-a-credible-scope-3-reporting/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 448,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Sustain 2026: 회복력과 책임 성장의 새 운영체제',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이틀에 걸쳐 진행된 Sustain 2026에 전 세계 2,200명 이상의 현장·온라인 참가자가 모여 조달·지속가능성·비즈니스 리더의 공통 과제를 논의했습니다. EcoVadis의 글로벌 핵심 컨퍼런스 후기입니다.</p><h3>주요 포인트</h3><ul><li>Sustain 2026 글로벌 2,200명+ 참여</li><li>회복력·책임 성장의 핵심 의제</li><li>EcoVadis 신규 솔루션·로드맵 공개</li></ul><p>원문: <a href="https://ecovadis.com/blog/sustain-2026-recap/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 449,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '프랑스 비질랑스법(LOI Vigilance), CSDDD·CSRD에 주는 시사점',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스 LOI Vigilance에 대한 새 실증 연구는 CSDDD와 CSRD가 단순 컴플라이언스 비용이 아닌 실질적 운영 효율 향상을 가져올 수 있음을 보여줍니다. EcoVadis가 분석한 인사이트입니다.</p><h3>주요 포인트</h3><ul><li>프랑스 비질랑스법 운영 효과 실증 연구</li><li>CSDDD·CSRD가 경쟁우위로 작용 가능</li><li>컴플라이언스 → 가치 창출 전환 사례</li></ul><p>원문: <a href="https://ecovadis.com/blog/what-loi-de-vigilance-tells-us-about-csddd-and-csrd/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 450,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '협력사 리스크 평가 실시법: 프로세스·카테고리·모범 사례',
+      author: '관리자',
+      date: '2026.04.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>협력사 리스크 평가의 실용 가이드로, 핵심 리스크 카테고리·5단계 프로세스·데이터를 협력사 성과로 전환하는 방법을 다룬 EcoVadis 자료입니다.</p><h3>주요 포인트</h3><ul><li>5단계 협력사 리스크 평가 프로세스</li><li>주요 리스크 카테고리(ESG·재무·운영)</li><li>평가 데이터 → 성과 향상 변환</li></ul><p>원문: <a href="https://ecovadis.com/blog/supplier-risk-assessment/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 451,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Sustain 2026 CPO 서클 — 5가지 핵심 인사이트',
+      author: '관리자',
+      date: '2026.03.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Sustain 2026 파리 행사에서 수천 명의 지속가능성·조달 리더가 'Sustained Advantage'를 논의하는 동안, 비공개 CPO 서클에서 진행된 보다 친밀한 대화의 5가지 핵심 인사이트를 정리한 글입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 CPO들의 비공개 대화 인사이트</li><li>지속가능 우위 확보의 실전 노하우</li><li>조달 리더십의 진화 방향</li></ul><p>원문: <a href="https://ecovadis.com/blog/inside-the-room-5-learnings-from-the-sustain-2026-cpo-circle/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 452,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '대규모 지속가능 조달 — Amazon Business와 EcoVadis의 협력 모델',
+      author: '관리자',
+      date: '2026.03.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>조달 리더에게 공급망 지속가능성의 전략적 명분(리스크 감소, 컴플라이언스, ESG 진척)은 이미 명확합니다. 이제 'Why'가 아니라 'How to scale'이 핵심 질문이며, Amazon Business와 EcoVadis가 그 답을 제공합니다.</p><h3>주요 포인트</h3><ul><li>대규모 책임 구매의 실행 모델</li><li>Amazon Business + EcoVadis 통합 사례</li><li>조달 자동화로 ESG 가시성 강화</li></ul><p>원문: <a href="https://ecovadis.com/blog/sustainable-procurement-at-scale-how-amazon-business-and-ecovadis-make-responsible-purchasing-easier/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 453,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'CSDDD·EU 강제노동 규제 임박, 투명성 격차 해소법',
+      author: '관리자',
+      date: '2026.03.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>실사 규제 시행 시점이 다가오는 가운데 공급망 투명성 격차를 어떻게 메울지 다룬 EcoVadis 분석입니다. 전통적 감사가 실패하는 이유와 Worker Voice 기술이 회복력을 어떻게 구축하는지 설명합니다.</p><h3>주요 포인트</h3><ul><li>전통 감사 방식의 한계 진단</li><li>Worker Voice 기술의 회복력 강화 효과</li><li>HRDD 규제 대응 실용 전략</li></ul><p>원문: <a href="https://ecovadis.com/blog/solving-the-transparency-gap-as-csddd-and-eu-forced-labor-regulation-dates-loom/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 454,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '가치사슬 행동·보고 — 옴니버스 이후 새 환경 항법',
+      author: '관리자',
+      date: '2026.03.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>옴니버스 이후 공급망 데이터와 협력사 인게이지먼트에 관한 새로운 의무사항을 실용적으로 정리한 EcoVadis 개요입니다.</p><h3>주요 포인트</h3><ul><li>옴니버스 이후 보고 의무 변화 정리</li><li>공급망 데이터·인게이지먼트 요건</li><li>실무자용 우선순위 가이드</li></ul><p>원문: <a href="https://ecovadis.com/blog/value-chain-action-reporting-after-omnibus/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 455,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '서아프리카 농업의 여성 목소리 검증',
+      author: '관리자',
+      date: '2026.03.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Labor Rights Project의 성별 분리 설문 데이터가 서아프리카 여성 농업 노동자가 직면한 고유 건강·시스템적 리스크를 포착했습니다. 공급망 인권 데이터의 깊이를 보여주는 사례입니다.</p><h3>주요 포인트</h3><ul><li>성별 분리 데이터의 인권 가시화 효과</li><li>서아프리카 농업 노동자 리스크 정량화</li><li>Worker Voice 기술의 차별화 가치</li></ul><p>원문: <a href="https://ecovadis.com/blog/women-voices-in-africa/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 456,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'VSME 도입, 중견기업은 준비되었나',
+      author: '관리자',
+      date: '2026.02.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>옴니버스 I이 VSME 적용 범위를 1,000명 이상 기업으로 확대했습니다. 자율 표준인 VSME만으로 충분한지, 단순화된 ESRS가 더 전략적인 선택인지 다룬 EcoVadis 분석입니다.</p><h3>주요 포인트</h3><ul><li>VSME 적용 범위 1,000명 기업으로 확대</li><li>VSME vs 단순화 ESRS 비교 분석</li><li>중견기업의 전략적 선택 가이드</li></ul><p>원문: <a href="https://ecovadis.com/blog/is-your-mid-sized-company-ready-for-the-new-vsme/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 457,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'EcoVadis World Tour 뉴욕 2025 — 핵심 인사이트',
+      author: '관리자',
+      date: '2026.01.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis World Tour 2025의 뉴욕 행사에 북미 지역 지속가능성·조달·비즈니스 리더들이 모여 '소음 속에서 공급망 명료성을 확보하는 법'을 논의했습니다.</p><h3>주요 포인트</h3><ul><li>북미 시장 EcoVadis World Tour 핵심 의제</li><li>공급망 데이터 명료성 확보 전략</li><li>현지 리더 인사이트 공유</li></ul><p>원문: <a href="https://ecovadis.com/blog/from-noise-to-clarity-key-takeaways-from-the-ecovadis-world-tour-new-york-2025/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 458,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'EcoVadis World Tour 샌프란시스코 — 대규모 지속가능 조달 청사진',
+      author: '관리자',
+      date: '2026.01.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>9개 도시 EcoVadis World Tour 2025의 마지막 정거장 샌프란시스코에서는 조달·기술·비즈니스 리더들이 모여 대규모로 지속가능하고 회복력 있는 공급망을 구축하는 방법을 탐구했습니다.</p><h3>주요 포인트</h3><ul><li>스케일러블 지속가능 조달 모델</li><li>기술 활용 공급망 회복력 구축</li><li>9개 도시 World Tour 마무리 인사이트</li></ul><p>원문: <a href="https://ecovadis.com/blog/a-blueprint-for-scaling-sustainable-procurement-ecovadis-world-tour-stop-in-san-francisco/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 459,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '2026 지속가능성 전망 — 야망에서 임팩트로',
+      author: '관리자',
+      date: '2026.01.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2026년은 전환의 해가 아니라 공급망에 대한 결산의 해라는 메시지를 담은 EcoVadis 전망 보고서입니다. 야망 단계에서 측정 가능한 임팩트로 이행하는 시점입니다.</p><h3>주요 포인트</h3><ul><li>2026 = 공급망 결산의 해</li><li>야망 → 임팩트 이행 가이드</li><li>핵심 지표·성과 측정 프레임</li></ul><p>원문: <a href="https://ecovadis.com/blog/2026-sustainability-outlook/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 460,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'EcoVadis World Tour 런던 2025 — 복잡성을 기회로',
+      author: '관리자',
+      date: '2026.01.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis World Tour 2025 런던 정거장에 다양한 산업의 지속가능성·조달·ESG 리더들이 모여 '복잡성을 기회로 전환하는 법'이라는 강력한 주제를 탐구했습니다.</p><h3>주요 포인트</h3><ul><li>유럽 시장 ESG 리더 네트워킹</li><li>복잡성 → 기회 전환 프레임</li><li>다국적 산업의 베스트 프랙티스 공유</li></ul><p>원문: <a href="https://ecovadis.com/blog/turning-complexity-into-opportunity-insights-from-the-ecovadis-world-tour-london-2025/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 417,
       pinned: false,
       category: 'news', categoryName: '소식',
