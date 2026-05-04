@@ -55,6 +55,27 @@ RSS_FEEDS = [
     {"url": "https://news.google.com/rss/search?q=%EC%97%90%EC%BD%94%EB%B0%94%EB%94%94%EC%8A%A4&hl=ko&gl=KR&ceid=KR:ko", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
     # EcoVadis 자체 블로그 (RSS 비활성화되어 sitemap 사용)
     {"url": "https://ecovadis.com/blog-post-sitemap.xml", "type": "sitemap", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
+    # 중대재해처벌법 (한국어 Google News, 처벌 사례 제외)
+    {
+        "url": "https://news.google.com/rss/search?q=%EC%A4%91%EB%8C%80%EC%9E%AC%ED%95%B4%EC%B2%98%EB%B2%8C%EB%B2%95&hl=ko&gl=KR&ceid=KR:ko",
+        "category": "news", "categoryName": "소식",
+        "topic": "safety", "topicName": "중대재해처벌법",
+        "include_keywords": [
+            "개정", "시행", "가이드", "해설", "교육", "강의", "세미나", "강연",
+            "안전관리", "예방", "표준", "매뉴얼", "정책", "입법",
+            "법률", "법적", "의무", "기준", "지침", "컨설팅",
+            "안전보건", "산업안전", "감독", "고용노동부", "국회",
+            "위험성평가", "산업안전보건법", "중대재해처벌법",
+            "안전체계", "법제", "공포", "의결", "통과",
+        ],
+        "exclude_keywords": [
+            "징역", "벌금형", "구속", "기소", "유죄", "1심", "2심", "3심",
+            "선고", "구형", "검찰 송치", "처벌받", "처벌 받",
+            "법정구속", "집행유예", "실형",
+            "항소", "송치", "무죄", "무혐의", "1호 사건",
+            "아리셀", "석포제련소", "삼표",
+        ],
+    },
 ]
 
 # Reddit 등 일부 사이트는 기본 User-Agent를 차단하므로 명시적으로 설정
@@ -187,8 +208,14 @@ def fetch_rss_articles():
                 if url_hash(link) in history_set:
                     continue
 
-                # 키워드 필터
-                if not any(kw in content_text.lower() for kw in KEYWORDS):
+                # 키워드 필터: 피드별 include 우선, 없으면 글로벌 KEYWORDS
+                include_kw = feed_info.get("include_keywords") or KEYWORDS
+                if not any(kw in content_text.lower() or kw in content_text for kw in include_kw):
+                    continue
+
+                # 피드별 exclude (있으면 적용)
+                exclude_kw = feed_info.get("exclude_keywords") or []
+                if exclude_kw and any(kw in content_text for kw in exclude_kw):
                     continue
 
                 # 발행일 파싱
