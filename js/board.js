@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 843,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '산타마르타 6개국, 화석 연료 미래 좌우한다',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산타마르타에서 열린 화석 연료 전환 관련 회의에 참석한 6개 주요 국가들이 여전히 화석 연료 생산 확대를 고수하고 있어 주목받고 있습니다. 이들 국가는 에너지 전환이라는 국제적 목표에도 불구하고 자국의 생산량을 늘리는 데 깊이 관여하고 있습니다. 이번 회의의 결과는 전 세계 화석 연료의 미래와 기후 위기 대응의 향방을 결정짓는 중대한 분수령이 될 것으로 보입니다.</p><h3>주요 포인트</h3><ul><li>산타마르타 회의에 참석한 소수의 핵심 국가들이 화석 연료 생산 확대 계획을 유지함</li><li>이들 6개국의 행보가 글로벌 에너지 전환의 성패를 가를 결정적 요인으로 부상</li><li>화석 연료 탈피라는 선언적 목표와 실제 생산 현장의 경제적 이해관계 간의 격차 노출</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/04/29/six-nations-at-santa-marta-could-shape-fossil-fuel-futures/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 844,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '메이유미, 에코바디스 골드 등급 획득',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 뷰티 솔루션 기업 메이유미(Meiyume)가 2026년 에코바디스(EcoVadis) 지속가능성 평가에서 골드 등급을 획득했습니다. 이번 성과는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 전 분야에서 메이유미의 노력을 인정받은 결과입니다. 메이유미는 이번 등급 획득을 통해 전 세계 상위 5% 기업에 이름을 올리며 뷰티 산업 내 지속가능성 리더십을 공고히 했습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 골드 등급 획득으로 글로벌 상위 5% 지속가능 기업 인정</li><li>환경, 인권, 윤리 및 공급망 관리 전반에서 우수한 평가 기록</li><li>지속가능한 뷰티 솔루션 제공을 위한 기업의 장기적 헌신 증명</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRUwwbnF3VVBtbkZzX0dXZkxiZkVTcy12cmdpbkpLTUFxa2w0eko5UEVnUVk0N2NsTzNST0QxNHRkOGJicWhKdE94Z2RHMDhUM3NvWkxRWmoxNEJxbjgxZDdNM082d3ZkMk02SWRzWHdiVlZFWWJ4N2ZpelkzeG0xQk9tdmhZY04zVmdtYW1yUlBCVXBBeEVCQ0FUSEJjckNWb2VHdUlTOXNjeFlDWDF2Z0I3SHJNRDhxcUpzOFMwYXJxLUhDb1lQbm5rUUM2QTZIQkMwQU85dWJtZ3d4UlNWZHBPYWkyd1BBWkZmQmd3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 845,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '성균관대 안선주 교수, ISO 스마트병원 분과 초대 의장 선출',
+      author: '관리자',
+      date: '2026.05.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>성균관대학교 안선주 교수가 국제표준화기구(ISO) 내 신설된 '스마트병원' 분과의 초대 의장으로 선출되었습니다. 이번 선출은 한국이 스마트병원 분야의 국제 표준 제정을 주도하고 글로벌 시장에서 기술적 우위를 점할 수 있는 중요한 계기가 될 것으로 보입니다. 안 교수는 향후 스마트병원의 정의 확립과 더불어 AI, IoT 등 핵심 기술의 표준화 작업을 이끌게 됩니다.</p><h3>주요 포인트</h3><ul><li>ISO/TC 304 내 스마트병원 워킹그룹(WG 5) 신설 및 한국인 의장 선출</li><li>AI, IoT, 빅데이터 등 첨단 기술이 접목된 스마트병원 국제 표준화 주도</li><li>국내 의료 시스템의 글로벌 경쟁력 강화 및 해외 시장 진출 교두보 마련</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBjWFhSV2Z4c3QzOGFBSFNxVzNpSFpIY3MxbmJuRDg2bzlfVFEwTllUMjZweEk1R2pMMXBmcWpLcnduMDVKOWFVVU8wVHFBRl9heGNSY2t1QXhoWXhpRzZuc0x2eDZOQmFpbkVvRGgtR1E?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 756,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
