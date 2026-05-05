@@ -10,6 +10,1224 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 756,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: '기업·노조·시민사회, EU 책임경영 공통 기준 채택 촉구',
+      author: '관리자',
+      date: '2023.12.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「기업·노조·시민사회, EU 책임경영 공통 기준 채택 촉구」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 실사와 지속가능성 규제 변화가 기업의 책임경영 의무로 제도화되는 흐름을 보여줍니다. 기업은 정책, 리스크 평가, 개선 조치, 이사회·경영진 보고 체계를 법규 및 고객사 요구와 연결해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 실사와 지속가능성 규제 대응 중요성 확대</li><li>정책·리스크 평가·개선 조치의 문서화 필요</li><li>국제 규제와 고객사 요구의 정합성 점검 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eucsddd/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 757,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI 표준, 런던금속거래소 책임조달 기준으로 인정',
+      author: '관리자',
+      date: '2023.04.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI 표준, 런던금속거래소 책임조달 기준으로 인정」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-lme/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 758,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 글로벌 공급망 기후변화 완화 역량 강화',
+      author: '관리자',
+      date: '2022.10.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 글로벌 공급망 기후변화 완화 역량 강화」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 온실가스, 물 리스크, 기후 대응 데이터의 정확성과 추적 가능성을 높이는 흐름과 연결됩니다. 기업은 배출량 산정 근거, 협력사 데이터 수집 방식, 고객사 보고 양식을 일관되게 관리해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 환경 데이터의 산정 기준과 보고 일관성 강화</li><li>협력사 배출·물 리스크 정보의 수집 및 검증 필요</li><li>고객사 Scope 3·기후 대응 요구에 대한 선제적 준비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/ghg/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 759,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI·Copper Mark, 책임광물·금속 기준 개정 공개 의견수렴',
+      author: '관리자',
+      date: '2022.05.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI·Copper Mark, 책임광물·금속 기준 개정 공개 의견수렴」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rra-consultation/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 760,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA·AWS, 공급망 물 리스크 대응 파트너십 체결',
+      author: '관리자',
+      date: '2022.03.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA·AWS, 공급망 물 리스크 대응 파트너십 체결」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 온실가스, 물 리스크, 기후 대응 데이터의 정확성과 추적 가능성을 높이는 흐름과 연결됩니다. 기업은 배출량 산정 근거, 협력사 데이터 수집 방식, 고객사 보고 양식을 일관되게 관리해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 환경 데이터의 산정 기준과 보고 일관성 강화</li><li>협력사 배출·물 리스크 정보의 수집 및 검증 필요</li><li>고객사 Scope 3·기후 대응 요구에 대한 선제적 준비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/water-risks/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 761,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 러시아 관련 제재 대응 입장 발표',
+      author: '관리자',
+      date: '2022.03.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 러시아 관련 제재 대응 입장 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 실사와 지속가능성 규제 변화가 기업의 책임경영 의무로 제도화되는 흐름을 보여줍니다. 기업은 정책, 리스크 평가, 개선 조치, 이사회·경영진 보고 체계를 법규 및 고객사 요구와 연결해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 실사와 지속가능성 규제 대응 중요성 확대</li><li>정책·리스크 평가·개선 조치의 문서화 필요</li><li>국제 규제와 고객사 요구의 정합성 점검 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/sanctions/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 762,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, ASM 코발트 책임조달 후속 조치 발표',
+      author: '관리자',
+      date: '2022.03.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI, ASM 코발트 책임조달 후속 조치 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/asm-cobalt/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 763,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, 전체 광물 실사를 위한 글로벌 표준 발표',
+      author: '관리자',
+      date: '2021.12.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI, 전체 광물 실사를 위한 글로벌 표준 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/all-minerals/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 764,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI·TDI, 공급망 ESG 실사 지원 소재 인사이트 플랫폼 강화',
+      author: '관리자',
+      date: '2021.12.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI·TDI, 공급망 ESG 실사 지원 소재 인사이트 플랫폼 강화」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/material-insights/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 765,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI·RCI, 코발트 정련소 공급망 실사 표준 개정',
+      author: '관리자',
+      date: '2021.08.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI·RCI, 코발트 정련소 공급망 실사 표준 개정」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-rci/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 766,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, COVID-19 피해 공급망 노동자 지원 기금 조성',
+      author: '관리자',
+      date: '2021.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, COVID-19 피해 공급망 노동자 지원 기금 조성」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/worker-fund/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 767,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 인권 옹호자 보호 지지 성명',
+      author: '관리자',
+      date: '2021.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 인권 옹호자 보호 지지 성명」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/defenders/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 768,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, 광물 공급망 ESG 표준 발표',
+      author: '관리자',
+      date: '2021.06.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI, 광물 공급망 ESG 표준 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-esg/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 769,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 제조 공급망 노동자 보호 위한 공정화학물질 정책 발표',
+      author: '관리자',
+      date: '2021.06.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 제조 공급망 노동자 보호 위한 공정화학물질 정책 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 제조 공급망의 화학물질 관리, 노동자 노출 예방, 환경·안전보건 리스크 통제와 직접 연결됩니다. 기업은 화학물질 목록, 협력사 사용 현황, 개선 조치와 교육 이력을 문서화해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>화학물질 사용 현황과 위험성 평가 체계 정비</li><li>노동자 노출 예방 및 안전보건 관리 증빙 강화</li><li>협력사 개선 조치와 교육 이력 관리 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/ifpcl/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 770,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 2020 Compass Awards 수상자 발표',
+      author: '관리자',
+      date: '2021.04.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 2020 Compass Awards 수상자 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/compass-award-winners2020/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 771,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: '운모 가공업체를 위한 글로벌 작업장 표준 발표',
+      author: '관리자',
+      date: '2021.03.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「운모 가공업체를 위한 글로벌 작업장 표준 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/mica-standard/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 772,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA·Electronics Watch, 공급망 노동권 협력 조건 합의',
+      author: '관리자',
+      date: '2021.03.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA·Electronics Watch, 공급망 노동권 협력 조건 합의」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rba-ew/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 773,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 책임 있는 채용 실사 툴킷 공개',
+      author: '관리자',
+      date: '2021.01.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 책임 있는 채용 실사 툴킷 공개」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rrdd/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 774,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'DRC 광산부 장관, Cobalt Action Partnership 참여',
+      author: '관리자',
+      date: '2020.12.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「DRC 광산부 장관, Cobalt Action Partnership 참여」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cap/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 775,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 노동자 의견 수렴 플랫폼 출시',
+      author: '관리자',
+      date: '2020.12.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 노동자 의견 수렴 플랫폼 출시」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/worker-voice/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 776,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA 재단, 윤리적 채용 프로그램 위해 월마트 재단 추가 지원 확보',
+      author: '관리자',
+      date: '2020.11.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA 재단, 윤리적 채용 프로그램 위해 월마트 재단 추가 지원 확보」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rbaf-wf/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 777,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RCS Global·RMI, ASM 코발트 생산자 지원 파트너십 체결',
+      author: '관리자',
+      date: '2020.04.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RCS Global·RMI, ASM 코발트 생산자 지원 파트너십 체결」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-rcs/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 778,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 중국 소수민족 노동자 관련 보고서에 대한 입장 발표',
+      author: '관리자',
+      date: '2020.03.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 중국 소수민족 노동자 관련 보고서에 대한 입장 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/statement/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 779,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 데이터 분석 역량 강화',
+      author: '관리자',
+      date: '2020.02.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 데이터 분석 역량 강화」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 정보의 표준화, 데이터 교환, 감사 가능성 강화를 다루는 흐름입니다. 기업은 협력사 데이터의 형식, 제출 주기, 검증 절차를 정비해 반복 요청에 대응할 수 있어야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 데이터 표준화와 상호운용성 강화</li><li>감사 가능한 자료 제출 및 추적 체계 필요</li><li>중복 요청을 줄이기 위한 데이터 관리 프로세스 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/data-analytics/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 780,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 유럽 거점 확대',
+      author: '관리자',
+      date: '2020.02.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 유럽 거점 확대」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 실사와 지속가능성 규제 변화가 기업의 책임경영 의무로 제도화되는 흐름을 보여줍니다. 기업은 정책, 리스크 평가, 개선 조치, 이사회·경영진 보고 체계를 법규 및 고객사 요구와 연결해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 실사와 지속가능성 규제 대응 중요성 확대</li><li>정책·리스크 평가·개선 조치의 문서화 필요</li><li>국제 규제와 고객사 요구의 정합성 점검 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rba-europe/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 781,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA·New Kinpo Group, 태국 이주노동자 채용수수료 환급 지원',
+      author: '관리자',
+      date: '2019.12.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA·New Kinpo Group, 태국 이주노동자 채용수수료 환급 지원」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/recruitment-fee-reimbursements/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 782,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: '현대판 노예제 보고 개선 툴킷 출시',
+      author: '관리자',
+      date: '2019.12.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「현대판 노예제 보고 개선 툴킷 출시」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rli-gri-toolkit/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 783,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'ITA·RMI, 주석 실사 보증 리더십 입증',
+      author: '관리자',
+      date: '2019.11.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「ITA·RMI, 주석 실사 보증 리더십 입증」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-ita/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 784,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 인신매매 대응 공로로 미국 대통령상 수상',
+      author: '관리자',
+      date: '2019.10.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 인신매매 대응 공로로 미국 대통령상 수상」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/presidential-award/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 785,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 2019 Compass Awards 수상자 발표',
+      author: '관리자',
+      date: '2019.10.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 2019 Compass Awards 수상자 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/compass-awards-winners-2019/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 786,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI·GRI, 책임광물 보고 툴킷 출시',
+      author: '관리자',
+      date: '2019.10.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI·GRI, 책임광물 보고 툴킷 출시」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-gri-toolkit/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 787,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'Responsible Mica Initiative·RMI, 아동노동 근절 협력',
+      author: '관리자',
+      date: '2019.10.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「Responsible Mica Initiative·RMI, 아동노동 근절 협력」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-mica/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 788,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI·ICA, 책임 있는 구리 생산·무역 촉진 파트너십 체결',
+      author: '관리자',
+      date: '2019.08.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI·ICA, 책임 있는 구리 생산·무역 촉진 파트너십 체결」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-ica/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 789,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 2019 Compass Awards 공모 개시',
+      author: '관리자',
+      date: '2019.06.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 2019 Compass Awards 공모 개시」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/compass-awards-2019/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 790,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, 광물 공급망 실사 정합성 위한 블록체인 가이드라인 발표',
+      author: '관리자',
+      date: '2018.12.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI, 광물 공급망 실사 정합성 위한 블록체인 가이드라인 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/blockchain-guidelines-mineral-supply-chain/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 791,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 제조 공급망 노동자 웰빙 증진 이니셔티브 출범',
+      author: '관리자',
+      date: '2018.11.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 제조 공급망 노동자 웰빙 증진 이니셔티브 출범」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/initiative-launched-to-advance-worker-well-being/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 792,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 2018 Compass Awards 수상자 발표',
+      author: '관리자',
+      date: '2018.10.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, 2018 Compass Awards 수상자 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/compass-award-winners-2018/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 793,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '포용 리더십 전문가 Barbara Annis, Responsible Business 2018 기조연설',
+      author: '관리자',
+      date: '2018.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「포용 리더십 전문가 Barbara Annis, Responsible Business 2018 기조연설」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/leadership-expert-barbara-annis-to-keynote-2018/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 794,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, Bali Process 현대판 노예제 대응 지원 협약 체결',
+      author: '관리자',
+      date: '2018.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA, Bali Process 현대판 노예제 대응 지원 협약 체결」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/support-bali-process-efforts-on-modern-slavery/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 795,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: '자동차·전자 산업 책임조달 인사이트 보고서 발간',
+      author: '관리자',
+      date: '2018.07.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「자동차·전자 산업 책임조달 인사이트 보고서 발간」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/responsible-sourcing-automotive-electronics-industries/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 796,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA Compass Awards 공모 개시',
+      author: '관리자',
+      date: '2018.06.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA Compass Awards 공모 개시」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/compass-awards-2018/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 797,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI·GRI, 분쟁·고위험 지역 책임광물 보고 개선 협력',
+      author: '관리자',
+      date: '2018.04.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI·GRI, 분쟁·고위험 지역 책임광물 보고 개선 협력」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-gri/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 798,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, 윤리적 조달 위한 새로운 실사 접근법 도입',
+      author: '관리자',
+      date: '2018.03.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI, 윤리적 조달 위한 새로운 실사 접근법 도입」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-dd/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 799,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA 재단, 윤리적 채용 가속화 위해 월마트 재단 100만 달러 지원',
+      author: '관리자',
+      date: '2018.03.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RBA 재단, 윤리적 채용 가속화 위해 월마트 재단 100만 달러 지원」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/wmfgrant/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 800,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, DRC 등 고위험 지역 코발트 채굴 과제 대응 지원',
+      author: '관리자',
+      date: '2018.03.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI, DRC 등 고위험 지역 코발트 채굴 과제 대응 지원」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cbs2018/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 801,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, Amnesty 최신 보고서의 공급망 이슈 대응 지원',
+      author: '관리자',
+      date: '2017.11.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「RMI, Amnesty 최신 보고서의 공급망 이슈 대응 지원」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/ai2017/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 802,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'UN 이주기구·RBA, 강제노동·착취 근절 협약 체결',
+      author: '관리자',
+      date: '2017.10.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「UN 이주기구·RBA, 강제노동·착취 근절 협약 체결」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/iom-rba-mou/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 803,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, Responsible Business Alliance로 명칭 변경',
+      author: '관리자',
+      date: '2017.10.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, Responsible Business Alliance로 명칭 변경」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rebrand/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 804,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'Tom Perriello, CFSI 연례회의 기조연설자로 참여',
+      author: '관리자',
+      date: '2017.09.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「Tom Perriello, CFSI 연례회의 기조연설자로 참여」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsiac2017/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 805,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '인권활동가 Julia Ormond, Responsible Electronics 2017 기조연설',
+      author: '관리자',
+      date: '2017.08.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「인권활동가 Julia Ormond, Responsible Electronics 2017 기조연설」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/re2017/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 806,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'Responsible Labor Initiative, 강제노동 취약 노동자 권리 증진 위해 출범',
+      author: '관리자',
+      date: '2017.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「Responsible Labor Initiative, 강제노동 취약 노동자 권리 증진 위해 출범」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rli/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 807,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI, 분쟁광물 실사와 SEC 공시 5단계 백서 발간',
+      author: '관리자',
+      date: '2017.04.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI, 분쟁광물 실사와 SEC 공시 5단계 백서 발간」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsi-white-paper-2017/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 808,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI, EU 분쟁광물 규정 승인 환영',
+      author: '관리자',
+      date: '2017.03.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI, EU 분쟁광물 규정 승인 환영」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eu-cm-reg/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 809,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI, 다운스트림 기업 3TG 책임조달 검증 감사 도입',
+      author: '관리자',
+      date: '2016.11.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI, 다운스트림 기업 3TG 책임조달 검증 감사 도입」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsi-downstream-audit/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 810,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '기술 공급망 원자재 책임조달 이니셔티브 출범',
+      author: '관리자',
+      date: '2016.11.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「기술 공급망 원자재 책임조달 이니셔티브 출범」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/rrmi-launch/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 811,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI 2016 연례회의, 책임조달 고도화 논의',
+      author: '관리자',
+      date: '2016.10.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI 2016 연례회의, 책임조달 고도화 논의」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsi-ac2016/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 812,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'Responsible Electronics 2016에 산업·정부·NGO 리더 집결',
+      author: '관리자',
+      date: '2016.10.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「Responsible Electronics 2016에 산업·정부·NGO 리더 집결」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/responsible-electronics-2016/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 813,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '전자산업, 중국 직업학교 우수성 인증',
+      author: '관리자',
+      date: '2016.06.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「전자산업, 중국 직업학교 우수성 인증」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/credentialed-schools-china/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 814,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '쿠알라룸푸르 강제노동 대응 다업종 포럼 개최',
+      author: '관리자',
+      date: '2016.03.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「쿠알라룸푸르 강제노동 대응 다업종 포럼 개최」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/multi-industry-forum-kl/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 815,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC 2016 겨울 뉴스레터',
+      author: '관리자',
+      date: '2016.01.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC 2016 겨울 뉴스레터」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-winter-newsletter-2016/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 816,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '전자산업, 학생 노동자 보호 지원',
+      author: '관리자',
+      date: '2015.12.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「전자산업, 학생 노동자 보호 지원」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/student-workers/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 817,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, UNGP와 SDGs 지지 성명 참여',
+      author: '관리자',
+      date: '2015.11.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, UNGP와 SDGs 지지 성명 참여」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/ungpsdg/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 818,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '전자산업, 말레이시아 공장 노동자 보호 프로그램 시범 운영',
+      author: '관리자',
+      date: '2015.08.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「전자산업, 말레이시아 공장 노동자 보호 프로그램 시범 운영」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eiccfmwpilot/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 819,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, 채용수수료 정의 승인',
+      author: '관리자',
+      date: '2015.08.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, 채용수수료 정의 승인」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/definition-of-fees/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 820,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI, EU 분쟁광물 법제 대응 지원',
+      author: '관리자',
+      date: '2015.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI, EU 분쟁광물 법제 대응 지원」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsi-enables-compliance-with-eu-conflict-minerals-legislation/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 821,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI, 신규 CMRT 4.0 발표',
+      author: '관리자',
+      date: '2015.05.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI, 신규 CMRT 4.0 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsi-releases-new-cmrt/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 822,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '전자산업, 강제노동 근절 선도 조치 발표',
+      author: '관리자',
+      date: '2015.04.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「전자산업, 강제노동 근절 선도 조치 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/electronics-industry-leads-the-way-in-combating-forced-labor/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 823,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, CDP 공급망 GHG 이니셔티브와 업계 최초 파트너십',
+      author: '관리자',
+      date: '2015.02.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, CDP 공급망 GHG 이니셔티브와 업계 최초 파트너십」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 온실가스, 물 리스크, 기후 대응 데이터의 정확성과 추적 가능성을 높이는 흐름과 연결됩니다. 기업은 배출량 산정 근거, 협력사 데이터 수집 방식, 고객사 보고 양식을 일관되게 관리해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 환경 데이터의 산정 기준과 보고 일관성 강화</li><li>협력사 배출·물 리스크 정보의 수집 및 검증 필요</li><li>고객사 Scope 3·기후 대응 요구에 대한 선제적 준비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-cdp-partner-on-supply-chain-ghg-initiative/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 824,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '전자산업, 말레이시아 강제노동 대응 후속 조치 제시',
+      author: '관리자',
+      date: '2015.01.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「전자산업, 말레이시아 강제노동 대응 후속 조치 제시」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/electronics-industry-next-steps-against-forced-labor/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 825,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, 공급망 강제노동 근절 약속 강화',
+      author: '관리자',
+      date: '2014.09.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, 공급망 강제노동 근절 약속 강화」의 주요 내용을 한국어로 정리했습니다. 이 사안은 공급망 노동권, 강제노동 예방, 책임 있는 채용과 노동자 고충처리 체계에 관한 내용입니다. 기업은 채용수수료, 근로시간, 고충처리, 이주노동자 보호 등 RBA 노동 기준의 증빙을 체계적으로 준비해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>강제노동 예방과 책임 있는 채용 관리 강화</li><li>이주노동자·학생노동자 등 취약 노동자 보호 필요</li><li>고충처리, 수수료, 근로조건 관련 증빙 체계 정비</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-combating-forced-labor/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 826,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: '공급망 지속가능성 비즈니스 사례 가이드 발간',
+      author: '관리자',
+      date: '2014.05.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「공급망 지속가능성 비즈니스 사례 가이드 발간」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/new-guide-launches-on-sustainability-in-real-life/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 827,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC 2014 봄 뉴스레터',
+      author: '관리자',
+      date: '2014.04.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC 2014 봄 뉴스레터」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-spring-newsletter-2014/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 828,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: '신규 CMRT 3.0 공개',
+      author: '관리자',
+      date: '2014.04.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「신규 CMRT 3.0 공개」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/updated-conflict-minerals-reporting-template-now-available/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 829,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '4대 분쟁광물 모두에서 분쟁 없는 공급원 확인',
+      author: '관리자',
+      date: '2014.01.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「4대 분쟁광물 모두에서 분쟁 없는 공급원 확인」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/conflict-free-sources-for-all-four-conflict-minerals-now-identified/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 830,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC 발전 기여자 기리는 Brad Bennett Award 신설',
+      author: '관리자',
+      date: '2014.01.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC 발전 기여자 기리는 Brad Bennett Award 신설」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/brad-bennett-award/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 831,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI, 더 많은 기업의 분쟁 없는 조달 참여 촉구',
+      author: '관리자',
+      date: '2014.01.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI, 더 많은 기업의 분쟁 없는 조달 참여 촉구」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/more-companies-join-effort/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 832,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC 2013 연말 뉴스레터',
+      author: '관리자',
+      date: '2013.12.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC 2013 연말 뉴스레터」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-holiday-newsletter-2013/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 833,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI·Tungsten Industry Council, 텅스텐 실사 협력 출범',
+      author: '관리자',
+      date: '2013.11.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI·Tungsten Industry Council, 텅스텐 실사 협력 출범」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/tungsten-collaboration/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 834,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, 제5차 연례보고서 발간',
+      author: '관리자',
+      date: '2013.09.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, 제5차 연례보고서 발간」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-releases-fifth-annual-report/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 835,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '제12차 CFSI 워크숍, 분쟁광물 과제 논의',
+      author: '관리자',
+      date: '2013.09.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「제12차 CFSI 워크숍, 분쟁광물 과제 논의」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsi-workshop-12/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 836,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'CFSI, 제11차 분쟁 없는 광물 공급망 워크숍 개최',
+      author: '관리자',
+      date: '2013.06.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「CFSI, 제11차 분쟁 없는 광물 공급망 워크숍 개최」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/cfsi-hosts-eleventh-conflict-free-minerals-supply-chain-workshop/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 837,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC·GeSI, Conflict-Free Sourcing Initiative 출범',
+      author: '관리자',
+      date: '2013.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC·GeSI, Conflict-Free Sourcing Initiative 출범」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-and-gesi-launch-conflict-free-sourcing-initiative/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 838,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, Robert Lederer 초대 전무이사 임명',
+      author: '관리자',
+      date: '2013.02.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, Robert Lederer 초대 전무이사 임명」의 주요 내용을 한국어로 정리했습니다. 이 사안은 RBA와 전신 EICC의 회원사 네트워크, 교육·행사, 조직 운영과 공급망 책임경영 확산 활동을 보여줍니다. 기업은 관련 행사·자료를 통해 고객사와 산업계가 중점적으로 보는 리스크와 대응 방향을 파악할 수 있습니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA/EICC 네트워크를 통한 책임경영 확산 동향 확인</li><li>회원사·협력사 교육과 우수사례 공유의 중요성 증가</li><li>산업계 주요 의제를 공급망 관리 전략에 반영 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-names-robert-lederer-first-executive-director/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 839,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'GeSI·EICC, CMRT 2.0 발표',
+      author: '관리자',
+      date: '2012.12.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「GeSI·EICC, CMRT 2.0 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/gesi-and-the-eicc-release-version-2.0-of-the-conflict-minerals-reporting-template/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 840,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'GeSI·EICC, 브뤼셀 제10차 분쟁 없는 광물 워크숍 개최',
+      author: '관리자',
+      date: '2012.10.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「GeSI·EICC, 브뤼셀 제10차 분쟁 없는 광물 워크숍 개최」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/gesi-and-eicc-host-tenth-conflict-free-minerals-supply-chain-workshop-in-brussels/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 841,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: '업계 단체, 금 정련소 감사 상호 인정 발표',
+      author: '관리자',
+      date: '2012.09.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「업계 단체, 금 정련소 감사 상호 인정 발표」의 주요 내용을 한국어로 정리했습니다. 이 사안은 책임광물 실사, 원재료 추적성, 제련소·정련소 평가와 관련된 공급망 관리 이슈입니다. 기업은 CMRT·EMRT 등 책임광물 자료와 협력사 실사 결과가 고객사 요구 및 국제 기준과 맞는지 점검해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 실사 기준과 공급망 추적성 강화</li><li>제련소·정련소 및 원재료 공급처 리스크 평가 필요</li><li>CMRT·EMRT 등 고객 제출 자료의 정확성 확보</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/industry-organizations-announce-cross-recognition-of-gold-refiner-audits/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 842,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'EICC, 2011 제4차 연례보고서 발간',
+      author: '관리자',
+      date: '2012.09.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 공식 뉴스 「EICC, 2011 제4차 연례보고서 발간」의 주요 내용을 한국어로 정리했습니다. 이 사안은 글로벌 공급망에서 책임 있는 비즈니스 행동을 확산하기 위한 RBA의 공식 활동과 관련됩니다. 기업은 RBA 행동규범, VAP 심사, SAQ, 협력사 평가 체계에 해당 이슈가 미치는 영향을 검토해야 합니다. RBA 또는 전신 EICC의 공식 발표이므로, 관련 기업은 고객사 요구사항과 내부 관리 기준에 반영할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA 공식 활동과 공급망 책임경영 기준의 변화 확인</li><li>협력사 관리, 실사, 보고 체계에 미칠 영향 검토</li><li>RBA 행동규범과 VAP 대응 문서의 최신화 필요</li></ul><h3>실무 시사점</h3><p>RBA 대응 기업은 이 내용을 행동규범, VAP 심사 준비, SAQ 작성, 협력사 평가, 책임광물·노동·환경 리스크 관리 문서와 연결해 검토하는 것이 좋습니다.</p><p>원문: <a href="https://www.responsiblebusiness.org/news/eicc-releases-fourth-annual-report-2011/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 734,
       pinned: false,
       category: 'insight', categoryName: '인사이트',
@@ -90,7 +1308,7 @@ document.addEventListener('DOMContentLoaded', () => {
       views: 0,
       hasAttachment: false,
       content: `
-        <h2>핵심 내용</h2><p>RBA가 공급망 투명성을 높이기 위한 상호운용 데이터 교환 체계를 출시했다는 보도입니다. 기업 간 실사 정보와 공급망 데이터를 표준화된 방식으로 주고받을 수 있어 중복 요청과 수작업 부담을 줄이는 데 의미가 있습니다. 향후 RBA 대응은 문서 보유뿐 아니라 데이터 구조화와 공유 가능성이 중요해질 전망입니다.</p><h3>주요 포인트</h3><ul><li>공급망 실사·투명성 데이터를 상호운용 방식으로 교환</li><li>고객사별 반복 자료 요청과 수작업 취합 부담 완화</li><li>협력사는 데이터 품질과 제출 체계까지 관리해야 함</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNYVRmWGpMalVRMU5CN2hVWlAtV0l4LVAwLW95R2ZEOGRULXpRLVhsQjM3UmdrQ2lUT2VzYXREbmZUUm16SWFIZkxTcnFjWk9UdDFvRE9mUEJ3QXJHQjJJSlk2SkhWR3VMNmVXa0xnQVRzRS1JMllqalRYSVNjaHc3MkNrZHZTR3g0TmF3bXpqbVlDVDdwRUlRSWcxaFJGZjdVMVBR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+        <h2>핵심 내용</h2><p>RBA가 공급망 투명성을 높이기 위한 상호운용 데이터 교환 체계를 출시했다는 보도입니다. 기업 간 실사 정보와 공급망 데이터를 표준화된 방식으로 주고받을 수 있어 중복 요청과 수작업 부담을 줄이는 데 의미가 있습니다. 향후 RBA 대응은 문서 보유뿐 아니라 데이터 구조화와 공유 가능성이 중요해질 전망입니다.</p><h3>주요 포인트</h3><ul><li>공급망 실사·투명성 데이터를 상호운용 방식으로 교환</li><li>고객사별 반복 자료 요청과 수작업 취합 부담 완화</li><li>협력사는 데이터 품질과 제출 체계까지 관리해야 함</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/rbtp/" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
