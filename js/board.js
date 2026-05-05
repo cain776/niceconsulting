@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 846,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '차종별 탄소 배출량 비교: 하이브리드 vs PHEV vs EV',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>차량 구매를 앞둔 한 사용자가 프리우스, RAV4 하이브리드 및 PHEV, 테슬라 모델 Y의 주행 거리당 탄소 배출량(CO2e)을 직접 계산하여 비교 분석했습니다. 제조 공정을 제외한 연료 및 전력 소비만을 기준으로 했을 때, 일반 하이브리드 모델은 20만 마일 주행 시 약 40~50톤의 탄소를 배출하는 것으로 나타났습니다. 플러그인 하이브리드(PHEV)는 전기 모드 주행 비중이 높을수록 배출량이 크게 감소하며, 순수 전기차(EV)가 환경 측면에서 가장 유리한 선택지로 확인되었습니다.</p><h3>주요 포인트</h3><ul><li>프리우스와 RAV4 하이브리드는 20만 마일 주행 시 각각 40톤과 50톤의 이산화탄소를 배출함.</li><li>RAV4 PHEV는 주행의 80%를 전기 모드로 소화할 경우 일반 하이브리드 모델보다 탄소 배출량이 현저히 낮음.</li><li>해당 분석은 차량 제조 과정의 탄소 발자국을 제외하고 순수 주행 시 발생하는 에너지 소비에 초점을 맞춤.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1sz827l/math_behind_carbon_emissions_ice_vs_phev_vs_ev/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 847,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 지속가능성 및 ESG 블로그 아카이브',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스의 블로그 아카이브는 지속가능성, 회복탄력성 및 지속가능한 조달 분야의 최신 주제와 규제, 트렌드에 대한 깊이 있는 통찰력을 제공합니다. 기업들이 급변하는 글로벌 ESG 기준에 부합하고 공급망 관리를 강화할 수 있도록 다양한 전문 지식과 업데이트를 공유합니다. 이를 통해 비즈니스 전반에 걸친 지속가능한 성장을 도모할 수 있는 실질적인 가이드를 제시합니다.</p><h3>주요 포인트</h3><ul><li>지속가능성 및 ESG 관련 최신 글로벌 규제와 트렌드 정보 제공</li><li>비즈니스 회복탄력성 강화를 위한 전략적 인사이트와 사례 공유</li><li>지속가능한 조달 및 공급망 관리의 모범 사례와 최신 업데이트</li></ul><p>원문: <a href="https://ecovadis.com/blog/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 843,
       pinned: false,
       category: 'news', categoryName: '소식',
