@@ -5,7 +5,7 @@
 
 /* --- Board Page Hero (Mini) --- */
 .board-hero {
-  background: var(--navy-dark) url('../images/hero-resources.jpg') center 85%/cover no-repeat;
+  background: var(--navy-dark) url('../images/hero-resources.jpg') center 80%/cover no-repeat;
   padding: 120px 0 44px;
   position: relative;
   overflow: hidden;
