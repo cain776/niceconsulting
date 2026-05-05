@@ -10,6 +10,1490 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 626,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '환경 뉴스 라운드업: BNG 주요 업데이트 + 의회 PFAS 강력 대응 촉구',
+      author: '관리자',
+      date: '2026.04.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 BNG(생물다양성 순이익) 정책의 주요 업데이트와 PFAS '영구 화학물질'에 대한 더 강력한 대응을 촉구하는 의회 그룹의 움직임을 다룬 환경 뉴스 라운드업입니다. 환경 표준 정책의 최근 흐름을 한눈에 정리.</p><h3>주요 포인트</h3><ul><li>BNG 도입 1년 후 정책 평가 및 개정 동향</li><li>PFAS 규제 강화 요구 의회 그룹 결성</li><li>환경 표준 정책의 다중 이슈 동시 진행</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQUFFZc3V6SDdseWR2Yi16S1VCUExiZzBxVlpmRkVmaDUzMGhmS3YxZ2t3Y2YydEluQkNvZTY3azM4NmJOdXNlLTVxOWZKampadGU1LUtNdmtuejNjbVNzbWtmbkkwOG5CN25ZRFpWOV9kV0dCT25LZkVJRDJiRURpQkJISlpGWkJrWmVuSEpIUDJqZVZBLUFwd08xbnRmcS1vMW1VTENWZzVnVDJFV0gzNjdtQ0J6eF9WS3QzSm9aRQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 627,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 9001:2026 개정안, 디지털과 지속가능성 영역으로 확장',
+      author: '관리자',
+      date: '2026.04.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>품질경영 핵심 표준인 ISO 9001이 2026년 개정을 통해 디지털 전환과 지속가능성 측면을 본격 반영합니다. 기존 품질 중심에서 ESG와 디지털 리스크까지 통합하는 방향성이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>품질경영 표준에 디지털·지속가능성 요건 통합</li><li>2026 개정안 핵심 변경 사항 정리</li><li>기업 QMS 운영 방식의 패러다임 전환</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPak1YeVpVWXgxaEE3TDdxRm5ibnJ4eFZ1RFYwTXBYNE1pajFNOG5TVi1DajdQRlZJUGFrOElTQk9fMTdwQlVUZjY2UkVaQjUwRkdIV2RObXFGUHNQTy0zUmlDUmtqVjVZejVxdzI4ZkVCV2RFQmZsSS03b0RadFZYeHgxWEs2OF9tbzVZSEU1NlI0NTFtamhNTzQ4cGlEU2NsbWVNUmN0bDJtWHE0TmRkZnpmcl9zZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 628,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 14001:2026 — 글로벌 환경경영 요건 상향',
+      author: '관리자',
+      date: '2026.04.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>환경경영시스템 표준 ISO 14001이 2026년 개정으로 전 세계적으로 더 엄격해진 환경 요건을 부과합니다. 기후 적응, 가치사슬 관점, 디지털화 등이 핵심 추가 요소입니다.</p><h3>주요 포인트</h3><ul><li>ISO 14001:2026 주요 강화 영역 정리</li><li>기후 변화 통합 + 가치사슬 관점 확대</li><li>기존 인증 보유 기업의 전환 일정·전략</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOcHJQRGVWWWh0U3ZsN1RsdFp3YlBQRndDNGE0SHVxWDJQSW8wb2s0NDNycnhUaUhlYXIwM0tUZmVPSzFhc3plellzcFhBcEZLR1FYX2FQSkFJWGg5N2tJNXpwSWJnLXh4YmZSUnZaRjVRcHVFV255aW5rQ2lDV3JkVlU3WmhVWFU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 629,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Arthian 블로그 — ISO 14001 업데이트 핵심 정리',
+      author: '관리자',
+      date: '2026.04.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>환경 컨설팅 기업 Arthian이 ISO 14001 개정 핵심 내용을 정리한 블로그 포스트로, 영국 르노프루셔 상공회의소가 회원사 안내용으로 공유했습니다. 실무자 관점의 변화 요약입니다.</p><h3>주요 포인트</h3><ul><li>실무자 관점의 ISO 14001 개정 요점 정리</li><li>전환 기간 동안 기업 우선순위 가이드</li><li>중소기업 적용 영향 분석</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5jSVQ3ZTNhRlozRlZyNWZQdnp6dy1PQWhOcFJTY2g3Rm9yaUplWllJUG83WFNlMU8yVUowRzd0ZXg1WWM0bFVqRDVvLVN0LUREQTR1MUhpYXVTRGtyOFRmbU00Ym1zZHI4V2Z2MDN5aEdiek9S?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 630,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 14001 표준 개정 — 조직이 알아야 할 5가지',
+      author: '관리자',
+      date: '2026.04.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>해운·안전 매체 safety4sea가 ISO 14001 표준 개정 내용 중 조직이 반드시 알아야 할 핵심 변경사항을 정리한 분석입니다. 환경 리스크 관리·기후 통합·이해관계자 관점 강화 등이 다뤄집니다.</p><h3>주요 포인트</h3><ul><li>개정 표준의 5가지 핵심 변경사항</li><li>리스크 기반 사고와 기후 통합 관점</li><li>이해관계자 참여 요건 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNeVpFY014Ym1lQ1ZES21Fa3lfQUdnVFpKaGxkbi01d3ZyZXF4dnZkT3pKU1V6dHU5c0JQcFQ3ODZ3dDdmU2JndFNoTkFtZFVONmV2TXFDQTBfZXpyNTEzbHVaeXFUN1FHaTFGLW5nN3h0QllEQjVrbTd5TDBDWHpWenR5NGJWUzh5Unc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 631,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 환경경영 대표 표준의 새 버전 발표',
+      author: '관리자',
+      date: '2026.04.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO가 환경경영시스템 분야 대표 표준인 ISO 14001의 새 버전을 공식 발표했다고 ESG Today가 보도했습니다. 글로벌 100만 개 이상 사업장의 환경 관리 기준이 한 번에 상향됩니다.</p><h3>주요 포인트</h3><ul><li>전 세계 100만+ ISO 14001 인증 사업장 영향</li><li>기후 행동·생물다양성·순환경제 통합 요건</li><li>3년 전환 기간 — 2029년까지 신규 표준 적용</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNM2xxektyaXJrS3JVRTZnSmE3cHAwYTFibXJiX0dmeU51YTRhZDM0ZzVZUEhweTRMcGdFQ0s4V3pWZWRydkIwZFREaUp2eDJERldQN242LUNidXYyVTVKSEJWSGFpV0JHWXZuYjF0WndSakFwWlhsTnNlUkkyc1ZmUjBpQmV2X3FkTHhBS1Q0MzNwSGdWYzVlRkRhV08?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 632,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO·GHG 프로토콜, 통합 제품 단위 GHG 회계 표준 개발 워킹그룹 출범',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO와 GHG 프로토콜이 제품 단위 온실가스 배출량 회계 표준을 통합 개발하는 공동 워킹그룹을 정식 출범했다고 ESG Today가 보도했습니다. 기업이 사용하는 PCF(Product Carbon Footprint) 표준의 단일화가 목표입니다.</p><h3>주요 포인트</h3><ul><li>PCF 표준 통합 — 기업 보고 부담 대폭 완화</li><li>ISO·GHG 프로토콜의 첫 공식 공동 표준화</li><li>2026~2027년 초안 공개 일정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxORGlwMlRoVFRzQjhQc2ZFM1B3T2FnRDdlYmRjRTBDejQxRDI5M1otT0xzRzdweFhYVkM4NWNWLU5kV1ZyWTBwVjQ1TW5NZ3V0emExb3djbE9OVmhBc25WT05Fa251SVJzSkZzV2lZQjdwb0NyZ1YyQVA2eTY5cW1ra1ZZUnpTSDh6a3VPcUNER253NEFTenUtYUtNcWE3N0tVTUVENUxhcFAzTkNmSUxCNkFR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 633,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Forbes — 세계의 가장 복잡한 데이터 문제를 푸는 새 ISO 표준',
+      author: '관리자',
+      date: '2026.04.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Forbes가 데이터 거버넌스·상호운용성을 다루는 ISO 신규 표준의 의미를 분석한 칼럼입니다. 기업 간 데이터 교환의 표준화가 가져올 변화를 인사이트로 제시합니다.</p><h3>주요 포인트</h3><ul><li>글로벌 데이터 상호운용성 표준의 비즈니스 임팩트</li><li>기업 간 데이터 교환 비용·리스크 절감</li><li>AI·디지털 거버넌스의 기반 인프라 역할</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQd1lSQW1UREFkREZOWlJKRUtfYXYwTUlPV2d1R3duRVhIRXNMZVN4Nmc2bHhvZnB5RWN6ZnZscXBvdkZmVEZpWkZjS1lzYVBqQTRGZlh4Z0d4LUVDZGJpWFlUaTlyVEd0bnJPcldqM0V2XzBZdEVuakllaWNMa0VDMWI1MjhQQ3daOUJFMTR4ZEQxanNORHh1S3dzVWJEY1ZULXNpQUhZMmFuLVZpNENmczVvTC1ZZ2drYmpnSA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 634,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 탄소 저장 관련 신규 표준 발행 — Subpart RR 대체 가능성',
+      author: '관리자',
+      date: '2026.04.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO가 탄소 저장(Carbon Storage) 관련 신규 표준을 발행해 미국 EPA의 Subpart RR 보고 체계를 대체할 잠재력을 가진다고 The National Law Review가 분석했습니다. CCS 산업의 글로벌 표준 정합성에 큰 영향.</p><h3>주요 포인트</h3><ul><li>탄소 저장 표준의 국제적 정합성 확보</li><li>미국 EPA Subpart RR과의 비교·대체 가능성</li><li>CCS 사업의 글로벌 신뢰도 향상</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYXBZZGVYcXAyeWZ4S204VHQ2Yl93b19UTVUxY1VzOUZmUzF6R3RSUmF5YXNMRVlzNzZ5LU9IdVVlMGxmZnB6NlVNWHlETWdVM09xdlpFVDZWdEFzVmdjZkQ2Y2w4b01yTUdaSnl1OHBrcHZNOHc1VFVNUzA5cEJ6UnVkZ1E2UjZmamJ1blBrbkdmYWJlX2lDNUowTi12MkhNdGRkblZRaFM3UdIBrwFBVV95cUxOcmNhTkY2WkZ1dDRTQkh3UXk3c1RYd1JVeDJoNlZxbkM2d0lycXBiZHkwNkJrNGJkdzJ0RUw5NTJMb0ZUZ1ItbjFZV1hqeXItczY0aE9hYVdxRWNHbVYzZ3hiWnRfVzNmNWhpT1hwSXE1eC1yWVUzRUZhaDJMRTk4dXA3Mkh0cURQd2swRmdwd0hZVy0yTEFSeXdyZjIyZlNzbmowVFZyeTROQmdZWTJB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 635,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'DNG, 정식 국제 ISO 표준이 되다 — 영화·RAW 워크플로우의 의미',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Adobe가 개발한 DNG(Digital Negative) 포맷이 정식 ISO 국제 표준으로 채택됐습니다. 영화 제작자와 RAW 이미지 워크플로우에 미칠 영향을 CineD가 분석했습니다.</p><h3>주요 포인트</h3><ul><li>DNG의 국제 표준 채택 배경 20년 여정</li><li>영화·사진 산업의 워크플로우 표준화 효과</li><li>아카이빙·장기 보존성 측면의 안정성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmtMSjJZTDlEeWVuVU9ZNDdPNHdmWjl0OWtLM2xPLUE0ak43TjNleDg0bHppc2NXMU9STnlJbUx5VTlab2VlSlV2ak9YbjVOeWRPMmZ0a1JMWWJMeDR3NVBVdTZSNlQ3azNQRmdmZkZJUGVUZGZWRzdIcUVndU1mTlV6V09FWHZBanIxaklRYzgtSnBiX01HemdKbDljRXRSUllSakxIUU5ydGtnRmdR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 636,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '20년 노력 끝에 DNG, 공식 RAW 이미지 표준으로',
+      author: '관리자',
+      date: '2026.03.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>20년 이상 진행된 노력 끝에 DNG가 공식 RAW 이미지 표준으로 인정받았다고 PetaPixel이 보도했습니다. 사진·영상 산업의 장기 데이터 보존 안정성에 큰 변화입니다.</p><h3>주요 포인트</h3><ul><li>DNG 국제 표준화의 역사적 의미</li><li>독점 RAW 포맷에 대한 대안 표준 자리매김</li><li>장기 디지털 자산 보존성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOGtvZFFUZjVLc0V0dzIyYW5nS1I0M01OOFZQZW9ZSk45RXBDLWJkcU9aUlppWWlNb0MwTFJrREdzU0s1X2Q2cTNZYWtZMno2b2J0aTNoTUtyVlhCblJ6RTh1T2JIVzB4Y3pWeS0xQU55V3JWc2NVbDVqYUhLR1MyVU5ZVEZyYmZMY0YwbndmRnlqakl1dGpEcWhfbjRmNk1MWmZ2UGdDVll6a3c?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 637,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 선박 선체 수중 청소 신규 표준 발표',
+      author: '관리자',
+      date: '2026.03.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>해운 산업의 선박 선체 수중 청소(in-water cleaning)에 관한 신규 ISO 표준이 발표됐다고 safety4sea가 보도했습니다. 해양 생태계 보호와 연료 효율 개선을 위한 작업 표준화가 목적입니다.</p><h3>주요 포인트</h3><ul><li>선체 청소 절차·환경 영향 관리 표준화</li><li>외래종 이동 방지와 해양 생태계 보호</li><li>연료 효율 개선으로 GHG 배출 감축 효과</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOdkhQZ1pWS2d3c0hOcWRHR3FLWVQyRmlFa0lSRW03NFNlWFMzd3lGUnlRNkdPWjI2SFB0dVJQdzNKVC05c3Y4NWpFRXRmeUdYeDdERXJ3MS1vWkZNRUlmX2NoRkNhdk1Vc2xLSlU1WFVSUWo3QnZLbGNUVTF1U0U1RHFNVG9iZ2pZOW9oWnhaRWdSbmxWb1E?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 638,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Marine News — ISO 선체 청소 표준 발행',
+      author: '관리자',
+      date: '2026.03.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>해사 전문 매체 Marine News Magazine이 ISO 선박 선체 청소 표준 발행 소식을 다뤘습니다. 글로벌 해운 산업의 환경 책임 표준화의 일환입니다.</p><h3>주요 포인트</h3><ul><li>선체 청소 표준의 글로벌 채택 의미</li><li>국제해사기구(IMO) 환경 정책과 정합</li><li>선주·선급의 운영 관리 영향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNOERvMEZfSUk5bEJXWmpIUDl2SVhnY0IyYldJc0p5cmlteFVoaWVPMFVvRWYyRUVDc21PbHU0emFScFlNR20tRDdMR3hSNWp6Qk9iUG5pT1J0WW80RlJBTDVPR2dGb3RpV2FYTXNsWkstZXNZaVlPTHlKYmtMM3NVQ2t3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 639,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '건설기술 분야 상호운용성·효율성 위한 새 국제 표준',
+      author: '관리자',
+      date: '2026.03.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>건설장비제조사협회(AEM)가 건설기술 분야의 상호운용성과 효율성을 위한 신규 국제 표준의 의의를 분석했습니다. 건설 디지털 전환의 핵심 인프라 표준입니다.</p><h3>주요 포인트</h3><ul><li>건설장비 데이터 교환 상호운용성 확보</li><li>디지털 트윈·BIM 통합의 기반 표준</li><li>현장 자동화 효율성 향상 효과</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLWFNWG5SVGY4Y3gyY05YcG82M0Q2ZUhEdXp4cTBwV3RHOHNqdkc1U19NVGYtOWMyZ1pGd3JBZkxhZ2pZM0xOeW1xYXB0aVNQdDA1NVowV0Q2X3RXWUtGVzV4c2hneEZJd0hfTDhfZzFzUzQ4WHVESUU3aTVIVjRCc1B2dEQ5Y0dxS3JnZlV6V2JQZFVGejdfOFM0SGdOZjFqQUhRdXBsX1dudXZjY2h2d1UwdlREZWcwbDBYenhqWHNyM0k?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 640,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 슈퍼요트 환경 성과 평가 첫 표준 발행',
+      author: '관리자',
+      date: '2026.02.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Megayacht News가 ISO의 첫 슈퍼요트 환경 성과 평가 표준 발행을 보도했습니다. 럭셔리 해양 산업의 환경 책임 정량화 시도입니다.</p><h3>주요 포인트</h3><ul><li>슈퍼요트 산업 첫 환경 표준</li><li>탄소·생활용수·폐기물 등 평가 지표</li><li>해양 럭셔리 산업의 ESG 진입</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNRmVrZHNFVXJwdHJPY2xodnotOWs5S3Rvb3ZlczhpcUd1NFNUMFlLakM3WlMxZ3BTSmtPV0J0TFlaM2d0aXQ0V0lLZ005REtvc1FqbHUwZ29iYmptMFJ2NVhuOUZ4WWdtUU56aVFPdnJEV3RxR3NOU3M0T3hUbHVZQW1NSklCb0VkMWJLeDJlSDJqUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 641,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '성장을 위한 표준 — 우간다를 위한 인사이트',
+      author: '관리자',
+      date: '2026.02.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Daily Monitor가 우간다 경제 성장을 위한 ISO 표준 도입의 중요성을 다룬 칼럼입니다. 신흥국 산업 발전에서 국제 표준이 갖는 역할을 인사이트로 제시.</p><h3>주요 포인트</h3><ul><li>신흥국 산업 발전과 국제 표준의 역할</li><li>수출 경쟁력 확보를 위한 표준 채택</li><li>중소기업 표준 도입 정책 제언</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNWEJzT3RjSnM5TTJlUUNDQ3Mwamx3ekpjdlFwc3dFeTdBVDRLMlRKSnNZQmxRd1VZYVA1Z0plbkxYaWNHRTNIMDFRZU41cmFEeHJKWVl5VmlVQldJZ3FVYV9KeklZTVhGeEsycWU2TFJ1ZU5wbkhoWjJDdlBUd0dTZmdOb1VHLVBfOEJNcVFJRHh3cVlBNEtWZkRfS25qQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 642,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 인사이트 — 양자 컴퓨팅과 표준화',
+      author: '관리자',
+      date: '2026.02.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지에서 양자 컴퓨팅 분야의 표준화 동향을 다룬 글입니다. 새로 부상하는 기술의 글로벌 표준화 노력의 단계별 진행 상황을 정리했습니다.</p><h3>주요 포인트</h3><ul><li>양자 컴퓨팅 표준화 글로벌 동향</li><li>ISO/IEC 합동 기술위원회 활동 정리</li><li>차세대 기술의 표준화 로드맵</li></ul><p>원문: <a href="https://www.iso.org/home/insights-news/navigation-menu-hidden/quantum-computing.html" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 643,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 신규 표준, 배터리 없는 RFID 센서 연속 데이터 스트리밍 가능',
+      author: '관리자',
+      date: '2026.02.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>TechSpot이 ISO 신규 표준이 배터리 없는 RFID 센서로 연속 데이터 스트리밍을 가능하게 한다고 보도했습니다. 산업 IoT의 에너지 자율성 확장에 핵심 인프라가 됩니다.</p><h3>주요 포인트</h3><ul><li>배터리 없는 IoT 센서의 새로운 가능성</li><li>산업·물류 모니터링 비용 대폭 절감</li><li>지속가능 IoT의 표준 인프라</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ2VaQ3o0QWViSHZ4WXZlTTlVVi1DT1BRME4yN0FJcUs4TWtxQ2tDa19fcFBtbFc1c25DZk5TaGtIOHhpT2tkSmFJaXhpMnBNREIwdkdGZzZlYkN4UnJ5TUl2alY5SFFFSWQ1TTVkNTJka0ZOa1BuOEVsTzlYLUI4c2lCUG5OcWxGRmlweWJ6ZHZyU1d4Zi1n?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 644,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 글로벌 기후 적응 표준 발행 — 지역 회복력 강화',
+      author: '관리자',
+      date: '2026.02.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO가 글로벌 기후 적응 표준을 새로 발행해 지역 단위 회복력 계획 수립을 지원한다고 ESG News가 보도했습니다. 기후 위기 대응의 사전 적응 측면을 표준화한 사례입니다.</p><h3>주요 포인트</h3><ul><li>지역·도시 단위 기후 적응 계획 표준</li><li>리스크 평가 + 적응 액션 통합 프레임</li><li>지자체·국가 적응 정책 일관성 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPSVNwQWx6VDhFUDYta2V0SUlKb1RQclp5YmRHRG82X0FiVkZyaW00RU50eklUekRXSFVmSU9udUF0RktZOUhOT1JudnFDUnhFbGdiN3I0amNhQnRzWGpIZTFYZXh6eXhlcXh2SEgyMVNUUzZaYjdXaF9ONnBUdnR6SGxSRHBZOWhwalJCaENaTmpPeEJaZVN4dE1LWUhxX1MxZFdteURiY0N0U21m?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 645,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Trellis — 2026년 주요 기후·자연 표준 전망',
+      author: '관리자',
+      date: '2026.02.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Trellis Group(구 GreenBiz)이 2026년에 주목해야 할 핵심 기후·자연 관련 표준의 흐름을 분석했습니다. ISSB·TNFD·ISO 14001 등 글로벌 표준 통합 흐름을 정리한 인사이트입니다.</p><h3>주요 포인트</h3><ul><li>2026 기후·자연 표준 핵심 캘린더</li><li>ISSB·TNFD·ISO 통합 흐름</li><li>기업 보고 우선순위 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTFBSamk5eXBxYXVmVVR1cF9yZnpsSjl6d2JBMkFnOV83VVBOR3lZQzNtVDZYSnJibDI1R0VsdnBYdVRsdzRxdmREbEdORW5tSE5wQ1BZanBlRE9hcGIyQmk1V2ctMGdjY0dNX05aTWRJN2xDZGh0MjVkWl93?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 646,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO의 새로운 Book & Claim 표준',
+      author: '관리자',
+      date: '2026.02.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>World Energy 매체가 ISO의 새로운 Book & Claim 체인 오브 커스터디 표준을 분석했습니다. 친환경 연료·소재의 가치 추적과 인증 거래 매커니즘 표준화가 목적입니다.</p><h3>주요 포인트</h3><ul><li>Book & Claim 메커니즘 표준화</li><li>SAF·재생전력 등 환경 속성 거래 인프라</li><li>가치사슬 환경 클레임의 신뢰성 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFAweEM1Tzh3b3lFYjNZX1d4MTNoSUhWMHF6T19UZHhlclNjTk52cVVfMlJpdkRSbG95aThGMk4ydnpjd2FpNXZsNUpmZEJMWFV4emtyeVdfQ2JQZzRVMVlDNHBjblJBcnRJTWs3Y2VsZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 647,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Anthesis — 2026 ISO 14001 업데이트 대비 가이드',
+      author: '관리자',
+      date: '2026.02.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 컨설팅 기업 Anthesis가 2026 ISO 14001 업데이트에 대비해 조직이 알아야 할 핵심 사항을 정리한 가이드입니다. 전환 일정·핵심 변경·실무 대응 방안을 망라합니다.</p><h3>주요 포인트</h3><ul><li>ISO 14001:2026 전환 단계별 가이드</li><li>기존 인증 보유 조직의 우선 점검 항목</li><li>실무 대응 체크리스트와 일정 관리</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWw5cTRhZFpCejhUbVpvNGxHRk5CY0dTQ2lWeWJQRXNITTdUci1jcHA0alphbFNGYW90dEE4SzlEUU5kVEtOa2NfU0EwdlVmNURycmM2UzlndmN3Sko3V2s0M2NZMWwzOVdsT0dyMjgzRHktYklLQVdEemRSbklzdlliRGNKdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 648,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 대형 요트 환경 성과 신규 표준 승인',
+      author: '관리자',
+      date: '2026.02.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>BOAT International이 ISO의 대형 요트 환경 성과 평가 표준 승인을 보도했습니다. 럭셔리 해양 산업의 ESG 정량 평가 진입 신호입니다.</p><h3>주요 포인트</h3><ul><li>대형 요트 환경 성과 정량 평가</li><li>탄소·생활용수·소음·폐기물 종합 지표</li><li>해양 럭셔리 산업의 환경 표준화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNakJXeXNCRWJqYVYzMEUxZ1pNNzdub1ZLemFjZWVMYU9XdjZxbTVaS2FxbGY2X2hDWlZvOWZXMmoxeWlOaEMwRHFBcS1Ndzk4TmVyYVhmcFhMT3FjeFE1WmZwaG1GTmhFZi1Gb0o2aHE2ZnJoYWI0cW01ODF2T0tlTV94N2Y0bmNZMjg1OGs5STNoUmlNenBUN19uQkt1eF8yc2VSNER3WXNsV2pF?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 649,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'SuperYacht Times — ISO 대형 요트 환경 성과 표준 승인',
+      author: '관리자',
+      date: '2026.02.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>슈퍼요트 산업 전문 매체 SuperYacht Times가 ISO의 대형 요트 환경 성과 평가 표준 승인 소식을 다뤘습니다. 럭셔리 해양의 환경 책임 평가 표준화 흐름입니다.</p><h3>주요 포인트</h3><ul><li>슈퍼요트 산업 환경 성과 표준 승인</li><li>업계 자율 평가 → 국제 표준 진입</li><li>요트 운영자·조선소 대응 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTk0ya0tkX0RyXzdzVk9jdjhRNF84OGRtYXZjOG5zY3p3OGNray1hQWt1QnI5TENPc3Ftd1Y2X2JfSUtFUlM0dEFFVmpaZVpKY08wWS16WFdfaXNwbnE0RUV1M1h0ZnVQc1N4VGNkODZPbGpENXNHek11WmpaWHRhMWk0MmQ4T2NYYU1lOUVyR3UzbHh1M3RPWWNBZjREbGlPenlUb19NY1NublU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 650,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Smithers — ISO 9001 2026 개정 일정과 기후 업데이트',
+      author: '관리자',
+      date: '2026.01.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Smithers가 ISO 9001 2026 개정의 단계별 일정과 기후 변화 통합 업데이트를 정리한 분석입니다. 품질경영 표준의 ESG 통합 흐름을 실무 관점에서 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 9001:2026 개정 단계별 일정</li><li>품질경영 + 기후 변화 통합 요건</li><li>기존 인증 보유 조직의 전환 전략</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNRW44UTE4SXc3UHhoRkVPT2xNSndLQmZKUzRSUjQ4UW9JZUtQQm1fbjl4OUNoMmIyckxoQXNvMnNqZnNHazN0cHhBenpidTdtaDVGLXFLcHdFVE1RZlE5MUVLN2c2OFdTQnJsNmFPVENXNmNMLXpQM0FIU005NVRfVEpmc2xvV0hQeTI0TWlfUGR4Nmo3RVVobQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 651,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — ISO 9001 표준 해설',
+      author: '관리자',
+      date: '2026.01.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지가 ISO 9001:2015 품질경영시스템 국제 표준의 핵심을 해설한 자료입니다. 일관된 제품·서비스 제공, 효율 개선, 고객·규제 기대 충족을 위한 프레임워크입니다.</p><h3>주요 포인트</h3><ul><li>ISO 9001 핵심 원칙과 7대 품질 경영 원칙</li><li>적용 범위와 인증 절차</li><li>기업 도입 효과와 한계</li></ul><p>원문: <a href="https://www.iso.org/home/insights-news/resources/iso-9001-explained.html" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 652,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'BSI, 의료기기 생체적합성 평가 강화 위한 ISO 10993-1:2025 개정 발행',
+      author: '관리자',
+      date: '2026.01.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 표준기관 BSI가 의료기기 생체적합성 평가를 강화하는 ISO 10993-1:2025 개정 표준을 발행했다고 Manufacturing Chemist가 보도했습니다. 의료기기 안전성 평가 체계의 한 단계 업그레이드입니다.</p><h3>주요 포인트</h3><ul><li>의료기기 생체적합성 평가 기준 강화</li><li>리스크 기반 평가 접근법 확대</li><li>글로벌 의료기기 인증 영향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNRG1jTzZhMEo3QWozT1o1M1JRYUtXVjJNOEJmbDlYbXVwQ3RlbV8xem81eXltc1lONWR3MkZQSXpYZUMzMlRSQjIzYlFkTnV2N3U4Qk52X1lCcnY1MjhPWlc1WGtqczd2ZzZtTzQ0cV9xeTM0VUFoSElPa1NyOEtjdXBlQXJEWTdtZG13Y3F6U0RUcU0z?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 653,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'NIST — 디지털 ID와 검증 가능 디지털 자격증명 생태계',
+      author: '관리자',
+      date: '2026.01.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 국립표준기술연구소(NIST)가 검증 가능한 디지털 자격증명(Verifiable Digital Credential) 생태계의 표준화 동향을 분석한 자료입니다. ISO·W3C 등 표준화 단체의 협업이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>디지털 ID·자격증명 표준화 글로벌 흐름</li><li>NIST·ISO·W3C 표준 정합성</li><li>기업·정부 도입 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQbWpLSEZfUmdtcHlNN1RJUm1CQjhqU0JkZkxKajlFR1lyUnVTd0Uwc2FfcENYVGRiOVhpLXk3QmVHb1ZBR2VINkhXR0xaNnVmVVR6TTFtME1nUGpCMU9zSEp5dVZuR0MwSk40bVRETGt6QVdIYVBpc1Fqa2FETW5aS1dEY0hvQ1J2VlJsdlB3bURoYXY1RnNRRURJVDhHQi1ncGZ0U1M1c1BxR1FSLW9jTmxTbw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 654,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 신규 표준, 글로벌 기후 관측 정확도 향상',
+      author: '관리자',
+      date: '2025.12.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Newswise가 글로벌 기후 관측 데이터의 정확도를 높이는 새 ISO 표준 발행을 보도했습니다. 기후 모델링·정책 의사결정의 신뢰성 확보를 위한 핵심 인프라 표준입니다.</p><h3>주요 포인트</h3><ul><li>기후 관측 데이터 표준화로 비교 가능성 확보</li><li>다양한 측정 방식 간 일관성 확보</li><li>기후 정책 신뢰성·투명성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQdXk2eVJseWpvLXBoMVotcGhVUW1TRG13VVU3bl9YLS1idldaM2g2U1RYV1ZKTXFJOEpzX25NOXN1ZVBhSEQ4RFE3TkV1anBIS0VFOHlSTXlEUDVsd09RXzF0TV9fbUNMUW11Q0RtWGM4d0NTd3h6NW4yeUdKTXQ1eHpaN2l5NWNLUFUzYTY4X1pma3pKeDh6aE5BaFhJOE1f0gGgAUFVX3lxTFB1eTZ5Umx5am8tcGgxWi1waFVRbVNEbXdVVTduX1gtLWJ2V1ozaDZTVFhXVkpNcUk4SnNfbk05c3VlUGFIRDhEUTdORXVqcEhLRUU4eVJNeURQNWx3T1FfMXRNX19tQ0xRbXVDRG1YYzh3Q1N3eHo1bjJ5R0pNdDV4elo3aXk1Y0tQVTNhNjhfWmZrekp4OHpoTkFoWEk4TV8?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 655,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '최초의 연령 보증(Age Assurance) 국제 표준 발행',
+      author: '관리자',
+      date: '2025.12.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Biometric Update가 최초의 연령 보증(Age Assurance) 국제 표준 발행 소식을 보도했습니다. 온라인 서비스의 미성년자 보호와 디지털 권리 균형을 위한 핵심 인프라입니다.</p><h3>주요 포인트</h3><ul><li>온라인 서비스 연령 확인 표준화</li><li>미성년자 보호와 프라이버시 균형 원칙</li><li>플랫폼 책임 입법 흐름과 정합성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ2pEVFZ6QnQ2VzU4Q3N6el9ra1dIcXpqdXp4T2R5LVNxNWhwSUYtd3NnLTRhWml0b3JRbHBCdkN1UVNlU1pQdC1QYV84d1dqNkgxTEZoT3JFV2dRT0NwSU1tdHFkVWJYd01Oa0FRNW1QQnVoTW5nMnc4SUhHMkpJbG9hczYxeXY4TkdaOEwzOHZobGhlMTRxN1VLVS1FcXdXRHpN?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 656,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 일반 통역(Interpreting) 표준 핵심 내용 추가',
+      author: '관리자',
+      date: '2025.12.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>번역·통역 산업 매체 Slator가 ISO 일반 통역 표준의 핵심 내용 추가 사실을 보도했습니다. 글로벌 통역 서비스의 품질·역량 평가 기준이 더 정교해졌습니다.</p><h3>주요 포인트</h3><ul><li>통역 서비스 품질 표준의 진화</li><li>전문 분야별 역량 요건 명확화</li><li>다국어 비즈니스 환경의 신뢰성 향상</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNOERucms5aHk2alN5ZS1IdHBBLTR5c3JKVWt1UTJqXzBCN0Jxb05iYzhqQk9DZFFwaENmWUJjS1cwZC05bkZyQzBjSV9mZGI0bGduQWFjcXRUdWo3QVNSR29PSm9WbkVvNHFnb21GOV9wVjI5dEt3ZmMtSHhRTHdNX2p3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 657,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Trellis — 기대되는 4대 ESG 업데이트 일정 정리',
+      author: '관리자',
+      date: '2025.12.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Trellis Group이 기업이 주목해야 할 4대 ESG 표준 업데이트(ISSB, GRI, ISO 14001, SBTi)의 일정을 정리한 분석입니다. 업데이트 흐름을 한 번에 파악할 수 있는 가이드입니다.</p><h3>주요 포인트</h3><ul><li>4대 글로벌 ESG 표준 업데이트 캘린더</li><li>발효 시점과 적용 범위 비교</li><li>기업 보고 우선순위 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFA3eWFNM0FrZlh5YlFmcXNNRFkzYTZTZmFKLUlaMkdLTHJ4Y3dLOGpSMmFxNDQ1QWlNaFFwNHNKb3hmMHFEZ1M1OVFqVWc3UWNCdFBSTXlHcWJrdGp2Tl9JRE9feFpNM3BQY1U3UmJTRkVDVE0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 658,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'UNDRR — ISO 22372, 안전한 인프라 위한 글로벌 프레임워크 표준',
+      author: '관리자',
+      date: '2025.11.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유엔 재난위험경감사무국(UNDRR)이 ISO 22372 신규 표준의 의의를 다뤘습니다. 더 안전한 인프라 구축을 위한 글로벌 프레임워크로, 재난 회복력 향상에 기여합니다.</p><h3>주요 포인트</h3><ul><li>인프라 회복력(Resilience) 평가 표준</li><li>재난 위험 통합 관리 프레임</li><li>지자체·국가 인프라 정책 정합성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxOam5PSjQwaEpRN3ZWeW1oR2dtMGpoaEhqRW1ONUZnU2RnU2V0U250WkJSUG9JcW9lT3gxeG9Sd1hfRlZwSG12amc5ZFZzTElfSVZEMVlKYUJwMm9ibDEwYjNrZHNEeUxFZXl5ejhFWWdPTWx6dkhxbkdIYllHMUJGbkpmeGxTMUVCNnBWXzBzOHM4ZDFYRS1QOFBHOFFKbU5jSGFKNGQ3N2p6bUl4cWIwVTdOTlZKTm8?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 659,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '협동로봇(코봇) 안전 표준 변화 — \'협업 응용\'으로 패러다임 전환',
+      author: '관리자',
+      date: '2025.11.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Manufacturing Dive가 협동로봇 안전 표준의 패러다임 전환을 분석했습니다. '코봇 자체'가 아닌 '협업 응용 환경'을 평가하는 방향으로 표준이 진화 중입니다.</p><h3>주요 포인트</h3><ul><li>코봇 표준 → 협업 응용 표준으로 진화</li><li>운영 환경 종합 평가 접근법</li><li>제조 자동화 안전 책임의 재정의</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQd3JNenZLT1A0ZUtkVUdrUzUzZFVRWk9GSVhJbXRXX3h6TkNnMG5FTkFqLUxGZDctZGUwVC1RSGlJd055dXNXbW5nS3AyNEs3WWtYMzVNMkZwZEl0Z2hldWViVHU3Z1ZlNVVBSHRJQ2FGM2laeTdxNU1JR2pHbWFlU0lPZWZPQTZYZm8xNEdfS21XN2l0LWFGb1p2Sl9kdVJwbG5UcXdB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 660,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 선박-항만 데이터 통신 신규 표준 발행',
+      author: '관리자',
+      date: '2025.11.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Smart Maritime Network가 ISO의 선박-항만(ship-shore) 데이터 통신 신규 표준 발행을 보도했습니다. 항만 디지털 전환과 자율운항선박 시대의 핵심 인프라 표준입니다.</p><h3>주요 포인트</h3><ul><li>선박-항만 데이터 교환 표준화</li><li>항만 자동화·디지털 트윈 기반</li><li>자율운항선박 시대의 통신 인프라</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcFZRRFZoaTVPWDFaQ290Z3dQQUhjYUxuX2tKeEt0R2JaZ1d3NzdHR2QxaGo4dDZ2OEJhaUdUUUNEVmMzdTlqaEJsU0dOVHplODZEbEF4NmpDOXZld1Z3T2tRNVlGV2ExRkJTUG56NGF2STYxZ1g0WUsycXMzQVpCLTNiWkg4WG1lbjJzbDNuUUxNbTFoamN3bVlDdEpDTzZKcjZfTEdtREM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 661,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '관리 시스템 인증 시장 규모 전망 (2034년까지)',
+      author: '관리자',
+      date: '2025.11.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Fortune Business Insights가 글로벌 관리 시스템 인증 시장 규모를 2034년까지 전망한 분석입니다. ISO 9001·14001·45001·27001 등 표준 수요 증가로 시장 지속 성장 예상.</p><h3>주요 포인트</h3><ul><li>2034년까지 시장 규모 성장 전망</li><li>주요 ISO 표준별 수요 트렌드</li><li>지역별 채택 속도와 산업 동향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPajVYSzFLM3l5Z09HNVExc29Ta1hnb3JfdUNORzFyd05xSWd3U1I1dGF6NVpnRkdndWVkaFlMRXN6TEExUEhxc2N2aGlNbXprYllLcFUxYl8xXzhENm5zM3c1RW01TU1WdF9RSHEtbEhWSklPbDNyakxiaklWMldSeWJ0U1A5aUk0RW1KT3ln?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 662,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'SBTi, 기업 넷제로 표준 신규 초안 공개 — \'포용·실행·적응\'',
+      author: '관리자',
+      date: '2025.11.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Business Green이 SBTi의 기업 넷제로 표준(Corporate Net Zero Standard) 신규 초안 공개 소식을 보도했습니다. '포용성·실행성·적응성' 3대 키워드로 진화한 새 프레임이 제시됐습니다.</p><h3>주요 포인트</h3><ul><li>SBTi Net Zero 표준 신규 초안 핵심 변경</li><li>포용성·실행성·적응성 3대 원칙</li><li>이해관계자 의견 수렴 일정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxObkRpbG40ekRESS11RkFfYl9tbmtCWkc3cEM0RzRNRWZVajRoQjFHbnhEZnRVTElDNjM0UGNSWXZCcGxCYll6UXI4QmhoTFdlOWpNMnEzYnJrbnQtcU9iM0R0SkVPS3FOemw2R3lLMTJPODI4Z0pDSUdNaTh5QmVtVHZoSFlwMUtZck5pa0xKNkJJblZlUWIyUjVNVnRyRVVtS05ISnJUZEE1a2pyaHRWN3ViUjNpMFFfYlhCaw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 663,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '칠레, 지속가능 연계 채권(SLB) 프레임워크 업데이트 발표',
+      author: '관리자',
+      date: '2025.11.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Green Finance LAC이 칠레 정부의 지속가능 연계 채권(SLB) 프레임워크 업데이트 발표를 보도했습니다. 신흥국 정부의 SLB 표준화 사례로 주목됩니다.</p><h3>주요 포인트</h3><ul><li>국가 단위 SLB 프레임워크 업데이트</li><li>KPI·SPT 측정 기준 강화</li><li>신흥국 지속가능 채권 시장 모범 사례</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNUWJwbGxLNWdWLXlncUpDeEhKQkJvY3IwUDM5Y0VOVHhvS2djaVNmbk1NbnBhQlV3NXZsVHE3UGsxTUNHZldOd2wwZGMwbWFvQlVQcjZNOHdEYnlWek5Yc3NNbHNlMlh6X2dMa1lLZ25waU9FTmRGS29acGVjZDlpZWp1NllQT3EzellhYXJxRGxVeFJjVVFTc1pqVVMzZG96RTlzQ3dRc2dSYi1GMHRxd1ZR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 664,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'GBG, 호주 모바일 운전면허(mDL) 검증에 Mattr 통합 — ISO 표준 정합',
+      author: '관리자',
+      date: '2025.10.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Biometric Update가 ID 검증 기업 GBG가 호주 모바일 운전면허(mDL) 확인에 Mattr 솔루션을 통합한 사례를 보도했습니다. ISO 18013-5 표준 기반 디지털 ID 생태계의 진전입니다.</p><h3>주요 포인트</h3><ul><li>ISO 18013-5 mDL 표준 채택 흐름</li><li>호주 모바일 ID 인프라 구축 사례</li><li>글로벌 디지털 ID 상호운용성 진전</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNTGV1Y3Ffd2xtNzJfU2lScXh3SzhRRUtKV3V5Vm81SDlreVNqTUpQQkVBS1dxcVRJaXlraEk0VTQ4NVNoYUtydmRaTzBpN1c5UGRtMnJHT09VMnNXeVp6NC1YN1BUWk44RTRBeVlDcmJ1ZzdlX1FHaEFQeVMyWG5tMWFyVWk5aWpBaXVRNDdhdWg5V1B2UWZhdGp5OUpIaUxoZDVtYi1CZTl5ZHRTRzhGOWlLZ1ZjR3UzRWlnVE5ocw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 665,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 프라이버시 컴플라이언스 프로그램 관리 표준 업데이트',
+      author: '관리자',
+      date: '2025.10.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제 프라이버시 협회(IAPP)가 ISO의 프라이버시 컴플라이언스 프로그램 관리 표준 업데이트 내용을 분석했습니다. GDPR·국가별 규제 환경 변화에 발맞춘 개정입니다.</p><h3>주요 포인트</h3><ul><li>프라이버시 프로그램 관리 표준 개정</li><li>다국가 규제 환경 적응 프레임</li><li>기업 DPO·법무팀 실무 영향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQQm8yZTRjeGh1djNTTFBPQUFCeDI0Wm1JTEV2VF9QV01kbHZMYmZtSmtLQVRvbTI3RzRSYWlVV0htSkRJZzNJY3VHMVY1bVdKOUI4Z3Q0T2pUWnJHZnV3Rzc3VUhMZ2JPNWJkbDhiNzRvdWhUN21FMUFWRUdKc0haaHBUN1Zka21JQ3FkUg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 666,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 기업 생물다양성 행동 신규 표준 발행',
+      author: '관리자',
+      date: '2025.10.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG Today가 ISO의 기업 생물다양성 행동 신규 표준 발행을 보도했습니다. TNFD와 함께 기업 생물다양성 평가의 글로벌 표준화 흐름이 본격화됩니다.</p><h3>주요 포인트</h3><ul><li>기업 생물다양성 평가·관리 첫 표준</li><li>TNFD와의 정합성 확보</li><li>금융기관 자연자본 평가의 기반</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9yOEtEd3VZT2pqQ25ZRThvUWVkSHFIVXhNMXF0OTh2UnlacE9VT3g3ck1UeTkwcXpGQ2xBeV9NWGNLcTMydlk3YmZ0bWFneGZHNW16ejY0empxRXEtYVdDUEJ2V0lnSkdIeVZ2bUQ4WTk3QQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 667,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 기업 생물다양성 행동 위한 신규 국제 표준 출범',
+      author: '관리자',
+      date: '2025.10.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Business Green이 ISO의 기업 생물다양성 행동 신규 국제 표준 출범 소식을 다뤘습니다. 측정·보고·검증의 표준화로 자연 자본 시장 형성에 기여합니다.</p><h3>주요 포인트</h3><ul><li>기업 자연 영향 평가의 글로벌 표준</li><li>탄소 시장에 이은 자연 시장 형성</li><li>SBTN과의 보완적 역할</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQTHQya2k3WllTU2h1SzdqZVFnVlBYTk1NV1NqN2FSUHlYYXoyaWNhZ2kzd2ZRNDRIRlNkN2k3a1pzMVZ0U1ZzRVV1OEltV29HLVdVUFVySmJKLVNTQkR1RFBTVUotOEl6UXRqRlZhZmlKUDJpMXJ2WkpJaDhocWxpaFBwYnZNeWpObXczRHQtaGpHMXdnQmlXM2dERUZpdV9aUm03dnA0OFB5azVT?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 668,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Green Queen — 새 국제 표준이 식물성 식품 라벨링을 바꿀 수 있을까',
+      author: '관리자',
+      date: '2025.10.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Green Queen Media가 식물성(Plant-Based) 식품 라벨링 신규 국제 표준의 잠재력을 분석한 인사이트입니다. 글로벌 대체식품 시장의 표준화 시도입니다.</p><h3>주요 포인트</h3><ul><li>식물성 식품 라벨링 표준화 의의</li><li>소비자 신뢰성·시장 성장 효과</li><li>지역별 규제 정합성 과제</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ3FBYnFfVEhuSng4a2NaWlh3Ykk2YUJjaVliSkpPR29IRy1GWTV6NnNleFhsekdyMDZRSnl1OWlscDgzMENCeHhzZDREVW5iR3h2QndqdFNDTkFEUjg4eWdrVU1GSDlIdDFfcU9JckpFeDNCXzJHbEsxN1pmNTQ2V1l5cnBiaDF4WTZiVDNmeFExZGR6bW9rUnk1N1FnYWc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 669,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 방오도료 성능 평가 표준 발행',
+      author: '관리자',
+      date: '2025.10.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Smart Maritime Network가 ISO의 선박 방오도료(antifouling paint) 성능 평가 표준 발행을 보도했습니다. 해양 환경 보호와 연료 효율 개선을 위한 도료 평가 표준화입니다.</p><h3>주요 포인트</h3><ul><li>방오도료 성능 평가 표준화</li><li>외래종 이동 방지·환경 영향 평가</li><li>연료 효율 + 환경 책임 균형</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ1VLWmpGaUN1X25GWnh3YWN4MFpYSWxTRktqckl3anJQQ0QxLVJSNTRQRFRmNUZjdnhfTHFIeXpGVTExSFJhR2RDc09XRkNZNFNfUnlDaGU5SVpDUlRsX1RaX1daNXVzbjlXRmpIT3l1NkJrd01vc1RmWnoxVFM1V3VOTlVUaVVlZ2t3eThkRnBfaHpHRGRidkV3Z29lOWpkalJ4eEU3VWZhaXctN2xjTmM4bE1qV3c?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 670,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '美 CISA·FBI·英 NCSC, OT 보안에 IEC 62443·ISO/IEC 27001 정합 권고',
+      author: '관리자',
+      date: '2025.09.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Industrial Cyber가 미국 CISA·FBI와 영국 NCSC의 공동 권고를 보도했습니다. 산업용 운영기술(OT) 보안 관행을 IEC 62443과 ISO/IEC 27001 표준에 정합시키라는 가이드입니다.</p><h3>주요 포인트</h3><ul><li>OT 보안의 글로벌 표준 정합 권고</li><li>IEC 62443 + ISO 27001 결합 활용</li><li>국가 사이버 보안 협력 사례</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNHhZcEwtbHdjcUY1RlhJclBzQ1dYOVdOa3M0NGhxR3B4MEFZYXpjaEZvQkpyVndDbThJcldiU2R1SmxEU2xUeElUTFU2ekhFeEp4S3RXZ2dfUkptbmlkWTJxTjZEai0yLUpXcjBMekdZVVpwRzV0NTZRazN5c2VhcnpGbjAzRmFIdzJkREhPX0l5bzRLcFVpTlFZYmQwZHExWnpibExYd0pZQ3pMcmxqNl9BYU5qMUtRcnlEb0Y1SDkyRzFEQ2FiQWZ0X0RGWWxoajhQUw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 671,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'EisnerAmper — 보안·프라이버시·AI를 위한 ISO 표준 가이드',
+      author: '관리자',
+      date: '2025.09.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>회계·자문 기업 EisnerAmper가 보안·프라이버시·AI 분야의 ISO 표준을 조직이 알아야 할 핵심 사항으로 정리한 가이드입니다. 디지털 거버넌스 표준의 통합 활용을 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 27001·27701·42001 통합 활용 가이드</li><li>보안-프라이버시-AI 거버넌스 정합</li><li>기업 디지털 위험 관리 프레임</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPRS1pZm05T2VNek5Yc3VIRjlKU3c4Q1A4QjBnenFOWUlxdWIzZGNmSGtJdkhQblNLa0RNSzBHcEhFZDY4amdkZzctT1N3elppVjJVY0Z5aEdpa2MzeWgzb3RTVHJ0TTYwdjlEVUlPSXFYZ1ZUTTNCNDJtaGhORlJFSm12RnJmNGJ6VzNNVUtaY0NaSXgwWWJFOWRIRjRtdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 672,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'BSI, 7개 신규 ISO 표준 출범',
+      author: '관리자',
+      date: '2025.09.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Food Manufacture가 영국 표준기관 BSI의 7개 신규 ISO 표준 동시 출범 소식을 보도했습니다. 식품·산업 분야의 다양한 영역에서 표준화 진전이 동시에 이뤄졌습니다.</p><h3>주요 포인트</h3><ul><li>식품·산업 표준 7개 동시 출범</li><li>영국 BSI의 표준화 활동 가속화</li><li>다중 산업 표준 정합성 효과</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOUE1aemJFZ0JhUUxtcjNFOGIzczlmUDlBLVBFdjhMUm1FbUNLVFBzdzQtYk1xU0lOQmYzQzZ3b09SY0tzemFTY0JTc3ZtM3h0WWpUamdnUEo4Qkx6ZGJTcEhyWC1sVWJQVTFyRXRMdVNvYlVOVFhockxRZ3NZZDdxWVlvRjZxUGtSZUJhVE5ad2hQTkJvNk1rNg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 673,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'EDF — 진정한 청정수소를 위한 ISO 표준, 도움일까 저해일까',
+      author: '관리자',
+      date: '2025.09.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>환경방어기금(Environmental Defense Fund)이 청정수소(Clean Hydrogen)를 위한 ISO 표준이 기후 잠재력에 도움이 될지 저해가 될지 분석한 비판적 인사이트입니다.</p><h3>주요 포인트</h3><ul><li>청정수소 표준의 정의 논쟁</li><li>탄소집약도 기준 설정의 영향</li><li>표준화가 시장 형성에 미치는 양면성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxOS2VTSUNWemYwZ0E2dFZQc012d0plTWFfWkJLUUhMQTVPaHYzYzBBU0NTTzhYRUMxZE53NkhuaWVZeWY4Z1pxNnU5RWFNcUNMVXJUZDdqekUtLXcyUkphN1VpX3pubEtfYmFVVmRUM0ZPNnBNOEFmMUlVSFp0Vjg1Z0N4TVR6SW1xZHNHVW9sc0dUU2ZBSHUxMDVWQjNzZUw1TTNmZ2Z4S3ppZk9DT0lQV0E3aUpLbVN1ejFWNjRfODR6cG9SWHlaRW1TRThVWjRIb19XZnFEY1cwMnppVkM3V1VOZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 674,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Construction UK — 정보보안 ISO 표준 업데이트, 건설사에 미치는 영향',
+      author: '관리자',
+      date: '2025.09.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Construction UK Magazine이 정보보안 ISO 표준 업데이트가 건설 산업에 미치는 영향을 분석한 인사이트입니다. 디지털 건설 시대 정보보안 요건의 변화를 다룹니다.</p><h3>주요 포인트</h3><ul><li>건설 산업의 정보보안 표준 적응 과제</li><li>BIM·디지털 트윈 데이터 보호 요건</li><li>중소 건설사 대응 전략</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOaUptalQyTWVPdzNFZWM4ZjNHUzlENGJMRDlfTXdNa0RoLW42TW51TDlaOG93Q3haQ3JtMHVQdWNCMU1CdFJsQ3NGMlFhNzhGT0liaU9KNE9zU3ZpMGV5cGl1b0xrMERZUXdtZUQxNkJJcEIyYXA2YnlTcWphTjIxTmV2S0o4ZVhqR0V6blhOei1xRUFKQ25EZE9WY3dlc1dtb1Rjb1JsdnVsZjcwRUFZc3M2Zlo3VGRFaWc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 675,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '주요 로봇 안전 표준의 대대적 개정',
+      author: '관리자',
+      date: '2025.09.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>자동화 기술 협회 A3가 핵심 로봇 안전 표준의 대규모 개정 소식을 보도했습니다. 산업 자동화의 새로운 안전 패러다임을 반영하는 표준 진화입니다.</p><h3>주요 포인트</h3><ul><li>로봇 안전 표준 대대적 개정</li><li>협업·자율 운영 환경 반영</li><li>제조 자동화 안전 책임 재정의</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM3JOTHAtRXR3b2hwakxYSFpaU2JrTDdmSXVMbmoxc2pQSkktVWs5Z28xbHU4Qzhqc29ZZ2tGdGg1V0Y2Q3JqRXoyREdQTkttVFV5dWNmOGVPYUJKd1hHTklad0duektFR2NFMnZva2swNm9pYlcxZnBrYS1sS2pidG56WVdMXzZuMmlSTmREUy1Bakp1bFJSYW9xS0hrTDZSTmtkcXBkVTBKUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 676,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '식물성·비동물 자율 라벨링 가이드 신규 ISO 표준',
+      author: '관리자',
+      date: '2025.09.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Food Ingredients First가 식물성(Plant-Based)·비동물(Animal-Free) 자율 라벨링을 가이드하는 신규 ISO 표준을 분석했습니다. 대체식품 시장의 명확한 표시 기준 마련.</p><h3>주요 포인트</h3><ul><li>식물성/비동물 식품 라벨링 표준화</li><li>소비자 신뢰 확보와 마케팅 정합</li><li>글로벌 대체식품 시장 성장 기반</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQRWZ4V2pqbmFlMUt2NFloeU1Ib29Td1V4bzRWdG9ILTV4aGNRb3d6cHBWZXpmUmI4V3dEYVV5cFNrcDhJRVVIZWxqZU85ZGZ2bl8tdldxeURhclllQzhvMkJqWGQxM0c0NGd5bUllemNRblBOdElCN1dPLVRfRnpJdGhQejhtRnI4ODVWTzM2QQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 677,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'EY — ISO 37003 활용 종합 사기 예방 프레임워크 구축',
+      author: '관리자',
+      date: '2025.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EY가 ISO 37003 표준을 활용한 종합 사기 예방 프레임워크 구축 인사이트를 발표했습니다. 기업 거버넌스의 부정·사기 리스크 관리 체계화.</p><h3>주요 포인트</h3><ul><li>ISO 37003 사기 예방 표준 활용 가이드</li><li>거버넌스·내부통제 통합 모델</li><li>중대 사기 리스크 사전 차단 체계</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ1V6SWpSdFRoRl9IS1BrelJQTWhHUXVWRTdsNGZHRHp2Z2JJMU5OM0JTQ3d1N0VYSWpUNTVhelYtbDBwTEhEdEFCRFNpQ0Z1SVRsLUZjdGYwd2JyOFpBNzlOMmwtWTRJd1RiLWZla1JHZ2diZ29RcXo2bjdxbmg0Y0lCQk42MGk2MFB0ZDJJSzVTbTEyZzBSeHpCX2IzMk5wdnZMZm1oOXVSX1N6a0lVTnZrbGpUR2UyOVFhYVVJbVo0TFFDd1Jz?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 678,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'FATF, 특정 자금 이체 AML 표준 개정',
+      author: '관리자',
+      date: '2025.08.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>법무법인 Mayer Brown이 국제자금세탁방지기구(FATF)의 자금 이체 자금세탁방지(AML) 표준 개정 내용을 분석했습니다. 가상자산·국경 간 거래의 AML 강화 흐름과 정합.</p><h3>주요 포인트</h3><ul><li>FATF AML 표준 개정 핵심 내용</li><li>가상자산 사업자 대응 영향</li><li>금융기관 컴플라이언스 영향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUJHRC1sWWhpSmsySjY1bDZkcVN4cEFGRi0tREtTWWVoc0lhaFlNNGlNejdneW56U2ZLXzdaeThqS0JJY01DMHMzZkpFNzVPbU5HckZGTG94NTFWZjRqdlpET0RzTXV5S3VsOWNLOXdLSk5nSWQtQVJWRWFSQzJndzFNbG5CYmE1T3RrRVFpbjNsRllQZ1Nicjcxc2g1bXVienl0anBDb1F5Vnh3Vk4tTEhYTUk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 679,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '3MF, 공식 ISO 표준 채택 — 3D 프린팅 확산 기반',
+      author: '관리자',
+      date: '2025.08.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>All3DP가 3D 프린팅 파일 포맷 3MF의 공식 ISO 표준 채택 소식을 보도했습니다. 산업 적층제조의 글로벌 표준 인프라가 갖춰지는 계기입니다.</p><h3>주요 포인트</h3><ul><li>3MF 포맷 ISO 표준 채택</li><li>적층제조 산업 데이터 상호운용성</li><li>3D 프린팅 산업 확산 기반 마련</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPUkhDbU92MGtXTFNhTHB2em1jV1RKbndIYjlMNmdaQUNpOVVmaGN4aFQ0M1pWNkd2SkhTR2d5TzcyUjFzdGluaWN5c0RhTHlpRGNxNDhWWEM0eGQ5d2p4bHNEdEZjOV9VVEVtcFBvcDF6M1d6c1J6SmJrTHBNMEtPNERwQnhZRGRfVlo0T0RVNmt3dFA3azIxRllLOWE5QW5KUHc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 680,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'NIS2 업데이트 — EU 사이버 당국, 컴플라이언스 기대 명확화',
+      author: '관리자',
+      date: '2025.08.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>법무법인 Skadden이 EU NIS2 지침의 컴플라이언스 기대 사항이 EU 사이버 당국을 통해 더 명확해졌다고 분석했습니다. 다만 시행 측면은 아직 진행 중이라는 평가입니다.</p><h3>주요 포인트</h3><ul><li>NIS2 컴플라이언스 기대 명확화</li><li>국가별 시행 단계 격차</li><li>기업 대응 우선순위 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPc0F3UkVkd1Jpa09BODFtOWxuSGU5SEJPWTJYZ2xGR0dHNXR2RW53QnY4c19WMW9OLXBzbDVjU2pFNTlIYW5mdFA1T0lJNmNqMnM5WjRMcDN0c3pNQmxDTDNDcGt6empDTXpTTFRIbkR3UFUxLUdkZHJoR2gwUXpUcExmYmFwQUVjUWNqUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 681,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Smithers — ISO 9001:2015, 품질경영 표준의 다음 단계',
+      author: '관리자',
+      date: '2025.08.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Smithers가 ISO 9001:2015 이후 품질경영 표준의 다음 단계 흐름을 분석한 인사이트입니다. 차기 개정의 방향성과 기업 대응 전략을 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 9001 차기 개정 방향성 분석</li><li>품질경영의 ESG 통합 흐름</li><li>실무자 대응 우선순위</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOM0R5Wjk4TGlNSnNlQWhoV2xvMG5zSFlUeEdTQlhSQm81VWVlOFFWTktlelRqeG5ycmVndThfOGNEY3hDNldnQ1Z0MlJpREdOdnhfZGFOeGo5VGo1dlBVRFpud0tzRUJLcFh4eVN1eGFoUHZ4dkZ1SnluM0ZDbmxTRFN2RVlWREY3aEUwUkJibFMtcVlzMENTZ3paVQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 682,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '3DPrint.com — 3MF 포맷, ISO 표준 등극',
+      author: '관리자',
+      date: '2025.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>3DPrint.com이 3MF 파일 포맷의 ISO 표준 등극을 보도했습니다. 적층제조 산업의 글로벌 데이터 표준화의 중요한 이정표입니다.</p><h3>주요 포인트</h3><ul><li>3MF의 ISO 표준 채택 의의</li><li>적층제조 데이터 호환성 확보</li><li>3D 프린팅 산업 성장 기반</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GTHNHOUdhMkxhVGFwdThqbE0wMEY2ekFEUXFUbGI0MkloQmZuM2EweHc1LVdOOTZja2RKaS1aTEJfNzM0RFo2TUlwbjNiaEw5T1JqMXZ6bVI3QkZlWGZGS3NB0gFnQVVfeXFMUEFHZHRjR2pnYW03ZlpDTWtReEdablVuM01rY3RENEw0WEx0TE5vUE85eFRpYmo3eWFkazkwaVhfZ3JnTWZtVDdlMndodTNFLWlXVUczUXg3SjVZR3BRQk1wRFVWWVdOMA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 683,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Atos — 사이버보안 규제 압박과 산업 프레임워크 중간 점검',
+      author: '관리자',
+      date: '2025.08.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>IT 서비스 기업 Atos가 사이버보안 규제 압박과 산업 프레임워크의 강화 흐름을 중간 점검한 분석입니다. NIS2·DORA·CRA 등 EU 규제와 ISO 27001 등 표준의 정합성을 다룹니다.</p><h3>주요 포인트</h3><ul><li>EU 사이버 규제 다중 적용 흐름</li><li>ISO 27001과 산업 프레임 정합성</li><li>중간 점검 기업 대응 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSjN2ZUpQeFloVFJ3X2txeWRjZnM1NUxDR2trVGtPVzN1Xzg4YTViYnM4X1BpaGdILXhuQUc1SVFkQVFwN0VsUWxmM1VFSUR1TWdrb2V2U0k4aVJGbVJ1VThPRWpZUmZLNmMtY053U3hzU1ctUWZmMzhMUHNpYWdod2lWN0hTdUhkQ2RRY0VFTnRoRTFueExVOENXS3BZSk5UMTFVOUI1eVltZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 684,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ICAEW — AI 관리 시스템 인증 기관 위한 신규 표준',
+      author: '관리자',
+      date: '2025.08.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 공인회계사회(ICAEW)가 AI 관리 시스템 인증 기관(ISO/IEC 42001 인증 발급)을 위한 신규 표준을 분석했습니다. AI 거버넌스 인증 생태계의 표준화 진전입니다.</p><h3>주요 포인트</h3><ul><li>ISO/IEC 42001 인증 기관 표준</li><li>AI 거버넌스 인증 생태계 구축</li><li>기업의 인증 기관 선택 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxQazVidll3cFlkMFFRa3JacmFBdDcwNTBPMnUxSkRQZElOdXV5bmJFSXBJLVZ1VkotemRWZ0hfWVNxVFMwbnBjRF9MWnI4SHZySWcybVVMQmdUQm52LWQ3Q3AxSC1wUDhtZ0g0RXQtcFIwZ3JnUENQLUc3cjBuVnFlZ0lzV080X0ZLanIzSHVUdzJpMUsxdURmVXNSSWNKVWNJeGZJcEZhLWpWVjdIdHZ4blVyRnc5WXptSmJKNjRjSXQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 685,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '3MF 파일 포맷, 공식 ISO 적층제조 표준',
+      author: '관리자',
+      date: '2025.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Metal Additive Manufacturing 매거진이 3MF 파일 포맷의 공식 ISO 적층제조 표준 등극을 보도했습니다. 금속 3D 프린팅 산업의 표준화 진전.</p><h3>주요 포인트</h3><ul><li>3MF의 ISO 적층제조 표준 채택</li><li>금속 3D 프린팅 데이터 호환성</li><li>산업용 적층제조 성장 기반</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOUzFOU0pXNU1YTlBGa0ZUVTdnQ2czUVZzeGRtV2lxd1VILWpPdl9ETmhuMEdPMTZSaktmM19BSHhLZGZTNm1VMEhkSEFuYmY1QXJKSnJaT1ZyZ0pCN2NRclp6NmdUcU5vQnZuMTVtMVFsaVBKaDNIOVNWUjlYZFNia3VfUEpFaVYzZGVNTlVMbVBvdE1IOUQyT1pUdkM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 686,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'VoxelMatters — 3MF 공식 ISO 표준 등극',
+      author: '관리자',
+      date: '2025.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>VoxelMatters가 3MF의 공식 ISO 표준 등극 소식을 다뤘습니다. 적층제조 데이터 표준화의 글로벌 진전을 산업 매체 관점에서 정리했습니다.</p><h3>주요 포인트</h3><ul><li>3MF 표준 채택의 산업적 의미</li><li>국가별·기업별 적용 영향</li><li>3D 프린팅 워크플로우 표준화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zVW5ZaGIwbHRMYlUxUVRjWktfS3RzSTJYYWJLR29TUmJXNm1pSDlkaGV1eVBIUDl0cFBuWkdYZm1EVVRvVzdqR3l4T25lZ2ZLLTIxTURndUxCcDVFWWI4cEh1dVhfZkxD0gFuQVVfeXFMTjh5WVdPTXljZVlaeURMQXhTNVQ0R21KUEMwM1hsNVBBdlhIUkZYM01WcUxTT3YtRVVlSFVMOFNwTXBJaUYzelZTYmFIdjdLcTFja0FKNVN2SjQyNDNpdkx5bklBRXhLYVdNTnJ6Vmc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 687,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Research Live — 시장조사 ISO 초안 표준 공개 의견 수렴',
+      author: '관리자',
+      date: '2025.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Research Live가 시장조사 ISO 초안 표준의 공개 의견 수렴 단계 진입 소식을 보도했습니다. 시장조사 산업의 글로벌 품질 표준화 시도입니다.</p><h3>주요 포인트</h3><ul><li>시장조사 ISO 초안 공개 의견 수렴</li><li>업계 자율 가이드 → 국제 표준 전환</li><li>리서치 품질·신뢰성 확보 인프라</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0ZKRmdJdm5aQ2xYRXlleEYtUXVGT1NSa2hMVmpNanlVaGJBeHNLejduLS15M1B0R3c5R2t6eGxFLURwdVlWZ2hxY3lXLVgxbG9wcFQ3N3pLQmg4MUcyVG9uU29zYTliV3dJZzRTTWVZczd1eWZzLWhHQ2xZa09kUkZwZzMtTVlZdU5EVVB4R2JiT3ZHWWJhYzVobDR4amgwYzBMTVQ2SUJJLXhsd0IwYURB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 688,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Smithers — ISO 표준의 미래: 핵심 트렌드와 업데이트',
+      author: '관리자',
+      date: '2025.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Smithers가 ISO 표준의 미래 트렌드와 핵심 업데이트를 종합한 인사이트입니다. 디지털·기후·AI·생물다양성 등 새로운 영역의 표준화 흐름을 정리.</p><h3>주요 포인트</h3><ul><li>ISO 표준화의 핵심 트렌드 5가지</li><li>신규 영역(AI·자연·기후 적응) 진출</li><li>기업 표준 채택 우선순위 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNUkt3MUtBZlQxZEc3N1lleDJaVHU0NmNTNFpnNW1WLVJsN1VLUVZaWGpfWUtmQ2c5Sm9BY2YtQkhEQ1FYYkZRYWpZUm5GRU5KZHBuQTJMMmljQWpVWHRUNng5OHg2VVJFdWxVaXpJdEJxOVhsdFhMWFpEWms4ZFpONF92NDBCRFJOQ2VvalNyUkhxb2JQN3c?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 689,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Quality Magazine — ISO 10012 개정 업데이트',
+      author: '관리자',
+      date: '2025.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Quality Magazine이 측정 관리 시스템 표준 ISO 10012의 개정 업데이트를 분석했습니다. 측정 신뢰성·교정 관리의 새로운 요건이 핵심입니다.</p><h3>주요 포인트</h3><ul><li>ISO 10012 측정 관리 표준 개정</li><li>측정 신뢰성·교정 요건 강화</li><li>제조·실험실 산업 영향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBZY0RaX3oxVzhqMUVPMWJsSTBFeUlJMWt3YWNzWlhBc3JMdWdsVHlWdGxpXzRrbkRDc1BTQTVrZi1Ua2NuQk9PTG1YdkJ2NmFjWVBrRVNKVDFnUjZaMVN4N184d193MU1iZnZlZmV0RTZFNTZ4Znc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 690,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Deloitte — ISO 42001, AI 거버넌스·리스크 관리 표준',
+      author: '관리자',
+      date: '2025.06.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Deloitte가 ISO/IEC 42001 AI 관리 시스템 표준의 거버넌스·리스크 관리 측면을 심층 분석했습니다. 책임 있는 AI 운영을 위한 표준 활용 가이드입니다.</p><h3>주요 포인트</h3><ul><li>ISO 42001 핵심 구조와 요구사항</li><li>AI 리스크 거버넌스 통합 프레임</li><li>EU AI Act와의 정합성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNZmg5QktUanlVUFIyYW14MkpLRW91TVIxRWdnclFnUFVrd0pjUEpFNGw5aEN0cXNLNl9yektobXhQUTJJT0tjcE1rS0FlQlBGNXE4d3RtaDh4ZW5XaHVXUnRIb3VWaE9WeU1Ub1NWYkM0NzcwQ0dBVGRUV0RnYndaUGQ4NW5VOHRmd3hOUjZrbml2SV9neFZTTmtOcW1fVUYwbmN1OFNqTS1tQWFCVTVVTHFDbw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 691,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ANSI — AI를 활용한 혁신 표준(ISO 56007) 개발',
+      author: '관리자',
+      date: '2025.06.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ANSI가 AI를 활용해 혁신 관리 표준(ISO 56007)을 개발하는 과정을 다룬 시리즈 칼럼 2부입니다. 표준화 프로세스에 AI 도구를 활용하는 흥미로운 사례.</p><h3>주요 포인트</h3><ul><li>표준 개발에 AI 활용한 첫 사례</li><li>혁신 관리 표준 개발 진행 상황</li><li>표준화 효율성과 품질 균형</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOT3E2eUxUc2pjZEVKb1EzeFBaUUVMd3UtYjJ2MzEtZVRhY1dDQS1Pa0VQM2xvNDhHdDdlb1d6dEZvTWVKLXM0cDNkWkJJc1lLVnlGZkNkdHJxT3hqaFVfb3F1TGdMRllTOGVVdlZQdktIM182TEl1TFJnYWx6YlBxeUIwY9IBiwFBVV95cUxOVmFVcU9ESHU0NzExLVNMM25IdzBqOWtaUXJyV0JwNm5IMnVmUDNfT1VialNZaFNxSWFPc2pmQnhwQVcwRUJxRWJYS3F5MjVlNzkyeUhfdG9waWphMG5KbUpYdWUxaVM0SkxyWVFMVUU4N0w1SHkwTGJ0WGRCQWlyU015UjBfWV9uT05n?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 692,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ANSI — ISO 3103, 차(茶) 우리는 표준',
+      author: '관리자',
+      date: '2025.06.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ANSI가 흥미롭게 다룬 ISO 3103 — 차(tea) 우리기에 관한 국제 표준. 일상의 사소한 행위까지 표준화하는 ISO의 광범위한 영역을 보여주는 사례입니다.</p><h3>주요 포인트</h3><ul><li>ISO 3103 차 우리기 표준의 역사</li><li>표준의 일상 영역 적용 사례</li><li>표준화의 의외의 영향력</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9naFRPLUVmQkNhcFZENm1aZndPUmZsS0t1eEpHWFUtRXM5NEVjckNlZUJ6d1FNVDNodmN4b0JCcFlNdzl2MEFJajhWbUhQTmRQZjdQRFhxZk1lZTFmUjJYYjdpQ1BuQdIBbkFVX3lxTE90S0NVS1B3bGxBNHBhNXAtT2d2c2VZWGV5RE84dXkyUGVIUGRJVnZHMFJvVElYZzJ1c1RwVXh2VmU1Z2Q5dHJUYjQyTnU1bk9PRGJQSUU4akxtOE5Uc1NPaWhnMXhRaWJZeHNVVWt3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 693,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, AI 시스템 임팩트 평가 표준 발행 — 신뢰·투명성 강화',
+      author: '관리자',
+      date: '2025.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>BABL AI가 ISO의 AI 시스템 임팩트 평가 표준 발행 소식을 보도했습니다. 책임 있는 AI 운영의 신뢰성과 투명성을 표준화한 핵심 인프라입니다.</p><h3>주요 포인트</h3><ul><li>AI 임팩트 평가 표준 발행</li><li>신뢰·투명성·책임성 통합 평가</li><li>AI Act·기업 거버넌스 정합성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGR6clZIWFdLNTFVTldrOFBUMnNENDJVZlFVNjVlQ0ZGRTVGa0V2XzFVUE9JdzFzTXBJSkR1QUlsemE2WndDTU9jYW9zUnk3Q1AxVkFMNU45elNKN2c2cEs0ZVBYQjBfOWtrbExZYXFCWG9ZcmNmZmtrSk5zaVVuQnFGSjl2LWdfbnZBUU5mcWMwQ3Y1b0dZMElKVzI4VEpVNGc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 694,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 27001 같은 확장형 글로벌 프레임워크가 중요한 이유',
+      author: '관리자',
+      date: '2025.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Corporate Compliance Insights가 ISO 27001 같은 확장 가능한 글로벌 프레임워크의 중요성을 분석한 인사이트입니다. 다국가 운영 기업의 컴플라이언스 통합 가이드입니다.</p><h3>주요 포인트</h3><ul><li>확장 가능한 글로벌 보안 프레임의 가치</li><li>다국가 컴플라이언스 통합 효과</li><li>기업 보안 거버넌스 표준화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNV0w2U2YwdW40X2syUEtmaWNYTEtrT25CRjRRWkNaMUl3VnRlZkpmMWk1cjNaakpNRjRxNEZtYnlmYmZIajBFQUNCd0FWTHlibXNINllYTVFKX1lvRVFnWTQxUHp3cVY1MExFa29hdmY5ZWtlSEUyM1h3dTZiS2EtVFladC0yTlNTZHM4bkZsWnhTME5ndmppNjVraUVfdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 695,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — 재생에너지와 표준화',
+      author: '관리자',
+      date: '2025.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지가 재생에너지 분야의 표준화 동향을 정리한 자료입니다. 풍력·태양광·수소 등 다양한 재생에너지 영역의 ISO 표준 활용을 다룹니다.</p><h3>주요 포인트</h3><ul><li>재생에너지 ISO 표준 라인업 정리</li><li>풍력·태양광·수소 분야 표준화</li><li>에너지 전환 가속화의 표준 역할</li></ul><p>원문: <a href="https://www.iso.org/insights/filtered-list-renewable-energy" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 696,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'TÜV SÜD — ISO 14001·45001 개정 임박, 무엇을 준비할까',
+      author: '관리자',
+      date: '2025.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인증기관 TÜV SÜD가 ISO 14001·45001의 개정 임박을 앞두고 기업이 무엇을 기대하고 어떻게 준비해야 할지 가이드를 발표했습니다.</p><h3>주요 포인트</h3><ul><li>ISO 14001·45001 동시 개정 흐름</li><li>전환 일정과 핵심 변경 미리보기</li><li>기업 사전 준비 체크리스트</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDFfak5Jb29STXNXV29oLUg5ZXItVlB1MWV6dGJyUEpNQjQxQmhQZGJFZU53dDRYNHpsYTdOMmwzMG1fVUtTX3FmQ3pVUjZqazV4RmRycnROV2xVajFnZGxJVUJ6RV9VcUktcGhZdzVTTkJTLWx0OFlHR1dsZ2lKc1U3WndNb203MEg0OXBXc2VhMXZGNEFSVw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 697,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — 산업안전보건',
+      author: '관리자',
+      date: '2025.04.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지가 산업안전보건 분야의 표준화 동향을 정리한 자료입니다. ISO 45001 등 핵심 표준의 의미와 글로벌 채택 현황을 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 45001 산업안전보건 표준의 글로벌 의미</li><li>안전보건 표준화 채택 동향</li><li>관련 표준 라인업 정리</li></ul><p>원문: <a href="https://www.iso.org/insights/filtered-list-occupational-health-and-safety" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 698,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — 운송 분야 표준화',
+      author: '관리자',
+      date: '2025.04.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지가 운송 분야의 표준화 동향을 정리한 자료입니다. 도로·해상·항공·철도 등 다양한 모드의 ISO 표준 활용을 다룹니다.</p><h3>주요 포인트</h3><ul><li>운송 분야 ISO 표준 라인업</li><li>모빌리티·물류 디지털 전환 표준</li><li>안전·환경·효율성 통합 표준화</li></ul><p>원문: <a href="https://www.iso.org/home/insights-news/insights/transport.html" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 699,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'KPMG — ISO 20022, 더 스마트한 결제를 위한 새 표준',
+      author: '관리자',
+      date: '2025.03.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>KPMG가 ISO 20022 결제 메시징 표준을 분석한 인사이트입니다. 글로벌 결제 인프라의 차세대 데이터 표준으로 풍부한 메타데이터·STP·실시간 결제를 가능하게 합니다.</p><h3>주요 포인트</h3><ul><li>ISO 20022 핵심 가치와 도입 효과</li><li>SWIFT MT → ISO 20022 마이그레이션</li><li>은행·기업의 도입 전략과 일정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOTEZPNlR2UnFnMHlUVjhlNzNNelBwZjdtSVJ4TGNLYlAzZ0ZNaTkxTXFZTVk2ellvZGlYM1Ytc2dUZDBzNjhOVFVDZDZXMjF6QUFKc0NacWxMeVdqdmIwZ3pnMmNnVFI4XzdhaTd6bWdHbkdDSDctemdROWFTRm9wLXliRzE1TVBmRThsR3lYb0tFUjhKdXVQWktOUDlLNjZnQlpkVFdEUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 700,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'BSI, 환경경영 표준 업데이트 공개 의견 수렴 시작',
+      author: '관리자',
+      date: '2025.03.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>IOM3가 영국 BSI의 환경경영 표준 업데이트 공개 의견 수렴 개시를 보도했습니다. 글로벌 ISO 14001 개정과 정합되는 영국 차원의 표준 업데이트 절차입니다.</p><h3>주요 포인트</h3><ul><li>BSI 환경 표준 의견 수렴 절차 개시</li><li>ISO 14001 개정과 정합</li><li>영국 산업 의견 반영 기회</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxObEhmYWl1U3VpVHRtZy1LcDRpaDZ1V1hpb3F0anM4MndKcHd5ZWE5ekN2M1NkTlZBS2pXb0piVDhVQXJLVTFLNjFQSXZ2ZEpNYW5SQkdlSkVpTnktMEkxWlE5WmkydTdNNWk0WUU2Y1NERWlYM1gtQ2hfa0JvQTVnSmJ4QXhWcXc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 701,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'A3 — ISO 10218 개정, 자주 묻는 질문(FAQ)',
+      author: '관리자',
+      date: '2025.03.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>자동화 기술 협회 A3가 ISO 10218 로봇 안전 표준 개정에 관한 FAQ를 정리했습니다. 산업용 로봇 안전 요건 개정 핵심을 실무자 관점에서 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 10218 로봇 안전 표준 개정 FAQ</li><li>산업용 로봇 운영 안전 요건</li><li>제조 자동화 안전 책임 명확화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE5KWGE5LTR1YnRKTXRUc2tNSE9DMVh2NXBodDhBSjRtR0hGNlZaRXZRWklTN1hNek1ReFYxZnRyQlRpWFBha0tjVGZpYlY0LWo4dFNtem1OSUlNZl9qWDBRRHJQT29iUGw1RmdkNnln?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 702,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ABeam — ISO 20022 컴플라이언스, 단순 규제 이상의 의미',
+      author: '관리자',
+      date: '2025.03.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ABeam Consulting이 ISO 20022 컴플라이언스를 단순 규제 요건이 아닌 비즈니스 가치로 끌어올리는 방안을 분석했습니다. '데이터 표준'과 '데이터 관리'의 중요성을 강조한 인사이트.</p><h3>주요 포인트</h3><ul><li>ISO 20022를 비즈니스 가치로 활용</li><li>데이터 표준화·관리의 중요성</li><li>은행·기업 결제 디지털화 가속</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE05X042OEs0aGl6Z0F1YnBOR1ZmeDhTazR6a3dCaDdDZ3JwUjNkNUZEVE0wX2MxdzBySzJwTEV0Q1J3Y1FnS3RQNkFpYWFXWU5JSzg0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 703,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ANSI — 인증 트렌드: 49개 인정 기관 설문 인사이트',
+      author: '관리자',
+      date: '2025.02.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ANSI가 49개 인정 기관(Accreditation Bodies)을 대상으로 한 설문에서 인적 인증(Certification of Persons)의 글로벌 트렌드를 분석한 보고서입니다.</p><h3>주요 포인트</h3><ul><li>인적 인증 시장 글로벌 동향</li><li>인정 기관 입장에서 본 산업 변화</li><li>인증 수요·공급 분야별 인사이트</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTFBfTXFPaFJlX3BZMmNLbHZnTzFNZ2o5c3hnSXN3Ql9pcVNDOGZhRFVzTWdaRXAwYVd1S3plNjNobW1kOWZIQ1V0MHNJZGcwLV85MlJ0aDhFOVV4OE0xblM0UjNjX3ZQOUdwV09KbGgyYzU0OFJ3LTlWVGNhVmh6Z9IBhgFBVV95cUxQTlZtOGVRS2VyZHBGVVRMaDV6cGJ2RngzZ2dqRlAzalVETUpoaDk3S3lLREtld0JpWDROdDdJZ1VoSnFxbTVUN1FqY241b3JZYzQ3ZnVuRmxDNE9rY2VrMjVzbi0zQ3ZWXzRlS0tidWRTRTlvTUU4T2RkYjJQY1M4RHIxU0VfZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 704,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'stonex — ISO 20022, 글로벌 결제를 위한 새 표준 이해하기',
+      author: '관리자',
+      date: '2025.02.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>stonex가 ISO 20022 글로벌 결제 표준의 의미를 정리한 인사이트입니다. 풍부한 데이터 구조와 실시간 처리 가능성으로 결제 산업의 패러다임을 바꾸는 표준입니다.</p><h3>주요 포인트</h3><ul><li>ISO 20022 데이터 구조의 혁신</li><li>국경 간 결제 효율성 향상</li><li>기업 결제 시스템 전환 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBpbVVwNkpRT09zbEZLeXFpSFp1RlhCdmF5R3pGcHJsRTdRa0xud24yVWZBTmVzVGh4MUk1ZWRndE9aNWFkRkVROXluWTg1QlFoUlFMUDQ1RjZWQ1lKaVMxQW0yNl9TcTh0a2swSw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 705,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Quality Magazine — 지속가능성·기술이 형성하는 다음 ISO 9001 업데이트',
+      author: '관리자',
+      date: '2024.12.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Quality Magazine이 지속가능성과 기술 트렌드가 차기 ISO 9001 업데이트를 어떻게 형성하고 있는지 분석한 인사이트입니다. 품질경영 표준의 진화 방향을 짚었습니다.</p><h3>주요 포인트</h3><ul><li>지속가능성·기술의 ISO 9001 통합 영향</li><li>차기 개정의 방향성 분석</li><li>QMS의 ESG 통합 흐름</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHkwWnFjTl9xXzlXUkNGWjFVQ1Q4d3BHZllybXZfMThXNDNSVUE3NV9FcnU4VXZmUXF2RFpWZXpBY1FjWUQ5d21pa3ZSTzlpM1lvV3VYYW8xc3pmQURBS1YtOFNRdnJycEg0dVlvbFlCdnlNRGpYZWlrU2U1YjktNU1Icll1aWd3Q3J3b1lEWlV0bGhNbHRySGx3WWZlcXFFQkRFOWpQSGJITkVf?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 706,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Med-Tech — ISO 13485가 의료용 배터리 제조에 미치는 영향',
+      author: '관리자',
+      date: '2024.11.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Med-Tech Insights가 의료기기 품질경영 표준 ISO 13485가 의료용 배터리 제조에 미치는 영향을 분석한 인사이트입니다. 의료기기 핵심 부품 산업의 표준화 흐름.</p><h3>주요 포인트</h3><ul><li>ISO 13485가 의료 배터리 제조에 주는 영향</li><li>의료기기 부품 산업의 표준화 확대</li><li>리스크 관리·문서화 요건 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxObkV5X211eXp3QUQ4TUdieDZjRjhHU3VYbjJNTEd0Ym1GcVFReDdfTVdDV09uT3NEOG45MlBST2NycExhdmRTZXJidlRCR0VHSFFfeWpYWjJ4WU5TbU1kQ2R4ZC0td1JRQVhJbUhBbnlOc3J2eXhXNVNxUkF3dDVyZHV6eTNkX3RBc1Y3RDRjT2Q2OWVkNDliWnJIYWtHdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 707,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, 메탄올 연료 표준 발행',
+      author: '관리자',
+      date: '2024.11.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Marine News Magazine이 ISO의 메탄올 연료 표준 발행 소식을 보도했습니다. 해운 산업의 친환경 대체 연료 채택을 위한 핵심 인프라 표준입니다.</p><h3>주요 포인트</h3><ul><li>메탄올 연료 ISO 표준 발행</li><li>친환경 해운 연료 전환 가속</li><li>IMO 환경 정책과 정합</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDJwN0JNWkVMN2E4NkdfQ3FEMzd1cXBmZGNFS0FSaGk1RkNLR0FFUUpwRWNhUkhLdE1WWEI0YXVrX0UtWmRvUVNnT1FrSTBkdjI5TUxfTFpyNUlxR0RZRFUxOHBaZXRoaWgxeGluS3IzV1dGRklKREh0VjFhVzFTXw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 708,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Quality Magazine — ISO 10012 업데이트',
+      author: '관리자',
+      date: '2024.11.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Quality Magazine이 측정 관리 시스템 표준 ISO 10012의 업데이트를 분석했습니다. 측정의 신뢰성과 교정 관리 요건의 진화를 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 10012 측정 관리 표준 업데이트</li><li>교정·검증 요건 강화</li><li>제조·시험소 산업 영향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8tcU1PSXVfT0FMZjVEdGdJM240d2FNUXl1U3BiallfUmhwMzdyT21idlI5MmlJeWp1cFJrUG02NExuZ2ttQVpZQ1NpRGRxSGhnVm1FZTJuUHpLdWo5bC1xNTdqVk5NZHdiZmc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 709,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — Standards World',
+      author: '관리자',
+      date: '2024.10.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지의 Standards World 섹션이 글로벌 표준화 동향을 종합 정리한 자료입니다. ISO 표준이 비즈니스·사회에 미치는 영향을 다양한 관점에서 다룹니다.</p><h3>주요 포인트</h3><ul><li>글로벌 표준화 동향 종합 정리</li><li>다양한 산업 사례 인사이트</li><li>표준의 사회·경제 영향</li></ul><p>원문: <a href="https://www.iso.org/insights/standards-world" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 710,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'KPMG — ISO/IEC 42001, AI 거버넌스 새 표준',
+      author: '관리자',
+      date: '2024.10.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>KPMG가 ISO/IEC 42001 AI 관리 시스템 표준의 거버넌스 측면을 분석했습니다. 책임 있는 AI 운영을 위한 표준 활용 가이드와 도입 전략을 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO/IEC 42001 핵심 구조와 의의</li><li>AI 거버넌스 표준 도입 전략</li><li>EU AI Act 등 규제 정합성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5IVHlKRDgwMzFiNHY5bDdWUVpxRC1hZmQ4Mk1ReVFmbWFXVDh6VllzaUJPN181eUM5UllYaWFtRTVRNnlTX3lqT3BYR2RJOWR6VnBmZ29FSTNEb0tjVnE1TGk0RFVtRmlBQk1DelZrcFFpaEs2REhfWDhESkIzbFE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 711,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Trellis — ISO 첫 넷제로 표준에 대해 알아야 할 것',
+      author: '관리자',
+      date: '2024.10.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Trellis Group이 ISO의 첫 넷제로 표준 발행에 앞두고 기업이 알아야 할 핵심 사항을 정리한 인사이트입니다. SBTi와의 정합성, 적용 범위, 검증 절차 등을 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 넷제로 표준 핵심 내용 미리보기</li><li>SBTi와의 차이점·보완성</li><li>기업 넷제로 클레임의 신뢰성 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQc3Fqa3VaT3llY1VNZi02YlN3SlFwUmtQcUY3SnV5SXl4aE9QM1ExRHNvb3daY0pSSmlKOFNQcE1uUzZ0NXlyU3VXSDNFYnZnbXZIMUU2Y2d2UVo5WlNHSHZSeEJJb1dxdDhzcm5xcW5oVTVWZmFQeDVwSEY1U0JNMWZBM0J5bHJuMUhuSm56OE5XWlZ6NlcyaUp5S08?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 712,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Skadden — EU AI Act 지원하는 EU 표준화',
+      author: '관리자',
+      date: '2024.10.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>법무법인 Skadden이 EU 인공지능법(AI Act) 시행을 뒷받침하는 EU 표준화 작업을 분석한 인사이트입니다. CEN-CENELEC 표준과 ISO 표준의 정합성이 핵심 주제.</p><h3>주요 포인트</h3><ul><li>EU AI Act 지원 EU 표준화 작업</li><li>CEN-CENELEC + ISO 표준 정합성</li><li>기업 EU 시장 진입 컴플라이언스</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxOOXFIWWVUSWRGVFEzT0hKZDJFMHp6aXhLV0xBZmZ5eTRIdklQUExCTmhuOVFLeERQWmt4Wm1uYUo4bmxhUFhTakxkaXRwbHNhZDA1RWFhdDRBVWZJVHNlWVZkQnBQNG0wc0NaS2FHSE9ibUgzY0xUYnBEM1JVRHgzcTVZREtjcVdHTnpxdFd5UUQ5R1VoSmljLUNFS3FxYkZSRzgxeW9Cd2JvVFlRNjhaZmR4QlNOdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 713,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — 사이버보안',
+      author: '관리자',
+      date: '2024.09.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지가 사이버보안 분야의 표준화 동향을 정리한 자료입니다. ISO/IEC 27001 등 핵심 보안 표준의 진화와 새로운 도전 과제를 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO/IEC 27001 등 보안 표준 라인업</li><li>사이버보안 위협 진화에 대한 표준화 대응</li><li>다양한 산업 적용 사례</li></ul><p>원문: <a href="https://www.iso.org/insights/filtered-list-information-security" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 714,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — 기후 변화',
+      author: '관리자',
+      date: '2024.09.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지가 기후 변화 분야의 표준화 동향을 정리한 자료입니다. 기후 행동·적응·완화 영역의 ISO 표준 활용을 종합적으로 다룹니다.</p><h3>주요 포인트</h3><ul><li>기후 변화 ISO 표준 라인업 정리</li><li>완화·적응 양 측면 표준화</li><li>파리협정·NDC 이행 지원</li></ul><p>원문: <a href="https://www.iso.org/insights/filtered-list-climate-change" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 715,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO — 표준의 세계로 들어가는 \'Zoom in on Standards\'',
+      author: '관리자',
+      date: '2024.09.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO가 영상 회의용 배경 이미지를 통해 사용자에게 표준의 세계를 친근하게 소개하는 캠페인 자료입니다. 표준이 우리 일상에 얼마나 깊이 녹아 있는지 보여줍니다.</p><h3>주요 포인트</h3><ul><li>ISO의 친근한 표준 홍보 캠페인</li><li>일상 속 표준의 영향 시각화</li><li>표준의 사회적 가치 인식 제고</li></ul><p>원문: <a href="https://www.iso.org/home/insights-news/news/dossier-medias/zoom-in-on-standards.html" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 716,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'The Conversation — 글로벌 표준의 작은 업데이트가 기후 인식에 기여',
+      author: '관리자',
+      date: '2024.09.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>The Conversation이 글로벌 표준의 작은 업데이트가 기후 변화 인식과 행동에 어떻게 기여할 수 있는지 분석한 칼럼입니다. 표준화의 사회적 영향력을 다룹니다.</p><h3>주요 포인트</h3><ul><li>표준 업데이트의 기후 인식 효과</li><li>표준화의 사회적·문화적 영향</li><li>점진적 변화의 누적 영향력</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxQRUFmT2RVLVpsZnhLNkp0QXI3Z2NGY1VTVVF2VUg3QkhOcTNYemoyY3Z0cHo5Mjc1dXVWYlRlUVRZU2poOHFMLXo2MlV5dUhfaXk3OWtmYWc4dWozcUh2MzFzWG5xLVY4aGdBTVhwSFVqZVNiZzhpX0dtMU9HNkFWUkJVeXVVSHFUYTBtS011NWM3WDlVZFgzQWowMnhlNlR1aFVJVVJYeGJTdnNZVDBFNy12UnIwZjA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 717,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'PwC — ISO 20022 표준에 대해 알아야 할 것',
+      author: '관리자',
+      date: '2024.09.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>PwC가 ISO 20022 결제 메시징 표준에 관해 기업이 알아야 할 핵심 사항을 정리한 인사이트입니다. 글로벌 결제 표준 전환의 주요 영향과 대응 방안을 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 20022 핵심 가치와 도입 영향</li><li>SWIFT 마이그레이션 일정과 단계</li><li>기업 재무·결제 시스템 영향</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQY1EyVEpYUl94a21kYk42WmIzRGplRzJMeW13MW4yN1lLOFdjc2kwTk5jMnl1VG0tQlZYeFE5aG1hQXJFcTFUd0JwcGxoV05tbHpGNGRUaTVTOXVWQkpCMDFkZjd1dzg5SF9BS0k2V24yNGdKRlNNblRYUi1PRkllS0FMLTU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 718,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — 헬스케어 분야 표준화',
+      author: '관리자',
+      date: '2024.08.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지가 헬스케어 분야의 표준화 동향을 정리한 자료입니다. 의료기기·디지털 헬스·환자 안전 등 다양한 영역의 ISO 표준을 다룹니다.</p><h3>주요 포인트</h3><ul><li>헬스케어 ISO 표준 라인업 종합</li><li>의료기기·디지털 헬스 표준화</li><li>환자 안전·데이터 표준</li></ul><p>원문: <a href="https://www.iso.org/insights/filtered-list-healthcare" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 719,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 공식 인사이트 — 전체 뉴스 모음',
+      author: '관리자',
+      date: '2024.08.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트 페이지의 전체 뉴스 아카이브로, 다양한 분야의 표준 발행·개정 소식을 한곳에서 볼 수 있는 자료입니다.</p><h3>주요 포인트</h3><ul><li>ISO 글로벌 표준 활동 통합 모니터링</li><li>다양한 분야의 최신 표준화 동향</li><li>공식 보도자료 아카이브</li></ul><p>원문: <a href="https://www.iso.org/home/insights-news/news/standards-world/news-list.html" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 720,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'TÜV SÜD — ISO 9001:2015 표준 개정',
+      author: '관리자',
+      date: '2024.07.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인증기관 TÜV SÜD가 ISO 9001:2015 품질경영 표준의 개정 내용을 분석한 인사이트입니다. 차기 개정의 핵심 변경 사항을 실무자 관점에서 정리합니다.</p><h3>주요 포인트</h3><ul><li>ISO 9001 차기 개정 핵심 변경</li><li>품질경영의 ESG·디지털 통합</li><li>기업 인증 유지 전략</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBYbE5pdnRjVjZOOVNES1lMdlNSYWNwcnlRRDlzaGxiV1RzaUZFR3FaMTMzQW5DRXFRUzhYc3gxaXdJbDNDeEYtZzY5VnE5SVZLU1NhNmNncEJwYjZmb0V1S2dNb2stU1JLYmNiVE9ZVjRXbEMwOGxn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 721,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO — AI 인사이트: 중소기업 성장을 위한 AI 활용',
+      author: '관리자',
+      date: '2024.06.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ISO 공식 인사이트가 AI를 중소기업 성장과 혁신에 어떻게 활용할 수 있는지 다룬 자료입니다. AI 도입 가이드와 ISO 관련 표준의 활용 방안을 제시합니다.</p><h3>주요 포인트</h3><ul><li>중소기업의 AI 도입 전략 가이드</li><li>ISO/IEC 42001 등 AI 표준 활용</li><li>책임 있는 AI 운영의 시작점</li></ul><p>원문: <a href="https://www.iso.org/annualmeeting/session/ai/insights" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 722,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'AgencyIQ — 새로운 MDR/IVDR 표준화 요청, 표준 추가·시한 조정',
+      author: '관리자',
+      date: '2024.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>POLITICO 산하 AgencyIQ가 EU 의료기기 규정(MDR)·체외진단기기 규정(IVDR)의 새로운 표준화 요청 내용을 분석했습니다. 추가 표준 채택과 적용 시한 조정이 핵심.</p><h3>주요 포인트</h3><ul><li>MDR/IVDR 신규 표준화 요청 내용</li><li>적용 시한 조정의 산업 영향</li><li>의료기기 인증 일정 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNWEtaandiT1d6YkljblRFbnN6SDZKZnlXTXp5M2lSM1VIeEVpeElIaHJVSU9ISjJ4UHVoRmxheHBOd1I4QlVuQ2hTeUhLTENSc0ctbjN2SkQ0U0wtSnhGb2s4YUdXTUw0VzUzTlAwaXBFVjlKM3RxNGtGYk5mNzRLNFZ2T3pjVXhwRTk0MWJ2M1ZRdURrYXVJOVA2U2IxM2M?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 723,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO, ISO 8217:2024 — 해상 연료 사양 표준 발행',
+      author: '관리자',
+      date: '2024.05.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>safety4sea가 ISO의 ISO 8217:2024 해상 연료 사양 표준 발행을 보도했습니다. 친환경 대체 연료를 포함한 해상 연료 품질 기준의 새로운 글로벌 표준입니다.</p><h3>주요 포인트</h3><ul><li>해상 연료 품질 표준 ISO 8217:2024</li><li>친환경 대체 연료 사양 추가</li><li>해운 산업 환경 책임 표준화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjAwZG12Z3dzS19lZHhHNUluTmdPRjV6ZTlmMWl4aGpiUnZZNU84d1pvVGh0VlRPWlNjdW56MVBDWVYxOVRfaE8zeGNMUTlTbk1rTXBfXzY2RFE3c25CM2VSZUFGcURRZ2JpQXRtXzhmTnpjOGVKV1hvM0FLQ2pKalN5dFF1VUl0T01UY3RRak1QRGM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 724,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Renewable Matter — 순환경제 위한 새 ISO 표준 소개',
+      author: '관리자',
+      date: '2024.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Materia Rinnovabile가 순환경제를 위한 새 ISO 표준 라인업을 소개한 분석입니다. 자원 효율·재사용·재활용 등 다양한 영역의 표준화 진전을 다룹니다.</p><h3>주요 포인트</h3><ul><li>순환경제 ISO 표준 라인업 소개</li><li>자원 효율·재사용·재활용 표준화</li><li>EU 순환경제 정책과 정합성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBNNFZrZ0dESmNiRFlaOERwRGg3d1d1LXduTHpmMTRPVHpxX09CTERneHJvclZFSU9lS3BtN25wbHV4ZnFXV0NGeU5ldVk3cG5acU1UTXhtZHNRcTVpeVRQOWg2eDF2YTVrN04zbFM4ZHNLQS1BZW80?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 725,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Frontiers — 해양 탐사와 환경 영향 평가의 국제 표준 인사이트',
+      author: '관리자',
+      date: '2024.05.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>학술 저널 Frontiers가 해양 탐사 활동의 환경 영향 평가에 관한 국제 표준 인사이트를 다룬 논문입니다. 심해 채굴 등 신규 영역의 표준화 도전을 분석합니다.</p><h3>주요 포인트</h3><ul><li>해양 탐사 환경 영향 평가 표준화</li><li>심해 채굴 등 신규 영역의 표준 도전</li><li>국제 해양법과 표준의 연계</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPQnJQOHU3RnBZU05fa2FIWEk0VGV1SGRtVGlBSGJ6bXBDdnd3NThtMmdHYkh6M3RXWlNfcGRwaTVldElSSFN0ZGVlZ1Zral9jcFBSNUtyaGc4NFJLQjctTFJQUUJ4Qm0tcV9nczlNVHhqQnFtM19LbHFjOHZnRUpFTG5PUlpEdHlrTTZ6RlJyTThHRUdvM0o4?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 726,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'AWS — GQL: 그래프를 위한 ISO 표준 등장',
+      author: '관리자',
+      date: '2024.04.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Amazon Web Services가 그래프 질의 언어(GQL)의 ISO 표준 등장을 다룬 기술 인사이트입니다. SQL 이후 첫 새로운 ISO 데이터베이스 질의 언어 표준입니다.</p><h3>주요 포인트</h3><ul><li>GQL — SQL 이후 첫 ISO 표준 질의 언어</li><li>그래프 데이터베이스 시대의 표준화</li><li>지식그래프·관계 데이터 활용 가속</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNU0w0bW8zQVIxcm9LWjI1MVlKYnJwamN4ZzFxZmZhcnFaMUtfSnNvcjFmWEVZc1l6ZmctQTc0UDhnckU0VkNHQ3lHRC1yRDg5TWNrN2Y5Uk9feGVTQlR1ODlwQjhubGI5Zy1XV1NPcDVlQVpkdFN0V1VGal8wcC10cTI4OWNiY3huemc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 727,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Slator — ISO 5060 신규 표준, 번역 품질 위한 인적 평가 강조',
+      author: '관리자',
+      date: '2024.04.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>번역 산업 매체 Slator가 번역 품질 평가의 인적 검증 측면을 강조한 ISO 5060 신규 표준을 분석했습니다. AI 번역 시대에 인간의 역할을 표준화한 사례.</p><h3>주요 포인트</h3><ul><li>ISO 5060 — 번역 품질 인적 평가 표준</li><li>AI 번역 시대의 인간 검증 역할</li><li>번역 품질 보증 프레임</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUlGcGRQWjl4a2JvVmRRSzBZMC1OT09VQVhIdkN2cWt2STJQZ1Q3Mzc4WmFvVzRqdm4yZ182Q0VJdE1UU2ozN3hIRUh5TVhQVGNYRW8yUTdTRFJTeXJXdzQzUVluN3pfTFN0elpMTE96aFNmcHNGQmdxZU1lMEJjekNnU2pfdDlKRlJwMUVRZHV5VUhrRWVYTTFiNmllM2xf?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 728,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Quality Digest — ISO 9001 개정 진행 중',
+      author: '관리자',
+      date: '2024.03.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Quality Digest가 ISO 9001 표준의 개정 진행 상황을 다룬 인사이트입니다. 품질경영 표준의 진화 방향과 기업 영향을 정리.</p><h3>주요 포인트</h3><ul><li>ISO 9001 개정 진행 단계</li><li>핵심 변경 미리보기</li><li>기업 인증 영향 분석</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE10QWxmWDVhNjUxQ2htMWo2SlRIcFhBRDE0QU5zNmFFbXNMRWdnYzVwRzJLSG5ZdXNyNkdtZUJfdW4xMndVSVdlMjQyLVcyb1IzREhwdUNxbUlCdW53WEJWeEx4X202MDFuak9LNThNeGRMUThOWGV2REZ6QQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 729,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Quality Digest — ISO 9001:2000 업데이트 회고',
+      author: '관리자',
+      date: '2024.03.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Quality Digest가 ISO 9001:2000 업데이트의 의의를 회고하면서 차기 개정의 시사점을 다룬 인사이트입니다. 표준의 역사적 진화 흐름을 정리.</p><h3>주요 포인트</h3><ul><li>ISO 9001 역사적 개정 흐름 정리</li><li>2000년 개정의 패러다임 전환</li><li>차기 개정에 대한 시사점</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFBHYURJTXg5RV9yMnBPLWY5ckxJamg4VHNkX0V4dUpvUEVWY2lGRWxIaUM4eml1SURpbGlCcWFHa3BjYmdqQ1k5MFlNb0MyMzBoTjFCT1ZnS2F1QldmMWdlU1pPS2tmVlJmU2ZjdmJSSXRJNkRWeFIyWQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 730,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Quality Digest — ISO 9000 개정의 의미',
+      author: '관리자',
+      date: '2024.02.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Quality Digest가 ISO 9000 시리즈 개정의 본질적 의미를 다룬 인사이트입니다. 품질경영 표준의 진화가 산업·사회에 어떤 영향을 미치는지 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO 9000 시리즈 개정의 본질적 의미</li><li>표준 진화의 산업·사회 영향</li><li>품질경영의 미래 방향성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUp0NUJpeXdHYUp6c25OeEY0V2RkZUstR3lsaTV5NkxmSVNQUG9jRDdLcEZ4NXV2X3ZRc05wZjFzWkVRWWJWbFNpWDIwYU02WnozZHFGdFQ2SVEyZUNwaTlyZEpPSFFZZDBGUFNRRExsNnltMzhoM3Faakx6akEwTE5Ka1FRcWVZTFlFekItN2tDRjJ4aEJkRmRwMnNRVXRmVXc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 731,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'Pinsent Masons — ISO·IEC, AI 새 국제 표준 발행',
+      author: '관리자',
+      date: '2024.01.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>법무법인 Pinsent Masons가 ISO·IEC의 AI 관련 새 국제 표준 발행을 분석한 인사이트입니다. AI 거버넌스의 글로벌 표준화 흐름을 법률·실무 관점에서 다룹니다.</p><h3>주요 포인트</h3><ul><li>ISO/IEC AI 신규 국제 표준 발행</li><li>AI 거버넌스 글로벌 표준화 진전</li><li>법률·실무자 대응 가이드</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWIxSVVNSUdRTlFyS0pjdnJSc0tPMVBrVHFfOW1zYjdRODBrTkxvWEI2SmZrQTkwbm1WTmNNQnVNN1pPN3NfYm9ldHE4c3U2eDJPZDJ4MHY2YmJoM0tXSWFDak8wQ3J2RTBmRG44VXRnbGhnWEk2b1pHZXVVMnR0NEVzSE5MdGRTRlR5RnZfOVpoOXVPV21qb2F2SUZDZFVodTR5U25ieU55MzBrUGxPRGtmeHhjRV9wVXJF?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 464,
       pinned: false,
       category: 'news', categoryName: '소식',

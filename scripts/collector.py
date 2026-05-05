@@ -86,6 +86,40 @@ RSS_FEEDS = [
     {"url": "https://news.google.com/rss/search?q=%EC%97%90%EC%BD%94%EB%B0%94%EB%94%94%EC%8A%A4&hl=ko&gl=KR&ceid=KR:ko", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
     # EcoVadis 자체 블로그 (RSS 비활성화되어 sitemap 사용)
     {"url": "https://ecovadis.com/blog-post-sitemap.xml", "type": "sitemap", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
+    # ISO 표준·인사이트 (회사 인증 획득 사례 차단)
+    {
+        "url": "https://news.google.com/rss/search?q=%22ISO+14001%22+OR+%22ISO+45001%22+OR+%22ISO+27001%22+standard+update&hl=en-US&gl=US&ceid=US:en",
+        "category": "law", "categoryName": "법령·기준",
+        "topic": "iso", "topicName": "ISO",
+        "include_keywords": [
+            "표준", "개정", "발행", "발표", "공포",
+            "standard", "update", "revision", "published", "revised",
+            "insight", "thought leadership", "explained", "analysis",
+            "requirement", "framework", "guidance",
+        ],
+        "exclude_keywords": [
+            "인증 획득", "인증 취득", "최초로 인증", "수상", "달성",
+            "earns certification", "earns iso", "achieves certification",
+            "achieves iso", "achieves conformance", "recertif", "certified to iso",
+            "obtains iso", "renews iso", "celebrates iso", "awarded iso",
+            "received iso", "becomes certification body",
+        ],
+    },
+    {
+        "url": "https://news.google.com/rss/search?q=ISO+%ED%91%9C%EC%A4%80&hl=ko&gl=KR&ceid=KR:ko",
+        "category": "law", "categoryName": "법령·기준",
+        "topic": "iso", "topicName": "ISO",
+        "include_keywords": [
+            "표준", "개정", "발행", "발표", "공포", "표준안",
+            "standard", "update", "revision",
+            "insight", "thought leadership", "explained",
+        ],
+        "exclude_keywords": [
+            "인증 획득", "인증 취득", "최초로 인증", "수상", "달성",
+            "earns certification", "achieves cert", "recertif", "obtains iso",
+            "renews iso", "celebrates iso", "awarded iso", "received iso",
+        ],
+    },
     # 중대재해처벌법 (한국어 Google News, 처벌 사례 제외)
     {
         "url": "https://news.google.com/rss/search?q=%EC%A4%91%EB%8C%80%EC%9E%AC%ED%95%B4%EC%B2%98%EB%B2%8C%EB%B2%95&hl=ko&gl=KR&ceid=KR:ko",
