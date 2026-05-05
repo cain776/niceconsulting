@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 732,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '풍력·태양광 투자, 탄소 포집(DAC)보다 기후·건강 혜택 월등히 높아',
+      author: '관리자',
+      date: '2026.05.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 발표된 동료 검토 연구에 따르면, 풍력 및 태양광 에너지에 대한 투자가 탄소 직접 포집(DAC) 기술보다 비용 대비 기후 및 건강 혜택이 수배 더 높은 것으로 나타났습니다. 특히 전력망이 완전히 청정하지 않은 상태에서 DAC를 가동할 경우 오히려 지역 대기 오염을 악화시킬 수 있다는 경고가 포함되었습니다. 따라서 현재 단계에서는 재생에너지 확충이 탄소 포집 기술보다 더 효율적인 해결책으로 제시됩니다.</p><h3>주요 포인트</h3><ul><li>풍력·태양광 투자는 DAC 대비 비용 효율성 측면에서 기후와 건강에 훨씬 유리함</li><li>청정하지 않은 전력망 기반의 DAC 가동은 오히려 지역 대기 오염을 유발할 가능성 있음</li><li>탄소 중립 달성을 위해 재생에너지 우선 투자가 DAC보다 효과적임을 시사함</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3xff2/investing_in_wind_and_solar_provides_several/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 733,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '주 1회 채식으로 실천하는 쉬운 탄소 감축',
+      author: '관리자',
+      date: '2026.04.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일주일에 단 한 번만 고기 없는 식사를 하는 것으로도 상당한 환경 보호 효과를 거둘 수 있습니다. 이러한 작은 변화는 연간 탄소 발자국을 한 달 동안 자동차를 운전하지 않는 것과 맞먹는 수준으로 줄여줍니다. 육류 생산 과정에서 발생하는 막대한 온실가스를 고려할 때, 식단 조절은 개인이 실천할 수 있는 가장 쉬운 기후 행동 중 하나입니다. 지속 가능한 미래를 위해 거창한 변화 대신 일상 속 작은 실천부터 시작할 것을 권장합니다.</p><h3>주요 포인트</h3><ul><li>주 1회 채식의 탄소 감축 효과는 한 달간 자동차를 운행하지 않는 것과 동일한 수준입니다.</li><li>육류 소비를 줄이는 것은 개인이 즉각적으로 실천 가능한 가장 효율적인 기후 대응 방안 중 하나입니다.</li><li>완벽한 채식주의자가 아니더라도 작은 식습관 변화만으로 지구 환경에 긍정적인 영향을 미칠 수 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1sz9hek/swap_in_just_one_meatless_meal_a_week_for_an_easy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 626,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
