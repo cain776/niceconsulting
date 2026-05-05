@@ -658,22 +658,39 @@
 
   .board-search {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
   }
 
   .board-filter select {
-    flex: 0 0 auto;
+    width: 100%;
+    min-width: 0;
   }
 
   .board-search-input {
+    grid-column: 1 / -1;
     width: 100%;
-    flex: 1;
+    min-width: 0;
   }
 
   .board-search-btn {
-    flex-shrink: 0;
+    grid-column: 1 / -1;
+    width: 100%;
+    justify-content: center;
   }
 
   /* Table — card style on mobile */
+  .board-table-wrap {
+    overflow-x: visible;
+  }
+
+  .board-table,
+  .board-table tbody {
+    display: block;
+    width: 100%;
+  }
+
   .board-table thead {
     display: none;
   }
@@ -685,12 +702,15 @@
     border-bottom: 1px solid #E8E8E8;
     gap: 4px 12px;
     align-items: center;
+    width: 100%;
+    min-width: 0;
   }
 
   .board-table tbody td {
     padding: 0;
     text-align: left;
     border: none;
+    min-width: 0;
   }
 
   .board-table .col-no {
@@ -706,11 +726,26 @@
     padding-left: 0;
     max-width: 100%;
     margin-bottom: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 8px;
   }
 
   .board-table .col-title a {
+    flex-basis: 100%;
+    min-width: 0;
     font-size: 15px;
     white-space: normal;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+  }
+
+  .board-table .col-title .badge-category,
+  .board-table .col-title .attach-icon,
+  .board-table .col-title .badge-new {
+    margin: 0;
   }
 
   .board-table .col-author,
@@ -727,14 +762,82 @@
 
   .board-pagination {
     margin-top: 32px;
+    flex-wrap: wrap;
   }
 
   .board-detail-title {
     font-size: 20px;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
   }
 
   .board-detail-meta {
     flex-wrap: wrap;
     gap: 12px;
+  }
+
+  .board-detail-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .board-detail-body,
+  .board-detail-body a,
+  .board-nav-item a {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+  }
+
+  .board-nav-item {
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .board-search {
+    grid-template-columns: 1fr;
+  }
+
+  .board-search-input,
+  .board-search-btn {
+    grid-column: auto;
+  }
+
+  .board-table tbody tr {
+    gap: 4px 10px;
+  }
+
+  .board-table .col-title a {
+    font-size: 14px;
+  }
+
+  .board-pagination {
+    gap: 2px;
+  }
+
+  .board-pagination button {
+    width: 32px;
+    height: 32px;
+  }
+
+  .board-detail-header {
+    padding: 24px 0;
+  }
+
+  .board-detail-body {
+    padding: 28px 0;
+    font-size: 14px;
+  }
+
+  .board-nav-item {
+    display: block;
+  }
+
+  .board-nav-item-label {
+    display: block;
+    margin-bottom: 6px;
   }
 }
