@@ -10,6 +10,300 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 734,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 순환 소재 전환 필요성 강조',
+      author: '관리자',
+      date: '2026.04.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 천연자원이 유한하고 일부 자원의 희소성이 커지는 상황에서 순환 소재 전환의 필요성을 강조했습니다. 순환 소재는 환경 대응을 넘어 공급망 안정성, 원가 리스크 완화, 고객 요구 대응과도 연결됩니다. 기업은 재활용·재사용 소재 흐름을 관리 가능한 조달 전략으로 편입할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>천연자원 희소성과 글로벌 경쟁 심화가 공급망 리스크로 부상</li><li>순환 소재 활용은 환경성과 공급망 회복탄력성을 동시에 강화</li><li>구매·제품설계·협력사 관리 단계에서 소재 순환성 기준 반영 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/blog/natural-resources/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 735,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA 2025 연례 컨퍼런스 주요 내용',
+      author: '관리자',
+      date: '2026.04.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 미국 메릴랜드 내셔널하버에서 열린 Responsible Business 2025 연례 컨퍼런스 주요 내용을 공유했습니다. 600명 이상이 참석한 이번 행사에서는 공급망 책임경영, 실사, 기후, 데이터 투명성 등 RBA 회원사와 협력사가 직면한 핵심 이슈가 논의되었습니다. 글로벌 바이어 요구가 고도화되는 만큼 협력사도 RBA 기준과 데이터 대응 역량을 함께 준비해야 합니다.</p><h3>주요 포인트</h3><ul><li>600명 이상이 참여한 RBA 연례 컨퍼런스 성과 공유</li><li>인권·환경 실사와 공급망 데이터 관리가 주요 의제로 부상</li><li>회원사뿐 아니라 협력사까지 RBA 기준 대응 역량 강화 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/blog/2025-conference-highlights/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 736,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA·GEA, Scope 3 배출 보고 가이드 발간',
+      author: '관리자',
+      date: '2026.04.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA와 Global Electronics Association은 전자산업 공급망의 온실가스 배출 보고 일관성을 높이기 위한 가이드를 발간했습니다. 특히 Scope 3 배출량 산정과 협력사 데이터 수집 방식의 정합성을 높이는 데 초점이 있습니다. 공급망 내 중복 보고 부담을 줄이고, 고객사별 요구에 대응할 수 있는 공통 기준 마련이 중요해졌습니다.</p><h3>주요 포인트</h3><ul><li>전자산업 공급망의 Scope 3 보고 일관성 강화</li><li>협력사 배출 데이터 수집·검증 방식 표준화 필요</li><li>고객사별 상이한 보고 요구로 인한 운영 부담 완화 기대</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/scope3guidance/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 737,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'MATRADE·RBA, 지속가능 무역 협력 추진',
+      author: '관리자',
+      date: '2026.03.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>말레이시아 대외무역개발공사(MATRADE)와 RBA가 지속가능 무역 확대를 위한 협력을 추진합니다. 이번 협력은 글로벌 공급망에서 ESG 기반 거래 요건이 강화되는 흐름과 맞닿아 있습니다. 수출기업은 가격·품질뿐 아니라 노동, 환경, 윤리, 실사 체계까지 거래 경쟁력의 일부로 관리해야 합니다.</p><h3>주요 포인트</h3><ul><li>무역 진흥 기관과 RBA의 지속가능 공급망 협력 확대</li><li>ESG 기반 조달 요건이 수출 경쟁력의 핵심 요소로 부상</li><li>협력사 실사·교육·데이터 관리 체계 구축 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/rba-matrade/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 738,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 공급망 배출관리 도구 개선판 배포',
+      author: '관리자',
+      date: '2026.02.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 글로벌 공급망을 위한 개선된 온실가스 배출관리 도구(Emissions Management Tool)를 배포했습니다. 이 도구는 기업과 협력사가 배출 데이터를 더 체계적으로 수집·관리하고, 고객사의 Scope 3 요구에 대응하도록 지원합니다. 탄소 데이터의 정확성과 추적 가능성이 RBA 대응의 핵심 관리 항목으로 강화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 온실가스 데이터 수집·관리 기능 개선</li><li>고객사의 Scope 3 산정 요구에 대한 협력사 대응 지원</li><li>배출 데이터의 일관성·추적성·검증 가능성 확보 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/emt/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 739,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 공급망 투명성 데이터 교환 체계 출시',
+      author: '관리자',
+      date: '2025.11.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA가 공급망 투명성을 높이기 위한 상호운용 데이터 교환 체계를 출시했다는 보도입니다. 기업 간 실사 정보와 공급망 데이터를 표준화된 방식으로 주고받을 수 있어 중복 요청과 수작업 부담을 줄이는 데 의미가 있습니다. 향후 RBA 대응은 문서 보유뿐 아니라 데이터 구조화와 공유 가능성이 중요해질 전망입니다.</p><h3>주요 포인트</h3><ul><li>공급망 실사·투명성 데이터를 상호운용 방식으로 교환</li><li>고객사별 반복 자료 요청과 수작업 취합 부담 완화</li><li>협력사는 데이터 품질과 제출 체계까지 관리해야 함</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNYVRmWGpMalVRMU5CN2hVWlAtV0l4LVAwLW95R2ZEOGRULXpRLVhsQjM3UmdrQ2lUT2VzYXREbmZUUm16SWFIZkxTcnFjWk9UdDFvRE9mUEJ3QXJHQjJJSlk2SkhWR3VMNmVXa0xnQVRzRS1JMllqalRYSVNjaHc3MkNrZHZTR3g0TmF3bXpqbVlDVDdwRUlRSWcxaFJGZjdVMVBR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 740,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, EU 옴니버스 법적 명확성 촉구',
+      author: '관리자',
+      date: '2025.11.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 EU 지속가능성 규제 단순화 논의인 Omnibus I과 관련해 산업계의 법적 명확성 확보 필요성을 제기했습니다. 규제 부담을 줄이더라도 인권·환경 실사의 실질적 효과가 약화되어서는 안 된다는 점이 핵심입니다. EU 공급망 규제에 노출된 기업은 변경 논의를 모니터링하면서도 기본 실사 체계 구축을 늦추지 않아야 합니다.</p><h3>주요 포인트</h3><ul><li>EU 지속가능성 규제 단순화 과정에서 법적 명확성 요구</li><li>보고 부담 완화와 실사 효과 유지 사이의 균형이 핵심</li><li>국내 수출기업도 고객사 요구 변화에 맞춘 대응 체계 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/eu-omnibus/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 741,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI RMAP, EU 분쟁광물 첫 인정 제도 선정',
+      author: '관리자',
+      date: '2025.10.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 산하 Responsible Minerals Initiative의 RMAP가 EU 분쟁광물 규정 준수를 위한 공급망 실사 제도로 처음 인정되었습니다. 이는 제련소·정련소 및 광물 공급망 기업이 실사 체계를 설명할 때 중요한 기준점이 됩니다. 분쟁광물 대응은 단순 서류 제출을 넘어 인정된 실사 체계와의 정합성 확보가 중요합니다.</p><h3>주요 포인트</h3><ul><li>RMI RMAP가 EU 분쟁광물 규정 관련 첫 인정 제도로 선정</li><li>광물 공급망 실사와 제련소 평가 기준의 신뢰도 강화</li><li>CMRT·EMRT 등 책임광물 자료와 실사 프로세스 연계 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/rmap-cmr/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 742,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA 2024 연례보고서 발간',
+      author: '관리자',
+      date: '2025.08.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 2024년 활동을 정리한 연례보고서를 발간했습니다. 보고서는 실사 고도화, 회원사 지원, 책임광물, 기후 대응, 노동권 등 RBA의 주요 활동 영역을 폭넓게 다룹니다. RBA 대응 기업은 연례보고서를 통해 글로벌 고객사가 어떤 이슈를 우선순위로 보는지 확인할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>2024년 RBA의 주요 프로그램과 성과를 종합 정리</li><li>인권·환경 실사, 책임광물, 기후 데이터가 핵심 축으로 제시</li><li>회원사 요구 방향을 파악하는 참고 자료로 활용 가능</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/publications/ar2024/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 743,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA·Catena-X, UN 투명성 프로토콜 시험 협력',
+      author: '관리자',
+      date: '2025.07.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>브리티시컬럼비아 주정부, Catena-X, RBA가 UN Transparency Protocol의 상호운용성 시험을 위해 협력합니다. 이번 협력은 공급망 데이터가 산업과 지역을 넘어 연결되는 방향으로 이동하고 있음을 보여줍니다. 자동차·전자·배터리 공급망 기업은 추적 가능한 ESG 데이터 관리 체계를 준비해야 합니다.</p><h3>주요 포인트</h3><ul><li>UN Transparency Protocol 기반 데이터 상호운용성 시험 추진</li><li>공급망 투명성 요구가 산업 간 데이터 연결로 확장</li><li>제품·원재료·협력사 데이터의 추적 가능성 확보 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/untp/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 744,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 화학물질 리스크 실사 플랫폼 출시',
+      author: '관리자',
+      date: '2025.06.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 글로벌 공급망의 화학물질 리스크 기반 실사를 지원하는 Chemical Platform을 출시했습니다. 이 플랫폼은 기업이 화학물질 사용과 협력사 리스크를 더 체계적으로 파악하고 개선 활동을 관리하도록 돕습니다. 제조업 공급망에서는 안전보건, 환경, 고객 규제 대응을 연결한 화학물질 관리 체계가 중요해지고 있습니다.</p><h3>주요 포인트</h3><ul><li>화학물질 사용과 공급망 리스크를 기반으로 한 실사 지원</li><li>협력사 현황 파악, 개선 관리, 데이터 취합의 체계화 필요</li><li>환경·안전보건·고객 규제 대응을 통합 관리해야 함</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/chemical-platform/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 745,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, 사회·환경·안전보건 리스크 표준 발표',
+      author: '관리자',
+      date: '2025.04.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 산하 RMI가 사회, 환경, 산업안전보건, 거버넌스 리스크를 다루는 새로운 표준 묶음을 발표했습니다. 책임광물 실사는 분쟁광물 여부 확인을 넘어 광물 공급망 전반의 ESG 리스크 관리로 확장되고 있습니다. 관련 기업은 협력사 평가와 원재료 추적 체계에 이러한 리스크 범주를 반영해야 합니다.</p><h3>주요 포인트</h3><ul><li>책임광물 공급망의 ESG 리스크 관리 범위 확대</li><li>사회·환경·안전보건·거버넌스 리스크를 표준 체계로 정리</li><li>광물 원산지와 협력사 실사 자료의 정합성 관리 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-releases-new-standard-suite/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 746,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA 배출관리도구 첫 연례보고서 공개',
+      author: '관리자',
+      date: '2024.12.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 온실가스 관리 도구인 Emissions Management Tool의 첫 연례보고서를 공개했습니다. 해당 보고서는 공급망 배출 데이터 관리 현황과 도구 활용 흐름을 정리합니다. RBA 기준 대응 기업은 고객사 Scope 3 요구에 맞춰 배출량 산정 근거와 제출 이력을 체계적으로 관리할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>RBA EMT의 첫 연례 활용 현황 보고</li><li>공급망 온실가스 데이터 수집과 관리 흐름 확인 가능</li><li>협력사 배출 데이터의 근거 문서와 제출 이력 관리 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/publications/emt-report/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 747,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 2024 순환 소재 현황 평가 업데이트',
+      author: '관리자',
+      date: '2024.12.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 2021년 발간한 Circular Materials Landscape Assessment를 2024년판으로 업데이트했습니다. 이 자료는 순환 소재 흐름을 확대하기 위한 시장·정책·공급망 과제를 다룹니다. 기업은 재활용 소재 사용률뿐 아니라 공급 안정성, 추적성, 품질 기준을 함께 검토해야 합니다.</p><h3>주요 포인트</h3><ul><li>순환 소재 시장과 공급망 과제를 최신화한 평가 자료</li><li>재활용·재사용 소재의 품질, 추적성, 조달 안정성 검토 필요</li><li>제품 설계와 구매 기준에 순환성 지표 반영 중요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/publications/circular-materials2024/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 748,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 화학물질 관리 실사 가이드 발간',
+      author: '관리자',
+      date: '2024.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 글로벌 공급망을 위한 화학물질 관리 실무 가이드를 발간했습니다. 가이드는 기업이 화학물질 관련 위험을 식별하고, 협력사 관리와 개선 활동을 실행하는 데 필요한 접근 방식을 제시합니다. 화학물질 관리는 RBA의 환경·안전보건 요구사항과 직접 연결되는 관리 영역입니다.</p><h3>주요 포인트</h3><ul><li>화학물질 리스크 식별과 실사 실행을 위한 실무 기준 제시</li><li>협력사 현황 조사, 개선 요구, 증빙 관리 체계 필요</li><li>환경 및 산업안전보건 관리시스템과 연계해 운영해야 함</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/chemical-management-due-diligence/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 749,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA 2023 연례보고서 발간',
+      author: '관리자',
+      date: '2024.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 2023년 활동을 정리한 연례보고서를 발간했습니다. 보고서에는 새로운 규제 대응, 정부·산업계·시민사회와의 협력, 회원사 지원 활동 등이 포함됩니다. RBA 심사와 고객사 평가를 준비하는 기업은 연례보고서를 통해 국제 공급망 책임경영의 방향성을 확인할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>2023년 RBA 활동과 주요 협력 성과 정리</li><li>신규 규제와 공급망 실사 요구 대응이 핵심 흐름</li><li>회원사 요구와 협력사 관리 우선순위 파악에 유용</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/publications/ar2023/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 750,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 대만의 윤리적 공급망 역할 조명',
+      author: '관리자',
+      date: '2024.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA의 Rob Lederer가 대만이 윤리적 공급망 구축에서 수행하는 역할을 설명한 인터뷰 기사입니다. 대만은 전자·반도체 공급망에서 핵심 위치를 차지하고 있어 RBA 기준의 확산과 협력사 관리에 중요한 의미가 있습니다. 국내 기업도 글로벌 전자 공급망의 요구 변화에 맞춰 노동, 환경, 윤리 기준을 체계적으로 관리해야 합니다.</p><h3>주요 포인트</h3><ul><li>대만 전자 공급망의 RBA 기준 적용과 확산 역할 조명</li><li>반도체·전자 산업에서 윤리적 공급망 관리 중요성 확대</li><li>협력사 수준의 노동·환경·윤리 리스크 관리 필요</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NelZqWWdPOTVGNlVqNHNYVG0xb1VINUxPVVZfY015VFFmMFdfMFRtR1NRajVXQjZHZkxCSko0UF9hMFNma2t6cHotWENQRlZiVjhWZTZiVng1YTlNd0tlQmlMdzRGZUE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 751,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 화학물질 관리 리더십 프로그램 출시',
+      author: '관리자',
+      date: '2024.06.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 글로벌 공급망을 대상으로 Chemical Management Leadership Program을 출시했습니다. 이 프로그램은 기업과 협력사가 화학물질 관리 역량을 높이고, 환경·안전보건 리스크를 줄이도록 설계되었습니다. RBA 대응에서는 교육, 현장 실행, 개선 추적이 결합된 관리 체계가 중요합니다.</p><h3>주요 포인트</h3><ul><li>공급망 화학물질 관리 역량 강화를 위한 프로그램 출범</li><li>환경·안전보건 리스크 저감과 협력사 개선 활동 지원</li><li>교육 이수, 현장 관리, 증빙 자료를 함께 운영해야 함</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/chemical-management/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 752,
+      pinned: false,
+      category: 'insight', categoryName: '인사이트',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA 공급망 책임경영 실사 실무 가이드',
+      author: '관리자',
+      date: '2024.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA Practical Guide는 공급망에서 책임 있는 비즈니스 행동 실사를 실행하기 위한 주요 표준과 접근 방식을 정리한 자료입니다. 기업은 정책 선언에 그치지 않고 리스크 식별, 우선순위화, 개선 조치, 모니터링까지 연결된 프로세스를 갖춰야 합니다. RBA 심사 준비의 기본 구조를 점검하는 데 활용할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 책임경영 실사의 주요 표준과 절차 정리</li><li>리스크 식별, 개선 조치, 모니터링의 운영 체계 필요</li><li>RBA 자가평가와 현장심사 준비의 기초 자료로 활용 가능</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/publications/rba-practical-guide-2018/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 753,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI, 책임광물 기관투자자 네트워크 출범',
+      author: '관리자',
+      date: '2024.02.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA 산하 RMI가 책임광물 이슈를 다루는 기관투자자 네트워크를 출범했습니다. 광물 공급망의 인권·환경 리스크가 투자 의사결정과 기업 평가에도 직접 연결되고 있음을 보여줍니다. 관련 기업은 책임광물 자료를 단순 고객 제출용이 아니라 ESG 리스크 관리와 투자자 커뮤니케이션 자료로 관리할 필요가 있습니다.</p><h3>주요 포인트</h3><ul><li>책임광물 공급망 이슈에 대한 투자자 관여 확대</li><li>분쟁광물·코발트 등 원재료 실사 정보의 중요성 증가</li><li>CMRT·EMRT와 공급망 개선 활동의 일관성 확보 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/rmi-investor-network/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 754,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, EU 공급망 실사지침 표결 쟁점 정리',
+      author: '관리자',
+      date: '2024.02.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>RBA는 EU 기업지속가능성실사지침(CSDDD) 표결을 앞두고 공급망 책임경영 프레임워크의 중요성을 짚었습니다. CSDDD는 기업의 인권·환경 실사 의무를 제도화하는 흐름을 대표하며, 글로벌 공급망 전반에 영향을 미칠 수 있습니다. EU 고객사와 거래하는 기업은 실사 정책, 리스크 평가, 개선조치 기록을 선제적으로 정비해야 합니다.</p><h3>주요 포인트</h3><ul><li>EU CSDDD 논의가 공급망 실사 요구의 제도화 흐름을 반영</li><li>인권·환경 리스크 평가와 개선조치 기록 관리 필요</li><li>EU 고객사 공급망에 포함된 국내 기업도 선제 대응 필요</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/cs3d/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 732,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -1522,7 +1816,7 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 464,
+      id: 755,
       pinned: false,
       category: 'news', categoryName: '소식',
       topic: 'esg', topicName: 'ESG',

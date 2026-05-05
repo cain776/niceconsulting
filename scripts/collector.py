@@ -86,6 +86,21 @@ RSS_FEEDS = [
     {"url": "https://news.google.com/rss/search?q=%EC%97%90%EC%BD%94%EB%B0%94%EB%94%94%EC%8A%A4&hl=ko&gl=KR&ceid=KR:ko", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
     # EcoVadis 자체 블로그 (RSS 비활성화되어 sitemap 사용)
     {"url": "https://ecovadis.com/blog-post-sitemap.xml", "type": "sitemap", "category": "news", "categoryName": "소식", "topic": "ecovadis", "topicName": "에코바디스"},
+    # RBA 공식 자료 (Responsible Business Alliance; RBA 약어 오탐 방지를 위해 공식 sitemap만 사용)
+    {
+        "url": "https://www.responsiblebusiness.org/sitemap.xml",
+        "type": "sitemap",
+        "category": "news", "categoryName": "소식",
+        "topic": "rba", "topicName": "RBA",
+        "include_path_pattern": r"/(news|blog|publications)/",
+        "exclude_path_pattern": r"/(news-container|news|blog|publications)/?$|/publications/2012-eicc-annual-report/",
+        "exclude_keywords": [
+            "인증 획득", "인증 취득", "수상", "달성", "최고 등급",
+            "silver status", "gold status", "platinum status",
+            "achieves", "earns", "receives presidential award",
+            "joins rba", "joins responsible business alliance",
+        ],
+    },
     # ISO 표준·인사이트 (회사 인증 획득 사례 차단)
     {
         "url": "https://news.google.com/rss/search?q=%22ISO+14001%22+OR+%22ISO+45001%22+OR+%22ISO+27001%22+standard+update&hl=en-US&gl=US&ceid=US:en",
@@ -191,6 +206,8 @@ def _collect_sitemap(feed_info, history_set):
     """sitemap.xml 기반 피드 처리: lastmod 7일 이내 글의 og 메타로 후보 생성"""
     candidates = []
     SM_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    include_path_pattern = feed_info.get("include_path_pattern")
+    exclude_path_pattern = feed_info.get("exclude_path_pattern")
     try:
         r = requests.get(feed_info["url"], headers={"User-Agent": USER_AGENT}, timeout=30)
         r.raise_for_status()
@@ -206,7 +223,9 @@ def _collect_sitemap(feed_info, history_set):
             except Exception:
                 continue
             loc = loc_el.text
-            if loc.endswith("/"):  # 인덱스 페이지 제외
+            if include_path_pattern and not re.search(include_path_pattern, loc):
+                continue
+            if exclude_path_pattern and re.search(exclude_path_pattern, loc):
                 continue
             entries.append((loc, d.replace(tzinfo=None)))
 
@@ -225,6 +244,13 @@ def _collect_sitemap(feed_info, history_set):
                 title = ((og_t.get("content") if og_t else "") or "").replace(" | EcoVadis", "").strip()
                 summary = ((og_d.get("content") if og_d else "") or "").strip()
                 if not title:
+                    continue
+                content_text = f"{title} {summary}"
+                include_kw = feed_info.get("include_keywords")
+                if include_kw and not any(kw in content_text.lower() or kw in content_text for kw in include_kw):
+                    continue
+                exclude_kw = feed_info.get("exclude_keywords") or []
+                if exclude_kw and any(kw.lower() in content_text.lower() for kw in exclude_kw):
                     continue
                 # sitemap은 신뢰 소스라 키워드 필터 생략 (피드 정의 자체로 큐레이션됨)
                 candidates.append({
