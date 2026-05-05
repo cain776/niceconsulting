@@ -659,8 +659,13 @@
   .board-search {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(10, minmax(0, 1fr));
     gap: 8px;
+  }
+
+  .board-filter {
+    grid-column: span 5;
+    min-width: 0;
   }
 
   .board-filter select {
@@ -669,15 +674,16 @@
   }
 
   .board-search-input {
-    grid-column: 1 / -1;
+    grid-column: span 7;
     width: 100%;
     min-width: 0;
   }
 
   .board-search-btn {
-    grid-column: 1 / -1;
+    grid-column: span 3;
     width: 100%;
     justify-content: center;
+    padding: 0 12px;
   }
 
   /* Table — card style on mobile */
@@ -798,12 +804,19 @@
 
 @media (max-width: 480px) {
   .board-search {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
   }
 
-  .board-search-input,
+  .board-filter {
+    grid-column: span 5;
+  }
+
+  .board-search-input {
+    grid-column: span 7;
+  }
+
   .board-search-btn {
-    grid-column: auto;
+    grid-column: span 3;
   }
 
   .board-table tbody tr {
