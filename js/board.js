@@ -5114,7 +5114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 178,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'EU 옴부즈만, 집행위 지속가능성 보고 규정 절차 결함 지적',
       author: '관리자',
@@ -5310,7 +5310,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 192,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰: UK 지속가능성 보고기준 발표 등',
       author: '관리자',
@@ -5338,7 +5338,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 195,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰 216: 절차 완화 반대 기업 다수',
       author: '관리자',
@@ -5394,7 +5394,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 199,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'Socialsuite, AI 기반 이중 중요성 평가 솔루션 출시',
       author: '관리자',
@@ -5492,7 +5492,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 206,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰 208: EU 보고규정 시행 연기 승인',
       author: '관리자',
@@ -5604,7 +5604,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 214,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'EU, 청정 산업 수요 견인 위한 \'Clean Industrial Deal\' 발표',
       author: '관리자',
@@ -5618,7 +5618,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 215,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'EU, CSRD 보고 의무에서 기업 80% 면제 추진',
       author: '관리자',
@@ -5800,7 +5800,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 228,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰 196: 바이든 행정부 신규 기후목표 설정',
       author: '관리자',
@@ -5898,7 +5898,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 235,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰 191: 캐나다 정유·가스 배출 감축 의무화',
       author: '관리자',
@@ -5926,7 +5926,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 237,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: '호주 규제당국, 신규 지속가능성 보고에 "실용적 접근" 약속',
       author: '관리자',
@@ -5954,7 +5954,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 239,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'NatureFinance, 투자자·은행용 자연 영향 평가 도구 출시',
       author: '관리자',
@@ -6052,7 +6052,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 246,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: AI 기반 솔루션으로 CSRD 대응 간소화',
       author: '관리자',
@@ -6066,7 +6066,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 247,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: COP16 생물다양성 회의 핵심 전략',
       author: '관리자',
@@ -6094,7 +6094,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 249,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'Euronext, ESG 벤치마킹 도구·중소기업 CSRD 자문 서비스 출시',
       author: '관리자',
@@ -6108,7 +6108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 250,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰 183: MS, 클라우드·AI 협력사 탈탄소 팀 출범',
       author: '관리자',
@@ -6164,7 +6164,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 254,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 2030 목표 달성 위한 운영·가치사슬 탈탄소',
       author: '관리자',
@@ -6178,7 +6178,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 255,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: CSRD·IFRS·SEC 대응 기후 전환계획 마스터링',
       author: '관리자',
@@ -6192,7 +6192,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 256,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 신규 탄소시장 규정과 수익 극대화',
       author: '관리자',
@@ -6262,7 +6262,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 261,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 4명의 기후테크 창업가에게 배우는 교훈',
       author: '관리자',
@@ -6304,7 +6304,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 264,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 새 ESG 컴플라이언스 시대 대응법',
       author: '관리자',
@@ -6332,7 +6332,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 266,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '이번 주 기후 정책 4대 이슈',
       author: '관리자',
@@ -6360,7 +6360,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 268,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: Watershed 등 10억 달러 탄소 스타트업 소개',
       author: '관리자',
@@ -6374,7 +6374,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 269,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'CO2 AI, 생성형 AI 기반 제품 배출량 평가 솔루션 출시',
       author: '관리자',
@@ -6388,7 +6388,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 270,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'Vodafone Business, 신규 CSRD 지속가능성 보고 솔루션 출시',
       author: '관리자',
@@ -6402,7 +6402,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 271,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰 175: ISSB, 기후 전환계획 표준화 추진',
       author: '관리자',
@@ -6444,7 +6444,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 274,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '기후 리스크 평가 플랫폼 Climate X, 1,800만 달러 조달',
       author: '관리자',
@@ -6612,7 +6612,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 286,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '기후 정책 전망: 美 첫 고속철도 마침내 첫 삽',
       author: '관리자',
@@ -6640,7 +6640,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 288,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'SBTi 기업 넷제로 표준 업데이트 일정 공개',
       author: '관리자',
@@ -6654,7 +6654,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 289,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '이번 주 기후 정책: USDA 인증·EPA 발전소 규정 소송',
       author: '관리자',
@@ -6682,7 +6682,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 292,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 영구 탄소제거 전략',
       author: '관리자',
@@ -6710,7 +6710,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 294,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 이케아의 지속가능성 책임자 인터뷰',
       author: '관리자',
@@ -6724,7 +6724,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 295,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 차세대 산림 복원 사업 가속화',
       author: '관리자',
@@ -6738,7 +6738,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 296,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 벤처 자본 외 기후 솔루션 자금 조달',
       author: '관리자',
@@ -6752,7 +6752,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 297,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '이번 주 기후 정책: EPA, \'그린뱅크\' 200억 달러 수혜자 발표',
       author: '관리자',
@@ -6794,7 +6794,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 301,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '순환 공급망: 임팩트 극대화를 위한 9개 핵심 영역',
       author: '관리자',
@@ -6822,7 +6822,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 303,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '이번 주 기후 정책 4대 이슈',
       author: '관리자',
@@ -6836,7 +6836,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 304,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG Today 주간 리뷰 163: 美 산업 탈탄소에 60억 달러 투자',
       author: '관리자',
@@ -6934,7 +6934,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 311,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: Scope 3 트렌드·도전·공시 인사이트',
       author: '관리자',
@@ -6948,7 +6948,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 312,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 2024 자발적 탄소시장 기회와 책임',
       author: '관리자',
@@ -6962,7 +6962,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 313,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 생성형 AI의 ESG 활용 사례',
       author: '관리자',
@@ -7032,7 +7032,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 318,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '이번 주 기후 정책 6대 업데이트',
       author: '관리자',
@@ -7046,7 +7046,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 319,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '기업 지속가능성 업스킬링 전략 수립을 위한 5단계',
       author: '관리자',
@@ -7088,7 +7088,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 322,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 다각화된 탄소제거 포트폴리오로 기후행동 가속',
       author: '관리자',
@@ -7130,7 +7130,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 325,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '이번 주 기후 정책 5대 업데이트',
       author: '관리자',
@@ -7144,7 +7144,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 326,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '승수 효과: 효과적 파트너십을 위한 5가지 팁',
       author: '관리자',
@@ -7242,7 +7242,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 333,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 2024 지속가능성 보고에서 빠진 핵심 영역',
       author: '관리자',
@@ -7284,7 +7284,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 336,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 약속과 운영 현실 격차 좁히는 지속가능 가치 창출',
       author: '관리자',
@@ -7382,7 +7382,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 343,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'GreenBiz 웨비나: 산림·기후·자연 통합 기업 목표 설정',
       author: '관리자',
@@ -7410,7 +7410,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 345,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '올해는 넷제로를 추구하지 마라: 역설의 메시지',
       author: '관리자',
@@ -7480,7 +7480,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 350,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'General Mills 재생농업 약속 5년…진척은?',
       author: '관리자',
@@ -7578,7 +7578,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 168,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'EU 산림파괴 방지법 간소화로 기업 비용 75% 절감',
       author: '관리자',
@@ -7634,7 +7634,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 176,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '산림 파괴가 질병 확산의 문을 여는 이유',
       author: '관리자',
@@ -7704,7 +7704,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 153,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG 주간 리뷰: 기업 80% 이상 기후 목표 고수',
       author: '관리자',
@@ -7788,7 +7788,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 149,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '산타마르타 정상회의: 화석연료 탈피를 위한 첫 이행 로드맵',
       author: '관리자',
@@ -7844,7 +7844,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 143,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '프랑스, 2050년 화석연료 퇴출 로드맵 발표',
       author: '관리자',
@@ -8040,7 +8040,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 137,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '캘리포니아 스코프 3 공시의 명확한 시작이 필요한 이유',
       author: '관리자',
@@ -8068,7 +8068,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 129,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '영 FCA, ESG 평가기관 대상 보고 요건 시범 운영',
       author: '관리자',
@@ -8096,7 +8096,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 131,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '美 23개 주, 신용평가사 ESG 활용에 경고 서한 발송',
       author: '관리자',
@@ -8292,7 +8292,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 119,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'EU, 화석 연료 가격 충격 대비 44개 행동 전략 발표',
       author: '관리자',
@@ -8572,7 +8572,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 91,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'ISSB 실무진, 자연 관련 공시를 독립 기준 대신 \'실무 지침\'으로 권고',
       author: '관리자',
@@ -8642,7 +8642,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 86,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG 주간 리뷰: 마이크로소프트 역대급 탄소 제거 계약 및 EU 실사법 승인',
       author: '관리자',
@@ -8698,7 +8698,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 90,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'IEA, 이란 전쟁 여파로 석유 수요 전망치 대폭 하향',
       author: '관리자',
@@ -8740,7 +8740,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 83,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '헝가리 오르반의 선거 패배와 기후·에너지 정책 전망',
       author: '관리자',
@@ -8838,7 +8838,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 75,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '글래스 루이스, 투자자용 기후 전략 평가 솔루션 출시',
       author: '관리자',
@@ -8866,7 +8866,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 77,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'EBA, 은행권 ESG 감독 보고 요건 대폭 간소화 제안',
       author: '관리자',
@@ -8936,7 +8936,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 73,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'EFRAG, 지속가능성 보고 위원회 신임 의장에 케르스틴 로파타 임명',
       author: '관리자',
@@ -9104,7 +9104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 56,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: '글로벌 로드맵을 통한 산림 파괴 중단 약속 이행 방안',
       author: '관리자',
@@ -9146,7 +9146,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 50,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'law', categoryName: '법령·기준',
       topic: 'esg', topicName: 'ESG',
       title: 'GHG 프로토콜, 스코프 3 보고 표준 개정 방향 공개',
       author: '관리자',
@@ -9524,7 +9524,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 23,
       pinned: false,
-      category: 'news', categoryName: '소식',
+      category: 'insight', categoryName: '인사이트',
       topic: 'esg', topicName: 'ESG',
       title: 'ESG 주간 리뷰: EU 탄소 시장 개혁과 기업 지속가능성',
       author: '관리자',
