@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 626,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '환경 뉴스 라운드업: BNG 주요 업데이트 + 의회 PFAS 강력 대응 촉구',
       author: '관리자',
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 628,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 14001:2026 — 글로벌 환경경영 요건 상향',
       author: '관리자',
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 629,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Arthian 블로그 — ISO 14001 업데이트 핵심 정리',
       author: '관리자',
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 630,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 14001 표준 개정 — 조직이 알아야 할 5가지',
       author: '관리자',
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 632,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO·GHG 프로토콜, 통합 제품 단위 GHG 회계 표준 개발 워킹그룹 출범',
       author: '관리자',
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 633,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Forbes — 세계의 가장 복잡한 데이터 문제를 푸는 새 ISO 표준',
       author: '관리자',
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 635,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'DNG, 정식 국제 ISO 표준이 되다 — 영화·RAW 워크플로우의 의미',
       author: '관리자',
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 636,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '20년 노력 끝에 DNG, 공식 RAW 이미지 표준으로',
       author: '관리자',
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 638,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Marine News — ISO 선체 청소 표준 발행',
       author: '관리자',
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 639,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '건설기술 분야 상호운용성·효율성 위한 새 국제 표준',
       author: '관리자',
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 641,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: '성장을 위한 표준 — 우간다를 위한 인사이트',
       author: '관리자',
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 642,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 인사이트 — 양자 컴퓨팅과 표준화',
       author: '관리자',
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 645,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Trellis — 2026년 주요 기후·자연 표준 전망',
       author: '관리자',
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 646,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO의 새로운 Book & Claim 표준',
       author: '관리자',
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 647,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Anthesis — 2026 ISO 14001 업데이트 대비 가이드',
       author: '관리자',
@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 650,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Smithers — ISO 9001 2026 개정 일정과 기후 업데이트',
       author: '관리자',
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 651,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — ISO 9001 표준 해설',
       author: '관리자',
@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 653,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'NIST — 디지털 ID와 검증 가능 디지털 자격증명 생태계',
       author: '관리자',
@@ -460,7 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 656,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO, 일반 통역(Interpreting) 표준 핵심 내용 추가',
       author: '관리자',
@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 657,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Trellis — 기대되는 4대 ESG 업데이트 일정 정리',
       author: '관리자',
@@ -488,7 +488,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 658,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'UNDRR — ISO 22372, 안전한 인프라 위한 글로벌 프레임워크 표준',
       author: '관리자',
@@ -502,7 +502,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 659,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '협동로봇(코봇) 안전 표준 변화 — \'협업 응용\'으로 패러다임 전환',
       author: '관리자',
@@ -530,7 +530,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 661,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: '관리 시스템 인증 시장 규모 전망 (2034년까지)',
       author: '관리자',
@@ -544,7 +544,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 662,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'SBTi, 기업 넷제로 표준 신규 초안 공개 — \'포용·실행·적응\'',
       author: '관리자',
@@ -558,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 663,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '칠레, 지속가능 연계 채권(SLB) 프레임워크 업데이트 발표',
       author: '관리자',
@@ -572,7 +572,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 664,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'GBG, 호주 모바일 운전면허(mDL) 검증에 Mattr 통합 — ISO 표준 정합',
       author: '관리자',
@@ -586,7 +586,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 665,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO, 프라이버시 컴플라이언스 프로그램 관리 표준 업데이트',
       author: '관리자',
@@ -614,7 +614,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 667,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO, 기업 생물다양성 행동 위한 신규 국제 표준 출범',
       author: '관리자',
@@ -628,7 +628,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 668,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Green Queen — 새 국제 표준이 식물성 식품 라벨링을 바꿀 수 있을까',
       author: '관리자',
@@ -656,7 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 670,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '美 CISA·FBI·英 NCSC, OT 보안에 IEC 62443·ISO/IEC 27001 정합 권고',
       author: '관리자',
@@ -670,7 +670,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 671,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'EisnerAmper — 보안·프라이버시·AI를 위한 ISO 표준 가이드',
       author: '관리자',
@@ -684,7 +684,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 672,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'BSI, 7개 신규 ISO 표준 출범',
       author: '관리자',
@@ -698,7 +698,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 673,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'EDF — 진정한 청정수소를 위한 ISO 표준, 도움일까 저해일까',
       author: '관리자',
@@ -712,7 +712,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 674,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Construction UK — 정보보안 ISO 표준 업데이트, 건설사에 미치는 영향',
       author: '관리자',
@@ -726,7 +726,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 675,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '주요 로봇 안전 표준의 대대적 개정',
       author: '관리자',
@@ -740,7 +740,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 676,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: '식물성·비동물 자율 라벨링 가이드 신규 ISO 표준',
       author: '관리자',
@@ -754,7 +754,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 677,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'EY — ISO 37003 활용 종합 사기 예방 프레임워크 구축',
       author: '관리자',
@@ -768,7 +768,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 678,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'FATF, 특정 자금 이체 AML 표준 개정',
       author: '관리자',
@@ -796,7 +796,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 680,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'NIS2 업데이트 — EU 사이버 당국, 컴플라이언스 기대 명확화',
       author: '관리자',
@@ -810,7 +810,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 681,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Smithers — ISO 9001:2015, 품질경영 표준의 다음 단계',
       author: '관리자',
@@ -838,7 +838,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 683,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Atos — 사이버보안 규제 압박과 산업 프레임워크 중간 점검',
       author: '관리자',
@@ -852,7 +852,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 684,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ICAEW — AI 관리 시스템 인증 기관 위한 신규 표준',
       author: '관리자',
@@ -866,7 +866,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 685,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: '3MF 파일 포맷, 공식 ISO 적층제조 표준',
       author: '관리자',
@@ -880,7 +880,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 686,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'VoxelMatters — 3MF 공식 ISO 표준 등극',
       author: '관리자',
@@ -894,7 +894,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 687,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Research Live — 시장조사 ISO 초안 표준 공개 의견 수렴',
       author: '관리자',
@@ -908,7 +908,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 688,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Smithers — ISO 표준의 미래: 핵심 트렌드와 업데이트',
       author: '관리자',
@@ -922,7 +922,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 689,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Quality Magazine — ISO 10012 개정 업데이트',
       author: '관리자',
@@ -936,7 +936,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 690,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Deloitte — ISO 42001, AI 거버넌스·리스크 관리 표준',
       author: '관리자',
@@ -950,7 +950,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 691,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ANSI — AI를 활용한 혁신 표준(ISO 56007) 개발',
       author: '관리자',
@@ -964,7 +964,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 692,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ANSI — ISO 3103, 차(茶) 우리는 표준',
       author: '관리자',
@@ -992,7 +992,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 694,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 27001 같은 확장형 글로벌 프레임워크가 중요한 이유',
       author: '관리자',
@@ -1006,7 +1006,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 695,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — 재생에너지와 표준화',
       author: '관리자',
@@ -1020,7 +1020,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 696,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'TÜV SÜD — ISO 14001·45001 개정 임박, 무엇을 준비할까',
       author: '관리자',
@@ -1034,7 +1034,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 697,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — 산업안전보건',
       author: '관리자',
@@ -1048,7 +1048,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 698,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — 운송 분야 표준화',
       author: '관리자',
@@ -1062,7 +1062,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 699,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'KPMG — ISO 20022, 더 스마트한 결제를 위한 새 표준',
       author: '관리자',
@@ -1076,7 +1076,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 700,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'news', categoryName: '소식',
       topic: 'iso', topicName: 'ISO',
       title: 'BSI, 환경경영 표준 업데이트 공개 의견 수렴 시작',
       author: '관리자',
@@ -1090,7 +1090,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 701,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'A3 — ISO 10218 개정, 자주 묻는 질문(FAQ)',
       author: '관리자',
@@ -1104,7 +1104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 702,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ABeam — ISO 20022 컴플라이언스, 단순 규제 이상의 의미',
       author: '관리자',
@@ -1118,7 +1118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 703,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ANSI — 인증 트렌드: 49개 인정 기관 설문 인사이트',
       author: '관리자',
@@ -1132,7 +1132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 704,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'stonex — ISO 20022, 글로벌 결제를 위한 새 표준 이해하기',
       author: '관리자',
@@ -1146,7 +1146,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 705,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Quality Magazine — 지속가능성·기술이 형성하는 다음 ISO 9001 업데이트',
       author: '관리자',
@@ -1160,7 +1160,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 706,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Med-Tech — ISO 13485가 의료용 배터리 제조에 미치는 영향',
       author: '관리자',
@@ -1188,7 +1188,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 708,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Quality Magazine — ISO 10012 업데이트',
       author: '관리자',
@@ -1202,7 +1202,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 709,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — Standards World',
       author: '관리자',
@@ -1216,7 +1216,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 710,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'KPMG — ISO/IEC 42001, AI 거버넌스 새 표준',
       author: '관리자',
@@ -1230,7 +1230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 711,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Trellis — ISO 첫 넷제로 표준에 대해 알아야 할 것',
       author: '관리자',
@@ -1244,7 +1244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 712,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Skadden — EU AI Act 지원하는 EU 표준화',
       author: '관리자',
@@ -1258,7 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 713,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — 사이버보안',
       author: '관리자',
@@ -1272,7 +1272,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 714,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — 기후 변화',
       author: '관리자',
@@ -1286,7 +1286,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 715,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO — 표준의 세계로 들어가는 \'Zoom in on Standards\'',
       author: '관리자',
@@ -1300,7 +1300,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 716,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'The Conversation — 글로벌 표준의 작은 업데이트가 기후 인식에 기여',
       author: '관리자',
@@ -1314,7 +1314,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 717,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'PwC — ISO 20022 표준에 대해 알아야 할 것',
       author: '관리자',
@@ -1328,7 +1328,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 718,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — 헬스케어 분야 표준화',
       author: '관리자',
@@ -1342,7 +1342,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 719,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO 공식 인사이트 — 전체 뉴스 모음',
       author: '관리자',
@@ -1356,7 +1356,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 720,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'TÜV SÜD — ISO 9001:2015 표준 개정',
       author: '관리자',
@@ -1370,7 +1370,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 721,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'ISO — AI 인사이트: 중소기업 성장을 위한 AI 활용',
       author: '관리자',
@@ -1384,7 +1384,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 722,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'AgencyIQ — 새로운 MDR/IVDR 표준화 요청, 표준 추가·시한 조정',
       author: '관리자',
@@ -1412,7 +1412,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 724,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Renewable Matter — 순환경제 위한 새 ISO 표준 소개',
       author: '관리자',
@@ -1426,7 +1426,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 725,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Frontiers — 해양 탐사와 환경 영향 평가의 국제 표준 인사이트',
       author: '관리자',
@@ -1440,7 +1440,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 726,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'AWS — GQL: 그래프를 위한 ISO 표준 등장',
       author: '관리자',
@@ -1454,7 +1454,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 727,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Slator — ISO 5060 신규 표준, 번역 품질 위한 인적 평가 강조',
       author: '관리자',
@@ -1468,7 +1468,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 728,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Quality Digest — ISO 9001 개정 진행 중',
       author: '관리자',
@@ -1482,7 +1482,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 729,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Quality Digest — ISO 9001:2000 업데이트 회고',
       author: '관리자',
@@ -1496,7 +1496,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 730,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Quality Digest — ISO 9000 개정의 의미',
       author: '관리자',
@@ -1510,7 +1510,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 731,
       pinned: false,
-      category: 'law', categoryName: '법령·기준',
+      category: 'insight', categoryName: '인사이트',
       topic: 'iso', topicName: 'ISO',
       title: 'Pinsent Masons — ISO·IEC, AI 새 국제 표준 발행',
       author: '관리자',
