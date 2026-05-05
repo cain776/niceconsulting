@@ -3712,20 +3712,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 462,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: 'Energi.AI, 지속가능성 자문사 CEMAsys 인수',
-      author: '관리자',
-      date: '2026.05.04',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>노르웨이의 기후 테크 플랫폼 Energi.AI가 지속가능성 전문 자문사인 CEMAsys를 인수하며 서비스 역량을 강화했습니다. 이번 인수는 Energi.AI의 AI 기반 탄소 회계 자동화 기술과 CEMAsys의 ESG 보고 및 컨설팅 전문성을 결합하기 위해 추진되었습니다. 양사는 이를 통해 기업들이 유럽의 CSRD 등 강화되는 ESG 공시 규제에 효율적으로 대응할 수 있도록 통합 솔루션을 제공할 예정입니다.</p><h3>주요 포인트</h3><ul><li>AI 기반 탄소 데이터 분석과 전문가 자문의 결합을 통한 시너지 창출</li><li>유럽 기업지속가능성보고지침(CSRD) 등 글로벌 공시 규제 대응 지원</li><li>탄소 배출량 측정, 관리 및 ESG 보고서 작성의 전 과정 자동화 및 고도화</li></ul><p>원문: <a href="https://www.esgtoday.com/carbon-data-platform-energi-ai-acquires-sustainability-advisory-cemasys/?utm_source=rss&utm_medium=rss&utm_campaign=carbon-data-platform-energi-ai-acquires-sustainability-advisory-cemasys" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 463,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -7604,20 +7590,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 170,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '볼리비아 열대우림 파괴와 메노나이트 종파의 콩 재배',
-      author: '관리자',
-      date: '2026.05.04',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>볼리비아의 중요한 열대우림이 메노나이트(Mennonites) 종파의 대규모 농경지 확장으로 인해 심각한 파괴 위기에 처해 있습니다. 이들은 종교적 신념에 따라 고립된 생활을 유지하면서도, 현대적인 대규모 기계식 농법을 도입하여 콩을 재배하며 산림을 개간하고 있습니다. 이러한 활동은 생물 다양성 손실과 탄소 배출을 가속화하며 지구 환경에 큰 위협이 되고 있습니다.</p><h3>주요 포인트</h3><ul><li>메노나이트 공동체의 확장이 볼리비아 산림 파괴의 주요 원인 중 하나로 지목됨</li><li>전 세계적인 콩 수요 증가가 이들의 공격적인 토지 개간과 농업 확장을 부추김</li><li>정부의 규제 미비와 토지 소유권 문제로 인해 보호 구역 내 산림 훼손이 지속됨</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3hb18/these_tropical_forests_are_critically_important/" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 171,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -7702,20 +7674,6 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
-      id: 159,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '포드, 13억 달러 관세 환급 기대에도 공급망 압박 지속',
-      author: '관리자',
-      date: '2026.05.04',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>포드는 과거 지불한 관세에 대해 약 13억 달러의 환급을 예상하고 있으나, 여전히 공급망 및 원자재 가격 변동으로 인한 도전에 직면해 있습니다. 특히 2026년에는 새로운 관세 정책의 영향으로 약 10억 달러의 추가 비용 부담이 발생할 것으로 전망됩니다. 회사는 이러한 비용 압박을 상쇄하기 위해 공급망 효율화와 원가 절감 전략에 집중하고 있습니다.</p><h3>주요 포인트</h3><ul><li>과거 수입 부품에 대해 지불했던 관세 중 약 13억 달러의 환급을 기대함</li><li>2026년부터 강화되는 관세 규정으로 인해 약 10억 달러 규모의 타격 예상</li><li>원자재 가격 상승 및 공급망 불안정성이 지속적인 경영 리스크로 작용</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/ford-expects-13b-tariff-refund-but-supply-chain-pressure-remains/819136/" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
       id: 160,
       pinned: false,
       category: 'news', categoryName: '소식',
@@ -7741,20 +7699,6 @@ document.addEventListener('DOMContentLoaded', () => {
       hasAttachment: false,
       content: `
         <h2>핵심 내용</h2><p>전 세계 정부들이 친환경 해운 조치를 최종 확정하기 위해 2026년 말 3주간의 집중 회담을 개최하기로 합의했습니다. 이번 회담은 글로벌 해운 산업의 탈탄소화 목표를 실현하기 위한 결정적인 계기가 될 것으로 전망됩니다. 각국 대표들은 연료 표준 설정 및 탄소 가격 책정과 같은 구체적인 기술적·경제적 이행 방안을 마무리 짓는 데 집중할 예정입니다.</p><h3>주요 포인트</h3><ul><li>친환경 해운 조치 도입을 위한 3주간의 집중 협상 일정 합의</li><li>해운 산업 탈탄소화를 위한 연료 표준 및 탄소세 등 핵심 규제 논의</li><li>국제해사기구(IMO)의 온실가스 감축 목표 달성을 위한 중대한 분수령</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/01/key-green-shipping-talks-to-be-held-in-late-2026/" target="_blank" rel="noopener">원문 보기</a></p>
-      `
-    },
-    {
-      id: 162,
-      pinned: false,
-      category: 'news', categoryName: '소식',
-      topic: 'esg', topicName: 'ESG',
-      title: '해수면 상승 위기, 뉴올리언스 \'지금 당장 이주 시작해야\'',
-      author: '관리자',
-      date: '2026.05.04',
-      views: 0,
-      hasAttachment: false,
-      content: `
-        <h2>핵심 내용</h2><p>최근 발표된 연구에 따르면 해수면 상승으로 인해 루이지애나주의 문화적 중심지인 뉴올리언스가 이번 세기 말 이전에 멕시코만에 둘러싸일 위기에 처해 있습니다. 전문가들은 이미 '돌아올 수 없는 지점'에 도달했으므로 도시 이주 계획을 즉시 시작해야 한다고 경고하고 있습니다. 기후 변화로 인한 지형 변화가 가속화됨에 따라 단순한 방어벽 구축을 넘어선 근본적인 대책이 시급한 상황입니다.</p><h3>주요 포인트</h3><ul><li>해수면 상승으로 인해 뉴올리언스가 21세기 내에 고립되거나 침수될 가능성 제기</li><li>연구진은 도시 보존을 위한 방어보다 선제적인 이주 계획 수립이 필요하다고 강조</li><li>기후 위기가 루이지애나의 문화적 유산과 거주 지역에 실존적 위협을 가함</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t3clqy/point_of_no_return_new_orleans_relocation_must/" target="_blank" rel="noopener">원문 보기</a></p>
       `
     },
     {
