@@ -108,7 +108,8 @@
 .board-filter select {
   -webkit-appearance: none;
   appearance: none;
-  padding: 10px 36px 10px 16px;
+  height: 40px;
+  padding: 0 36px 0 16px;
   font-size: 14px;
   font-family: var(--font-sans);
   border: 1px solid #D0D0D0;
@@ -119,6 +120,7 @@
   outline: none;
   transition: border-color 0.2s;
   min-width: 100px;
+  box-sizing: border-box;
 }
 
 .board-filter select:focus {
@@ -140,7 +142,8 @@
 }
 
 .board-search-input {
-  padding: 10px 16px;
+  height: 40px;
+  padding: 0 16px;
   font-size: 14px;
   font-family: var(--font-sans);
   border: 1px solid #D0D0D0;
@@ -150,6 +153,7 @@
   outline: none;
   transition: border-color 0.2s;
   width: 220px;
+  box-sizing: border-box;
 }
 
 .board-search-input::placeholder {
@@ -164,17 +168,19 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 10px 20px;
+  height: 40px;
+  padding: 0 20px;
   font-size: 14px;
   font-family: var(--font-sans);
   font-weight: 500;
   background: var(--navy);
   color: var(--white);
-  border: none;
+  border: 1px solid var(--navy);
   border-radius: 2px;
   cursor: pointer;
   transition: background 0.2s;
   white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .board-search-btn:hover {
