@@ -58,7 +58,7 @@
             '<span class="logo-text" id="logoText"><em>ESG를 말하다</em></span>' +
           '</a>' +
           '<nav class="nav" id="nav">' +
-            '<a href="' + bp('/') + '" class="nav-link' + ac('board') + '">자료실</a>' +
+            '<a href="' + bp('/') + '" class="nav-link' + ac('board') + '">현장의 시선</a>' +
             '<a href="' + bp('/esg/index.html') + '" class="nav-link' + ac('esg') + '">ESG</a>' +
             '<a href="' + bp('/ecovadis/index.html') + '" class="nav-link' + ac('ecovadis') + '">에코바디스</a>' +
             '<a href="' + bp('/iso/index.html') + '" class="nav-link' + ac('iso') + '">ISO</a>' +
