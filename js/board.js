@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 848,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 지속가능성 기반 조달 규모 2.5조 달러 돌파',
+      author: '관리자',
+      date: '2026.05.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스(EcoVadis)의 최신 보고서에 따르면, 전 세계 약 2.5조 달러 규모의 기업 지출이 지속가능성 리스크 인사이트를 통해 관리되고 있습니다. 기업들은 이제 단순한 규제 준수를 넘어 공급망의 회복탄력성을 강화하기 위해 지속가능성 데이터를 전략적으로 활용하는 추세입니다. 특히 지속적인 평가를 받는 기업일수록 환경 및 사회적 성과가 눈에 띄게 개선되는 것으로 나타났습니다.</p><h3>주요 포인트</h3><ul><li>글로벌 조달 시장이 단순 컴플라이언스에서 회복탄력성 중심의 조달로 패러다임 전환</li><li>에코바디스 평가를 받는 10만 개 이상의 기업 중 지속적 참여 기업의 성과 개선 뚜렷</li><li>공급망 내 탄소 배출 및 인권 리스크 관리가 기업의 장기적 경쟁력 확보를 위한 필수 요소로 정착</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMisgJBVV95cUxNWUR2S2FsNk02SW1JZWdwSnlyZV9XUS00SzNjX3ZQRkgtNVhlTEd4a1I4NGdZTmV5QkoyMzlUZkVsWkFGYWFTOE1Kb1JwRVpGcVBoNHdEOXN1czRMb2Z6SGg2Rnk5SkwzX051TFZKY1NGSDE4eUR2Y0NEeFVNeWZfbVhFUDAyaE9CMjEtc3M3TE9UVzg4SUNzNGJmUWJSTG44dXJScEtRS2NqRjI4Q29oOGQ5SDZMaDc4SkRRX2d5S3VpS3ZRdXFxZnAxTU9Xd0E0SE9ViVV5OXB6ckJjSHRaaEtKeXgwTm5kc1ZqcE1tX3hib0UyQk1idTJmOHdpSTlNUEJ1XzAyZDhPS1lvRlFRb2cyY2tVenBOanhxSERlZEpVUktmdUxFXzNqaDJpVkhLT1E?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 849,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '글로벌 해운 \'넷제로\' 합의, 다시 정상 궤도 진입',
+      author: '관리자',
+      date: '2026.05.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제해사기구(IMO) 회원국들이 글로벌 해운 부문의 탄소 배출을 줄이기 위한 프레임워크 구축에 합의하며 넷제로 목표 달성을 위한 논의를 재개했습니다. 이번 회의를 통해 연료 표준과 탄소 가격 책정 등 기술적·경제적 조치를 포함한 'IMO 넷제로 프레임워크' 초안이 마련되었습니다. 국가 간 이해관계 차이에도 불구하고 2025년 규제안 채택을 위한 일정이 차질 없이 진행되고 있습니다. 이는 전 세계 온실가스 배출의 약 3%를 차지하는 해운 산업의 탈탄소화를 향한 중요한 진전으로 평가받습니다.</p><h3>주요 포인트</h3><ul><li>2050년 넷제로 달성을 위한 온실가스 연료 표준(기술적) 및 탄소 가격제(경제적) 도입 논의</li><li>탄소세 수익 배분 및 규제 수준을 둘러싼 선진국과 개발도상국 간의 이견 조율 지속</li><li>2025년 최종 승인 및 2027년 발효를 목표로 하는 구체적인 로드맵 및 프레임워크 초안 확정</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-how-countries-got-the-global-net-zero-shipping-deal-back-on-track/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 850,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'KCC글라스, 글로벌 ESG 평가 최고 등급 ‘플래티넘’ 획득',
+      author: '관리자',
+      date: '2026.04.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>KCC글라스가 글로벌 ESG 평가기관인 에코바디스(EcoVadis)로부터 최고 등급인 ‘플래티넘’을 획득했습니다. 이는 전 세계 10만여 개 기업 중 상위 1%에 해당하는 성적으로, KCC글라스의 지속가능경영 역량이 세계적인 수준임을 입증했습니다. 회사는 환경, 노동 및 인권, 윤리 등 모든 평가 항목에서 고르게 높은 점수를 받았습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 ESG 평가에서 전 세계 상위 1% 기업에게 부여되는 최고 등급인 ‘플래티넘’ 획득</li><li>환경, 노동 및 인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 평가 기록</li><li>글로벌 시장에서의 신뢰도 제고 및 지속가능한 공급망 관리 역량 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZeWpOR3FKT3E1RnltZGNWWDhzb0FUNzhyTUctY1JYc0JoYV9kdHk3UGV1S0dRXzZvc3k5NE9EQW1wSDZrdWU2RzhRVmlfU2cxQkQ2UC1sVk03TzR1MGlBRnFJM0tWcjIxMjhiV0t3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 851,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에너지 전환의 희토류 문제와 해결에 나선 스타트업들',
+      author: '관리자',
+      date: '2026.05.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 전환의 핵심인 전기차 모터 제조에 필수적인 희토류 공급망을 중국이 독점하면서 글로벌 공급망 리스크가 커지고 있습니다. 이에 대응하여 전 세계 스타트업들은 희토류 의존도를 낮추거나 아예 사용하지 않는 혁신적인 모터 기술을 개발하고 있습니다. 이러한 기술적 돌파구는 지정학적 불안정성을 해소하고 보다 지속 가능한 청정 에너지로의 전환을 가속화할 것으로 보입니다.</p><h3>주요 포인트</h3><ul><li>중국의 희토류 공급망 독점에 따른 글로벌 에너지 안보 위기 및 대안 마련의 시급성</li><li>희토류를 사용하지 않는 새로운 방식의 전기차 모터 설계 및 자석 대체 기술 개발</li><li>기존 제품에서 희토류를 회수하는 재활용 기술을 통한 자원 순환 체계 구축</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/05/the-energy-transition-has-a-rare-earth-problem-these-startups-are-solving-it/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 852,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'Scope 3 탈탄소화: 공급망 협력 시 목표 달성률 9배 향상',
+      author: '관리자',
+      date: '2026.05.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis와 킴벌리-클라크(Kimberly-Clark)의 대담을 통해 55,000개 기업의 데이터를 분석한 Scope 3 탈탄소화 전략이 공개되었습니다. 분석 결과, 공급업체와 적극적으로 협력하는 기업은 그렇지 않은 기업보다 2030년 탄소 감축 목표를 달성할 확률이 9배나 높은 것으로 나타났습니다. 특히 유통 및 소비재 기업에게 Scope 3 배출량 관리는 기후 목표 달성을 위한 필수적인 과제임을 강조합니다.</p><h3>주요 포인트</h3><ul><li>공급업체 참여(Supplier engagement)는 탄소 감축 목표 달성 가능성을 9배 향상시킵니다.</li><li>EcoVadis와 BCG가 55,000개 기업을 분석하여 데이터 기반의 탈탄소화 로드맵을 제시했습니다.</li><li>킴벌리-클라크의 사례를 통해 실질적인 공급망 관리와 Scope 3 감축 노하우를 공유합니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/scope-3-decarbonization-roadmap/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 846,
       pinned: false,
       category: 'news', categoryName: '소식',
