@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 853,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '‘세계의 운명’: 무시할 수 없는 기후 위기의 경고',
+      author: '관리자',
+      date: '2026.05.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>빌 맥과이어 교수는 과학적 데이터를 바탕으로 현재의 기후 위기가 지구의 긴 역사 속에서 얼마나 심각한 위치에 있는지 경고합니다. 그는 지질학적 관점에서 과거의 변화와 현재의 탄소 배출 속도를 비교하며, 우리가 직면한 상황이 전례 없는 재앙이 될 수 있음을 시사합니다. 결국 인류의 현재 선택이 지구의 미래와 생태계의 운명을 결정짓는 핵심 요소임을 강조하고 있습니다.</p><h3>주요 포인트</h3><ul><li>지질학적 시간(Deep Time)의 관점에서 분석한 기후 위기의 심각성</li><li>과거 대멸종 시기와 비교했을 때 현재 기후 변화 속도의 위험성</li><li>미래 세대와 지구의 운명을 바꾸기 위한 즉각적인 행동의 필요성</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t5pdm5/the_fate_of_the_world_a_climate_warning_we_cant/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 854,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '세라젬, 홈 헬스케어 기기 연동 국제표준 제안',
+      author: '관리자',
+      date: '2026.05.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>세라젬이 국제표준화기구(ISO) 회의에서 홈 헬스케어 기기 간 데이터 연동을 위한 국제표준안을 제안하며 글로벌 시장 선점에 나섰습니다. 이번 표준안은 다양한 제조사의 건강 관리 기기들이 서로 원활하게 데이터를 교환할 수 있는 기술적 규격을 담고 있습니다. 이를 통해 사용자는 개별 기기에 구애받지 않고 통합된 건강 관리 서비스를 경험할 수 있게 됩니다. 세라젬은 이번 표준 제안을 통해 디지털 헬스케어 분야의 기술 리더십을 더욱 강화할 예정입니다.</p><h3>주요 포인트</h3><ul><li>ISO/TC 215 회의에서 홈 헬스케어 데이터 연동 국제표준안 발표</li><li>제조사 간 기기 호환성 문제를 해결하여 사용자 편의성 극대화</li><li>디지털 전환(DX)을 통한 글로벌 홈 헬스케어 생태계 주도권 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE15U25rTXRFbFNkV3laR3NXR0RDTS1FTTl3OWFsMzF5dXRUd2toT1J2TjZaTTcwQ3Z6V2FSeWJqNmRjekdNTVBBTlFoeTNEaXg1MVhqTm8zLWFLdHZlZ0V1blA1WHhVaFRjTGRv?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 855,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '과학자들이 폭로한 육류·유제품 업계의 그린워싱 실태',
+      author: '관리자',
+      date: '2026.05.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>과학자들이 육류 및 유제품 산업에서 자행되는 광범위한 그린워싱의 규모를 밝혀냈습니다. 많은 기업이 겉으로는 탄소 중립을 약속하고 있지만, 실제로는 배출량 감축보다는 기후 정책에 반대하는 로비에 더 집중하고 있는 것으로 나타났습니다. 이번 연구는 축산업이 환경에 미치는 영향을 오도하는 마케팅 기법을 비판하며, 투명한 정보 공개와 규제의 필요성을 강조합니다.</p><h3>주요 포인트</h3><ul><li>주요 육류 및 유제품 기업들의 허위 친환경 마케팅 및 탄소 중립 선언 실태 폭로</li><li>실질적인 온실가스 감축 노력 대신 기후 규제를 방해하는 로비 활동 지속</li><li>소비자를 현혹하는 축산업의 환경적 영향 축소 및 은폐 전략에 대한 경고</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t5kcvg/scientists_reveal_the_scale_of_meat_and_dairy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 856,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'KCC글라스, 에코바디스 ESG 평가 최고 등급 ‘플래티넘’ 획득',
+      author: '관리자',
+      date: '2026.05.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>KCC글라스가 글로벌 ESG 평가기관인 에코바디스(EcoVadis)의 2024년 지속가능성 평가에서 최고 등급인 ‘플래티넘(Platinum)’ 메달을 획득했습니다. 이는 전 세계 평가 대상 기업 중 상위 1% 이내에 해당하는 성적으로, KCC글라스의 ESG 경영 역량이 세계적인 수준임을 입증했습니다. 회사는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 부문에서 고르게 높은 점수를 받았습니다.</p><h3>주요 포인트</h3><ul><li>전 세계 10만여 개 기업 중 상위 1%에게만 부여되는 최고 등급 획득</li><li>지난해 '골드' 등급에 이어 한 단계 상승하며 지속적인 ESG 개선 성과 증명</li><li>환경 경영 시스템 강화 및 투명한 공급망 관리 체계 구축 노력을 인정받음</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBwNmw3UGpOS1BjWVVUYm1QY3RhUVlrY3M0RjlUT1Q1N1VYY2lrZGdJS3g5eDF5Zm1SMXFQMmZIeV9QcmowSDNsLW55UlI2cnR5aWJsVXJ1RVlycUh2TV81MzIzNldUSTRkaXhZ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 857,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '쉘, 나이저 델타 자산 매각 후에도 석유 거래로 수익 지속',
+      author: '관리자',
+      date: '2026.05.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>쉘(Shell)은 나이지리아 나이저 델타의 육상 유전 자산을 매각하며 자사의 기후 변화 대응 성과를 홍보해 왔으나, 실상은 매각된 자산에서 생산되는 석유를 여전히 거래하며 수익을 올리고 있는 것으로 드러났습니다. 이는 기업이 자산을 매각함으로써 장부상의 탄소 배출량은 줄이면서도, 실제 화석 연료 비즈니스 모델은 유지하고 있다는 비판을 불러일으키고 있습니다. 결과적으로 이러한 방식의 자산 매각은 실질적인 탄소 감축보다는 ESG 지표를 관리하기 위한 전략적 행보라는 지적입니다.</p><h3>주요 포인트</h3><ul><li>쉘은 나이지리아 육상 사업 철수를 기후 위기 대응을 위한 성과로 활용함</li><li>조사 결과, 쉘은 매각한 과거 사업부에서 생산된 석유를 계속해서 유통 및 거래 중임</li><li>자산 매각이 지역 사회의 환경 오염 책임을 회피하고 수익만 챙기는 수단으로 악용될 우려 제기</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/06/how-shell-is-still-benefiting-from-offloaded-niger-delta-oil-assets/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 848,
       pinned: false,
       category: 'news', categoryName: '소식',
