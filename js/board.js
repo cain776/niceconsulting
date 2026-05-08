@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 858,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존 공급망 서비스, 물류 업계의 새로운 거물로 부상하나?',
+      author: '관리자',
+      date: '2026.05.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아마존이 제조 공장에서 고객의 집 앞까지 전 과정을 통합 관리하는 '아마존 공급망(Supply Chain by Amazon)' 서비스를 강화하며 물류 시장의 판도를 흔들고 있습니다. 이 서비스는 자동화된 재고 관리와 글로벌 배송 시스템을 통해 화주들에게 높은 효율성과 비용 절감 혜택을 제공하는 것이 특징입니다. 전문가들은 아마존의 방대한 인프라가 기존 3자 물류(3PL) 기업들에게 강력한 위협이 될 것으로 평가하고 있습니다. 다만, 성수기 등 물동량이 몰릴 때 외부 화주를 위한 충분한 물류 용량을 공정하게 배분할 수 있을지에 대해서는 여전히 의문이 제기되고 있습니다.</p><h3>주요 포인트</h3><ul><li>엔드투엔드(End-to-End) 통합 물류 서비스를 통한 공급망 운영의 단순화 및 효율성 극대화</li><li>기존 물류 대기업들과 경쟁 가능한 수준의 압도적인 인프라와 규모의 경제 확보</li><li>성수기 용량 배분 문제 및 아마존 자사 물량 우선 처리 가능성에 대한 화주들의 우려 상존</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/is-amazon-supply-chain-services-already-a-logistics-heavyweight/819522/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 859,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '트럼프의 풍력 산업 고사와 위험한 정치적 선례',
+      author: '관리자',
+      date: '2026.05.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>도널드 트럼프 전 대통령이 행정력을 동원해 미국의 해상 풍력 산업을 체계적으로 파괴하고 있다는 비판이 제기되었습니다. 그는 법적 절차를 우회하는 초법적인 수단을 통해 주요 프로젝트를 지연시키거나 중단시켰으며, 이는 단순한 정책 반대를 넘어선 산업 자체의 고사로 이어지고 있습니다. 이러한 방식은 향후 다른 행정부에서도 특정 산업을 임의로 억압하는 도구로 활용될 수 있다는 점에서 심각한 우려를 낳고 있습니다.</p><h3>주요 포인트</h3><ul><li>행정 권한을 남용한 해상 풍력 프로젝트의 인위적 지연 및 취소</li><li>의회 입법 절차를 무시하고 산업을 위축시키는 초법적 선례 구축</li><li>재생에너지 투자 위축으로 인한 미국의 녹색 산업 경쟁력 약화</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1t6mhxg/trump_is_getting_away_with_murdering_an_american/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 860,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 친환경 선박 ISO 국제표준 주도',
+      author: '관리자',
+      date: '2026.05.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 한국이 제안한 친환경 선박 관련 기술 2건이 국제표준화기구(ISO)의 국제표준으로 최종 제정되었다고 발표했습니다. 이번에 제정된 표준은 액화수소 연료탱크와 암모니아 벙커링 선박의 안전 및 운영 지침을 포함하고 있습니다. 이는 한국 조선업계가 차세대 친환경 선박 시장에서 기술적 우위를 확보하고 글로벌 표준을 주도하고 있음을 보여줍니다. 정부는 앞으로도 수소 및 암모니아 등 무탄소 연료 선박의 표준화를 지속적으로 지원하여 조선 강국의 위상을 공고히 할 계획입니다.</p><h3>주요 포인트</h3><ul><li>액화수소 연료탱크 및 암모니아 벙커링 관련 ISO 국제표준 제정 주도</li><li>국내 조선업계의 글로벌 시장 경쟁력 강화 및 기술적 선점 발판 마련</li><li>탄소중립 실현을 위한 차세대 친환경 선박 표준화 로드맵 지속 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWUYyNTUzZFpjVl9helAwQndqRUJLOWhNYUVIVXRlLV9ZWVBhX2p6UXhmQ0NXMXhmZmg0X0ZVN3Q0SVBQRzRMTmttU3YxREJ3c05XWXFBdWxDRHIwVllUZG5ldEl2NUljaFhGMmozWXN5ZUJCajR4bDI2TjdxQ1BEcDRDb3l3dDhvNmtSVHByZUkyb0txbElHMW5haXAyTXEwSmhWUHV5VnBhOVg1MjJkZW5IczAzaVVmOWxmbElqeDNfSEQyMEE0Q0VNMW55VlMyUndXOHAtWi12MWc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 861,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '소규모 농장 중대재해처벌법 안내서 배포',
+      author: '관리자',
+      date: '2026.05.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>농림축산식품부가 5인 이상 50인 미만 소규모 농장을 대상으로 '중대재해처벌법' 적용에 따른 안내문과 교육 교안을 제작해 배포했습니다. 올해 1월부터 해당 법안이 소규모 사업장까지 확대 적용됨에 따라 농가들의 혼란을 줄이고 안전 관리 체계를 구축하기 위한 조치입니다. 안내서에는 농업 분야의 주요 사고 사례와 안전 보건 확보 의무 이행을 위한 체크리스트 등이 포함되었습니다.</p><h3>주요 포인트</h3><ul><li>5인 이상 50인 미만 농장에 대한 중대재해처벌법 확대 적용 대응 가이드 마련</li><li>농작업 중 발생하는 주요 사고 사례 및 유형별 안전 수칙 상세 안내</li><li>농장주가 스스로 안전 보건 관리 체계를 점검할 수 있는 자가 진단표 제공</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CVDhEZ1RFSDVxWHFlWXU3c3VyZWxjNEs5U2tlVURtOWEya1VWQm9ScWtDbGFXNm9PVUg3RnlPNGZ5YU9RZlFYLXFNUkJIU2pkY1A1VWJIMl9HT0x2ZGdZLdIBeEFVX3lxTE1KekhUSjNLeGZnTUN0VTFGY0pheW5Xa0h3N3gzWkVYb2QwVUV2VVJJVF9wSDcyVVZVdWtFR0JrT1BTN09fUW42RjZFUGlUWkt4VUJUNl93YUxOMkpvVnIzdXlZRkp1aDBqLWhHb0ZHUnZaa0FFckR4Mg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 862,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Moeve-액센츄어, 산업 탈탄소화 솔루션 협력',
+      author: '관리자',
+      date: '2026.05.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>마드리드 기반의 에너지 기업 Moeve와 글로벌 컨설팅 기업 액센츄어가 산업 탈탄소화 솔루션 개발을 위해 파트너십을 체결했습니다. 양사는 탄소 배출 감축이 어려운 산업 분야의 기업들이 넷제로 목표를 달성할 수 있도록 디지털 기술과 에너지 전문성을 결합한 서비스를 제공할 예정입니다. 이번 협력은 Moeve의 저탄소 에너지 전환 전략을 가속화하고, 고객사의 탄소 발자국 측정 및 에너지 효율 최적화를 지원하는 데 중점을 둡니다.</p><h3>주요 포인트</h3><ul><li>Moeve와 액센츄어의 산업 탈탄소화를 위한 전략적 파트너십 체결</li><li>에너지 전문성과 디지털 기술을 결합한 맞춤형 탈탄소 솔루션 제공</li><li>탄소 배출이 많은 '하드 투 어베이트(Hard-to-abate)' 산업군 집중 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/moeve-accenture-partner-on-industrial-decarbonization-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=moeve-accenture-partner-on-industrial-decarbonization-solutions" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 853,
       pinned: false,
       category: 'news', categoryName: '소식',
