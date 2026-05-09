@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 863,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 탄소 농법 인증 초안, 파리 협정 기준에 못 미쳐',
+      author: '관리자',
+      date: '2026.05.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU의 탄소 흡수 및 배출 감축 인증을 위한 규정 초안이 파리 협정 제6조에서 명시한 과학적 기준보다 낮다는 분석 결과가 발표되었습니다. 새로운 보고서에 따르면 현재의 EU 방법론은 기후 목표 달성을 위한 환경적 무결성을 충분히 보장하지 못하고 있습니다. 이에 따라 EU 정책 입안자들이 해당 규정을 공식적으로 채택하기 전에 기준을 대폭 강화해야 한다는 목소리가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li>EU 탄소 농법 방법론의 과학적 엄격성 부족 지적</li><li>파리 협정 제6조의 국제 표준과 EU 초안 간의 격차 확인</li><li>공식 채택 전 환경적 무결성 확보를 위한 정책 개선 촉구</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/05/07/eu-carbon-farming-methodologies-weaker-than-the-paris-standard/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 864,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'P&G, \'공급망 3.0\' 글로벌 확대로 생산성 강화',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>P&G는 전 세계 제조 공장과 창고에 자동화 기술을 도입하는 '공급망 3.0' 플랫폼의 대규모 확산을 추진합니다. 이를 통해 생산성을 대폭 높이고 운영 효율성을 극대화할 계획입니다. 디지털 전환을 통해 공급망의 회복탄력성을 강화하고 비용 절감을 달성하는 것이 주요 목표입니다.</p><h3>주요 포인트</h3><ul><li>전 세계 제조 및 물류 시설에 자동화 기술 대규모 도입</li><li>'공급망 3.0' 플랫폼을 통한 생산성 향상 및 비용 효율화</li><li>데이터와 기술을 활용한 공급망 관리 체계의 디지털 전환 가속화</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/pg-shifts-supply-chain-30-other-platforms-into-large-scale-rollout/819256/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 865,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메타, EDP 리뉴어블과 240MW 규모 재생에너지 계약 체결',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>메타(Meta)가 EDP 리뉴어블 북미(EDPR NA)와 버지니아주 랜돌프 태양광 발전소의 240MW 전력 구매 계약(PPA)을 체결했습니다. 이번 계약은 메타의 데이터 센터 운영에 필요한 청정 에너지를 확보하고, 2020년부터 유지해 온 100% 재생에너지 사용 목표를 지속하기 위한 노력의 일환입니다. 해당 프로젝트는 지역 경제 활성화와 일자리 창출에 기여할 것으로 기대되며, 양사의 협력 규모는 이번 계약을 포함해 총 1.1GW를 넘어섰습니다.</p><h3>주요 포인트</h3><ul><li>버지니아주 랜돌프 태양광 발전소에서 생산되는 240MW 규모의 전력을 15년간 공급받는 PPA 체결</li><li>메타의 글로벌 운영 및 데이터 센터를 지원하기 위한 재생에너지 포트폴리오 확장 전략</li><li>지역 사회에 수백 개의 일자리 창출 및 약 600만 달러 이상의 지방세 수익 기여 예상</li></ul><p>원문: <a href="https://www.esgtoday.com/meta-signs-250-mw-u-s-renewables-deal-with-edp/?utm_source=rss&utm_medium=rss&utm_campaign=meta-signs-250-mw-u-s-renewables-deal-with-edp" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 866,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 친환경 선박 ISO 국제표준 주도',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 우리나라가 제안한 친환경 선박 관련 국제표준 2종이 국제표준화기구(ISO)에서 최종 승인되었다고 밝혔습니다. 이번에 승인된 표준은 액체수소 연료탱크와 암모니아 연료공급 시스템에 관한 기술로, 한국의 독보적인 기술력을 세계적으로 인정받은 결과입니다. 이를 통해 한국 조선업계는 차세대 친환경 선박 시장에서 기술적 주도권을 확보하고 글로벌 시장을 선점할 수 있는 발판을 마련했습니다.</p><h3>주요 포인트</h3><ul><li>액체수소 연료탱크 및 암모니아 연료공급 시스템 국제표준 승인</li><li>한국 조선업의 기술력을 바탕으로 글로벌 시장 경쟁력 강화</li><li>탄소중립 실현을 위한 차세대 친환경 선박 기술의 표준화 주도</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTU1uR0tPRWwyWG92d2pGdFRJOWo2S3huekp0b2lKclVNc3lJWGQ2bk9heDBvZ2dmNldVOW0yVVl4dHFaYXFOcHZGeGt0V3lZZkprNnQ1bjZSS2g4bEU3MFB1S1U1cGNNQW9lWmZ2WG1uM1o0dEM5ZnI5TjlLNEtUb0c1WnVRbjlPdm9Ma0dvcnBERlhzSFIwTXVpWEZmVDMtUC1ycXBWdWhxclVRWnJBcXphM2gxdG9ueVlXMjhMbDdIX2VodmZXUWlETmUzMEpadVhJQ1dpMVc3cjJDOHZra3Jyc0pLcDhk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 867,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '남양주시, 중대재해처벌법 판례 중심 안전 교육 실시',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>남양주시는 최근 시청 다산홀에서 공직자 및 관계자들을 대상으로 '판례로 배우는 중대재해처벌법' 교육을 진행했습니다. 이번 교육은 권용준 한국산업안전보건공단 경기북부지사장을 초청해 실제 법원 판례를 바탕으로 법적 의무 사항과 안전 관리 방안을 심도 있게 다뤘습니다. 시는 이번 교육을 통해 실질적인 재해 예방 역량을 강화하고 안전한 근로 환경을 조성할 계획입니다.</p><h3>주요 포인트</h3><ul><li>실제 판례 분석을 통한 중대재해처벌법의 구체적 적용 사례 및 법적 쟁점 학습</li><li>경영책임자의 안전보건 확보 의무 및 실효성 있는 관리 체계 구축의 중요성 강조</li><li>현장 중심의 안전 점검과 선제적 사고 예방을 위한 공직자들의 안전 의식 고취</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE15ZnhHdUVlb2Y5RjVzVDM1VThaRGFMMWJ1dVFNS0lCYnZUS2hYREM4R1JkekZMTWNOR2JKd1F6S0RHWDQxenhYX2J6Y0lLMmR1c0dablBHeDl2XzQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 858,
       pinned: false,
       category: 'news', categoryName: '소식',
