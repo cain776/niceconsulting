@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 868,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RMI-ILO CLP, 광물 공급망 아동 노동 근절 협력',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>책임 있는 광물 이니셔티브(RMI)와 국제노동기구의 아동 노동 플랫폼(ILO CLP)이 광물 공급망 내 아동 노동 문제를 해결하기 위해 전략적 파트너십을 체결했습니다. 양 기관은 전문 지식과 자원을 결합하여 기업들이 공급망 전반에서 아동 노동 위험을 효과적으로 식별하고 대응할 수 있도록 지원할 계획입니다. 이번 협력은 글로벌 광물 산업의 투명성을 높이고 인권 보호를 강화하여 지속 가능한 책임 조달 체계를 구축하는 데 중점을 둡니다.</p><h3>주요 포인트</h3><ul><li>RMI와 ILO CLP 간의 파트너십을 통한 광물 공급망 내 아동 노동 근절 협력</li><li>아동 노동 위험 식별, 예방 및 완화를 위한 도구와 모범 사례 공유</li><li>기업의 인권 실사(Due Diligence) 역량 강화 및 글로벌 공급망의 책임 있는 관행 확산</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/blog/rmi-ilo-clp/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 869,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '삼성전자판매, 국제표준 안전보건경영시스템 ‘ISO 45001’ 인증 획득',
+      author: '관리자',
+      date: '2026.05.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>삼성전자판매가 국제표준화기구(ISO)로부터 안전보건경영시스템 ‘ISO 45001’ 인증을 획득하며 안전 경영 역량을 인정받았습니다. 이번 인증은 사업장 내 발생 가능한 위험을 사전에 예방하고 임직원에게 안전한 근무 환경을 제공하기 위한 체계적인 관리 시스템을 구축한 결과입니다. 삼성전자판매는 전담 조직을 운영하고 정기적인 안전 점검 및 교육을 실시하는 등 안전 문화 정착에 힘쓰고 있습니다. 이를 통해 고객과 임직원 모두가 안심하고 이용할 수 있는 매장 환경을 조성하며 ESG 경영을 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>국제표준화기구(ISO)가 제정한 안전보건 분야 최고 수준의 국제 인증 획득</li><li>안전보건 전담 조직 신설 및 체계적인 위험 예방 관리 프로세스 구축</li><li>ESG 경영의 일환으로 임직원 및 고객의 안전을 최우선으로 하는 기업 문화 확산</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRmtJZkxjUzVBV1R0b3o3UWFhS2F4clZzWFJiQmJZZU9FX24zNHc0MVQyaU45aGQtLUNJVnRBRzY1WWJXUjA1RDhCRDRiNzFqQnJvUDRLY1J6RURLdk5RbkxrZkhVRk1UQUJZSWF1eEhTdGRRM1NwYg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 870,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '옥토퍼스 에너지, 유럽 풍력 발전에 6억 8천만 달러 투자',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>재생에너지 투자사인 옥토퍼스 에너지 제너레이션이 유럽 내 풍력 발전 역량을 확대하기 위해 약 5억 8,400만 유로(약 6억 8,700만 달러)를 투자한다고 발표했습니다. 이번 투자는 독일, 스웨덴, 프랑스에 위치한 기존 풍력 발전 단지를 대상으로 하며, 이를 통해 총 400MW 이상의 발전 용량을 확보하게 됩니다. 이는 유럽의 에너지 전환을 가속화하고 화석 연료에 대한 의존도를 낮추려는 옥토퍼스 에너지의 광범위한 전략의 일환입니다.</p><h3>주요 포인트</h3><ul><li>독일, 스웨덴, 프랑스 내 풍력 발전 단지 지분 100% 인수</li><li>총 400MW 이상의 신규 풍력 발전 용량 확보</li><li>유럽의 에너지 안보 강화 및 탄소 중립 목표 달성 기여</li></ul><p>원문: <a href="https://www.esgtoday.com/octopus-energy-generation-invests-over-680-million-to-expand-european-wind-energy-capacity/?utm_source=rss&utm_medium=rss&utm_campaign=octopus-energy-generation-invests-over-680-million-to-expand-european-wind-energy-capacity" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 871,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '쓰레기통에서 수거한 전자폐기물: 자원 순환의 실태',
+      author: '관리자',
+      date: '2026.05.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한 레딧 사용자가 쓰레기통에서 직접 수거한 방대한 양의 전자폐기물(E-waste) 사례를 공유하며 자원 낭비의 심각성을 알렸습니다. 이는 재활용이나 재사용이 가능한 전자기기들이 적절한 처리 절차 없이 일반 쓰레기로 버려지고 있는 현실을 보여줍니다. 이러한 사례는 개인의 실천을 넘어 사회적인 전자폐기물 관리 체계 개선이 필요함을 시사합니다.</p><h3>주요 포인트</h3><ul><li>버려진 기기에서 유용한 부품을 추출하는 '도시 광산'의 잠재력 확인</li><li>전자폐기물의 부적절한 폐기로 인한 환경 오염 및 자원 손실 문제 제기</li><li>지속 가능한 자원 순환을 위한 올바른 분리배출과 재활용 인식 제고</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1t887mt/ewaste_scrap_haul_all_from_dumpsters_note_repost/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 872,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '(주)삼녹, 글로벌 ESG 평가 에코바디스 \'브론즈 메달\' 획득',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>조선기자재 전문 기업 (주)삼녹이 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 '브론즈 메달'을 획득하며 지속가능 경영 성과를 인정받았습니다. 이번 평가는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 종합적으로 심사했으며, 삼녹은 전 세계 상위 35% 이내에 해당하는 성적을 거두었습니다. 이를 통해 글로벌 조선 시장에서의 신뢰도를 높이고 ESG 경영 체계를 한층 강화하게 되었습니다.</p><h3>주요 포인트</h3><ul><li>프랑스 소재 글로벌 ESG 평가 기관 에코바디스에서 상위 35% 기업에게 수여하는 브론즈 메달 획득</li><li>환경 및 노동·인권 분야에서 우수한 점수를 기록하며 체계적인 관리 시스템 입증</li><li>글로벌 고객사의 ESG 요구 사항에 선제적으로 대응하여 조선업계 내 경쟁력 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9uRURidHd5WERDTVRHRXBqa2RoV0ZKZU80dW1HU1VPeVJNV0ZIbmdWa2RKUkZoOWdEcmVhZmhSZnZwaUNWc2h0aUMwT2loR1dXUmwzVi1OdHROTFBVTEVSeHdCVTdfUEJEdU0w?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 863,
       pinned: false,
       category: 'news', categoryName: '소식',
