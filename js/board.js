@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 873,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 주요 판결 분석 및 기업 대응 전략',
+      author: '관리자',
+      date: '2026.05.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 이후 선고된 주요 판결들을 분석한 결과, 법원은 안전보건관리체계의 형식적 구축보다는 실질적인 이행 여부를 엄격하게 판단하고 있습니다. 특히 경영책임자가 안전 보건 확보 의무를 위반하여 사고의 원인을 제공했는지가 유무죄를 가르는 핵심 쟁점으로 작용하고 있습니다. 기업들은 판례에서 나타난 법원의 판단 기준을 바탕으로 자사의 안전 관리 시스템을 실무적으로 재점검하고 보완해야 합니다.</p><h3>주요 포인트</h3><ul><li>경영책임자의 실질적인 안전보건 확보 의무 이행 및 감독 책임 강조</li><li>위험성평가의 주기적 실시와 도출된 위험 요인에 대한 실질적 개선 조치 증빙 필요</li><li>도급·용역·위탁 관계에서 종사자의 안전을 확보하기 위한 관리 및 평가 체계 강화</li><li>단순 서류 구비가 아닌 현장에서 실제로 작동하는 안전 보건 시스템 구축의 중요성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFAxcGpxSFZRLUV3T0c1M25YTUlyNFRGc2lwWmZKWm1nVVctdjFLTTNQdVB3bFJURVBfcmtuaWhxNEJDazRZQ1dxQlA0T1NHZTE0R2x3SGNXVl83aUxfdFlRbzFyN1hsQ3NLcG1LMk4yMA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 874,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스: 조달 팀, 하위 협력사와의 AI 격차 직면',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis의 최신 보고서에 따르면 조달 팀은 1차 협력사와 2·3차 협력사 간의 심각한 AI 도입 격차에 직면해 있습니다. 대형 협력사들은 AI를 통해 효율성을 높이고 있으나, 중소 규모의 하위 협력사들은 기술 도입에 어려움을 겪고 있습니다. 이러한 격차는 공급망 전체의 투명성을 저해하고 ESG 데이터 수집의 정확도를 낮추는 위험 요소가 됩니다. 기업들은 공급망 전반의 디지털 평등을 위해 하위 협력사에 대한 지원을 강화해야 합니다.</p><h3>주요 포인트</h3><ul><li>상위 협력사와 하위 협력사 간의 AI 기술 도입 및 활용 능력 격차 확대</li><li>하위 협력사의 기술 지연이 공급망 가시성 및 지속가능성 보고의 신뢰도 저하 초래</li><li>데이터 품질 개선과 협력사 간 디지털 통합이 성공적인 AI 전략의 핵심</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQSDZyV3hVWlVHb2tac1MwYmpjTFRrQXdJN1JVUV96S2FCREpiN3FZeGJYREd5Vmk0UnJ5WFlhdkJIYlhXenhwN2lwNmE0QW1wNHVBc0NOZGJxaVZzdW1hdzYzR0hViY2TFRrQXdJN1JVUV96S2FCREpiN3FZeGJYREd5Vmk0UnJ5WFlhdkJIYlhXenhwN2lwNmE0QW1wNHVBc0NOZGJxaVZzdW1hdzYzR0hVeVF6aWtmMVc5anRBWWtlUWpYYTVhaW95TWNqVFZxcVZmM3pkZlJsVDJFSHM5QQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 875,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG 주간 리뷰: EU 공시 표준 확정 및 SEC 규제 강화',
+      author: '관리자',
+      date: '2026.05.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회가 기업 지속가능성 보고 지침(CSRD)의 핵심인 유럽 지속가능성 공시 표준(ESRS) 최종안을 공식 채택하며 지속가능성 보고의 기틀을 마련했습니다. 또한 미국 증권거래위원회(SEC)는 ESG 명칭 규칙 위반과 관련하여 펀드에 대한 첫 법 집행 조치를 단행하며 규제 강화의 신호를 보냈습니다. 이번 주는 글로벌 ESG 공시 의무화와 그린워싱 방지를 위한 제도적 장치가 구체화된 중요한 시기였습니다.</p><h3>주요 포인트</h3><ul><li>EU 집행위, CSRD 적용 기업을 위한 첫 번째 ESRS 세트 최종 승인</li><li>미국 SEC, ESG 관련 명칭 사용 위반 펀드에 대해 최초의 법적 조치 및 벌금 부과</li><li>글로벌 지속가능성 공시 표준의 구체화 및 규제 당국의 감독 강화 추세 지속</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-260/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-260" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 876,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '삼성전자판매, 안전보건경영 ‘ISO 45001’ 인증 획득',
+      author: '관리자',
+      date: '2026.05.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>삼성전자판매가 국제표준화기구(ISO)로부터 안전보건경영시스템 국제표준인 ‘ISO 45001’ 인증을 획득했습니다. 이번 인증은 본사와 전국 삼성스토어 매장을 포함한 전 사업장을 대상으로 하며, 체계적인 안전 관리 역량을 입증했습니다. 회사는 사업장 내 발생할 수 있는 위험을 사전에 예측하고 예방하는 관리 시스템을 구축했습니다. 이를 통해 임직원과 고객 모두에게 안전한 환경을 제공하며 ESG 경영을 한층 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>전국 삼성스토어 및 본사 포함 전 사업장 인증 획득</li><li>위험성 평가 및 안전보건 교육을 통한 사고 예방 체계 고도화</li><li>안전을 경영의 핵심 가치로 삼아 지속 가능한 ESG 경영 실천</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFBnVFg4ck5wOFFnV3JwMmtVUkVRTTVpdy1vXzVFd3gzWHQ4LWhRVzFrTkhwTG54RlBrV0FvMWNwWkY2Tm1uSnQzR3hxQ0VLTXQ4bjZCUE9FcG1pU0FCVWdZZGRzaEZWdDFUMmlTZUxzU0dncWc2Vkt1Tg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 877,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 화석연료 예외 검토 및 재생에너지의 경제적 효과',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합(EU)이 일부 화석 연료 프로젝트에 대한 환경 규제 예외 적용을 검토하면서 기후 정책의 실효성에 대한 논란이 일고 있습니다. 반면, 영국에서는 풍력과 태양광 발전 확대를 통해 약 17억 파운드의 에너지 비용을 절감하며 재생에너지의 강력한 경제적 가치를 증명했습니다. 또한, 아마존 열대우림이 기후 변화와 삼림 파괴로 인해 회복 불가능한 '티핑 포인트'에 근접했다는 과학적 경고가 제기되었습니다.</p><h3>주요 포인트</h3><ul><li>EU의 화석 연료 규제 예외 조항 논의와 기후 목표 달성 간의 충돌</li><li>재생에너지가 영국의 가계 및 국가 경제에 미친 17억 파운드 규모의 비용 절감 효과</li><li>아마존 생태계 붕괴 위험에 대한 최신 연구 결과와 글로벌 기후 위기 경고</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-8-may-2026-eu-eyes-fossil-fuel-exemptions-wind-and-solar-save-uk-1-7bn-amazon-tipping-point/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 868,
       pinned: false,
       category: 'news', categoryName: '소식',
