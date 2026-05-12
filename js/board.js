@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 878,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국 자동차 업계의 전기차 목표치 관련 주장에 대한 팩트체크',
+      author: '관리자',
+      date: '2026.05.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 자동차 업계는 전기차 수요 부족을 이유로 정부의 무공해차(ZEV) 판매 의무화 제도 완화를 요구하고 있으나, 이는 실제 데이터와 차이가 있습니다. 전기차 판매는 기업용 차량을 중심으로 꾸준히 성장하고 있으며, 제조사들은 이미 제도 내의 다양한 유연성 조항을 통해 규제에 대응할 수 있는 수단을 보유하고 있습니다. 업계의 이러한 주장은 탄소 중립 목표 달성을 지연시킬 우려가 있으며, 소비자들을 위한 저렴한 전기차 모델 출시 등 제조사의 노력이 선행되어야 한다는 지적이 제기됩니다.</p><h3>주요 포인트</h3><ul><li>전기차 수요는 침체된 것이 아니라, 법인 및 리스 시장을 중심으로 여전히 견고한 성장세를 기록하고 있음</li><li>ZEV mandate는 크레딧 거래 및 이월 등 제조사의 부담을 덜어줄 다양한 유연성 조항을 이미 포함하고 있어 즉각적인 과징금 우려는 과장됨</li><li>자동차 업계는 과거 규제 도입을 지지했으나, 현재는 수익성 확보를 위해 목표치 완화를 요구하는 이중적인 태도를 보임</li><li>전기차 보급의 핵심 장애물은 수요 부족이 아니라, 제조사들의 고가 정책으로 인한 저렴한 보급형 모델의 부재임</li></ul><p>원문: <a href="https://www.carbonbrief.org/factcheck-what-the-uk-car-industry-is-not-saying-about-ev-targets/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 879,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '대법원, 중대재해처벌법 양형기준 신설 논의 착수',
+      author: '관리자',
+      date: '2026.05.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대법원 양형위원회가 중대재해처벌법 위반 사건에 대한 구체적인 양형기준을 마련하기 위한 논의에 착수했습니다. 이번 논의는 사업주 및 경영책임자의 형량 범위를 명확히 설정하여 판결의 일관성과 예측 가능성을 높이기 위해 추진됩니다. 그동안 제기되어 온 '솜방망이 처벌' 논란을 해소하고 산업 현장의 안전 의식을 강화하는 계기가 될 것으로 보입니다. 또한 응급의료 방해 행위에 대한 양형기준도 함께 신설될 예정입니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 적용 대상인 사업주 등에 대한 구체적 형량 범위 설정</li><li>산업재해 처벌의 실효성을 높이고 판결의 불확실성 해소 기대</li><li>응급실 난동 및 구급 활동 방해죄에 대한 양형기준 신설 병행</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xMzR2bE1yU0tRT1hEX0NabG1EWE5uTTNnT2RPMVZjeGRwOC1mSFpuYnFtLTBXa1RyeXJyYmV1bkZ4MHpIQV9vOW1fY3F2STV2V2Zad2ZhS2NXTjVVNjI1Uw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 880,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '세븐일레븐, 전 사업장 안전보건 국제표준 인증 획득',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>세븐일레븐(코리아세븐)이 편의점 업계 최초로 전국 모든 사업장에 대해 국제표준 안전보건경영시스템(ISO 45001) 인증을 획득했습니다. 이번 인증은 물류센터와 사무실을 포함한 전 사업장의 안전 관리 체계가 국제적 수준임을 공식적으로 입증한 것입니다. 세븐일레븐은 이를 통해 근로자의 안전을 최우선으로 하는 ESG 경영을 더욱 강화하고, 안전한 근무 환경 조성에 박차를 가할 계획입니다.</p><h3>주요 포인트</h3><ul><li>업계 최초 전국 모든 사업장 대상 ISO 45001 인증 획득</li><li>물류 및 사무 환경 전반의 안전보건 관리 시스템을 국제적 수준으로 고도화</li><li>ESG 경영 실천 및 중대재해 예방을 위한 선제적 안전 관리 체계 구축</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE96VXpGaERvSFk0QXBUV1RtbGQtMG1HVlBQWFIyNXJaNHU3ZnExMGY2Rm4tTEJodC1iUWl5VzdrbW1NenJHQXp0OTNhdUdOSmZnN1gzMWhNVzZxbmFnbTVTYTlialE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 881,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '산타마르타의 교훈: 포용적인 \'정의로운 전환\'의 방향',
+      author: '관리자',
+      date: '2026.05.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>화석 연료로부터의 에너지 전환 과정에서 지역 사회와 현장 노동자들의 목소리를 반영하는 '정의로운 전환'의 중요성이 강조되고 있습니다. 산타마르타 사례는 연구자들이 지식을 생산할 때 기저 공동체와 협력하여 실질적인 행동으로 연결해야 함을 보여줍니다. 이는 기후 위기 최전선에 있는 이들이 소외되지 않도록 보장하는 핵심적인 과정입니다.</p><h3>주요 포인트</h3><ul><li>현장 공동체와의 지식 공동 생산을 통한 포용적 전환 추진</li><li>이론적 연구를 넘어 최전선 노동자들을 위한 실질적 행동으로의 전환 필요성</li><li>에너지 전환 과정에서 소외된 계층의 참여와 권리 보장 강조</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/11/santa-marta-was-a-learning-moment-for-how-to-shape-inclusive-just-transitions/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 882,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '밥스 디스카운트 퍼니처, 첫 매장-물류센터 복합 시설 개소',
+      author: '관리자',
+      date: '2026.05.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 가구 유통업체 밥스 디스카운트 퍼니처가 뉴저지주 피스카타웨이에 매장과 물류센터를 결합한 첫 복합 시설을 오픈했습니다. 약 15만 평방피트 규모의 이 시설은 물류 효율성을 높이고 고객에게 더 빠른 배송 서비스를 제공하기 위해 설계되었습니다. 라메쉬 머티 COO는 이 새로운 운영 모델의 성과를 면밀히 모니터링하여 향후 다른 지역으로의 확장 여부를 결정할 것이라고 밝혔습니다.</p><h3>주요 포인트</h3><ul><li>매장과 물류센터의 통합을 통한 공급망 최적화 및 운영 비용 절감</li><li>라스트 마일 배송 효율성 개선으로 고객 만족도 향상 기대</li><li>해당 모델의 성공 여부에 따른 향후 전국적인 복제 및 확장 가능성 검토</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/bobs-discount-furniture-opens-first-combo-store-distribution-center/819214/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 873,
       pinned: false,
       category: 'news', categoryName: '소식',
