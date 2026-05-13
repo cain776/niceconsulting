@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 883,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미국인 12%가 쇠고기 절반 소비, 건강·환경에 심각한 영향',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 연구에 따르면 미국 인구의 단 12%가 국가 전체 쇠고기 소비량의 절반을 차지하고 있는 것으로 나타났습니다. 이러한 소수의 과도한 육류 섭취는 심혈관 질환 등 개인의 건강 문제를 야기할 뿐만 아니라 기후 변화에도 막대한 영향을 미칩니다. 쇠고기 생산은 다른 식품에 비해 훨씬 많은 온실가스를 배출하고 자원을 소모하기 때문에, 이들의 식습관 변화가 환경 보호의 핵심 과제로 떠오르고 있습니다.</p><h3>주요 포인트</h3><ul><li>미국 성인 12%가 전체 쇠고기 공급량의 50%를 소비하는 불균형 심화</li><li>과도한 적색육 섭취로 인한 심장병, 암 등 공중보건 위험 증가</li><li>축산업에서 발생하는 메탄가스와 토지 및 수자원 낭비가 기후 위기 가속화</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tbd7xi/how_a_mere_12_of_americans_eat_half_the_nations/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 884,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '제주도, 공공부문 중대재해 예방 집중점검 실시',
+      author: '관리자',
+      date: '2026.05.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>제주특별자치도가 공공부문의 중대재해를 예방하고 안전 사각지대를 해소하기 위해 집중 점검에 나섭니다. 이번 점검은 도내 공공기관과 사업장을 대상으로 안전보건 관리체계의 이행 상태를 면밀히 확인하고 잠재적 위험 요인을 사전에 제거하는 데 목적이 있습니다. 이를 통해 근로자의 안전을 보호하고 지역사회 전반에 안전 문화를 확산시킬 방침입니다.</p><h3>주요 포인트</h3><ul><li>공공부문 사업장 내 안전보건 관리체계 구축 및 이행 현황 집중 점검</li><li>유해·위험요인 발굴 및 개선 조치를 통한 실질적인 사고 예방 활동 강화</li><li>중대재해처벌법 준수 여부 확인 및 안전 관리 사각지대 해소 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GZW0tTzJEYVJDVFNmemNlaHRLVUFIZE9jNTYxWV9TN1Bya1NaamxRLU5QZUJtOTRTN1lmc0pJbGVWSEt5UzF0M01QZTlULVJOS005eWw0SVNGb2tMSlpjVg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 885,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스-워키바, 스코프 3 데이터 솔루션 파트너십 체결',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)와 리포팅 플랫폼 워키바(Workiva)가 기업의 스코프 3(Scope 3) 배출량 데이터 관리를 돕기 위해 파트너십을 체결했습니다. 이번 협력을 통해 양사는 기업들이 공급망 전체의 탄소 데이터를 보다 효율적으로 수집, 분석 및 보고할 수 있는 통합 솔루션을 제공합니다. 이는 복잡한 가치사슬 내 배출량 산정의 투명성을 높이고 강화되는 글로벌 ESG 공시 규제에 효과적으로 대응하기 위한 조치입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스의 공급업체 지속가능성 평가 데이터와 워키바의 리포팅 플랫폼 통합</li><li>가치사슬 내 간접 배출량인 스코프 3 데이터의 수집 및 관리 프로세스 간소화</li><li>CSRD 및 SEC 기후 공시 등 엄격해지는 글로벌 규제 준수를 위한 데이터 신뢰성 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxOTTZZMV9qNGFDd2JpMzNnOXJJRFJDWEJUX2ZrVDIyWGtGWUVnM1UxM3JMQ3JoRHplYnhFNUJXc21kelBhWF9KZUcya1FmTnpqQnViOUtoaHdSem1waGwzRHBoNm1UNU40bkJvY3ltd29iM0pDQlJQVmRLMTUydWZ3TVB3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 886,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국, 풍력·태양광으로 가스 수입 17억 파운드 절감',
+      author: '관리자',
+      date: '2026.05.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국은 중동 분쟁 시작 이후 풍력 및 태양광 발전을 통해 약 17억 파운드(약 2조 9,000억 원) 상당의 천연가스 수입을 대체하는 성과를 거두었습니다. 재생에너지는 화석 연료에 대한 의존도를 낮춤으로써 지정학적 위기로 인한 에너지 가격 변동성으로부터 국가 경제를 보호하는 방패 역할을 했습니다. 이번 분석은 탄소 중립 목표 달성뿐만 아니라 에너지 안보 및 경제적 실익 측면에서 재생에너지의 가치를 입증하고 있습니다.</p><h3>주요 포인트</h3><ul><li>풍력과 태양광 발전이 가스 화력 발전을 대체하여 막대한 규모의 외화 유출 방지</li><li>지정학적 리스크로 인한 가스 가격 급등 시기에 재생에너지가 경제적 완충제 역할 수행</li><li>에너지 자립도 향상 및 화석 연료 의존도 감소를 위한 재생에너지 확대의 중요성 강조</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-wind-and-solar-have-saved-uk-from-gas-imports-worth-1-7bn-since-iran-war-began/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 887,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '파리 협정 위원회, NDC 미제출 국가 속출로 난항',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>다수의 국가가 파리 협정의 핵심 요건인 국가 온실가스 감축 목표(NDC)를 아직 유엔에 제출하지 않은 것으로 나타났습니다. 이는 기후 위기 대응을 위한 국제적 약속을 위반하는 행위로, 파리 협정 이행 준수 위원회의 권고가 무시되고 있는 상황입니다. 이러한 계획 제출 지연은 전 지구적 탄소 중립 목표 달성에 큰 걸림돌이 되고 있습니다.</p><h3>주요 포인트</h3><ul><li>상당수 국가가 파리 협정의 필수 사항인 NDC 업데이트 및 제출 기한을 준수하지 않음</li><li>이행 준수 위원회의 권위가 약화되면서 국제적인 기후 거버넌스 체계가 위협받고 있음</li><li>기후 계획 미비로 인해 글로벌 기후 행동의 투명성과 실효성에 대한 우려가 커짐</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/12/paris-agreement-committee-snubbed-over-missing-ndc-climate-plans/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 878,
       pinned: false,
       category: 'news', categoryName: '소식',
