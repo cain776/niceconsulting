@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 888,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '버섯 기반 식품, 친환경적이고 고기 같은 단백질로 인식',
+      author: '관리자',
+      date: '2026.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 설문 조사에 따르면 대다수의 소비자가 버섯 기반 식품을 지속 가능한 육류 대체제로 인식하고 있는 것으로 나타났습니다. 응답자들은 이러한 식품이 고기와 유사한 단백질 구성을 갖추고 있다는 점에 동의하며 긍정적인 반응을 보였습니다. 다만, 구체적으로 어떤 이유로 친환경적인지에 대한 지식은 아직 부족한 상태인 것으로 파악되었습니다.</p><h3>주요 포인트</h3><ul><li>대다수 소비자가 버섯 기반 식품의 지속 가능성과 친환경성에 동의</li><li>육류와 유사한 수준의 단백질 영양 성분을 보유한 것으로 인식</li><li>구체적인 장점에 대한 소비자 지식 격차를 해소할 교육 및 정보 제공 필요</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tc44ms/most_agree_fungibased_food_is_a_greener_meatlike/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 889,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '1877년 슈퍼 엘니뇨의 비극과 다가오는 기후 위기',
+      author: '관리자',
+      date: '2026.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>1877년 발생한 슈퍼 엘니뇨는 전 세계적인 대기근을 유발하여 수백만 명의 희생자를 냈습니다. 현재 기상 예보 모델들은 다시 한번 역대급 기록을 경신할 가능성이 있는 슈퍼 엘니뇨의 도래를 경고하고 있습니다. 과학자들은 과거의 참혹했던 사례를 분석하여 다가올 기후 재난의 양상을 예측하고 인류의 생존을 위한 대비책을 마련하기 위해 노력하고 있습니다.</p><h3>주요 포인트</h3><ul><li>1877년 슈퍼 엘니뇨로 인한 전 지구적 기근과 수백만 명의 사망 사례 재조명</li><li>현재 관측되는 역대 최악 수준의 슈퍼 엘니뇨 발생 가능성에 대한 과학적 경고</li><li>과거 데이터를 통한 미래 기후 재난 예측 및 식량 안보 대응 전략의 중요성</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tc0vuc/millions_died_from_the_super_el_niño_in_1877_what/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 890,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'COP30 산림 파괴 중단 로드맵, 국가별 이행 계획 수립 촉구',
+      author: '관리자',
+      date: '2026.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>브라질이 2030년까지 산림 손실을 중단하기 위한 글로벌 로드맵의 진행 상황을 발표하며, 각국에 자체적인 국내 이행 계획 수립을 요청했습니다. 이 로드맵은 COP30에서 공식 발표될 예정이며, 국가들이 자발적으로 산림 보호 및 복원 목표를 설정하도록 독려하는 것을 골자로 합니다. 브라질은 이번 협의를 통해 기후 위기 대응을 위한 국제적 연대를 강화하고 실질적인 자연 보존 성과를 거두고자 합니다.</p><h3>주요 포인트</h3><ul><li>2030년까지 전 세계 산림 파괴를 종식하기 위한 자발적 글로벌 로드맵 추진</li><li>각국 정부에 국내 실정에 맞는 구체적인 산림 및 자연 보호 계획 수립 권고</li><li>COP30 개최국인 브라질 주도로 국제적 협의 및 의견 수렴 과정 지속 업데이트</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/13/cop30-roadmap-end-deforestation-invite-countries-domestic-plans-forests-nature/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 891,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스-워키바, 탄소 데이터 네트워크 확장 협력',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 평가 선도 기업인 에코바디스(EcoVadis)가 워키바(Workiva)와의 파트너십을 통해 자사의 '탄소 데이터 네트워크'를 확장한다고 발표했습니다. 이번 협력은 기업들이 공급망 전체의 탄소 배출 데이터를 더욱 원활하게 공유하고 관리할 수 있도록 지원하는 것을 목표로 합니다. 이를 통해 기업은 스코프 3(Scope 3) 배출량에 대한 가시성을 확보하고, 보다 정확한 ESG 공시 및 탄소 감축 전략을 수립할 수 있게 됩니다. 양사는 디지털 통합을 통해 복잡한 탄소 데이터의 투명성과 신뢰성을 한층 강화할 예정입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스와 워키바의 협력을 통한 공급망 탄소 데이터 공유 체계 강화</li><li>스코프 3(Scope 3) 배출량 측정 및 보고의 정확도와 효율성 제고</li><li>기업의 ESG 공시 대응을 위한 디지털 데이터 통합 및 투명성 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQdU56ZkNnNEtFd0F5blN1YU5JV0w2MTE0NTJVbDF0NHg3WmtQdjNVdjh5UlFjYTdidUFrX0dQczhsMlpyd21jejhUc2FhX1AxZTZvZi1DRktieEQwRVFRc2lzYWNVT2dLZlYyenVPRDc4bFR5cUJ2WEhSZGxySjB3a0Z5T0RCTklrNl9PZFk2VDAza1Z6UURkZ3Q2SEVrS2swWEVkQXFWSTRxYUpadG9BX1BZbVBHUjl0VElUZA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 892,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '페덱스·머스크·GXO, 아마존 물류 서비스 위협 일축',
+      author: '관리자',
+      date: '2026.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아마존이 물류 서비스를 외부 업체로 확대하며 시장 점유율을 높이려 하고 있으나, 페덱스, 머스크, GXO 등 기존 물류 기업들은 이를 큰 위협으로 보지 않는다는 입장을 밝혔습니다. 이들은 아마존의 서비스가 주로 전자상거래와 소매 유통에 특화된 반면, 자신들은 더 복잡하고 광범위한 글로벌 공급망 솔루션을 제공한다고 강조합니다. 각 기업은 고유의 기술력과 전문성을 바탕으로 아마존과는 차별화된 시장 영역을 공략하고 있습니다.</p><h3>주요 포인트</h3><ul><li>페덱스는 자사 네트워크와 데이터 분석 플랫폼을 결합해 아마존이 제공하기 어려운 통합 물류 가시성과 효율성을 제공합니다.</li><li>머스크는 대형 제조 및 유통 기업을 위한 글로벌 엔드투엔드(End-to-End) 공급망 관리와 해운 역량에 집중하고 있습니다.</li><li>GXO는 대규모 글로벌 브랜드를 위한 고도로 자동화된 창고 운영과 복잡한 물류 처리 능력을 핵심 차별점으로 내세웠습니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/fedex-maersk-and-gxo-downplay-amazon-supply-chain-services-threat/820087/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 883,
       pinned: false,
       category: 'news', categoryName: '소식',
