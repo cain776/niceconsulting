@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 893,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코나인·한국SGS, ESG 원스톱 대응 체계 구축',
+      author: '관리자',
+      date: '2026.05.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 전문 컨설팅 기업 에코나인과 글로벌 인증 기관 한국SGS가 기업들의 ESG 경영 지원을 위한 '원스톱 대응 체계' 구축 업무협약을 체결했습니다. 양사는 컨설팅부터 제3자 검증 및 인증까지 통합된 서비스를 제공하여 기업의 ESG 대응 효율성을 높일 계획입니다. 특히 글로벌 ESG 규제 강화에 따른 공급망 관리와 탄소중립 전략 수립 등 실무적인 해결책을 지원하는 데 집중할 예정입니다.</p><h3>주요 포인트</h3><ul><li>에코나인의 컨설팅 전문성과 한국SGS의 글로벌 인증 역량 결합</li><li>공급망 실사 및 탄소국경조정제도(CBAM) 등 글로벌 규제 맞춤형 대응</li><li>ESG 경영 진단, 전략 수립, 공시 보고서 검증까지 전 과정 통합 지원</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5CeFFsTGlHeElnY05nYzlhcXdOd0x1ZElqblRpdVhmX29RMVNvNzRONXgzTHRaZ3NCZTE1emwxSjRkSU1ZLUplNzMybE1qQVhVMkt1SWFjUmN2R3MyWE9wbUpGWlB2Z19iMWtF0gFvQVVfeXFMT0o1VUNBYmtjOE5pQ18zc05YSFMtQVRhLVdUbDBLWENaOFIzd3ZsLTVtOUwwT2RhU2k3VjlyU25FYXhKTHN1VDJLVDg4SG9jYjZzaTZuVWZUcG9SbV80aW9tbkx4QVM5RlRENnpPcWxZ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 894,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '달러 트리, 물류 회복탄력성 강화를 위한 신규 유통센터 가동',
+      author: '관리자',
+      date: '2026.05.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 할인점 체인 달러 트리(Dollar Tree)가 애리조나주 버카이에 신규 유통센터를 개설하며 물류 네트워크 강화에 나섰습니다. 이번 시설은 운송 시간을 단축하고 공급망의 회복탄력성을 높이기 위한 전략의 일환으로, 최첨단 자동화 기술이 적용되었습니다. 이를 통해 미국 남서부 지역 매장에 대한 서비스 효율성을 개선하고 향후 성장을 뒷받침할 계획입니다.</p><h3>주요 포인트</h3><ul><li>애리조나주 신규 유통센터 가동을 통한 운송 거리 및 시간 단축</li><li>공급망 최적화 및 자동화 기술 도입으로 물류 효율성 극대화</li><li>지역별 거점 확대를 통한 물류 병목 현상 해소 및 회복탄력성 확보</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/dollar-tree-is-boosting-logistics-resiliency/820072/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 888,
       pinned: false,
       category: 'news', categoryName: '소식',
