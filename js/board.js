@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 895,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '밥스 디스카운트 퍼니처, 관세 및 연료비 절감 전략 공개',
+      author: '관리자',
+      date: '2026.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 가구 유통업체 밥스 디스카운트 퍼니처(Bob’s Discount Furniture)가 25%에 달하는 가구 관세와 연료비 상승에 대응하기 위한 3단계 전략을 발표했습니다. 라메쉬 머티(Ramesh Murthy) COO는 공급망 다변화와 비용 분담을 통해 추가 관세 부담을 상쇄하고 있다고 밝혔습니다. 또한, 물류 효율성을 높여 연료 소비를 줄이는 등 지속 가능한 운영 방식을 통해 비용 압박에 대응하고 있습니다.</p><h3>주요 포인트</h3><ul><li>공급업체와의 협상을 통한 관세 비용 분담 및 가격 경쟁력 유지</li><li>특정 국가에 대한 의존도를 낮추기 위한 제조 거점 다변화 전략 실행</li><li>연료 효율성 개선 및 물류 최적화를 통한 운영 비용 절감</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/bobs-discount-furniture-details-tariff-fuel-mitigation-strategies/819864/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 896,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '2026 지속가능 조달 지표: 실행의 시대가 도래했다',
+      author: '관리자',
+      date: '2026.05.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EcoVadis가 발표한 '2026 지속가능 조달 지표' 보고서는 지속가능한 조달이 단순한 전략 수립 단계를 넘어 본격적인 실행의 시대로 진입했음을 강조합니다. 보고서는 새로운 조달 운영 시스템을 구축하기 위한 5가지 핵심 기둥을 제시하며, 이를 통해 기업이 실질적인 비즈니스 가치를 창출할 수 있는 로드맵을 제공합니다. 특히 지속가능한 조달을 선도하는 기업은 그렇지 않은 기업보다 평균 3.6% 더 높은 매출 성장을 기록하는 것으로 나타났습니다.</p><h3>주요 포인트</h3><ul><li>새로운 조달 운영 시스템을 구성하는 5가지 핵심 기둥(전략, 거버넌스, 데이터, 인력, 기술) 제시</li><li>지속가능한 조달 실천을 통해 비실천 기업 대비 3.6%의 추가 매출 증대 효과 입증</li><li>단순한 규제 대응을 넘어 공급망 회복탄력성 확보와 비즈니스 성과를 연결하는 실행 중심의 접근 강조</li></ul><p>원문: <a href="https://ecovadis.com/blog/sustainable-procurement-barometer-2026/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 897,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '몬디, 에코바디스 지속가능성 \'골드\' 등급 획득',
+      author: '관리자',
+      date: '2026.05.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 포장 및 제지 기업인 몬디(Mondi)가 세계적인 ESG 평가기관인 에코바디스(EcoVadis)로부터 지속가능성 '골드(Gold)' 등급을 획득했습니다. 이번 평가를 통해 몬디는 전 세계 평가 대상 기업 중 상위 5% 이내에 드는 우수한 성적을 거두었습니다. 이는 몬디의 지속가능성 로드맵인 'MAP2030'을 통한 환경, 노동 및 인권, 윤리, 지속가능한 조달 분야의 노력이 인정받은 결과입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 평가에서 상위 5% 기업에 부여되는 '골드' 등급 획득</li><li>환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 핵심 분야에서 높은 점수 기록</li><li>2030년까지의 지속가능성 목표인 'MAP2030' 이행 성과 입증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSVZkdl9KOE9uZEExMkw2QnUyUWJWUUtqbm90ZHFVc2RtR2dSTjFvTDRfbHdueUd6c3BkZW5leTNwOU96eWRsSFJueVJ2V2xzTUF2eUVMMjhidWJ4dFVIMy1CSnlTZW5ZR3dDMHpDTmQzRU04V3AwMDZLZ3JhVzNCMHBlVTRLbDlmUkJZWXJtSVZTQXVFNWhMUXhJY05MSG14RU5lVUlFMEhDdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 898,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 탄소배출권거래제(ETS)를 올바르게 유지하는 10가지 방법',
+      author: '관리자',
+      date: '2026.05.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>카본 마켓 워치(Carbon Market Watch)는 EU 탄소배출권거래제(ETS)가 기후 위기 대응과 사회적 이익이라는 본연의 목적을 달성할 수 있도록 돕는 10가지 핵심 권고안을 발표했습니다. 최근 정치적 불확실성과 산업계의 완화 요구 속에서 ETS의 무결성을 지키는 것이 시급한 과제로 떠오르고 있습니다. 이 계획은 탄소 가격 신호를 강화하고 공정한 전환을 보장함으로써 ETS가 기후 목표를 효과적으로 달성할 수 있는 가이드라인을 제시합니다.</p><h3>주요 포인트</h3><ul><li>무상 할당제의 조속한 폐지와 '오염자 부담 원칙'의 철저한 적용</li><li>탄소 배출권 판매 수익 전액을 기후 행동 및 취약 계층 보호를 위한 사회적 기금에 재투자</li><li>배출권 상한선의 엄격한 유지와 시장 왜곡을 방지하기 위한 제도적 무결성 강화</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/05/11/how-not-to-mess-with-the-ets/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 899,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '트럼프-시진핑 에너지 회담과 슈퍼 엘니뇨 경고',
+      author: '관리자',
+      date: '2026.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2026년 4월, 미국과 중국의 정상들이 에너지 정책을 주제로 회담을 가졌으며, 이는 글로벌 에너지 시장과 기후 정책에 큰 영향을 미칠 것으로 보입니다. 한편, 기후 변화로 인해 위력이 배가된 '슈퍼 엘니뇨' 현상이 발생하며 전 세계적인 기상 이변 우려가 커지고 있습니다. 인도는 이러한 극심한 폭염에 대응하기 위해 시민들을 위한 '히트 라운지'를 최초로 개설하며 기후 적응을 위한 새로운 조치를 취하고 있습니다.</p><h3>주요 포인트</h3><ul><li>미국과 중국 정상 간의 에너지 협력 및 정책 관련 고위급 논의 진행</li><li>기후 변화로 인해 더욱 강력해진 '슈퍼 엘니뇨'의 영향력과 위험성 경고</li><li>폭염 피해 최소화를 위한 인도 최초의 '히트 라운지(Heat Lounges)' 도입</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-15-april-2026-trump-xi-talk-energy-supercharged-el-nino-indias-first-heat-lounges/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 893,
       pinned: false,
       category: 'news', categoryName: '소식',
