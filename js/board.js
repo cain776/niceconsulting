@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 900,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '우크라이나, 유럽 배터리 원자재 공급망의 핵심 파트너 부상',
+      author: '관리자',
+      date: '2026.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>우크라이나가 유럽연합(EU)의 배터리 핵심 소재인 흑연 공급망에서 중국 의존도를 낮추는 데 중요한 역할을 할 수 있다는 전문가들의 분석이 나왔습니다. 우크라이나는 풍부한 흑연 매장량을 보유하고 있어 유럽의 에너지 전환과 전기차 산업 발전에 기여할 잠재력이 큽니다. 하지만 현재 진행 중인 러시아와의 전쟁이 광산 개발과 인프라 구축에 심각한 장애물이 되고 있습니다. 전문가들은 전쟁 이후 우크라이나의 자원 잠재력이 유럽의 전략적 자율성을 강화하는 데 핵심적인 요소가 될 것으로 보고 있습니다.</p><h3>주요 포인트</h3><ul><li>유럽의 중국산 흑연 의존도 탈피를 위한 우크라이나의 전략적 가치 강조</li><li>우크라이나 내 풍부한 배터리용 흑연 매장량 및 개발 잠재력</li><li>지속되는 전쟁으로 인한 투자 유치 및 생산 시설 가동의 어려움</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/15/ukraine-can-help-europe-meet-its-battery-material-needs-experts-say/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 901,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '공급망 관리의 혁신: 실시간 근로자 피드백의 힘',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>까르푸의 책임 있는 소싱 프로그램과 대만의 파일럿 사례는 실시간 익명 근로자 설문 데이터가 공급망 리스크 관리에 미치는 긍정적인 영향을 보여줍니다. 기존의 사회적 감사는 전체 인력의 5% 미만만을 대면 인터뷰하는 한계가 있었으나, 실시간 기술을 활용하면 50% 이상의 근로자 의견을 직접 수렴할 수 있습니다. 이를 통해 감사가 놓치기 쉬운 잠재적 위험을 조기에 발견하고 공급업체와의 소통 방식을 개선하여 실질적인 공급망 투명성을 확보할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>기존 대면 감사의 한계(적은 표본 및 익명성 부족)를 실시간 디지털 기술로 극복</li><li>근로자 참여율을 50% 이상으로 확대하여 데이터의 신뢰도와 대표성 확보</li><li>공급망 내 숨겨진 리스크를 조기에 식별하고 공급업체와 협력적인 문제 해결 가능</li></ul><p>원문: <a href="https://ecovadis.com/blog/real-time-worker-voice/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 902,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 변화로 빨라진 봄, 펜실베이니아 과수원의 고군분투',
+      author: '관리자',
+      date: '2026.05.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>펜실베이니아의 과수원 농가들이 기후 변화로 인한 심각한 작물 피해를 입으며 힘겨운 복구 작업을 시작했습니다. 조사 결과 현재 봄의 시작은 40년 전보다 평균 10일이나 빨라졌으며, 이로 인해 농작물이 일찍 개화했다가 갑작스러운 추위에 전멸하는 사례가 빈번해지고 있습니다. 농장주들은 기후 변화에 대한 개인적 견해와 상관없이, 변화하는 기상 데이터가 농업 현장에 실질적인 위협이 되고 있다는 객관적 사실을 강조하고 있습니다.</p><h3>주요 포인트</h3><ul><li>40년 전 대비 평균 10일 앞당겨진 봄의 도래와 생태계 변화</li><li>이른 개화 후 발생하는 서리 피해로 인한 농작물 전멸 및 경제적 손실</li><li>기후 변화의 과학적 사실이 농가 생존과 직결되는 현실적인 문제</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tf4jfr/pennsylvania_grower_starts_long_slog_to_orchard/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 903,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '5인 이상 농장도 중대재해처벌법 적용 대상 확대',
+      author: '관리자',
+      date: '2026.05.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2024년 1월 27일부터 상시 근로자 5인 이상의 모든 사업장으로 중대재해처벌법이 확대 적용됨에 따라 농가도 법적 의무 대상에 포함되었습니다. 농장주는 종사자의 안전과 보건을 위해 안전보건관리체계를 구축하고 재해 예방에 필요한 조치를 이행해야 합니다. 만약 안전 의무를 소홀히 하여 중대재해가 발생할 경우, 사업주나 경영책임자는 형사 처벌을 받을 수 있습니다. 정부는 소규모 농가의 대응을 돕기 위해 안전보건관리체계 구축 컨설팅과 가이드를 제공하고 있습니다.</p><h3>주요 포인트</h3><ul><li>상시 근로자 5인 이상 50인 미만 농장까지 법 적용 범위 전면 확대</li><li>경영책임자의 안전보건관리체계 구축 및 이행 의무 부여</li><li>중대재해 발생 시 사업주에게 1년 이상의 징역 또는 10억 원 이하의 벌금 부과 가능</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOXdjamp6QjBYVXA3SzI1UlkwMTVRclBvT3ZnS19VTTF2WENVZEhRVF9EYlA4LWtQTVphMy1KeGdQcWdXdXZPbWE3NmtqYnp2THVUTV9tTzhNNFE5UlNfQjFSN0c0VDZVMG4wbzBSVHJFa1c4NVd6d0szLUtmUDVjS3FNTXdFczZvUExN?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 904,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '호르무즈 폐쇄 후 재생에너지 확대로 화석 연료 발전 감소',
+      author: '관리자',
+      date: '2026.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>호르무즈 해협 폐쇄라는 지정학적 위기 상황 속에서도 전 세계 화석 연료 발전량이 오히려 감소한 것으로 나타났습니다. 이는 태양광과 풍력 등 재생에너지의 급격한 성장이 화석 연료의 공백을 효과적으로 대체했기 때문입니다. 이번 사례는 재생에너지가 에너지 안보를 강화하고 탄소 배출을 줄이는 데 결정적인 역할을 하고 있음을 보여줍니다.</p><h3>주요 포인트</h3><ul><li>호르무즈 해협 폐쇄 이후 글로벌 화석 연료 발전량의 유의미한 하락세 기록</li><li>태양광 및 풍력 발전의 비약적인 성장이 에너지 공급망의 충격을 완화</li><li>에너지 전환 가속화로 인한 화석 연료 의존도 감소 및 재생에너지의 경쟁력 입증</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tdtp8l/global_fossil_power_generation_fell_after_the/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 895,
       pinned: false,
       category: 'news', categoryName: '소식',
