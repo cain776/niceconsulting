@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 905,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG 위클리: ECB의 기후 리스크 경고와 주요 동향',
+      author: '관리자',
+      date: '2026.05.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 주요 소식으로 유럽중앙은행(ECB)은 금융기관들이 기후 및 자연 관련 리스크를 과소평가하고 있을 가능성이 매우 높다고 경고하며 철저한 대비를 촉구했습니다. 또한, 기업들의 지속가능성 공시 의무화가 확산됨에 따라 데이터의 정확성과 투명성 확보가 시장의 핵심 과제로 부상하고 있습니다. 글로벌 금융 시장에서는 정치적 불확실성에도 불구하고 탄소 중립과 자연 자본 보호를 위한 장기적 투자가 지속되는 추세입니다.</p><h3>주요 포인트</h3><ul><li>ECB, 금융권의 기후 변화 및 생물다양성 손실 리스크 관리 체계 강화 지시</li><li>유럽 기업 지속가능성 보고 지침(CSRD) 도입에 따른 공시 표준화 가속화</li><li>자연 관련 재무정보 공개(TNFD) 등 자연 자본 보호를 위한 금융권의 움직임 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-261/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-261" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 906,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국, 원조 삭감으로 GCF 최대 공여국 지위 상실',
+      author: '관리자',
+      date: '2026.05.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국이 최근 공적개발원조(ODA) 예산을 삭감하면서 유엔 녹색기후기금(GCF)의 최대 공여국 지위를 잃게 되었습니다. 분석 결과, 영국의 기여도는 독일과 프랑스 등 다른 주요 선진국들에 뒤처진 것으로 나타났습니다. 이는 개발도상국의 기후 변화 대응을 지원하는 핵심 기금 내에서 영국의 영향력이 약화되었음을 의미합니다. 이번 결정은 영국의 국제적 기후 리더십에 대한 우려를 낳고 있습니다.</p><h3>주요 포인트</h3><ul><li>영국의 GCF 기여금이 예산 삭감 여파로 크게 줄어들며 순위가 하락함</li><li>독일과 프랑스가 영국을 제치고 기금의 주요 공여국으로 부상함</li><li>영국의 기후 금융 약속 이행에 대한 국제적인 신뢰도 하락 가능성 제기</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-uk-no-longer-top-un-green-climate-fund-donor-after-latest-aid-cut/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 907,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국, 녹색기후기금(GCF) 기여금 절반으로 삭감',
+      author: '관리자',
+      date: '2026.05.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 정부가 2023년 유엔 녹색기후기금(GCF)에 약속했던 16억 파운드의 기여금을 절반 수준으로 줄이겠다고 발표했습니다. 이번 결정은 기후 변화 대응보다 국가 안보 및 국방 예산 지출을 우선시하는 정부의 정책 기조 변화에 따른 것입니다. 이로 인해 기후 위기에 취약한 개발도상국들을 위한 지원 사업과 영국의 국제적 기후 리더십에 상당한 타격이 예상됩니다.</p><h3>주요 포인트</h3><ul><li>2023년 약속한 16억 파운드 기여금을 8억 파운드 규모로 대폭 축소</li><li>기후 위기 대응 예산보다 국가 안보 및 국방 분야 지출을 우선순위로 설정</li><li>개발도상국의 기후 적응 및 완화 프로젝트 지원 차질과 국제적 비판 직면</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/14/uk-halves-green-climate-fund-contribution-as-it-spends-more-on-security/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 908,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '고장 난 폐가전제품, 어떻게 친환경적으로 처리할까?',
+      author: '관리자',
+      date: '2026.05.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기부하기엔 너무 낡고 일반 쓰레기로 버리기엔 독성이 강한 폐가전제품의 올바른 처리 방법에 대한 논의가 진행되었습니다. 리튬 이온 배터리나 부풀어 오른 태블릿 등은 중금속 오염과 화재 위험이 있어 일반 쓰레기통에 배출해서는 안 됩니다. 작성자는 지역 회수 행사나 전문 재활용 서비스를 통해 자원을 안전하게 분해하고 재사용하는 순환 경제 실천 방안을 찾고 있습니다.</p><h3>주요 포인트</h3><ul><li>리튬 이온 배터리 및 폐가전의 화재 위험과 중금속 오염 가능성 경고</li><li>일반 쓰레기 배출 대신 전문 수거함이나 지역 회수 프로그램 활용 권장</li><li>소재 재활용을 통해 자원을 보존하는 순환 경제 모델의 중요성 강조</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tena5w/how_do_you_handle_old_electronics_that_are_too/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 900,
       pinned: false,
       category: 'news', categoryName: '소식',
