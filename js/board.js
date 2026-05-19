@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 909,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국 주도 \'원전 해체\' 국제표준 제정 첫 발',
+      author: '관리자',
+      date: '2026.05.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 한국이 제안한 '원전 해체 로봇 성능평가'에 관한 국제표준안이 국제전기기술위원회(IEC)에서 신규 작업과제로 채택되었다고 밝혔습니다. 이는 원전 해체 분야에서 한국이 주도하는 첫 국제표준 사례로, 고방사성 환경에서 사용되는 로봇의 신뢰성을 검증하는 기준을 담고 있습니다. 이번 성과를 통해 글로벌 원전 해체 시장에서 한국의 기술 영향력을 확대하고 수출 경쟁력을 강화할 수 있는 발판을 마련했습니다.</p><h3>주요 포인트</h3><ul><li>한국 제안 '원전 해체 로봇 성능평가' 국제표준안(IEC) 최종 채택</li><li>고방사성 극한 환경 내 로봇의 이동 및 작업 성능 검증 방법 표준화</li><li>2030년대 이후 급성장할 글로벌 원전 해체 시장 선점 및 기술 주도권 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFB0TEMtaFhkMElxX3dzOWNLUWtGMnNPWHlyVGhNY0pmMlNrR0EycWhGbXlVcC1kZnByOUVyMjlCYVJSMnJvRnhia3VweUdSbG5XcnZEMDdTQ3ROQVhBOWM3RlpwTGlFOVI4bDBCRg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 910,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '폭염 속 냉방 의존도 급증, 대규모 정전 및 인명 피해 우려',
+      author: '관리자',
+      date: '2026.05.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>과학자들은 기후 변화로 인한 극심한 폭염이 도시 전력망을 마비시켜 치명적인 결과를 초래할 수 있다고 경고합니다. 도시 거주자들이 생존을 위해 에어컨에 점점 더 의존하게 되면서 전력 수요가 급증하고 있으며, 이는 그리드 붕괴 위험을 높이는 요인이 됩니다. 만약 폭염 중 대규모 정전이 발생할 경우, 냉방 수단을 잃은 수많은 시민이 생명에 직접적인 위협을 받을 수 있다는 분석입니다.</p><h3>주요 포인트</h3><ul><li>폭염으로 인한 냉방 수요 급증이 기존 전력 인프라에 전례 없는 부담 가중</li><li>전력망 붕괴 시 도시 거주자의 생존을 위협하는 '치명적 정전' 시나리오 경고</li><li>기후 위기에 대응하기 위한 에너지 효율 개선 및 전력망 회복탄력성 확보 시급</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tgrwpj/scientists_warn_extreme_heat_could_trigger_deadly/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 911,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '지속가능성 인사이트를 통한 팀과 리더십 역량 강화',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기업이 지속가능성 목표를 달성하기 위해서는 단순한 데이터 수집을 넘어, 이를 실질적인 의사결정에 활용할 수 있는 인사이트로 전환하는 것이 필수적입니다. 리더십은 명확한 분석 결과를 바탕으로 전략적 방향을 설정해야 하며, 실무 팀은 구체적인 지표를 통해 업무 프로세스를 개선해야 합니다. EcoVadis는 이러한 과정을 지원하여 기업이 공급망 전반에서 투명성을 확보하고 지속가능한 성장을 이룰 수 있도록 돕습니다.</p><h3>주요 포인트</h3><ul><li>지속가능성을 단순한 규제 대응을 넘어 기업의 핵심 비즈니스 전략으로 통합</li><li>리더십의 신속하고 정확한 의사결정을 돕는 가시성 높은 데이터 제공</li><li>실무 팀이 현장에서 구체적인 개선 조치를 취할 수 있는 실행 가능한 인사이트 강조</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQQXg0UkxjQ3pCVEh4V0NKZFJoNXAyMl8wcnFFd3JTQTRBaExJci1WSXFsd3otNzZDZmFzYTJ2eVNZb0Y5eUloYU5iaWRwcXZNQy1XSnAwaDBid2xTZE1OU1pTQ3dFYnNLT3NCOGFPQklWa0hFalJiMjRzM2IxWWJFdy0xX0ZFZjlxUGFCZlNaYW84blIxU09uUUw0c2tfNmQyWHBmQnN5ZERrekxx?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 912,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '공급망 회복탄력성이란? 4대 핵심 요소와 중요성',
+      author: '관리자',
+      date: '2026.05.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>공급망 회복탄력성은 예상치 못한 중단 상황을 예측하고 신속하게 대응하여 비즈니스 연속성을 유지하는 능력을 의미합니다. 기후 변화, 지정학적 갈등 등 글로벌 불확실성이 커지는 환경에서 기업의 민첩성과 경쟁력을 유지하기 위한 필수적인 전략입니다. 이를 위해 기업은 공급망 전반의 가시성을 확보하고 리스크 관리 체계를 강화함으로써 장기적인 성장을 도모해야 합니다.</p><h3>주요 포인트</h3><ul><li>회복탄력성의 4대 핵심 요소: 가시성(Visibility), 민첩성(Agility), 다변화(Diversification), 지속가능성(Sustainability)</li><li>디지털 기술을 활용한 실시간 데이터 분석 및 공급망 전 계층(Tier)에 대한 투명성 확보의 중요성</li><li>단일 공급처 의존도를 낮추는 다변화 전략과 ESG 기준 통합을 통한 장기적 리스크 완화</li></ul><p>원문: <a href="https://ecovadis.com/blog/supply-chain-resilience-guide/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 913,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 변화의 건강 위협, 강력한 정부 대응 지지 이끌어내',
+      author: '관리자',
+      date: '2026.05.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 4개국을 대상으로 실시된 설문조사에 따르면, 기후 변화가 건강에 미치는 위험에 대한 인식이 정부의 기후 행동에 대한 강력한 대중적 지지를 이끌어내고 있습니다. 응답자들은 기후 위기를 단순한 환경 문제를 넘어 직접적인 보건 위기로 인식하고 있으며, 이에 따른 정부의 적극적인 개입을 촉구하고 있습니다. 연구팀은 기후 정책을 보건 프레임으로 접근하는 것이 대중의 참여를 유도하는 데 더욱 효과적이라고 분석했습니다.</p><h3>주요 포인트</h3><ul><li>CORE와 Wellcome의 조사 결과, 기후 위기의 건강 영향에 대응하려는 정부 정책에 대한 높은 지지 확인</li><li>기후 변화를 공중 보건 문제로 인식할 때 대중의 정책 지지도가 더욱 상승하는 경향</li><li>호흡기 질환 및 폭염 등 실질적인 건강 위협이 기후 행동의 핵심 동기로 작용</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/18/health-risks-from-climate-change-spur-stronger-public-support-for-action-research-finds/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 905,
       pinned: false,
       category: 'news', categoryName: '소식',
