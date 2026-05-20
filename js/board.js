@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 914,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '타겟, 전 월마트 임원을 공급망·물류 수장으로 영입',
+      author: '관리자',
+      date: '2026.05.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 대형 유통업체 타겟(Target)이 재고 신뢰성 강화를 위해 전 월마트 임원 출신의 제프 잉글랜드(Jeff England)를 새로운 공급망 및 물류 책임자로 영입했습니다. 잉글랜드는 오는 5월 31일 타겟에 합류할 예정이며, 최근까지 QXO에서 재고 가용성 개선 작업을 이끌었습니다. 이번 인사는 타겟이 온·오프라인 채널 전반에서 상품 공급의 안정성을 높이고 물류 효율성을 극대화하려는 전략적 움직임으로 풀이됩니다.</p><h3>주요 포인트</h3><ul><li>타겟은 공급망 및 물류 부문 신임 책임자로 전 월마트 및 QXO 임원 출신인 제프 잉글랜드를 임명했습니다.</li><li>이번 영입은 매장 및 온라인몰의 재고 가용성과 공급망 신뢰성을 강화하기 위한 타겟의 핵심 전략 중 하나입니다.</li><li>잉글랜드는 과거 대형 유통업체에서 쌓은 풍부한 물류 최적화 경험을 바탕으로 타겟의 물류 네트워크 효율성을 개선할 것으로 기대됩니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/target-taps-former-walmart-exec-as-supply-chain-logistics-chief/820586/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 915,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '슈퍼 엘니뇨 경고, 과거 대재앙 재현 우려',
+      author: '관리자',
+      date: '2026.05.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 전 세계 해수면 온도가 사상 최고치를 기록하면서 강력한 '슈퍼 엘니뇨'의 발생 가능성이 커지고 있습니다. 역사적으로 이와 유사한 해수 온도 상승이 발생했을 때, 전 지구적인 가뭄과 기근으로 인해 수백만 명이 목숨을 잃었습니다. 기후 변화로 인해 엘니뇨의 위력이 더욱 증폭되고 있으며, 이는 식량 안보와 인류 생존에 심각한 위협이 되고 있습니다. 전문가들은 전례 없는 기후 재앙에 대비해 국제적인 공조와 즉각적인 대응책 마련이 시급하다고 경고합니다.</p><h3>주요 포인트</h3><ul><li><strong>해수면 온도 급상승:</strong> 전 세계 해수 온도가 이례적인 수준으로 상승하며 강력한 슈퍼 엘니뇨 발생을 예고하고 있습니다.</li><li><strong>역사적 대재앙의 경고:</strong> 과거 유사한 해수 온도 상승기에는 전 지구적 가뭄과 기근으로 수백만 명이 사망한 전례가 있습니다.</li><li><strong>기후 변화의 증폭 효과:</strong> 지구 온난화가 엘니뇨 현상과 결합하면서 기상 이변의 빈도와 강도가 더욱 심화되고 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1ti32ot/a_super_el_niño_is_coming_the_last_time_ocean/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 916,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '모다모다, \'에코바디스 실버\' 획득 기념 감사제',
+      author: '관리자',
+      date: '2026.05.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>헤어케어 브랜드 모다모다가 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 ‘실버’ 등급을 획득했습니다. 에코바디스는 전 세계 기업의 환경, 노동 및 인권, 윤리, 지속가능한 조달 등을 평가하는 공신력 있는 기관입니다. 모다모다는 이번 실버 등급 획득을 기념하여 고객들의 성원에 보답하고자 공식 브랜드몰에서 특별 고객 감사제를 개최합니다. 이번 행사에서는 대표 제품 할인 및 다양한 사은품 증정 혜택이 제공됩니다.</p><h3>주요 포인트</h3><ul><li>모다모다, 글로벌 ESG 평가 기관 에코바디스서 '실버' 등급 획득 (상위 15% 이내)</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 지속가능경영 성과 인정</li><li>실버 등급 획득 기념 공식 몰에서 할인 및 사은품 증정 고객 감사 이벤트 진행</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE4ybVNsLVk2VGQ1cW1QRE83MG41WGdWd3k4RWo1SFh3bUF2ODFuUWtwaWdHSmx4TklObWdsOS1GSWl0bHRGVDNGWGtkWmNlTzlLY0hNVWdTN1dpMWdKR1IzUFk5bXNOVjh5RFFKOG1B0gFuQVVfeXFMTjJtU2wtWTZUZDVxbVBETzcwbjVYZ1Z3eThFajVIWHdtQXY4MW5Ra3BpZ0dKbHhOSU5tZ2w5LUZJaXRsdEZUM0ZYa2RaY2VPOUtjSE1VZ1M3V2kxZ0pHUjNQWTltc05WOHlEUUo4bUE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 917,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 위협 커지는 영국, 이에 걸맞은 대응은 어디에?',
+      author: '관리자',
+      date: '2026.05.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국은 기후 변화로 인한 위협이 날로 심각해지고 있으나, 이에 대응하는 정부의 조치는 여전히 미흡한 실정입니다. 기존의 방식에 실망한 영국 유권자들의 불만을 동력 삼아, 대중의 우려를 해소하고 기후 변화에 회복력 있는 국가를 건설해야 합니다. 정치적 변화와 대중의 요구를 결합하여 실질적이고 강력한 기후 적응 및 완화 대책을 마련하는 것이 시급합니다.</p><h3>주요 포인트</h3><ul><li>영국 내 기후 변화로 인한 물리적 위협(홍수, 폭염 등)의 급격한 증가</li><li>기존 정책(Business as usual)에 대한 유권자들의 높은 불만과 변화 요구</li><li>기후 회복력(Resilience) 구축을 위한 정부 차원의 즉각적이고 강력한 대응 필요성</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/18/the-uk-faces-growing-climate-threats-where-is-the-response-to-match/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 918,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '워키바, 에코바디스와 Scope 3 공시 장벽 높인다',
+      author: '관리자',
+      date: '2026.05.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 리포팅 플랫폼 기업 워키바(Workiva)가 공급망 지속가능성 평가 기관인 에코바디스(EcoVadis)와의 파트너십을 통해 Scope 3(공급망 온실가스 배출량) 공시 역량을 대폭 강화하고 있습니다. 이번 협력을 통해 기업들은 신뢰할 수 있는 투자자 등급(Investor-Grade)의 Scope 3 데이터를 보다 효율적으로 수집하고 보고할 수 있게 되었습니다. 이는 복잡한 공급망 데이터 관리를 단순화하여 워키바가 ESG 공시 소프트웨어 시장에서 강력한 독점적 경쟁 우위(해자)를 구축하는 계기가 될 것으로 전망됩니다.</p><h3>주요 포인트</h3><ul><li><strong>Scope 3 공시의 한계 극복:</strong> 기업들이 가장 어려움을 겪는 공급망 내 온실가스 배출량(Scope 3) 데이터를 에코바디스의 신뢰성 높은 평가 데이터와 연동하여 정확성을 높였습니다.</li><li><strong>투자자 등급의 데이터 제공:</strong> 감사 및 검증이 가능한 수준의 '투자자 등급' 데이터를 제공함으로써 글로벌 ESG 규제 강화 흐름에 선제적으로 대응합니다.</li><li><strong>독보적인 시장 경쟁력(해자) 구축:</strong> 워키바의 통합 리포팅 플랫폼과 에코바디스의 공급망 데이터가 결합되면서 타 경쟁사들이 모방하기 힘든 강력한 진입 장벽을 형성하고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPTDJkX2xWXzNJT2VNNkVpVjNxa3AyY2t2NlZzaXVZU3pDVm5fQlg1d29WNkVRajRRNGZKS3p1NEFNNXk4X29QeTNPMXIzSl9zOHhtcm05RHNoM2c1Tm9RaExaRHRYc2tJUGRnalJGQmRqUU9ldFYzYXVzX0wxUVUzdExqT2owdlQtZVREVTQwN3RrR0lVZlpLS0cyc003Zw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 909,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
