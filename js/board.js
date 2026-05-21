@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 919,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '데이터마란, CSRD·ISSB 대응 신규 ESG 툴 출시',
+      author: '관리자',
+      date: '2026.05.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ESG 소프트웨어 분석 플랫폼 기업 데이터마란(Datamaran)이 CSRD(기업지속가능성보고지침) 및 ISSB(국제지속가능성기준위원회) 공시 규정 준수와 거버넌스 강화를 지원하는 신규 기능을 출시했습니다. 이번 업데이트는 기업들이 복잡해진 글로벌 ESG 규제 환경에 효율적으로 대응하고 이중 중대성 평가를 원활히 수행할 수 있도록 돕습니다. 특히 이사회와 경영진이 ESG 이슈를 단순한 규제 준수를 넘어 전략적 비즈니스 위험 및 기회로 관리할 수 있도록 지원하는 데 중점을 두었습니다.</p><h3>주요 포인트</h3><ul><li><strong>규제 대응 및 이중 중대성 평가 지원</strong>: 유럽의 CSRD와 글로벌 ISSB 기준에 맞춘 이중 중대성(Double Materiality) 평가 및 재무적 중대성 분석 기능을 고도화했습니다.</li><li><strong>이사회 수준의 거버넌스 강화</strong>: ESG 관련 위험과 기회를 이사회 및 경영진이 실시간으로 모니터링하고 의사결정에 반영할 수 있는 거버넌스 도구를 제공합니다.</li><li><strong>AI 기반 실시간 인사이트 제공</strong>: 인공지능(AI) 기술을 활용해 방대한 외부 데이터와 규제 동향을 분석함으로써 신뢰성 높은 ESG 데이터를 실시간으로 도출합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/datamaran-launches-new-tools-to-support-csrd-issb-compliance-governance/?utm_source=rss&utm_medium=rss&utm_campaign=datamaran-launches-new-tools-to-support-csrd-issb-compliance-governance" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 920,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전기화, COP31의 핵심 우선순위로 부상',
+      author: '관리자',
+      date: '2026.05.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>터키의 COP31 의장이 글로벌 에너지 시스템을 화석 연료 및 바이오 연료에서 전기로 전환하기 위한 '진정한 글로벌 대화'를 촉구했습니다. 이에 따라 '전기화(Electrification)'가 다가오는 COP31의 핵심 의제로 떠오르고 있습니다. 이번 제안은 전 세계적인 탄소 배출 감소와 지속 가능한 에너지 전환을 가속화하기 위한 노력의 일환으로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>터키 COP31 의장, 화석 연료 및 바이오 연료에서 전기로의 에너지 전환 촉구</li><li>'전기화'를 COP31의 최우선 과제로 설정하여 글로벌 논의 추진</li><li>지속 가능한 미래를 위한 글로벌 에너지 시스템의 근본적인 변화 강조</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/20/electrification-emerges-as-turkish-cop31-priority/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 921,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '하버티스 가구, 공급망 내 연료비 상승 압박 직면',
+      author: '관리자',
+      date: '2026.05.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 가구 소매업체 하버티스 가구(Havertys Furniture)가 공급망 전반에서 치솟는 연료비로 인해 어려움을 겪고 있습니다. 중동 지역 갈등 등의 여파로 유가가 상승하면서 협력업체의 제조 원가가 상승했을 뿐만 아니라, 하버티스의 자체 배송 차량 운영 비용도 크게 증가했습니다. 가구 업계 전반이 이러한 비용 압박에 직면한 가운데, 회사는 공급망 효율성을 극대화하여 수익성 악화를 방어하는 데 집중하고 있습니다.</p><h3>주요 포인트</h3><ul><li>지정학적 리스크로 인한 유가 상승이 공급망 전반의 연료비 부담으로 작용</li><li>협력업체의 원자재 투입 비용 상승 및 자체 배송 차량의 운영비 증가</li><li>가구 업계 전반에 걸친 비용 상승 압박과 이에 따른 수익성 방어 과제</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/havertys-furniture-battles-rising-fuel-costs-across-supply-chain/820299/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 922,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '엑스페레오, 에코바디스 실버 등급 획득',
+      author: '관리자',
+      date: '2026.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 네트워크 솔루션 기업 엑스페레오(Expereo)가 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 '실버(Silver)' 등급을 획득했습니다. 이번 등급 획득은 공급망 전반에 걸친 지속가능성 및 ESG(환경·사회·지배구조) 성과를 인정받은 결과입니다. 엑스페레오는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다양한 분야에서 우수한 평가를 받았습니다. 이번 성과를 바탕으로 회사는 향후 지속가능한 비즈니스 관행을 더욱 강화해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>엑스페레오가 에코바디스 지속가능성 평가에서 실버 등급을 획득하며 ESG 경영 성과를 입증함.</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 4대 핵심 평가 분야에서 고르게 우수한 성적을 거둠.</li><li>이번 인증을 계기로 글로벌 공급망의 투명성을 높이고 지속가능한 네트워크 솔루션 제공에 박차를 가할 예정임.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxOVi0wR2xFb29uTV8tbmlaNlMxMmhpbGFZYXgxZDFLU0hIUVJQZ1FKMURRZjNremdNZHRZQnJvby05SVJlTFdPMzMtUDRMNUlZMlBqQWdQTG11a2hXbDQ2anUwbGMwN2RHb2FVZVlYVzZPa3MtODJvT0daWF90RjJ1a2dISWJ1NnpyLTBhRndEMFR1NWhHb1lzN0h1eVQyOWl3M1psY2JtcEoyeEwxV21GZlhJcm12a09CWXBlTFprclZsX25kX1phLXhKczk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 923,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '해수부, 해양수산 중대재해 예방 설명회 개최',
+      author: '관리자',
+      date: '2026.05.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>해양수산부는 중대재해처벌법 적용 범위 확대에 대응하여 해양수산 분야 사업장들을 대상으로 '찾아가는 중대재해 예방 설명회'를 개최합니다. 이번 설명회는 안전보건 관리체계 구축에 어려움을 겪는 영세 사업체와 어업인들을 직접 찾아가 실질적인 지원을 제공하기 위해 마련되었습니다. 해수부는 업종별 맞춤형 가이드라인을 배포하고 주요 사고 사례 분석을 통해 현장의 안전 의식을 고취할 계획입니다. 이를 통해 해양수산 산업 전반의 인명 피해를 예방하고 안전한 작업 환경을 조성하는 데 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 확대 적용에 따른 영세 해양수산 사업자 대상 맞춤형 교육 실시</li><li>현장 방문을 통한 안전보건 관리체계 구축 지원 및 업종별 가이드라인 제공</li><li>실제 사고 사례 공유를 통한 현장 근로자와 사업주의 안전 의식 제고 및 예방 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPa2djcWl3REVPWG1aRUlLRHdGZkNxTnFSSGUxY1c2SHBCMFVpWm0zZTJSX0lnamwyR1NDbWRPT0djUWE2VENSVEMyVkp2TGRCMERlVDdtWW4tSG9DQW1VR9IBeEFVX3lxTFBVbGgzaldpaHNBd0ZFWFRhTGY0Z0FWQVA5T0lLT19OOHJxZmdDVExHWGctS3ptekFuWHNjLVQxNWZWRlg1OHY4UmM0NTBNSXU0U2hQS2xmRV9zNGx1S3Jyb2V6UmZSSG03cmRTdkpEcjVFdVhRRkhCaA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 914,
       pinned: false,
       category: 'news', categoryName: '소식',
