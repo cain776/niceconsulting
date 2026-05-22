@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 924,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '워크이바-에코바디스 동맹, 스코프 3 데이터 관리 강화',
+      author: '관리자',
+      date: '2026.05.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 리포팅 플랫폼 기업인 워크이바(Workiva)와 비즈니스 지속가능성 평가 기관인 에코바디스(EcoVadis)가 파트너십을 체결했습니다. 이번 협력을 통해 양사는 기업들이 공급망 전체의 ESG 성과와 스코프 3(Scope 3) 온실가스 배출 데이터를 보다 효과적으로 추적하고 공시할 수 있도록 지원합니다. 에코바디스의 지속가능성 평가 데이터가 워크이바 플랫폼에 직접 통합됨으로써, 기업들은 신뢰할 수 있는 공급망 데이터를 바탕으로 투명하고 규제에 부합하는 ESG 보고서를 작성할 수 있게 되었습니다.</p><h3>주요 포인트</h3><ul><li><strong>공급망 데이터 통합:</strong> 에코바디스의 신뢰성 높은 ESG 평가 및 탄소 데이터를 워크이바 플랫폼 내에서 직접 확인하고 활용할 수 있습니다.</li><li><strong>스코프 3 공시 대응:</strong> 측정과 관리가 까다로운 스코프 3(간접 배출) 데이터를 체계적으로 수집하여 글로벌 ESG 공시 규제에 효과적으로 대응합니다.</li><li><strong>투명성 및 신뢰도 향상:</strong> 감사 가능한(audit-ready) 데이터를 확보함으로써 투자자 및 규제 기관이 요구하는 높은 수준의 투명성을 충족합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOX0NWQWotNFFqQlptbnQ1RG4wZHlBU2diZC1lVW9EZXRYY0FfN2NtSUJ4M29CNGVyWGJaZ003Qjhwb3Rxd2RBRlZ3SHlLMXdwRndOb0VUNTVHTm9SbTR6TzNxUmdPTzJnb0x3dDJrYU8tTFJPY3pUd2ZBZTkyMGoxNUxQT2Y5RHZ1WVRWU2lmRnlyS1pjX1ppM1E3UkV5M2t1VG8xUDFyMzFjcTVUX19wVVF1VklZd09hZUE1TE130gHDAUFVX3lxTFBBLUNyVzU2am1udGJILUxEbDVtYTRkYlMyX1ZIZ3d1VEp5Nml5NGdfVl9Tb0VmUDhTNXgyNEtCVC1KZTdGTlU0ajZrTHFoUzdNemkzMTVveWlUdHZ2a1ZNQ19EaHlYbElfb0ppb2ZpN3dKZWgxeFZwWHBXdzYzQlUxbERDMzJTQ0xpUDFxMlJHbjNfdUtieXRBN0h3QU9XTXc2NVFsMFlrTHBBcTRldF9ob3BDTzV5RXNqUWVsT3E4cS1iQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 925,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '삼성바이오로직스, 에코바디스 ESG \'최고 등급\' 획득',
+      author: '관리자',
+      date: '2026.05.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>삼성바이오로직스가 글로벌 지속가능성 평가기관인 에코바디스(EcoVadis)의 ESG 평가에서 최고 등급인 '플래티넘(Platinum)' 메달을 획득했습니다. 이번 평가에서 삼성바이오로직스는 전 세계 평가 대상 기업 중 상위 1%에 해당하는 우수한 성적을 거두었습니다. 회사는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 평가 항목에서 고르게 높은 점수를 받았습니다. 이번 수상은 삼성바이오로직스의 지속가능경영 노력이 글로벌 무대에서 공식적으로 인정받은 결과입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 ESG 평가에서 최고 등급인 '플래티넘' 메달 획득 (상위 1% 기업에 부여)</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 평가 기록</li><li>글로벌 바이오 제약 업계 내 지속가능경영 선도 기업으로서의 입지 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1uY1VaUUVYNjRRZzFRU2s3RGg3R2xDVW5VWm5zZXFub1R0WkZoV1dxY01XS0J6RnM0UTkwX1k2RFlqZkJyU2dZdEdpbHJJcHM3SnhtT2duaE1LcnlUR3JoWk1OMVJTMkV0RXlQZGdkSWNvdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 926,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '덴마크, 재생에너지 투자로 에너지 위기 극복',
+      author: '관리자',
+      date: '2026.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>덴마크는 풍력 및 태양광 발전 등 재생에너지에 대한 지속적인 투자 덕분에 글로벌 에너지 시장의 불안정성으로부터 자국 경제를 성공적으로 보호하고 있습니다. 화석 연료에 대한 의존도를 대폭 낮춤으로써 글로벌 에너지 가격 변동성과 지정학적 리스크를 최소화했습니다. 이러한 선제적인 녹색 전환 투자는 기후 변화 대응뿐만 아니라 국가 에너지 안보를 강화하는 강력한 방어막이 되고 있습니다.</p><h3>주요 포인트</h3><ul><li>풍력 및 태양광 중심의 재생에너지 포트폴리오 구축으로 화석 연료 의존도 감소</li><li>글로벌 에너지 가격 급등 및 공급망 불안정 속에서도 안정적인 전력 공급과 가격 유지</li><li>선제적인 녹색 투자가 기후 목표 달성을 넘어 국가 안보 및 경제적 복원력 강화로 이어짐</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tj8yhe/how_denmarks_wind_and_solar_investments_shield_it/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 927,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '더그리트, ISO 국제표준 인증 4종 획득',
+      author: '관리자',
+      date: '2026.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>다회용기 순환 서비스 기업 '더그리트'가 ISO 국제표준 인증 4종을 획득하며 글로벌 수준의 운영 경쟁력을 입증했습니다. 이번 인증은 품질, 환경, 안전보건 등 기업 경영 전반에 걸친 표준 규격을 충족했음을 의미합니다. 이를 통해 더그리트는 ESG 경영 기반을 더욱 강화하고, 신뢰성 높은 친환경 서비스를 제공할 수 있는 기틀을 마련했습니다.</p><h3>주요 포인트</h3><ul><li><strong>ISO 인증 4종 확보:</strong> 품질 및 환경 경영 등 핵심 분야에서 국제 표준 규격을 획득하여 시스템 우수성을 입증했습니다.</li><li><strong>ESG 경영 체계 강화:</strong> 친환경 다회용기 솔루션의 신뢰도를 높이고 지속가능한 비즈니스 모델을 공고히 했습니다.</li><li><strong>글로벌 경쟁력 제고:</strong> 국제 표준에 부합하는 운영 체계를 바탕으로 향후 글로벌 시장 진출을 위한 발판을 마련했습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBHOTJiaF81U08ydGJRUllxSkEyYW1fTHNRVDNraEFoeUhyeW1RNFllZEtvazdRMUJILVVkZl82a191SW5jM3k2c2dadWotT0JyNlpJRlhlcmI1ekR1bnJseWlfQVhZM2c0NXdWTg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 928,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'CIP, 15억 유로 규모 바이오에너지 펀드 출시',
+      author: '관리자',
+      date: '2026.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 인프라 투자 전문 자산운용사인 코펜하겐 인프라스트럭처 파트너스(CIP)가 15억 유로(약 2조 2,000억 원) 규모의 '선진 바이오에너지 펀드 I(CI ABF I)'를 출시했습니다. 이 펀드는 유럽 및 북미 지역의 선진 바이오에너지 인프라 프로젝트에 투자하는 것을 목표로 합니다. 주로 유기 폐기물을 활용하여 바이오가스, 바이오메탄 등의 친환경 연료를 생산하고 이산화탄소를 포집하는 프로젝트에 집중할 예정입니다. 이를 통해 순환경제 활성화와 온실가스 감축에 기여하며 친환경 에너지 전환을 가속화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>CIP가 목표액인 15억 유로 규모의 선진 바이오에너지 펀드(CI ABF I) 조성을 완료함.</li><li>농업, 산업 및 가구 폐기물을 원료로 하여 바이오메탄, 바이오가스 등 친환경 연료를 생산하는 프로젝트에 투자.</li><li>유럽 및 북미 지역을 중심으로 탈탄소화 및 화석연료 대체 가속화를 지원할 계획.</li></ul><p>원문: <a href="https://www.esgtoday.com/cip-launches-e1-5-billion-bioenergy-fund/?utm_source=rss&utm_medium=rss&utm_campaign=cip-launches-e1-5-billion-bioenergy-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 919,
       pinned: false,
       category: 'news', categoryName: '소식',
