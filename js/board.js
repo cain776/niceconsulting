@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 929,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스·워키바, 탄소 데이터 통합 협력',
+      author: '관리자',
+      date: '2026.05.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)와 ESG 공시 플랫폼 기업 워키바(Workiva)가 기업의 탄소 및 ESG 데이터 관리를 강화하기 위해 파트너십을 체결했습니다. 이번 협력을 통해 기업들은 에코바디스의 공급망 지속가능성 평가 및 탄소 데이터를 워키바 플랫폼에 직접 통합할 수 있게 되었습니다. 이를 통해 기업은 스코프 3(Scope 3) 배출량을 포함한 공급망 전반의 ESG 데이터를 효율적으로 추적하고, 글로벌 규제 기준에 부합하는 신뢰성 높은 보고서를 작성할 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>데이터 연동 및 효율성 제고:</strong> 에코바디스의 ESG 평가 데이터를 워키바 플랫폼에 직접 연동하여 데이터 수집 및 분석 프로세스를 간소화합니다.</li><li><strong>공급망 및 스코프 3 관리 강화:</strong> 협력업체의 탄소 배출량과 지속가능성 성과를 정밀하게 추적하여 스코프 3 배출량 관리를 용이하게 합니다.</li><li><strong>규제 준수 및 감사 신뢰성 확보:</strong> 유럽 CSRD 등 강화되는 글로벌 ESG 공시 규제에 대응할 수 있도록 감사 가능한 수준의 투명한 데이터 보고를 지원합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOOUR2TWMwYkxMVWdPQUh0alJsNnpGdVBGd1o0SzA4bXo0akVlYTF4eUwtTXdKSXA1OUZPYU1iWDd2N3Q5ckVoR3dpcmt5RGQtY25oaFcwM05xcHBrblZnSlg3bTFVXy1qRkVMUFNxeW9kS3ZMYzdFcGtUX2VvYXR4amtYR1Ffel83dE1rcw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 930,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 세계 첫 원전해체 국제표준 제정 주도',
+      author: '관리자',
+      date: '2026.05.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국이 약 500조 원 규모로 추산되는 글로벌 원전 해체 시장을 선점하기 위해 세계 최초로 원전 해체 분야의 국제표준(ISO) 제정을 주도합니다. 산업통상자원부 국가기술표준원은 우리나라가 제안한 원전 해체 공정 관리 관련 표준안이 국제표준화기구(ISO)에서 신규 작업과제로 채택되었다고 밝혔습니다. 이번 표준 제정은 원전 해체 작업의 안전성과 효율성을 높이는 이정표가 될 것이며, 국내 기업들의 해외 시장 진출에 크게 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>500조 원 시장 선점:</strong> 글로벌 원전 해체 시장 진입을 위한 기술적 교두보를 마련했습니다.</li><li><strong>세계 최초 국제표준 주도:</strong> 한국이 제안한 원전 해체 관련 표준안이 ISO 신규 과제로 공식 채택되었습니다.</li><li><strong>수출 경쟁력 강화:</strong> 국내 원전 해체 기술의 신뢰성을 확보하여 향후 해외 수주 경쟁에서 우위를 점할 전망입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrdTRTNGtSeVRweHBKVmpSUWlwRU16TGVPd0FFVFo2SU12WkstYmNpamZfZ2FaUFVGMDdxUUhNdjE1czhfdjhMWlhVOFU0dw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 931,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'UN 역사적 결의안 채택과 기후 이주 논의',
+      author: '관리자',
+      date: '2026.05.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 Carbon Brief의 DeBriefed는 글로벌 기후 정책의 중대한 전환점들을 다룹니다. 유엔(UN)은 기후 변화에 대한 국가들의 법적 책임을 규명하기 위해 국제사법재판소(ICJ)의 의견을 구하는 역사적인 결의안을 채택했습니다. 이와 함께 미국 대선을 앞두고 트럼프 진영이 기후 모델의 극단적 시나리오인 'RCP8.5'를 규제하려는 움직임과 기후 변화로 인한 이주민 문제의 심각성이 집중 조명되었습니다.</p><h3>주요 포인트</h3><ul><li><strong>UN 역사적 결의안 채택:</strong> 기후 변화에 취약한 국가들을 보호하고 다출국에 법적 책임을 묻기 위해 ICJ의 권고적 의견을 요청하는 결의안이 통과되었습니다.</li><li><strong>트럼프의 'RCP8.5' 겨냥:</strong> 도널드 트럼프 전 대통령 측은 기후 정책 수립 시 가장 비관적인 온실가스 배출 시나리오인 RCP8.5의 사용을 제한하겠다고 예고했습니다.</li><li><strong>기후 이주 대응 시급성:</strong> 해수면 상승과 기후 재난으로 고향을 떠나야 하는 '기후 난민'에 대한 국제적 정의와 인도적 지원 대책 마련이 요구되고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-22-may-2026-un-adopts-landmark-resolution-trump-takes-on-rcp8-5-climate-migration/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 932,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '예멘 태양광 붐 속 중국 전기차, 부유층 공략',
+      author: '관리자',
+      date: '2026.05.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>오랜 전쟁으로 인한 전력난과 고유가를 극복하기 위해 예멘에서 태양광 발전이 급증한 가운데, 중국 전기차 브랜드들이 예멘의 부유한 엘리트층을 적극적으로 공략하고 있습니다. 예멘의 부유층에게 전기차 구매는 기존 태양광 에너지 인프라를 활용하는 자연스러운 다음 단계로 여겨집니다. 이는 인프라 붕괴 속에서 사설 친환경 에너지가 생존 수단을 넘어 부의 상징이자 새로운 에너지 자립 모델로 자리 잡고 있음을 보여줍니다.</p><h3>주요 포인트</h3><ul><li><strong>태양광 혁명의 연장선:</strong> 정전과 고유가를 극복하기 위해 보급된 태양광 설비가 이제 전기차 충전을 위한 인프라로 활용되고 있습니다.</li><li><strong>중국 전기차의 시장 공략:</strong> 중국 자동차 브랜드들이 예멘의 고소득층을 겨냥해 다양한 전기차 모델을 선보이며 시장을 선점하고 있습니다.</li><li><strong>전쟁 속 자생적 친환경 전환:</strong> 국가 전력망이 마비된 상황에서 개인용 태양광과 전기차의 결합이 지속 가능한 대안으로 부상했습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/22/chinese-ev-brands-woo-yemens-wealthy-elite-as-war-prompts-solar-boom/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 933,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'HSBC, 순환경제 투자 플랫폼 \'서큘레이트 캐피탈\' 지원',
+      author: '관리자',
+      date: '2026.05.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>싱가포르에 본사를 둔 순환경제 전문 투자운용사 서큘레이트 캐피탈(Circulate Capital)이 글로벌 금융그룹 HSBC와 새로운 녹색 대출(Green Loan) 약정을 체결했습니다. 이번 자금 조달은 남남동아시아 지역의 플라스틱 폐기물 문제를 해결하고 순환경제를 활성화하는 데 사용될 예정입니다. 서큘레이트 캐피탈은 플라스틱 가치 사슬 전반의 유망 기업에 투자하여 해양 플라스틱 오염을 방지하고 지속 가능한 성장을 지원할 계획입니다.</p><h3>주요 포인트</h3><ul><li>HSBC, 서큘레이트 캐피탈에 플라스틱 오염 방지를 위한 녹색 대출 제공</li><li>남남동아시아 지역의 재활용 인프라 구축 및 순환경제 스타트업 투자 확대</li><li>해양 플라스틱 폐기물 유입을 차단하고 지속 가능한 플라스틱 가치 사슬 구축 목표</li></ul><p>원문: <a href="https://www.esgtoday.com/hscb-backs-circular-economy-investment-platform-circulate-capital/?utm_source=rss&utm_medium=rss&utm_campaign=hscb-backs-circular-economy-investment-platform-circulate-capital" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 924,
       pinned: false,
       category: 'news', categoryName: '소식',
