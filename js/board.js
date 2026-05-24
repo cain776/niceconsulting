@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 934,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 초동 수사만 1년, 지연 대책 시급',
+      author: '관리자',
+      date: '2026.05.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 이후 관련 사건의 초동 수사 단계에만 평균 1년 이상이 소요되는 것으로 나타났습니다. 고용노동부와 검찰의 수사가 장기화되면서 피해자 유가족의 고통이 가중되고 기업의 경영 불확실성도 커지고 있습니다. 이에 따라 국회 등 정치권과 산업계에서는 수사 절차의 신속성과 전문성을 높여야 한다는 목소리가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li>중대재해 발생 후 기소 여부 결정까지 평균 1년이 넘는 시간이 소요되어 사법 처리가 지연되고 있습니다.</li><li>노동부의 특별사법경찰과 검찰의 이중 수사 구조, 그리고 전문 인력 부족이 수사 장기화의 주요 원인으로 지목됩니다.</li><li>수사 지연은 유가족에 대한 보상 합의를 늦추고, 기업에는 장기적인 사법 리스크 부담을 안겨주고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE16NFhSLXd5MHhmNXVnVUpxcmFWV3poRWp4V0dWVXFMM1N4R09hdFJpMUJCQjlmcnRwY2JRcXQ5SFp4SnNRb3dHRXZRQW5ibFdsYi1URA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 935,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '앨버트슨, AI 기반 농산물 검사 도구 도입',
+      author: '관리자',
+      date: '2026.05.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 대형 식료품 체인 앨버트슨(Albertsons)이 물류센터의 신선식품 품질 검사를 지원하기 위해 AI 기반 농산물 검사 도구를 도입했습니다. 이 기술은 품질 검사관들이 농산물의 신선도를 보다 정확하고 신속하게 평가할 수 있도록 돕습니다. 이를 통해 유통 과정에서의 식품 폐기물을 줄이고 공급망 효율성을 극대화하여 ESG 경영을 강화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>AI 기술을 활용한 물류센터 내 농산물 품질 검사 프로세스 디지털화 및 표준화</li><li>신선도 예측을 통한 식품 폐기물(Food Waste) 감소 및 환경적 영향 저감</li><li>공급망 전반의 효율성 향상 및 소비자에게 고품질의 신선식품 제공</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/albertsons-launches-ai-powered-produce-inspection-tool/820378/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 936,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '코오롱제약, 글로벌 ESG 평가서 메달 획득',
+      author: '관리자',
+      date: '2026.05.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>코오롱제약이 글로벌 ESG 평가기관인 에코바디스(EcoVadis)의 ESG 평가에서 메달을 획득하며 지속가능경영 성과를 인정받았습니다. 에코바디스는 전 세계 기업의 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 평가하는 대표적인 글로벌 ESG 평가 플랫폼입니다. 코오롱제약은 이번 평가 결과를 바탕으로 ESG 경영 체계를 더욱 공고히 하고 실행력을 강화하여 글로벌 기준에 부합하는 지속가능경영을 추진할 계획입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스(EcoVadis)로부터 메달 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 다방면에서 ESG 성과 인정</li><li>ESG 경영 실행력 강화를 통해 글로벌 시장에서의 경쟁력 및 지속가능성 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tVFlfODE4cFFKY2drV0wxTzYwQ0twd1duci1MbEN4RmlVY05KUHM5S2QydXIzYTRqQkx2OVo5eWdZYnRZNHZlUjBhaTIyY0ZhOUZvbGZEcjRNVlItQm5Rd9IBeEFVX3lxTE41cEtqZ3p2aFhEa3AzZWNnYjNUYmhFSzhOUzFDNjFaSjZfTThxSDVYRkxXODloTDR0M1dQeDQ1eEhqMjlYaGxXbVhZeEYwLWE2d3o2NTFvSWZwQV81Mmx5TDVtVk9HakNCYjNoeUM0YUhTZENGS0gzUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 937,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '싱가포르-세계은행, 국가 탄소시장 확대 파트너십 체결',
+      author: '관리자',
+      date: '2026.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>싱가포르 국립기후변화사무국(NCCS)과 세계은행 그룹이 글로벌 국가 탄소시장 활성화를 위한 파트너십을 체결했습니다. 이번 협력은 개발도상국들이 파리협정 제6조에 따른 탄소시장에 참여할 수 있도록 인프라 구축과 역량 강화를 지원하는 것을 목표로 합니다. 양 기관은 탄소 배출권의 신뢰성과 투명성을 높이기 위해 디지털 기술과 표준화된 시스템을 도입할 예정입니다. 이를 통해 전 세계적인 온실가스 감축과 지속 가능한 기후 금융 흐름이 가속화될 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>글로벌 파트너십 구축:</strong> 싱가포르와 세계은행이 개발도상국의 탄소시장 참여를 돕고 글로벌 탄소 배출권 거래 인프라를 강화하기 위해 협력합니다.</li><li><strong>파리협정 제6조 이행 지원:</strong> 국가 간 탄소 배출권 거래의 투명성과 신뢰성을 확보하기 위해 표준화된 프레임워크와 디지털 솔루션을 제공합니다.</li><li><strong>기후 금융 및 투자 촉진:</strong> 신뢰할 수 있는 탄소시장 구축을 통해 민간 및 공공 부문의 기후 프로젝트 투자를 활성화하고 글로벌 감축 목표 달성에 기여합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/singapore-world-bank-partner-to-scale-national-carbon-markets/?utm_source=rss&utm_medium=rss&utm_campaign=singapore-world-bank-partner-to-scale-national-carbon-markets" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 938,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '선진국, 2025년 기후 적응 재원 배증 목표 달성 실패 우려',
+      author: '관리자',
+      date: '2026.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>OECD의 최신 데이터에 따르면, 선진국들이 기후 변화에 취약한 개발도상국을 돕기 위해 기후 적응 재원을 연간 400억 달러로 두 배 늘리겠다는 2025년 목표를 달성하지 못했을 가능성이 높은 것으로 나타났습니다. 이는 주요 공여국들의 해외 원조 예산 삭감이 주요 원인으로 분석됩니다. 기후 변화로 인한 피해가 급증하는 상황에서 재원 확보 실패는 취약국들의 위기를 심화시킬 수 있다는 우려가 나옵니다.</p><h3>주요 포인트</h3><ul><li>OECD 데이터 분석 결과, 선진국의 기후 적응 재원 지원액이 2025년 목표치인 연간 400억 달러에 미치지 못할 것으로 전망됩니다.</li><li>영국, 스웨덴 등 일부 선진국의 원조 예산 감축이 재원 목표 달성 실패의 주요 원인으로 지목됩니다.</li><li>기후 취약국들은 적응 재원 부족으로 인해 해수면 상승, 극단적 기후 현상 등에 대한 대비책 마련에 큰 어려움을 겪고 있습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/21/new-data-shows-rich-nations-likely-missed-2025-goal-to-double-adaptation-finance/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 929,
       pinned: false,
       category: 'news', categoryName: '소식',
