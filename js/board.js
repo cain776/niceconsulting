@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 939,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ESG 투데이 주간 브리핑: 구글의 친환경 목표',
+      author: '관리자',
+      date: '2026.05.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 주요 뉴스로 구글이 AI 기술 발전과 데이터 센터 확장으로 인한 전력 수요 급증에도 불구하고, 자사의 야심 찬 청정에너지 목표를 계속 유지하겠다고 확인했습니다. 구글은 2030년까지 모든 운영 지역의 전력망에서 24시간 무탄소 에너지(CFE)를 사용하는 것을 목표로 하고 있습니다. 최근 탄소 배출량 증가로 목표 달성에 대한 우려가 제기되었으나, 구글은 기술 혁신과 청정에너지 투자를 통해 이를 극복하겠다는 의지를 재확인했습니다.</p><h3>주요 포인트</h3><ul><li>구글, AI 데이터 센터 급증에 따른 배출량 증가에도 2030년 '24/7 무탄소 에너지' 목표 고수</li><li>전력 수요 증가라는 도전 과제 속에서도 지속 가능한 에너지 전환을 위한 장기적 약속 이행</li><li>글로벌 빅테크 기업들의 기후 변화 대응 및 ESG 공약 실천에 대한 시장의 관심 집중</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-262/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-262" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 940,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '과도한 에너지 소비로 유럽 내 비트코인 금지 청원 등장',
+      author: '관리자',
+      date: '2026.05.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽에서 과도한 에너지 소비를 이유로 비트코인을 금지해야 한다는 온라인 청원이 제기되었습니다. 비트코인 채굴 및 거래 과정에서 발생하는 막대한 전력 소모가 기후 변화를 가속화하고 유럽의 탄소 중립 목표 달성을 방해한다는 지적입니다. 이에 따라 환경 운동가들과 시민들은 유럽 연합(EU) 차원의 강력한 규제와 비트코인 금지 조치를 촉구하고 있습니다.</p><h3>주요 포인트</h3><ul><li>비트코인의 막대한 전력 소비로 인한 환경 파괴 우려 제기</li><li>유럽의 기후 변화 대응 및 탄소 중립 목표 달성을 위한 비트코인 금지 청원 진행</li><li>암호화폐 채굴에 대한 EU 차원의 강력한 규제 필요성 강조</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tmh357/sign_the_petition_ban_bitcoin_from_europe_due_to/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 941,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 위기 \'경각심\' 느끼는 집단 10년간 급성장',
+      author: '관리자',
+      date: '2026.05.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>예일 대학교 연구진에 따르면, 지난 10년 동안 지구 온난화를 가장 우려하고 친기후 행동에 적극적으로 참여하는 '경각심을 가진(Alarmed)' 집단이 다른 어떤 부류보다 빠르게 성장했습니다. 이는 기후 위기에 대한 대중의 인식이 심각성을 인지하는 방향으로 크게 변화했음을 보여줍니다. 우리가 지금 당장 행동하지 않으면 상황이 매우 악화될 수 있지만, 이처럼 기후 행동에 동참하려는 사람들이 늘어나는 것은 해결을 위한 희망적인 신호입니다.</p><h3>주요 포인트</h3><ul><li>지난 10년간 기후 변화를 가장 우려하는 '경각심' 집단이 모든 대중 분류 중 가장 큰 폭으로 증가했습니다.</li><li>이들은 친기후 정책을 지지하고 실제 기후 행동 및 실천에 참여할 가능성이 가장 높은 핵심 집단입니다.</li><li>기후 위기의 심각성 속에서도 이러한 대중의 인식 변화와 행동주의의 확산은 긍정적인 변화의 희망을 제시합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tm9t4f/over_the_past_ten_years_the_climate_alarmed_the/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 942,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유엔 총회, 국제사법재판소의 \'기후 의무\' 판결 지지',
+      author: '관리자',
+      date: '2026.05.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유엔 총회가 국제사법재판소(ICJ)의 역사적인 기후 판결을 지지하는 결의안을 통과시켰습니다. 이번 결의안은 각국 정부가 화석 연료 사용을 줄이고 지구 온난화로 인한 피해를 복구해야 한다는 법적 의무를 공식적으로 옹호하고 있습니다. 이는 기후 변화에 대한 국가의 책임을 명확히 한 이정표로 평가받으며, 향후 글로벌 기후 소송과 정책 수립에 중요한 법적 근거가 될 것으로 전망됩니다.</p><h3>주요 포인트</h3><ul><li>유엔 총회, 국제사법재판소(ICJ)가 제시한 국가의 기후 변화 대응 의무 지지 결의안 채택</li><li>각국 정부에 화석 연료 감축 및 기후 변화로 인한 피해 복구에 대한 법적 책임 강조</li><li>향후 국제 기후 소송 및 각국의 기후 행동 촉구를 위한 강력한 법적 도구로 활용 기대</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/21/un-general-assembly-backs-climate-obligations-set-by-worlds-top-court/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 943,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '실시간 인사이트: 선제적 조달의 기반',
+      author: '관리자',
+      date: '2026.05.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망의 불확실성이 커짐에 따라, 기업들은 사후 대응 방식에서 벗어나 선제적인 조달(Proactive Procurement) 전략을 도입해야 합니다. 에코바디스(EcoVadis)는 실시간 데이터와 인사이트가 이러한 선제적 조달을 가능하게 하는 핵심 기반이라고 강조합니다. 실시간 ESG 데이터를 활용하면 공급망 내 잠재적 리스크를 조기에 식별하고 규제 준수 및 지속가능성 목표를 효과적으로 달성할 수 있습니다. 이를 통해 기업은 공급망 회복탄력성을 강화하고 비즈니스 가치를 극대화할 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>실시간 데이터의 중요성:</strong> 공급망 리스크에 신속하게 대응하기 위해 실시간 ESG 모니터링 데이터가 필수적입니다.</li><li><strong>선제적 조달 전략으로의 전환:</strong> 사후 대응에서 벗어나 잠재적 위협을 미리 예측하고 예방하는 조달 프로세스를 구축합니다.</li><li><strong>지속가능성 및 규제 대응:</strong> 강화되는 글로벌 ESG 규제에 선제적으로 대응하여 기업 경쟁력을 확보합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPemNGTXRWZXhrNmdZY2NtYU5falR1NWxGOVRHcU1aWWN4WXB5S0xncDVQZjZ5cHRtTkVzSW5VSWpDQk9VREY0UV8zWEVLNEw0VDZfSDZpYngyTDlXM0RzdFI2R3JTMHUxcDRPVVdGUHRvUTVaa19kaGUyYVh6MnJkMS1kLXJYbnVub3FLb1ZKSlVpUEtXanloZEtoZDhiS3dyak16M0taa2V4QQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 934,
       pinned: false,
       category: 'news', categoryName: '소식',
