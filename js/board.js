@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 944,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '황무지에 심은 나무들, 이제 100% 자생 가능해져',
+      author: '관리자',
+      date: '2026.05.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>수년 전 사막에 조성된 소규모 숲(Tiny Forest)의 나무들이 이제 인간의 도움 없이 스스로 생존할 수 있는 단계에 도달했습니다. 식재 당시 겨우 6인치(약 15cm)에 불과했던 사막버들(Desert Willows)은 환경에 완전히 적응하여 무성하게 자라났습니다. 기후 위기 시대에 절망 속에서 손으로 직접 땅을 파며 시작했던 작은 노력이 마침내 스스로 순환하는 아름다운 생태계를 구축하는 결실을 맺었습니다.</p><h3>주요 포인트</h3><ul><li>사막에 심은 소규모 숲의 식물들이 인간의 관리 없이 100% 자생 가능한 상태로 정착함</li><li>식재 당시 매우 작았던 사막버들이 척박한 환경을 극복하고 크게 성장함</li><li>기후 변화에 대응하는 절박한 수작업 노력이 지속 가능한 자연 복원으로 이어짐</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tnfvvd/the_trees_we_planted_in_the_middle_of_nowhere_are/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 945,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '고창군, 중대재해 예방 역량강화 교육 실시',
+      author: '관리자',
+      date: '2026.05.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>고창군이 현업 근로자 사업장의 안전보건 확보와 중대재해 예방을 위해 관리감독자 및 담당 공무원을 대상으로 역량강화 교육을 실시했습니다. 이번 교육은 중대재해처벌법의 이해와 현장 안전 관리 감독자의 역할 및 임무를 강화하기 위해 마련되었습니다. 참석자들은 위험성 평가 방법과 유해·위험요인 개선 조치 등 실무 중심의 안전보건 관리 체계를 학습했습니다. 고창군은 앞으로도 지속적인 교육과 현장 점검을 통해 근로자가 안전하게 일할 수 있는 무재해 일터를 조성할 계획입니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 이해 및 관리감독자의 역할 정립을 위한 교육 진행</li><li>위험성 평가 및 현장 유해·위험요인 발굴·개선 등 실무 역량 강화</li><li>지속적인 점검과 교육을 통한 고창군 내 안전한 근로 환경 및 무재해 현장 조성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE52QjktUU9WcnQtSHlmX2xPSWJxcXhzNUpaQkJIc1B3N3FCeUhQMGtzRjUySG92TlItTzlkZzJQb01wdWtxcGp1NjRYbjdrYkJoT09UcjdDVTJJT3FDNC16dnZzb0tlVUhTc1E?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 946,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엔브리지, 메타 데이터 센터용 12억 달러 태양광·ESS 개발',
+      author: '관리자',
+      date: '2026.05.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>캐나다의 에너지 인프라 기업 엔브리지(Enbridge)가 메타(Meta)의 데이터 센터에 전력을 공급하기 위해 12억 달러(약 1조 6,000억 원) 규모의 태양광 및 배터리 에너지 저장 장치(BESS) 프로젝트를 개발한다고 발표했습니다. 이번 프로젝트는 미국 텍사스주에 건설될 예정이며, 총 800메가와트(MW) 규모의 태양광 발전과 100MW 규모의 에너지 저장 능력을 갖추게 됩니다. 메타는 이번 프로젝트를 통해 생산되는 전력의 상당 부분을 구매하는 장기 전력구매계약(PPA)을 체결했습니다. 이는 인공지능(AI) 및 데이터 센터 확장에 따른 빅테크 기업들의 청정에너지 수요 급증을 보여주는 대표적인 사례입니다.</p><h3>주요 포인트</h3><ul><li>엔브리지가 메타의 데이터 센터 전력 공급을 위해 12억 달러 규모의 태양광 및 ESS 복합 프로젝트를 개발합니다.</li><li>텍사스주에 구축되는 800MW 태양광 및 100MW 배터리 저장 시설을 통해 안정적인 친환경 전력을 확보할 예정입니다.</li><li>AI 및 데이터 센터 운영에 필요한 막대한 전력을 재생에너지로 충당하려는 빅테크 기업의 탄소 중립 목표를 지원합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/enbridge-to-develop-1-2-billion-solar-storage-project-to-power-meta-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=enbridge-to-develop-1-2-billion-solar-storage-project-to-power-meta-data-centers" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 947,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국의 새 탄소 측정법, 독일 규모 배출 격차 초래',
+      author: '관리자',
+      date: '2026.05.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중국이 핵심 기후 목표를 측정하는 방식을 변경하면서 실제 배출량과 목표치 사이에 독일의 연간 배출량에 달하는 거대한 격차가 발생했습니다. 중국 정부는 에너지 소비 통제에서 탄소 배출량 통제로 전환하는 과정에서 새로운 지표를 도입했습니다. 그러나 이 새로운 방식은 비화석 에너지를 계산에서 제외하는 등 규제 완화 효과를 내어, 중국이 기후 목표를 달성하면서도 추가로 수억 톤의 온실가스를 배출할 수 있는 허점을 만들었습니다. 이는 글로벌 기후 변화 대응 노력에 부정적인 영향을 미칠 수 있다는 우려를 낳고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>측정 기준의 변경:</strong> 중국은 기존의 '에너지 원단위(intensity)' 통제에서 '탄소 배출 원단위' 및 총량 통제로 기후 목표 측정 방식을 전환하고 있습니다.</li><li><strong>독일 규모의 배출 격차:</strong> 새로운 측정 방식 하에서는 비화석 에너지 소비가 목표치 계산에서 제외되어, 독일의 연간 배출량(약 7억 톤)에 달하는 추가 배출 허용 공간이 발생합니다.</li><li><strong>기후 목표 달성의 실효성 우려:</strong> 이로 인해 중국이 표면적으로는 국가 온실가스 감축 목표(NDC)를 달성하더라도, 실제 대기 중으로 배출되는 이산화탄소량은 예상보다 훨씬 많아질 수 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-chinas-new-carbon-metric-leaves-germany-sized-gap-in-its-emissions/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 948,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '코오롱제약, 글로벌 ESG 평가서 브론즈 메달 획득',
+      author: '관리자',
+      date: '2026.05.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>코오롱제약이 글로벌 ESG 평가기관인 에코바디스(EcoVadis)로부터 '브론즈 메달'을 획득하며 ESG 경영 성과를 인정받았습니다. 에코바디스는 전 세계 기업의 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 평가하는 대표적인 글로벌 ESG 평가 플랫폼입니다. 코오롱제약은 이번 평가를 계기로 ESG 실행력을 한층 더 강화하고, 글로벌 기준에 부합하는 지속가능경영 체계를 구축해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스(EcoVadis)로부터 브론즈 메달 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 평가를 받음</li><li>ESG 실무 협의체 운영 및 지속적인 실행력 강화를 통해 글로벌 파트너십 확대 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE41cEtqZ3p2aFhEa3AzZWNnYjNUYmhFSzhOUzFDNjFaSjZfTThxSDVYRkxXODloTDR0M1dQeDQ1eEhqMjlYaGxXbVhZeEYwLWE2d3o2NTFvSWZwQV81Mmx5TDVtVk9HakNCYjNoeUM0YUhTZENGS0gzUdIBeEFVX3lxTE41cEtqZ3p2aFhEa3AzZWNnYjNUYmhFSzhOUzFDNjFaSjZfTThxSDVYRkxXODloTDR0M1dQeDQ1eEhqMjlYaGxXbVhZeEYwLWE2d3o2NTFvSWZwQV81Mmx5TDVtVk9HakNCYjNoeUM0YUhTZENGS0gzUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 939,
       pinned: false,
       category: 'news', categoryName: '소식',
