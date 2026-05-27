@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 949,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '배터리 스타트업 또 파산, 유럽의 중국 의존 탈피 가능할까?',
+      author: '관리자',
+      date: '2026.05.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>노르웨이의 배터리 스타트업 '모로우 배터리(Morrow Batteries)'가 자금난으로 인해 파산 신청을 하면서 유럽의 청정에너지 자립 야망에 큰 타격을 입혔습니다. 이 기업은 중국 제조업체들에 도전장을 내밀며 유럽 내 자체 배터리 공급망 구축을 목표로 삼았으나, 결국 자금 조달 실패의 장벽을 넘지 못했습니다. 이번 사태는 유럽 배터리 산업의 취약성을 다시 한번 드러냈으며, 중국에 대한 의존도를 낮추려는 유럽의 계획에 큰 의문을 제기하고 있습니다.</p><h3>주요 포인트</h3><ul><li>노르웨이 배터리 스타트업 '모로우 배터리'가 심각한 자금난 끝에 파산 신청을 함</li><li>유럽의 독자적인 친환경 에너지 공급망 구축 및 중국 의존도 축소 계획에 큰 차질 발생</li><li>잇따른 유럽 배터리 기업들의 파산으로 인해 유럽 배터리 산업의 자금 조달 및 경쟁력 한계가 노출됨</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/26/after-another-battery-startup-bankruptcy-can-europe-ever-cut-reliance-on-china/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 950,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 변화에 대한 관심, 생각보다 높다',
+      author: '관리자',
+      date: '2026.05.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화에 대한 대중의 관심은 일반적인 인식보다 훨씬 높으며, 이제 논쟁의 초점은 '행동 여부'가 아닌 '어떤 해결책이 가장 효과적인가'로 이동했습니다. 과학적 연구에 따르면, 이러한 대중적 공감대를 바탕으로 기후 행동을 최적화할 수 있는 구체적인 방법들이 존재합니다. 따라서 기후 변화 대응을 위한 논의는 해결책의 타당성과 실행 방안을 중심으로 전개되어야 합니다.</p><h3>주요 포인트</h3><ul><li>기후 변화에 대응해야 한다는 점에 대해서는 이미 광범위한 사회적 합의가 존재합니다.</li><li>현재의 논쟁은 기후 변화의 실재 여부가 아닌, 다양한 해결책의 장단점과 실효성에 초점이 맞춰져 있습니다.</li><li>과학적 데이터를 기반으로 기후 대응 행동을 최적화하고 효과를 극대화하는 전략이 필요합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1to7dlj/more_people_care_about_climate_change_than_you/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 951,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '한국ESG인증협회, 에코바디스 3년 연속 \'골드\' 획득',
+      author: '관리자',
+      date: '2026.05.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국ESG인증협회가 글로벌 ESG 평가 기관인 '에코바디스(EcoVadis)'로부터 3년 연속 '골드(Gold)' 등급을 획득했습니다. 에코바디스는 전 세계 기업의 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 평가하는 대표적인 글로벌 ESG 평가 플랫폼입니다. 이번 골드 등급 획득은 협회가 글로벌 기준에 부합하는 체계적인 ESG 경영을 지속적으로 실천해 왔음을 입증한 결과입니다. 협회는 이를 바탕으로 국내 기업들의 ESG 역량 강화와 글로벌 경쟁력 제고를 위한 지원을 더욱 확대할 방침입니다.</p><h3>주요 포인트</h3><ul><li>한국ESG인증협회, 글로벌 ESG 평가 '에코바디스'에서 3년 연속 '골드' 등급 달성</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 ESG 경영 성과 인정</li><li>국내 기업의 글로벌 ESG 대응력 강화 및 상생 협력을 위한 선도적 역할 지속 수행 예정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE84QXlRNlZsOXppZ2Y2MUZGM2ZJVVZGWFVSRXVjYWlpOHJiajhkM1d4TnJEODFoOXpRQ0hkTk1fWVBMWDd6dVljU2FnQTRiNDVUMXNWVlY3MjZQRFFMWldqZ3JmUlJja0ZORi1qQdIBcEFVX3lxTE50X3VyYURWNDRnODRBX2xLcnBTanV0cnRZTmtzYUtuREt0a3BUcl9Wa2hUMWJ1Z3lNNTNSX2h4TzNOMzB1c2xEUjhzaEtBZnlmcFdqQjJDQl9wYUJhX2Z3SEdBVnpRdkZqVzFub3p5eHo?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 952,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'GCSTIMES, 2026년 에코바디스 실버 등급 유지',
+      author: '관리자',
+      date: '2026.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 호스피탈리티 기업 GCSTIMES가 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 2026년에도 '실버 메달(Silver Medal)' 등급을 유지하는 데 성공했습니다. 에코바디스는 환경, 노동 및 인권, 윤리, 지속 가능한 조달 등 4개 분야를 평가하여 기업의 ESG 성과를 인증합니다. 이번 실버 등급 유지는 GCSTIMES가 지속 가능한 경영과 사회적 책임을 지속적으로 실천하고 있음을 보여줍니다.</p><h3>주요 포인트</h3><ul><li>GCSTIMES, 2026년 에코바디스(EcoVadis) ESG 평가에서 실버 메달 유지 성공</li><li>환경, 노동·인권, 윤리, 지속 가능한 조달 등 전 분야에서 우수한 지속가능성 경영 성과 인정</li><li>글로벌 호스피탈리티 산업 내에서 ESG 경쟁력을 입증하며 지속 가능한 비즈니스 모델 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQQVBuOF9QcmphR1YzWTVCWTNRNHFNSWRfSkhVbF80RWV1SWJ6QndwY0hlQ042dzI3QkFhb1RHQkNOU0lmUVVXUUhBUGJ4NHF5OXBGRDFJU0NTUHg5QmRBRnNlLXRmYUdDdTNyVXF6UzVLeHp6WTBrVkVyLWhQaEJJV0lfY256ak50Z0VSOEtXQms0bGYwcmhFVFVQXzA4ajFteTE5ZVVR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 953,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법이 노동시장에 미친 영향',
+      author: '관리자',
+      date: '2026.05.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국개발연구원(KDI)은 중대재해처벌법 시행이 노동시장과 산업 안전에 미친 영향을 분석했습니다. 분석 결과, 법 시행 이후 기업들의 안전 관련 투자는 늘어났으나 실질적인 중대재해 감소 효과는 단기적으로 뚜렷하지 않은 것으로 나타났습니다. 오히려 경영 책임자의 사법 리스크 우려로 인해 고위험 업종에서 고용이 위축되거나 원청의 위험 외주화가 심화되는 부작용이 발생하고 있습니다. 이에 따라 처벌 중심의 규제보다는 실질적인 예방 지원과 법적 명확성 확보가 필요하다는 제언이 나옵니다.</p><h3>주요 포인트</h3><ul><li><strong>재해 감소 효과 미미</strong>: 법 시행 이후 중대재해 사망자 수의 유의미한 감소 효과는 통계적으로 명확히 확인되지 않았습니다.</li><li><strong>고용 위축 및 외주화 우려</strong>: 규제 준수 비용 상승과 처벌 리스크로 인해 고위험 업종의 고용이 감소하고 하청으로의 위험 전가 현상이 나타날 수 있습니다.</li><li><strong>예방 중심 정책으로의 전환 필요</strong>: 모호한 의무 규정을 명확히 하고, 중소기업의 안전보건 관리체계 구축을 위한 실질적 지원을 확대해야 합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwRlpZOXhKVnhLeXVKWUxsN0RTeVV3OXRyVW1oV2JYMXhQcHMyLUVJb2pDdGR6VWF5TXM0OVk3aVBpX2M4dGlqdEo5b3pta0xmeWxDWDJjeXFCUDFjUXJPc05GRGM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 944,
       pinned: false,
       category: 'news', categoryName: '소식',
