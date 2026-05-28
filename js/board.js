@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 954,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미국인 1인당 매년 평균 80파운드의 의류 폐기',
+      author: '관리자',
+      date: '2026.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 미국인 1인당 매년 약 80파운드(약 36kg)의 의류를 버린다는 통계가 나오면서 과소비의 일상화에 대한 성찰이 요구되고 있습니다. 한편, 중고 거래와 수선 문화, 재사용 제품 사용 등 지속 가능한 라이프스타일이 10년 전보다 훨씬 대중적인 문화로 자리 잡았습니다. 이는 진정한 지속 가능성의 진보가 정책이나 기업의 변화에 앞서 대중의 문화적 변화로부터 시작될 수 있음을 보여줍니다.</p><h3>주요 포인트</h3><ul><li>미국인 1인당 연간 약 80파운드(36kg)의 의류를 폐기하며 과소비 문제 심각성 부각</li><li>중고 거래, 의류 수선, 다회용품 사용 등 지속 가능한 소비 문화의 대중화</li><li>정부 정책이나 기업의 변화 이전에 대중의 문화적 인식 전환이 지속 가능성 실현의 출발점이라는 분석</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tp9ffi/the_average_american_throws_away_80_pounds_of/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 955,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 공급망 ESG 디지털화 격차 분석',
+      author: '관리자',
+      date: '2026.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가 기관인 에코바디스(EcoVadis)는 기업들이 공급망 지속가능성 목표를 달성하는 데 있어 '디지털화 격차'가 큰 걸림돌이 되고 있다고 지적했습니다. 많은 기업이 강화되는 ESG 규제에 대응하기 위해 공급망 데이터 수집을 시도하고 있으나, 여전히 수동 프로세스에 의존하고 있어 효율성이 떨어집니다. 이에 따라 공급망 전반의 투명성을 확보하고 실질적인 ESG 성과를 개선하기 위해서는 조달 시스템과 ESG 데이터의 디지털 통합이 시급한 과제로 떠오르고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>규제 준수와 디지털 도구의 괴리:</strong> EU의 공급망실사법(CSDDD) 등 규제가 강화되고 있지만, 이를 지원할 디지털 도구 도입은 뒤처져 있습니다.</li><li><strong>데이터 통합의 필요성:</strong> 기존 조달 시스템(ERP 등)에 ESG 데이터를 실시간으로 통합하여 의사결정에 활용해야 합니다.</li><li><strong>협력사 동참 유도:</strong> 공급망 전체의 디지털화를 위해 협력사들의 참여를 유도하고 이들의 디지털 역량을 강화하는 지원이 필요합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQVzNOTHVyTTA3T1JlUFBJM2tORVdRRE9Ea1VzNGZFQjJkS2FHcHptQnVVbmZBWmNXdEJ6bl9zeFJpaEFKemQwVDhYTkt3SlhHUTBmLTdFbzE4VDJRU2t6VHVqd3V4X1AydUxIYW04ODFxODVVei15b3NLaHlOUHBjVVVnOFJVc1Npc1k3OHBhTGFOMmc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 956,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 친환경 선박 분야 ISO 국제표준 주도',
+      author: '관리자',
+      date: '2026.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 우리나라가 제안한 친환경 선박 관련 기술들이 국제표준화기구(ISO)의 국제표준으로 채택되며 글로벌 시장을 주도하고 있다고 밝혔습니다. 이번에 주도하는 표준에는 액화수소 연료탱크 및 암모니아 연료 공급 시스템 등 무탄소 선박의 핵심 기술들이 대거 포함되어 있습니다. 이를 통해 한국 조선업계는 글로벌 친환경 선박 시장에서 기술적 우위를 확고히 하고 시장 선점 효과를 누릴 것으로 기대됩니다. 정부는 국내 기업의 우수한 기술이 국제표준으로 제정될 수 있도록 정책적 지원을 아끼지 않을 계획입니다.</p><h3>주요 포인트</h3><ul><li>액화수소 및 암모니아 등 무탄소 연료 선박 핵심 기술의 ISO 국제표준화 주도</li><li>국내 조선업계의 글로벌 친환경 선박 시장 선점 및 기술 경쟁력 강화 기대</li><li>정부 차원의 지속적인 국제표준 제정 지원 및 민관 협력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbEhtR3RpeXJtWnpqRG81MUZXTVpNTVFfcWU0Y1BXSFZTVHNWd256aDM5eWcyQkZKZFM5cmlEaHBSYUFQZVg0ZDFITERNdTBOSE9FMFFXZlhFVV9TM1h1RVVhZTVZTWF0Vm5PeGJyN0xzWFBmSDJGTTd5NFlQQ25BdDZYZHd1LW1hTmhOVW41YmZQeUxlYkZOVC0tWkNqYi1VMVQ5WTZYbVk5bUw1bHpZU1hrd0xhMzhmUXZCZU9FeHRHeHc2cDFUYlBtYzVYYUtQZ3ZHV0pncVJfbWc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 957,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'IFS, 산업용 AI 기반 탄소 배출 측정 솔루션 출시',
+      author: '관리자',
+      date: '2026.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업용 소프트웨어 기업 IFS가 산업 분야 기업들의 탄소 배출량 측정 및 보고를 지원하는 에이전틱 AI(Agentic AI) 기반 플랫폼 'IFS 제로(IFS Zero)'를 출시했습니다. 이 플랫폼은 기업들이 공급망 전반에 걸친 스코프 1, 2, 3 온실가스 배출량을 정확하게 추적하고 관리할 수 있도록 돕습니다. 특히 복잡한 데이터 수집과 분석 과정을 자동화하여 규제 준수 부담을 크게 줄여줍니다. 이를 통해 기업들은 지속가능성 목표 달성을 가속화하고 환경적 투명성을 강화할 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>에이전틱 AI 기반 자동화:</strong> AI 에이전트가 다양한 시스템에서 데이터를 자동으로 수집 및 검증하여 수작업 오류를 최소화합니다.</li><li><strong>전체 공급망 배출량 추적:</strong> 스코프 1, 2, 3 온실가스 배출 데이터를 실시간으로 모니터링하고 분석하여 신뢰성 높은 데이터를 제공합니다.</li><li><strong>글로벌 ESG 규제 대응:</strong> 유럽 CSRD 등 엄격해지는 글로벌 ESG 공시 기준에 맞춘 보고서 작성을 간소화합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/ifs-launches-new-emissions-measurement-and-reporting-solution-for-industrial-companies/?utm_source=rss&utm_medium=rss&utm_campaign=ifs-launches-new-emissions-measurement-and-reporting-solution-for-industrial-companies" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 958,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '울산시, 중대시민재해 담당자 안전교육 실시',
+      author: '관리자',
+      date: '2026.05.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>울산시는 중대재해처벌법에 따른 시민재해를 예방하기 위해 담당 공무원 및 관리자들을 대상으로 안전보건 교육을 실시했습니다. 이번 교육은 공공시설물 및 대중교통 등에서 발생할 수 있는 사고를 사전에 방지하고, 재난 대응 역량을 강화하기 위해 마련되었습니다. 시는 이를 통해 안전보건 관리체계를 공고히 하고 시민이 안심할 수 있는 안전 도시 울산을 조성하는 데 주력할 방침입니다.</p><h3>주요 포인트</h3><ul><li>중대시민재해 예방을 위한 담당자 맞춤형 안전보건 교육 진행</li><li>공공시설물 및 대중교통 등 시민 이용 시설의 안전 관리 체계 강화</li><li>중대재해처벌법 이행력 확보 및 공직 사회의 안전 의식 고취</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE84NTlPUngzTDUwNUluQlpsVUp1cFU3NkVhYnZud1hyelk0VU9jSWNRVVpseWhBc2cyQnk4R1ZCX3NoOC1TNWc4dWVHQmpadmYweE9xQXo1clVsRHRPRlRVMXc5OE5ELVM3WUxLSHV3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 949,
       pinned: false,
       category: 'news', categoryName: '소식',
