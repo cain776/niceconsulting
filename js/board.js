@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 959,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 브리핑: 폭우, 무역 갈등 및 탄소 집약도 분석',
+      author: '관리자',
+      date: '2026.05.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 브리핑은 최근 중국을 강타한 치명적인 폭우 등 기후 변화로 인한 극단적 기상 현상과 그 피해를 다룹니다. 또한, 서구권의 녹색 관세 장벽에 대한 중국 정부의 반발과 대응 입장을 분석합니다. 마지막으로 중국의 기후 목표 달성 여부를 평가하는 핵심 기준인 '탄소 집약도(carbon intensity)' 지표의 실효성과 한계를 집중적으로 조명합니다.</p><h3>주요 포인트</h3><ul><li><strong>기후 변화로 인한 폭우 피해:</strong> 중국 남부 지역을 중심으로 발생한 기록적인 폭우와 홍수로 인해 인명 및 재산 피해가 심화되고 있습니다.</li><li><strong>글로벌 녹색 무역 갈등 고조:</strong> 미국과 EU의 대중국 관세 및 탄소 장벽에 대해 중국은 기후 협력을 저해하는 보호주의 조치라며 강력히 반발하고 있습니다.</li><li><strong>탄소 집약도 지표 분석:</strong> GDP 대비 탄소 배출량을 측정하는 중국 특유의 '탄소 집약도' 지표가 실제 배출량 감축 성과를 평가하는 데 있어 지닌 한계와 쟁점을 분석합니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/china-briefing-28-may-2026-deadly-rains-china-pushes-back-examining-chinas-carbon-intensity-metric/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 960,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '지속 가능한 조달 전략 구축 실용 가이드',
+      author: '관리자',
+      date: '2026.05.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속 가능한 조달 전략은 공급망 내 리스크를 효과적으로 관리하고 협력사의 ESG 성과를 촉진하여 장기적인 비즈니스 가치를 창출하는 핵심 요소입니다. 기업은 이를 통해 환경적·사회적 책임을 다하는 동시에 글로벌 규제 준수와 브랜드 신뢰도를 높일 수 있습니다. 본 가이드는 성공적인 지속 가능 조달 체계를 구축하고 실행하기 위한 실질적인 방향성을 제시합니다.</p><h3>주요 포인트</h3><ul><li><strong>협력사 성과 및 리스크 관리:</strong> 공급망 전반의 ESG 리스크를 선제적으로 식별하고 협력사의 지속 가능성 성과를 정량적으로 평가하여 개선을 유도합니다.</li><li><strong>장기적 가치 창출:</strong> 단순한 비용 절감을 넘어 친환경 및 윤리적 조달을 통해 기업의 장기적인 경쟁력과 브랜드 가치를 제고합니다.</li><li><strong>체계적인 로드맵 구축:</strong> 명확한 목표 설정, 이해관계자 참여, 그리고 지속적인 모니터링을 포함하는 실용적인 조달 프로세스를 수립합니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/sustainable-procurement-strategy-guide/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 961,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엘니뇨로 이르면 2027년 역대 가장 더운 해 전망',
+      author: '관리자',
+      date: '2026.05.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>세계기상기구(WMO)는 엘니뇨 현상의 귀환으로 인해 이르면 2027년에 또다시 역대 가장 더운 해가 기록될 수 있다고 경고했습니다. 엘니뇨는 태평양 수온을 상승시켜 전 세계 기온을 높이는 자연 현상으로, 인류가 초래한 기후 변화와 결합하여 극단적인 기상 이변을 심화시킬 것으로 보입니다. 전문가들은 이러한 기온 상승이 글로벌 식량 안보, 보건, 경제 전반에 심각한 위협이 될 수 있다고 우려하고 있습니다. 이에 따라 기후 변화에 대응하기 위한 국제사회의 신속한 행동과 탄소 배출 감축이 더욱 절실해진 상황입니다.</p><h3>주요 포인트</h3><ul><li>세계기상기구(WMO), 엘니뇨 귀환으로 이르면 2027년 역대 최고 기온 경신 가능성 예고</li><li>지구 온난화와 엘니뇨의 시너지 효과로 폭염, 가뭄 등 극단적 기후 재난 우려 심화</li><li>식량 안보 및 보건 위기에 대응하기 위한 글로벌 차원의 선제적 대비책 마련 시급</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/28/el-nino-expected-to-bring-next-record-hot-year-as-soon-as-2027/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 962,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '인류, 이미 지구 한계 초과... 83억 인구 지속 불가능',
+      author: '관리자',
+      date: '2026.05.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 연구에 따르면 인류는 이미 지구가 감당할 수 있는 한계를 넘어섰습니다. 현재 83억 명에 달하는 세계 인구는 생태계를 고갈시키고 기후 변화를 악화시키며 식량과 수자원 안보를 위협하지 않고는 장기적으로 유지될 수 없는 수준입니다. 연구진은 인류의 생존을 위해 지구 자원의 한계를 인식하고 시급히 대책을 마련해야 한다고 경고합니다.</p><h3>주요 포인트</h3><ul><li>현재 세계 인구 83억 명은 장기적 지속 가능 수준을 크게 초과함</li><li>무분별한 자원 소비로 인한 생태계 고갈 및 기후 변화 악화 우려</li><li>식량 및 수자원 안보에 대한 심각한 위협 발생 가능성</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tpynq5/humanity_has_already_exceeded_earths_limits_study/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 963,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '서소문 고가 붕괴로 6명 사상…중대재해법 적용 주목',
+      author: '관리자',
+      date: '2026.05.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>서소문 고가도로 철거 작업 중 발생한 붕괴 사고로 인해 6명의 사상자가 발생하면서 사회적 파장이 일고 있습니다. 이번 사고와 관련하여 시공사 및 원청 업체의 안전 관리 소홀 여부가 도마 위에 올랐으며, 중대재해처벌법 적용 여부에 관심이 집중되고 있습니다. 고용노동부와 경찰은 현장 감식을 통해 구체적인 사고 원인을 조사하고 책임 소재를 명확히 밝힐 예정입니다.</p><h3>주요 포인트</h3><ul><li>서소문 고가 철거 작업 중 붕괴 사고가 발생하여 총 6명의 사상자 발생</li><li>원청 및 하청 업체의 안전 보건 확보 의무 위반 여부에 따른 중대재해처벌법 적용 검토</li><li>노동당국과 경찰의 합동 조사를 통해 현장 안전 수칙 준수 여부 집중 규명 예정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mYlpxV1hsTlNGUmVibjRFYW5fUE9uSXZYajBtaG1oSkxiblJNbHVyN29Kem9tY3FJTGlhaWNTYVcySkRQSWE1aUZ1eW9nTEl6NW9rWWYydFk5VTBVRmVhRVZ2Sjk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 954,
       pinned: false,
       category: 'news', categoryName: '소식',
