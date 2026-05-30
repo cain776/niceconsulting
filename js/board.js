@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 964,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아프리카 전력 공급, 전등을 넘어 일자리 창출로',
+      author: '관리자',
+      date: '2026.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌에너지동맹(GEAPP)의 캐롤 코에치(Carol Koech)는 아프리카의 전력 보급이 단순히 가정에 전등을 밝히는 수준을 넘어 지역 사회의 생계와 일자리를 실질적으로 변화시키는 방향으로 나아가야 한다고 강조합니다. 아프리카 전역의 전력 접근성 확대는 농업 생산성 향상, 중소기업 활성화 등 경제적 자립을 이끄는 원동력이 되어야 합니다. 이를 위해 단순한 인프라 구축을 넘어 전력을 활용한 생산적 활동을 지원하는 통합적인 접근 방식이 필요합니다.</p><h3>주요 포인트</h3><ul><li><strong>생산적 전력 사용(PUE):</strong> 전력 공급이 농업 가공, 냉장 보관 등 소득 창출 활동으로 이어져 지역 경제를 활성화해야 합니다.</li><li><strong>지역 사회 및 생계 혁신:</strong> 전력 연결은 단순한 복지 혜택을 넘어, 주민들이 자립할 수 있는 일자리를 만들고 삶의 질을 근본적으로 개선하는 도구가 되어야 합니다.</li><li><strong>통합적 파트너십 필요:</strong> 정부, 민간 부문, 국제기구가 협력하여 금융 지원과 기술 교육을 동시에 제공하는 생태계를 구축해야 합니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/05/29/qa-how-can-african-electricity-access-power-jobs-not-just-lightbulbs/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 965,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '코달 에너지, 해양 생물 모방 조력 기술로 560만 달러 유치',
+      author: '관리자',
+      date: '2026.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국의 청정에너지 스타트업 코달 에너지(Caudal Energy)가 해양 포유류의 움직임에서 영감을 얻은 혁신적인 조력 발전 기술 상용화를 위해 430만 파운드(약 560만 달러)의 투자금을 유치했습니다. 이번 투자를 통해 코달 에너지는 상업적 규모의 프로토타입을 개발하고 실제 해상 실증에 나설 계획입니다. 이들의 기술은 기존 회전식 터빈과 달리 고래의 꼬리 운동을 모방하여 해양 생태계에 미치는 영향을 최소화하면서도 효율적으로 전력을 생산합니다.</p><h3>주요 포인트</h3><ul><li><strong>자연 모방형 조력 기술:</strong> 고래나 돌고래의 꼬리 지느러미 운동을 모방한 수중 날개 방식을 채택하여 해양 생물 충돌 위험과 소음을 크게 줄였습니다.</li><li><strong>560만 달러 투자 확보:</strong> IP 그룹 등이 주도한 이번 펀딩을 통해 기술 검증 및 상업화 단계를 가속화할 재정적 기반을 마련했습니다.</li><li><strong>친환경 해양 에너지 솔루션:</strong> 기후 변화 대응을 위해 예측 가능하고 지속 가능한 새로운 형태의 청정에너지 공급원을 제시합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/caudal-energy-raises-5-6-million-to-generate-power-from-marine-mammal-inspired-tidal-energy-tech/?utm_source=rss&utm_medium=rss&utm_campaign=caudal-energy-raises-5-6-million-to-generate-power-from-marine-mammal-inspired-tidal-energy-tech" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 966,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미국인 절반 이하, "기후 변화는 인간 때문"',
+      author: '관리자',
+      date: '2026.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>퓨리서치 센터의 최신 조사에 따르면, 미국인 중 절반 미만이 지구 온난화가 인간 활동의 직접적인 결과라고 믿는 것으로 나타났습니다. 또한, 미국인의 12%는 지구 온난화 현상 자체를 전혀 믿지 않는다고 답했습니다. 이는 기후 변화의 원인에 대한 미국 대중의 회의적인 시각이 여전히 존재함을 보여줍니다.</p><h3>주요 포인트</h3><ul><li>미국인 중 50% 미만만이 인간 활동을 지구 온난화의 직접적인 원인으로 인식</li><li>미국인 12%는 지구 온난화가 진행 중이라는 사실 자체를 부정</li><li>퓨리서치(Pew Research) 데이터를 통해 미국 내 기후 변화 회의론 확인</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tqykjb/americans_are_still_skeptical_humans_are_causing/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 967,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽의 기록적 5월, 인도 폭염 및 나이지리아 태양광',
+      author: '관리자',
+      date: '2026.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 기사는 2026년 5월 말 전 세계 기후 변화 관련 주요 소식을 전합니다. 유럽은 역사상 가장 이례적이고 기록적인 5월 날씨를 겪으며 기후 위기의 심각성을 드러냈습니다. 한편, 인도는 극심한 폭염으로 인해 수많은 사망자가 발생하는 인도주의적 위기에 직면했습니다. 아프리카에서는 나이지리아가 전력 접근성을 높이기 위해 태양광 미니그리드 구축에 박차를 가하고 있다는 소식이 전해졌습니다.</p><h3>주요 포인트</h3><ul><li><strong>유럽의 기록적인 5월 날씨:</strong> 기후 변화로 인해 유럽 전역에서 상상을 초월하는 비정상적인 기온 상승과 기후 현상이 관측되었습니다.</li><li><strong>인도의 치명적인 폭염 피해:</strong> 인도 전역을 덮친 극한의 폭염으로 인해 인명 피해가 급증하며 기후 적응 대책의 시급성이 강조되었습니다.</li><li><strong>나이지리아의 태양광 미니그리드 확대:</strong> 전력망이 부족한 나이지리아 지역에 태양광 기반 미니그리드가 보급되면서 친환경 에너지 전환이 가속화되고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-29-may-2026-europes-mind-boggling-may-indian-heat-deaths-nigerias-solar-mini-grids/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 959,
       pinned: false,
       category: 'news', categoryName: '소식',
