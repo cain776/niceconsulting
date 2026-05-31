@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 968,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '지속가능성 실천도 과하면 독이 될 수 있다',
+      author: '관리자',
+      date: '2026.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한 누리꾼이 약 10년 동안 하나의 신발을 신으며 지속가능성을 실천하려 했으나, 발에 물집이 잡히고 걸음걸이가 변하는 등 건강 문제를 겪은 후 결국 새 신발을 구매했다는 사연을 공유했습니다. 작성자는 자신의 건강을 해치면서까지 물건을 오래 쓰는 것은 진정한 지속가능성이 아니라고 강조했습니다. 우리가 최상의 건강 상태를 유지해야 지구도 돌볼 수 있다는 메시지를 던지며 많은 이들의 공감을 얻고 있습니다.</p><h3>주요 포인트</h3><ul><li>10년 동안 신발을 아껴 신으며 소비를 줄이려 했으나, 발 통증과 걸음걸이 변형 등 신체적 문제가 발생함.</li><li>신체 건강을 해치는 수준의 절약은 진정한 의미의 '지속가능성'이 아님을 깨닫고 결국 새 신발을 구매함.</li><li>수선이나 밑창 교체 등의 대안도 언급되었으나, 친환경 실천에 앞서 개인의 건강과 웰빙이 우선되어야 함을 시사함.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1trowpb/maybe_took_sustainability_a_bit_too_far/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 969,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '인천 시정 소식지, 국제 표준 사후 심사 \'적합\'',
+      author: '관리자',
+      date: '2026.05.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인천시의 대표 시정 소식지인 '굿모닝인천'이 국제표준화기구(ISO)의 품질경영시스템(ISO 9001) 및 환경경영시스템(ISO 14001) 사후 관리 심사에서 모두 '적합' 판정을 받았습니다. 이는 지난해 지방자치단체 최초로 두 가지 국제 인증을 동시에 획득한 이후, 운영 및 관리 체계가 국제 표준에 맞게 유지되고 있음을 다시 한번 입증한 것입니다. 인천시는 앞으로도 친환경 제작 방식을 유지하며 시민들에게 고품질의 시정 정보를 전달할 계획입니다.</p><h3>주요 포인트</h3><ul><li>지자체 최초로 획득한 ISO 9001(품질) 및 ISO 14001(환경) 인증의 사후 심사 통과로 공신력 유지</li><li>친환경 용지와 콩기름 잉크 사용 등 제작 과정 전반에서 탄소 중립 및 ESG 경영 실천</li><li>체계적인 독자 의견 수렴과 품질 관리를 통해 시정 소식지의 신뢰도 및 만족도 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFA0WW1SNXRNNHRmMHdXVG51VmJKcFlMQWNYUGdtYW56RDZKY3pqYWRBTE9kcFI3NmRrR3ZVcHRuZjVNMWtrNjNwdmM0a2J4cHYxeWQ3UTh5UHpJblVQNWpaUjlnVVIwZVF6WU1NSGhaa3YtMGpjNkHSAWZBVV95cUxOUHc1a2N0OWVuYnhlVGlQNWdBRDVEbVNIYzg3NWxwYWx3ZjgxUG93YkNLeWhJb0dCS0FkMjlyN3lTaTUxbkd2eWZNNmVNZEQzMFdCNlV4eGEzUE1Ba0NRRGd0ZnNNUnc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 970,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미 SEC, 기업 기후 공시 규칙 폐지 공식 절차 착수',
+      author: '관리자',
+      date: '2026.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 증권거래위원회(SEC)가 지난 2024년 3월에 채택했던 기업 기후 공시 규칙을 공식적으로 폐지하기 위한 절차에 착수했습니다. 이번 조치는 해당 규칙이 발표된 이후 직면한 수많은 법적 소송과 정권 교체에 따른 규제 완화 흐름에 따른 것입니다. SEC는 폐지 제안서를 공개하고 향후 의견 수렴 과정을 거쳐 최종 폐지 여부를 결정할 예정입니다. 이로써 기업들에게 온실가스 배출량 및 기후 관련 리스크 공시를 의무화하려던 바이든 행정부의 핵심 ESG 정책이 사실상 무산될 위기에 처했습니다.</p><h3>주요 포인트</h3><ul><li><strong>기후 공시 규칙 폐지 제안:</strong> SEC는 기업의 기후 관련 정보 공개를 의무화하는 규칙을 공식 폐지하는 방안을 발의했습니다.</li><li><strong>법적 공방 및 정치적 변화:</strong> 공화당 주도의 주 정부 및 비즈니스 단체들의 소송과 행정부 교체에 따른 규제 철회 압박이 배경으로 작용했습니다.</li><li><strong>향후 일정:</strong> SEC는 이번 폐지안에 대해 대중의 의견을 수렴한 후 최종 결정을 내릴 예정입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/sec-launches-formal-process-to-rescind-corporate-climate-reporting-rules/?utm_source=rss&utm_medium=rss&utm_campaign=sec-launches-formal-process-to-rescind-corporate-climate-reporting-rules" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 971,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'AI 붐에 미국, 화석연료 발전에 중국보다 더 많이 투자',
+      author: '관리자',
+      date: '2026.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인공지능(AI) 기술의 급격한 성장과 데이터 센터의 급증으로 인해 미국의 전력 수요가 폭증하고 있습니다. 이로 인해 미국은 전력 공급을 안정화하기 위해 가스 발전 등 화석연료 분야에 대한 투자를 대폭 늘리고 있습니다. 결과적으로 현재 미국은 화석연료 발전 투자 규모에서 중국을 앞지르는 이례적인 상황을 맞이했습니다. 이는 기후 변화 대응과 탄소 중립 목표 달성에 큰 걸림돌이 될 수 있다는 우려를 낳고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>데이터 센터 붐과 전력 수요 급증:</strong> AI 기술 개발 및 데이터 센터 운영에 필요한 막대한 전력을 조달하기 위해 미국의 가스 발전 투자가 급증하고 있습니다.</li><li><strong>미국의 화석연료 투자, 중국 추월:</strong> 친환경 에너지 전환을 추진하던 미국이 전력 부족 우려로 인해 화석연료 발전 투자액에서 중국을 넘어서는 역전 현상이 발생했습니다.</li><li><strong>기후 목표 달성의 위기:</strong> 화석연료 기반 전력 생산의 증가는 미국의 탄소 배출 감축 목표와 글로벌 ESG 기준 달성에 부정적인 영향을 미칠 것으로 전망됩니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/ai-boom-means-us-is-now-investing-more-in-fossil-fuel-power-than-china/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 972,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기록적 폭염·가뭄에 영국 일부 지역 물 부족 사태',
+      author: '관리자',
+      date: '2026.05.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국이 기록적인 폭염과 건조한 봄 날씨로 인해 일부 지역에서 심각한 물 부족 현상을 겪고 있습니다. 전문가들과 정부 관계자들은 기후 변화가 심화됨에 따라 이러한 물 부족 사태가 향후 더욱 악화될 것이라고 경고하고 있습니다. 이에 따라 수자원 인프라 개선 및 기후 변화 적응을 위한 장기적인 대책 마련이 시급한 과제로 떠오르고 있습니다.</p><h3>주요 포인트</h3><ul><li>기록적인 고온과 건조한 봄 기후로 인해 영국 일부 지역의 용수 공급이 중단되거나 제한됨</li><li>기후 전문가들은 지구 온난화로 인해 극단적인 기후 현상과 물 부족 주기가 더 잦아질 것으로 전망함</li><li>지속 가능한 수자원 관리 및 기후 변화 대응을 위한 정부와 기업의 협력이 요구됨</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1ts77md/recordbreaking_heat_and_dry_spring_leave_parts_of/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 964,
       pinned: false,
       category: 'news', categoryName: '소식',
