@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 973,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '서소문 사고 시공사 대표, 중대재해법 위반 입건',
+      author: '관리자',
+      date: '2026.06.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>고용노동부가 서울 서소문 고가도로 철거 작업 중 발생한 붕괴 사고와 관련해 시공사 공동대표 2명을 중대재해처벌법 위반 혐의로 입건했습니다. 이번 사고는 철거 작업 중 구조물이 붕괴하면서 인명 피해가 발생한 재해로, 노동부는 원청 및 시공사의 안전 조치 의무 위반 여부를 집중 조사하고 있습니다. 중대재해처벌법 적용에 따라 경영책임자의 안전 관리 소홀에 대한 책임 규명이 본격화될 전망입니다.</p><h3>주요 포인트</h3><ul><li>서소문 고가 철거 현장 붕괴 사고 관련 시공사 공동대표 2명 입건</li><li>고용노동부, 중대재해처벌법 위반 혐의 적용 및 본격 수사 착수</li><li>작업 현장의 안전보건관리체계 구축 및 의무 이행 여부 집중 규명</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBfS29kZXdSdlpySU5xYmE2N3pVMm1vS1R1amRtS1EyamF3ZW16VXc5OHBFWlJhZ2hvZlcxa2lDdlNBcEdGb1FfeDZUeGMtSFNBaXZmbjBUbVZ2VTdYMHJTVGtCeE1LazV0M0JWMlhDMk1DTFFnQ2Jj0gF3QVVfeXFMTmd3cTIyUS1oQ0FKMVVKZ1pCUjdrWFlYU2F1R09aVWk2cVdpTzVyZG5UZnZxU1ZtYUNwUUZFSV9ZMnBSNVdWQnNnNWJzNmNyWkZBeUtFSDhhVExoY3U3R1pTUjBkb2FhQm9fbWM5YW1jUW5iREFtR3M?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 968,
       pinned: false,
       category: 'news', categoryName: '소식',
