@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 974,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '메틀러 토레도, 탱크 안전 솔루션 \'SLL210\' 출시',
+      author: '관리자',
+      date: '2026.06.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 정밀기기 기업 메틀러 토레도가 탱크 및 호퍼의 전도와 붕괴 사고를 예방하는 안전 특화 웨잉 모듈 'SLL210'을 출시했습니다. 이 솔루션은 중대재해처벌법 등 강화된 산업 안전 기준에 대응하여 작업장 내 대형 사고를 방지하기 위해 설계되었습니다. 강력한 기계적 안전 장치를 통합하여 지진, 강풍 및 유지보수 작업 중 발생할 수 있는 위험으로부터 설비와 작업자를 보호합니다.</p><h3>주요 포인트</h3><ul><li><strong>강력한 이중 안전 장치:</strong> 전도 방지(Anti-uplift) 및 하향 정지(Down-stop) 기능이 통합되어 외부 충격이나 자연재해 시에도 탱크의 안정성을 보장합니다.</li><li><strong>중대재해 예방 및 ESG 대응:</strong> 산업 현장의 안전 사고 위험을 획기적으로 낮추어 기업들이 중대재해처벌법에 대비하고 ESG 안전 경영을 실천할 수 있도록 지원합니다.</li><li><strong>안전하고 간편한 유지보수:</strong> 오정렬 방지 및 고정 장치가 내장되어 있어 설치 및 센서 교체 작업 시 발생할 수 있는 작업자 안전사고를 예방합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1tMWoxbWJnZWk4ci1zOTZLRXo4NzYtT1dianNVbWgtdGFLbUh3eXFBeUdQNmZ1ZEw5UjFHWmtNRnlXd0Zfek16LW9OblpRM25EZE1sMmwyRzc2Znpwdk5vQ1dFOEVVSlJTaklMX2lpLTF2cWc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 975,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 친환경 선박 ISO 국제표준 제정 주도',
+      author: '관리자',
+      date: '2026.06.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 우리나라가 제안한 친환경 선박 관련 기술들이 국제표준화기구(ISO)의 국제표준으로 대거 채택되며 글로벌 시장에서의 기술 주도권을 확보했다고 밝혔습니다. 이번 표준 제정은 수소, 암모니아, LNG 등 친환경 연료를 사용하는 선박의 안전성 및 기자재 기술 요건을 정의하는 데 초점을 맞추고 있습니다. 한국 조선업계는 이번 국제표준 선점을 통해 친환경 선박 시장에서의 기술적 리더십과 글로벌 경쟁력을 한층 더 강화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>산업통상자원부 주도로 친환경 선박 분야의 ISO 국제표준 제정을 추진하여 국산 기술의 세계 표준화 성공</li><li>수소, 암모니아, LNG 등 차세대 친환경 연료 선박의 핵심 기자재 및 안전 기준 마련에 기여</li><li>글로벌 친환경 선박 시장에서 한국 조선업계의 기술적 리더십 확보 및 수출 경쟁력 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeVE3Q1pMeTlHZnowWkhQTTl4alZmYVN0b2l0S1FmTWNzS0YwcmRrd2ZoYzA0T3NiakNCa3lOb0lIeVhSRFFXZUJYWWlVOURLencxdkMtczE3Rl80MU9KQnh1TXNsRnA2S2RKWnlTVThmZzI5NldwY2s5a3hiTGFmX05WeE8yRFRpcTA5QUdicVZsMFZWZXJaMGxrRFI5a1dzQVhISUZMbDl1Z0V3SG9adng1QmZaenFoRTJ1ejFSQUZyWFN2VnFRWWdqMHY3WnRYaGp3UU1JXzg0dVk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 976,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'i2r, 에코바디스 지속가능성 골드 메달 획득',
+      author: '관리자',
+      date: '2026.06.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>알루미늄 호일 용기 제조업체인 i2r 패키징 솔루션(i2r Packaging Solutions)이 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 골드 메달을 획득했습니다. 이번 수상으로 i2r은 전 세계 평가 대상 기업 중 상위 5% 이내에 드는 우수한 ESG 경영 성과를 인정받았습니다. i2r은 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 평가 항목에서 높은 점수를 기록했습니다. 회사는 앞으로도 순환 경제를 촉진하고 탄소 배출을 줄이기 위한 지속가능성 노력을 지속할 계획입니다.</p><h3>주요 포인트</h3><ul><li>i2r 패키징 솔루션, 에코바디스 지속가능성 평가에서 상위 5% 기업에 부여되는 골드 등급 획득</li><li>환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다방면에서 우수한 ESG 성과 입증</li><li>친환경 알루미늄 포장재 공급을 통해 순환 경제 활성화 및 탄소 발자국 저감에 기여</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MRmg3b1U0dEYydnVjeWRYQXZaNlptbWFUa1VkRTVGSzJFcGhBbHZ0aG1fWUZBQ09oTC1jcFJjaktEQ18wNWFOZmdlcG1VLVY1WlNPMzVjNNIBV0FVX3lxTE5MRmg3b1U0dEYydnVjeWRYQXZaNlptbWFUa1VkRTVGSzJFcGhBbHZ0aG1fWUZBQ09oTC1jcFJjaktEQ18wNWFOZmdlcG1VLVY1WlNPMzVjNA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 977,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '식량 안보 위해 지속 가능 농업 나선 남아공 청년들',
+      author: '관리자',
+      date: '2026.06.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>남아프리카공화국에서 기후 변화에 대한 우려와 정부의 지원에 힘입어 '아쿠아포닉스(물고기 양식과 수경재배 결합)' 농법이 학교를 중심으로 다시 주목받고 있습니다. 현지의 젊은 세대들은 식량 안보 문제를 해결하기 위해 이러한 지속 가능한 농업 기술을 적극적으로 도입하고 있습니다. 이는 기후 위기 속에서 안정적인 식량 공급원을 확보하는 동시에 청년들에게 친환경 농업 교육의 기회를 제공하는 계기가 되고 있습니다.</p><h3>주요 포인트</h3><ul><li>정부 지원과 기후 변화 우려로 남아공 학교 내 아쿠아포닉스 농법 재활성화</li><li>식량 안보 확보 및 기후 위기 대응을 위한 지속 가능한 농업 솔루션으로 주목</li><li>청년층을 대상으로 한 친환경 농업 교육 및 미래 일자리 창출 기회 제공</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/02/young-south-africans-take-up-sustainable-agriculture-for-food-security/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 978,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '코스메카코리아, 글로벌 ESG 평가 \'실버 등급\' 획득',
+      author: '관리자',
+      date: '2026.05.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>화장품 OGM 전문 기업 코스메카코리아가 글로벌 ESG 평가에서 '실버 등급'을 획득하며 지속가능경영 성과를 인정받았습니다. 이번 평가는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다각적인 분야에서 회사의 ESG 실천 노력을 검증한 결과입니다. 코스메카코리아는 글로벌 기준에 부합하는 ESG 경영 체계를 강화하여 글로벌 뷰티 시장에서의 경쟁력을 한층 더 높이게 되었습니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관으로부터 상위 15% 이내 기업에 부여되는 '실버 등급' 획득</li><li>환경 경영, 노동·인권 보호, 윤리 경영 및 지속가능한 공급망 관리 부문에서 우수한 평가</li><li>글로벌 고객사의 ESG 요구 조건 충족을 통한 해외 비즈니스 확장 및 신뢰도 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNcXRZeVFRQngtTTF5bVQza2lrUEJBMVA1RVhLQ2V3dS1qeHc4eDdObWNvR1hmaVNfMUZpZFRkeXVjaWFKSUpqOTVqOS1pWTVtcndwdWFpdTRldVpFZTNnVTFSVk0wemg3dUtSRDdnZU5Wa213QlJOT3NqWTVtc0FyQkZ5Ty1kaGlIcmZWNGNOZ3lCX1E4bmJjMzRPenRiV3JVT2c?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 973,
       pinned: false,
       category: 'news', categoryName: '소식',
