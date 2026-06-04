@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 979,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국, 풍력·태양광 \'낭비\'로 2026년 초 CO2 2% 증가',
+      author: '관리자',
+      date: '2026.06.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>2026년 1분기 중국의 이산화탄소(CO2) 배출량이 전년 동기 대비 2% 증가한 것으로 나타났습니다. 이는 중국이 풍력 및 태양광 발전 설비를 대대적으로 확충했음에도 불구하고 발생한 역설적인 결과입니다. 전력망의 수용 한계와 유연성 부족으로 인해 생산된 재생에너지가 송전되지 못하고 버려지는 '출력제한' 문제가 심화되었습니다. 결국 기저부하를 감당하기 위해 석탄 발전 의존도가 다시 높아지면서 탄소 배출량 증가로 이어졌습니다.</p><h3>주요 포인트</h3><ul><li><strong>탄소 배출량 2% 반등:</strong> 대규모 친환경 에너지 투자에도 불구하고 2026년 초 중국의 CO2 배출량이 다시 상승했습니다.</li><li><strong>재생에너지 송전 및 저장 한계:</strong> 풍력과 태양광 발전 설비는 급증했으나, 이를 수용할 전력망 인프라 부족으로 많은 양의 청정에너지가 낭비되었습니다.</li><li><strong>석탄 발전의 회귀:</strong> 버려진 재생에너지의 공백을 메우기 위해 화석연료 발전이 늘어나며 전력망 안정화를 위한 인프라 개선의 시급성이 부각되었습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-chinas-co2-climbs-2-in-early-2026-due-to-wasted-wind-and-solar/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 980,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '박유랑 연세의대 교수, 임상유전체 정보 ISO 국제표준 개발 주도',
+      author: '관리자',
+      date: '2026.06.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>연세대학교 의과대학 의생명시스템정보학교실 박유랑 교수가 임상유전체 정보 분야의 ISO(국제표준화기구) 국제표준 개발을 이끌 프로젝트 리더로 선정되었습니다. 이번 표준 개발은 개인 맞춤형 정밀의료 실현을 위해 임상유전체 데이터를 안전하고 효율적으로 공유 및 활용할 수 있는 표준 체계를 구축하는 것을 목표로 합니다. 박 교수의 주도로 개발되는 국제표준은 향후 글로벌 디지털 헬스케어 및 바이오 산업의 데이터 상호운용성을 크게 향상시킬 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>연세의대 박유랑 교수, ISO 임상유전체 정보 국제표준 개발 프로젝트 리더 선정</li><li>정밀의료 및 디지털 헬스케어 활성화를 위한 유전체 데이터 표준 체계 마련</li><li>글로벌 의료 데이터 상호운용성 확보 및 국내 바이오 기술의 국제적 위상 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1yckxFV1ZwcHNRc1VfclJFd0pqY1FWeENsU25wTjBfcTRMRTd1UXVJMS1KMDFueXdWYnN3TVhDSkhfcE5pUXFaTTBpUDcybTNSRjlIWUFnZk9falA2Z3RheWYyTWVhNXBWN3BrTzFwdWVnUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 981,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '오르비스, 에코바디스 ESG 브론즈 메달 획득',
+      author: '관리자',
+      date: '2026.06.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>재사용 가능한 포장재 분야의 글로벌 리더인 오르비스(ORBIS Corporation)가 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 브론즈 메달 등급을 획득했습니다. 이번 평가는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 핵심 분야에 대한 오르비스의 ESG 경영 성과를 인정받은 결과입니다. 오르비스는 이번 인증을 통해 지속가능한 공급망 구축과 순환 경제 촉진을 위한 노력을 입증했으며, 향후 ESG 성과를 더욱 강화해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>오르비스(ORBIS), 글로벌 지속가능성 평가 기관 에코바디스로부터 브론즈 메달 획득</li><li>환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4대 부문에서 우수한 ESG 성과 인정</li><li>순환 경제 지원 및 재사용 가능한 포장 솔루션을 통한 친환경 공급망 구축 노력 입증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5jYUdIUGVWXzJpYXRkc0tCRC1kZkEtbjg2QUljU2JHR241N1J3WmRodjZXT0I1RVBoTUF1Zk82NWdSS3hvYVJyOTFOTGxSVUVPd2FHM0ktaVgyTEpYQ0VZSDA4ZFRQX3lpWnRjdWxFaVFuU2FDdFlN?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 982,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '티베트 영구동토층 해빙, 고대 탄소 방출로 기후 임계점 자극',
+      author: '관리자',
+      date: '2026.06.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지구 온도가 2~4도 상승하면 티베트 고원의 영구동토층이 녹으면서 오랫동안 갇혀 있던 고대 탄소가 대기 중으로 대거 방출됩니다. 연구에 따르면, 이로 인해 탄소 방출이 온난화를 부추기고 온난화가 다시 탄소 방출을 촉진하는 자가 강화 순환 고리가 형성됩니다. 이러한 악순환은 기후 변화 속도를 심각하게 가속화하여 지구 기후 시스템의 돌이킬 수 없는 임계점(tipping point)을 촉발할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>지구 기온이 2~4°C 상승할 경우 티베트 영구동토층의 고대 탄소 방출 본격화</li><li>탄소 방출과 온난화가 서로를 촉진하는 자가 강화(self-reinforcing) 악순환 발생</li><li>기후 변화 속도를 급격히 빨라지게 만드는 기후 임계점 도달 경고</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tvzyaz/warming_unlocks_ancient_carbon_in_tibetan/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 983,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '청정에너지 낭비 속 중국 탄소 배출량 다시 증가',
+      author: '관리자',
+      date: '2026.06.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중국이 풍력 및 태양광 발전 설비를 기록적인 수준으로 증설했음에도 불구하고, 2026년 1분기 석탄과 가스 소비가 늘어나며 탄소 배출량이 다시 증가했습니다. 이는 전력망의 용량 한계와 송전 제약으로 인해 생산된 청정에너지가 제대로 활용되지 못하고 버려지는 현상이 심화되었기 때문입니다. 기후 전문가들은 중국이 탄소 감축 목표를 달성하기 위해서는 재생에너지 설비 확대뿐만 아니라 전력망 인프라 개선이 시급하다고 지적합니다.</p><h3>주요 포인트</h3><ul><li><strong>기록적 증설에도 배출량 상승:</strong> 풍력·태양광 발전기의 기록적인 보급에도 불구하고, 2026년 1분기 석탄 및 가스 발전량이 늘어나며 탄소 배출량이 증가했습니다.</li><li><strong>청정에너지 출력 제한 문제:</strong> 전력망의 수용 능력 부족으로 인해 생산된 무공해 전력이 전력망에 연계되지 못하고 버려지는 낭비 현상이 심화되고 있습니다.</li><li><strong>전력망 및 제도 개혁 시급:</strong> 전문가들은 탄소 중립을 위해 발전 설비 증설뿐만 아니라 전력망 유연성 확보와 전력 시장 개혁이 동반되어야 한다고 강조합니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/04/chinas-carbon-emissions-rise-again-as-more-clean-power-is-wasted/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 974,
       pinned: false,
       category: 'news', categoryName: '소식',
