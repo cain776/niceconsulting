@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 984,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '한화에어로 5명 사망, 중대재해법 적용 3대 쟁점',
+      author: '관리자',
+      date: '2026.06.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한화에어로스페이스에서 발생한 5명 사망 사고와 관련하여 중대재해처벌법(중처법) 적용 여부를 둘러싼 법적 공방이 예상됩니다. 이번 사건의 핵심은 경영책임자의 안전보건 확보 의무 이행 여부와 하도급 관계에서의 실질적인 지배·운영·관리 책임 소재를 규명하는 데 있습니다. 노동 당국과 검찰은 사고 원인 조사와 함께 본사의 개입 정도를 집중적으로 들여다보고 있으며, 법 적용을 위한 세 가지 핵심 쟁점이 부각되고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>실질적 경영책임자 규명 (CEO vs CSO)</strong>: 최고안전책임자(CSO)가 있더라도 대표이사(CEO)가 실질적인 최종 권한을 행사했는지 여부가 핵심 쟁점입니다.</li><li><strong>안전보건관리체계 구축 및 이행</strong>: 사고 예방을 위한 예산 편성, 매뉴얼 마련, 반기별 점검 등 법정 의무 사항을 실제로 이행했는지 여부입니다.</li><li><strong>도급 관계에서의 지배·운영·관리 책임</strong>: 사고가 발생한 사업장이나 공정에 대해 원청인 한화에어로스페이스가 실질적인 통제권을 가졌는지가 관건입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jLWl6My01czRLMDA2aXNQNjlySVRncGNVRVdUejk4M2NpWEt2Qk0tMjNnd2ZXZ1lvVmhNd2tHRWNJemVYVFN1UXVoQW9vWTg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 985,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'NBIM, EU에 ESRS·ISSB 단일 보고서 허용 촉구',
+      author: '관리자',
+      date: '2026.06.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>노르웨이의 2조 달러 규모 국부펀드를 운용하는 노르웨이은행 투자관리청(NBIM)이 유럽연합(EU)에 기업들이 유럽 지속가능성 공시 기준(ESRS)과 국제지속가능성기준위원회(ISSB)의 요구사항을 단일 보고서로 충족할 수 있도록 허용해 줄 것을 촉구했습니다. NBIM은 두 표준 간의 상호 운용성을 높임으로써 기업의 공시 부담을 줄이고 투자자들에게 일관된 데이터를 제공해야 한다고 강조했습니다. 이는 글로벌 ESG 공시 기준의 파편화를 방지하고 글로벌 투자자들의 의사결정을 돕기 위한 조치입니다.</p><h3>주요 포인트</h3><ul><li>NBIM은 EU 집행위원회에 제출한 의견서를 통해 ESRS와 ISSB 표준의 통합 보고서 작성을 허용할 것을 제안했습니다.</li><li>단일 보고서 도입을 통해 기업의 중복 공시 비용과 행정적 부담을 크게 완화할 수 있다고 주장했습니다.</li><li>글로벌 투자자들이 지역별 공시 차이로 인한 혼선을 줄이고, 보다 비교 가능하고 신뢰할 수 있는 ESG 데이터를 확보할 수 있게 됩니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/nbim-calls-on-eu-to-allow-companies-to-meet-esrs-and-issb-requirements-in-a-single-report/?utm_source=rss&utm_medium=rss&utm_campaign=nbim-calls-on-eu-to-allow-companies-to-meet-esrs-and-issb-requirements-in-a-single-report" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 986,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'INX 유럽, 에코바디스 ESG 평가 \'골드\' 등급 획득',
+      author: '관리자',
+      date: '2026.06.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 잉크 제조 기업 INX 유럽(INX Europe)이 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 '골드 메달' 등급을 획득했습니다. 이번 골드 등급 획득은 INX 유럽이 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 ESG 전반에 걸쳐 우수한 경영 체계를 구축하고 있음을 입증한 결과입니다. INX 유럽은 평가 대상 기업 중 상위 5% 이내에 드는 우수한 성적을 거두며 업계 내 지속가능성 리더로서의 입지를 굳혔습니다. 회사는 앞으로도 친환경 제품 개발과 사회적 책임 이행을 통해 지속가능한 포장 및 인쇄 솔루션을 제공하는 데 앞장설 계획입니다.</p><h3>주요 포인트</h3><ul><li>INX 유럽, 글로벌 ESG 평가 기관 에코바디스에서 '골드 메달' 등급 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 부문에서 우수한 평가를 받으며 상위 5% 기업에 진입</li><li>친환경 잉크 및 포장 솔루션 개발을 통해 지속가능한 미래를 위한 ESG 경영 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQZzA0cjQxSVNJdDVULUtDX2EyX1IzN2FOaWVhem5ldzNVVlQ1MzZCaVcyMGNFLXBLUlUydm5XQmFDNkd5aW5rTUt0OU9HSkxfVWJXNnhJWGVtRV9GMGxiSEZRbEJHNEtUNkVrdldENVFyUWxBN0NyRlJZdzhXc0xZUlEtUE1sMU04RFN0b2VDeE8zdzE5aFE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 987,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'FMC 위원장, 해상 화주 지원을 위한 3가지 핵심 방안 제시',
+      author: '관리자',
+      date: '2026.06.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 연방해사위원회(FMC)는 해상 화주들이 직면한 문제를 사후에 해결하기보다 선제적으로 대응하는 방향으로 체질을 개선하고 있습니다. FMC는 해상 공급망의 투명성을 높이고 불공정 관행을 근절하기 위해 다각적인 노력을 기울이고 있습니다. 이를 통해 화주들이 글로벌 물류 불확실성 속에서도 안정적인 비즈니스를 유지할 수 있도록 지원할 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>선제적 문제 해결:</strong> 사후 대응 방식에서 벗어나 잠재적 공급망 병목 현상과 이슈를 미리 파악하고 예방하는 데 집중합니다.</li><li><strong>불공정 수수료 규제 강화:</strong> 체선료(Demurrage) 및 체송료(Detention) 등 해운선사의 불합리한 비용 부과 행위에 대한 감독을 강화합니다.</li><li><strong>공급망 투명성 및 데이터 공유 확대:</strong> 화주와 선사 간의 원활한 소통과 정보 공유를 촉진하여 해상 물류의 예측 가능성을 높입니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/fmc-can-help-ocean-shippers-in-3-key-ways-chair-says/819351/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 988,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '독일 본 기후 회담 전망과 주요 쟁점',
+      author: '관리자',
+      date: '2026.06.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 본에서 개최되는 6월 기후 회의(SB64)는 올해 말 열릴 당사국총회(COP)를 앞두고 기후 협상의 방향을 결정할 중요한 이정표입니다. 이번 회담에서는 개발도상국 지원을 위한 새로운 기후 재원 목표(NCQG) 설정과 국가 온실가스 감축목표(NDC) 강화 방안이 집중적으로 다뤄집니다. 또한, 파리협정 제6조에 따른 국제 탄소시장 규칙 제정과 기후 취약국을 위한 '손실과 피해' 기금의 구체적인 운영 방안도 핵심 쟁점으로 논의될 예정입니다.</p><h3>주요 포인트</h3><ul><li><strong>새로운 기후 재원 목표(NCQG) 합의:</strong> 포스트 2025 기후 재원 마련을 위한 선진국과 개발도상국 간의 치열한 협상이 진행됩니다.</li><li><strong>기후 목표(NDC) 이행 촉구:</strong> 지구 온난화 1.5도 제한 목표를 달성하기 위해 각국의 온실가스 감축 계획을 강화하는 방안이 논의됩니다.</li><li><strong>탄소시장 및 기금 운영 구체화:</strong> 파리협정 제6조 세부 규칙 완성과 손실 및 피해 기금의 실질적인 집행 방안을 조율합니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/04/what-to-expect-from-the-bonn-climate-talks/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 979,
       pinned: false,
       category: 'news', categoryName: '소식',
