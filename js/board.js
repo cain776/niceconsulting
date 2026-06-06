@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 989,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'INX 유럽, 에코바디스 ESG 평가 \'골드 메달\' 획득',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>친환경 포장재 및 잉크 제조기업인 INX 유럽(INX Europe)이 글로벌 지속가능성 평가 기관인 에코바디(EcoVadis)로부터 '골드 메달(Gold Medal)' 등급을 획득했습니다. 이번 등급 획득은 INX 유럽이 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다양한 ESG 분야에서 우수한 성과를 거두었음을 입증합니다. 회사는 앞으로도 지속가능한 제품 개발과 친환경 경영을 강화하여 포장 산업의 녹색 전환을 선도할 계획입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 평가에서 상위 5%에 해당하는 '골드 메달'을 획득하며 글로벌 지속가능성 역량 입증</li><li>환경 영향 저감, 인권 보호, 윤리 경영 및 공급망 관리 등 전반적인 ESG 지표에서 높은 평가 기록</li><li>친환경 잉크 및 포장 솔루션 개발을 통해 순환경제 구축과 탄소 배출 감소에 기여할 방침</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tWnNRR3RBdGw3TUE1dHBHLWRscll1NjZxX1FBSHZneXpFckczeXN6VXpuQVlSZUNlQ1oyd28wZHZ1YjdTZjdobFRFNXk3M21LRkxYbVRIWVlnQVnSAVtBVV95cUxObVpzUUd0QXRsN01BNXRwRy1kbHJZdTY2cV9RQUh2Z3l6RXJHM3lzelV6bkFZUmVDZUNaMndvMGR2dWI3U2Y3aGxURTV5NzNtS0ZMWG1USFlZZ0FZ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 990,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 ESG 평가로 공급망 경쟁력 강화',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 규제 강화에 따라 공급망 실사가 기업의 생존을 결정하는 핵심 요소로 부상하고 있습니다. 특히 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)의 평가는 수출 기업들이 글로벌 협력사의 요구에 대응하기 위한 필수 관문이 되었습니다. 기업들은 에코바디스 평가를 통해 환경, 노동·인권, 윤리, 지속가능한 조달 등 4대 분야의 ESG 경영 수준을 진단받고 개선함으로써, 공급망 리스크를 선제적으로 관리하고 글로벌 시장에서의 경쟁력을 한층 강화할 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>글로벌 공급망 실사 대응:</strong> EU 등 주요국의 ESG 공급망 실사법 도입에 따라 글로벌 바이어들의 에코바디스 평가 요구가 급증하고 있습니다.</li><li><strong>4대 핵심 분야 평가:</strong> 환경, 노동 및 인권, 윤리, 지속가능한 조달 분야를 종합적으로 평가하여 기업의 지속가능성 수준을 객관적으로 검증합니다.</li><li><strong>수출 경쟁력 확보:</strong> 에코바디스 평가를 통해 우수한 등급(메달)을 획득하면 글로벌 공급망 내에서 신뢰도를 높이고 신규 수주 기회를 확대할 수 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9od3RSenBOcXBuVnpyVGdDZ044bzJ5MnRoUVQ5UlhDR25mbERZbnAtS3ptSFhyYkp3WmxoR1ZrUHVwUjFRX2VDN3N0RVJrcE83UVZJdkxSSGh5aFpSZmViQ01RcUZXXzQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 991,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '해양 석유·가스 개발 확장, 주요 해양 생태계 위협',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>새로운 해양 석유 및 가스 개발 계획이 케냐를 비롯한 전 세계 주요 해양 생태계와 해양 생물을 심각하게 위협하고 있다는 보고서가 발표되었습니다. 환경 단체들의 분석에 따르면, 계획된 화석연료 확장 프로젝트들이 해양 보호구역 및 생물 다양성이 풍부한 민감한 해역과 겹쳐 있어 생태계 파괴 우려가 커지고 있습니다. 특히 기후 변화로 이미 취약해진 해양 생태계에 추가적인 스트레스를 가해 돌이킬 수 없는 피해를 줄 수 있다고 경고하며, 신규 해양 시추 계획의 즉각적인 중단을 촉구하고 있습니다.</p><h3>주요 포인트</h3><ul><li>케냐 등 연안 국가에서 계획된 신규 석유 및 가스 생산이 해양 생물 다양성에 심각한 위협을 가함</li><li>화석연료 개발 구역이 기존 해양 보호구역(MPA) 및 민감한 생태계 서식지와 겹쳐 법적·생태적 갈등 유발</li><li>기후 위기 대응과 해양 생태계 보존을 위해 글로벌 환경 단체들은 신규 해양 시추 프로젝트의 철회를 강력히 요구</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/05/planned-offshore-oil-and-gas-expansion-threatens-key-marine-ecosystems-report-fossil-fuels/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 992,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '콜로라도강 물 부족, 축산업 용수 감축이 해법',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지구 온난화로 인해 콜로라도강의 수자원 고갈 위기가 심각해지고 있습니다. 현재 강물의 상당 부분이 소 사육을 위한 사료 작물 재배 등 축산업에 소비되고 있으나, 이에 대한 근본적인 해결책은 외면받고 있습니다. 대신 파월호(Lake Powell) 폐쇄와 같은 임시방편적 논의에만 집중하면서 정작 중요한 물 소비 구조 개혁은 이루어지지 않고 있으며, 이는 결국 심각한 물 부족 사태를 초래할 것입니다.</p><h3>주요 포인트</h3><ul><li>콜로라도강 수자원의 막대한 양이 육류 생산을 위한 사료 작물 재배에 사용되고 있습니다.</li><li>파월호 폐쇄 논란 등 지엽적인 댐 관리 논쟁이 근본적인 물 부족 해결을 방해하고 있습니다.</li><li>기후 위기 시대에 생존하기 위해서는 농업 및 축산업용 물 사용량을 과감히 줄이는 정책적 전환이 시급합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1txkfbf/a_hotter_planet_means_we_need_to_stop_giving_so/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 993,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '과학자들, 미생물로 이산화탄소를 재생 메탄으로 전환',
+      author: '관리자',
+      date: '2026.06.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>신재생 에너지로의 전환이 가속화되는 가운데, 에너지를 장기간 저장하는 문제는 여전히 해결해야 할 큰 과제로 남아 있습니다. 기존 배터리 기술은 몇 시간에서 며칠 정도의 단기 저장에는 유용하지만, 계절적 단위의 장기 저장에는 한계가 있습니다. 이에 과학자들은 미생물을 이용해 이산화탄소를 재생 가능한 메탄으로 전환하는 기술을 개발했습니다. 이 기술은 온실가스를 줄이는 동시에 청정에너지를 장기간 안정적으로 저장할 수 있는 획기적인 대안으로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>태양광 및 풍력 발전의 증가로 인해 에너지를 장기간 저장할 수 있는 기술의 필요성 증대</li><li>기존 배터리 저장 장치의 한계를 극복하기 위한 계절적(장기) 에너지 저장 솔루션 요구</li><li>미생물을 활용해 이산화탄소를 재생 메탄으로 전환함으로써 탄소 감축과 에너지 저장 문제를 동시에 해결</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ty3cja/scientists_turn_carbon_dioxide_into_renewable/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 984,
       pinned: false,
       category: 'news', categoryName: '소식',
