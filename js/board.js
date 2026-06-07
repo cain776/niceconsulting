@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 994,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국 2040년 감축 목표 검토 및 글로벌 기후 동향',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 카본 브리프(Carbon Brief)의 주간 브리핑은 글로벌 기후 대응의 핵심적인 변화들을 조명합니다. 영국 정부는 기후 위기 대응을 강화하기 위해 2040년 온실가스 감축 목표 설정을 본격적으로 검토하고 있습니다. 반면 미국에서는 해양 및 기후 연구 인프라가 축소·해체될 위기에 처해 우려를 낳고 있으며, 중국의 태양광 산업은 급격한 시장 변화 속에서 일시적인 침체기를 겪고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>영국의 2040년 감축 목표 검토:</strong> 영국이 넷제로 달성을 가속화하기 위해 2040년까지의 새로운 온실가스 감축 목표 수립을 추진 중입니다.</li><li><strong>미국의 해양 연구 해체 논란:</strong> 미국의 주요 해양 및 기후 연구 프로그램이 축소되거나 해체 위기에 직면하면서 과학계의 우려가 커지고 있습니다.</li><li><strong>중국 태양광 산업의 침체:</strong> 글로벌 태양광 시장을 주도하던 중국의 태양광 부문이 공급 과잉과 단가 하락 등으로 인해 일시적인 불황을 겪고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-5-june-2026-uk-eyes-2040-emissions-cut-us-dismantling-oceans-research-chinas-solar-slump/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 995,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '덜 원하는 삶이 주는 풍요로움',
+      author: '관리자',
+      date: '2026.06.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>진정한 부(富)는 단순히 소유한 자산의 절대적인 액수가 아니라, 자신의 욕망 대비 가진 재정적 여유의 비율로 결정됩니다. 현대 사회는 흔히 많이 소유하고 많이 소비하는 것을 부의 기준으로 삼지만, 적게 원하는 이들이 억만장자처럼 살기를 갈망하는 백만장자보다 더 풍요로울 수 있습니다. 고대 철학자 세네카의 말처럼 진정한 가난은 가진 것이 적은 상태가 아니라 더 많이 갈망하는 상태를 의미합니다. 욕망을 줄이는 것은 환경적 지속 가능성뿐만 아니라 개인의 정신적 풍요를 지키는 핵심 열쇠입니다.</p><h3>주요 포인트</h3><ul><li>부의 상대성: 부는 절대적인 자산 규모가 아니라, 개인의 욕망과 자산 간의 상대적 관계에 의해 정의됩니다.</li><li>자발적 소박함의 가치: 적게 원하는 삶을 지향함으로써 물질적 제약 속에서도 더 큰 만족감과 풍요를 누릴 수 있습니다.</li><li>소비주의에 대한 경종: 많이 소유하고 소비하는 것만을 성공과 부로 규정하는 현대 사회의 통념에 의문을 제기합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tynf3b/the_wealth_of_wanting_less/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 996,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '핵심 광물 비축 경쟁, 에너지 전환 비용 높인다',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 각국의 무분별한 핵심 광물 비축 경쟁이 청정에너지 기술 도입을 지연시키고 비용을 상승시킬 수 있다는 연구 결과가 나왔습니다. 연구진은 국가 간 조율 없는 광물 비축이 시장 가격을 왜곡하고 공급망 불안정을 초래할 수 있다고 경고했습니다. 특히 리튬, 코발트, 니켈 등 배터리와 재생에너지에 필수적인 광물의 수요가 급증하는 상황에서, 이러한 비축 경쟁은 글로벌 기후 목표 달성에 걸림돌이 될 수 있습니다. 따라서 안정적인 에너지 전환을 위해서는 국제적인 협력과 투명한 공급망 관리가 시급합니다.</p><h3>주요 포인트</h3><ul><li>조율되지 않은 핵심 광물 비축으로 인한 청정에너지 기술 비용 상승 및 보급 지연 우려</li><li>리튬, 니켈 등 배터리 필수 광물의 가격 왜곡 및 공급망 불안정화 가능성 경고</li><li>글로벌 기후 목표 달성을 위한 국가 간 협력 및 투명한 광물 공급망 구축의 필요성</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/05/the-scramble-to-stockpile-critical-minerals-could-drive-up-energy-transition-costs/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 997,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에코뱅크, 아프리카 생물다양성 위해 4.5억 달러 자연 채권 발행',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>범아프리카 은행 그룹인 에코뱅크(Ecobank)가 아프리카 전역의 생물다양성 보존과 지속 가능한 농업을 지원하기 위해 4억 5,000만 달러 규모의 '자연 채권(Nature Bond)'을 발행했습니다. 이번 채권은 아프리카의 취약한 생태계를 보호하고 기후 변화에 대응하기 위한 재원을 마련하는 데 목적이 있습니다. 에코뱅크는 이를 통해 지역 사회의 지속 가능한 발전과 친환경 농업 전환을 적극적으로 이끌어갈 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>4억 5,000만 달러 규모의 채권 발행</strong>: 아프리카의 자연 자원 보존과 지속 가능한 개발을 위한 대규모 재원을 조달합니다.</li><li><strong>생물다양성 및 농업 지원</strong>: 아프리카 전역의 생태계 복원 프로젝트와 친환경 농업 기술 도입을 집중적으로 지원합니다.</li><li><strong>ESG 경영 강화</strong>: 기후 위기에 취약한 아프리카 지역의 환경적 회복력을 높이고 금융의 사회적 책임을 다하려는 에코뱅크의 전략적 행보입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/ecobank-issues-450-million-nature-bond-to-back-biodiversity-sustainable-agriculture-across-africa/?utm_source=rss&utm_medium=rss&utm_campaign=ecobank-issues-450-million-nature-bond-to-back-biodiversity-sustainable-agriculture-across-africa" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 998,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 친환경 선박 분야 ISO 국제표준 주도',
+      author: '관리자',
+      date: '2026.06.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 우리나라가 제안한 친환경 선박 관련 기술이 국제표준화기구(ISO)의 국제표준안으로 채택되며 글로벌 시장에서의 기술 주도권을 확보했다고 밝혔습니다. 이번 표준안은 액체수소 및 암모니아 등 친환경 연료를 사용하는 선박의 안전성과 핵심 기자재에 대한 표준 규격을 다루고 있습니다. 이를 통해 한국 조선업계는 친환경 선박 제조 기술의 우위를 바탕으로 글로벌 시장을 선점할 수 있는 발판을 마련했습니다. 정부는 국내 기업의 우수한 기술이 국제표준으로 제정될 수 있도록 지속적인 지원을 이어갈 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>친환경 선박 표준 선점:</strong> 액체수소 연료탱크 및 암모니아 연료 공급 시스템 등 핵심 기술의 ISO 국제표준안 채택을 주도했습니다.</li><li><strong>조선업 경쟁력 제고:</strong> 글로벌 친환경 규제 강화 흐름 속에서 한국 조선업의 기술적 신뢰도와 시장 경쟁력을 한층 높였습니다.</li><li><strong>정부의 다각적 지원:</strong> 국가기술표준원을 중심으로 국내 기업의 기술이 국제표준으로 등록될 수 있도록 표준화 활동을 적극 지원할 계획입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYklMbFozLUh6MmVpVy0wNmF6VnlFMFVOMjRvVVdXM2M2RHNYQXR5dDhPcktUUzV2c3lDMGxrQXhkMDlzMlgxTC02cUlza3FkaEw0ZjNWdzNkbHY5WEdFemE1NUdoWU53YmpmbWEtZldlTC10S0ZoOWtGZ3VTVWs0QkVDQWN4Z1hsMmJEWVJoNnFlSzdrY01lRDRPVnhoVjI2TWgwTmE4ZnJNX3ZDcWtfejU2aVo1MEswQlNUZWI4RmNYbENtdWJQUlYyQ3R6OFJJSHdaVkZpUUMtdUhIWHYxTHJ2Y1U2UUE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 989,
       pinned: false,
       category: 'news', categoryName: '소식',
