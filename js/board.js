@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 999,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 태양광 발전 성장세가 둔화되는 이유',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중국은 지난 수년간 글로벌 태양광 시장의 성장을 주도해 왔으나, 최근 그 성장세가 눈에 띄게 둔화되고 있습니다. 이러한 둔화의 가장 큰 원인은 급격한 설비 증가를 전력망(그리드)이 감당하지 못하는 계통 연계 한계와 출력 제어(송전 제한) 문제입니다. 또한, 낮 시간대 전력 과잉으로 인한 마이너스 전력 가격 발생 등 시장 구조 변화가 투자 수익성을 악화시키고 있습니다. 이에 따라 중국의 태양광 산업은 양적 팽창에서 전력망 안정성과 효율성을 중시하는 질적 조정기로 접어들고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>전력망 수용 한계와 출력 제어 증가:</strong> 급증한 태양광 발전량을 기존 전력망이 흡수하지 못해 발전기를 강제로 멈추는 출력 제어(Curtailment) 비율이 상승하고 있습니다.</li><li><strong>수익성 악화와 마이너스 가격 발생:</strong> 태양광 발전이 집중되는 낮 시간대에 공급 과잉으로 전력 도매 가격이 급락하거나 마이너스를 기록하면서 사업자들의 투자 매력도가 낮아지고 있습니다.</li><li><strong>질적 성장 및 인프라 개선으로의 전환:</strong> 단순 설비 용량 확대에서 벗어나 에너지 저장 장치(ESS) 연계, 전력망 인프라 확충 및 전력 시장 개혁으로 정책 우선순위가 이동하고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/chart-why-chinas-solar-boom-is-slowing-down/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1000,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 투자자 단체 폐쇄, "주주 행동주의 한계" 지적',
+      author: '관리자',
+      date: '2026.06.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>캐나다의 기후 캠페인 단체인 '파리 협정 준수를 위한 투자자 연합(Investors for Paris Compliance)'이 지난 5월 활동을 중단하고 공식 폐쇄했습니다. 이 단체는 기업들이 기후 변화에 대응하도록 유도하는 주주 행동주의의 효과가 최근 급격히 떨어졌다고 밝혔습니다. 특히 금융 기관들이 실질적인 탄소 배출 감축보다는 규제 회피와 그린워싱에 치중하고 있다고 비판하며, 주주 제안을 통한 변화 유도 방식의 한계를 인정하고 해산을 결정했습니다.</p><h3>주요 포인트</h3><ul><li>캐나다 기후 단체 'Investors for Paris Compliance'가 주주 행동주의의 한계를 지적하며 5월 해산했습니다.</li><li>단체 측은 금융권과 기업들이 기후 약속을 실질적으로 이행하기보다 형식적인 대응에 그치고 있다고 비판했습니다.</li><li>주주 제안 등 기존의 온건한 압박 방식이 기후 위기의 시급성을 해결하는 데 더 이상 효과적이지 않다는 분석입니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/03/investor-climate-group-closes-down-blaming-limits-of-shareholder-activism/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1001,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '오염 희석은 답이 아니다: ETS2 개혁의 방향',
+      author: '관리자',
+      date: '2026.06.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합(EU) 집행위원회가 도로 교통 및 건물 분야의 탄소 가격제(ETS2) 내 공급 통제 메커니즘을 개혁하는 제안을 발표했으나 논란이 일고 있습니다. 이번 개혁안은 규제를 완화하여 실질적인 오염 감축을 방해하는 일종의 '탄소 폭탄'을 심은 것과 다름없다는 비판을 받고 있습니다. 환경 단체들은 규제 희석이 아닌, 기후 위기 대응과 시민 보호라는 본연의 목적에 부합하도록 ETS2를 재설계해야 한다고 강조합니다.</p><h3>주요 포인트</h3><ul><li>EU 집행위의 ETS2 공급 통제 메커니즘 개혁안에 대한 환경계의 강력한 비판</li><li>규제 완화가 온실가스 감축 효과를 흐리는 '탄소 폭탄'이 될 위험성 경고</li><li>기후 변화 대응과 취약 계층 지원을 동시에 달성할 수 있는 실질적인 제도 개선 촉구</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/06/04/dilution-doesnt-fix-pollution-ets2-must-work-for-people-and-climate/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1002,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '지속 가능한 식단 가이드: 정의와 실천법',
+      author: '관리자',
+      date: '2026.06.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속 가능한 식단은 환경에 미치는 영향을 최소화하면서 개인의 건강과 영양을 모두 챙길 수 있는 식생활 방식을 의미합니다. 이 가이드는 지속 가능한 식단의 정의와 이를 평가하는 주요 기준, 그리고 식단을 구성하는 핵심 요소들을 상세히 다룹니다. 일상에서 쉽게 실천할 수 있는 다양한 구체적 예시를 통해 독자들이 더 친환경적인 식습관을 선택할 수 있도록 돕습니다.</p><h3>주요 포인트</h3><ul><li>지속 가능한 식단의 정의 및 환경적·영양학적 기준 제시</li><li>식단을 구성하는 핵심 요소와 구체적인 실천 예시 소개</li><li>개인의 건강 증진과 지구 환경 보호를 동시에 달성하는 방법 안내</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1tyrdlu/sustainable_diet_a_guide/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1003,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '대서양 해류 약화로 \'콜드 블롭\' 발생, 임계점 근접',
+      author: '관리자',
+      date: '2026.06.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 재분석 연구에 따르면, 대서양 북부의 이상 저온 영역인 '콜드 블롭(Cold Blob)' 현상이 대서양 자오선 역전순환(AMOC) 해류 시스템의 약화로 인해 발생한 것으로 나타났습니다. 이 해류 시스템은 열을 지구 전체로 순환시키는 핵심 역할을 하지만, 현재 기후 변화로 인해 붕괴 임계점에 가까워지고 있습니다. 해류가 완전히 멈출 경우 전 세계 기후 체계에 돌이킬 수 없는 재앙적 변화를 초래할 수 있어 경각심이 높아지고 있습니다.</p><h3>주요 포인트</h3><ul><li>대서양 북부의 '콜드 블롭' 현상은 대서양 해류 순환(AMOC)의 지속적인 약화가 직접적인 원인입니다.</li><li>연구진은 이 해류 시스템이 예상보다 빠르게 붕괴 임계점(Tipping Point)에 근접하고 있다고 경고했습니다.</li><li>AMOC 붕괴 시 유럽의 급격한 기온 하강, 북미 해안의 해수면 상승, 글로벌 강수 패턴의 심각한 교란이 우려됩니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1tzni2t/atlantic_cold_blob_caused_by_weakening_ocean/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 994,
       pinned: false,
       category: 'news', categoryName: '소식',
