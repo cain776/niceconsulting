@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1004,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '스마트프레스, 에코바디스 플래티넘 획득…상위 1%',
+      author: '관리자',
+      date: '2026.06.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>온라인 인쇄 전문 기업 스마트프레스(Smartpress)가 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 최고 등급인 '플래티넘(Platinum)' 인증을 획득했습니다. 이번 성과를 통해 스마트프레스는 전 세계 동종 업계 기업 중 상위 1%에 해당하는 뛰어난 ESG 경영 능력을 입증했습니다. 회사는 환경 보호, 노동 및 인권, 윤리적 경영, 지속가능한 조달 등 다방면에서 우수한 평가를 받았습니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스로부터 최고 등급인 '플래티넘' 획득</li><li>인쇄 및 관련 서비스 산업 분야에서 상위 1% 이내의 지속가능성 성과 인정</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 핵심 평가 항목 전반에서 우수한 점수 기록</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOa0R6NEFROFFnem9GX3R1d3dnd2JlXzFlVWJndkxXaWVMejNSS1Y3ZTVzSnFRQmlzd3ZQZGYzMEg1UlQ4RnlzTld2UHZYWk1lbVdiZm54YWxwSEZya0loUDlGTXRpZ2EzSGZrNFBoa2ktQThfU3BReDJ2VEtJaVc3WG8wa29IZ2s1T1FTc3FsNGpUNmQ4U3RBV3Atbld4ZldaTllyb3JNdy1qdHBNNW1Jckd3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1005,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '인터내셔널 페이퍼, 미시시피 공장 철도 운송에 CPKC 협력',
+      author: '관리자',
+      date: '2026.06.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 제지 및 펄프 기업 인터내셔널 페이퍼(International Paper)가 미시시피주 신규 포장재 생산 시설의 물류 경쟁력 강화를 위해 철도 기업 CPKC와 손을 잡았습니다. 이번 협력을 통해 인터내셔널 페이퍼는 CPKC의 북미 단일 노선 네트워크를 활용하여 공급망을 효율화할 계획입니다. 이는 도로 운송 의존도를 낮추고 철도 운송을 활성화함으로써 탄소 배출을 줄이는 친환경 물류 체계 구축에도 기여할 것으로 전망됩니다.</p><h3>주요 포인트</h3><ul><li><strong>단일 노선 네트워크 활용:</strong> CPKC의 단일 노선 서비스를 통해 국경 간 환적 과정을 줄이고 물류 지연을 최소화합니다.</li><li><strong>지속 가능한 친환경 물류:</strong> 탄소 배출이 적은 철도 운송을 적극 활용하여 기업의 ESG 및 탄소 감축 목표 달성을 지원합니다.</li><li><strong>신규 포장재 시설 지원:</strong> 미시시피주에 들어설 신규 공장의 안정적인 원자재 수급과 효율적인 제품 유통망을 확보합니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/international-paper-taps-cpkc-for-rail-needs-at-mississippi-facility/821808/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1006,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '한화에어로 대표, 중대재해법 위반 입건',
+      author: '관리자',
+      date: '2026.06.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한화에어로스페이스 대표이사가 최근 발생한 폭발 사고와 관련해 중대재해처벌법 위반 혐의로 입건되었습니다. 고용노동부 등 관계 당국은 사고 당시 경영책임자가 안전보건 확보 의무를 다했는지 여부를 집중적으로 조사하고 있습니다. 이번 사건은 중대재해처벌법 적용 이후 대기업 제조업 분야에서의 책임 추궁 사례로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>한화에어로스페이스 대표이사, 중대재해처벌법 위반 혐의로 입건</li><li>사업장 내 발생한 폭발 사고로 인한 인명 피해가 배경</li><li>고용노동부의 안전 의무 이행 여부에 대한 고강도 수사 진행</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE51OF9PR1FtVkN5RGUtejlfRXZobGNzT0NSSVVsQVd5c1pvZ2kxVGQxaFNLMDFkbnZfc0p6TWRxa1ZXcXJmWEo5S01BajRZWUVNU0dLcXhxa0xGNWs5UllzeS1OeGpjZzR3V3p1Ynk1b3RhYmZWcm4w0gF3QVVfeXFMT0p4WTZnNFRuNEhKVFU4UmJHRmN3M1JFQXk5V2tsMFBORE15Z0pNelhFWHhodXF1WDVsWU1Nc2x3bHRsaWpETGFNeHZaLVhIcWN0V2szNnhjSF9xSkRiNWNZcDRxVGlmbEk4TkRMeTZMa2tSRk9LSVE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1007,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '대서양 \'의문의 한랭역\', AMOC 약화 신호',
+      author: '관리자',
+      date: '2026.06.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>대서양 북부에서 관측되는 의문의 저온 영역인 '콜드 블롭(Cold Blob)'이 대서양 열염순환(AMOC)의 약화를 시사한다는 분석이 나왔습니다. AMOC는 적도의 따뜻한 해수를 북쪽으로 운반하여 지구 기후를 조절하는 핵심 시스템이지만, 최근 온난화로 인한 빙하 융해 등으로 약화되고 있습니다. 이 순환이 계속 약화되거나 붕괴할 경우, 유럽의 급격한 기온 하강과 전 세계적인 기후 재앙이 초래될 수 있어 우려가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>콜드 블롭 현상:</strong> 대서양 북부 해역에서 주변보다 비정상적으로 온도가 낮은 구역이 지속적으로 관측되고 있습니다.</li><li><strong>해류 순환 약화의 증거:</strong> 과학자들은 이 저온 영역을 지구 기후를 조절하는 대서양 열염순환(AMOC)이 약화되고 있다는 강력한 신호로 해석합니다.</li><li><strong>심각한 기후적 파장:</strong> AMOC의 약화는 유럽의 한파, 북미 해수면 상승, 글로벌 강수 패턴 변화 등 파괴적인 기후 변화를 유발할 수 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/climate/comments/1u0g1i6/mysterious_cold_blob_in_the_atlantic_suggests_the/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 999,
       pinned: false,
       category: 'news', categoryName: '소식',
