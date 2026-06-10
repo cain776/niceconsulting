@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1008,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 평가로 ESG 공급망 경쟁력 강화',
+      author: '관리자',
+      date: '2026.06.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 규제와 공급망 실사 의무화가 본격화되면서 기업들의 에코바디스(EcoVadis) 평가 대응이 중요해지고 있습니다. 에코바디스는 글로벌 바이어들이 협력사의 ESG 수준을 평가하는 대표적인 플랫폼으로, 수출 기업의 경쟁력을 결정하는 핵심 요소입니다. 국내 기업들은 이를 통해 공급망 리스크를 관리하고 글로벌 시장에서의 신뢰도를 확보하고 있습니다.</p><h3>주요 포인트</h3><ul><li><b>글로벌 규제 대응:</b> EU 공급망 실사법 등 강화되는 글로벌 ESG 규제에 대응하기 위한 필수 관문입니다.</li><li><b>바이어 요구 조건 충족:</b> 환경, 노동·인권, 윤리, 지속가능 조달 등 4대 분야 평가를 통해 글로벌 협력 관계를 유지합니다.</li><li><b>수출 경쟁력 강화:</b> 우수한 에코바디스 등급 획득은 글로벌 시장에서 차별화된 수주 경쟁력으로 작용합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1TcjlYUUFjdFRDdXBNZm50MjZ1TmJtU1B6c0s4NUp4bGZuWTNXV2x2UTNyQUxqQTlYY1k5LXVkMWs2akJKQ0dWd1Rtd0l5bzVLdVhBTUZySzc0QUJYdklyR3VQakV3VnZsbEt0Xw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1009,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ESG 중대성 평가: 핵심 가치에 집중하는 법',
+      author: '관리자',
+      date: '2026.06.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이 기사는 기업이 복잡한 비즈니스 환경에서 ESG(환경·사회·지배구조) 중대성 평가를 효과적으로 수행할 수 있는 7단계 가이드를 제시합니다. 특히 ISSB(국제지속가능성기준위원회)와 CSRD(유럽 기업지속가능성보고지침)의 이중 중대성(Double Materiality) 요구사항을 충족하는 방법을 상세히 다룹니다. 이를 통해 기업은 지속가능성 리스크의 우선순위를 정하고, ESG 성과를 기업 가치와 정렬하여 장기적인 경쟁력을 확보할 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>7단계 중대성 평가 프로세스:</strong> ESG 리스크와 기회를 식별하고 우선순위를 지정하는 체계적인 프레임워크를 제공합니다.</li><li><strong>이중 중대성(Double Materiality) 대응:</strong> ISSB 및 CSRD 등 최신 글로벌 공시 기준에 맞춘 재무적·영향 중대성 평가 방법을 설명합니다.</li><li><strong>기업 가치와의 연계:</strong> 지속가능성 목표를 기업의 핵심 비즈니스 전략 및 장기적인 가치 창출과 정렬하는 방안을 제시합니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-materiality-assessment-guide/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1010,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU, 이탈리아의 230억 유로 재생에너지 계획 승인',
+      author: '관리자',
+      date: '2026.06.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회(EC)가 이탈리아의 230억 유로(약 34조 원) 규모 재생에너지 발전 지원 프로그램을 승인했습니다. 이번 프로그램은 온실가스 배출을 줄이고 재생에너지 생산을 늘려 EU의 기후 및 에너지 목표 달성에 기여하는 것을 목표로 합니다. 지원 대상은 육상 풍력, 태양광, 수력 등 다양한 재생에너지 기술을 활용한 신규 발전 설비입니다. 이 계획은 2028년 말까지 운영되며, 양방향 차액결제계약(CfD) 방식으로 지원이 이루어집니다.</p><h3>주요 포인트</h3><ul><li><strong>대규모 재정 투입:</strong> 이탈리아의 재생에너지 전력 생산 확대를 위해 230억 유로 규모의 국가 보조금이 지급됩니다.</li><li><strong>다양한 기술 지원:</strong> 육상 풍력, 태양광, 수력, 바이오가스 등 다양한 신규 발전 설비 구축을 지원합니다.</li><li><strong>안정적 투자 유도:</strong> 20년 동안 양방향 차액결제계약(CfD) 방식을 적용하여 개발자에게 안정적인 수익을 보장하고 가격 변동성을 완화합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/italys-e23-billion-plan-to-support-renewable-energy-production-approved-by-eu/?utm_source=rss&utm_medium=rss&utm_campaign=italys-e23-billion-plan-to-support-renewable-energy-production-approved-by-eu" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1011,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽의 \'이례적\' 폭염과 AMOC 관측 위기',
+      author: '관리자',
+      date: '2026.06.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 기사는 최신 기후 연구를 통해 유럽에서 발생한 이례적인 봄철 폭염과 향후 온난화 전망을 다룹니다. 특히 지구 기후 시스템의 핵심 조절 장치인 대서양 자오선 역전순환(AMOC) 관측망이 예산 및 지원 부족으로 인해 중단될 위기에 처해 있다는 경고가 제기되었습니다. AMOC 관측이 중단될 경우 기후 변화 예측 및 재난 대비에 심각한 지장을 초래할 수 있어 과학계의 우려가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>유럽의 이례적 봄철 폭염:</strong> 기후 변화의 영향으로 유럽 전역에서 예년 기온을 크게 웃도는 기록적인 고온 현상이 관측되었습니다.</li><li><strong>AMOC 관측망 유지 위기:</strong> 해류 순환을 감시하여 기후 급변점을 예측하는 AMOC 모니터링 시스템이 지속 불가능한 위험에 직면했습니다.</li><li><strong>기후 예측 불확실성 증가:</strong> 핵심 관측 데이터가 유실될 경우 향후 온난화 전망 및 기후 모델의 정확도가 크게 떨어질 수 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/cited-9-june-2026-europes-exceptional-heatwave-warming-forecast-amoc-observations-at-risk/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1012,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '세계 대형 은행들, 화석연료에 9060억 달러 지원',
+      author: '관리자',
+      date: '2026.06.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 보고서에 따르면, 세계 최대 규모의 은행들이 2025년에 화석연료 기업들에 총 9,060억 달러(약 1,200조 원)를 지원하기로 약정하며 충격적인 증가세를 보였습니다. 연구원들은 이러한 금융 결정이 지구 온도 상승을 억제하려는 국제사회의 기후 목표와 전혀 부합하지 않는다고 경고했습니다. 특히 JP모건 체이스를 필두로 한 65개 글로벌 은행들이 기후 위기를 악화시키는 자금 조달 결정을 주도하고 있는 것으로 나타났습니다.</p><h3>주요 포인트</h3><ul><li>세계 대형 은행들이 2025년 화석연료 분야에 총 9,060억 달러의 자금을 지원하기로 약정했습니다.</li><li>JP모건 체이스가 기후 변화 억제 목표에 반하는 자금 조달 결정을 내린 65개 은행 중 선두를 차지했습니다.</li><li>연구진들은 은행들의 이러한 행보가 지구 온난화를 제한하려는 전 세계적 노력과 완전히 배치된다고 강력히 비판했습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1u1dnmz/quite_insane_worlds_largest_banks_pledged_906bn/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1004,
       pinned: false,
       category: 'news', categoryName: '소식',
