@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1013,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '정어리 트렌드 뒤에 숨겨진 상업 어업의 현실',
+      author: '관리자',
+      date: '2026.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 SNS를 중심으로 통조림 생선을 소비하는 '정어리 트렌드'가 친환경적이고 지속 가능한 식습관으로 큰 인기를 끌고 있습니다. 그러나 대규모 상업적 어업의 현실은 소비자들이 기대하는 지속 가능성과는 거리가 멉니다. 소형 어류의 무분별한 남획은 해양 생태계의 먹이사슬을 흔들고 다른 해양 생물의 생존을 위협하고 있습니다. 진정한 해양 보존을 위해서는 마케팅 이면에 숨겨진 수산물 산업의 실태를 명확히 인식해야 합니다.</p><h3>주요 포인트</h3><ul><li><strong>트렌드와 현실의 괴리:</strong> 통조림 정어리를 활용한 '시큐터리(seacuterie)'가 친환경 식단으로 포장되고 있으나, 상업적 어업 방식은 여전히 환경에 큰 부담을 줍니다.</li><li><strong>해양 생태계 먹이사슬 교란:</strong> 정어리와 멸치 같은 소형 어류는 해양 생태계의 핵심 먹이원으로, 이들의 급감은 고래, 바다새 등 상위 포식자의 생존을 위협합니다.</li><li><strong>사료용 남획 문제:</strong> 포획된 소형 어류의 상당수가 인간의 식탁이 아닌 양식 연어 등의 사료(어분)로 가공되어 자원 낭비를 초래합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1u39pkr/sardine_girl_summer_meets_the_reality_of/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1014,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '포스코이앤씨 또 사망사고, 중대재해법 적용 주목',
+      author: '관리자',
+      date: '2026.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>포스코이앤씨의 건설 현장에서 또다시 근로자 사망 사고가 발생하여 당국이 중대재해처벌법 위반 여부 조사에 착수했습니다. 사고가 발생한 현장은 공사 금액 기준에 따라 중대재해처벌법 적용 대상에 해당합니다. 이번 사고로 인해 포스코이앤씨의 안전 관리 체계 실효성에 대한 의문이 제기되고 있습니다. 고용노동부는 사측이 안전보건 확보 의무를 이행했는지를 집중적으로 조사할 계획입니다.</p><h3>주요 포인트</h3><ul><li>포스코이앤씨 건설 현장에서 사망 사고가 추가 발생하며 안전 관리 부실 논란이 재점화되었습니다.</li><li>사고 현장은 중대재해처벌법 적용 대상으로, 경영책임자의 처벌 여부에 관심이 쏠리고 있습니다.</li><li>반복되는 중대재해로 인해 기업의 ESG 경영 신뢰도와 브랜드 이미지에 타격이 예상됩니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1GMEVkOGFLT3lSM0s2QWVMUzBLRm9nQUlRbjlBSndSQTdwU3JiVld6VXlONU9BTWtNbDYzTnhONkpnTnZHaUk5N0N5anJOSmo1MkdGNHQzMi1LNkxIQ05zODRUMDlpY0tSSDhwbg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1015,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 브리핑: 기술 단속, 이상 기후 및 지방 에너지 계획',
+      author: '관리자',
+      date: '2026.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 기사는 중국의 최신 기후 및 에너지 정책 동향을 다룹니다. 중국 정부의 기술 기업에 대한 규제 강화가 데이터 센터의 에너지 효율성에 미치는 영향을 분석합니다. 또한, 최근 중국을 덮친 이상 기후 현상과 이로 인한 전력망 압박을 조명하며, 각 지방 정부가 수립한 에너지 및 탄소 감축 계획의 이행 현황을 상세히 전합니다.</p><h3>주요 포인트</h3><ul><li>기술 기업 규제와 친환경 전환: 중국 정부의 규제 단속이 데이터 센터의 에너지 소비 감축 및 재생에너지 도입 압박으로 이어지고 있습니다.</li><li>이상 기후로 인한 전력망 부담: 폭염과 가뭄 등 극단적인 날씨로 인해 전력 수요가 급증하면서 전력 공급 안정성이 위협받고 있습니다.</li><li>지방 정부의 에너지 계획: 각 성(省) 정부가 국가적 탄소 중립 목표 달성을 위해 구체적인 신재생에너지 확대 및 석탄 통제 방안을 제시하고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/china-briefing-11-june-2026-tech-clampdown-extreme-weather-provinces-energy-plans/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1016,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA-호주 외교통상부, 시드니 공동 행사 개최',
+      author: '관리자',
+      date: '2026.06.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>책임감 있는 비즈니스 연합(RBA)과 호주 외교통상부(DFAT)가 호주 시드니에서 공동 행사를 개최했습니다. 이번 행사에는 제인 듀크(Jane Duke) 대사를 비롯한 주요 관계자들이 참석하여 글로벌 공급망에서의 책임 있는 비즈니스 관행에 대해 논의했습니다. 참석자들은 지속 가능한 공급망 구축과 글로벌 ESG 규제 대응을 위한 상호 협력 방안을 모색했습니다.</p><h3>주요 포인트</h3><ul><li>RBA와 호주 외교통상부(DFAT)의 시드니 공동 협력 행사 개최</li><li>제인 듀크 대사 등 정부 및 업계 관계자들의 공급망 ESG 논의</li><li>글로벌 공급망 실사 및 지속 가능한 비즈니스 관행 강화 방안 모색</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/blog/rba-dfat/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1017,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'FIFA의 월드컵 기후 대책 비판: 눈가림으론 해결 불가',
+      author: '관리자',
+      date: '2026.06.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제축구연맹(FIFA)은 2026년 북중미 월드컵을 앞두고 기후 변화 대응에 있어 미흡한 대처로 비판을 받고 있습니다. 미국, 캐나다, 멕시코 3개국에서 공동 개최되는 이번 대회는 대규모 이동으로 인해 막대한 온실가스 배출이 예상됩니다. 탄소시장감시위원회(Carbon Market Watch)는 FIFA가 실질적인 감축 대신 실효성 없는 탄소 상쇄 정책에 의존하고 있다고 지적하며, 스포츠 행사의 진정한 친환경 전환을 위한 근본적인 구조적 변화를 촉구했습니다.</p><h3>주요 포인트</h3><ul><li><strong>대규모 이동으로 인한 탄소 배출 급증:</strong> 3개국 전역에서 개최되는 2026 월드컵은 선수와 팬들의 장거리 비행 이동으로 인해 역대 최대 규모의 탄소 발자국을 남길 것으로 우려됩니다.</li><li><strong>실효성 없는 탄소 상쇄 정책:</strong> FIFA가 제시하는 탄소 상쇄(Offsetting) 계획은 실질적인 온실가스 감축보다는 '그린워싱(위장 환경주의)'에 가깝다는 비판을 받고 있습니다.</li><li><strong>근본적 제도 개선 촉구:</strong> 기후 전문가들은 월드컵의 지속가능성을 확보하기 위해 경기 일정 조정, 개최지 분산 최소화 등 구조적인 혁신이 필수적이라고 강조합니다.</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/06/10/fifa-fo-fum-magical-thinking-will-not-solve-world-cups-giant-climate-problem/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1008,
       pinned: false,
       category: 'news', categoryName: '소식',
