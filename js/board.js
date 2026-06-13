@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1018,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '현대엘리베이터, 중대재해처벌법 준수 \'A등급\' 획득',
+      author: '관리자',
+      date: '2026.06.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>현대엘리베이터가 중대재해처벌법 준수 평가에서 우수한 안전보건 관리 체계를 인정받아 'A등급'을 획득했습니다. 이번 평가는 기업의 안전보건 경영 방침, 유해·위험요인 개선, 비상조치 매뉴얼 구축 등 법적 의무 이행 여부를 종합적으로 심사한 결과입니다. 현대엘리베이터는 사물인터넷(IoT) 기술을 접목한 안전 관리 시스템 도입과 전담 조직 강화 등 선제적인 안전 경영을 실천해 왔습니다. 회사 측은 앞으로도 근로자의 생명과 안전을 최우선 가치로 삼아 재해 없는 안전한 일터를 만들어 갈 방침입니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 준수 평가에서 우수한 안전보건 체계를 인정받아 'A등급' 획득</li><li>IoT 기반 실시간 안전 모니터링 및 전담 조직 강화를 통한 선제적 안전 관리 실천</li><li>경영진의 강력한 의지를 바탕으로 협력사를 포함한 사업장 전반의 안전 환경 조성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFA0NUxQQ0tVSlVKZTRTSU5DTGFMdnlJckJpRW9NQ0ZzeFRzbkw5YTlIUVF0WkZvTmlpd1RSR0lvc3BFRV9IcjZoOUM5MlpwNV9qTXN5OUlEU3ZaUExPczFwQXNNWkc5ZFl1b2l5eVE3LTk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1019,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '딥리뉴어블스, ISO 국제표준 인증 3종 획득',
+      author: '관리자',
+      date: '2026.06.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>재생에너지 전문 기업 딥리뉴어블스가 발전 및 플랫폼 운영 역량에 대한 국제 표준을 검증받아 ISO 인증 3종을 획득했습니다. 이번 인증을 통해 품질, 환경, 안전보건 분야에서 글로벌 수준의 경영 체계를 갖추었음을 공식적으로 입증했습니다. 딥리뉴어블스는 이를 바탕으로 신재생에너지 발전소 운영 및 플랫폼 서비스의 신뢰성을 높이고 ESG 경영을 더욱 강화해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>품질(ISO 9001), 환경(ISO 14001), 안전보건(ISO 45001) 국제 표준 인증 획득</li><li>신재생에너지 발전 및 플랫폼 운영 서비스의 대외 신뢰도와 기술 안정성 확보</li><li>체계적인 가이드라인 확립을 통한 ESG 경영 실천 및 글로벌 시장 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE4yeFZ1c1JVSWVFVkN5THJUUTVxSWxiaHFpbWNoZWdsbHZHaHZ1WVpOYmRGMjAxUmU0TEJrZWprNzlZY0FOTnN5OElSVElrd21zVUFyZXJ3S0YwNkRQWnBEQnJUckZidk9QS0x3MThKTm4?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1020,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '탈탄소화: 측정 가능한 성과를 위한 기업 로드맵',
+      author: '관리자',
+      date: '2026.06.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탈탄소화는 이제 단순한 환경적 의무를 넘어 기업의 생존과 직결된 재정적 필수 과제입니다. 성공적인 탈탄소화를 위해서는 자체 운영 범위를 넘어 공급망 전체(Scope 3)를 아우르는 포괄적인 로드맵이 필요합니다. 기업은 신뢰할 수 있는 데이터를 기반으로 구체적인 온실가스 감축 목표를 설정하고, 공급업체와의 협업을 통해 실질적인 감축을 이행해야 합니다.</p><h3>주요 포인트</h3><ul><li><strong>재정적 필수 과제</strong>: 규제 강화와 이해관계자의 요구로 인해 탈탄소화는 기업의 장기적인 재무 경쟁력을 결정짓는 핵심 요소가 되었습니다.</li><li><strong>공급망(Scope 3) 감축의 중요성</strong>: 기업 배출량의 대부분을 차지하는 공급망 내 온실가스를 감축하기 위해 협력사와의 파트너십과 지원이 필수적입니다.</li><li><strong>데이터 기반의 실행 로드맵</strong>: 정확한 탄소 배출량 측정과 모니터링을 통해 실질적이고 측정 가능한 감축 결과를 도출해야 합니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/decarbonization/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1021,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '개인의 친환경 실천이 미치는 영향에 대한 고민',
+      author: '관리자',
+      date: '2026.06.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>작성자는 지난 몇 년간 일회용품 줄이기, 육식 절제, 자전거 이용 등 일상 속에서 지속 가능한 삶을 실천하기 위해 노력해 왔습니다. 그러나 이 과정에서 개인의 행동이 환경에 미치는 실질적인 영향력에 대해 끊임없이 고민하게 되었습니다. 한편으로는 개인의 선택이 탄소 배출을 줄이고 사회적 규범을 바꾸는 데 기여한다는 의견이 있습니다. 다른 한편으로는 거대 기업과 시스템의 변화 없이는 개인의 노력이 미미하다는 회의론도 존재합니다.</p><h3>주요 포인트</h3><ul><li>일상적인 친환경 실천(일회용품 감축, 채식, 자전거 타기 등)의 지속적인 시도</li><li>개인의 선택이 사회적 규범을 변화시키고 탄소 배출을 줄일 수 있다는 긍정적 시각</li><li>구조적·시스템적 변화 없이는 개인의 노력이 한계가 있다는 회의적 시각 간의 딜레마</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1u3jlyc/how_do_you_think_about_the_impact_of_individual/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1022,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '엠에스씨, 글로벌 ESG \'에코바디스 골드\' 획득',
+      author: '관리자',
+      date: '2026.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>식품 첨가물 및 소재 전문 기업 ㈜엠에스씨가 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 '골드 메달'을 획득하고 기념 전달식을 개최했습니다. 에코바디스는 전 세계 기업의 ESG 성과를 평가하는 공신력 있는 플랫폼으로, 골드 등급은 평가 대상 기업 중 상위 5% 이내에 해당하는 우수한 성적입니다. 엠에스씨는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 평가를 받으며 글로벌 수준의 ESG 경영 역량을 입증했습니다. 이번 성과를 바탕으로 글로벌 고객사들과의 신뢰를 강화하고 지속가능경영을 더욱 확대해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스로부터 상위 5%에 해당하는 '골드 메달' 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 영역에서 우수한 지속가능경영 성과 인정</li><li>글로벌 시장에서의 신뢰도 제고 및 ESG 경영 체계 고도화 기대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE91M3JKM3ZBT0lsdldzOHRkak5yeGh2V2ZDTDVZNlkwYjU2WmtKNFVJZDVuSUE0LWhHdmJBdFBMTTBqbXFlSi12Y2RVOFNXX0YxM1c2V3RB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1013,
       pinned: false,
       category: 'news', categoryName: '소식',
