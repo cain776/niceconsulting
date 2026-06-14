@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1023,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '한화에어로 대표, 중대재해법 위반 입건',
+      author: '관리자',
+      date: '2026.06.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>고용노동부가 최근 발생한 근로자 사망 사고와 관련하여 한화에어로스페이스 대표이사를 중대재해처벌법 위반 혐의로 입건했습니다. 노동당국은 사고 당시 사업장 내 안전보건 확보 의무가 제대로 이행되었는지 여부를 집중적으로 조사하고 있습니다. 이번 사건은 대기업의 안전 관리 책임과 ESG 경영 중 사회(S) 영역의 리스크 관리 중요성을 다시 한번 부각시키고 있습니다.</p><h3>주요 포인트</h3><ul><li>한화에어로스페이스 대표, 근로자 사망 사고로 중대재해처벌법 위반 피의자 전환</li><li>노동당국의 안전보건관리체계 구축 및 이행 여부에 대한 고강도 수사 진행</li><li>산업안전 및 근로자 보호 등 ESG 경영 내 사회적 책임(S) 리스크 증대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwaG9LM0dNcS1DV3ZGNU9rcjZXTXpWVmJUSXpabEVTOFNlMlB5MzhmUG5OTlE0dklqOWotYnhDMk00RHZlWTBSTGJ2ZmpKa0V0aEU1SVRtekNmOUZhZzlBWmE3VGMxdw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1024,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '싸이프레스 크릭, 美 대형 태양광·ESS에 35억 달러 확보',
+      author: '관리자',
+      date: '2026.06.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>신재생에너지 개발 및 발전 기업인 싸이프레스 크릭 에너지(Cypress Creek Energy)가 미국 최대 규모의 태양광 및 에너지 저장 장치(ESS) 프로젝트 건설을 위해 35억 달러(약 4조 8,000억 원) 규모의 자금을 확보했습니다. 이번 금융 조달은 대규모 친환경 에너지 인프라 구축을 위한 중요한 이정표로, 미국 전력망의 탈탄소화와 안정성 향상에 기여할 전망입니다. 확보된 자금은 프로젝트의 건설 및 초기 운영 단계에 투입되어 청정에너지 공급을 가속화할 예정입니다.</p><h3>주요 포인트</h3><ul><li><strong>35억 달러 규모 재원 확보:</strong> 글로벌 금융 기관들과의 협력을 통해 대규모 투자 및 대출을 성공적으로 유치했습니다.</li><li><strong>초대형 태양광 및 ESS 결합:</strong> 대규모 태양광 발전 설비와 배터리 에너지 저장 시스템(BESS)을 결합하여 전력망의 안정성을 극대화합니다.</li><li><strong>미국 청정에너지 전환 가속화:</strong> 이번 프로젝트는 미국의 탄소 중립 목표 달성을 지원하고 지역 경제 활성화에 기여할 것으로 기대됩니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/cypress-creek-secures-3-5-billion-to-build-one-of-the-largest-solar-storage-projects-in-u-s/?utm_source=rss&utm_medium=rss&utm_campaign=cypress-creek-secures-3-5-billion-to-build-one-of-the-largest-solar-storage-projects-in-u-s" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1025,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '세이프마크, 에코바디스 ESG 평가 상위 35% 진입',
+      author: '관리자',
+      date: '2026.06.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 객실 보안 솔루션 기업 세이프마크(Safemark)가 세계적인 지속가능성 평가 기관인 에코바디(EcoVadis)의 ESG 평가에서 68백분위수를 기록하며 글로벌 상위 35%에 진입했습니다. 이번 성과는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다양한 ESG 분야에서 세이프마크가 기울여온 지속적인 노력이 인정받은 결과입니다. 세이프마크는 이번 성과를 바탕으로 호스피탈리티 업계 내에서 신뢰할 수 있는 지속가능한 파트너로서의 입지를 더욱 공고히 할 계획입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 ESG 평가에서 68백분위수를 기록하며 글로벌 상위 35% 진입 달성</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전반적인 ESG 경영 성과 인정</li><li>호스피탈리티 산업 고객사들에게 검증된 친환경 및 지속가능한 솔루션 파트너로 자리매김</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPMVFyXzBRamNIS19sNUROQTZnM3pWVERScmNCX0pENU9EUWYxZmxXV3R2Q1Jqc0tzdV9pbzV3bnVkTzhyRW9HX1h5aW5xa2ViODJPV3lwWlFrbHFxb0FWQWdvaVpKMnJ0bkxGSm1Fd0t1SWRXRWQxWFNLWDY3R1NEUDFxS2txQk45ek1SQkpYQkVYS2laaGV6WlpvRzVSZGZRWEpxZHhvWjE3Z29TSzU1RUVpZmZOaUxqUjRoZjZ6MA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1026,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유엔 탄소 시장, 부풀려진 쿡스토브 크레딧 유입 논란',
+      author: '관리자',
+      date: '2026.06.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유엔(UN) 탄소 시장의 승인을 받은 최초의 두 프로젝트(모두 쿡스토브 관련 사업)가 기후 변화 완화 효과를 과도하게 부풀려 평가받은 것으로 나타났습니다. 탄소 시장 감시 기구인 '카본 마켓 워치(Carbon Market Watch)'는 과다 크레딧 발행을 억제하려는 노력에도 불구하고 이러한 문제가 발생했다고 지적했습니다. 특히 청정개발체제(CDM)의 첫 번째 프로그램 활동(PoA 10415)에 대한 분석 결과, 실제 온실가스 감축량보다 훨씬 많은 탄소 크레딧이 발행되고 있음이 밝혀졌습니다. 이는 신뢰성 있는 탄소 시장 구축을 위해 더 엄격한 검증 기준이 필요함을 시사합니다.</p><h3>주요 포인트</h3><ul><li>유엔 탄소 시장에서 최초로 승인된 쿡스토브 관련 프로젝트 2건의 기후 영향력이 심각하게 과대평가되었습니다.</li><li>카본 마켓 워치의 분석에 따르면, 기존 청정개발체제(CDM) 프로젝트에서 과다 크레딧 발행 문제가 지속적으로 발생하고 있습니다.</li><li>탄소 시장의 신뢰성을 확보하기 위해 탄소 크레딧 발행 기준과 검증 절차에 대한 근본적인 개선이 요구됩니다.</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/06/09/out-of-the-frying-pan-into-the-cookstove-too-many-carbon-credits-enter-un-carbon-market/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1027,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엘니뇨 시작과 COP31 전기화 및 대서양 해류 위기',
+      author: '관리자',
+      date: '2026.06.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화 전문 매체 카본 브리프(Carbon Brief)는 최근 전 세계 기후 변화의 핵심 동향을 담은 주간 브리핑을 발표했습니다. 이번 보고서는 공식적으로 시작된 엘니뇨 현상이 가져올 지구 온난화 가속화와 극단적 기상 이변에 대해 경고하고 있습니다. 아울러 COP31 유치를 목표로 하는 국가들의 재생에너지 전기화 전략과 지구 기후 시스템의 핵심 축인 대서양 해류 모니터링 시스템의 운영 중단 위기를 주요하게 다루었습니다.</p><h3>주요 포인트</h3><ul><li><strong>엘니뇨 공식 시작과 기온 상승 우려:</strong> 엘니뇨 현상의 본격화로 인해 향후 전 세계 평균 기온이 역대 최고치를 경신할 가능성이 커졌으며, 가뭄과 홍수 등 기후 재난 위험이 고조되고 있습니다.</li><li><strong>COP31 유치국의 전기화 추진:</strong> COP31 공동 개최를 추진하는 호주와 태평양 도서국들은 기후 위기 대응을 위해 화석연료 탈피와 재생에너지 기반의 전기화 전환을 핵심 과제로 내세우고 있습니다.</li><li><strong>대서양 해류(AMOC) 관측망 위기:</strong> 지구 열 순환을 담당하는 대서양 자오선 역전순환(AMOC)의 모니터링 시스템이 재정 지원 부족과 장비 유지보수 문제로 인해 관측 중단 위기에 직면했습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-12-june-2026-el-nino-begins-cop31-hosts-eye-electrification-atlantic-current-monitoring-at-risk/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1018,
       pinned: false,
       category: 'news', categoryName: '소식',
