@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1028,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '엠에스씨, 에코바디스 ESG \'골드 메달\' 획득',
+      author: '관리자',
+      date: '2026.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>식품 첨가물 및 소재 전문 기업 (주)엠에스씨가 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 '골드 메달'을 획득했습니다. 에코바디스는 전 세계 180여 개국, 13만 개 이상의 기업을 대상으로 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 평가하는 공신력 있는 플랫폼입니다. 엠에스씨는 이번 평가에서 상위 5% 이내에 해당하는 우수한 성적을 거두며 글로벌 수준의 ESG 경영 성과를 입증했습니다. 이번 성과를 바탕으로 회사는 글로벌 공급망 내 경쟁력을 더욱 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스로부터 상위 5% 기업에 부여되는 '골드 메달' 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 평가 기록</li><li>글로벌 고객사의 ESG 요구 대응력 강화 및 지속가능 경영 체계 고도화 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE82MzNmSTNnMm40N2FnZzB2blNaWEtmVGEwU1l4Nm85d05NR0VlMXpSRkQ2WkVmcTNaWFZqZTM3dllZM0hvOUI2YkVkOGs1WEVxQVZaMHFYVjF4R3o3T3lvRzlfTzRUdkMyNFY2b3EzUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1029,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아시아 태양광 발전, 사상 최초 가스 발전 추월',
+      author: '관리자',
+      date: '2026.06.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 에너지 싱크탱크의 분석에 따르면, 아시아에서 태양광 발전량이 사상 처음으로 가스 발전량을 넘어섰습니다. 이로써 태양광은 석탄과 수력에 이어 아시아에서 세 번째로 큰 전력원으로 부상했습니다. 중국, 인도, 일본 등 주요국의 주도로 태양광 설비가 급격히 확장되면서 이러한 역사적 전환이 가능했습니다. 이는 아시아 지역의 화석연료 의존도를 낮추고 청정에너지로의 전환을 가속화하는 중요한 이정표로 평가됩니다.</p><h3>주요 포인트</h3><ul><li><strong>사상 최초 가스 추월:</strong> 아시아 전역에서 태양광 발전량이 가스 발전량을 앞지르며 제3의 전력원으로 올라섰습니다.</li><li><strong>중국과 인도의 견인:</strong> 대규모 설비 투자와 정책적 지원을 바탕으로 한 중국과 인도의 태양광 성장이 결정적인 역할을 했습니다.</li><li><strong>에너지 안보 및 기후 목표 달성:</strong> 수입 가스에 대한 의존도를 줄이고 탄소 배출을 감축하는 데 크게 기여할 것으로 기대됩니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-solar-overtakes-gas-power-in-asia-for-first-time-ever/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1030,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '메첼래 파이버, 에코바디스 ESG 최고 등급 획득',
+      author: '관리자',
+      date: '2026.06.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>핀란드의 글로벌 임업 기업 메첼래 그룹(Metsä Group)의 자회사인 메첼래 파이버(Metsä Fibre)가 글로벌 ESG 평가기관인 에코바디스(EcoVadis)로부터 다시 한번 최고 등급인 '플래티넘(Platinum)'을 획득했습니다. 메첼래 파이버는 이번 평가에서 평가 대상 기업 중 상위 1%에 해당하는 우수한 성적을 거두며 지속가능성 경영의 선두 주자임을 입증했습니다. 회사는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 평가 항목에서 높은 점수를 기록했습니다. 이번 성과는 2030년까지 지속가능성 목표를 달성하고자 하는 회사의 강력한 의지를 반영합니다.</p><h3>주요 포인트</h3><ul><li><strong>에코바디스 플래티넘 등급 획득</strong>: 메첼래 파이버가 ESG 평가에서 상위 1% 기업에게만 부여되는 최고 등급인 플래티넘을 다시 한번 수상했습니다.</li><li><strong>전 분야 우수한 성과</strong>: 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 평가 영역에서 고르게 높은 점수를 기록했습니다.</li><li><strong>2030 지속가능성 목표 달성 가속화</strong>: 이번 최고 등급 획득은 메첼래 그룹의 2030년 지속가능성 목표 달성을 위한 노력을 뒷받침합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUDJHd1Q3Um5jbXpjQTVwX25sYXhsTkVJYkhWemx5SlhEZDQzZDhGVlJqUFR5Z2M5T2xPaEo1aXZ2d0R0YmhmNzF1TGNGMThsam9SU1FKV1FEVVNDSi1QWGZXVy1qVmlQYlZKMG5KZmVvWWJXek9GU0dGdHVndUlvNHg5Y2tILXJDWGV6TnFWYzZtR2FVRnEzd1htNWl4eUxHNFd1eUJiUWxDSjQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1031,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'SBTi 신규 넷제로 표준 발표 등 ESG 주간 동향',
+      author: '관리자',
+      date: '2026.06.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>과학기반감축목표이니셔티브(SBTi)가 기업의 실질적인 기후 변화 대응을 지원하기 위해 새로운 글로벌 '넷제로 표준(Net-Zero Standard)'을 공식 발표했습니다. 이번 표준은 기업들이 과학적 근거에 기반하여 온실가스 배출을 감축하고 신뢰성 있는 탄소 중립 목표를 설정할 수 있도록 돕는 세계 최초의 프레임워크입니다. 이와 함께 글로벌 탄소정보공개프로젝트(CDP)의 시스템 개편 등 글로벌 ESG 공시 및 평가 체계의 주요 변화가 함께 다루어졌습니다.</p><h3>주요 포인트</h3><ul><li><strong>SBTi, 세계 최초 '기업 넷제로 표준' 출시:</strong> 기업들이 기후 위기 극복을 위해 과학적 기준에 맞춰 실질적인 넷제로 목표를 수립하고 검증받을 수 있는 엄격한 가이드라인을 제시했습니다.</li><li><strong>CDP의 공시 플랫폼 및 조직 변화:</strong> 글로벌 환경 정보 공개 플랫폼인 CDP가 기후 변화 대응을 보다 효과적으로 지원하기 위해 시스템 개편 및 분할을 단행했습니다.</li><li><strong>글로벌 기후 공시 및 규제 강화 흐름:</strong> 주요 국제회의를 앞두고 기업들의 탄소 감축 목표 설정과 투명한 ESG 정보 공개에 대한 시장의 요구가 더욱 거세지고 있습니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-265/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-265" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1032,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '전기·전자 표준 글로벌 수장들 서울 집결',
+      author: '관리자',
+      date: '2026.06.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>세계 전기·전자 분야의 표준화를 선도하는 글로벌 리더들이 서울에 모여 미래 기술 표준을 논의합니다. 이번 회의에서는 친환경, 탄소중립 등 ESG 관련 글로벌 표준 트렌드와 디지털 전환에 대응하는 기술 협력 방안이 집중적으로 다뤄집니다. 한국은 이번 행사를 통해 글로벌 표준 강국으로서의 입지를 강화하고 국내 기업들의 해외 시장 진출 기반을 다질 계획입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 전기·전자 표준 수장들이 서울에 모여 국제 표준화 방향 논의</li><li>탄소중립, 에너지 효율 등 ESG 및 친환경 기술 표준이 핵심 의제로 부각</li><li>한국 기술의 국제 표준 선점을 통한 국내 기업의 글로벌 경쟁력 제고 기대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBWMXFzOF93aVFyamxPUjl3MTVKb01XcDRsYmhvSkJSb2VEcEJ1WnRDbmk3Y2pDa090SFYzaGZvU0Z0enFlemZETG5RclprS3pDc0plOHd3SFY3NlRrSS1tUllNN0JrUFEtcVRudzVidw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1023,
       pinned: false,
       category: 'news', categoryName: '소식',
