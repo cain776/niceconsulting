@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1033,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '뉴포레스트, 10억 호주달러 규모 글로벌 자연자본 펀드 출시',
+      author: '관리자',
+      date: '2026.06.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>자연 기반 실물 자산 전문 투자 운용사인 뉴포레스트(New Forests)가 10억 호주달러(약 6억 6,000만 달러) 규모의 글로벌 자연자본 펀드를 출시했습니다. 이 펀드는 기후 변화 대응과 탈탄소화를 목표로 하며, 지속 가능한 임업, 농업 및 토지 관리 분야에 투자할 예정입니다. 주로 미국, 호주, 뉴질랜드, 유럽 등 선진국 시장을 대상으로 하며, 기관 투자자들에게 재무적 수익과 함께 생물다양성 보존 및 탄소 배출 감축 등의 환경적 성과를 동시에 제공하는 것을 목표로 합니다.</p><h3>주요 포인트</h3><ul><li><strong>대규모 자연자본 펀드 조성:</strong> 뉴포레스트는 기후 전환 및 자연자본 투자를 위해 10억 호주달러 규모의 글로벌 펀드를 출범했습니다.</li><li><strong>지속 가능한 토지 및 자산 투자:</strong> 지속 가능한 목재 생산, 농업, 탄소 크레딧 생성 및 생물다양성 보존 프로젝트에 집중 투자합니다.</li><li><strong>선진국 중심의 포트폴리오:</strong> 미국, 호주, 뉴질랜드 등 규제가 안정적이고 시장이 성숙한 선진국 지역을 타깃으로 삼고 있습니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/new-forests-launches-a1-billion-global-natural-capital-fund/?utm_source=rss&utm_medium=rss&utm_campaign=new-forests-launches-a1-billion-global-natural-capital-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1034,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '글로벌 ESG 규제 장벽, \'에코바디스\'로 뚫는다',
+      author: '관리자',
+      date: '2026.06.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망 내 ESG 실사 규제가 강화됨에 따라 국내 수출 기업들이 글로벌 ESG 평가 플랫폼인 '에코바디스(EcoVadis)' 인증을 통해 새로운 돌파구를 마련하고 있습니다. 유럽을 중심으로 공급망 실사법이 본격화되면서 해외 바이어들은 협력사에 높은 수준의 ESG 평가 결과를 요구하고 있습니다. 이에 우리 기업들은 에코바디스 평가에 적극적으로 대응하여 수출 경쟁력을 확보하고 글로벌 공급망에서의 입지를 강화하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>글로벌 ESG 규제 강화:</strong> 유럽연합(EU)의 공급망 실사지침(CSDDD) 등 글로벌 ESG 규제가 구체화되면서 수출 기업들의 선제적 대응이 필수가 되었습니다.</li><li><strong>에코바디스 평가의 영향력:</strong> 글로벌 바이어들이 협력사 선정 및 계약 유지 조건으로 에코바디스 등급 획득을 요구하는 사례가 급증하고 있습니다.</li><li><strong>국내 기업의 대응 전략:</strong> 국내 대기업과 중소·중견 협력사들은 맞춤형 컨설팅과 내부 프로세스 개선을 통해 에코바디스 인증을 획득하며 수출 전선을 넓히고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE9vemVsbXRzNG1vVXlXR1hPSHNDc2k1a0hpb3lpZlJvNTZORV81NlA5Q09Pa2lFMmRCT1FsdklUQTVPa3dhX0E?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1035,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '양주시, 중대재해처벌법 대상 사업장 위험성평가 실시',
+      author: '관리자',
+      date: '2026.06.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>양주시는 중대재해처벌법 적용 대상인 도급 및 위탁 사업장을 대상으로 안전·보건 확보를 위한 위험성평가를 실시합니다. 이번 평가는 사업장 내 잠재적인 유해·위험요인을 사전에 파악하고 실질적인 개선 대책을 수립하여 근로자의 산업재해를 예방하기 위해 마련되었습니다. 시는 이를 통해 도급·위탁 사업장의 안전보건 관리체계 구축을 적극 지원하고 안전한 작업 환경을 조성할 방침입니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 대응을 위한 도급·위탁 사업장 대상 위험성평가 추진</li><li>유해 및 위험요인의 선제적 발굴과 맞춤형 개선 대책 수립</li><li>지속적인 점검과 지원을 통한 관내 근로 환경의 안전성 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE44SWJuRVJZd3o4VklBTTZ2SE9KYlhlTVBDbWYydEtwbFp0VXlTdndGMWdzSThSOEdZZGlaSU9FWEpsbGdpdnBqRHV5WQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1036,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기업 친환경 마케팅의 실체: 전직 매장 부점장의 폭로',
+      author: '관리자',
+      date: '2026.06.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유명 의류 브랜드(올드네이비)의 전직 부점장이 기업의 친환경 마케팅과 실제 매장 운영 간의 극심한 괴리를 폭로했습니다. 기업은 신입 사원 교육 시 지속 가능한 생산 방식을 강조하는 홍보 영상을 보여주고, 종이 쇼핑백에 친환경 문구를 가득 담아 대외적인 이미지를 포장합니다. 그러나 실제 현장에서는 이러한 지속 가능성 약속이 제대로 이행되지 않으며, 기업의 친환경 지표가 허울뿐인 눈속임에 불과하다는 점을 지적했습니다.</p><h3>주요 포인트</h3><ul><li><strong>마케팅과 현실의 괴리</strong>: 대외적으로는 친환경 농장 사용 및 지속 가능성을 홍보하지만, 실제 매장 운영 방식은 이와 다릅니다.</li><li><strong>신입 사원 교육의 눈속임</strong>: 입사 교육 과정에서 보여주는 친환경 약속 영상과 실제 업무 환경 간의 모순이 존재합니다.</li><li><strong>그린워싱(Greenwashing) 지적</strong>: 종이 쇼핑백 등에 친환경 메시지를 도배하여 대중에게 보여주기식 '녹색 이미지'만 구축하고 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1u6og7y/corporate_sustainability_metrics_are_a_sham_what/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1037,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '독일 HSE 채용 시장 흔드는 신규 ISO 표준과 극단적 기후 규제',
+      author: '관리자',
+      date: '2026.06.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 도입된 새로운 ISO 표준과 극단적 기후 변화에 대응하기 위한 규제들이 독일의 보건·안전·환경(HSE) 채용 시장을 크게 재편하고 있습니다. 기후 변화가 작업 환경에 미치는 영향이 실질적인 위험으로 다가옴에 따라, 기업들은 폭염 등 극단적인 날씨로부터 근로자를 보호하기 위한 엄격한 안전 대책을 마련해야 합니다. 이에 따라 단순한 환경·안전 규정 준수를 넘어 기후 변화 적응 전략을 수립할 수 있는 전문성을 갖춘 HSE 인력에 대한 수요가 급증하고 있습니다. 이러한 변화는 독일 기업들이 지속가능성과 직원 안전을 비즈니스 핵심 전략으로 통합하는 계기가 되고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>신규 ISO 표준 도입:</strong> 기후 변화 요소를 반영하도록 개정된 ISO 관리 시스템 표준이 도입되면서 기업의 HSE 관리 기준이 한층 강화되었습니다.</li><li><strong>극단적 기후 규제 강화:</strong> 폭염 등 기후 위기로부터 근로자를 보호하기 위한 독일 내 법적 규제가 강화되어 기업들의 신속한 대응이 요구됩니다.</li><li><strong>HSE 전문가 수요 급증:</strong> 단순한 안전 관리를 넘어 기후 리스크 분석 및 지속가능성 전략을 실행할 수 있는 전문 HSE 인재의 몸값이 높아지고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxQUjVRY3VmWmdaSmhCNXZfM0UxTFRkT3FaVTJTb3lkT2Z6SkEtVTJxSzlhaEpzLUh0b204Z29iazhxSm1WUUZXbE5xdGNVS0tKVGZSZVdGRVJUX3BEVzdNdG1yN0M4UFU4ZEFGWjZUbGE4bmxxYmFlbG1YVGhCbEJod1NQYmhqek4xeS0xamFBXzhwNU9YTXJIYjRsc2UyTHJ6eWZVVFl5Tkl6RXI0aFdGeTM1ODRIS1UwSVFHd0t6RWNsQUYwanc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1028,
       pinned: false,
       category: 'news', categoryName: '소식',
