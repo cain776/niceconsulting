@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1038,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '벌링턴, 조지아주에 첨단 물류센터 개소',
+      author: '관리자',
+      date: '2026.06.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 할인 의류 소매업체 벌링턴(Burlington)이 조지아주에 200만 평방피트 규모의 최첨단 물류센터를 개소했습니다. 이 시설은 공급망의 속도와 처리량을 높이기 위해 자동화 분류 시스템과 맞춤형 소프트웨어를 도입했습니다. 벌링턴은 이번 신규 물류센터를 통해 매장 네트워크 확장을 지원하고 물류 운영 효율성을 극대화할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>첨단 자동화 기술 적용:</strong> 200만 평방피트 규모의 시설에 최신 분류 시스템과 독자적인 소프트웨어를 결합하여 공급망 처리 속도를 대폭 향상시켰습니다.</li><li><strong>성장 전략 지원:</strong> 벌링턴의 지속적인 매장 확장 계획을 뒷받침하며, 효율적인 재고 관리와 신속한 상품 공급을 가능하게 합니다.</li><li><strong>공급망 최적화:</strong> 물류 네트워크의 병목 현상을 해결하고 전반적인 운영 효율성을 개선하여 비즈니스 경쟁력을 강화합니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/burlington-opens-high-tech-distribution-center-in-georgia/823075/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1033,
       pinned: false,
       category: 'news', categoryName: '소식',
