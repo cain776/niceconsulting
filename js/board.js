@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1039,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '환인제약, \'ISO 27001\' 획득으로 3대 국제표준 완성',
+      author: '관리자',
+      date: '2026.06.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>환인제약이 정보보호 경영시스템 국제표준인 'ISO 27001' 인증을 획득했습니다. 이로써 환인제약은 기존에 보유하고 있던 품질경영시스템(ISO 9001) 및 부패방지경영시스템(ISO 37001)에 이어 정보보호 인증까지 추가하며 품질·윤리·보안 분야의 3대 국제표준 체계를 완성했습니다. 이번 인증을 통해 환인제약은 글로벌 수준의 정보보안 역량을 입증하고 ESG 경영을 더욱 강화해 나갈 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>정보보호 국제표준 인증</strong>: 글로벌 인증기관으로부터 정보보호 관리체계의 우수성과 신뢰성을 공식 인정받았습니다.</li><li><strong>3대 경영표준 완성</strong>: 품질(ISO 9001), 부패방지(ISO 37001)에 이어 정보보호(ISO 27001)까지 획득하며 지속가능경영 기반을 확립했습니다.</li><li><strong>ESG 경영 및 신뢰도 제고</strong>: 기업의 정보자산 보호 역량을 강화함으로써 고객 및 주주와의 신뢰를 높이고 ESG 경쟁력을 확보했습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBLOGtLSjN1bE4zVjdtQUNGdkhtWk82MkhwbFcwZGVxbmhFSGF1a0t2WDF2VFRXZ0R1azlvTDg0MENoVmRtczBFUGxwVE9BVkVDTUxkWW1CTTVhcnZpdjNydDVmSVpOWmV3U0FlZQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1038,
       pinned: false,
       category: 'news', categoryName: '소식',
