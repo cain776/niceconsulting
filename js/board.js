@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1040,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '넷제로 vs 탄소중립: 공급망 관점의 차이점',
+      author: '관리자',
+      date: '2026.06.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>많은 기업들이 기후 변화 대응을 위해 '넷제로(Net Zero)'와 '탄소중립(Carbon Neutral)'을 선언하고 있지만, 실제로 넷제로 목표에 맞춰 온실가스를 감축하고 있는 기업은 11%에 불과합니다. 두 개념은 흔히 혼용되지만, 탄소중립은 탄소 배출량을 상쇄(Offsetting)하는 데 중점을 두는 반면, 넷제로는 공급망 전체에서 온실가스 배출 자체를 원천적으로 줄이는 것을 목표로 합니다. 현대 공급망에서 진정한 지속가능성을 달성하기 위해서는 이 두 개념의 차이를 명확히 이해하고 실질적인 감축 조치를 취해야 합니다.</p><h3>주요 포인트</h3><ul><li><strong>개념의 차이:</strong> 탄소중립은 이산화탄소 배출을 상쇄하는 데 집중하는 반면, 넷제로는 모든 온실가스를 대상으로 하며 배출량 자체를 제로(0)에 가깝게 줄이는 것을 목표로 합니다.</li><li><strong>공급망(Scope 3)의 중요성:</strong> 기업 배출량의 대부분을 차지하는 Scope 3(협력사 및 공급망) 배출량을 측정하고 감축하는 것이 넷제로 달성의 핵심 과제입니다.</li><li><strong>실질적 행동의 필요성:</strong> 단순한 탄소 배출권 구매나 상쇄를 넘어, 공급망 전반의 체질 개선과 협력이 수반되어야 진정한 기후 목표를 달성할 수 있습니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/net-zero-vs-carbon-neutral/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1041,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '석유관리원, 중대재해 예방 위해 공공기관과 맞손',
+      author: '관리자',
+      date: '2026.06.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국석유관리원은 중대재해를 예방하고 대국민 안전문화를 확산하기 위해 타 공공기관들과 업무협약(MOU)을 체결했습니다. 이번 협약은 기관 간 안전관리 체계를 공유하고 협력 네트워크를 구축하여 안전사고를 선제적으로 예방하기 위해 마련되었습니다. 각 기관은 안전보건 경영 체계 구축 지원, 합동 안전점검 및 교육, 대국민 안전 캠페인 공동 개최 등을 협력하기로 했습니다. 이를 통해 공공 부문의 안전관리 역량을 강화하고 사회 전반에 안전 문화를 정착시키는 데 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>중대재해 예방 및 안전문화 확산을 위한 공공기관 간 업무협약 체결</li><li>안전보건 관리체계 공유, 합동 안전점검 및 교차 감사 등 실질적 협력 추진</li><li>대국민 안전 캠페인 및 교육을 통한 사회적 안전 가치 실현</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fa3Z2eVFkS19tcE9QdDgwVDc4U2V4Ty1xazFsRUhadDk1X1k3MjJlYWdEOHpWREVRbE1yZENnbmtjNDFZaUlfaFhfTkRPMGVLeTY3OHFiU0F3azQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1042,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '친환경 에너지 단체, 트럼프 행정부와의 법적 공방서 승리',
+      author: '관리자',
+      date: '2026.06.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>친환경 에너지 및 환경 단체들이 트럼프 행정부의 환경 규제 완화 시도에 맞선 법적 소송에서 잇따라 승리하고 있습니다. 법원은 행정부가 적법한 행정 절차를 거치지 않거나 과학적 근거 없이 규제를 철폐하려 했다고 판단했습니다. 이러한 법적 승리는 기후 변화 대응 정책과 재생에너지 전환 흐름을 지키는 데 중요한 방어막 역할을 하고 있습니다. 결과적으로 친환경 옹호론자들은 법원을 통해 정부의 일방적인 친화석연료 정책에 제동을 걸고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>행정 절차 위반 판결:</strong> 법원은 트럼프 행정부의 규제 완화 조치가 행정절차법(APA)을 위반했다고 판결하며 환경 단체의 손을 들어주었습니다.</li><li><strong>기후 정책 보호:</strong> 석탄 및 화석연료 활성화 정책에 맞서 청정에너지 전환 흐름과 탄소 배출 규제를 성공적으로 방어했습니다.</li><li><strong>사법부의 역할 부각:</strong> 환경 단체들은 소송을 통해 정부의 일방적인 환경 정책 퇴보를 막는 강력한 수단으로 사법부를 활용하고 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ua76p5/clean_energy_advocates_are_winning_the_legal/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1043,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 친환경 선박 분야 ISO 국제표준 주도',
+      author: '관리자',
+      date: '2026.06.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 우리나라가 제안한 친환경 선박 관련 기술들이 국제표준화기구(ISO)의 국제표준으로 잇달아 채택되며 글로벌 표준화를 주도하고 있다고 밝혔습니다. 특히 액화천연가스(LNG), 수소, 암모니아 등 친환경 연료를 사용하는 선박의 핵심 기자재 및 안전 기준 분야에서 한국의 기술이 세계적인 표준으로 인정받고 있습니다. 이번 국제표준 주도는 국내 조선산업의 기술 경쟁력을 입증하는 계기가 되었으며, 글로벌 친환경 선박 시장에서의 주도권을 선점하는 데 기여할 것으로 기대됩니다. 정부는 앞으로도 친환경·고부가가치 선박 분야의 국제표준화를 적극적으로 지원하여 탄소중립 실현과 국가 산업 경쟁력 강화를 도모할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>친환경 선박 기술의 국제표준 선점:</strong> LNG, 수소, 암모니아 등 차세대 친환경 연료 선박 기술 분야에서 한국 주도의 ISO 국제표준 제정 추진</li><li><strong>국내 조선업계의 글로벌 경쟁력 강화:</strong> 한국의 독자적인 기술이 국제표준으로 채택됨으로써 글로벌 시장에서의 기술 장벽 극복 및 시장 점유율 확대 기대</li><li><strong>정부 차원의 지속적인 표준화 지원:</strong> 산업통상자원부는 민관 협력을 통해 친환경·디지털 선박 분야의 국제표준 개발을 지속적으로 지원할 방침</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQmFpVjdEM0pyTmlWYjBlallHY0NlRE5tOHRoV1RWSHFMelVGcU12dm0tR1FjYnBLM3lSSEc2NnduLWc1eW15LWlFUVBwZ1g1RmxqQkt6M28yU2NmSkFKZERVTWtLU2ZKTnZwamdEekhzTDB1WldtbHNJTzdnNmNqdGU4VUlqamMtd0xxRnFIdG9KT2U4ZlJoR3JmN1h4NFc4WExQT2YySEtMVi1oMTZSUmc4aHBXQ2dMZ1NUWGlYckRDSEREckZXSGMwaVZRNnhQRFZCOXVLZ0xhd2c?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1044,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '에퀴노르, 재생에너지 목표 폐기: "달성 불가능 판단"',
+      author: '관리자',
+      date: '2026.06.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>노르웨이의 에너지 대기업 에퀴노르(Equinor)가 기존에 설정했던 10~12GW 규모의 재생에너지 발전 용량 목표를 공식 폐기했습니다. 에퀴노르는 최근 수년간의 시장 변화를 고려할 때 해당 목표 달성이 불가능하다는 점이 명백해졌다고 밝혔습니다. 이는 해상풍력 부문의 비용 상승, 공급망 병목 현상, 고금리 등 거시경제적 압박에 따른 결정으로, 향후 단순한 규모 확장보다는 프로젝트의 수익성과 가치 창출에 집중할 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>재생에너지 목표 철회:</strong> 에퀴노르는 시장 환경 악화를 이유로 기존의 10~12GW 재생에너지 설비 용량 목표를 공식적으로 내려놓았습니다.</li><li><strong>수익성 및 가치 중심 전환:</strong> 단순한 발전 용량(볼륨) 확대 경쟁에서 벗어나, 철저한 수익성 평가를 기반으로 한 선별적 투자에 집중할 계획입니다.</li><li><strong>업계 전반의 어려움 반영:</strong> 이번 결정은 고금리, 공급망 차질, 원자재 가격 상승 등 최근 글로벌 해상풍력 및 재생에너지 업계가 직면한 현실적 한계를 보여줍니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/equinor-drops-renewable-energy-goals-seen-for-several-years-we-wont-reach-that-target/?utm_source=rss&utm_medium=rss&utm_campaign=equinor-drops-renewable-energy-goals-seen-for-several-years-we-wont-reach-that-target" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1039,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
