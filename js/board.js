@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1045,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '지속 가능한 옷장을 위한 적정 의류 개수는?',
+      author: '관리자',
+      date: '2026.06.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화를 막고 지속 가능한 지구를 유지하기 위해 개인이 소유해야 할 적정 의류 개수에 대한 연구가 주목받고 있습니다. 연구에 따르면, 지구 온난화를 1.5도 이내로 제한하기 위해 개인이 필요한 옷은 약 74벌 수준으로 제한되어야 합니다. 이는 무분별한 패스트 패션 소비를 줄이고 기존 의류의 수명을 늘리는 행동 변화가 필수적임을 시사합니다. 지속 가능한 패션을 위해 소비자는 구매를 줄하고 소장한 옷을 더 오래 입는 습관을 지녀야 합니다.</p><h3>주요 포인트</h3><ul><li><strong>적정 옷장의 기준 (74벌 법칙):</strong> 연구에 따르면 연간 탄소 배출 목표를 달성하기 위해 개인이 소유할 수 있는 이상적인 의류 개수는 약 74벌(약 20가지 착장 조합)입니다.</li><li><strong>신규 구매 제한:</strong> 지속 가능한 패션을 유지하기 위해서는 일 년에 새로 구매하는 의류를 5벌 이하로 제한하는 것이 권장됩니다.</li><li><strong>행동 변화의 중요성:</strong> 의류 수명 연장, 세탁 횟수 감소, 수선 및 중고 거래 활성화 등 일상 속 실천이 패션 산업의 탄소 발자국을 줄이는 핵심입니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ubfmfg/how_much_clothing_is_too_much_the_math_behind/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1046,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ISO 45001 개정 대비: 2027년 표준 변화 전망',
+      author: '관리자',
+      date: '2026.06.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제표준화기구(ISO)의 안전보건경영시스템 표준인 ISO 45001이 오는 2027년 개정을 목표로 논의되고 있습니다. 이번 개정은 변화하는 노동 환경과 기술 발전, 그리고 ESG 경영 요구사항을 적극적으로 반영할 것으로 예상됩니다. 기업들은 선제적으로 개정 방향을 파악하고 조직 내 안전보건 체계를 점검하여 다가올 표준 변화에 대비해야 합니다.</p><h3>주요 포인트</h3><ul><li><strong>2027년 개정 가능성 대비:</strong> ISO 45001 표준의 주기적 검토에 따라 2027년 개정판 발행이 논의 중이며, 기업들의 사전 준비가 요구됩니다.</li><li><strong>현대적 노동 환경 반영:</strong> 원격 근무, 정신 건강 및 웰빙, 디지털 기술 도입 등 현대적 직장 환경의 안전보건 이슈가 강화될 전망입니다.</li><li><strong>ESG 및 지속가능성 연계:</strong> 안전보건경영이 기업의 ESG 평가에서 핵심 요소로 자리 잡음에 따라, 개정 표준은 지속가능성 목표와의 연계를 더욱 강조할 것입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOR25iaEZROGN1SU52eDRDSWdrcG53UTNjOEp6bWRHWVZDZERKVXIzNGphT3Z4VlRON09ZNXMwVWg2OGRBSzNwejFIcDNrTjZQQ0dmOUc3RG41bDJ3TDhvbThPdURZMzk0SnZiS051Y0Z1VWl4blVmRUFGRjJmOTBtTURCY3liUDJrN1NHVjJDRm5PMWR1S3c?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1047,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '화석연료 기업, 미 탄소시장 규제 무력화 로비',
+      author: '관리자',
+      date: '2026.06.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 환경단체 카본 마켓 워치(Carbon Market Watch)의 새로운 조사에 따르면, 대형 화석연료 기업들이 그린워싱용 탄소 상쇄 배출권을 확보하기 위해 대대적인 로비를 벌여온 것으로 나타났습니다. 이들 기업은 미국 연방 정부의 탄소 시장 규제와 캘리포니아주의 규제를 약화시키기 위해 직접 및 간접적으로 상당한 자원과 노력을 투입했습니다. 이번 보고서는 화석연료 업계의 이해관계가 기후 변화 대응을 위한 탄소 시장의 건전한 규칙 제정을 어떻게 방해하고 있는지 보여줍니다.</p><h3>주요 포인트</h3><ul><li>대형 화석연료 기업들의 그린워싱용 탄소 상쇄 배출권에 대한 과도한 탐욕</li><li>미국 연방 및 캘리포니아주 탄소 시장 규제를 완화하기 위한 전방위적 로비 활동</li><li>탄소 시장의 신뢰성을 저해하는 화석연료 업계의 직접적·간접적 영향력 행사</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/06/17/oil-spill-2-fossil-fuel-interests-pollute-us-carbon-market-rules/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1048,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '트럼프의 통관 규정 개편, 화주들의 대비책은?',
+      author: '관리자',
+      date: '2026.06.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>트럼프 행정부의 출범으로 미국의 통관 및 무역 규정이 대대적으로 개편될 것으로 예상됨에 따라 기업들의 철저한 대비가 요구됩니다. 전문가들은 화주들이 다가올 변화에 앞서 수입통관 대행(Importer of Record, IOR) 계약을 재평가하고 공급망 전반의 가시성을 확보해야 한다고 조언합니다. 특히 관세 인상과 강제 노동 금지 등 ESG 관련 규제 준수가 강화될 전망이므로, 공급망의 투명성을 높이고 잠재적 리스크를 선제적으로 관리하는 것이 핵심 과제입니다.</p><h3>주요 포인트</h3><ul><li><strong>수입통관 대행(IOR) 책임 강화:</strong> 통관 과정에서 법적 책임을 지는 수입통관 대행업자(IOR)의 역할을 명확히 하고, 관세 인상 및 규제 변화에 따른 재무적·법적 리스크를 재평가해야 합니다.</li><li><strong>공급망 가시성 및 ESG 규제 준수:</strong> 위구르 강제노동 방지법(UFLPA) 등 ESG 관련 수입 규제가 지속·강화될 가능성이 높아, 협력업체의 하위 공급망까지 파악하는 깊은 수준의 가시성 확보가 필수적입니다.</li><li><strong>소액 면세 한도(De Minimis) 축소 대비:</strong> 전자상거래 등에서 널리 활용되던 소액 면세 제도의 개편 가능성에 대비하여 물류 경로와 비용 구조를 선제적으로 조정해야 합니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/trump-is-shaking-up-customs-rules-what-should-shippers-know/822731/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1049,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '몸바사 해양 회의, 해양 보호 진전 속 위협 지속',
+      author: '관리자',
+      date: '2026.06.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>케냐 몸바사에서 열린 제11차 '아워 오션(Our Ocean)' 콘퍼런스에서 해양 보호를 위한 진전이 있었으나, 여전히 실질적인 위협과 재정적 장벽이 존재하고 있습니다. 이번 회의의 창립자인 존 케리 전 미국 기후특사는 해양이 기후 변화 해결책의 중심이 되어야 하며 해양 생태계를 적극적으로 보호해야 한다고 강조했습니다. 참가국들은 해양 보존을 위한 다양한 공약을 발표했지만, 기후 위기로 인한 해수온 상승과 자금 조달 부족 문제는 여전히 해결해야 할 과제로 남아있습니다.</p><h3>주요 포인트</h3><ul><li>제11차 아워 오션 콘퍼런스에서 해양을 기후 위기 해결의 핵심 요소로 다룰 것을 촉구했습니다.</li><li>해양 보호 구역 지정 및 오염 방지를 위한 글로벌 공약이 발표되었으나, 실행을 위한 재정적 장벽이 여전히 존재합니다.</li><li>기후 변화로 인한 해양 생태계 위협이 지속됨에 따라 국제사회의 실질적이고 신속한 지원이 요구됩니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/19/mombasa-ocean-summit-progress-marine-protection-funding-barriers-persist/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1040,
       pinned: false,
       category: 'news', categoryName: '소식',
