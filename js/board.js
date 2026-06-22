@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1050,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '본 기후회의 교착, 에너지 신시대와 해양',
+      author: '관리자',
+      date: '2026.06.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 본에서 열린 UN 기후변화 중간 회의가 기후 재원 마련 방안 등을 둘러싼 선진국과 개발도상국 간의 이견을 좁히지 못하고 교착 상태로 마무리되었습니다. 이와 함께 글로벌 에너지 시장이 재생에너지 급증에 따라 '새로운 시대'로 진입하고 있다는 분석이 제기되었습니다. 또한 기후 변화 협상에서 해양 생태계 보존과 해양 기반 기후 행동을 통합하기 위한 논의가 주요 화두로 다루어졌습니다.</p><h3>주요 포인트</h3><ul><li><strong>본 기후 회의의 교착 상태:</strong> 기후 재원(NCQG) 및 감축 목표 설정을 둘러싼 갈등으로 인해 구체적인 합의 없이 회의가 종료되어 차기 COP의 부담이 커졌습니다.</li><li><strong>에너지의 '새로운 시대':</strong> 화석연료에서 청정에너지로의 글로벌 에너지 전환이 가속화되며 새로운 국면을 맞이하고 있습니다.</li><li><strong>기후 협상 내 해양의 중요성:</strong> 기후 변화 대응에서 해양의 탄소 흡수 역할과 해양 생태계 보호를 공식 협상에 유기적으로 통합하려는 노력이 지속되고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-19-june-2026-bonn-talks-end-in-gridlock-energys-new-era-oceans-in-climate-negotiations/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1051,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 면책의 핵심은 산업안전보건법 준수',
+      author: '관리자',
+      date: '2026.06.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법이 5인 이상 사업장으로 전면 확대 적용되면서 중소기업들의 우려가 커지고 있는 가운데, 법적 처벌을 피하기 위한 최선의 방안은 기존 '산업안전보건법'의 철저한 준수라는 의견이 제시되었습니다. 중대재해처벌법은 경영책임자의 안전보건확보 의무를 규정하고 있으며, 이는 산업안전보건법상의 구체적인 안전 조치 이행을 기반으로 합니다. 따라서 기업들은 형식적인 서류 준비에 그치지 않고, 현장 중심의 실질적인 안전보건 관리체계를 구축하고 실행해야만 사고 예방과 동시에 법적 면책을 인정받을 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>산업안전보건법과의 연계성:</strong> 중대재해처벌법상 의무 이행의 핵심은 산업안전보건법에 따른 구체적인 안전·보건 조치를 철저히 준수하는 것입니다.</li><li><strong>실질적 관리체계 구축 필요:</strong> 단순한 서류 작업을 넘어 사업장 특성에 맞는 위험성 평가를 실시하고, 근로자의 의견을 청취하는 등 실질적인 안전보건관리체계를 작동시켜야 합니다.</li><li><strong>경영책임자의 지속적 관심:</strong> 중대재해 예방을 위해서는 경영책임자가 예산을 확보하고 전담 인력을 배치하는 등 지속적인 관심과 지원을 아끼지 않아야 합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYTFJEazR4cFpNTVJVc0pPTWxlYndxYzRud2hvd24wS050U0d6eG5ZakRjd0hFanhCdkF2NmdtRGsyNHZoN3ZraWdDMVVJMmt0WWdJVnJvQkxCRXZlU2N3SmFtMGhDY28y?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1052,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '본 기후회의, 기후 적응·감축 이견으로 교착 상태 종료',
+      author: '관리자',
+      date: '2026.06.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 본에서 열린 UN 기후변화 협상이 선진국과 개발도상국 간의 재정 및 과학적 견해 차이로 인해 주요 기후 행동 분야에서 진전을 이루지 못하고 교착 상태로 끝났습니다. 특히 기후 변화 적응 재원 마련과 온실가스 감축 목표 설정을 둘러싼 갈등이 깊어지면서 참가국들은 큰 아쉬움을 남겼습니다. 이번 회의의 성과 부진으로 인해 향후 개최될 COP31을 앞두고 해결해야 할 과제가 더욱 무거워졌습니다.</p><h3>주요 포인트</h3><ul><li><strong>선진국과 개도국의 갈등:</strong> 기후 재원 지원 방식과 과학적 기준을 둘러싸고 선진국과 개발도상국 간의 의견 대립이 팽팽하게 맞섰습니다.</li><li><strong>적응 및 감축 논의의 교착:</strong> 기후 변화 적응 대책과 실질적인 온실가스 감축 방안에 대한 합의 도출에 실패했습니다.</li><li><strong>COP31에 남겨진 과제:</strong> 이번 본 회의의 결렬로 인해 차기 당사국총회(COP31)에서 다뤄야 할 협상 부담이 크게 늘어났습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/18/bonn-climate-talks-end-in-gridlock-on-adaptation-and-emissions-cutting-work/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1053,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '네이버, 재난대응 국제표준 \'ISO 22301\' 획득',
+      author: '관리자',
+      date: '2026.06.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>네이버가 글로벌 수준의 재난 대응 및 비즈니스 연속성 관리 체계를 인정받아 국제 표준 인증인 'ISO 22301'을 취득했습니다. 이번 인증은 지진, 화재, 정전 등 예기치 못한 재난 상황에서도 네이버의 주요 서비스가 중단 없이 안정적으로 제공될 수 있음을 입증합니다. 네이버는 이를 통해 서비스 연속성 관리 체계를 한층 더 고도화하고, 사용자 신뢰도를 높이는 계기를 마련했습니다.</p><h3>주요 포인트</h3><ul><li><strong>국제 표준 인증 취득:</strong> 비즈니스 연속성 경영시스템(BCMS)에 대한 국제 표준인 'ISO 22301'을 획득했습니다.</li><li><strong>재난 대응 체계 고도화:</strong> 예기치 못한 장애나 재해 발생 시 신속한 복구와 서비스 유지를 위한 시스템을 강화했습니다.</li><li><strong>ESG 경영 및 신뢰성 제고:</strong> 안정적인 서비스 제공을 통해 기업의 사회적 책임을 다하고 사용자 신뢰를 확보했습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9lVDFpdjQyOVZkVjJpSFdfUVpNbkZKLXdwMEt6bXYzZVdtYjZZbXBqd0lGZVpiVG1DQVlQSUVIWUc0XzF2UTZLeE8zMll6WGNkUlFyWEhRYXVkcGpfNzlvSnlObzlsMDlHYTIwNQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1054,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ISO 넷제로 표준안 공개 및 EQT 역대급 ESG 금융 계약',
+      author: '관리자',
+      date: '2026.06.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 주요 뉴스로는 국제표준화기구(ISO)가 그린워싱을 방지하고 명확한 가이드라인을 제공하기 위해 새로운 '넷제로 표준안' 초안을 공개했습니다. 또한, 글로벌 투자사 EQT는 역대 최대 규모의 지속가능성 연계 신용 한도 약정을 체결하며 ESG 금융 시장의 주목을 받았습니다. 글로벌 시장에서는 기후 공시 의무화에 대응하기 위한 기업들의 움직임과 지속가능한 투자 흐름이 한층 더 가속화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>ISO, 그린워싱 방지를 위한 최초의 글로벌 '넷제로 표준안' 초안 공개 및 의견 수렴 진행</li><li>글로벌 사모펀드 EQT, 역대 최대 규모의 지속가능성 연계 대출(SLL) 계약 체결</li><li>기후 변화 대응 및 ESG 규제 강화에 따른 글로벌 기업들의 지속가능 경영 트렌드 지속</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-266/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-266" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1045,
       pinned: false,
       category: 'news', categoryName: '소식',
