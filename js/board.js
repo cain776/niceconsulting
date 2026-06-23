@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1055,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '공급망 ESG 경영: 리스크, 과제 및 해결책',
+      author: '관리자',
+      date: '2026.06.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망에서 ESG(환경·사회·지배구조) 경영은 기업의 지속가능성을 결정하는 핵심 요소로 부상하고 있으나, 복잡한 공급망 구조로 인해 많은 어려움이 따릅니다. 선도적인 기업들은 협력사의 ESG 리스크를 체계적으로 평가하고, 수집된 데이터를 실질적인 개선 조치로 전환하고 있습니다. 이를 통해 공급망 전반의 투명성을 높이고 규제 준수 및 브랜드 가치를 제고할 수 있습니다. 효과적인 공급망 ESG 관리를 위해서는 신뢰할 수 있는 데이터 플랫폼과 협력사와의 긴밀한 협업이 필수적입니다.</p><h3>주요 포인트</h3><ul><li><strong>공급망 ESG 리스크 관리의 중요성:</strong> 글로벌 규제 강화와 소비자 요구에 대응하기 위해 협력사의 ESG 리스크 평가는 이제 필수적입니다.</li><li><strong>데이터 기반의 의사결정:</strong> 협력사로부터 수집한 ESG 데이터를 분석하여 실질적인 리스크 완화 및 개선 행동으로 연결해야 합니다.</li><li><strong>협력사와의 상생 및 협업:</strong> 단순한 평가를 넘어 협력사의 ESG 역량 강화를 지원하고 함께 성장하는 공동의 노력이 필요합니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/esg-management/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1056,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '웨어하우스 온 휠즈, 역대 최고 에코바디스 점수 획득',
+      author: '관리자',
+      date: '2026.06.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>모바일 보관 솔루션 제공업체인 웨어하우스 온 휠즈(Warehouse on Wheels, WOW)가 역대 최고 에코바디스(EcoVadis) 점수를 기록하며 3년 연속 지속가능성 배지를 획득했습니다. 이번 성과는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다양한 ESG 평가 항목에서 WOW의 지속적인 노력을 입증한 결과입니다. WOW는 앞으로도 지속가능한 비즈니스 관행을 강화하고 고객과 파트너에게 친환경적인 모바일 보관 솔루션을 제공할 계획입니다.</p><h3>주요 포인트</h3><ul><li><b>역대 최고 점수 달성:</b> WOW는 에코바디스 평가에서 사상 최고 점수를 기록하며 ESG 경영 성과를 인정받았습니다.</li><li><b>3년 연속 배지 획득:</b> 이번 수상으로 WOW는 3년 연속으로 지속가능성 배지를 획득하는 쾌거를 이루었습니다.</li><li><b>ESG 영역 전반의 개선:</b> 환경 보호, 노동 인권 보장, 기업 윤리 및 공급망 관리 등 다방면에서 지속가능성 기준을 충족했습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOdlZINnZkVDYxS0lxcHE2Y2VVYThBRnQ0MkFYRXN5NFJQdUh1TVI0aDR2QmVOdDZGbE5ZNm1vdWVVSmJaSVVkTmdmZmNCdzRpeW1TM19lNkNDV0R6a0VCUlVuU2NOb01jbkdrN0l5VnMyalJLQzRmTlZVaDY1Wk5BMVhPR2w5SDd1ZE1wTGE4cmpzdUg2ckFvT09xVXJ0VDhOZGwwOTBFOWVsZVd3VUp4a09YUWpCbDhUekExY0tSZ3AtXzVu?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1057,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '물과 청정에너지를 동시에 잡는 캘리포니아의 솔루션',
+      author: '관리자',
+      date: '2026.06.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>캘리포니아주는 심각한 물 부족 현상과 청정에너지 수요 증가라는 이중 과제에 직면해 있습니다. 이에 대한 해결책으로 수로 위에 태양광 패널을 설치하는 '태양광 수로(Solar Canals)' 프로젝트가 주목받고 있습니다. 이 혁신적인 방식은 물의 증발을 막아 수자원을 보존하는 동시에, 유휴 공간을 활용해 대규모 친환경 전력을 생산할 수 있습니다. 이는 토지 사용 갈등을 피하면서 기후 변화에 대응할 수 있는 일석이조의 ESG 솔루션으로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>수자원 보존 및 증발 방지:</strong> 수로를 태양광 패널로 덮음으로써 연간 수십억 갤런의 물이 증발하는 것을 막을 수 있습니다.</li><li><strong>에너지 효율성 극대화:</strong> 수로의 물이 태양광 패널의 온도를 낮춰주어 발전 효율이 향상되는 냉각 효과를 얻습니다.</li><li><strong>토지 효율성 및 유지비 절감:</strong> 추가적인 토지 개발 없이 청정에너지를 생산하며, 그늘 형성으로 수로 내 조류 성장을 억제해 관리 비용을 줄입니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ucqm89/california_needs_water_and_clean_power_it_might/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1058,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '시스코, 신임 CSO로 콜린 시워드 임명',
+      author: '관리자',
+      date: '2026.06.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 네트워크 및 IT 기술 기업 시스코(Cisco)가 신임 최고지속가능성책임자(CSO)로 콜린 시워드(Colin Seward)를 임명했습니다. 시워드 신임 CSO는 시스코에서 20년 이상 근무하며 IT 지속가능성 부문을 성공적으로 이끌어온 전문가입니다. 그는 향후 시스코의 글로벌 지속가능성 전략을 총괄하며, 2040년까지 온실가스 순배출 제로(Net-Zero)를 달성하기 위한 노력을 가속화할 예정입니다.</p><h3>주요 포인트</h3><ul><li><strong>내부 전문가 발탁:</strong> 시스코에서 20년 이상 근무하며 IT 지속가능성 및 EMEA 지역 IT 총괄을 역임한 콜린 시워드가 신임 CSO로 선임되었습니다.</li><li><strong>넷제로 목표 가속화:</strong> 시스코가 선언한 2040년 온실가스 순배출 제로(Net-Zero) 목표를 달성하기 위한 기후 전략 수립과 실행을 주도합니다.</li><li><strong>순환 경제 통합:</strong> 제품 설계부터 폐기까지 전 과정에 순환 경제 원칙을 적용하고, 친환경 기술 솔루션을 확대하는 데 집중할 계획입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/cisco-appoints-colin-seward-as-new-chief-sustainability-officer/?utm_source=rss&utm_medium=rss&utm_campaign=cisco-appoints-colin-seward-as-new-chief-sustainability-officer" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1050,
       pinned: false,
       category: 'news', categoryName: '소식',
