@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1059,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '사라지는 겨울: 기후 변화가 가져온 이상 고온 현상',
+      author: '관리자',
+      date: '2026.06.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 전 세계적으로 겨울철 기온이 비정상적으로 상승하면서 '겨울의 실종'에 대한 우려가 커지고 있습니다. 엘니뇨 현상과 지속적인 온실가스 배출이 결합하면서 역대 가장 따뜻한 겨울이 기록되고 있으며, 이는 단순한 기온 상승을 넘어 생태계 전반에 심각한 영향을 미치고 있습니다. 겨울철 고온 현상은 적설량 감소로 이어져 봄철 용수 부족을 초래하고, 해충의 생존율을 높여 농업과 산림에 피해를 줍니다. 기후 변화로 인해 계절의 경계가 모호해지면서 인류는 새로운 환경적 도전에 직면해 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>기록적인 겨울철 이상 고온:</strong> 엘니뇨와 지구 온난화의 영향으로 전 세계 곳곳에서 역대 가장 따뜻한 겨울 기온이 관측되고 있습니다.</li><li><strong>생태계 교란 및 농업 피해:</strong> 겨울이 따뜻해지면서 식물이 너무 일찍 개화하고 해충이 겨울 동안 살아남아 봄철 농작물과 산림에 큰 피해를 입힙니다.</li><li><strong>수자원 및 경제적 타격:</strong> 적설량 감소는 봄철 수자원 부족을 유발하며, 스키장 등 겨울 레저 산업에도 막대한 경제적 손실을 초래합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1udtqre/is_it_warm_out_there/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1060,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, \'탄소 데이터 신뢰성\' 프레임워크 방법론 발표',
+      author: '관리자',
+      date: '2026.06.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가 기관인 에코바디스(EcoVadis)가 '탄소 데이터 신뢰성 수준(DRL)' 프레임워크의 방법론을 공개하고, 이를 글로벌 표준으로 도입할 것을 업계에 촉구했습니다. 이 프레임워크는 기업들이 공급망 전체에서 수집하는 탄소 배출량 데이터의 신뢰성을 검증하고 평가할 수 있도록 설계되었습니다. 에코바디스는 투명한 데이터 측정 기준을 제공함으로써 기업들이 기후 목표를 보다 정확하게 달성하고 규제 요구사항에 효과적으로 대응할 수 있도록 지원하고자 합니다.</p><h3>주요 포인트</h3><ul><li><strong>탄소 데이터 신뢰성 수준(DRL) 프레임워크 공개</strong>: 공급망 탄소 배출량 데이터의 정확성과 신뢰성을 평가하기 위한 표준화된 방법론을 제시했습니다.</li><li><strong>글로벌 표준 채택 촉구</strong>: 전 세계 기업과 산업계가 일관된 기준으로 탄소 데이터를 검증할 수 있도록 글로벌 표준화를 제안했습니다.</li><li><strong>공급망(Scope 3) 관리 강화</strong>: 기업들이 협력사의 실제 탄소 배출 데이터를 신뢰성 있게 추적하고 기후 변화 대응력을 높이도록 지원합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMikwJBVV95cUxNdVRhVWFrMXRRUG84WXZHbnNwdlAzV3BuYk55dE9KWHhOOFBWbmJUdG1HZ3czV1hhRDl2OGVWOTJhenpJaFI3cDA5aXVOTU04NVpXaVRmdjllUEZuTXBtT2V5UlE3Sy10R0F4QzMzd3kyZWFvOUZjU0gwVmdhRDlvUnRnN29oOVdfSDlld24yQjl6NENoUWpwMzBTRHFsOEN2cDlMNnBIWG5uR0F0WG9uTW5HbEVocGdsMk5wVVZ2SFI0NDdqM0NSdnlBSDI5NHBFNF9WNVpRQVJ2WlFWZUROUGZwWkZRanR4akVuVENxTWtWNm5MQTVLYkVUNjNiU1B5UUtOZ2hxa1JYYzQxQ0Y0cmplUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1061,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유엔, AI 기업에 환경 영향 전면 공개 요구',
+      author: '관리자',
+      date: '2026.06.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>안토니우 구테흐스 유엔 사무총장은 대형 AI 기업들이 데이터 센터의 탄소 배출량, 물 및 에너지 사용량을 투명하게 공개해야 한다고 촉구했습니다. 이는 AI 기술의 급격한 성장으로 인해 데이터 센터가 소비하는 전력과 냉각수 양이 급증하면서 지역 사회의 반발이 커지고 있는 가운데 나온 조치입니다. 구테흐스 총장은 AI가 기후 변화 해결에 기여할 수 있는 잠재력이 있지만, 동시에 환경에 미치는 부정적 영향도 반드시 투명하게 관리되어야 한다고 강조했습니다.</p><h3>주요 포인트</h3><ul><li>유엔 사무총장, 대형 AI 기업에 데이터 센터의 에너지·물 소비량 및 온실가스 배출량 공개 촉구</li><li>AI 모델 학습 및 운영에 따른 전력 수요 급증으로 지역 전력망 부담 및 기후 목표 달성 저해 우려</li><li>데이터 센터 건설 및 운영에 따른 수자원 고갈 등 지역 사회의 환경적 우려와 반발 심화</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/23/un-ai-firms-to-reveal-full-environmental-impacts-data-centres-water-energy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1055,
       pinned: false,
       category: 'news', categoryName: '소식',
