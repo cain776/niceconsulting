@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1062,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽 폭염 기록 경신 및 런던 기후 행동 주간',
+      author: '관리자',
+      date: '2026.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화 전문 매체 카본 브리프(Carbon Brief)의 주간 브리핑에 따르면, 최근 유럽 전역에서 기록적인 폭염이 발생하여 기후 위기의 심각성이 다시 한번 부각되었습니다. 이와 함께 영국에서는 기후 변화 대응을 논의하기 위한 '런던 기후 행동 주간'이 개최되어 글로벌 협력 방안이 모색되었습니다. 또한, 새로운 기후 이니셔티브인 '프로젝트 코스모스(Project Cosmos)'가 소개되며 향후 기후 대응에 대한 기대감을 높이고 있습니다.</p><h3>주요 포인트</h3><ul><li>유럽 전역의 기록적인 폭염 발생 및 기후 변화 영향 심화</li><li>기후 변화 대응 방안을 모색하는 '런던 기후 행동 주간' 개최</li><li>새로운 기후 이니셔티브 '프로젝트 코스모스(Project Cosmos)' 공식 출범</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-26-june-2026-heat-records-broken-across-europe-london-climate-action-week-introducing-project-cosmos/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1063,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '현대로템, 에코바디스 ESG \'실버 등급\' 최초 획득',
+      author: '관리자',
+      date: '2026.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>현대로템이 글로벌 지속가능성 평가기관인 에코바디스(EcoVadis)의 ESG 평가에서 최초로 '실버 등급'을 획득했습니다. 이번 평가는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 부문에 걸쳐 진행되었으며, 현대로템은 글로벌 기준에 부합하는 ESG 경영 성과를 인정받았습니다. 현대로템은 이번 실버 등급 획득을 계기로 글로벌 시장에서의 신뢰도를 높이고 ESG 경영을 더욱 강화해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 ESG 평가에서 최초로 '실버 등급'을 획득하며 글로벌 상위 수준의 ESG 경쟁력 입증</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 평가를 받으며 고른 성과 달성</li><li>글로벌 공급망 내 ESG 요구 대응력 강화 및 지속가능한 경영 체계 고도화 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPeFBpVkEtbjM5NjJPMWNxcjJaNnJOYXBoSUxVVnotbXJVZ3cyOUU2aHNrczAtMjlhRzd3TzY4RFc3MmhaUndhRFV6OGwxOWttZjhLSmNvM2E4cXBJWkJCMm1FUlk5ci15R1diX2xkcGxJb1dnR1hRZXZiMDVNWUM4Z2FYTFNKQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1064,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '올해 기업들이 조용히 ESG와 B Corp를 포기하는 현상',
+      author: '관리자',
+      date: '2026.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 분야 실무자인 작성자는 최근 많은 기업들이 ESG와 B Corp 인증을 조용히 축소하는 움직임을 목격하고 있다고 전했습니다. 예산이 감축되면서 지속가능성 담당 인력이 해고되고, B Corp 재인증을 포기하는 등 ESG가 필수에서 선택 사항으로 밀려나고 있습니다. 비즈니스 관점에서의 논리는 이해하지만, 이러한 퇴보를 지켜보는 실무자로서 씁쓸함을 느낀다고 밝혔습니다. 이에 다른 업계에서도 비슷한 현상이 일어나는지, 혹은 반대로 투자를 늘리는 곳이 있는지 질문을 던졌습니다.</p><h3>주요 포인트</h3><ul><li>예산 감축 시 지속가능성 담당 부서와 인력이 우선적으로 구조조정 대상이 됨</li><li>B Corp 인증 갱신을 포기하고 ESG를 필수 요소가 아닌 '있으면 좋은 것'으로 재분류</li><li>상업적 생존 논리에 따른 결정이지만 지속가능성 가치의 후퇴에 대한 우려 제기</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ugd7x7/anyone_else_watching_companies_quietly_drop_b/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1065,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미로바, 신임 CEO로 레아 뒤낭샤틀레 임명',
+      author: '관리자',
+      date: '2026.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>나틱시스 인베스트먼트 매니저스(Natixis IM)의 지속가능 투자 전문 자회사인 미로바(Mirova)가 레아 뒤낭샤틀레(Léa Dunand-Chatellet)를 신임 CEO로 임명했습니다. 뒤낭샤틀레 신임 CEO는 2018년부터 미로바의 주식 본부장(Head of Equities)으로 재직하며 ESG 투자 전략을 성공적으로 이끌어온 인물입니다. 이번 인사는 공동 창립자이자 전임 CEO인 필립 자우아티(Philippe Zaouati)의 뒤를 잇는 경영권 승계로, 미로바의 지속가능 금융에 대한 전문성을 한층 강화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>신임 CEO 선임:</strong> 미로바의 주식 운용 부문을 성공적으로 이끌어온 레아 뒤낭샤틀레가 신임 CEO로 발탁되어 회사의 지속가능 투자 전략을 총괄하게 되었습니다.</li><li><strong>경영 연속성 유지:</strong> 창립자 필립 자우아티의 퇴임에 따른 리더십 전환으로, 미로바가 다져온 기존의 ESG 투자 철학과 비즈니스 모델을 일관되게 이어갈 예정입니다.</li><li><strong>글로벌 책임 투자 선도:</strong> 미로바는 이번 경영진 개편을 통해 글로벌 자산운용 시장에서 지속가능 금융 및 책임 투자 전문 기업으로서의 입지를 더욱 공고히 할 계획입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/mirova-appoints-lea-dunand-chatellet-as-ceo/?utm_source=rss&utm_medium=rss&utm_campaign=mirova-appoints-lea-dunand-chatellet-as-ceo" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1066,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아프리카 기후 적응, 외부 솔루션보다 투자가 시급하다',
+      author: '관리자',
+      date: '2026.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아프리카 전역의 지역사회들은 기후 변화에 대응하기 위해 필수적인 기후 적응 조치들을 자체적으로 실행해 오고 있습니다. 그러나 이러한 현지 맞춤형 해결책들이 더 큰 규모로 확장되기 위해서는 외부에서 수입된 기술이나 솔루션보다 실질적인 재정적 투자가 절실히 필요한 상황입니다. 기후 위기 극복을 위해서는 아프리카 현지의 지혜와 경험이 담긴 기존의 적응 조치들을 지원하고 강화하는 투자 중심의 접근 방식이 요구됩니다.</p><h3>주요 포인트</h3><ul><li>아프리카 지역사회가 주도하는 자생적 기후 적응 조치의 중요성</li><li>외부 솔루션 수입 대신 현지 맞춤형 해결책에 대한 재정적 투자 필요성</li><li>기후 적응 조치의 규모 확장을 위한 글로벌 투자 유치의 시급성</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/26/climate-adaptation-in-africa-needs-investment-not-imported-solutions/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1059,
       pinned: false,
       category: 'news', categoryName: '소식',
