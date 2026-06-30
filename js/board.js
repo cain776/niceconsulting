@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1067,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '드라이락, 에코바디스 ESG 평가 \'플래티넘\' 획득',
+      author: '관리자',
+      date: '2026.06.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 위생용품 제조업체 드라이락(Drylock Technologies)이 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 최고 등급인 '플래티넘(Platinum)' 메달을 획득했습니다. 에코바디스의 플래티넘 등급은 평가 대상 기업 중 상위 1%에게만 부여되는 가장 권위 있는 ESG 인증입니다. 드라이락은 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 평가 영역에서 탁월한 성과를 인정받았습니다. 이번 수상은 친환경 제조 공정 도입과 탄소 배출 저감을 향한 드라이락의 지속적인 노력이 거둔 결실입니다.</p><h3>주요 포인트</h3><ul><li><strong>상위 1% 초우수 기업 선정</strong>: 드라이락은 에코바디스 ESG 평가에서 전 세계 기업 중 상위 1%에 해당하는 플래티넘 메달을 획득하며 지속가능성 리더십을 입증했습니다.</li><li><strong>종합적인 ESG 성과 인정</strong>: 환경 보호, 인권 존중, 기업 윤리, 공급망 관리 등 4대 핵심 분야 전반에서 높은 점수를 기록했습니다.</li><li><strong>친환경 위생용품 제조 선도</strong>: 드라이락은 이산화탄소 배출량 감소와 친환경 원자재 사용 확대를 통해 지속가능한 위생용품 산업을 선도하고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOd24taXIyVjVTeW14elA1NjVQREFJMm1fMlI3UUpNbE5QZzJaMk5ZSjNZU2RzNm9oclhJWGJvNzNZNG1JNFdJNmJ6YzFBdjVzTWgtTnFJVTk0WGV5Y05LZHdGVmZsel9WNm1NbVBHektsYW5lVnVySEtLczdXWVAyd09oTzZTRy11bTFkcmt4S1g?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1068,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '현대백화점, 안전보건 국제표준 \'ISO 45001\' 인증',
+      author: '관리자',
+      date: '2026.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>현대백화점이 국제표준화기구(ISO)가 제정한 안전보건경영시스템 국제표준인 'ISO 45001' 인증을 획득했습니다. 이번 인증은 현대백화점이 사업장 내 발생할 수 있는 다양한 산업재해를 예방하고 안전한 근무 환경을 조성하기 위해 체계적인 관리 시스템을 구축해왔음을 공식 인정받은 결과입니다. 현대백화점은 임직원과 고객의 안전을 최우선 가치로 삼고, 안전보건 경영 체계를 고도화하여 ESG 경영을 더욱 강화해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>국제 표준 인증 획득:</strong> 글로벌 수준의 안전보건경영시스템 구축을 인정받아 'ISO 45001' 인증을 획득했습니다.</li><li><strong>안전한 환경 조성:</strong> 사업장 내 재해 요인을 선제적으로 발굴 및 개선하여 임직원과 고객을 위한 안전한 환경을 제공합니다.</li><li><strong>ESG 경영 강화:</strong> 안전보건을 기업 경영의 핵심 가치로 삼아 사회적 책임을 다하고 ESG 경영 실천을 확대해 나갑니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKRGtaOWFkNU53eTI5ZmJ4OWJ0UENGU2QxbGtGU0U4TlU3WGc4SmdpdVM3bzc3eHN6eXF5RDdaQ01EMS1kUlB5dFRPdHZ6aDlwRWFZcFdB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1069,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '정의로운 에너지 전환을 위한 \'채굴 금지 구역\' 필요성',
+      author: '관리자',
+      date: '2026.06.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>친환경 에너지 전환에 필수적인 핵심 광물 수요가 급증하면서 취약한 생태계와 원주민 공동체에 대한 위협이 커지고 있습니다. 이에 비정부기구(NGO)들은 환경 파괴를 막고 정의로운 전환을 실현하기 위해 광업 활동이 절대 금지되어야 하는 '채굴 금지 구역(no-go zones)'을 지정할 것을 제안했습니다. 이들은 생물다양성이 풍부한 지역, 보호구역, 원주민 영토 등을 지도화하여 채굴 금지 구역의 구체적인 가이드라인을 제시하고 있습니다. 지속 가능한 미래를 위해서는 광물 확보뿐만 아니라 자연과 인권을 보호하는 균형 잡힌 접근이 필수적입니다.</p><h3>주요 포인트</h3><ul><li><strong>핵심 광물 수요 증가와 생태계 위협:</strong> 전기차 및 재생에너지 확대로 리튬, 코발트 등의 수요가 급증하며 청정 자연과 원주민 거주지가 파괴될 위험에 처해 있습니다.</li><li><strong>'채굴 금지 구역'의 필요성:</strong> NGO들은 환경과 인권을 보호하기 위해 법적으로 채굴을 전면 금지하는 구역을 명확히 설정해야 한다고 주장합니다.</li><li><strong>정의로운 에너지 전환의 실현:</strong> 진정한 탄소중립과 에너지 전환은 단순히 화석연료를 대체하는 것을 넘어, 광물 채굴 과정에서의 생태계 파괴와 인권 침해를 방지할 때 달성될 수 있습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/29/we-need-no-go-mining-zones-for-the-energy-transition-to-be-just-heres-how-it-could-work/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1070,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해법 여파, 산업안전기사 접수 20만 돌파',
+      author: '관리자',
+      date: '2026.06.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법의 적용 범위가 확대됨에 따라 산업 현장의 안전관리자 수요가 급증하고 있습니다. 이에 따라 대표적인 안전 분야 자격증인 '산업안전기사' 시험 접수 인원이 역대 처음으로 20만 명을 돌파했습니다. 기업들의 안전 보건 관리 체계 구축 의무가 강화되면서 관련 자격증 취득 열풍은 당분간 지속될 전망입니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 확대 적용으로 인한 안전관리자 의무 채용 수요 급증</li><li>산업안전기사 시험 접수자 수 역대 최초로 20만 명 돌파하며 자격증 열풍 입증</li><li>채용 시장 내 안전 관련 자격증 소지자 우대 및 고용 가치 상승</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1XSzVGc2xpUEdzQWFtcERRYTBGTG1JQlJPLXFEYkhDd0wyeHVJSjRsczYydXBLak9NYjJZaEZNeGpfOHZ2OEpTSjdjcE9KLVpwRDVxUTdlRUg5VWJOQVNoS3dB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1071,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'HMM, 글로벌 ESG 평가 3년 연속 \'최고 등급\' 달성',
+      author: '관리자',
+      date: '2026.06.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>HMM이 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)와 서스테이널리틱스(Sustainalytics)로부터 3년 연속 최고 등급을 획득하며 글로벌 탑티어 수준의 ESG 경쟁력을 입증했습니다. 에코바디스 평가에서는 전 세계 기업 중 상위 1%에만 부여되는 최고 등급인 '플래티넘'을 받았으며, 서스테이널리틱스 평가에서는 글로벌 선사 중 가장 우수한 성적으로 1위를 차지했습니다. 이는 HMM이 기후변화 대응, 인권, 윤리 경영 등 다방면에서 지속가능경영 체계를 성공적으로 구축하고 리스크를 철저히 관리해 온 결과입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스(EcoVadis) ESG 평가에서 3년 연속 최고 등급인 '플래티넘'(상위 1%) 획득</li><li>서스테이널리틱스(Sustainalytics) ESG 리스크 평가에서 글로벌 컨테이너 선사 중 1위 기록</li><li>친환경 선대 전환 및 투명한 지배구조 확립을 통한 글로벌 ESG 규제 대응력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBjY1BqTXBMZ3EwQ1VQbTIwc2xJN25jM3NZd2hRSzVHYnE2RXdNcDJra2d6MS1pb0RQNG43WGVia1BnRURpcnFaajhvTnNpalIwYjd4OEpRcHFHN2lDT2pqcFE1VXJUbjBwWU9z?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1062,
       pinned: false,
       category: 'news', categoryName: '소식',
