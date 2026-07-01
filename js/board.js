@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1072,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '공중보건 위기 폭염, 지역 데이터로 생명 구한다',
+      author: '관리자',
+      date: '2026.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>극심한 폭염이 전 세계적인 공중보건 위기로 부상하면서 이에 대한 맞춤형 대응의 필요성이 커지고 있습니다. 폭염의 영향은 국가와 도시, 심지어 지역구에 따라 크게 다르게 나타나기 때문에 일률적인 대책으로는 한계가 있습니다. 이에 따라 지역 맞춤형 데이터를 활용하여 취약 계층을 정확히 식별하고 필요한 솔루션을 제공하는 방안이 주목받고 있습니다. 데이터를 기반으로 한 정밀한 접근법은 폭염 피해를 최소화하고 인명을 구하는 데 결정적인 역할을 할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>폭염의 영향은 지역 및 도시별로 상이하게 나타나므로 정밀한 분석이 필요합니다.</li><li>지역 데이터를 활용해 고령층, 저소득층 등 폭염 취약 계층을 타겟팅한 맞춤형 솔루션을 제공할 수 있습니다.</li><li>데이터 기반의 선제적 대응을 통해 공중보건 위기로서의 폭염 피해를 효과적으로 예방하고 생명을 구할 수 있습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/06/30/with-extreme-heat-now-a-public-health-crisis-local-data-can-save-lives/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1073,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '윤리적 기업을 위한 \'게임스탑\'식 투자 열풍은 왜 없을까?',
+      author: '관리자',
+      date: '2026.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>특정 기업의 진정한 가치를 믿고 이를 대중에게 널리 알려 주가를 올리는 행위는 불법적인 시장 조작이 아닙니다. 과거 '게임스탑' 사태처럼, 온라인 커뮤니티의 힘을 모아 지속 가능하고 윤리적인 소규모 기업의 주가를 올리는 시도는 왜 없을까요? 이러한 제안은 개인의 부를 축적하는 것이 목적이 아니라, 자본의 힘을 통해 더 나은 세상을 만들기 위함입니다.</p><h3>주요 포인트</h3><ul><li>기업의 가치를 신뢰하고 대중과 소통하여 주가를 올리는 것은 불법이 아님</li><li>온라인 투표를 통해 진정으로 친환경적이고 윤리적인 소기업을 발굴 및 지원하자는 아이디어</li><li>개인의 이익 추구(부자 되기)가 아닌, 더 나은 세상을 만들기 위한 목적 지향</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ujosqz/why_has_nobody_ever_replicated_the_game_stop_hype/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1074,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '850억 유로 지연: EU 19개국, 사회기후계획 미제출',
+      author: '관리자',
+      date: '2026.06.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합(EU)의 850억 유로 규모 '사회기후기금(SCF)' 신청 기한이 1년이 지났음에도 불구하고, 19개 회원국이 아직 사회기후계획(SCP)을 제출하지 않은 것으로 나타났습니다. 이에 시민사회 연합은 '사람이 아닌 화석연료를 뒤로하라(Leave fossil fuels behind, not people!)'는 대중 서명 운동을 시작하며 회원국들의 즉각적인 행동을 촉구하고 나섰습니다. 이 기금은 기후 변화 대응 과정에서 취약 계층을 보호하기 위해 마련된 재원이나, 국가들의 지연으로 인해 지원이 늦어지고 있습니다. 시민사회는 각국 정부가 기후 정의 실현과 취약 계층 보호를 위해 신속히 계획을 수립해야 한다고 강조합니다.</p><h3>주요 포인트</h3><ul><li><strong>850억 유로 규모 기금 지연:</strong> EU 19개 회원국이 사회기후계획 제출 기한을 1년 넘게 넘기면서 막대한 지원금 집행이 지연되고 있습니다.</li><li><strong>시민사회의 청원 운동 개시:</strong> 시민사회 연합은 취약 계층을 보호하고 화석연료 의존에서 벗어나기 위한 대중 청원을 시작했습니다.</li><li><strong>취약 계층 보호 촉구:</strong> 기후 전환 과정에서 에너지 빈곤층 등 소외되는 이들이 없도록 신속한 기금 신청과 계획 수립이 요구됩니다.</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/06/30/e85bn-delayed-19-eu-countries-still-havent-filed-their-social-climate-plans-a-year-on/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1075,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU, 자동차 순환성 요건 규정 채택',
+      author: '관리자',
+      date: '2026.06.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합(EU) 이사회가 자동차의 설계부터 폐기 단계까지 전 수명주기에 걸쳐 순환성을 강화하는 새로운 규정을 채택했습니다. 이번 규정은 기존의 폐차(ELV) 지침을 대체하여 자동차 산업의 자원 효율성을 높이고 탄소 배출을 줄이는 것을 목표로 합니다. 이에 따라 자동차 제조업체들은 차량 설계 시 재활용 및 재사용이 용이하도록 해야 하며, 플라스틱 등 특정 소재에 대해 재생 원료 사용 의무 비율을 준수해야 합니다. 또한, 희토류 등 핵심 원자재의 회수율을 높여 유럽 내 공급망 안정성에도 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>수명주기 전반의 순환성 강화:</strong> 차량의 설계, 생산부터 폐차 처리 및 재활용에 이르기까지 전 단계에 걸친 엄격한 순환성 요건이 도입됩니다.</li><li><strong>재생 원료 사용 의무화:</strong> 신차 제조 시 일정 비율 이상의 재활용 플라스틱 및 철강 등의 사용이 의무화되어 자원 순환을 촉진합니다.</li><li><strong>핵심 원자재 회수 및 환경 보호:</strong> 폐차 과정에서 희토류 등 핵심 원자재의 회수를 극대화하고, 유해 물질 배출을 줄여 환경적 발자국을 최소화합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-adopts-new-circularity-requirements-for-vehicles/?utm_source=rss&utm_medium=rss&utm_campaign=eu-adopts-new-circularity-requirements-for-vehicles" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1076,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '미쓰비시중공업, 에코바디스 ESG 평가 첫 \'골드\' 획득',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미쓰비시중공업(MHI)이 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)의 2026년 지속가능성 평가에서 사상 최초로 '골드(Gold)' 등급을 획득했습니다. 이번 평가는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 핵심 분야 전반에서 우수한 성과를 거둔 결과입니다. MHI는 이번 골드 등급 획득을 계기로 지속가능한 사회 실현을 위한 ESG 경영을 더욱 강화해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>최초의 골드 등급 달성</strong>: 에코바디스 평가 대상 기업 중 상위 5% 이내에 해당하는 우수한 성적을 거두며 지속가능성을 입증했습니다.</li><li><strong>4대 평가 항목 고른 고득점</strong>: 환경, 노동 및 인권, 윤리, 지속가능한 조달 전 분야에서 고르게 높은 점수를 획득했습니다.</li><li><strong>ESG 경영 가속화</strong>: 향후 공급망 전반의 지속가능성을 강화하고 사회적 책임을 다하기 위한 노력을 지속할 예정입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE1qdDNfZ2ZLb3Vrbng0bDNDNUJtckpZVGctTkhUNGtYVGRjZ3NVNGpTMi1hMXN6Y0NGMzltekFRWjBuUlp0SDRSck5KY00?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1067,
       pinned: false,
       category: 'news', categoryName: '소식',
