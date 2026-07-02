@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1077,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'CMA CGM, 페덱스 계약 물류 부문 14억 달러에 인수',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>프랑스 해운 대기업 CMA CGM이 페덱스(FedEx)의 계약 물류 사업부인 '페덱스 서플라이 체인(FedEx Supply Chain)'을 14억 달러에 인수하기로 합의했습니다. 이번 인수는 CMA CGM의 물류 자회사인 세바 로지스틱스(CEVA Logistics)를 통해 진행되며, 북미 지역 내 물류 네트워크와 전자상거래 역량을 크게 확장할 기회가 될 것입니다. 또한, 양사는 이번 거래가 완료되는 대로 다년간의 해상 및 항공 화물 운송 협력을 위한 전략적 파트너십 계약을 체결할 예정입니다.</p><h3>주요 포인트</h3><ul><li><strong>14억 달러 규모의 인수:</strong> CMA CGM이 세바 로지스틱스를 통해 페덱스의 북미 계약 물류 사업부를 인수하며 물류 포트폴리오를 강화합니다.</li><li><strong>장기 파트너십 체결:</strong> 거래 완료 후 양사는 다년간의 해상 및 항공 화물 운송 계약을 맺고 협력을 지속할 계획입니다.</li><li><strong>북미 시장 입지 확대:</strong> 이번 인수를 통해 CMA CGM은 북미 지역 내 계약 물류 및 전자상거래 풀필먼트 분야에서의 경쟁력을 크게 높이게 됩니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/cma-cgm-to-buy-fedexs-contract-logistics-unit-for-14b/824222/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1078,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'CDP, 신설 \'CDP 재단\' CEO로 베스 토렌 선임',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 환경 정보 공개 플랫폼인 CDP가 신설된 'CDP 재단(CDP Foundation)'의 초대 CEO로 베스 토렌(Beth Thoren)을 선임했습니다. 토렌 신임 CEO는 친환경 아웃도어 브랜드 파타고니아(Patagonia)에서 EMEA(유럽·중동·아프리카) 지역 환경 활동 및 옹호 부문 디렉터를 역임한 환경 분야 전문가입니다. 그녀는 앞으로 CDP 재단을 이끌며 전 세계 기업, 금융기관, 정부의 환경 정보 공개를 촉진하고 기후 및 자연 위기 대응을 가속화할 예정입니다. 이번 인사는 CDP가 글로벌 환경 공시 표준을 선도하고 조직의 사회적 영향력을 확장하기 위한 중요한 이정표가 될 것입니다.</p><h3>주요 포인트</h3><ul><li><strong>신설 CDP 재단의 초대 CEO 임명:</strong> CDP는 조직의 글로벌 운영을 강화하고 자선 활동을 총괄하기 위해 설립된 'CDP 재단'의 수장으로 베스 토렌을 선임했습니다.</li><li><strong>화려한 환경 분야 커리어:</strong> 토렌 신임 CEO는 파타고니아 외에도 영국 왕립조류보호협회(RSPB) 부대표, 글로벌 기후 운동 단체 등에서 활동하며 환경 보호와 비즈니스를 결합하는 데 앞장서 왔습니다.</li><li><strong>글로벌 환경 공시 확대 및 행동 촉구:</strong> 새로운 리더십 하에 CDP는 기후 변화, 산림 보존, 수자원 안보 등 시급한 환경 이슈에 대한 기업들의 투명한 정보 공개와 실질적인 감축 행동을 이끌어낼 계획입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/cdp-appoints-beth-thoren-as-ceo-of-new-cdp-foundation/?utm_source=rss&utm_medium=rss&utm_campaign=cdp-appoints-beth-thoren-as-ceo-of-new-cdp-foundation" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1079,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '불안정한 기반 위 시작된 UN 탄소시장 이행',
+      author: '관리자',
+      date: '2026.06.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일 본(Bonn) 기후회의에서 파리협정 제6조 탄소시장 지지자들은 COP31을 앞두고 '실행하며 배우는(learning by doing)' 방식을 추진했습니다. 그러나 이러한 안일한 접근 방식은 기후와 사회 모두에 심각한 부작용을 초래할 수 있다는 우려가 제기되고 있습니다. 공식 협상 안건은 제6조의 재정 마련 방안에 국한되었음에도 불구하고, 탄소시장의 성급한 이행은 불완전한 제도적 기반 위에서 진행되고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>'실행하며 배우는' 방식의 위험성:</strong> 명확한 규칙 없이 탄소시장을 우선 시행하는 방식은 기후 대응과 지역 사회에 부정적 영향을 미칠 수 있습니다.</li><li><strong>불안정한 제도적 기반:</strong> COP31을 앞두고 탄소시장의 세부 지침이 완전히 마련되지 않은 상태에서 이행 단계에 진입하고 있습니다.</li><li><strong>재정 마련 방안 협상:</strong> 본 회의에서 공식적으로 논의된 유일한 탄소시장 의제는 제6조 이행을 위한 재원 조달 방안이었습니다.</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/06/25/bonn-chance-un-carbon-markets-enter-implementation-phase-on-shaky-foundations-ahead-of-cop31/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1080,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '대형 배터리, 아프리카 녹색 산업 이끌까',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>배터리 에너지 저장 시스템(BESS)은 아프리카의 청정 기술 제조업과 녹색 산업화를 촉진할 수 있는 핵심 기술로 주목받고 있습니다. 그러나 재정적 지원 부족과 관련 데이터의 부재로 인해 대규모 도입에 어려움을 겪고 있습니다. 아프리카가 친환경 에너지 전환을 성공적으로 완수하기 위해서는 BESS 보급을 위한 투자 유치와 인프라 구축이 시급한 과제입니다.</p><h3>주요 포인트</h3><ul><li>배터리 에너지 저장 시스템(BESS)은 아프리카의 재생에너지 활용도를 극대화하고 청정 제조업을 활성화할 잠재력을 가집니다.</li><li>자금 조달(재정) 부족과 시장 데이터의 결여가 대규모 BESS 프로젝트의 실행을 가로막는 주요 장애물로 작용하고 있습니다.</li><li>아프리카의 녹색 산업화를 실현하기 위해서는 국제 사회의 금융 지원과 정책적 협력이 필수적입니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/01/can-giant-batteries-unlock-africas-green-industrial-future/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1081,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전력 요금 폭등 속 필리핀, 태양광 도입 세계 선도',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>필리핀이 치솟는 전력 가격에 대응하기 위해 태양광 에너지 도입을 급격히 확대하며 세계적인 흐름을 선도하고 있습니다. 아시아에서 가장 높은 수준의 전기 요금을 기록 중인 필리핀은 화석 연료 의존도를 낮추고 재생에너지로의 전환을 서두르고 있습니다. 정부의 적극적인 지원 정책과 민간 투자가 맞물려 태양광 발전 설비가 빠르게 늘고 있으며, 이는 에너지 안보 확보와 탄소 배출 감소에 크게 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>전력 요금 급등이 촉발한 수요</strong>: 수입 화석 연료 의존으로 인한 전기 요금 폭등이 태양광 에너지로의 빠른 전환을 이끌고 있습니다.</li><li><strong>정부 지원 및 투자 유치</strong>: 재생에너지 규제 완화와 민간 투자 활성화를 통해 태양광 인프라가 급격히 확장되고 있습니다.</li><li><strong>에너지 자립과 기후 대응</strong>: 태양광 발전을 통해 외부 에너지 의존도를 낮추고 국가적인 탄소 중립 목표 달성에 다가서고 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ukq3fn/philippines_leads_the_world_in_rush_to_solar_as/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1072,
       pinned: false,
       category: 'news', categoryName: '소식',
