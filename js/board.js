@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1082,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '후지쯔 그룹, 에코바디스 지속가능성 \'골드\' 획득',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>후지쯔 그룹이 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)의 ESG 평가에서 '골드(Gold)' 등급을 획득했습니다. 에코바디스는 전 세계 기업을 대상으로 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 핵심 분야를 평가합니다. 후지쯔는 이번 평가를 통해 전 세계 평가 대상 기업 중 상위 5% 이내에 드는 우수한 ESG 경영 성과를 인정받았습니다. 후지쯔는 앞으로도 기술 혁신을 통해 사회적 과제를 해결하고 지속가능한 사회 실현에 기여할 방침입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 지속가능성 평가에서 상위 5% 기업에 부여되는 '골드' 등급 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 분야에서 고르게 우수한 평가 기록</li><li>ESG 경영 강화를 통해 글로벌 지속가능성 리더십을 공고히 하고 사회적 가치 창출 지속</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JZlJSYzJhQU84WE5WOFQzSnhRYXZOUV9BeGVPdVBtTDFSamljVzVjcFhyQ2p6VXhPeUEwNldqcXhYVHdtelNBS2ZSSW5oNi05VU45TVpZQVhGMl9GWEdEQm5oUk8?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1083,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국디지털인증협회, AI 에이전트 신원관리 국제표준 개발',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국디지털인증협회가 자율적으로 동작하는 AI 에이전트의 신원을 안전하게 식별하고 관리하기 위한 국제표준 개발에 나섭니다. 이번 표준 개발은 AI 기술의 급격한 발전에 발맞추어 AI 에이전트의 사칭 및 오남용을 방지하고 디지털 신뢰성을 확보하는 것을 목표로 합니다. 이는 디지털 ESG 경영 관점에서 AI 거버넌스를 강화하고 안전한 디지털 생태계를 구축하는 데 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>AI 에이전트의 고유 식별 및 인증 체계 구축을 통한 디지털 보안성 강화</li><li>글로벌 표준화를 통한 국가 간 상호 호환성 확보 및 AI 거버넌스 선도</li><li>디지털 신뢰성(Digital Trust) 확보를 통한 ESG 관점의 사회적 책임 이행</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XZ2p3UG5UbGNOZWdPMG1vV0xab2lMeEd0eGFGLUJXX1lUc0M0V3VTdGVJNVhORWp2MWc5cnpwdGIwODVqNVJkZEZNUjQzOXVXN0l0TGFmSXhVTnk2Q2w0VTVRR0cyZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1084,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '친환경적인 포이즌 아이비 제거 방법 문의',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한 온라인 커뮤니티 사용자가 자신의 집 앞마당에 무성하게 자란 포이즌 아이비(독성 덩굴식물)를 친환경적으로 제거하는 방법에 대해 조언을 구하고 있습니다. 작성자는 식초를 뿌려보았으나 효과 없이 건초염만 악화되었고, 염소를 고용하는 방안은 비용 문제와 대여업체의 연락 두절로 실패했다고 밝혔습니다. 이에 따라 오래된 광고판으로 땅을 덮어 햇빛을 차단하는 방법 등 화학 제초제를 사용하지 않는 지속 가능한 해결책에 대한 다양한 아이디어를 묻고 있습니다.</p><h3>주요 포인트</h3><ul><li>식초 살포 등 이전의 친환경적 시도가 실패하였으며 신체적 무리만 발생함</li><li>염소를 활용한 자연 친화적 제거는 높은 비용과 대여업체 섭외 문제로 실행이 어려움</li><li>오래된 광고판이나 차광막으로 덮어 식물을 고사시키는 물리적 차단 방식 등 대안 모색</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1ulpvcq/get_rid_of_poison_ivy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1085,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 규제당국, EU 택소노미 단순화 방안 제안',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽의 3대 금융규제당국(ESAs)은 지속가능금융공시규정(SFDR)의 검토를 바탕으로 EU 택소노미(녹색분류체계)를 단순화하고 사용성을 개선하기 위한 공동 의견서를 발표했습니다. 규제당국은 복잡한 공시 요건이 금융 시장 참여자들에게 초래하는 행정적 부담을 줄여야 한다고 강조했습니다. 이를 위해 EU 택소노미를 지속가능성 평가의 핵심 기준으로 설정하고, 투자자들이 이해하기 쉬운 자발적 등급 시스템 도입 등을 제안했습니다.</p><h3>주요 포인트</h3><ul><li><strong>EU 택소노미 중심의 표준화:</strong> 지속가능성 공시의 일관성을 높이기 위해 EU 택소노미를 모든 지속가능 금융 상품의 핵심 기준이자 프레임워크로 설정할 것을 제안했습니다.</li><li><strong>소비자 친화적 등급제 도입:</strong> 복잡한 ESG 정보를 소비자가 쉽게 이해할 수 있도록 돕는 자발적 제품 분류 및 등급 시스템(Labeling system) 도입을 권고했습니다.</li><li><strong>공시 부담 완화 및 지표 개선:</strong> 주요 부정적 영향(PAI) 지표를 단순화하고 중복되는 공시 요건을 줄여 금융 기관의 행정적 부담을 경감하고자 합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/eu-regulators-propose-eu-taxonomy-simplification-measures/?utm_source=rss&utm_medium=rss&utm_campaign=eu-regulators-propose-eu-taxonomy-simplification-measures" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1086,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '엘디카본, 에코바디스 ESG 평가 \'상위 15%\' 획득',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>친환경 화학 소재 전문 기업 엘디카본이 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 상위 15%에 해당하는 '실버(Silver)' 등급을 획득했습니다. 에코바디스는 전 세계 기업의 환경, 노동·인권, 윤리, 지속가능한 조달 등 4개 분야를 평가하는 대표적인 글로벌 지속가능성 평가 플랫폼입니다. 엘디카본은 폐타이어를 재활용해 친환경 카본블랙과 재생 오일을 생산하는 순환경제 모델을 통해 특히 환경 분야에서 우수한 성적을 거두었습니다. 이번 인증을 계기로 엘디카본은 글로벌 기준에 부합하는 ESG 경영을 강화하고 해외 시장 진출을 더욱 확대할 계획입니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스에서 상위 15%에 해당하는 '실버 등급' 획득</li><li>폐타이어 기반 친환경 카본블랙 및 재생 오일 생산 기술로 순환경제 기여 및 환경 분야 고득점 달성</li><li>글로벌 지속가능성 기준 충족을 통해 해외 시장 수출 경쟁력 확보 및 ESG 경영 고도화 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1BQTRFTkRJVk91N2RSUGtJTTEyeEMyMzNVZWNlcUF2OUtKSFJmajlTWE1jN05OeS1jOFowSDk5dVFiRkc3N2tzYV9WRjFvRnBsSThRUGFjQzIwOHQwY20yNy11MnJsd1VydnFqTlhB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1077,
       pinned: false,
       category: 'news', categoryName: '소식',
