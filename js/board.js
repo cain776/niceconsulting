@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1087,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'AI 에이전트 신원관리 국제표준 개발 착수',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국디지털인증협회가 AI 에이전트의 신원관리를 위한 국제표준 개발에 본격 착수했습니다. 이번 표준 개발은 AI 기술의 급격한 발전에 발맞추어 AI 에이전트의 신뢰성을 확보하고 보안 위협에 대응하기 위해 추진됩니다. 협회는 AI 에이전트의 식별, 인증, 권한 부여 등을 정의하는 표준안을 마련하여 글로벌 시장에서의 기술 주도권을 확보할 계획입니다. 이를 통해 안전하고 투명한 AI 생태계 조성에 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>AI 에이전트의 신원 확인 및 인증 체계 구축을 위한 국제표준 개발 시동</li><li>AI 간 상호작용 및 인간과의 거래에서 발생할 수 있는 보안 및 윤리적 문제 예방</li><li>글로벌 표준화 기구와의 협력을 통해 국내 기술의 세계화 및 ESG 관점의 AI 거버넌스 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQdkhzZzJ4VTlkbzg0azc5cDdlOXBkb1JNZ0MydjlISE9hdzdJVHJyeXpCVVBHRC1XbmEtSVpIVFpxdEVoUGtzTlhXYVh0RUdwOU9RVkg2OXNMOXh4NFVtTy1saDNXaWFMSFRJbkk1TkJvNk5kVzkyRGNGY3pVUU9vcFVB0gGWAUFVX3lxTE5nVWJKQUZLdW1fYmtFWk1ESTdLeDZWVmJMSUZTYVAtZjVKSFJ0QU5GOW9WX2QwSGV6Y1FmVjhudUdpQ0RKVllNaE4zZ0RyTEg1SXl6dEQ2a2NydXJXQnhnTFAtQ3NYdW1oYWRsX2ZIODh2T25wMXZTdU9CejgzUHdDN1dxcHNDaUo3dW1KR3duck9TY0FLUQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1088,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '어머니의 잦은 비행과 탄소 배출, 제 책임일까요?',
+      author: '관리자',
+      date: '2026.07.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>작성자는 경제적 어려움을 해결하기 위해 중국으로 이주하여 재정적인 안정을 찾았습니다. 하지만 고향에 계신 어머니가 지난 1년 동안 세 차례나 장거리 비행으로 방문하면서, 작성자는 막대한 탄소 배출에 대한 심한 죄책감을 느끼고 있습니다. 환경을 우려해 방문 횟수를 연 1회로 줄이고 대신 한 번 올 때 오래 머물러 달라고 부탁했으나, 어머니는 이 제안을 무시했습니다. 결국 작성자는 어머니의 빈번한 비행과 그로 인한 환경적 영향이 자신의 탓인지 괴로워하고 있습니다.</p><h3>주요 포인트</h3><ul><li>경제적 생계를 위해 중국으로 이주한 후 중상류층 생활을 영위하게 됨</li><li>어머니의 빈번한 장거리 비행으로 발생하는 막대한 탄소 발자국에 대한 죄책감</li><li>환경 보호를 위해 제안한 '연 1회 장기 방문' 요청을 어머니가 묵살함</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1um7mei/is_my_mums_constant_flying_my_fault/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1089,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해 해법, 처벌보다 현장 중심 예방이 핵심',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 이후 처벌 위주의 대응에서 벗어나 실질적인 사고 예방을 위한 현장 중심의 안전보건관리체계 구축이 시급하다는 목소리가 커지고 있습니다. 전문가들은 기업들이 규제 대응에만 급급할 것이 아니라, 현장 근로자가 직접 참여하는 위험성 평가를 통해 실질적인 유해·위험요인을 제거해야 한다고 강조합니다. 특히 안전 역량이 부족한 중소기업을 위한 맞춤형 지원과 정부의 실질적인 예방 중심 정책 지원이 유기적으로 맞물려야 중대재해를 근본적으로 예방할 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>처벌에서 예방으로의 패러다임 전환:</strong> 단순한 법적 처벌 회피를 넘어 현장 중심의 '자기규율 예방체계' 확립이 필요합니다.</li><li><strong>근로자 참여와 실질적 위험성 평가:</strong> 현장 노동자가 직접 위험 요소를 발굴하고 개선하는 실질적인 위험성 평가의 중요성이 강조되었습니다.</li><li><strong>중소기업 지원 강화:</strong> 자금과 인력이 부족한 중소기업이 안전보건체계를 구축할 수 있도록 정부 차원의 실질적 컨설팅과 재정 지원 확대가 요구됩니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JeUdjamZiRmEzN3RKMi1YSUd4cnBFSmtna2gySE8ybG5RTldxRnVPOGZzTmNOZ2xfeGxJUGxjdm0xNG94SGNpdFM5RndXLUhHY0UzZEh5SWpLUUV5TExKWkY0UjlKZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1090,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '식량 위기 속 정부보다 앞장서는 시민들의 리더십',
+      author: '관리자',
+      date: '2026.07.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 세계시민의회(Global Citizens' Assembly)의 결과에 따르면, 전 세계 시민들은 산림 보호와 산업적 식량 생산 억제를 강력히 지지하며 기후 및 식량 위기 해결에 적극적인 태도를 보이고 있습니다. 반면, 각국 정부와 정치인들은 이러한 시민들의 요구에 부응하는 정책적 행동을 취하는 데 매우 느린 모습을 보이고 있습니다. 기후 변화로 인한 식량 공급망 충격이 현실화되는 상황에서, 시민들은 정부보다 더 강력하고 실질적인 환경 보호 조치를 촉구하며 진정한 리더십을 발휘하고 있습니다.</p><h3>주요 포인트</h3><ul><li>세계시민의회 조사 결과, 대다수 시민들은 산림 보존과 친환경적 식량 생산 방식으로의 전환을 적극 지지하고 있습니다.</li><li>기후 변화로 인한 식량 위기가 전 세계적으로 심화되고 있으나, 정치권의 정책 수립 및 실행 속도는 시민들의 기대에 미치지 못하고 있습니다.</li><li>지속 가능한 미래를 위해 정부가 시민들의 목소리를 적극 수용하여 산업적 식량 생산 규제 등 즉각적인 행동에 나서야 한다는 지적이 제기됩니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/03/as-food-shocks-spread-citizens-are-showing-more-leadership-than-governments/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1091,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '코비온, 에코바디스 ESG 평가 \'골드 등급\' 획득',
+      author: '관리자',
+      date: '2026.07.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)의 평가에서 코비온(Corbion)이 '골드 등급(Gold Medal)'을 획득하며 강력한 ESG 경영 성과를 입증했습니다. 코비온은 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다양한 평가 항목에서 우수한 성적을 거두었습니다. 이번 골드 등급 획득은 코비온이 글로벌 시장에서 지속가능성 리더로서의 입지를 더욱 공고히 하는 계기가 되었습니다.</p><h3>주요 포인트</h3><ul><li>코비온, 에코바디스(EcoVadis) ESG 평가에서 상위 기업에 부여되는 '골드 등급' 획득</li><li>환경 보호, 노동 인권, 기업 윤리 및 공급망 관리 전반에서 우수한 지속가능성 성과 인정</li><li>글로벌 고객사들에게 신뢰할 수 있는 친환경 및 지속가능한 솔루션 제공업체로서의 위상 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxQdTV3QkppQUpjb2pyV21SNjFtNDhJTDlzQ3MxbU1zUUVublZCLTdJelVuYWNlZEdjU1ZPMWU1S3hjelJZSkpOOG5xM1JxbmdZQ1NwVThUQXV5by1EbGEzUkZDdm9QYmxDNGs4TEc0a3c3aGg1SzdqcmRPZlQzaWh4dzktSlNFempCUE1jRm53VDRJLW9NNzJ3bg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1082,
       pinned: false,
       category: 'news', categoryName: '소식',
