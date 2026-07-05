@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1092,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '태광산업, 중대화학사고로 중대재해법 고발',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>노동 및 시민사회단체가 최근 울산공장에서 발생한 중대 화학 물질 누출 사고와 관련해 태광산업 경영진을 중대재해처벌법 위반 혐의로 고발했습니다. 이들은 태광산업이 안전보건 관리체계 구축 의무를 소홀히 하여 노동자들의 생명과 안전을 위협했다고 주장했습니다. 이번 조치는 반복되는 산업재해에 대해 기업 경영책임자의 책임을 엄격히 묻기 위한 것입니다.</p><h3>주요 포인트</h3><ul><li><b>경영진 고발 조치:</b> 노동 단체들은 태광산업 대표이사를 중대재해처벌법 위반 혐의로 고용노동청에 고발했습니다.</li><li><b>울산공장 화학 사고:</b> 이번 고발은 태광산업 울산공장에서 발생한 유독성 화학물질 누출 사고로 노동자들이 다친 사건에서 비롯되었습니다.</li><li><b>철저한 수사 촉구:</b> 시민단체는 정부 당국에 태광산업의 안전보건 관리체계를 철저히 조사하고 강력히 처벌할 것을 요구하고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMRnVmVXc3dlo5NFp4N290d2kwb3hWaGI2c3R4eWVUSlg0ZTBrbnVuemQyVGcwMEU5TUFJUWRFNTQzZkxJLVM1NVRRb2ZzY0h3bkFNWXhwRW84Z9IBVEFVX3lxTE1JRDFRU0poVHpwcmIxbGlaUE84cUFVODNvMWNzaFdHaDQxX2c5VDR0UHRoRTNYWVl2SEVkeFYtTnVvdFNKRDJCN2w1TjktczlKRWFNeQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1093,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '디지털인증협회, 디지털 신원·보안 국제표준 개발 강화',
+      author: '관리자',
+      date: '2026.07.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국디지털인증협회가 디지털 신원, 보안 및 서비스 분야에서 국제표준 개발 활동을 본격적으로 강화합니다. 협회는 글로벌 디지털 신원 표준화 흐름에 선제적으로 대응하여 국내 우수 기술의 국제 표준 반영을 적극 추진하고 있습니다. 이를 통해 국내 기업들의 글로벌 시장 진출을 돕고, 보다 안전하고 신뢰할 수 있는 디지털 서비스 환경을 조성하는 데 기여할 계획입니다.</p><h3>주요 포인트</h3><ul><li>디지털 신원 및 보안 분야의 국제 표준 제정 및 개발 참여 확대</li><li>국내 디지털 인증 기술의 글로벌 표준화 지원을 통한 국가 경쟁력 강화</li><li>안전하고 신뢰성 높은 글로벌 디지털 서비스 생태계 구축 기여</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9hUF9NX3RhcENEZEJMOWFObTlmcVdoR0lRSWFfSUcyZ1BDSGpoN0dqZlVHU1hqQkdRUWVScHpfTjM5SE1PMlByc2RucUhfODVNNVJEbnVjcGZUclRSYlBHM2dqaDQ5TjV4VHc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1094,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 "1차 협력사 80%, 자체 공급망 ESG 관리 안 해"',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가 기관 에코바디스(EcoVadis)의 보고서에 따르면, 1차 협력업체의 80%가 자체 공급망의 지속가능성 리스크를 관리할 프로세스를 갖추고 있지 않은 것으로 나타났습니다. 이는 대기업들이 공급망 전체의 ESG 리스크를 통제하는 데 심각한 사각지대가 존재함을 시사합니다. 특히 인권, 노동 환경, 환경 오염 등 공급망 깊숙이 숨겨진 리스크가 기업 평판과 규제 준수에 큰 위협이 될 수 있습니다. 이에 따라 기업들은 1차 협력사를 넘어 다단계 공급망 전반에 대한 실사와 모니터링을 강화해야 할 필요성이 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>하위 공급망 관리 부재:</strong> 1차 협력사의 80%가 자체 공급망의 ESG 리스크를 관리하는 체계나 프로세스가 없는 것으로 조사되었습니다.</li><li><strong>글로벌 규제 대응 취약:</strong> 유럽연합(EU)의 공급망 실사법(CSDDD) 등 글로벌 ESG 규제가 강화되는 상황에서 기업들의 법적·운영적 리스크가 커지고 있습니다.</li><li><strong>다단계 모니터링의 필요성:</strong> 기업들은 단순 1차 협력사 관리를 넘어, 2차 및 3차 이하 하위 공급망까지 아우르는 포괄적인 ESG 실사 체계를 구축해야 합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWmUtRy1GbkVLWmZPUklMMTBsdExaZVBNX0JJTjZtY1RrZldDRXJIMFNFbW91MURPTTZiZjE2YUJiRTdkMy1yZ210N0lxWEJuc2ZPaHpmVm1jdmxNaUpxN2xvYlp4VlN6Wlh2Zm9PTGx2YzJKc2ktN0ZSSUlWTk1kRFZTZjI4LV9DbHNGTERYUkJMQ3k5LVNRcFZLTm0yTm1HNmxwYVZRTndtU2lUNkwtaFhwcEZSZklQaXpwMEQtdkY3RlR3dTM2eW5RTERLZ2Fjc0h0RE5jN3E0Z1g4ZFdqRlhKdlQ4Sng0MkNjYmRtZk1Ec21BWFpN?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1095,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미국 폭염, 해수온 최고치 및 베트남 전기차 급증',
+      author: '관리자',
+      date: '2026.07.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 기후 및 에너지 분야의 주요 흐름을 다루는 Carbon Brief의 DeBriefed 보고서입니다. 미국은 독립기념일 연휴를 앞두고 기록적인 폭염에 직면해 있으며, 전 세계 해수면 온도는 사상 최고치를 경신하고 있습니다. 한편, 동남아시아에서는 베트남이 전기차(EV) 시장의 급격한 성장세를 주도하며 친환경 모빌리티 전환을 가속화하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>미국의 기록적인 폭염:</strong> 독립기념일 기간 동안 미국 전역이 극심한 고온 현상에 직면하면서 기후 변화로 인한 폭염의 위험성이 고조되고 있습니다.</li><li><strong>해수면 온도 최고치 경신:</strong> 전 세계 해양 온도가 사상 최고치를 기록하며 해양 생태계 붕괴 및 기상 이변에 대한 우려가 커지고 있습니다.</li><li><strong>베트남의 전기차 시장 급성장:</strong> 베트남이 전기차 도입을 빠르게 확대하며 동남아시아 지역의 친환경 교통수단 전환을 선도하고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-3-july-2026-us-faces-scorching-independence-day-record-ocean-temperatures-vietnams-ev-surge/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1096,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '한양인더스트리, 글로벌 ESG 평가 \'골드 메달\' 획득',
+      author: '관리자',
+      date: '2026.07.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한양인더스트리가 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)의 ESG 평가에서 '골드 메달'을 획득했습니다. 에코바디스는 전 세계 180여 개국, 13만 개 이상의 기업을 대상으로 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 평가하는 공신력 있는 플랫폼입니다. 한양인더스트리는 이번 평가에서 상위 5% 이내에 해당하는 우수한 성적을 거두며 글로벌 수준의 ESG 경영 역량을 입증했습니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스로부터 '골드 메달' 획득</li><li>평가 대상 기업 중 상위 5% 이내에 해당하는 우수한 성적 기록</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 분야에서 지속가능 경영 역량 인정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pRkctME5IQ2cxN2JZMWRWRXRaUVJIa05mOE4wM3IzZ3VqdHNyc3Z3U0lydTdaUUpoall6Ykl2bk1IZzNDa1lPZTBDRzZjTE0zc05haWRkc19ST3N4LXFV?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1087,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
