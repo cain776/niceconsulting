@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1097,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '현대로템, 글로벌 ESG 평가 \'실버 메달\' 획득',
+      author: '관리자',
+      date: '2026.07.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>현대로템이 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 '실버 메달'을 획득했습니다. 에코바디스는 전 세계 180여 개국, 13만여 개 기업의 ESG 정책과 성과를 평가하는 공신력 있는 기관입니다. 현대로템은 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 전 분야에서 우수한 평가를 받아 평가 대상 기업 중 상위 15% 이내에 해당하는 실버 등급을 받았습니다. 이번 수상으로 현대로템은 글로벌 시장, 특히 ESG 규제가 엄격한 유럽 시장에서의 수주 경쟁력을 한층 강화하게 되었습니다.</p><h3>주요 포인트</h3><ul><li>글로벌 ESG 평가 기관 에코바디스(EcoVadis)로부터 '실버 메달' 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 영역에서 고른 우수 성과 인정</li><li>유럽 등 글로벌 시장 내 수주 경쟁력 및 기업 신뢰도 제고 기대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1rUjl2ZjhuWlpRWnRIb0lnekhnYlVBbG1Yd1hVaUJialZtRzNxSVVveFV4U29MT0NBRlFNbHVlWUt6Ri1oa0V6U0dIN3ZUNnlINVRLQ09sTlQxamkxSVpBcU9Sd1pYRFlaWk13?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1098,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '경제 성장이 인구 위기를 해결할 수 없는 이유와 탈성장의 대안',
+      author: '관리자',
+      date: '2026.07.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>우리는 경제 성장을 통해 빈곤을 퇴치하면 출산율이 낮아져 인구 위기를 해결할 수 있다고 믿어왔습니다. 하지만 이러한 방식은 오히려 더 심각한 두 가지 위기를 초래합니다. 성장 중심의 소비는 지구의 생태적 한계를 초과하게 만들며, 생활 수준의 향상은 현대 경제를 지탱하는 인구 구조적 기반을 무너뜨립니다. 결국 기존의 성장 모델로는 이 딜레마를 해결할 수 없으며, 탈성장 경제학이 새로운 대안으로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>경제 성장은 출산율을 낮춰 인구 위기를 해결하는 듯 보이지만, 이는 또 다른 위기의 시작입니다.</li><li>성장 지향적 소비는 자원 고갈과 환경 파괴를 가속화하여 지구 생태계의 한계를 넘어선 위기를 초래합니다.</li><li>출산율 저하로 인한 인구 감소는 현대 경제 시스템의 지속 가능성을 위협하는 인구 구조적 붕괴를 가져옵니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1uo3zir/why_economic_growth_cant_solve_the_population/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1099,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '세계은행 기후 재원 목표 철회와 그 영향',
+      author: '관리자',
+      date: '2026.07.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>세계은행(World Bank)이 최빈국 지원을 위한 국제개발협회(IDA) 기금의 기후 재원 비중을 45%로 설정하려던 목표를 철회하면서 논란이 일고 있습니다. 이번 결정은 기후 변화 대응과 빈곤 퇴치라는 두 가지 핵심 개발 목표 사이의 재원 배분 갈등을 보여줍니다. 기후 활동가들은 이번 목표 철회가 기후 취약국의 적응력을 약화시킬 수 있다고 우려하는 반면, 일부 개발도상국들은 기본적 개발 수요에 재원을 집중할 수 있게 되었다며 안도하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>목표 철회 배경:</strong> 세계은행은 당초 기후 재원 비중을 45%로 설정하려 했으나, 빈곤 퇴치 등 다른 개발 우선순위가 밀릴 수 있다는 개발도상국들의 우려를 수용해 이를 철회했습니다.</li><li><strong>기후 활동가들의 우려:</strong> 환경 단체들은 이번 결정이 기후 위기 대응의 시급성을 저해하고, 선진국들의 기후 금융 약속 이행에 부정적인 선례를 남길 수 있다고 경고합니다.</li><li><strong>향후 전망:</strong> 이번 결정으로 인해 향후 글로벌 기후 재원 협상에서 개발도상국의 실질적인 개발 요구와 기후 행동 간의 균형을 맞추는 것이 더욱 복잡한 과제로 떠올랐습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-how-will-the-world-banks-abandoned-finance-goal-affect-climate-action/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1100,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'UPM, 에코바디스 플래티넘 및 CDP 공급망 A등급 획득',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 삼림산업 기업 UPM이 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 최고 등급인 '플래티넘(Platinum)' 등급을 획득했습니다. 이와 동시에 탄소정보공개프로젝트(CDP)의 공급망 참여 평가(SER)에서도 최고 등급인 'A 등급'을 기록했습니다. 이번 성과는 UPM이 공급망 전반에서 기후 변화에 적극적으로 대응하고 지속가능한 조달을 실천하고 있음을 보여줍니다. UPM은 협력사들과의 긴밀한 협력을 통해 공급망 내 온실가스 배출(Scope 3)을 줄이는 데 앞장서고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>에코바디스 플래티넘 등급</strong>: 평가 대상 기업 중 상위 1%에 해당하는 최고 등급을 받으며 글로벌 지속가능성 리더십을 증명했습니다.</li><li><strong>CDP 공급망 참여(SER) A등급</strong>: 공급업체와의 기후 변화 대응 협력 및 Scope 3 배출량 감축 노력을 인정받아 최고 등급을 획득했습니다.</li><li><strong>지속가능한 공급망 구축</strong>: UPM은 협력업체 행동강령 준수 및 체계적인 평가를 통해 공급망의 투명성과 책임감을 높이고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxPci1aM0ZyVjhsNndheDBIeHF4bm4tN2JaVEZkZHZPVlNKRkZKVTBIZzk3aGJKVHpIZlpnd053UC1ZOHBmcWdoX1NLV0UzaTc1WlFKQkt0bzUxNVYwNEtMZmJYc2YyMUxoRl95U1hiV0xzTkNxdTRLRWhPSjkza2NZZkZyeXUyNndRSVVBZE9RRGNlQUJ4X2p1T01ZSnZ2dnhWV3JRZ1FQTDdqZk5FMTc4ZkdGZWgtZ0dYdzg4OVFRUlhfbHBVbEV1T3V6RDdrZUVUb1pPX0dhRXhQZXFaUnRkZWxzaDVKZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1101,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국디지털인증협회, 디지털인증 국제표준 선도',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국디지털인증협회가 국내 디지털 인증 기술의 글로벌 경쟁력을 강화하고 국제 표준 제정을 선도하기 위한 활동을 본격화합니다. 협회는 세미나를 통해 글로벌 디지털 인증 트렌드를 공유하고, 국내 기업들의 해외 시장 진출을 지원하기 위한 표준화 전략을 논의했습니다. 특히 분산신원증명(DID) 및 패스키(Passkey) 등 차세대 인증 기술의 국제 표준화를 주도하여 글로벌 디지털 신뢰 체계 구축에 앞장설 계획입니다.</p><h3>주요 포인트</h3><ul><li>국내 디지털 인증 기술의 국제 표준화를 통한 글로벌 시장 경쟁력 확보</li><li>DID, 패스키 등 차세대 인증 기술의 보안성과 편의성 강화를 위한 협력</li><li>국내 기업의 해외 진출 지원을 위한 글로벌 표준 가이드라인 및 네트워크 구축</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WVZENE5PMEFZUEU1djJldGtTWHdRcjF5UW5SYk5tNW9wMmVQQnZqSEJYbWd3R3FKT1lISGxONXd5bGZla2Y4dFdLTmdsNzhLSUI0X3JR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1092,
       pinned: false,
       category: 'news', categoryName: '소식',
