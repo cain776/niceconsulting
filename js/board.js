@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1102,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '켄뷰, 플라스틱 감축 목표 초과 달성…재활용성은 미흡',
+      author: '관리자',
+      date: '2026.07.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>리스테린, 니코레트 등의 모회사인 켄뷰(Kenvue)가 최신 지속가능성 보고서를 통해 2025년 플라스틱 감축 목표를 조기 초과 달성했다고 발표했습니다. 켄뷰는 신재 플라스틱 사용량을 기존 목표치인 15%를 넘어선 21%까지 감축하는 데 성공했습니다. 하지만 포장재의 100% 재활용 및 재사용 가능화 목표는 다층 소재 및 펌프 용기 등의 기술적 한계로 인해 달성하지 못했습니다. 회사는 향후 플라스틱에서 섬유 기반 패키징으로의 전환을 더욱 가속화할 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>플라스틱 감축 목표 초과 달성:</strong> 켄뷰는 신재 플라스틱 사용량을 21% 감축하여 당초 2025년 목표였던 15%를 크게 상회했습니다.</li><li><strong>재활용성 목표 달성 실패:</strong> 복합 재질 포장재와 펌프 마개 등의 재활용 기술적 한계로 인해 '100% 재활용 가능 포장재' 목표는 달성하지 못했습니다.</li><li><strong>친환경 패키징 전환 가속화:</strong> 리스테린, 니코레트 등 주요 브랜드의 포장재를 플라스틱에서 종이 및 섬유 기반 소재로 적극 전환하고 있습니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/kenvue-surpasses-2025-plastic-reduction-target-falls-short-on-recyclabilit/824378/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1103,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '몬드리안에이아이, ISO 27001 정보보호 인증 획득',
+      author: '관리자',
+      date: '2026.07.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인공지능(AI) 기술 기업 몬드리안에이아이가 국제표준화기구(ISO)로부터 국제 표준 정보보호 인증인 'ISO 27001'을 획득했습니다. 이번 인증은 회사의 AI 인프라 및 데이터 관리 체계가 글로벌 수준의 보안 표준을 충족함을 공식적으로 입증한 결과입니다. 이를 통해 몬드리안에이아이는 고객들에게 더욱 안전한 AI 솔루션을 제공하고 데이터 주권을 보장할 수 있게 되었습니다. 향후 기업의 신뢰도를 높이고 글로벌 시장 진출을 가속화할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>국제 표준 보안 인증 획득</strong>: 정보보호 분야에서 가장 권위 있는 국제 표준인 'ISO 27001'을 획득하여 정보보호 관리체계의 신뢰성을 입증했습니다.</li><li><strong>안전한 AI 인프라 및 데이터 주권 보장</strong>: 철저한 보안 시스템 구축을 통해 AI 인프라 운영 중 발생할 수 있는 데이터 유출 위험을 방지하고 고객의 데이터 주권을 보호합니다.</li><li><strong>글로벌 경쟁력 및 신뢰도 제고</strong>: 글로벌 기준에 부합하는 보안 역량을 바탕으로 국내외 시장에서 비즈니스 신뢰도를 높이고 시장 확장에 나설 예정입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ud09UZ1loalNtTEpEZmRSZmZhdXJadXJfb1QyMEhqU0VEcVR4SEZyVXo4dnZCUjBXWnZHR0F4VDJ4c09uRk84Z2t3dVgtWXZGMjZDYkFHTm9DTTFrMkww?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1104,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '강력한 엘니뇨의 엄습, 우리는 준비되었는가?',
+      author: '관리자',
+      date: '2026.07.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화로 인해 더욱 강력해진 '슈퍼 엘니뇨' 현상이 다가오고 있어 전 세계적인 대비가 시급합니다. 극단적인 기상 이변과 해수면 상승에 대응하기 위해 사회적 회복탄력성을 신속히 구축해야 합니다. 특히 기후 변화 적응 과정에서 자연 생태계를 보존하고 이를 기후 적응의 동반자로 삼는 노력이 필요합니다.</p><h3>주요 포인트</h3><ul><li>기후 변화로 인해 과거보다 훨씬 강력해진 슈퍼 엘니뇨 발생 가능성 경고</li><li>극단적 기후 현상과 해수면 상승에 대응하기 위한 긴급한 회복탄력성 구축 필요성</li><li>기후 피해 최소화를 위해 자연 생태계를 보호하고 이를 기후 적응의 동반자로 활용하는 방안 강조</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/06/a-supercharged-el-nino-is-coming-are-we-ready/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1105,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '차기 UN 사무총장 후보들의 기후변화 입장',
+      author: '관리자',
+      date: '2026.07.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>안토니우 구테흐스 현 UN 사무총장의 임기 만료를 앞두고 차기 사무총장 후보 선출 절차가 시작되었습니다. 기후변화가 전 지구적 최우선 과제로 부상한 가운데, 각 후보가 제시하는 기후 위기 대응책과 정책 방향이 주목받고 있습니다. 이번 Q&A는 주요 후보들의 기후 변화에 대한 입장과 이들이 UN의 기후 리더십을 어떻게 이끌어갈지 분석합니다.</p><h3>주요 포인트</h3><ul><li>안토니우 구테흐스 현 사무총장의 임기 종료에 따른 차기 UN 사무총장 인선 본격화</li><li>기후 위기 대응이 차기 사무총장의 리더십을 평가하는 핵심 시험대로 부상</li><li>후보들의 기후 재원 마련, 화석연료 퇴출, 개발도상국 지원에 대한 다양한 입장 분석</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-where-do-the-un-secretary-general-candidates-stand-on-climate-change/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1106,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '일부 철강사들이 EU 탄소배출권거래제를 약화시키려는 이유',
+      author: '관리자',
+      date: '2026.07.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일부 유럽 철강 제조업체들이 규제 완화를 요구하며 유럽연합 탄소배출권거래제(EU ETS)를 약화시키려 시도하고 있습니다. 그러나 EU ETS는 친환경 산업 미래에 투자하려는 기업들에게 필수적인 제도이므로, 정책 입안자들은 이러한 로비에 흔들려서는 안 됩니다. 탄소 가격 책정 제도를 약화시키는 것은 장기적인 탈탄소화 투자를 저해하고 기후 목표 달성을 어렵게 만들 수 있습니다.</p><h3>주요 포인트</h3><ul><li>일부 철강사들의 EU ETS 규제 완화 요구와 이에 대한 정책적 경계 필요성</li><li>친환경 산업 전환 및 저탄소 투자를 유도하는 EU ETS의 핵심적 역할</li><li>단기적 이익을 위한 제도 약화가 초래할 장기적 기후 목표 달성 저해 우려</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/07/06/why-some-steelmakers-are-trying-to-weaken-the-eu-ets/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1097,
       pinned: false,
       category: 'news', categoryName: '소식',
