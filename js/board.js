@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1107,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에덴레드, 2년 연속 에코바디스 골드 메달 획득',
+      author: '관리자',
+      date: '2026.07.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 디지털 플랫폼 기업 에덴레드(Edenred)가 기업의 사회적 책임(CSR) 성과를 인정받아 2년 연속 에코바디스(EcoVadis) 골드 메달을 획득했습니다. 에덴레드는 이번 평가에서 100점 만점 중 72점을 기록하며 평가 대상 기업 중 상위 5% 이내에 진입했습니다. 이번 성과는 환경, 노동 및 인권, 윤리, 지속 가능한 조달 등 4개 핵심 분야에서의 지속적인 노력이 반영된 결과입니다. 에덴레드는 앞으로도 ESG 경영을 강화하여 지속 가능한 성장을 이어갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>에덴레드, 2년 연속 에코바디스 CSR 평가에서 '골드 메달' 획득</li><li>종합 점수 72점으로 평가 대상 글로벌 기업 중 상위 5% 기록</li><li>환경, 노동 및 인권, 윤리, 지속 가능한 조달 분야에서 우수한 성과 인정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPaEVEbGNwOV9CMU9fTVJsTzRWU2hZaDJMa1JDVjNHRklxZDg1UWl5WjRhVkRZSlZJbTVsa09XSGxSWk1OWlBWUGJXUmRvVm1zVHlOVTBjNFBrSUJ2RnN3Z1NFTlpnVUNlVF90NHp1LUtzT2NPbE82OTlIRmtWSjRnQzZiNEE4dFVSdkpRQ2NLUkZpOGU3VDNLWGJkZGRfZEMweXhhSE1wWDM2UEF1dVBpUDN6TnVsSmJ0R1JDR2xzMDZ0aElFTFBj?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1108,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 브리핑: \'불가능한\' 폭염과 해양 최고 기온 기록',
+      author: '관리자',
+      date: '2026.07.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 기사는 최신 기후 연구를 소개하는 브리핑으로, 최근 발생한 극단적인 기후 현상들을 다룹니다. 인간의 영향 없이는 발생하기 힘든 '불가능한 수준의 폭염'과 전 세계 해양 온도의 사상 최고치 기록을 분석합니다. 또한 기후 변화가 지구 오존층에 미치는 복합적인 영향에 대한 최신 연구 결과를 소개합니다.</p><h3>주요 포인트</h3><ul><li>인간 활동에 의한 기후 변화가 없었다면 발생할 수 없었던 극단적인 폭염 현상 분석</li><li>전 세계 해양 표면 온도가 역대 최고치를 기록하며 해양 생태계에 미치는 위협 경고</li><li>기후 변화가 대기 순환에 영향을 미쳐 오존층 회복 경로를 변화시키는 메커니즘 규명</li></ul><p>원문: <a href="https://www.carbonbrief.org/cited-7-july-2026-impossible-heat-global-ocean-record-climate-change-and-the-ozone-hole/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1109,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '퍼미라, 에너지 전환 컨설팅 기업 콰드란테 투자',
+      author: '관리자',
+      date: '2026.07.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 사모펀드 퍼미라(Permira)가 에너지 전환 및 지속가능한 인프라 전문 엔지니어링 컨설팅 기업인 콰드란테(Quadrante)에 전략적 투자를 단행했습니다. 이번 투자는 퍼미라의 기후 전환 전략의 일환으로, 콰드란테의 글로벌 시장 확장과 서비스 다각화를 지원하기 위해 추진되었습니다. 콰드란테는 신재생에너지, 수자원, 친환경 교통 등 기후 변화 대응에 필수적인 인프라 솔루션을 제공하는 기업입니다. 양사는 이번 파트너십을 통해 유기적 성장과 더불어 적극적인 인수합병(M&A)을 추진하여 시장 지배력을 강화할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>퍼미라의 전략적 투자:</strong> 글로벌 투자사 퍼미라가 기후 및 에너지 전환 분야의 포트폴리오 강화를 위해 콰드란테에 투자를 결정했습니다.</li><li><strong>친환경 인프라 전문성:</strong> 콰드란테는 신재생에너지, 지속가능한 교통, 수자원 관리 등 친환경 인프라 엔지니어링 분야에서 강력한 입지를 보유하고 있습니다.</li><li><strong>글로벌 확장 및 M&A 가속화:</strong> 이번 투자 파트너십을 통해 유럽 및 미주 시장으로의 영토 확장과 추가적인 기술 기업 인수를 적극 추진할 예정입니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/permira-invests-in-energy-transition-and-infrastructure-focused-consulting-firm-quadrante/?utm_source=rss&utm_medium=rss&utm_campaign=permira-invests-in-energy-transition-and-infrastructure-focused-consulting-firm-quadrante" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1110,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '1.5°C 온난화 방지를 위한 탄소 감축의 시급성',
+      author: '관리자',
+      date: '2026.07.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지구 온난화를 1.5°C 이내로 제한하기 위해서는 올해부터 2030년까지 매년 온실가스 배출량을 7.6%씩 감축해야 합니다. 만약 10년 전에 각국 정부가 과학적 경고에 따라 기후 행동에 나섰다면 매년 3.3%의 감축만으로도 충분했을 것입니다. 기후 행동을 미룰수록 배출량 감축에 따르는 비용과 사회적 비용은 기하급수적으로 증가하게 됩니다. 연구원들은 개인이 기후 행동을 최적화할 수 있도록 돕는 연구 결과를 제시하고 있습니다.</p><h3>주요 포인트</h3><ul><li>1.5°C 목표 달성을 위해 2030년까지 매년 7.6%의 탄소 배출 감축 필요</li><li>기후 행동 지연으로 인해 10년 전(연간 3.3%)보다 감축 요구치와 비용이 대폭 상승</li><li>효과적인 기후 행동을 최적화하기 위한 연구 기반의 가이드 제시</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1upu105/to_prevent_warming_beyond_15c_we_need_to_reduce/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1111,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '진전과 격차: 제10회 에코바디스 지속가능성 지수',
+      author: '관리자',
+      date: '2026.07.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에코바디스(EcoVadis)가 발표한 제10회 지속가능성 평가 지수는 글로벌 기업들의 ESG 성과가 지속적이고 실질적인 진전을 이루었음을 보여줍니다. 많은 기업들이 지속가능성 네트워크에 동참하며 성과를 높여가고 있습니다. 하지만 이러한 긍정적인 흐름 뒤에는 여전히 대다수의 기업들이 갈 길이 멀다는 격차의 현실이 존재합니다.</p><h3>주요 포인트</h3><ul><li>글로벌 기업들의 지속가능성 성과가 지속적이고 실질적인 진전을 보이고 있습니다.</li><li>네트워크의 전반적인 성장과 성과 향상은 고무적이지만, 기업 간의 격차는 여전히 존재합니다.</li><li>대다수의 기업들이 글로벌 지속가능성 목표를 달성하기 위해 앞으로 더 많은 노력을 기울여야 합니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/10th-edition-ecovadis-sustainability-ratings-index/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1102,
       pinned: false,
       category: 'news', categoryName: '소식',
