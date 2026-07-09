@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1112,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '퀘이즈 에너지, 초고온 지열 발전 위해 1.34억 달러 유치',
+      author: '관리자',
+      date: '2026.07.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지열 에너지 기술 기업인 퀘이즈 에너지(Quaise Energy)가 세계 최초의 초고온 지열 발전소 건설을 위해 총 1억 3,400만 달러의 투자금을 유치했습니다. 퀘이즈 에너지는 밀리미터파 기술을 활용해 지하 20km 깊이까지 시추하여 500°C 이상의 초고온 지열 에너지를 확보하는 혁신적인 기술을 개발 중입니다. 이번에 확보한 재원은 시추 기술의 실증을 가속화하고 기존 화력 발전소 인프라를 청정 지열 발전소로 전환하는 데 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li><strong>1억 3,400만 달러 투자 유치:</strong> 세계 최초의 초고온 지열 발전소 건설 및 기술 상용화를 위한 대규모 자금 확보에 성공했습니다.</li><li><strong>혁신적인 밀리미터파 시추:</strong> 기존 물리적 드릴의 한계를 넘어 밀리미터파 에너지를 이용해 지구 깊숙한 곳의 초고온 암석층까지 도달합니다.</li><li><strong>화력 발전소의 청정 전환:</strong> 기존 석탄 및 가스 발전소의 터빈과 전력망 인프라를 그대로 활용하여 빠르고 경제적인 에너지 전환이 가능합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/quaise-energy-raises-134-million-to-build-first-ever-superhot-geothermal-power-plant/?utm_source=rss&utm_medium=rss&utm_campaign=quaise-energy-raises-134-million-to-build-first-ever-superhot-geothermal-power-plant" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1113,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '플라스틱 라임 주스 병 재사용 방법은?',
+      author: '관리자',
+      date: '2026.07.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한 누리꾼이 파트너가 무알코올 칵테일을 자주 마시면서 발생하는 플라스틱 라임 주스 병의 재활용 방법을 문의했습니다. 작성자는 이 병들을 그냥 버리지 않고 환경을 위해 재사용할 수 있는 실용적인 아이디어를 찾고 있습니다. 여행용 화장품 용기로 사용하는 방법 외에도 일상생활에서 실천할 수 있는 다양한 친환경 재사용 방안에 대해 커뮤니티의 조언을 구하고 있습니다.</p><h3>주요 포인트</h3><ul><li>라임 주스 소비로 인해 지속적으로 발생하는 플라스틱 스퀴즈 병의 처리 고민</li><li>쓰레기를 줄이고 자원을 재활용하기 위한 친환경적 관점의 질문</li><li>여행용 용기 등 일상 속 실용적인 재사용 아이디어 모색</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1uqhnct/what_can_i_reuse_these_for/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1114,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '트락시온, 에코바디스 지속가능성 인증 획득',
+      author: '관리자',
+      date: '2026.07.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>멕시코의 선도적인 물류 및 운송 기업인 트락시온(Traxión)이 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 지속가능성 인증을 획득했습니다. 이번 인증은 트락시온이 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다양한 ESG 분야에서 우수한 성과를 거두었음을 입증합니다. 트락시온은 이번 성과를 바탕으로 공급망 전반의 지속가능성을 강화하고 글로벌 ESG 표준에 부합하는 경영을 지속할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>에코바디스 인증 획득:</strong> 글로벌 신뢰도를 자랑하는 에코바디스 평가에서 지속가능성 성과를 공식 인정받았습니다.</li><li><strong>종합적인 ESG 성과 입증:</strong> 환경 보호, 노동 및 인권, 기업 윤리, 지속가능한 조달 등 핵심 평가 항목에서 우수한 점수를 기록했습니다.</li><li><strong>물류 업계 ESG 선도:</strong> 이번 인증을 통해 멕시코 물류 및 운송 산업 내에서 지속가능 경영의 선두 주자로서의 입지를 확고히 했습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNVU94ajMyS1hVZ29GdzBjekNqaWdFaEhKTGozeHpMQUc3OWtRVFNrM1BOZFg1Z2RsZE1TOFVDZEhMRmhEaGJlUlN3d2I0ZUNVbHF4SVJCc01PUnltM1lpb05KaEdkQXZmZ0hUSW5UUjk4SGtjZ3Fhelg4MmNnRGZMaktLaFg2X2VTbklrUw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1115,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '통영상공회의소, 중대재해처벌법 순회교육 실시',
+      author: '관리자',
+      date: '2026.07.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>통영상공회의소는 지역 내 기업들을 대상으로 '중대재해처벌법 전국상의 순회교육'을 진행했습니다. 이번 교육은 중대재해처벌법이 5인 이상 50인 미만 사업장으로 확대 적용됨에 따라, 관내 중소기업들의 대응 능력을 강화하기 위해 마련되었습니다. 설명회에서는 법안의 핵심 내용과 기업이 이행해야 할 안전보건관리체계 구축 방안 등이 상세히 다뤄졌습니다. 이를 통해 지역 기업들이 법적 리스크를 최소화하고 자율적인 예방 체계를 구축하는 데 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>5인 이상 사업장으로 확대된 중대재해처벌법에 대한 선제적 대응 지원</li><li>안전보건관리체계 구축 및 의무 이행 사항에 대한 구체적 가이드라인 제시</li><li>지역 중소기업의 안전보건 관리 역량 강화 및 안전한 근로 환경 조성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE4ydEdSVUhqcVVlTmRwTWpkcXlYbGF6QkxXbEk4R1VrVkMzUDVJM29tNkt1U1VRVEdMX0VDNV9jcmdfc1VUaS1ucnVhU2hEU2UtbFBocWxYVzBMOHJ2VTltU1lsclpZanBVM3RjMW5B?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1116,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '청색 경제 가속화 속 연안 공동체 혜택 보장해야',
+      author: '관리자',
+      date: '2026.07.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>몸바사에서 열린 '우리 해양 콘퍼런스(Our Ocean Conference)'에서 환경 및 시민사회 활동가들은 정부가 일자리 창출, 경제 성장, 기후 변화 해결을 위해 해양 개발에 집중하는 과정에서 연안 공동체가 소외되어서는 안 된다고 경고했습니다. 해양 자원을 활용하는 '청색 경제(Blue Economy)'가 급성장하고 있으나, 정작 현지 주민들은 개발 이익에서 배제되고 생계 위협을 받을 수 있다는 우려가 커지고 있습니다. 이에 따라 향후 해양 보존 및 개발 프로젝트는 지역 사회의 목소리를 반영하고 공정한 혜택 분배를 보장하는 방향으로 추진되어야 한다는 목소리가 힘을 얻고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>청색 경제의 급성장:</strong> 기후 솔루션과 경제 성장을 위해 해양 자원을 활용하려는 정부와 기업의 움직임이 빨라지고 있습니다.</li><li><strong>연안 주민 소외 우려:</strong> 대규모 해양 개발 및 보존 사업이 어민 등 현지 주민들의 삶의 터전을 위협하거나 이들을 배제할 위험이 있습니다.</li><li><strong>포용적 금융 및 정책 필요성:</strong> 해양 관련 재정 지원과 정책 수립 시 지역 공동체의 참여를 보장하고 실질적인 혜택이 돌아가도록 해야 합니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/08/blue-economy-coastal-communities-mombasa-ocean-finance/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1107,
       pinned: false,
       category: 'news', categoryName: '소식',
