@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1117,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '알테오젠, ISO 14001·45001 인증 획득',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>바이오기업 알테오젠이 국제표준화기구(ISO)로부터 환경경영시스템(ISO 14001) 및 안전보건경영시스템(ISO 45001) 인증을 동시에 획득했습니다. 이번 인증은 알테오젠이 글로벌 기준에 부합하는 환경 및 안전보건 거버넌스를 성공적으로 구축했음을 공식 인정받은 결과입니다. 이를 통해 회사는 ESG(환경·사회·지배구조) 경영을 한층 강화하고, 글로벌 파트너사들과의 신뢰 관계를 더욱 공고히 할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>국제 표준 인증 동시 획득:</strong> 환경경영(ISO 14001)과 안전보건경영(ISO 45001) 인증을 모두 확보하며 글로벌 수준의 관리 체계를 입증했습니다.</li><li><strong>ESG 거버넌스 구축:</strong> 친환경 경영 실천과 사업장 내 안전사고 예방을 위한 체계적인 시스템을 마련하여 지속가능경영 기반을 강화했습니다.</li><li><strong>글로벌 경쟁력 제고:</strong> 글로벌 제약사들이 요구하는 엄격한 환경·안전 기준을 충족함으로써 해외 시장에서의 비즈니스 신뢰도를 높였습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBDZmdxdlRRR3RfNHRJMG1mNFZVQWhoNXRUcEJXRXZPdG11NUhtVy1vcnFPZHkwaHhuZUNJYmFTRXFtMWVBeldqZno3OVlCY2ZpQkE3VFdyUnI4NGJXZW42TFBCQWVXY0R6TEV3VdIBcEFVX3lxTE9pdXJyMl9jc3o2WmlQWktlOGotTmp5NUN1UkZ4OTZIYTU5cUNVd3VxZDBZSVhSeE52ZHhQNGtXcmczVXhxTVh0Q0trR2gxNkRybVdkQUtKMVc4WUZDUzRfODI1RU9rZFdTTVNPT3E2G4Q?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1118,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 정의 실현 위해 \'손실과 피해 기금\' 재원 대폭 늘려야',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 정의를 실현하기 위해 신설된 '손실과 피해 기금(Loss and Damage Fund)'에 훨씬 더 많은 재원 조달이 필요하다는 지적이 제기되었습니다. 이 기금은 기후 변화로 인해 가장 큰 타격을 입은 취약국과 지역사회를 지원하기 위해 마련되었습니다. 기금이 실질적인 효과를 내기 위해서는 취약한 공동체가 재난으로부터 스스로 회복할 수 있도록 보조금에 직접 접근할 수 있는 경로를 제공해야 합니다.</p><h3>주요 포인트</h3><ul><li>기후 정의 실현을 위한 '손실과 피해 기금'의 대규모 재원 확충 필요성</li><li>취약 지역사회가 재난 복구를 위해 보조금에 직접 접근할 수 있는 메커니즘 구축 요구</li><li>기후 취약국들의 실질적인 피해 회복을 돕기 위한 기금 운영 방식의 개선 필요성</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/09/the-loss-and-damage-fund-needs-far-more-finance-to-deliver-climate-justice/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1119,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '플리크, AI로 중고 패션 시장 키운다…2,500만 달러 유치',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>순환 패션 마켓플레이스 스타트업 플리크(Fleek)가 AI 기술을 활용해 중고 의류 시장을 확장하기 위해 2,500만 달러(약 330억 원) 규모의 시리즈 A 투자 유치를 완료했습니다. 플리크는 전 세계 도매업체와 소매업체를 연결하여 중고 및 빈티지 의류의 공급망을 혁신하는 B2B 플랫폼입니다. 이번 투자금은 AI 기반의 상품 분류, 검색 및 매칭 시스템을 고도화하고 글로벌 공급망을 강화하는 데 사용될 예정입니다. 이를 통해 패션 산업의 고질적인 폐기물 문제를 해결하고 의류 재사용을 촉진하는 순환 경제 구축에 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>대규모 투자 유치:</strong> 세쿼이아 캐피탈(Sequoia Capital)이 주도한 이번 라운드를 통해 총 2,500만 달러의 자금을 확보했습니다.</li><li><strong>AI 기술을 통한 공급망 혁신:</strong> 비표준화된 중고 의류 데이터를 AI로 분석 및 표준화하여 도소매업자 간의 거래 효율성을 극대화합니다.</li><li><strong>지속 가능한 순환 패션 촉진:</strong> 중고 의류 유통 과정을 체계화함으로써 패션 산업의 탄소 발자국을 줄이고 자원 순환을 활성화합니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/fleek-raises-25-million-to-help-scale-the-second-hand-fashion-market-with-ai/?utm_source=rss&utm_medium=rss&utm_campaign=fleek-raises-25-million-to-help-scale-the-second-hand-fashion-market-with-ai" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1120,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 브리핑: 광시 홍수와 아름다운 중국 계획',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 기사는 중국 광시 지역의 심각한 홍수 피해와 기후 변화의 연관성을 조명합니다. 이와 함께 중국의 중장기 환경 및 기후 로드맵인 '아름다운 중국' 계획의 구체적인 실행 방안을 다룹니다. 또한, 기후 대응 및 녹색 전환을 촉진하기 위해 새롭게 구축된 EU와 중국 간의 협력 메커니즘에 대한 분석을 제공합니다.</p><h3>주요 포인트</h3><ul><li><strong>광시성 극단적 홍수:</strong> 중국 광시 지역에 발생한 기록적인 폭우와 홍수는 기후 변화로 인해 더욱 빈번하고 강력해진 극단적 기상 현상의 단면을 보여줍니다.</li><li><strong>'아름다운 중국' 이행 계획:</strong> 중국 정부는 탄소 배출 저감, 생태계 복원, 친환경 산업 육성을 골자로 하는 국가적 환경 개선 프로젝트를 본격화하고 있습니다.</li><li><strong>EU-중국 기후 협력 메커니즘:</strong> 양측은 탄소 국경 조정 제도(CBAM) 등 통상 마찰 속에서도 기후 변화 대응과 지속 가능한 발전을 위한 새로운 소통 및 협력 채널을 마련했습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/china-briefing-9-july-2026-guangxi-floods-beautiful-china-plan-new-eu-china-mechanism/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1121,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 정책 촉진을 위한 대화의 힘과 무료 교육',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화에 대응하고 관련 정책을 촉진하기 위해 개인이 할 수 있는 가장 영향력 있는 행동 중 하나는 일상에서 기후 정책에 대해 이야기하는 것입니다. 시민기후로비(Citizens' Climate Lobby, CCL)는 이러한 대화를 보다 건설적이고 효과적으로 이끌 수 있도록 돕는 무료 소통 기술 교육 프로그램을 제공하고 있습니다. 이 교육 과정은 바쁜 현대인들을 위해 짧고 강력하며 이해하기 쉬운 형태로 구성되어 있어 누구나 쉽게 참여할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>기후 정책 홍보를 위한 일상적 대화의 중요성 강조</li><li>시민기후로비(CCL)가 제공하는 무료 소통 기술 교육 프로그램 소개</li><li>짧고 직관적이며 실용적인 교육 콘텐츠 구성으로 접근성 극대화</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1urpal9/one_of_the_most_important_things_you_can_do_to/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1112,
       pinned: false,
       category: 'news', categoryName: '소식',
