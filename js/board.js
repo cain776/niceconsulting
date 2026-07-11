@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1122,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ROSEN 유럽, 에코바디스 ESG 골드 메달 획득',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>ROSEN 그룹의 유럽 법인인 ROSEN Europe B.V.가 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 골드 메달을 획득했습니다. 이번 수상은 회사가 환경, 노동 및 인권, 윤리, 지속가능한 조달 분야에서 지속적으로 추진해 온 ESG 경영의 성과를 인정받은 결과입니다. ROSEN Europe은 이번 평가에서 평가 대상 기업 중 상위 5% 이내에 진입하며 우수한 지속가능성 역량을 입증했습니다.</p><h3>주요 포인트</h3><ul><li><strong>상위 5% 골드 등급 달성</strong>: 글로벌 ESG 평가 기관 에코바디스로부터 상위 5% 기업에게 주어지는 골드 메달을 획득했습니다.</li><li><strong>4대 핵심 분야 평가</strong>: 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 전 분야에서 고르게 우수한 성적을 거두었습니다.</li><li><strong>지속가능 경영 가속화</strong>: 이번 성과를 발판 삼아 향후 탄소 배출 저감 및 공급망 전반의 투명성 강화를 지속적으로 추진할 계획입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVXkwdFNMeDdDZ09fOW8xUTVkZ2Q1MUU4SThBODRrMHJ6X0RUZDVzWDJIYS1DdTloV05DNTJiNVphQUItbkl3NTZzWks5cmlRaVlIQlFVdVIzV2E2aE9sMXBnYmFmd1VmQXdFdWRVSnRVQkxoekQ2MTNxYTJOMUhOY2k4SWlKWW1iUU9hMkozR29SWXpvY2RVY0dMYXdtV1ZIUENTRnVMWkw5ajhqTU5Eek9YblVPUW1BQ1VkNmE4NFR1d2ViU1Y5ajBOcWQ5aUV6b19NWlBkNUdLeWh3OTBUT0xraFA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1123,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '울산 AI 기업들, 국제표준 ISO 42001 인증 잇단 획득',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>울산 지역의 인공지능(AI) 전문 기업들이 세계 최초의 AI 경영시스템 국제표준인 'ISO/IEC 42001' 인증을 잇달아 획득하며 기술 신뢰성을 입증하고 있습니다. 이번 인증은 기업들이 AI 제품 및 서비스를 개발하고 운영하는 과정에서 안전성, 투명성, 윤리적 책임을 체계적으로 관리하고 있음을 보여줍니다. 이를 통해 울산 AI 기업들은 글로벌 규제에 선제적으로 대응하고, ESG 경영의 핵심 요소인 AI 거버넌스 체계를 한층 강화하게 되었습니다.</p><h3>주요 포인트</h3><ul><li>ISO/IEC 42001은 AI 시스템의 부작용을 방지하고 리스크를 체계적으로 관리하기 위해 제정된 글로벌 표준입니다.</li><li>울산 내 AI 기업들의 인증 획득은 지역 산업 전반의 디지털 전환과 신뢰할 수 있는 AI 생태계 조성에 기여할 것입니다.</li><li>글로벌 시장 진출을 위한 필수 관문을 통과함으로써, 기업들의 대외 경쟁력과 ESG 책임 경영이 더욱 부각될 전망입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE8wbEdaNHhKUk0wdHVscUh1TEFkdHFhbnMxUm5YZVplZGFhTHc5RDJqTndRR3NPU3g4YVdaQVdjZ2xQVjlITDBQa2RRUGlJc2w2c1RqaVg2NHY0TDlDcHlBNHlpdVhLQTRvOW9JNEo1RnU3RE13TlA0aNIBeEFVX3lxTE8wbEdaNHhKUk0wdHVscUh1TEFkdHFhbnMxUm5YZVplZGFhTHc5RDJqTndRR3NPU3g4YVdaQVdjZ2xQVjlITDBQa2RRUGlJc2w2c1RqaVg2NHY0TDlDcHlBNHlpdVhLQTRvOW9JNEo1RnU3RE13TlA0aA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1124,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '동일고무벨트, 에코바디스 ESG \'플래티넘\' 3년 연속 획득',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>동일고무벨트(DRB)가 글로벌 ESG 평가기관인 에코바디스(EcoVadis)의 2024년 평가에서 최고 등급인 '플래티넘(Platinum)'을 3년 연속 획득했습니다. 에코바디스는 전 세계 180여 개국, 13만 개 이상의 기업을 대상으로 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 평가합니다. 동일고무벨트는 이번 평가를 통해 글로벌 상위 1% 이내의 초우량 ESG 기업임을 다시 한번 입증했습니다.</p><h3>주요 포인트</h3><ul><li><strong>3년 연속 플래티넘 달성:</strong> 글로벌 ESG 평가에서 상위 1% 기업에게만 부여되는 최고 등급을 3년 연속 유지하며 우수한 ESG 경영을 입증했습니다.</li><li><strong>전 분야 고른 우수성:</strong> 환경, 노동·인권, 윤리, 지속가능한 조달 등 에코바디스의 주요 평가 항목 전반에서 높은 점수를 받았습니다.</li><li><strong>글로벌 경쟁력 강화:</strong> 이번 성과를 바탕으로 글로벌 공급망 내에서의 신뢰도를 높이고 해외 시장 공략을 더욱 가속화할 전망입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5lSzdJcFBwSUlfTmNUa2JieUNwSldOQl9GaGlmTGVHYVg5MW1VYlFPdXBMcTdHei1TY0oyZzJnVUhvU0tTLVgzYXo1NTlGRWc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1125,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '스코츠 미라클그로, 공급망 AI 파트너십 확대',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 대표적인 잔디 및 정원 관리 브랜드인 스코츠 미라클그로(Scotts Miracle-Gro)가 공급망 소프트웨어 기업 키낙시스(Kinaxis)와의 파트너십을 확대합니다. 이번 협력을 통해 스코츠 미라클그로는 AI 기반 기술을 도입하여 공급망 계획, 의사결정, 실행 과정을 단일 플랫폼으로 통합할 예정입니다. 이를 통해 기후 변화와 시장 수요 변동에 신속하게 대응하고, 공급망 전반의 운영 효율성을 극대화하여 지속가능한 경영을 강화하고자 합니다.</p><h3>주요 포인트</h3><ul><li><strong>통합 플랫폼 구축:</strong> 키낙시스의 AI 기술을 활용해 공급망 계획부터 실행까지의 전 과정을 단일 플랫폼으로 일원화하여 관리합니다.</li><li><strong>리스크 대응력 강화:</strong> 기후 변화 및 계절적 수요 변동에 따른 공급망 병목 현상을 실시간으로 예측하고 선제적으로 대응합니다.</li><li><strong>친환경 공급망 실현:</strong> 자원 낭비를 줄이고 물류 경로를 최적화함으로써 탄소 배출을 감축하는 등 ESG 관점의 효율성을 제고합니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/scotts-miracle-gro-widens-tech-partnership-for-supply-chain-ai/824764/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1126,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'COP31 의장 "전기화가 시민 보호하는 가장 확실한 방법"',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>COP31 의장 지명자인 무라트 쿠룸(Murat Kurum)은 인터뷰를 통해 '전기화(electrification)'가 기후 변화로부터 인류를 보호하고 에너지 안보를 확보하는 가장 확실한 방법이라고 강조했습니다. 그는 전 세계 최종 에너지 소비 중 전력 비중을 35%까지 높이겠다는 목표를 제시하며 글로벌 에너지 전환의 필요성을 역설했습니다. 이번 인터뷰는 COP31 유치를 추진하는 터키의 기후 비전과 구체적인 실행 계획을 담고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>전기화의 시민 보호 효과:</strong> 무라트 쿠룸 의장은 전기화가 탄소 배출 감축뿐만 아니라 기후 위기로부터 시민의 삶을 지키는 가장 안전한 경로라고 밝혔습니다.</li><li><strong>글로벌 전력 비중 35% 목표:</strong> 전 세계 최종 에너지 소비에서 전력이 차지하는 비중을 35%로 확대하기 위한 구체적인 목표를 제안했습니다.</li><li><strong>터키의 COP31 유치 및 리더십:</strong> 터키는 COP31 개최를 통해 선진국과 개발도상국 간의 가교 역할을 하며 글로벌 기후 행동을 주도하겠다는 포부를 전했습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1117,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
