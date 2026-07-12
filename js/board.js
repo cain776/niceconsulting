@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1127,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국, 스마트제조 국제표준화 간사국 수임…논의 주도',
+      author: '관리자',
+      date: '2026.07.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>산업통상자원부 국가기술표준원은 우리나라가 스마트제조 분야의 국제표준을 제정하는 국제표준화기구(ISO/IEC) 기술위원회의 간사국으로 선임되었다고 밝혔습니다. 이번 간사국 수임을 통해 한국은 스마트제조 기술의 국제표준화 논의를 주도할 수 있는 발판을 마련했습니다. 특히 국내 기업의 스마트공장 및 제조 혁신 기술이 국제표준으로 채택될 가능성이 높아져 글로벌 시장 경쟁력이 크게 강화될 것으로 기대됩니다. 정부는 향후 디지털 전환과 친환경 제조 환경 구축을 위한 표준화 활동을 적극 지원할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>국제표준화 주도권 확보</strong>: 한국이 스마트제조 국제표준화 위원회 간사국으로 선임되어 관련 논의를 직접 이끌게 되었습니다.</li><li><strong>국내 기술의 글로벌 영토 확장</strong>: 국내 스마트제조 및 디지털 트윈 기술의 국제표준 반영이 용이해져 우리 기업의 해외 진출에 유리한 고지를 선점했습니다.</li><li><strong>친환경·디지털 제조 혁신 가속화</strong>: ESG 경영 흐름에 발맞추어 탄소 배출 저감 및 자원 효율화를 위한 스마트제조 표준 생태계 조성을 추진합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPbnQyY0NObXp5NTFQOVRnYzJPTFZRbGZPck1sV3EyWVhadUk0R3Nha3U0WFVBalRiTEc1S3JJNW9tRTdvN19aRWloWmZaS1p4NElmTTkzRmRzcDBPUjZF?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1128,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '화일약품 중대재해법 판결과 \'47분의 교훈\'',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지난 2022년 9월 화일약품 화성공장에서 발생한 폭발·화재 사고와 관련하여 법원이 중대재해처벌법 위반 혐의로 기소된 대표이사에게 유죄 판결을 선고했습니다. 재판부는 유기용제 누출이 감지된 후 폭발이 발생하기까지 약 47분 동안 작업 중단이나 대피 명령 등 적절한 안전 조치가 취해지지 않은 점을 지적했습니다. 이번 판결은 기업의 실질적인 안전보건 관리체계 구축과 비상 상황 대응 매뉴얼 작동의 중요성을 강력히 경고하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>골든타임 47분의 방치</strong>: 가스 누출 인지 후 폭발까지 47분간 대피 지시가 없어 인명 피해를 키웠습니다.</li><li><strong>경영책임자 처벌</strong>: 법원은 안전보건 확보 의무를 소홀히 한 대표이사에게 징역 1년 6개월에 집행유예 3년을 선고했습니다.</li><li><strong>ESG 안전 경영의 시사점</strong>: 형식적인 매뉴얼 마련에 그치지 않고, 실제 위기 상황에서 작동할 수 있는 안전 시스템 구축이 필수적임을 보여줍니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBIR1FQSHMyd3lrRk9CYWRyMDl6OXlFN0l1dUQ3OHVkdVBSV09JamZoQlh1MHhuUWhnRVpEXzAyaHlvTDF2UkFxUWN5NVJ1X1BVdmdDaktCZWhNV1otM05oX0V1eVJBcDR5ajJ3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1129,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '생활임금 도입의 실제와 공급망 변화',
+      author: '관리자',
+      date: '2026.07.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망에서 생활임금(Living Wage) 도입은 단순한 윤리적 의무를 넘어 비즈니스의 지속가능성과 회복탄력성을 강화하는 핵심 전략으로 자리잡고 있습니다. 에코바디스 커뮤니티의 실천 사례에 따르면, 생활임금 보장은 근로자의 삶의 질을 향상시킬 뿐만 아니라 협력사의 이직률을 낮추고 생산성을 높이는 데 기여합니다. 기업들은 이를 통해 공급망 내 공정한 보상 체계를 구축하고 ESG 경영 성과를 한 단계 더 끌어올릴 수 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>비즈니스 회복탄력성 강화:</strong> 생활임금 지급은 공급망의 안정성을 높이고 외부 리스크에 대한 대응력을 강화합니다.</li><li><strong>협력사 이직률 감소 및 생산성 향상:</strong> 공정한 보상은 근로자의 이직률을 낮추고 업무 몰입도를 높여 궁극적으로 제품 및 서비스의 품질을 향상시킵니다.</li><li><strong>글로벌 공급망의 공정성 확보:</strong> 다국적 기업들이 공급망 전반에 걸쳐 공정한 임금 기준을 확립함으로써 사회적 책임을 다하고 브랜드 가치를 제고할 수 있습니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/living-wage-implementation-in-practice/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1130,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '유니루민, 에코바디스 ESG 실버 메달 획득',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 LED 디스플레이 선도 기업 유니루민(Unilumin)이 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 실버 메달을 획득했습니다. 유니루민은 이번 평가에서 전 세계 평가 대상 기업 중 상위 6%에 해당하는 우수한 성적을 거두었습니다. 회사는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 평가 항목에서 높은 점수를 받으며 ESG 경영 성과를 입증했습니다. 이번 수상은 유니루민이 친환경 제조 및 지속가능한 발전을 위해 지속적으로 노력해 온 결과입니다.</p><h3>주요 포인트</h3><ul><li><strong>글로벌 상위 6% 달성</strong>: 에코바디스 지속가능성 평가에서 실버 메달을 획득하며 글로벌 상위 6% 기업으로 인정받았습니다.</li><li><strong>종합적인 ESG 성과 인정</strong>: 환경 보호, 노동 및 인권, 기업 윤리, 지속가능한 조달 등 다방면에서 우수한 평가를 받았습니다.</li><li><strong>친환경 및 지속가능 경영 강화</strong>: 저탄소 녹색 제조 공정 도입 및 지속가능한 공급망 구축을 통해 글로벌 ESG 표준을 선도하고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiggJBVV95cUxQY2tCRFpEZmhZNTlHdmNLeGsxNklFcWpqMVRaX1Fab0RCcm1EcnlOMURRN1l5Vjk4TFdDaTJ5YzRnX3NWbmFJRVkzcWhNTC1JN0RpLXJnVG9rNlRsM2VMQ1dVWGtEWmowSXZjTGJfczdDYmxad1ZXZENiY25KRF9Jb0ZnX0poMWVwNjE3SFluVFRxa0E1bVM3cEQ1Mkd1UEpFcGtkRnFIUEExZWxvN1hHSFhFNmMyR1M0X3dzT0JJNTZlSDBRLU9DZThJV2dZS29xbGJSWkpSSUlDeG9pa29PM2RoYUZhRTkwaFFxNGFfSG1xRHVMcGw4TU1DZlhsLXkxZGc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1131,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '재원 부족 직면한 \'손실 및 피해 기금\', 첫 프로젝트 승인 지연',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후변화 피해 지원을 위해 신설된 '손실 및 피해 대응 기금'이 첫 프로젝트 승인을 연기했습니다. 기금의 한정된 재원에 비해 지원을 요청하는 수요가 압도적으로 많아 이사회가 신중한 선택을 위해 시간을 더 갖기로 결정한 것입니다. 기후 취약국들의 피해 규모는 급증하고 있으나 현재 확보된 기금은 턱없이 부족한 실정이며, 이에 따라 효율적인 배분 방식과 추가 재원 마련이 시급한 과제로 떠올랐습니다.</p><h3>주요 포인트</h3><ul><li><strong>지원 요청 폭주:</strong> 한정된 기금 재원에 비해 압도적으로 많은 초기 지원 요청이 몰리면서 첫 프로젝트 선정이 지연되었습니다.</li><li><strong>심각한 재원 부족:</strong> 기후 취약국들이 겪는 실제 손실 및 피해 규모에 비해 현재 기금이 보유한 재원은 매우 미미한 수준입니다.</li><li><strong>이사회의 신중한 접근:</strong> 이사회는 첫 지원 대상을 보다 공정하고 효과적으로 선정하기 위해 심사 기간을 연장하기로 결정했습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/10/loss-and-damage-fund-delays-first-project-approvals-as-needs-dwarf-resources/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1122,
       pinned: false,
       category: 'news', categoryName: '소식',
