@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1132,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전기차 2년간의 발전, 내연기관차 10년보다 빨랐다',
+      author: '관리자',
+      date: '2026.07.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 2년간 전기차(EV) 분야에서 이루어진 기술적 발전이 지난 10년 동안 내연기관차가 이뤄낸 변화보다 훨씬 더 빠르고 혁신적이라는 평가가 나왔습니다. 전기차는 배터리 효율성, 충전 속도, 소프트웨어 통합 등 다양한 측면에서 급격한 성장을 거듭하고 있습니다. 이러한 빠른 기술 혁신은 친환경 모빌리티로의 전환을 가속화하고 기후 변화 대응에 기여하고 있습니다. 이는 지속 가능한 교통수단으로서 전기차의 미래가 매우 밝음을 시사합니다.</p><h3>주요 포인트</h3><ul><li><strong>압도적인 기술 발전 속도:</strong> 지난 10년간의 내연기관차 발전보다 최근 2년간의 전기차 기술 혁신 속도가 훨씬 더 빠릅니다.</li><li><strong>핵심 성능의 향상:</strong> 주행 거리 연장, 충전 시간 단축, 차량 내 소프트웨어 개선 등 실질적인 사용자 경험이 크게 향상되었습니다.</li><li><strong>지속 가능성 가속화:</strong> 전기차 기술의 급격한 발전은 탄소 배출 감소와 친환경 에너지 전환을 더욱 앞당기고 있습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1uuow73/ive_seen_more_improvement_in_two_years_of/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1133,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽 폭염, EU 전력화 유출 및 COP31 인터뷰',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 카본 브리프(Carbon Brief)의 디브리프(DeBriefed)는 기후 변화와 관련된 글로벌 주요 이슈들을 다룹니다. 유럽 전역을 덮친 치명적인 폭염의 영향과 피해 상황을 분석합니다. 또한, EU의 향후 에너지 전환 방향을 담은 전력화 계획 유출 문서의 핵심 내용을 소개합니다. 마지막으로, 다가오는 COP31 의장과의 단독 인터뷰를 통해 향후 국제 기후 협상의 방향성을 전망합니다.</p><h3>주요 포인트</h3><ul><li>유럽을 강타한 기록적인 폭염과 이로 인한 인명 피해 및 기후 위기의 심각성 고조</li><li>유출된 EU 문서를 통해 드러난 유럽 연합의 탈탄소화 및 전력화(Electrification) 가속화 전략</li><li>COP31 의장 인터뷰를 통해 본 글로벌 기후 재원 마련 및 국가별 감축 목표(NDC) 달성 방안</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-10-july-2026-deadly-europe-heat-eu-electrification-leak-cop31-president-interview/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1134,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU CSRD 및 자발적 지속가능성 공시 표준 채택',
+      author: '관리자',
+      date: '2026.07.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회(EU Commission)가 기업지속가능성보고지침(CSRD)에 따른 최종 지속가능성 공시 표준(ESRS)과 비상장 중소기업(SME)을 위한 자발적 보고 표준을 채택했습니다. 이번 조치는 기업들의 ESG 공시 부담을 완화하는 동시에 투명성을 높이기 위한 일환으로 마련되었습니다. 이에 따라 대상 기업들은 향후 강화된 기준에 맞춰 ESG 정보를 의무적으로 공개해야 합니다.</p><h3>주요 포인트</h3><ul><li><strong>EU CSRD 최종 표준 채택:</strong> EU 집행위가 CSRD 적용 기업들이 사용할 최종 유럽 지속가능성 공시 표준(ESRS)을 공식 채택했습니다.</li><li><strong>중소기업 자발적 표준 마련:</strong> 비상장 중소기업의 규제 대응을 돕기 위한 자발적 지속가능성 보고 표준이 도입되었습니다.</li><li><strong>글로벌 ESG 규제 본격화:</strong> 유럽을 시작으로 ESG 공시의 표준화 및 의무화가 본격화되면서 기업들의 철저한 대비가 요구됩니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-269/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-269" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1135,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '보성군, 중대재해처벌법 실무교육 강화로 안전 일터 조성',
+      author: '관리자',
+      date: '2026.07.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>보성군은 소속 공무원 및 현업 근로자 관리감독자를 대상으로 중대재해처벌법 실무교육을 강화하며 안전한 일터 조성에 나섰습니다. 이번 교육은 중대재해처벌법에 대한 이해를 높이고 실무 역량을 강화하여 사업장 내 안전사고를 예방하기 위해 마련되었습니다. 군은 안전·보건 의무 이행 사항을 철저히 점검하고 구체적인 대응 방안을 공유함으로써 실질적인 재해 예방 체계를 구축하고자 합니다. 이를 통해 근로자의 생명과 안전을 보호하고 지역사회 전반에 안전 문화를 확산할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>실무 중심 교육 실시:</strong> 중대재해처벌법의 핵심 내용과 관리감독자의 역할, 의무 이행 사항에 대한 구체적인 가이드라인을 제공합니다.</li><li><strong>안전보건 관리체계 고도화:</strong> 사업장 내 유해·위험요인을 사전에 발굴하고 개선하기 위한 실질적인 예방 체계를 점검합니다.</li><li><strong>안전 문화 확산:</strong> 지속적인 교육과 모니터링을 통해 중대재해 제로(Zero)화를 달성하고 안전 최우선 가치를 정착시킵니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1lU0JpSS1nZVJNLWg4ckczODFTZjJwZ08wYnRwRGN1NUFwQUdHajF5NF9DUXZQcUdhSGd1MFl0NHhwTE0xd01lbDBQZ0ZucnVlcjltZjVQT00zU2RKYl9yX2R6V1Nzd2tuSTJiRVNUZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1127,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
