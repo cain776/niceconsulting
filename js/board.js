@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1136,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에메리 올레오케미컬스, 에코바디스 실버 메달 획득',
+      author: '관리자',
+      date: '2026.07.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 친환경 화학 기업인 에메리 올레오케미컬스(Emery Oleochemicals)가 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 실버 메달을 획득했습니다. 이번 평가는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 핵심 분야에 걸쳐 진행되었으며, 에메리 올레오케미컬스의 우수한 ESG 경영 성과를 입증했습니다. 회사는 이번 수상을 계기로 지속가능한 제품 개발과 친환경 제조 공정 도입을 더욱 가속화할 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>지속가능성 우수성 입증</strong>: 에코바디스 평가에서 실버 등급을 획득하며 글로벌 상위 수준의 ESG 경영 기업으로 인정받았습니다.</li><li><strong>4대 핵심 분야 평가</strong>: 환경 보호, 노동 및 인권, 기업 윤리, 지속가능한 조달 부문에서 고르게 우수한 성과를 기록했습니다.</li><li><strong>친환경 화학 솔루션 선도</strong>: 천연 기반의 올레오케미컬 제품 생산을 통해 고객사의 친환경 전환과 탄소 배출 저감을 적극 지원하고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPTVBBSUtmTEFXOE1PMmUxSE5MeDZTT2p0Y2J3a3F1NDkzdDdDUDZ1UU14UmhYMlczX05XREpMRjZ1S1BWVjZXeUdJWlFGcGt1MGt4U0d3R2g0bkpfZGlRNXc0UFJuWTZTMU5fR0tvdzMtY21EamZxMTBlQWhWcU5uZjkwUXlvZGQ4dkE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1137,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'IEA "이란 전쟁 여파, 아프리카 친환경 취사 전환 위협"',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이란 전쟁으로 인한 호르무즈 해협의 혼란이 아프리카의 친환경 취사 전환 노력에 심각한 차질을 빚고 있습니다. 국제에너지기구(IEA)에 따르면, 기존의 숯과 목재를 대체할 친환경 취사 연료로 주목받던 액화석유가스(LPG)의 공급이 이번 지정학적 위기로 인해 큰 타격을 입었습니다. 이로 인해 아프리카 지역의 보건 및 환경 개선을 위한 친환경 취사 보급 사업이 위협받고 있습니다.</p><h3>주요 포인트</h3><ul><li>호르무즈 해협의 물류 장애로 인해 아프리카로 향하는 LPG 공급망이 심각한 차질을 빚고 있습니다.</li><li>LPG는 기존 목재나 숯 사용으로 인한 실내 공기 오염과 산림 황폐화를 막을 핵심 대안으로 추진되어 왔습니다.</li><li>IEA는 이번 연료 공급 충격이 아프리카 취약 계층의 건강을 위협하고 친환경 에너지 전환 속도를 늦출 수 있다고 경고했습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/10/iran-war-fuel-shocks-threaten-africa-clean-cooking-push-iea-says/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1138,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 위기 속 에어컨을 둘러싼 8가지 진실',
+      author: '관리자',
+      date: '2026.07.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지구 온난화로 인한 폭염이 지속되면서 에어컨 사용과 그에 따른 환경적 영향에 대한 논쟁이 뜨거워지고 있습니다. 에어컨은 폭염으로부터 인명을 보호하는 필수적인 수단이지만, 동시에 막대한 전력 소비와 냉매 배출로 기후 변화를 악화시키는 악순환을 유발합니다. 따라서 에어컨의 에너지 효율을 극대화하고 친환경 냉방 기술로 전환하는 등 지속 가능한 대책 마련이 시급합니다.</p><h3>주요 포인트</h3><ul><li><b>급증하는 냉방 수요:</b> 지구 기온 상승과 개발도상국의 소득 증가로 인해 전 세계 에어컨 보급률과 전력 수요가 폭발적으로 증가하고 있습니다.</li><li><b>효율성 개선 및 규제 필요성:</b> 에어컨 기기 간 효율성 편차가 크기 때문에, 엄격한 에너지 효율 표준(MEPS) 도입과 친환경 냉매(HFC 대체)로의 전환이 필수적입니다.</li><li><b>냉방 불평등과 대안적 접근:</b> 폭염에 가장 취약한 빈곤층의 냉방 접근성을 개선하는 동시에, 건물 단열, 자연 냉방, 열펌프 등 지속 가능한 대안 기술을 통합적으로 적용해야 합니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/eight-facts-about-air-conditioning-amid-an-overheated-global-debate/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1139,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '제너럴 밀스, 30억 달러 절감 위해 공급망 개편',
+      author: '관리자',
+      date: '2026.07.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 식품 기업 제너럴 밀스(General Mills)가 30억 달러 규모의 비용 절감 계획의 일환으로 공급망 전면 개편에 나섭니다. 회사 경영진은 현재의 공급망 네트워크가 과거 생산량이 적었던 시대에 맞춰 설계되어 있어, 현재의 대규모 수요를 감당하기에는 비효율적이라고 지적했습니다. 이번 개편을 통해 제너럴 밀스는 생산 및 물류 효율성을 극대화하고 디지털 기술을 도입하여 공급망을 현대화할 계획입니다. 이를 통해 장기적인 성장 기반을 마련하고 시장 변화에 신속하게 대응할 예정입니다.</p><h3>주요 포인트</h3><ul><li><strong>30억 달러 비용 절감:</strong> 대대적인 공급망 최적화를 통해 향후 수년간 총 30억 달러의 운영 비용 절감을 목표로 합니다.</li><li><strong>구식 네트워크 현대화:</strong> 과거 저용량 기준에 맞춰진 기존 공급망의 한계를 극복하기 위해 디지털 기술과 자동화 시스템을 적극 도입합니다.</li><li><strong>운영 효율성 극대화:</strong> 생산 및 물류 거점을 재조정하여 유연성을 높이고 외부 시장 변화에 대한 대응력을 강화합니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/general-mills-plans-supply-chain-revamp-as-part-of-3b-cost-cutting-effort/824889/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1132,
       pinned: false,
       category: 'news', categoryName: '소식',
