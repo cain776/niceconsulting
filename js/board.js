@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1140,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'UN 해저 당국, 채굴 기업의 조사 중단 시도에 맞서 권한 옹호',
+      author: '관리자',
+      date: '2026.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유엔 국제해저기구(ISA)가 심해 채굴 선두 기업인 '더 메탈스 컴퍼니(TMC)'의 자회사들에 대한 조사를 진행하는 가운데, 해당 기업들이 이를 저지하려 하자 자체 권한 옹호에 나섰습니다. 환경 단체들은 TMC가 자회사에 대한 정당한 조사를 방해하고 있다고 비판하고 있습니다. 반면, TMC 측은 절차적 근거 없이 자신들이 부당하게 표적이 되고 있다며 반발하고 있습니다. 이번 갈등은 향후 심해저 광물 개발 규제와 환경 보호 간의 법적 공방으로 이어질 전망입니다.</p><h3>주요 포인트</h3><ul><li><strong>조사 방해 논란:</strong> 환경 운동가들은 심해 채굴 선두 주자인 TMC가 자회사에 대한 UN 당국의 조사를 고의로 방해하고 있다고 주장함.</li><li><strong>기업 측의 반발:</strong> TMC는 규제 당국의 조사가 명확한 절차적 근거 없이 진행되고 있으며, 자사가 부당한 표적이 되었다고 항변함.</li><li><strong>규제 권한 수호:</strong> UN 국제해저기구(ISA)는 심해 생태계 보호와 공정한 규제를 위해 자체적인 조사 권한을 강력히 옹호함.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/14/deep-sea-mining-firms-sue-un-seabed-body-inquiry-isa-itlos-metals-company/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1141,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'DAC 기업 에어하이브, 경쟁사 카비온 인수',
+      author: '관리자',
+      date: '2026.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국의 직접공기포집(DAC) 기술 기업 에어하이브(Airhive)가 네덜란드의 동종 업계 경쟁사인 카비온(Carbyon)을 인수했다고 발표했습니다. 이번 인수는 양사의 독창적인 탄소 포집 기술을 결합하여 기술적 시너지를 창출하고 상용화를 가속화하기 위해 추진되었습니다. 이를 통해 에어하이브는 기후 변화 대응을 위한 저비용·고효율 탄소 제거 솔루션 개발에 박차를 가할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>기술 결합 및 시너지:</strong> 에어하이브의 유동층(fluidized bed) 기반 기술과 카비온의 초고속 온도스윙(fast-swing) 포집 기술 및 특허(IP)가 결합되어 공정 효율성이 극대화됩니다.</li><li><strong>탄소 제거 비용 절감:</strong> 양사는 공정 속도를 높이고 에너지 소비를 줄임으로써, DAC 업계의 장기적 목표인 이산화탄소 톤당 100달러 미만의 저렴한 탄소 포집 실현을 앞당기고자 합니다.</li><li><strong>글로벌 시장 입지 강화:</strong> 이번 인수를 통해 에어하이브는 유럽을 넘어 글로벌 DAC 시장에서의 기술적 리더십과 사업 경쟁력을 한층 더 강화하게 되었습니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/dac-carbon-removal-provider-airhive-acquires-competitor-carbyon/?utm_source=rss&utm_medium=rss&utm_campaign=dac-carbon-removal-provider-airhive-acquires-competitor-carbyon" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1142,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '호컬 뉴욕주지사, 신규 데이터 센터 승인 일시 중단',
+      author: '관리자',
+      date: '2026.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>캐시 호컬 뉴욕 주지사가 행정명령을 통해 신규 데이터 센터의 승인을 일시적으로 중단했습니다. 이번 조치는 급증하는 데이터 센터가 뉴욕주의 전력망 안정성과 친환경 기후 목표 달성에 미치는 영향을 평가하기 위한 것입니다. 인공지능(AI)과 클라우드 서비스의 확장으로 데이터 센터의 전력 및 수자원 소비가 폭증하면서 뉴욕주의 에너지 전환 계획에 부담을 주고 있습니다. 뉴욕주는 유예 기간 동안 데이터 센터의 환경적 영향을 면밀히 조사할 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>전력망 및 기후 목표 보호:</strong> 급증하는 데이터 센터의 에너지 수요로부터 전력망을 보호하고 뉴욕주의 탄소 감축 목표를 유지하기 위한 조치입니다.</li><li><strong>환경 영향 평가 진행:</strong> 유예 기간 동안 데이터 센터가 지역 수자원 및 에너지 인프라에 미치는 영향을 종합적으로 분석합니다.</li><li><strong>ESG 균형 모색:</strong> AI 기술의 급격한 성장 속에서 디지털 혁신과 환경적 지속가능성 간의 균형을 맞추려는 규제적 흐름을 반영합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1uwmw9w/hochul_halts_new_data_center_approvals_via/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1143,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '육상·해양 미세플라스틱 분석 기준 표준화 추진',
+      author: '관리자',
+      date: '2026.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>정부가 육상과 해양 환경에서 발생하는 미세플라스틱의 분석 기준을 통일하기 위한 표준화 논의에 착수했습니다. 그동안 미세플라스틱은 조사 기관과 매체(토양, 담수, 해양 등)에 따라 분석 방법이 달라 데이터의 상호 비교와 신뢰성 확보에 어려움이 있었습니다. 이번 표준화 협의를 통해 일관성 있는 모니터링 체계를 구축하고 미세플라스틱 오염에 선제적으로 대응할 계획입니다.</p><h3>주요 포인트</h3><ul><li>육상 및 해양 미세플라스틱 분석 방법의 상호 호환성 확보 추진</li><li>분석 데이터의 신뢰성 향상을 통한 국가 차원의 통합 모니터링 체계 마련</li><li>국제 표준(ISO)과의 연계를 통한 글로벌 미세플라스틱 규제 대응력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMirgJBVV95cUxPMXl3YW8tZkdzNTlqYjhmLUpxQk9FX1FIMUJfRWdzYW9lWVVQQW1ybUF3MXB1QXRBOGh1Zm0tUUNKaURrVkQ3M1hsYVFLWF9QZnR0Tm1Lb3JxZGkxMmN0VVQzZUtZM0c2T2t0NzFNWmhDQWhLeGd3WFJrNnEtV2o3NGRLZl9oa2lVRVB4V29jdmMxU3dFOWpkbG93YV93RXEtLUpDcGI1bnV1UjhXOXFVdDItNGFCa2VOWnR0YjJqM3RKTGRSejdkNEloUmt6NnMtZ0ZpaS0zdXhiS0E2RG12MUxkZ1E5Tll4dkNmM2drcXVZdnNpUHY4UlZ1ckhzTFpGTFZJNHdKYUVzQUtHRjBia0lFbWlvSHM4WWRHZVJQSi10MkJ4a2tBbmpkNkNKQdIBsAJBVV95cUxPMi1CLTV1QjZpUExBY1pLWGRBaV80aVZRQS1HWjJfMVNERlJwVHRCdEdUb1pycVZGbVFYRnBKdUJUREM2bmE5bDEwZTNneWE2N2QzQm9QdGxJSzNId2tDVzV6clpYNVc4dW5sWEpiZlZYUVhFa3hHWklXU0tPX2pCWFIyVUQxNGV6Mk1jNkc2VWxqWnN1WlpyRzZfMUFCU1lDVXZmOTlXUjRDQ2JNNVZ0ZC1mMUUtdzUxZlgwZ0FhbjUwVGRxU3lWRnVmTWQ5Q1hhZTMyVzREWkI5c0E5b2JMU1o1UjRQckNXbGFjV1FuNm5IUWRVU0FhWVptMXZkTG1fMFpNU3hCT19mbXRjOHQ5c2tOaFdQeVlrVjZXdnFnN1ZBYzd3T3NQMHpHSk1hVU9S?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1144,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마제티, 신임 CSCO로 마크 카터 영입',
+      author: '관리자',
+      date: '2026.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 전문 식품 제조업체 T. 마제티(T. Marzetti)가 슈완스 컴퍼니 출신의 마크 카터(Mark Carter)를 신임 최고공급망책임자(CSCO)로 임명했습니다. 카터 신임 CSCO는 마제티의 공급망 네트워크를 단순화하고 생산성을 향상시키는 지속적인 노력을 감독할 예정입니다. 이번 인사는 공급망 효율성을 극대화하고 운영을 최적화하여 비즈니스 지속 가능성을 높이려는 마제티의 전략적 방향을 보여줍니다.</p><h3>주요 포인트</h3><ul><li>슈완스 컴퍼니의 공급망 책임자였던 마크 카터가 마제티의 신임 CSCO로 합류했습니다.</li><li>카터 CSCO는 마제티의 공급망 네트워크 단순화와 생산성 개선 작업을 총괄하게 됩니다.</li><li>이번 인사는 효율적인 공급망 관리를 통해 기업의 운영 경쟁력과 지속 가능성을 강화하기 위한 조치입니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/marzetti-taps-schwan-supply-chain-head-for-csco/825089/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1136,
       pinned: false,
       category: 'news', categoryName: '소식',
