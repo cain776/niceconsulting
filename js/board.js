@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1145,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '미세플라스틱 분석 표준화 속도, 하천부터 바다까지 일원화',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>환경부 국립환경과학원이 하천부터 해양에 이르기까지 일관된 기준으로 미세플라스틱을 분석할 수 있는 표준화 작업을 본격 추진합니다. 그동안 분석 기관과 환경 매체마다 달랐던 미세플라스틱 측정법을 통일하여 데이터의 신뢰성을 높이고 국가 차원의 통합 모니터링 체계를 구축할 계획입니다. 이를 통해 미세플라스틱으로 인한 환경 오염에 선제적으로 대응하고 향후 국제 표준과의 연계도 강화할 예정입니다.</p><h3>주요 포인트</h3><ul><li>하천과 해양을 아우르는 미세플라스틱 분석 방법의 표준화 및 통일안 마련</li><li>측정 데이터의 신뢰도 향상을 통한 국가 차원의 통합 환경 모니터링 체계 구축</li><li>국제 표준(ISO)과의 연계를 통해 글로벌 미세플라스틱 환경 규제 대응력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE44ZDdKOGpqZnhXYXJRTDlfdG1yX0s3OEJVaGR1UWI4eGtjTnpUZ08xYVJ1eU44RE9oWjhoUnJMV18yR09ZUkltakQ1eE16UFJ1ZXBzR3hhS29DdlNHVEswZWtTMXI3dFVuN3Jrc01sQTdpQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1146,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '오스프리 모기업, 공급망 비용이 관세 환급금 상회',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아웃도어 브랜드 오스프리(Osprey)의 모기업인 헬렌 오브 트로이(Helen of Troy)가 최근 공급망 혼란으로 인한 비용 상승이 국제비상경제권한법(IEEPA)에 따른 관세 환급액을 넘어서고 있다고 밝혔습니다. 브라이언 그라스(Brian Grass) CFO는 관세 환급의 시기와 금액이 불확실하여 투자 계획 수립과 공급망 차질 대응에 어려움을 겪고 있다고 설명했습니다. 회사는 홍해 위기 등으로 인한 해상 운송 비용 상승과 공급망 지연 문제를 해결하기 위해 고군분투하고 있으며, 이러한 공급망 불안정성은 기업의 단기 수익성에 지속적인 부담으로 작용하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>관세 환급의 불확실성:</strong> 헬렌 오브 트로이는 IEEPA 관세 환급금의 지급 패턴이 불규칙하여 재무 계획 및 투자 결정에 어려움을 겪고 있습니다.</li><li><strong>공급망 비용 상승:</strong> 홍해 사태 등으로 인한 해상 운송료 상승과 우회 경로 이용으로 인해 물류 비용이 급증했습니다.</li><li><strong>수익성 압박:</strong> 관세 환급을 통한 비용 상쇄 효과보다 공급망 교란으로 인한 추가 지출이 더 커 기업 실적에 부정적 영향을 미치고 있습니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/osprey-brand-owner-says-high-supply-chain-costs-are-outpacing-ieepa-tariff/825081/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1147,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국, 세계 2대 열대우림 콩고 기금 지원 중단',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 정부가 세계에서 두 번째로 큰 열대우림인 콩고 분지를 보호하기 위해 계획했던 수천만 파운드 규모의 재정 지원 사업을 철회했습니다. 이번 결정은 영국의 공적개발원조(ODA) 예산 감축에 따른 것으로, 현지 산림 보존 및 지속 가능한 개발 프로젝트들이 중단될 위기에 처했습니다. 환경 단체와 전문가들은 이번 지원 중단이 글로벌 기후 변화 대응과 생물 다양성 보존 노력에 심각한 후퇴를 초래할 것이라고 경고하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>수천만 파운드 규모의 예산 철회:</strong> 영국 정부는 콩고민주공화국(DRC)의 산림 보호 및 거버넌스 개선을 위한 핵심 환경 프로젝트 지원을 중단했습니다.</li><li><strong>영국 ODA 감축의 여파:</strong> 이번 예산 삭감은 영국의 해외 원조 예산 목표치를 국민총소득(GNI)의 0.7%에서 0.5%로 축소한 정부 정책의 직접적인 결과입니다.</li><li><strong>글로벌 기후 영향 우려:</strong> 세계적인 탄소 흡수원인 콩고 열대우림 보호가 약화됨에 따라, 전 세계적인 탄소 배출 저감 목표 달성에 차질이 생길 것이라는 우려가 커지고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/uk-withdraws-millions-in-funding-from-worlds-second-largest-rainforest-in-congo/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1148,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '단고테 케냐 정유소 계획, 환경 위험으로 반대 직면',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>나이지리아 대기업 단고테 그룹이 케냐에 아프리카에서 두 번째로 큰 정유소를 건설하려는 계획이 환경 운동가들의 강력한 반대에 부딪혔습니다. 운동가들은 생태학적으로 민감한 지역에 대규모 화석연료 인프라를 구축하는 것이 심각한 기후 및 생태계 파괴를 초래할 것이라며 이를 '환경적 무모함'이라고 비판하고 있습니다. 이번 프로젝트는 케냐의 탄소 중립 및 친환경 전환 목표와 정면으로 배치되며, 지역 생물 다양성과 주민들의 생계를 위협할 것이라는 우려가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>생태계 파괴 우려:</strong> 정유소 건설 예정지가 생태학적으로 극히 민감한 지역에 위치해 있어 심각한 환경 오염과 생물 다양성 손실이 우려됩니다.</li><li><strong>기후 목표 역행:</strong> 아프리카 최대 규모 수준의 정유소 건설은 케냐의 국가 온실가스 감축 목표(NDC) 및 글로벌 기후 위기 대응 흐름에 역행한다는 지적을 받습니다.</li><li><strong>지역 사회의 반발:</strong> 환경 운동가들과 지역 공동체는 이번 개발 계획을 '환경적 무모함'으로 규정하고 프로젝트 철회를 요구하며 강력히 반대하고 있습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/15/campaigners-oppose-dangotes-planned-kenya-refinery-over-climate-and-ecological-risks/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1149,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '강제 노동 규제 강화: 미 301·307조가 기업에 미치는 영향',
+      author: '관리자',
+      date: '2026.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 무역대표부(USTR)는 무역법 제301조에 따라 조사한 60개국 모두가 강제 노동으로 생산된 제품의 수입 금지 조치를 제대로 이행하지 못했다는 예비 조사 결과를 발표했습니다. 이 국가들은 미국 전체 교역량의 약 90%를 차지하고 있어 향후 미국 수입 기업들에 광범위한 영향을 미칠 것으로 예상됩니다. 이번 발표는 강제 노동 수입 금지를 규정한 관세법 제307조와 무역 제재를 다루는 제301조의 연계를 강화하여, 기업들이 공급망 내 강제 노동 리스크를 선제적으로 실사하도록 강력히 압박하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>주요 교역국의 규제 실패:</strong> 조사 대상 60개국 전체가 강제 노동 제품 수입 금지 및 법적 집행을 충분히 이행하지 못하는 것으로 나타났습니다.</li><li><strong>무역 제재와 수입 금지의 결합:</strong> 관세법 제307조(강제 노동 금지)와 무역법 제301조(무역 보복)가 연계되면서 강력한 관세 및 수입 제한 조치가 취해질 수 있습니다.</li><li><strong>공급망 실사 의무 급증:</strong> 미국 기업들은 공급망 전반에 걸쳐 강제 노동 리스크를 철저히 점검하고 투명성을 입증해야 하는 과제에 직면했습니다.</li></ul><p>원문: <a href="https://ecovadis.com/blog/forced-to-act-what-sections-301-and-307-mean-for-us-companies/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1140,
       pinned: false,
       category: 'news', categoryName: '소식',
