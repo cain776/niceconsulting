@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1150,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '연구로 밝혀진 환경을 위한 적정 옷 개수',
+      author: '관리자',
+      date: '2026.07.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한 연구팀이 기후 변화를 막고 지구 온난화를 1.5도 이내로 제한하기 위해 개인이 소유해야 할 적정 의류 개수를 수학적으로 계산해 발표했습니다. 연구에 따르면, 지속 가능한 지구를 위해 개인이 소유해야 하는 적정 의류 개수는 약 74벌에서 85벌 수준입니다. 또한, 환경에 미치는 영향을 최소화하기 위해서는 연간 새로 구매하는 옷을 5벌 이하로 제한해야 합니다. 이번 연구는 패션 산업의 탄소 배출을 줄이기 위해 소비 패턴의 근본적인 변화가 필요함을 강조합니다.</p><h3>주요 포인트</h3><ul><li>지속 가능한 의류 소유량은 신발과 외투를 포함해 인당 약 74~85벌 수준입니다.</li><li>지구 온난화 1.5도 제한 목표를 달성하려면 연간 신규 의류 구매를 5벌 이하로 줄여야 합니다.</li><li>의류 수명 연장, 세탁 횟수 감소, 그리고 고소득 국가의 의류 소비량 80% 감축이 요구됩니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1uxoz4t/a_researcher_worked_out_the_actual_maths_on_how/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1151,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 4년, 사망사고는 제자리 처벌만 강화',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법이 시행된 지 4년이 지났으나, 산업현장의 사망사고는 크게 줄어들지 않고 제자리걸음을 걷고 있는 것으로 나타났습니다. 반면 법 위반에 따른 경영책임자 처벌과 사법적 제재는 점차 강화되는 추세입니다. 이에 따라 기업들이 실질적인 사고 예방보다 처벌 회피에 집중하고 있다는 지적이 제기되고 있습니다. 실효성 있는 재해 예방을 위해 법 제도의 보완과 현장 맞춤형 지원이 필요하다는 목소리가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>사망사고 감소 효과 미흡:</strong> 법 시행 이후에도 산업재해 사망자 수는 유의미하게 감소하지 않아 법의 실효성에 의문이 제기되고 있습니다.</li><li><strong>경영책임자 처벌 강화:</strong> 법 위반에 대한 기소 및 유죄 판결 사례가 늘어나며 기업 경영진에 대한 사법적 압박은 가중되고 있습니다.</li><li><strong>예방 중심의 제도 개선 요구:</strong> 처벌 위주의 방식에서 벗어나 실질적인 안전보건 관리체계 구축을 돕는 예방 중심의 정책 지원이 시급하다는 지적이 나옵니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5samQ1SHJ1QVVJNG9DU3VaUzBuNlNmVzJPTzJwUVpfQXpWck54blZtQWdQWE5KUnp3a2E2TE53VmIxQklwUEs4am9ZU184YUlsOVpFSHZuSGs?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1152,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '셰플러, 에코바디스 ESG 평가 \'플래티넘\' 획득',
+      author: '관리자',
+      date: '2026.07.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 자동차 및 산업 기기 공급업체인 셰플러(Schaeffler)가 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 최고 등급인 '플래티넘(Platinum)' 메달을 획득했습니다. 이번 평가에서 셰플러는 전 세계 평가 대상 기업 중 상위 1%에 해당하는 우수한 성적을 거두었습니다. 이는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 전 분야에서 지속가능경영 성과를 인정받은 결과입니다.</p><h3>주요 포인트</h3><ul><li><strong>상위 1% 달성</strong>: 에코바디스 ESG 평가에서 최고 등급인 플래티넘을 획득하며 글로벌 지속가능경영 선도 기업임을 입증했습니다.</li><li><strong>지속가능성 전 분야 우수</strong>: 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 평가 항목 전반에서 높은 점수를 기록했습니다.</li><li><strong>기후 변화 대응 노력</strong>: 셰플러는 2040년까지 공급망 전반에서 기후 중립(Net-Zero)을 달성하겠다는 목표를 세우고 이를 적극 실천하고 있습니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOXzg0UW8xVFBFaEczSi14MVdNNW9lcUpYOHpBaDB5QURvemtLcml6aVFuUFBPcU1qa1dVRUZlLU5KNnZkdlNja1JFcWVpSi1QcnpXZHk0QWp6cnc5OXBRaHEwZkJ5Qm9Ba0Fja0VpbTc3YnJ5Y0JOT2pwamg5OFEtQjlRLV9wYzdveWlnYlpSLXdSWjBXRnc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1153,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '룰루레몬, 섬유 재활용 스타트업 \'신테티카\' 투자',
+      author: '관리자',
+      date: '2026.07.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>순환 섬유 기술 스타트업 신테티카(Syntetica)가 3,000만 달러 규모의 투자 유치에 성공했으며, 글로벌 스포츠웨어 브랜드 룰루레몬이 투자자로 참여했습니다. 신테티카는 나일론을 비롯한 합성 섬유를 저에너지 화학 공정으로 재활용하여 새 제품 수준의 고품질 섬유로 전환하는 독자적인 기술을 보유하고 있습니다. 이번 투자를 통해 신테티카는 기술 상용화 및 대규모 생산 시설 구축을 가속화할 예정이며, 룰루레몬은 친환경 소재 확보를 통해 순환 경제 구축에 앞장설 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>3,000만 달러 투자 유치:</strong> 룰루레몬 등의 지원을 통해 신테티카가 대규모 자금을 조달하며 기술 상용화 발판을 마련함.</li><li><strong>혁신적 나일론 재활용 기술:</strong> 기존에 재활용이 까다로웠던 혼합 합성 섬유 및 나일론을 저탄소·저에너지 방식으로 고품질 재활용하는 기술 적용.</li><li><strong>룰루레몬의 ESG 목표 부합:</strong> 2030년까지 제품의 100%를 지속 가능한 소재로 전환하려는 룰루레몬의 지속가능성 로드맵의 일환.</li></ul><p>원문: <a href="https://www.esgtoday.com/lululemon-backs-textile-recycling-tech-startup-syntetica/?utm_source=rss&utm_medium=rss&utm_campaign=lululemon-backs-textile-recycling-tech-startup-syntetica" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1154,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '관세와 지정학이 원자재 시장에 미치는 영향',
+      author: '관리자',
+      date: '2026.07.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>'공급망 전망(Supply Chain Outlook)' 행사에서 금속 및 플라스틱 분야 전문가들이 관세와 지정학적 긴장이 글로벌 원자재 시장에 미치는 영향에 대해 논의했습니다. 특히 미국-멕시코-캐나다 협정(USMCA)의 미래와 이에 따른 북미 공급망의 변화가 주요 화두로 다루어졌습니다. 전문가들은 무역 장벽과 지정학적 리스크가 원자재 가격 변동성을 높이고 기업들의 공급망 다변화를 압박하고 있다고 분석했습니다.</p><h3>주요 포인트</h3><ul><li>USMCA 재협정 가능성 등 북미 무역 파트너십의 미래와 불확실성 고조</li><li>관세 인상 및 무역 제재로 인한 금속, 플라스틱 등 핵심 원자재의 조달 비용 상승</li><li>지정학적 갈등에 대응하기 위한 프렌드쇼어링(Friendshoring) 및 공급망 다변화 전략의 중요성 증가</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/4-ways-tariffs-and-geopolitics-are-impacting-commodity-markets/825482/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1145,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
