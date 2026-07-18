@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1155,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해법 4년, 사망은 제자리 처벌만 강화',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행 이후 수년이 지났으나 산업재해 사망사고 건수는 유의미하게 줄어들지 않고 제자리걸음을 걷고 있습니다. 반면, 기업 경영책임자에 대한 기소와 처벌 등 사법적 제재는 더욱 강화되는 추세입니다. 이에 따라 단순 처벌을 넘어 실질적인 사고 예방을 위한 안전보건관리체계 구축 등 ESG 관점의 대응이 시급하다는 지적이 나옵니다.</p><h3>주요 포인트</h3><ul><li>법 시행 이후에도 건설 및 제조 현장의 사망사고 등 중대재해 발생 건수는 뚜렷한 감소세를 보이지 않고 있습니다.</li><li>경영책임자(CEO)에 대한 실형 선고와 기소 사례가 증가하면서 기업들의 사법적 부담과 리스크가 가중되고 있습니다.</li><li>처벌 회피 목적의 서류 작업을 넘어, 현장 근로자의 안전을 실질적으로 보장하는 ESG(사회·S) 경영 체계 확립이 필요합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE90WTVjakZrSXZIOFVqX3h3MWpramJ3TGFYNHZIVy1ZZlhNS3RaWlRDOUJlTy02Vkg0SncyeUNPN3lsUTZMTDlpSWd4b3Q4ZDlHaHE0N1Bn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1156,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전문가들 "상시 가동 공급망이 대세가 되고 있다"',
+      author: '관리자',
+      date: '2026.07.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>Supply Chain Dive의 전망 행사에서 전문가들은 디지털 전환과 자동화 전략을 조기에 도입한 제조업체와 유통업체들이 본격적으로 결실을 맺기 시작했다고 밝혔습니다. 최근 글로벌 공급망은 끊임없는 불확실성에 직면해 있으며, 이에 대응하기 위해 '상시 가동(Always-on)'되는 유연한 공급망 구축이 업계의 새로운 표준으로 자리 잡고 있습니다. 선제적으로 기술 투자를 단행한 기업들은 실시간 데이터 분석을 통해 병목 현상을 해결하고 운영 효율성을 극대화하고 있습니다.</p><h3>주요 포인트</h3><ul><li>디지털 전환 및 자동화 기술을 선제 도입한 기업들의 성과 가시화</li><li>글로벌 불확실성에 대응하기 위한 '상시 가동(Always-on)' 공급망의 필수화</li><li>실시간 데이터 분석을 통한 공급망 유연성 및 운영 효율성 극대화</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/always-on-supply-chains-becoming-the-norm-experts-say-outlook/825481/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1157,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국·인도 외면으로 신규 UN 탄소시장서 배제된 \'좀비 크레딧\'',
+      author: '관리자',
+      date: '2026.07.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>환경적 실효성이 의심되는 구형 탄소 배출권(일명 '좀비 크레딧')이 새로운 UN 탄소 시장에 대거 유입될 것이라는 우려가 크게 줄어들었습니다. 이는 최대 배출국인 중국과 인도가 기존 프로젝트를 신규 시장 체제로 전환하지 않기로 결정했기 때문입니다. 이에 따라 수억 톤 규모의 저품질 배출권이 신규 시장에서 격리되어, 새로운 UN 탄소 시장의 신뢰성과 건전성이 한층 높아질 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>좀비 크레딧의 차단:</strong> 과거 청정개발체제(CDM) 하에서 발행된 구형 탄소 배출권의 대부분이 파리협정 제6.4조에 따른 신규 UN 탄소 시장 진입에 실패했습니다.</li><li><strong>중국과 인도의 전환 거부:</strong> 최대 배출권 보유국인 중국과 인도가 기존 프로젝트의 신규 시장 전환 신청을 하지 않으면서 시장 과잉 공급 우려가 해소되었습니다.</li><li><strong>시장 신뢰도 및 가격 안정:</strong> 저품질 배출권의 유입이 막힘에 따라 신규 탄소 시장의 환경적 건전성이 확보되고 배출권 가격이 안정될 전망입니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/17/most-zombie-credits-locked-out-of-new-un-carbon-market-after-china-and-india-snub/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1158,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'FELB Korea, 에코바디스 ESG 플래티넘 획득',
+      author: '관리자',
+      date: '2026.07.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제 철도 운송 전문 기업 FELB Korea가 글로벌 ESG 평가 기관인 에코바디스(EcoVadis)로부터 최고 등급인 '플래티넘(Platinum)'을 획득했습니다. 이는 국내 주선업계(포워더) 최초의 성과로, FELB Korea의 지속가능경영 역량을 세계적으로 인정받은 결과입니다. 에코바디스는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 종합 평가하며, 플래티넘 등급은 전 세계 평가 대상 기업 중 상위 1% 이내의 최우수 기업에게만 부여됩니다. 이번 인증을 통해 FELB Korea는 글로벌 물류 시장에서 친환경 및 투명경영 경쟁력을 한층 더 강화하게 되었습니다.</p><h3>주요 포인트</h3><ul><li>국내 포워더(주선업계) 최초로 에코바디스 ESG 평가 최고 등급인 '플래티넘' 획득</li><li>전 세계 평가 대상 기업 중 상위 1%에 해당하는 우수한 지속가능경영 성과 입증</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 전 분야에서 글로벌 기준 충족</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqwlBVV95cUxOdDk5SU0xV2NSdzFlS09mUjVvbWlGVEU2aXRONkF3ZVNEUkxTVVl0X1NYMWpMZGdkWk9XUExNbUJ6anJmR3ZSZGlXSkhObUtLUThkNEVmSjRzTWEtUFFGMWVpTTRTNG5BcWJHVWlPQ3dEcUoxVWJLUGtZMmpsYkVqSlNDWkZ2ZkJWU0toTHpMNTZpOHdFM2toeENPeHhDYWFEMFFiVmc3ZDRqakhnVVlLYTNfR2VNRU9aTnVLTnF5T2pyLUhpSXZtRlVERzFkalB3dmJ6RDlRdGFzQ0hDVlVrV0Z1RkhBOHBncG1sXzFzM0NLMVUxZW9ES2x6YmphUU1ZZndfMFBBemJHX3JHY1Jya2pVd2luU2RfZkhOWlZaR0paRlZGYVNrazJ0VnVVUVdhTVl2d2ktbGpFdmo3Y3BzNGoyOHBleHFMUk5LeDB3Q3JxZDNDUlZUQkJ1OWx1SDVHdUJMaGtHUWZLMFpYbUt4bjc2MjlNZWdWZGFJT2ZOV1lsNVVienNQekV5VzFpQTE4REZUaEhzYTJNMEhKeHVsUW90dHpmZHlRQW1MeHgyYXdCSGdPUVhOSXVmTDZMYmJoNTlBeWFCZDh5WVhVdTNqNjNPa2RXQVdYREFjMUFTUWNRbUgzcC1xTkxHZ3lLeHdyRWh5RHJseldlbTZ6RmxaSlZZRjdGaEkxcm9ZTjJyUWc1QnpQdDMzTF9PM2hlS3FyXzh3elZoV2xIdDZ6LUwxUnZZNmJIVE93d3M0YmljeE9OdGI0aXBSMkFEVUp6T19BTi0tSE9RcHBhSmZVMUt4eUcteV9UaHRWZTNfcHhRVF81b1FaXzE1SE5GS0pXNzJIdXY2b3FZWjc3dW5Gb0xMakxaRWY3N2hnX0xPRmx4Wk9nSU9lWFIxQTF3NFY3Mms2clQ5RHJBdkNrTnl2bkdCS1Z1RTlGZkJxazNpSmZJU0hEaXVNdjVETUlkQnZrYWZaQTFhQmZyTm9RdnFpSkZBLUh1MDdKWm5mQm5OZXd6VnZURnRwUUQ0OFNzbTNJYlZZbWVJNUg3eE92Q3F3RVFUMnRFVUxsb0ZsNFpnSmhvb0swS2cxYWNzSlNSNFh4dWlCZ2NSLWdMLWdCZlIwT2t2Yl9TYXVSQ3lfbXE4aWVMU1ZSaHk4YzhXSjdyaWN2c1BuTXJFYU5TNnJZRndncllTMXZWOTNJOG5aMVpuczNOMzRSejYyaFE5NVIxM3dyTTZWM2RISTJUSlBIYlhNMlptamhPWXlOOEVWSHdHR2VFU1hVb2pKbWRyOENweXFYcENSc0d5dHg0bjMzQVhrTmFEdG10ald2TmZVTHo4Q0xael95ODZlSUtTWThfajlSSjZYQVd6c184WXludE9IQnFpemM1VF92UDRHd2hzcHg3MnRMMFBucy1NWV9wTElnTHRMTm16bldIVlVNV2FHVkRmc1k0OTNHVkVjdlJHVlAtYWY3VGFMTkp4c0pfYUNvc1ljN24zNkJkdDdzakE1NGxJQ2VfMHpBdmNFcWswWld0pE96UnhkaUx1STJfN2xYWTc3YTlDXy1oYVRlWFhpQkQ4ZDFSaVBETXZwMThV?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1159,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 집행위, 오염 기업 달래려 기후 정책 후퇴',
+      author: '관리자',
+      date: '2026.07.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회(EC)가 폭염과 산불 등 기후 위기가 심각한 상황에서 탄소시장 개정안을 발표하며 기후 행동에서 후퇴하는 모습을 보였습니다. 이번 개정안은 유럽의 핵심 기후 정책의 실효성을 크게 약화시키는 내용을 담고 있습니다. 결과적으로 대형 오염 유발 기업들의 이해관계에 밀려 EU의 2040년 및 2050년 기후 목표 달성에 심각한 차질을 빚을 위험이 커졌습니다.</p><h3>주요 포인트</h3><ul><li>유럽연합 집행위원회의 탄소시장 개정안 발표 및 기후 행동 후퇴</li><li>대형 오염 유발 기업들의 로비에 따른 핵심 기후 정책의 실효성 약화</li><li>EU의 2040년 및 2050년 장기 기후 목표 달성 무산 우려</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/07/17/commission-waters-down-flagship-climate-policy-to-appease-big-polluters/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1150,
       pinned: false,
       category: 'news', categoryName: '소식',
