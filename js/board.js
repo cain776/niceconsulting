@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1160,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '생태계 붕괴 막으려면 육류 소비 줄여야',
+      author: '관리자',
+      date: '2026.07.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>과학자들은 최악의 생태계 붕괴를 막기 위해 육류 수요를 반드시 줄여야 한다고 경고합니다. 하지만 소비자, 기업, 정부 모두가 서로 책임을 회피하는 사이 육류 소비량은 계속해서 증가하고 있습니다. 이러한 책임 회피의 악순환을 끊고 지속 가능한 식단으로 전환하기 위한 실질적인 대책 마련이 시급합니다.</p><h3>주요 포인트</h3><ul><li>생태계 보호를 위한 육류 소비 감축의 시급성</li><li>소비자, 기업, 정부의 책임 회피와 육류 소비의 지속적인 증가</li><li>육류 소비 감축을 위한 주체별 역할 및 악순환 해결 방안 모색</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1uztwcs/scientists_say_we_need_to_reduce_meat_demand_to/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1161,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국 \'파이어웨이브\'와 화석연료 폭염 사망',
+      author: '관리자',
+      date: '2026.07.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 기사는 기후 변화로 인해 전 세계적으로 발생하고 있는 극단적인 기후 현상과 그 사회적 영향을 다룹니다. 영국은 극심한 폭염과 산불을 뜻하는 '파이어웨이브(firewave)' 현상에 직면해 있으며, 화석 연료 사용으로 인한 지구 온난화가 폭염 관련 사망자 수를 급증시키고 있다는 연구 결과가 발표되었습니다. 이에 대응하여 런던 자연사 박물관은 기후 위기의 심각성을 알리는 전시를 통해 대중의 인식을 제고하고 기후 행동을 촉구하고 있습니다.</p><h3>주요 포인트</h3><ul><li>영국의 '파이어웨이브': 기후 변화로 인해 영국 전역에서 전례 없는 폭염과 산불 위험이 고조되고 있습니다.</li><li>화석 연료와 폭염 사망: 화석 연료 연소로 인한 온실가스 배출이 폭염으로 인한 사망자 증가의 직접적인 원인으로 지목되었습니다.</li><li>박물관의 기후 위기 조명: 런던 자연사 박물관이 기후 변화의 심각성을 알리는 특별 전시를 통해 환경 보호 메시지를 전달합니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/debriefed-17-july-2026-uk-firewave-fossil-fuelled-heat-deaths-londons-natural-history-museum-spotlights-climate/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1162,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아프리카, 전력화 시대를 선도할 수 있다',
+      author: '관리자',
+      date: '2026.07.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>전력화 의제는 아프리카 대륙에 엄청난 기회이자 동시에 거대한 도전 과제입니다. 아프리카는 풍부한 재생에너지 자원을 보유하고 있어 전통적인 화석 연료 단계를 건너뛰고 청정 전력망을 구축할 잠재력이 있습니다. 이를 실현하기 위해서는 대규모 인프라 투자와 국제사회의 긴밀한 협력이 필수적입니다. 아프리카의 성공적인 전력화는 지역 경제 성장뿐만 아니라 글로벌 기후 목표 달성에도 결정적인 기여를 할 것입니다.</p><h3>주요 포인트</h3><ul><li><strong>기회와 도전의 공존:</strong> 전력화는 아프리카의 경제적 도약과 기후 대응을 동시에 달성할 기회이지만, 인프라 부족이라는 장벽이 존재합니다.</li><li><strong>풍부한 청정에너지 잠재력:</strong> 태양광, 풍력 등 아프리카의 막대한 재생에너지 자원은 글로벌 전력화 시대를 선도할 핵심 동력입니다.</li><li><strong>국제적 투자 및 협력 시급:</strong> 아프리카가 화석 연료를 건너뛰고 친환경 전력망으로 직행하기 위해서는 글로벌 금융 지원과 정책적 협력이 필수적입니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/16/africa-can-lead-the-age-of-electrification/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1163,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '카카오모빌리티, 안전보건경영 \'ISO 45001\' 인증 획득',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>카카오모빌리티가 글로벌 인증기관으로부터 안전보건경영시스템 국제표준인 'ISO 45001' 인증을 획득했습니다. ISO 45001은 사업장 내 다양한 위험 요인을 예방하고 안전한 근무 환경을 조성하기 위해 제정된 최고 수준의 국제 인증입니다. 카카오모빌리티는 이번 인증을 통해 임직원과 협력사의 안전을 체계적으로 관리하는 경영 시스템을 입증했으며, 이를 바탕으로 ESG 경영을 한층 더 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li><strong>국제 표준 인증 획득:</strong> 사업장 내 재해 예방과 안전한 환경 조성을 인정받아 'ISO 45001' 인증을 공식 획득했습니다.</li><li><strong>체계적인 안전보건 관리:</strong> 전담 조직을 구성하고 위험성 평가 및 지속적인 모니터링을 통해 안전 경영 체계를 고도화했습니다.</li><li><strong>ESG 경영 강화:</strong> 이번 인증을 계기로 임직원과 협력사의 안전을 최우선으로 하며, 사회적 책임을 다하는 지속 가능한 경영을 실천할 계획입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE95WXJ2UC00dzd6em9GdEZqSjV4SGZmZHZQM1RrVlBhbVNkMjJyVE9VSmZIWFF0YmxtNUlmWGJDYzZrQkxpY0tXekJsVQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1164,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해법 4년 데이터 분석…사망 605명·추락사 41.2%',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국회도서관은 중대재해처벌법 제정 이후의 데이터를 분석한 보고서를 발간하여 법 시행 이후의 현황과 과제를 조명했습니다. 조사 결과 법 적용 대상 사업장에서 발생한 사고사망자는 총 605명에 달했으며, 이 중 추락 사고가 41.2%로 가장 높은 비중을 차지했습니다. 특히 건설업과 제조업 등 고위험 업종에서 사망 사고가 집중적으로 발생함에 따라 실효성 있는 안전 관리와 예방 대책 마련이 시급한 상황입니다.</p><h3>주요 포인트</h3><ul><li><strong>사고사망자 605명 발생:</strong> 중대재해처벌법 시행 이후 법 적용 사업장에서 총 605명이 목숨을 잃어 산업 현장의 안전 확보가 여전히 시급한 과제임을 보여줍니다.</li><li><strong>추락 사고가 41.2% 차지:</strong> 재해 유형 중 '추락(떨어짐)'으로 인한 사망이 가장 많았으며, 끼임과 부딪힘 등이 주요 사고 원인으로 분석되었습니다.</li><li><strong>업종별 맞춤형 대책 필요:</strong> 사망 사고의 대부분이 건설업과 제조업에 집중되어 있어, 고위험 업종에 대한 집중 감독과 중소기업 대상 안전보건관리체계 구축 지원이 강조됩니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1QMlJRUjRHTUNPSzVyVHp3NjVMZ2w5ZTNIYngxaXJkWVBDWlJSaFhoWTBXSEE5cXk4N1U3X1dHbmZjT3BQQmtTUERBTDM2NXFQNFdzaW04ZVVXQ0lSX2ZmWExReERCQk8tbmc?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1155,
       pinned: false,
       category: 'news', categoryName: '소식',
