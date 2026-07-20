@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1165,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 공급망 지속가능성 격차 경고',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가 기관인 에코바디스(EcoVadis)가 기업들의 지속가능성 목표와 실제 공급망의 실행력 사이에 큰 격차가 존재한다고 경고했습니다. 조사에 따르면 대다수 기업이 ESG 목표를 수립했음에도 불구하고, 하위 공급업체들의 실제 이행률과 데이터 준비도는 이에 미치지 못하는 것으로 나타났습니다. 특히 유럽연합(EU)의 공급망 실사법 등 규제가 강화되는 상황에서 공급망 전반의 투명성 확보가 시급하며, 기업들의 적극적인 공급망 지원이 요구됩니다.</p><h3>주요 포인트</h3><ul><li><strong>목표와 실행의 불일치:</strong> 기업의 ESG 선언과 실제 공급망 내 협력사들의 지속가능성 실행 수준 사이에 상당한 격차가 존재합니다.</li><li><strong>규제 압박 가중:</strong> EU 공급망 실사지침(CS3D) 등 글로벌 ESG 규제가 강화되면서 공급망 데이터 확보가 기업의 필수 과제로 부상했습니다.</li><li><strong>공급망 협력 필요성:</strong> 단순한 평가를 넘어 공급업체의 역량 제고를 위한 교육 및 인센티브 제공 등 실질적인 협력 모델 구축이 필요합니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNmpjV2hMZFZwVHhTQWk2V2lvVFpTajBqdFFYUGJlRFU2ZERQZlhhUV84cFJkVUdyNV93d1FxMmozWHFGeWxwUDVaN2wyUVJaaTBkRXprUFlmc3BscFdLVUViVWxCWWtPNlNiWFN3eUVzODVKdU9CRDU2Z256cjZHbXZkdHAwT2E3R0oxWE0tdEdrT1ZhY0JHejJUcGR5N3JSeHFPQnNCUU8?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1166,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '삼익제약, ISO 환경·안전보건 인증 취득… ESG 경영 본격화',
+      author: '관리자',
+      date: '2026.07.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>삼익제약이 환경경영시스템(ISO 14001)과 안전보건경영시스템(ISO 45001) 국제표준 인증을 신규 취득하며 ESG 경영 체계를 구축했습니다. 이번 인증은 친환경 경영 실천과 안전한 작업 환경 조성을 위한 회사의 노력이 글로벌 기준에 부합함을 입증한 결과입니다. 삼익제약은 이를 바탕으로 지속 가능한 성장 동력을 확보하고 사회적 책임을 다하는 제약기업으로 자리매김할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>국제 표준 인증 동시 획득:</strong> 환경(ISO 14001) 및 안전보건(ISO 45001) 분야의 글로벌 인증을 취득하여 경영 신뢰성을 높였습니다.</li><li><strong>ESG 경영 체계 완비:</strong> 친환경 생산 공정 도입과 임직원 안전 강화를 통해 ESG 경영의 핵심 기틀을 마련했습니다.</li><li><strong>지속 가능한 미래 가치 창출:</strong> 향후에도 지속적인 모니터링과 개선을 통해 사회적 책임을 다하고 기업 가치를 제고할 예정입니다.</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aZ2lzbW5OVFBPVnptbG9MeWRfNHpqYk9JeDNSTW9nQldtU254Zl9MZTVTUHhKTUExZFBGb1pFLW9rM1lERmpZV2ZzVmMzM3d6aEVPRXJPYXJ2ZnJIOEE0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1167,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '렌프로, 공급망 규제 준수 위해 AI 도구 확대',
+      author: '관리자',
+      date: '2026.07.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>양말 및 레그웨어 제조업체인 렌프로(Renfro Brands)가 공급망 규제 준수와 협력업체 성과 관리를 강화하기 위해 인스펙토리오(Inspectorio)의 AI 기반 플랫폼 도입을 확대합니다. 렌프로는 기존 품질 관리 모듈에 더해 추적성 및 책임감 있는 소싱 모듈을 추가로 도입할 예정입니다. 이를 통해 글로벌 공급망의 투명성을 높이고, 위구르 강제노동 방지법(UFLPA) 등 엄격해지는 글로벌 ESG 규제에 선제적으로 대응하고자 합니다. AI 기술을 활용한 실시간 데이터 수집과 위험 평가는 공급망 전반의 효율성을 극대화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>AI 플랫폼 확대 도입:</strong> 렌프로는 인스펙토리오의 품질 관리 도구 외에 추적성 및 지속 가능한 소싱 모듈을 추가 도입합니다.</li><li><strong>글로벌 규제 대응 강화:</strong> 미국 위구르 강제노동 방지법(UFLPA) 등 강화되는 글로벌 공급망 실사 및 ESG 규제에 효과적으로 대응합니다.</li><li><strong>공급망 투명성 및 효율성 제고:</strong> 원자재부터 완제품까지의 공급망을 실시간으로 추적하고 협력업체의 성과를 객관적으로 평가하여 리스크를 최소화합니다.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/renfro-broadens-ai-tools-for-tighter-supply-chain-compliance/825203/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1168,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 탄소배출권 압박 완화 등 주간 ESG 동향',
+      author: '관리자',
+      date: '2026.07.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 동향에서는 EU가 탄소배출권 거래제(ETS)의 가격 압박을 완화하기 위해 취한 조치가 주목받았습니다. EU는 급격한 탄소 가격 상승으로 인한 산업계의 부담을 줄이고 시장 안정성을 높이기 위한 규제 조정을 추진하고 있습니다. 이와 함께 글로벌 기업들의 기후 공시 대응 노력과 지속가능 금융 시장의 성장이 지속되고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>EU ETS 압박 완화 조치:</strong> EU는 탄소 가격 급등으로 인한 기업의 비용 부담을 경감하고 시장의 변동성을 완화하기 위한 대책을 마련했습니다.</li><li><strong>기후 공시 및 규제 대응 가속화:</strong> 글로벌 기업들이 강화되는 ESG 공시 기준에 발맞추어 공급망 탄소 배출량(Scope 3) 관리 시스템을 적극 도입하고 있습니다.</li><li><strong>지속가능 금융 활성화:</strong> 친환경 프로젝트와 에너지 전환을 지원하기 위한 녹색 채권 발행 및 기후 펀드 조성이 글로벌 금융 시장에서 활발히 지속되고 있습니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-270/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-270" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1169,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '주요 배출국들, 기후 위험 수십 년 전부터 알았다',
+      author: '관리자',
+      date: '2026.07.15',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>주요 온실가스 배출국 정부들이 기존에 주장했던 것보다 수십 년 앞선 최소 1960년대부터 화석 연료 사용으로 인한 기후 변화 위험성을 인지하고 있었다는 사실이 밝혀졌습니다. 이들 정부는 기후 변화에 대한 책임을 회피하고 화석 연료 산업을 보호하기 위해 이러한 경고를 묵인하고 침묵을 지켰습니다. 이번 폭로는 기후 변화 대응 지연에 대한 각국 정부의 역사적 책임론을 더욱 부각시킬 것으로 보입니다.</p><h3>주요 포인트</h3><ul><li>주요 배출국 정부들은 최소 1960년대부터 화석 연료가 지구 온난화를 유발한다는 사실을 인지하고 있었습니다.</li><li>기후 변화에 대한 법적 및 재정적 책임을 피하기 위해 관련 정보를 의도적으로 은폐하거나 침묵을 유지했습니다.</li><li>이번 사실의 규명으로 기후 위기 대응 지연에 대한 정부의 역사적 책임과 배상 요구가 거세질 전망입니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/15/major-emitting-countries-knew-of-climate-risks-decades-earlier-than-claimed/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1160,
       pinned: false,
       category: 'news', categoryName: '소식',
