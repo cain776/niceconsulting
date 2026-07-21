@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1170,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '퍼스타 그룹, 에코바디스 ESG 평가 \'실버 메달\' 획득',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 포장재 및 필름 제조업체인 퍼스타 그룹(Firsta Group)이 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 실버 등급(Silver Medal)을 획득했습니다. 이번 등급 상향은 퍼스타 그룹이 환경, 노동 및 인권, 윤리, 지속 가능한 조달 등 ESG 경영 전반에서 거둔 성과를 인정받은 결과입니다. 퍼스타 그룹은 앞으로도 지속 가능한 제품 개발과 친환경 제조 공정 도입을 통해 글로벌 ESG 기준에 부합하는 경영을 강화해 나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>퍼스타 그룹, 에코바디스(EcoVadis) 지속가능성 평가에서 '실버 메달'로 등급 승격</li><li>환경, 노동·인권, 윤리, 지속 가능한 조달 등 전 분야에서 우수한 ESG 성과 인정</li><li>친환경 필름 및 포장 솔루션 개발을 통해 지속 가능한 경영 행보 가속화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQdXNCMVZPMGthOGF6VklGb3RLeDhhLV9MX0lOX0p4X0dfemlSV2ttbGpMN0NNUDM2YnRPT0pJeTR4Ty1uWFdDTy04b0ZOMzR5UVJueEdJNWEybTVFYTFXeWo4NkJKTlBYS2FuX0lwU1FmVm9aakx1ZEhrd0xkNnBpOVIwNzFQUnZCRllHWDZUT2NvNEdvX0JJVHBsNkc1RWhweHFFaw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1171,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 탄소시장 개편이 기후 행동에 미치는 영향',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합(EU) 집행위원회는 2030년까지 온실가스 배출량을 55% 감축하기 위한 'Fit for 55' 패키지의 일환으로 탄소배출권거래제(EU-ETS) 개편안을 제시했습니다. 이번 개편은 탄소 배출 총량 한도를 더 빠르게 줄이고, 해운 등 새로운 분야로 적용 대상을 확대하는 것을 골자로 합니다. 또한, 철강 및 시멘트 등 일부 산업에 제공되던 무상 할당을 단계적으로 폐지하고 탄소국경조정제도(CBAM)를 도입할 예정입니다. 이와 함께 건물과 도로 수송 분야를 위한 별도의 탄소시장(ETS II) 신설과 취약계층 지원을 위한 사회기후기금 조성이 추진됩니다.</p><h3>주요 포인트</h3><ul><li><strong>배출량 감축 가속화 및 대상 확대:</strong> 연간 배출 허용 총량 감소 폭을 확대하고, 해운업을 ETS에 포함시키며 건물 및 도로 수송 분야를 위한 별도의 ETS II를 신설합니다.</li><li><strong>무상 할당 폐지 및 탄소국경조정제도(CBAM) 연계:</strong> 역내 산업 경쟁력 보호를 위해 제공되던 무상 배출권을 단계적으로 폐지하고, 수입품에 탄소 비용을 부과하는 CBAM을 도입합니다.</li><li><strong>기후 기금 조성 및 사회적 지원:</strong> 탄소 시장에서 발생하는 수익을 혁신 기금과 현대화 기금에 재투자하고, 에너지 취약계층을 지원하기 위한 '사회기후기금'을 마련합니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-what-the-eus-carbon-market-review-means-for-climate-action/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1172,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '제약·의료·레저업계, ISO 인증 획득 열풍',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>제약, 의료, 레저 업계가 ESG(환경·사회·지배구조) 경영 강화를 위해 ISO 국제표준 인증을 잇따라 획득하고 있습니다. 이는 글로벌 기준에 부합하는 경영 체계를 구축하여 기업의 신뢰도를 높이고, 환경과 사회적 책임을 중시하는 소비자들의 '가치 소비' 요구에 부응하기 위함입니다. 다양한 산업군에서 환경경영(ISO 14001), 안전보건경영(ISO 45001) 등의 인증을 확보하며 지속가능한 성장 기반을 마련하고 있습니다.</p><h3>주요 포인트</h3><ul><li>제약·의료·레저 기업들의 ISO 14001(환경), ISO 45001(안전보건) 등 국제 표준 인증 획득 확산</li><li>ESG 경영 고도화 및 글로벌 시장에서의 경쟁력 확보를 위한 필수 전략으로 자리매김</li><li>윤리적 가치와 친환경을 중시하는 소비 트렌드인 '가치 소비'에 적극 부응</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5xbl9zWjRZcm51OE1Md2hlYmNkOFIzME9vdm42RGh6LW9yUjU5Si04c0R2VGpvcVk2YVRteGdkMGtkeUI1eGZfV2NPdXFZME9xQWEta04xSWFDbU1IZUJEUUdadkJQT292U0RaVDRmTlVyMmfSAXNBVV95cUxOcW5fc1o0WXJudThNTHdoZWJjZDhSMzBPb3ZuNkRoei1vclI1OUotOHNEdlRqb3FZNmFUbXhnZDBrZHlCNXhmX1djT3VxWTBPcUFhLWtOMUlhQ21NSGVCRFFHWnZCUE9vdlNEWlQ0Zk5VcjJn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1173,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '의정부도시공사, 중대재해처벌법 라운드테이블 개최',
+      author: '관리자',
+      date: '2026.07.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>의정부도시공사는 CEO 주재 하에 안전한 작업 환경 조성과 중대재해 예방을 위한 '중대재해처벌법 라운드테이블'을 개최했습니다. 이번 회의는 강화된 안전 보건 관계 법령에 선제적으로 대응하고, 공사 내 안전 관리 체계를 강화하기 위해 마련되었습니다. 참석자들은 현장의 유해·위험요인을 점검하고 실질적인 재해 예방 대책을 논의하며 안전 경영 실천을 다짐했습니다.</p><h3>주요 포인트</h3><ul><li>CEO 주재 하에 중대재해처벌법 대비 안전 보건 의무 이행 사항 점검</li><li>현장 근로자의 안전 확보를 위한 유해·위험요인 발굴 및 개선 방안 논의</li><li>지속 가능한 안전 보건 관리 체계 구축을 통한 ESG 경영 실천 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1QQTZYUGZuS0FnNWNDTkV3VHRKOWVsZHlVNVVqbmdRbzJ6NTRJMkxSU0pOcVNfWGk4YTZ5UXEyRmtkRGFteDdwRko1aGc0V1ZQRlQxSUhBU25faHgtX1J3MkotX_RqU1JZcFVRekpB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1174,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'MS 최고지속가능성책임자, 2030 탄소 네거티브 달성 확답 피해',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트(MS)의 최고지속가능성책임자(CSO) 멜라니 나카가와가 회사의 '2030 탄소 네거티브' 목표 달성 여부에 대한 직접적인 확답을 피했습니다. 이는 최근 인공지능(AI) 기술의 급격한 성장과 데이터 센터 확장으로 인해 전력 소비와 탄소 배출량이 급증하고 있는 상황을 반영한 것으로 보입니다. MS는 당초 2030년까지 배출하는 탄소보다 더 많은 양을 제거하겠다는 야심 찬 목표를 세웠으나, AI 인프라 확장이라는 현실적인 장벽에 부딪히고 있다는 분석이 나옵니다.</p><h3>주요 포인트</h3><ul><li>멜라니 나카가와 MS CSO는 인터뷰에서 2030년 탄소 네거티브 목표가 여전히 유효한 궤도에 있는지에 대한 질문에 즉답을 회피했습니다.</li><li>인공지능(AI) 구동을 위한 데이터 센터 확장과 전력 수요 급증이 MS의 탄소 감축 목표 달성에 큰 걸림돌로 작용하고 있습니다.</li><li>이번 발언은 빅테크 기업들이 내세운 친환경 약속과 실제 AI 기술 개발 속도 간의 격차 및 현실적 한계를 보여주는 사례로 평가됩니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1v1sxtd/microsoft_chief_sustainability_officer_melanie/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1165,
       pinned: false,
       category: 'news', categoryName: '소식',
