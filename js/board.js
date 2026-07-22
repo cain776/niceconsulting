@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1175,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'EU 탄소시장 검토 개편안과 기후 행동의 미래',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유럽연합 집행위원회가 2031년부터 EU 탄소배출권거래제(ETS)를 통한 배출량 감축 속도를 기존보다 완화하는 새로운 개편안을 제안했습니다. 이번 탄소시장 재검토는 산업계의 부담 완화와 기후 목표 달성 간의 균형을 도모하기 위한 취지로 추진되고 있습니다. 감축 속도 조절이 향후 유럽의 넷제로 목표와 탄소가격에 미칠 영향에 대해 다양한 관점의 논의가 이루어지고 있습니다.</p><h3>주요 포인트</h3><ul><li>2031년부터 적용될 EU 탄소시장 배출 감축 속도 완화 제안</li><li>탄소배출권거래제(ETS) 개편이 에너지 및 주요 산업 부문에 미치는 영향</li><li>2030 기후 목표 및 2050 탄소중립 달성을 위한 정책적 조정</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-what-the-eus-carbon-market-review-means-for-climate-action" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1176,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '하이페리온 로보틱스, 저탄소 인프라 생산 위해 740만 달러 투자 유치',
+      author: '관리자',
+      date: '2026.07.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>자동화, 로봇 공학 및 지속가능 소재 스타트업 하이페리온 로보틱스(Hyperion Robotics)가 740만 달러(약 100억 원) 규모의 투자금을 유치했습니다. 하이페리온은 독자적인 3D 프린팅 및 로보틱스 기술을 활용하여 전통적인 인프라 건설 방식 대비 자재 사용량을 줄이고 생산 속도를 대폭 향상시키고 있습니다. 이번에 확보한 자금은 저탄소 콘크리트 기반 인프라 생산 기술의 상용화 가속화 및 글로벌 시장 확장에 투입될 예정입니다.</p><h3>주요 포인트</h3><ul><li>하이페리온 로보틱스, 저탄소 인프라 생산 기술 개발 및 확장을 위해 740만 달러 투자 유치 완료</li><li>3D 프린팅과 독자적 로봇 자동화 기술을 통해 건설 인프라의 콘크리트 사용량 및 탄소 배출 절감</li><li>확보된 자금을 바탕으로 에너지 및 물 인프라 프로젝트를 중심으로 글로벌 상용화 가속화 추진</li></ul><p>원문: <a href="https://www.esgtoday.com/hyperion-robotics-raises-7-4-million-to-enable-faster-lower-carbon-infrastructure-production/?utm_source=rss&utm_medium=rss&utm_campaign=hyperion-robotics-raises-7-4-million-to-enable-faster-lower-carbon-infrastructure-production" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1177,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '이용우 의원 등 11명, 중대재해처벌법 실효성 확보 토론회 개최',
+      author: '관리자',
+      date: '2026.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이용우 의원을 비롯한 국회의원 11명이 중대재해처벌법의 실효성을 확보하기 위한 국회 토론회를 개최했습니다. 이번 토론회는 법 시행 이후 나타난 현장의 한계점을 점검하고, 실질적인 산업재해 예방 효과를 높이기 위한 제도 개선 방안을 논의하기 위해 마련되었습니다. 참석자들은 노동자의 안전권 보장과 기업의 실질적인 안전보건 관리체계 구축을 위한 입법·정책적 대안을 다양하게 모색했습니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법의 실효성 제고를 위한 국회 차원의 토론회 개최 (이용우 의원 등 11인 주최)</li><li>법 시행 현황 점검 및 실질적인 현장 적용성 강화를 위한 보완책 논의</li><li>노동자 안전 확보와 기업의 실효성 있는 안전보건 관리체계 구축 방안 모색</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKbXZzRk9BdzFMTW4wMU0tVXI0RDY4b1oydFI0SkVuN0tpaDQxY1FDNDI3VzhTUkJveVNTaWlzSTZkUURzZ05KbUNLSklHQkp3aFpRSjZUYlUxcWJlTlJaanBQQlVvcWdY?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1178,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'J.M. 스머커, 허시 출신 임원 공급망 수석부사장 영입',
+      author: '관리자',
+      date: '2026.07.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 식품 대기업 J.M. 스머커(J.M. Smucker)가 허시(Hershey) 출신의 더글라스 길례르메(Douglas Guilherme)를 운영 및 공급망 담당 수석부사장(SVP)으로 영입했습니다. 길례르메 신임 수석부사장은 오는 7월 29일 취임하며, 허시와 프록터앤드갬블(P&G) 등에서 쌓은 30년 이상의 풍부한 경력을 바탕으로 스머커의 생산 운영 및 공급망 조직을 총괄할 예정입니다. 이번 인사는 공급망 불확실성에 대응하고 운영 효율성을 극대화하기 위한 전략적 조치로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>더글라스 길례르메, 7월 29일 자로 J.M. 스머커의 운영 및 공급망 수석부사장(SVP)으로 공식 취임</li><li>허시, P&G 등 글로벌 기업에서 30년 이상의 공급망 및 제조 운영 경력 보유</li><li>스머커의 생산성 향상, 프로세스 최적화 및 지속가능한 공급망 전략 추진 기대</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/jm-smucker-snags-hershey-exec-as-svp-of-operations-supply-chain/825649/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1179,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '삼익제약, 환경·안전보건 국제표준 인증 획득하며 ESG 경영 가속화',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>삼익제약이 환경경영시스템(ISO 14001) 및 안전보건경영시스템(ISO 45001) 국제표준 인증을 획득하며 ESG 경영에 박차를 가하고 있습니다. 이번 인증을 통해 제약 제조 공정 전반에서의 친환경성 강화와 임직원의 안전한 근무 환경 조성을 공식 입증했습니다. 삼익제약은 글로벌 수준의 환경 및 안전보건 관리 체계를 바탕으로 지속가능한 성장 기반을 지속 강화할 계획입니다.</p><h3>주요 포인트</h3><ul><li>환경경영(ISO 14001) 및 안전보건경영(ISO 45001) 국제표준 인증 동시 획득</li><li>친환경 모니터링 강화 및 사업장 내 안전한 작업 환경 조성</li><li>국제표준 기반의 지속가능한 ESG 경영 체계 본격화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBuWGZ3eXlXYTdqNUdqR09JYmZvajRBcmFDYWpPUnBpU3lmcGZoWmZGanZDT25qT0lVakY1aWZfX1RtSFNObW5sNE8zamZpdXNYMmw2bnNnZy1FdEJ0d2hFTXphUjJHVnJtOUh3aU52NFQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1170,
       pinned: false,
       category: 'news', categoryName: '소식',
