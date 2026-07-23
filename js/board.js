@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1180,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '프로비던스, 신임 최고공급망책임자(CSCO) 아만다 차울라 임명',
+      author: '관리자',
+      date: '2026.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 대형 비영리 의료 시스템인 프로비던스(Providence)가 아만다 차울라(Amanda Chawla)를 신임 최고공급망책임자(CSCO)로 임명했습니다. 이번 인사는 인플레이션 등으로 인한 지출 부담이 높아진 시기에 조직의 공급망 역량을 강화하기 위해 결정되었습니다. 차울라 CSCO는 지속가능하고 회복력 있는 공급망 관리를 통해 자원 운영 효율성을 높이는 데 집중할 예정입니다.</p><h3>주요 포인트</h3><ul><li>아만다 차울라 신임 CSCO 임명을 통한 공급망 리더십 강화</li><li>지출 증가 시기에 대응하기 위한 공급망 운영 효율화 및 비용 최적화</li><li>안정적인 의료 서비스 제공을 위한 회복력 있고 지속가능한 공급망 구축</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/providence-names-new-chief-supply-chain-officer/825622/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1181,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국 국내 기후 정책 강화, 해외 기후 지원 축소 우려',
+      author: '관리자',
+      date: '2026.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>앤디 번햄 신임 영국 총리가 버스 요금 인하 및 가정용 전력세 감면 등 국내 기후 대응 강화를 위한 친환경 정책을 발표했습니다. 그러나 이번 정책에 필요한 재원의 일부는 기존 국제 기후 재정을 무상 지원(그랜트)에서 대출 방식으로 전환하여 충당할 예정입니다. 이로 인해 기후 위기 대응에 재정적 어려움을 겪는 개발도상국 등 해외 지원 대상국들의 부담이 가중될 것이라는 우려가 제기되고 있습니다.</p><h3>주요 포인트</h3><ul><li>영국 정부, 버스 요금 인하 및 전기세 감면 등 국내 기후 친화 정책 발표</li><li>국내 정책 재원 마련을 위해 국제 기후 지원금을 무상 지원에서 대출로 전환</li><li>개발도상국의 부채 가중 및 해외 기후 재정 악화에 대한 우려 제기</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/22/will-new-uk-pms-green-measures-at-home-cause-climate-finance-pain-overseas/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1182,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '부평구, 중대재해 예방 위한 역량강화 교육 실시',
+      author: '관리자',
+      date: '2026.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>인천시 부평구가 중대재해 예방과 안전보건 관리 강화를 위해 담당자 대상 역량강화 교육을 실시했습니다. 이번 교육은 중대재해처벌법 시행에 맞춰 사업장 내 위험요인을 사전에 발굴하고 안전관리 체계를 구축하기 위해 마련되었습니다. 구는 현장 중심의 실무 교육을 통해 공무원 및 관계자들의 안전보건 의무 이행 능력을 제고했습니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 관련 법적 의무 사항 및 대응 방안 교육</li><li>사업장 안전 점검 및 위험성 평가 실무 역량 강화</li><li>안전한 근무 환경 조성 및 중대재해 예방 관리 체계 구축</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE96Wi02R2JRR1hPaHgyTWFUQmtNNXBpTEF0MXhEX0diWnFaYlNra2pHSV96ZDVZZkM1LVBsX3NZby1naWhBWGtrRkNFbHdxWl9XNHg2YkdOT1BwNEU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1183,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '국립광주과학관, 정보보안·개인정보보호 국제표준 인증 동시 획득',
+      author: '관리자',
+      date: '2026.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국립광주과학관이 정보보안(ISO/IEC 27001) 및 개인정보보호(ISO/IEC 27701) 분야의 국제표준 인증을 동시에 획득했습니다. 이번 인증을 통해 과학관은 관람객의 개인정보와 기관 정보자산을 안전하게 보호하는 세계적 수준의 관리체계를 갖추었음을 입증했습니다. 국립광주과학관은 앞으로도 보안 체계를 고도화하여 신뢰할 수 있는 대민 서비스를 제공하고 ESG 경영을 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>정보보안(ISO/IEC 27001) 및 개인정보보호(ISO/IEC 27701) 국제표준 인증 동시 취득</li><li>관람객 개인정보 보호 및 정보자산 관리 체계에 대한 국제적 신뢰성 확보</li><li>투명하고 안전한 정보 거버넌스 구축을 통한 ESG 경영 실천</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTFBjYWJpLWJPV2ZTbFJQc29XRlVMWXZQV2FBZGdOVzdKUVJaMWVqM0NiSEw0eXhIZFJNcGM2MzlpSGZ3dTlGdDlBeERmbkNTQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1184,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽 5·6월 폭염 사망자 수 추정과 집계 방식 분석',
+      author: '관리자',
+      date: '2026.07.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 공중보건 당국과 기후 과학자들은 올해 5월과 6월 유럽을 습격한 폭염으로 인한 사망자 수를 추정하는 보고서들을 연이어 발표했습니다. 폭염 관련 사망은 단순 열사병 외에도 심혈관 및 호흡기 질환 등 기저질환 악화로 발생하기 때문에 연구진은 '초과 사망률(Excess Mortality)' 모델을 활용해 통계를 산출합니다. 이번 분석은 극단적인 폭염의 인명 피해 규모 집계 방식과 기후변화가 사망 위험을 얼마나 가중시켰는지 설명합니다.</p><h3>주요 포인트</h3><ul><li><strong>초과 사망률 기반 집계:</strong> 폭염 기간 통상적인 예상 사망자 수를 초과하는 사망 건수를 집계하여 직간접적인 열 피해 규모를 정확하게 추정합니다.</li><li><strong>기후변화의 정량적 영향:</strong> 기후 귀속 연구를 통해 인간 활동으로 인한 온실가스 배출이 폭염의 강도를 높이고 사망 위험을 증대시켰음을 규명합니다.</li><li><strong>공중보건 적응 전략:</strong> 정확한 사망자 분석은 기후위기 대응을 위한 조기 경보 시스템 도입과 보건 정책 수립의 핵심 근거가 됩니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-europes-may-and-june-heatwave-deaths-and-how-they-were-counted" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1175,
       pinned: false,
       category: 'news', categoryName: '소식',
