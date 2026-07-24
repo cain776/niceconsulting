@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1185,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '쿠팡 화재 사고, 중대재해처벌법 적용 불투명 논란',
+      author: '관리자',
+      date: '2026.07.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>쿠팡이 5년 전 화재 처벌 대상에서 제외된 데 이어, 최근 발생한 관련 사고에서도 중대재해처벌법 적용 여부가 불투명하다는 지적이 나오고 있습니다. 물류센터 내 안전 관리 책임 유무와 법적 처벌 대상을 둘러싼 논란이 지속되며 기업 책무성에 대한 비판이 가열되고 있습니다. 이는 ESG 경영의 사회(S) 영역인 근로자 안전 보건 체계 구축 및 하도급 안전 관리 책임과 직결되는 주요 이슈입니다.</p><h3>주요 포인트</h3><ul><li>5년 전 화재 당시 쿠팡 본사는 법적 처벌 대상에서 제외된 바 있음</li><li>복잡한 책임 구조 등으로 인해 최근 사고 역시 중대재해처벌법 적용 여부 불확실</li><li>사업장 안전 보건 관리 체계 강화 및 기업의 실질적 책임 이행 요구 증대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zSkVWMU9kM0p1VDdka2wtRGFFcUhVbjRSc0lhSUxpZlJsUVEtY0tVVDBRbXNHdWZ6MGJhaGtZdnE4a0ZlWDQwbi1oQU5Yd09VWmo3cNIBTEFVX3lxTFBlei1wN3hyaGV3dVJzZHY4ZWpEQW92WGVxdm42aUxWaWo5cENFNTVtb0JCWkpmZTlybnZ1bTNlVWNvRXhjOC1Mb2NCS2Q?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1186,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 공급망 회복탄력성 강화를 위해 글로벌 커뮤니티 확장',
+      author: '관리자',
+      date: '2026.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)가 공급망의 회복탄력성과 ESG 성과를 가속화하기 위해 커뮤니티 네트워크를 확대하고 있습니다. 기업들은 강화되는 글로벌 ESG 규제와 공급망 실사법에 효과적으로 대응하기 위해 에코바디스의 플랫폼과 평가 데이터를 적극 활용하고 있습니다. 이를 통해 글로벌 공급망 생태계 전반의 투명성을 높이고 위험 관리 역량을 강화할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>공급망 회복탄력성 및 지속가능성 향상을 위한 글로벌 커뮤니티 스케일업</li><li>유럽 공급망 실사 지침(CSDDD) 등 강화되는 ESG 규제 대응 체계 지원</li><li>데이터 기반 지속가능성 평가를 통한 공급망 리스크 관리 및 투명성 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFNEaHFaaGdSNDV2MEREbG8xV2wyM25GUDFHQk9iMjVuTnpvQWYyZnpyMFZhQ3lZRkNhUTA3V1V1ZEtIbm9jU2pTMHN5c2RsNmtIczR1SXMyZTF1Ymo1b1BZMkJKNm5POVJJdzdLWnBveXQ1aVotUmhFRC0xYVUyVEM5M3VhbThjZmVCLTRXaEhPaXN0RGNmYWxKMDRYVHdIeUNOWnpxY25HRS00cW5jSnpXX2NicTFjRjc5d1doLS0yeW5FZjJwd2dB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1187,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '리오틴토, 제련소 석탄 대체 위해 \'바이오 펠릿\' 공급 계약 체결',
+      author: '관리자',
+      date: '2026.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 광산 및 금속 기업 리오틴토(Rio Tinto)가 정련소 운영에서 석탄 사용을 대체하기 위한 5개년 '바이오 펠릿' 공급 계약을 체결했습니다. 이번 계약은 지속 가능한 방식으로 수급한 바이오매스 기반 펠릿을 활용하여 알루미나 정련 공정의 탈탄소화를 추진하는 것을 골자로 합니다. 리오틴토는 이를 통해 화석연료 의존도를 낮추고 감축하기 어려운 중공업 분야의 배출량을 효과적으로 줄여나갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>정련소 내 석탄을 대체하기 위한 5개년 바이오 펠릿 공급 계약 체결</li><li>지속 가능한 바이오매스 활용을 통한 정련 공정의 직접적인 온실가스 감축 도모</li><li>2030년 온실가스 감축 목표(Scope 1·2 배출량 50% 절감) 및 2050 넷제로 달성을 위한 탈탄소 전략 일환</li></ul><p>원문: <a href="https://www.esgtoday.com/rio-tinto-signs-deal-to-replace-coal-in-refineries-with-bio-pellets/?utm_source=rss&utm_medium=rss&utm_campaign=rio-tinto-signs-deal-to-replace-coal-in-refineries-with-bio-pellets" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1188,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '회복력 있는 생물다양성 전략 구축을 위한 4가지 실천 방안',
+      author: '관리자',
+      date: '2026.07.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기업이 자연 친화적(Nature-positive) 공급망을 구축하고 생물다양성 리스크를 관리하는 것은 ESG 경영의 핵심 과제로 떠오르고 있습니다. 본 기사는 실용적인 위험 평가 도구를 활용하여 지속 가능한 생물다양성 전략을 수립하는 방법을 제시합니다. 기업은 공급망 전반에서 생물다양성에 미치는 영향을 파악하고, 지금 즉시 실행할 수 있는 실질적인 대응책을 마련해야 합니다.</p><h3>주요 포인트</h3><ul><li>자연 친화적(Nature-positive) 공급망 구축의 중요성 및 필요성 강조</li><li>실용적인 위험 평가 도구를 활용한 생물다양성 리스크 측정 및 관리</li><li>기업 내부 팀이 즉시 도입할 수 있는 4가지 생물다양성 실행 방안 제시</li></ul><p>원문: <a href="https://ecovadis.com/blog/biodiversity-strategy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1189,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '바임, 국제 표준 안전보건경영으로 \'쥬베룩\' 생산 강화',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>바이오 메디컬 기업 바임이 국제 표준 안전보건경영시스템을 바탕으로 주력 제품인 '쥬베룩' 생산 체계를 구축했습니다. 바임은 사업장 내 산업재해 예방과 안전한 작업 환경 조성을 위해 위험 요인을 사전에 발굴하고 개선하는 관리체계를 강화하고 있습니다. 이를 통해 근로자의 안전 보장과 함께 지속가능경영(ESG)을 적극 실천하며 글로벌 경쟁력을 높이고 있습니다.</p><h3>주요 포인트</h3><ul><li>국제 표준 안전보건경영시스템 기반의 '쥬베룩' 안전 생산 체계 강화</li><li>사업장 위험 요인 사전 발굴 및 산업재해 예방을 위한 작업환경 개선</li><li>ESG 경영 실천을 통한 글로벌 시장에서의 기업 신뢰도 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFBEY3lGMUMydjRsR1BIcmRhekpqYTMxUnhXUkdnSklFc1JvYkhDZGIwQmxyZjZZYkhWcFItdXk1TDhZR2Fpb0lUb2dnUVRvTkFySmhCekdxQlg3VnJQVFZ5ak03NkFZcTQ3Vk1PUnp4TU1BOG9wWW4zbGpKTQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1180,
       pinned: false,
       category: 'news', categoryName: '소식',
