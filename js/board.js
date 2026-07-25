@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1190,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국표준협회, 사우스스프링스CC에 ISO 14001·45001 동시 인증',
+      author: '관리자',
+      date: '2026.07.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국표준협회가 ㈜사우스스프링스CC에 환경경영시스템(ISO 14001)과 안전보건경영시스템(ISO 45001) 인증을 동시에 수여했습니다. 이번 인증을 통해 사우스스프링스CC는 골프장 운영 전반에서 환경 보호 체계와 안전보건 관리 수준을 국제 표준에 맞춰 강화했음을 인정받았습니다. 사우스스프링스CC는 앞으로도 친환경적이고 안전한 골프장 환경을 조성하며 지속 가능한 ESG 경영을 적극 실천할 방침입니다.</p><h3>주요 포인트</h3><ul><li>환경경영(ISO 14001) 및 안전보건경영(ISO 45001) 국제 표준 인증 동시 획득</li><li>골프장 환경 영향 최소화와 근로자 및 이용객의 안전보건 관리 체계 구축 인정</li><li>ESG 경영 강화를 통한 지속 가능한 친환경 골프장 운영 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMWWxCdW1lQlJPLVgxMXB5TFR2WW1HblJUaUs1VTRfTzJOa1drNTFnS0Nxa0pmLVBjY2NDMTEyNW1adFpiNGE5T1huTWVrWjRwYkNwLUVhOXZ2RFU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1191,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '팩트체크: 유럽 폭염의 원인은 대기오염 감소가 아니다',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>올여름 유럽을 덮친 기록적인 폭염의 주원인이 대기오염 개선 때문이라는 일각의 주장은 사실이 아닙니다. 대기오염 물질인 에어로졸의 감소가 태양광 차단 효과를 줄여 일부 기온 상승에 기여했을 수는 있지만, 폭염을 유발하는 근본적이고 압도적인 원인은 온실가스 배출입니다. 전문가들은 대기질 개선에 따른 냉각 효과 감소를 기후변화의 주원인으로 오인해서는 안 되며, 근본적인 해결을 위해 온실가스 감축이 필수적이라고 강조합니다.</p><h3>주요 포인트</h3><ul><li>유럽 폭염의 결정적인 원인은 대기오염 감소가 아닌 온실가스 누적으로 인한 지구 온난화입니다.</li><li>에어로졸(대기오염 물질) 감소는 기존의 구름 형성 및 태양광 반사 효과를 줄였으나 보조적 요인에 불과합니다.</li><li>대기질 개선 정책과 기후위기 대응은 함께 추진되어야 하며, 핵심은 지속적인 탄소 배출 감축입니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/factcheck-no-europes-heatwaves-are-not-being-caused-by-declining-air-pollution" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1192,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '공급망 매핑의 개념과 기업 ESG에 중요한 이유',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>공급망 매핑은 1차 공급업체를 넘어 N차 하청업체까지 전체 공급망 네트워크를 시각화하고 파악하는 핵심 프로세스입니다. 최근 각국 규제 기관이 기업의 공급망 실사 및 ESG 책임 강화를 의무화함에 따라 그 중요성이 급격히 커졌습니다. 이를 통해 선도 기업들은 공급망 내 환경·인권 리스크를 사전에 식별하고 지속가능한 책임 조달 체계를 구축하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>공급망 투명성 확보:</strong> 하청업체를 포함한 전체 공급망의 위치와 구조를 시각화하여 투명하게 관리</li><li><strong>글로벌 규제 준수:</strong> EU 공급망 실사지침(CSDDD) 등 강화되는 ESG 법적 의무에 선제적 대응</li><li><strong>리스크 관리 및 책임 조달:</strong> 인권 침해, 환경 오염 등 잠재적 공급망 위협을 조기에 인지하고 대처</li></ul><p>원문: <a href="https://ecovadis.com/blog/supply-chain-mapping/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1193,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 자본 에너지 전환 광물 프로젝트의 피해 의혹 증가',
+      author: '관리자',
+      date: '2026.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중국 자본이 투입된 에너지 전환 광물 프로젝트에서 인권 및 환경 피해 의혹 보고가 급증하고 있습니다. 이러한 우려가 커지는 가운데, 피해를 입은 지역사회와 중국 기업 간의 갈등을 해결하기 위한 새로운 중재 메커니즘이 가동되기 시작했습니다. 핵심 광물 공급망에서의 ESG 위험 관리와 현지 주민 보호에 대한 요구가 더욱 거세지고 있습니다.</p><h3>주요 포인트</h3><ul><li>중국 지원 전환 광물 프로젝트 관련 인권 및 환경 피해 의혹 보고 증가</li><li>중국 기업과 영향받는 지역사회 간의 갈등 중재를 위한 신규 메커니즘 본격 가동</li><li>청정에너지 전환용 광물 채굴 과정에서 공급망 내 ESG 책임 경영 강화 필요성 부각</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/22/allegations-of-harms-at-china-backed-transition-minerals-projects-rise/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1194,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '새 건물을 짓지 않는 순환 건축: 바르바라 부저의 친환경 건축 철학',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>스위스의 건축가 바르바라 부저(Barbara Buser)는 수십 년 동안 '가장 친환경적인 건물은 이미 서 있는 건물'이라는 철학을 실천해 왔습니다. 그녀는 신축 건물을 짓는 대신 버려진 공장들을 활력 넘치는 지역 커뮤니티 거점으로 탈바꿈시키며 유럽에서 가장 영향력 있는 건축가 중 한 명으로 자리매김했습니다. 72세의 나이에도 자전거로 현장을 누비는 그녀는 자원 순환형 건축을 적극적으로 주도하고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>신축 거부와 기존 건물 보존:</strong> 새로운 건물을 짓는 대신 기존 건물을 유지·재활용하는 것이 가장 친환경적임을 증명</li><li><strong>폐공장의 지역 거점화:</strong> 버려진 산업 유산을 활기찬 지역 사회 중심지로 재탄생시킴</li><li><strong>순환 건축(Circular Construction) 실천:</strong> 자원의 재사용과 지속 가능성을 최우선으로 하는 건축 기법 확산</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1v5e8yd/what_if_we_never_built_another_new_building/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1185,
       pinned: false,
       category: 'news', categoryName: '소식',
