@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1195,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '환경 보호를 외치면서 육식 줄이기에는 반발하는 사람들의 모순',
+      author: '관리자',
+      date: '2026.07.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>많은 자칭 환경주의자들이 일회용 플라스틱 절감이나 장거리 비행 자제 등 산업적 거부에는 동의하면서도, 식단 변화 요구에는 강하게 반발하는 모순을 보입니다. 동물성 제품 소비를 줄이는 것은 개인이 지구에 미치는 영향을 직접 줄일 수 있는 가장 효과적인 방법 중 하나입니다. 하지만 자신의 식습관을 바꿔야 한다는 주장에 대해서는 핑계를 대며 책임을 회피하거나 공격적인 태도를 취하고 있습니다.</p><h3>주요 포인트</h3><ul><li>자칭 환경 운동가들조차 축산업의 환경 파괴 문제와 육류 소비 줄이기 요구에는 이중잣대를 적용함</li><li>동물성 식품 소비 축소는 개인 차원에서 환경 발자국을 줄이는 가장 강력하고 직접적인 방법임</li><li>플라스틱 감축 등 타 분야에는 협조적이지만 육식 포기 요구에는 감정적인 거부감과 방어적 태도를 보임</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1v686by/its_baffling_to_me_how_so_many_people_who_claim/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1196,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 지속가능 공급망 플랫폼 모든 공급업체에 개방',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가 기관 에코바디스(EcoVadis)가 자사의 지속가능한 공급망 네트워킹 플랫폼을 모든 공급업체로 전면 개방했습니다. 이를 통해 평가 참여 여부와 관계없이 모든 공급업체가 자사의 지속가능성 성과를 공유하고 글로벌 구매기업들과 직접 연결될 수 있게 됩니다. 이번 조치는 글로벌 공급망 전반의 투명성을 제고하고 강화되는 ESG 규제에 효과적으로 대응하기 위해 추진되었습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스, 지속가능한 공급망 네트워킹 플랫폼 전면 개방</li><li>모든 공급업체의 ESG 성과 데이터 공유 및 비즈니스 기회 연결 지원</li><li>글로벌 공급망 실사법 등 강화되는 지속가능성 규제 대응력 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYTNMamo0eFNqbVRBdWVzbzBkcE5RZEpQWGZZOGZIdFM0TVNtbVllQTBTSU9Yd29tTjJRNFpSMTk4MDhkcWZsb1ZHa1VNMHI3Vll1bXZHbHJGNlpSUm5BdE5oMXphN0pxSEtFNllhcGR0RjZSMUFmb1oyZkx4d1F1THNjRVFNN1RJVE5ZRm9zdjczRVpJcFFuNWxsQk5vLWgyY0dJUzg4djdPQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1197,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 도입, 기업 ESG 활동 제한 실증 분석',
+      author: '관리자',
+      date: '2026.07.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 도입이 기업의 ESG(환경·사회·지배구조) 활동을 오히려 위축시킬 수 있다는 실증분석 연구 결과가 발표되었습니다. 해당 논문에 따르면 엄격한 처벌 규제 시행 이후 기업들이 법적 리스크 대응과 방어적 경영에 자원을 우선 배분하면서 자율적인 ESG 경영 활동 활동에는 제약을 받는 것으로 분석되었습니다. 이에 따라 과도한 처벌 중심의 규제가 기업의 적극적인 사회적 가치 창출 노력을 저해할 수 있다는 우려가 제기됩니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 도입이 기업 ESG 활동에 미친 영향을 실증 분석한 연구 논문 발표</li><li>규제 대응 및 법적 리스크 관리 비용 증가로 인해 기업의 적극적인 ESG 투자 감소</li><li>형벌 중심의 법적 부담이 기업의 자율적이고 지속 가능한 ESG 경영 이행을 제약하는 요인으로 작용</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OZFFiVUJTTDJDazFBd2xTdFVGSWgzY1ZYTV9FYnJmbGc4UC00LVNiRnF6N3ZkNTZEOUxRdlRGbmJxd1ItTzhYellUcEdsemlv?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1198,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '이란 분쟁 격화, 플라스틱 원자재 공급망 타격',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>7월에 발생한 이란 관련 군사적 충돌로 인해 6월 휴전 협정과 호르무즈 해협 재개방에 대한 기대감이 무산되었습니다. 이로 인해 신재(Virgin) 플라스틱 원자재의 공급 흐름이 불안정해지며 글로벌 공급망의 회복이 지연되고 있습니다. 원자재 가격 상승과 함께 플라스틱 공급망 전반에 지체와 재개를 반복하는 불확실성이 지속되고 있습니다.</p><h3>주요 포인트</h3><ul><li>6월 휴전 기대감 무산 및 호르무즈 해협 재개방 지연</li><li>신재(Virgin) 플라스틱 원자재 공급의 단속적(stop-start) 회복 현상 발생</li><li>유통 차질 및 가격 상승으로 인한 글로벌 플라스틱 공급망 부담 가중</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/iran-war-escalation-rankles-plastic-supply-chains/826055/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1199,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '공급업체 관계 관리(SRM): 협력사를 경쟁 우위로 바꾸는 방법',
+      author: '관리자',
+      date: '2026.07.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>공급업체 관계 관리(SRM)는 단순한 계약 체결 및 관리를 넘어 협력사와의 장기적이고 전략적인 파트너십을 구축하는 프로세스입니다. 선도적인 구매 팀은 SRM 프로세스와 성숙도 모델을 활용하여 협력사의 지속가능성과 ESG 리스크를 체계적으로 관리합니다. 이를 통해 기업은 공급망 안정성을 확보하고, 협력사와의 협업을 통해 강력한 비즈니스 경쟁 우위를 창출할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>단순 계약 및 비용 절감을 넘어선 전략적 파트너십 구축</li><li>SRM 성숙도 모델을 활용한 공급망 ESG 및 리스크 관리 체계화</li><li>협력사와의 협업 및 혁신을 통한 지속가능한 경쟁 우위 확보</li></ul><p>원문: <a href="https://ecovadis.com/blog/supplier-relationship-management/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1190,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
