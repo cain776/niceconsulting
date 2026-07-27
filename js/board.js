@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1200,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '코나그라, 공급망 회복탄력성에 1억 2,500만 달러 투자',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 글로벌 식품 제조업체 코나그라 브랜즈(Conagra Brands)가 공급망 회복탄력성 강화를 위해 1억 2,500만 달러를 투자할 계획이라고 발표했습니다. 경영진은 높은 수준의 서비스 제공을 유지함과 동시에 제품 포트폴리오를 재평가하고 재고 보유 일수를 줄일 방침입니다. 이번 투자를 통해 외부 환경 변화에 대한 대응력을 높이고 장기적인 공급망 효율성을 극대화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>공급망 회복탄력성 및 운영 효율 극대화를 위한 1억 2,500만 달러 투자</li><li>높은 서비스 수준 유지와 더불어 재고 보유 일수(Days of Inventory) 단축</li><li>시장 변화 및 효율성에 맞춘 제품 포트폴리오(Product Mix) 재평가 추진</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/conagra-to-invest-125m-in-supply-chain-resilience/825796/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1201,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '캘리포니아, 초기 공급망 배출량 보고 완화 등 주간 ESG 동향',
+      author: '관리자',
+      date: '2026.07.26',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 주요 뉴스에서는 캘리포니아주가 기업들의 초기 공급망(Scope 3) 탄소 배출량 공시 요구사항을 제한하기로 한 소식이 비중 있게 다뤄졌습니다. 이번 조치는 규제 도입 초기 기업들이 받게 될 보고 부담과 혼란을 완화하기 위한 정책적 조정으로 평가됩니다. 이와 함께 한 주간 발표된 글로벌 주요 ESG 규제 동향과 기업들의 지속가능성 추진 현황이 종합적으로 정리되었습니다.</p><h3>주요 포인트</h3><ul><li>캘리포니아주, 초기 공급망 배출량(Scope 3) 공시 의무 범위 제한 추진</li><li>기업의 공시 부담을 줄이고 단계적 이행을 돕기 위한 규제 조정</li><li>글로벌 ESG 정책, 지속가능 금융 및 기업 동향에 대한 주간 핵심 요약</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-271/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-271" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1202,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '해외 생수 대기업에 수십억 리터 용천수 무상 제공한 감시 당국 비판',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>환경 및 수자원 감시 당국이 해외 생수 대기업들에게 수십억 리터에 달하는 천연 용천수를 사실상 무상으로 넘겨주었다는 의혹과 비판에 직면했습니다. 이번 심층 조사는 공공 자원인 용천수가 민간 기업의 상업적 이익을 위해 과도하게 추출되고 있는 실태를 조명합니다. 기후 변화로 수자원 고갈 우려가 커지는 상황에서 규제 당국의 미흡한 자원 관리 정책이 도마 위에 올랐습니다.</p><h3>주요 포인트</h3><ul><li>해외 생수 거대 기업들에게 수십억 리터의 용천수 채수 권한을 무상 제공했다는 지적</li><li>공공 수자원의 사적 이익화 및 지속 가능성에 대한 환경 단체의 우려 증대</li><li>기후 위기 속 엄격한 수자원 관리 감독 및 공정한 대가 산정 체계 마련 요구</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1v58w3u/watchdog_accused_of_giving_away_billions_of/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1203,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '콘티넨탈, 에코바디스 지속가능성 평가 상위 5% 기록',
+      author: '관리자',
+      date: '2026.07.22',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 자동차 부품 및 타이어 기업 콘티넨탈(Continental)이 글로벌 ESG 평가기관인 에코바디스(EcoVadis)의 지속가능성 평가에서 상위 5%에 해당하는 '골드(Gold)' 등급을 획득했습니다. 콘티넨탈은 환경, 노동 및 인권, 윤리, 지속 가능한 조달 등 핵심 ESG 분야 전반에서 뛰어난 성과를 입증했습니다. 이번 평가는 콘티넨탈이 지속 가능한 모빌리티와 책임 있는 공급망 생태계 구축을 위해 기울여 온 노력을 공식적으로 인정받은 결과입니다.</p><h3>주요 포인트</h3><ul><li>콘티넨탈, 에코바디스 ESG 지속가능성 평가에서 상위 5% 진입 및 골드 등급 획득</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 4대 핵심 분야 전반에서 높은 점수 기록</li><li>투명한 ESG 경영 성과 공개와 공급망 지속가능성 강화를 바탕으로 글로벌 리더십 입증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcnhrMnZlNm9iLVR5RHVOQUd6djZ6bHhxXzR2MjJNUGVvTExITjQ1c0xWZWRQbHVqdkxJRGN2NVkzaG5ZQ2VFeVlQcjNTSU5Kc1ltWkt2a3JIdk5HM181OFlueE9JZTFOQVk4bjF1SDVndk5EaXdZTUpLNUJBdmxfOUdoVGNhY0tZdDEw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1204,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '구미상의, 중대재해 대응 위험성평가 교육 실시',
+      author: '관리자',
+      date: '2026.07.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>구미상공회의소가 지역 내 기업들의 중대재해 처벌법 대응과 산업재해 예방을 위한 위험성평가 실무 교육을 실시했습니다. 이번 교육은 기업의 안전보건관리체계 구축을 돕고 사업장 내 실질적인 위험요인을 발굴하여 개선하기 위해 마련되었습니다. 이를 통해 지역 기업들이 법적 대응 역량을 강화하고 자율적인 안전 관리 수준을 제고할 수 있을 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>구미상공회의소, 지역 기업 대상 중대재해 대응 위험성평가 교육 추진</li><li>사업장 맞춤형 위험요인 발굴 및 실무 대응 방안 제시</li><li>안전보건관리체계 구축 지원을 통한 자율적 재해 예방 역량 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Pdkl0WDU1dDNyUnZIQVFvR24yXy1pTUEtR2M3RlZIOUFXRkR4VVp1aWQyRUo2aFIxN083OW9qMmV4VEZGaHRvVHctWjdadE9GdmQ4V1h6TmU?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1195,
       pinned: false,
       category: 'news', categoryName: '소식',
