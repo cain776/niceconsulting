@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1205,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미 의회에 기후변화 대응 촉구 전화 참여 요청',
+      author: '관리자',
+      date: '2026.07.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 미국 의회와 면담하는 자원봉사 시민 기후 로비스트들의 목소리에 힘을 실어주기 위해 미 의회에 기후변화 대응을 촉구하는 전화를 걸자는 캠페인 소식입니다. 풀뿌리 시민들의 직접적인 행동을 통해 의회가 기후 위기 해결을 위한 정책에 적극적으로 나서도록 압박하는 것을 목표로 합니다.</p><h3>주요 포인트</h3><ul><li>자원봉사 시민 기후 로비스트들의 미 의회 면담 일정에 맞춘 기후 행동 캠페인입니다.</li><li>시민들의 직접적인 의회 전화 참여를 통해 기후 메시지의 전달력과 영향력을 극대화합니다.</li><li>실질적인 기후 변화 법안 통과 및 입법 추진을 위한 풀뿌리 환경 로비의 중요성을 강조합니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1v83web/call_congress_about_climate_change_today_to/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1206,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '토스, 업무연속성 경영시스템 국제표준 \'ISO 22301\' 인증 획득',
+      author: '관리자',
+      date: '2026.07.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>모바일 금융 서비스 '토스'를 운영하는 비바리퍼블리카가 업무연속성관리시스템(BCMS)에 대한 국제표준 인증인 'ISO 22301'을 획득했습니다. ISO 22301은 재난, 재해, 사이버 공격 등 예기치 못한 비상 상황 발생 시 기업이 핵심 업무를 차질 없이 지속하고 신속히 복구할 수 있는 역량을 평가하는 국제 규격입니다. 토스는 이번 인증을 통해 비상 상황 대비 체계와 금융 서비스의 안정성을 국제적으로 인정받았으며, 향후에도 고도화된 위기 대응 역량을 바탕으로 신뢰받는 서비스를 제공할 방침입니다.</p><h3>주요 포인트</h3><ul><li>국제표준화기구(ISO)로부터 업무연속성관리시스템(ISO 22301) 공식 인증 획득</li><li>비상 재난 상황에서도 금융 서비스의 신속한 복구 및 지속적 운영 역량 인정</li><li>시스템 안정성과 위기 관리 체계 강화를 통해 고객 신뢰도 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE95bmdaOXZIZzJvaXNKb0xLcTY2ZWl5WVlJSHhrel9IOVRjanB3aTE0REpKTWhPWTRyQ1c4Q0I0TGFHRWR6X25NRHlYTUlZMlZBeFlCVGxXdWl4S1M3QWhtVw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1207,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '사하라 이남 여성의 금융 접근성, 기후 대응력 강화해',
+      author: '관리자',
+      date: '2026.07.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>새로운 연구에 따르면 사하라 이남 아프리카 여성의 금융 서비스 접근성을 확대하는 것이 기후 충격에 대한 가계의 대응력을 대폭 강화하는 것으로 나타났습니다. 여성의 금융 권한 강화는 극심한 기후 위기 상황에서 소득원을 다변화하고 적응 전략에 투자할 수 있는 기반을 마련해 줍니다. 이는 ESG 관점에서 사회적 평등(S)과 기후변화 적응(E)이 서로 밀접하게 연계되어 있음을 보여줍니다. 따라서 개발도상국의 금융 포용성 확대는 기후 취약성을 완화하는 핵심 해결책으로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>금융 접근성 향상을 통한 사하라 이남 지역 가계의 기후 충격 탄력성 강화</li><li>여성의 경제적 권한 신장으로 기후 위기 시 소득 다각화 및 대응 투자 가능</li><li>ESG의 사회적 포용성(S)과 기후 적응(E) 간의 시너지 효과 입증</li></ul><p>원문: <a href="https://www.carbonbrief.org/access-to-finance-strengthens-climate-resilience-among-sub-saharan-women" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1208,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '노르디아 자산운용, 신규 지속가능 주식형 펀드 3종 출시',
+      author: '관리자',
+      date: '2026.07.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>북유럽 주요 자산운용사인 노르디아 자산운용(Nordea Asset Management)이 새로운 지속가능 주식형 펀드 시리즈를 출시했습니다. 이번 펀드 시리즈는 ESG(환경·사회·지배구조) 요소와 글로벌 기후 변화 대응 테마를 적극적으로 고려하여 설계되었습니다. 투자자들은 지속가능성에 중점을 둔 다각화된 주식 포트폴리오를 통해 장기적 가치를 창출할 수 있습니다. 노르디아는 이번 신규 상품 출시를 통해 ESG 리더십을 공고히 하고 지속가능 투자 라인업을 확장하게 되었습니다.</p><h3>주요 포인트</h3><ul><li>노르디아 자산운용, 3종의 신규 지속가능 주식형 펀드 시리즈 공식 출시</li><li>ESG 기준 및 기후·환경 전환 테마를 투자 프로세스 전반에 적극 반영</li><li>지속가능성 중심의 투자를 모색하는 글로벌 투자자들에게 다양해진 선택지 제공</li></ul><p>원문: <a href="https://www.esgtoday.com/nordea-launches-series-of-new-sustainable-equity-funds/?utm_source=rss&utm_medium=rss&utm_campaign=nordea-launches-series-of-new-sustainable-equity-funds" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1209,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'USMCA 재검토 대비: 화주를 위한 공급망 대응 3가지 조언',
+      author: '관리자',
+      date: '2026.07.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>무역 정책과 우선순위가 변화함에 따라 기업들은 공급망을 유연하게 전환할 수 있도록 최적화해야 합니다. 미국·멕시코·캐나다 협정(USMCA)의 향후 재검토에 대비해 화주들은 규정 준수 및 관세 변화 위험을 사전에 점검할 필요가 있습니다. 전문가들은 규제 변화에 신속히 대응할 수 있는 가시성과 유연성을 확보하는 것이 리스크 관리의 핵심이라고 강조합니다.</p><h3>주요 포인트</h3><ul><li>무역 정책 및 규제 변화에 대응하는 공급망 유연성 확보</li><li>USMCA 재검토에 따른 원산지 규정 및 관세 영향 지속 모니터링</li><li>데이터 기반 공급망 가시성 강화를 통한 선제적 리스크 관리</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/3-tips-for-shippers-watching-the-usmca-review/825979/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1200,
       pinned: false,
       category: 'news', categoryName: '소식',
