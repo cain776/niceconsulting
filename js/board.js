@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1210,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '독일, 풍력·태양광 발전량이 처음으로 화석연료 앞질러',
+      author: '관리자',
+      date: '2026.07.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>독일에서 사상 처음으로 풍력 및 태양광 발전으로 생산된 전력량이 화석연료 발전량을 앞질렀습니다. 이는 강력한 재생에너지 확대 정책과 관련 설비 투자가 결실을 맺으며 청정에너지 전환이 가속화되고 있음을 보여줍니다. 특히 풍력 발전의 견고한 성장이 청정에너지 비중 확대를 견인했으며, 석탄 및 가스 발전의 의존도는 지속적으로 감소하는 추세입니다. 이러한 성과는 독일의 2030년 기후 목표 달성과 지속 가능한 전력 체계 구축에 중요한 이정표가 될 것으로 평가받고 있습니다.</p><h3>주요 포인트</h3><ul><li>풍력 및 태양광 발전 합산량이 역사상 최초로 화석연료 발전량 상회</li><li>재생에너지 설비 증설로 석탄·가스 발전 비중 지속 감소</li><li>독일의 2030년 국가 탈탄소화 및 기후 목표 달성에 탄력 기대</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-wind-and-solar-power-overtake-fossil-fuels-in-germany-for-first-time-ever" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1211,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존, 뉴욕 및 텍사스에 신규 물류 시설 구축 추진',
+      author: '관리자',
+      date: '2026.07.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 이커머스 기업 아마존이 미국 텍사스주와 뉴욕주에 공급망 인프라를 확대하기 위해 신규 시설 구축을 추진 중입니다. 아마존은 텍사스주에 유통센터를 건설하는 초기 단계에 진입했으며, 뉴욕 롱아일랜드 지역의 신규 운영 기지 가동을 준비하고 있다고 밝혔습니다. 이번 거점 확장을 통해 주요 지역의 물류 처리 역량을 높이고 배송 효율성을 대폭 강화할 전망입니다.</p><h3>주요 포인트</h3><ul><li>텍사스주 내 신규 유통센터 건설 착수 (초기 단계)</li><li>뉴욕 롱아일랜드 운영 기지 준공 및 가동 준비 중</li><li>핵심 지역 물류 인프라 확충을 통한 라스트마일 배송 경쟁력 강화</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/amazon-to-add-supply-chain-facilities-in-new-york-texas/826256/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1212,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국 주도 \'제조 디지털 트윈\' 국제표준 제정',
+      author: '관리자',
+      date: '2026.07.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국이 주도한 '제조 디지털 트윈' 관련 국제표준이 공식 발간되며 AI 기반 자율제조 분야의 글로벌 표준 경쟁력을 확보했습니다. 산업통상자원부 국가기술표준원은 국내 연구진이 주도하여 제안한 디지털 트윈 프레임워크 표준이 국제표준화기구(ISO/IEC)에서 최종 승인·발간되었다고 밝혔습니다. 이번 표준은 가상 공간에서 실무 공정을 실시간으로 모니터링하고 분석·최적화하는 기술적 기준을 제공합니다. 이를 통해 국내 제조업의 디지털 전환을 가속화하고 글로벌 기술 시장을 선점하는 데 크게 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>한국 주도의 제조 디지털 트윈 프레임워크가 ISO/IEC 국제표준으로 공식 발간</li><li>가상 공간 기반의 실시간 모니터링 및 AI 자율제조 공정 최적화 기술 기준 마련</li><li>국내 제조업의 디지털 전환 가속화 및 글로벌 자율제조 시장 경쟁력 확보</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE55SFpTeUNZTjV0RDh6QzVhUkw2aWJXZVRwc0dfbTgtR1RYbFFsaGk3NGgtNmxVM1FCdlFKMmc4MDFMbHlMWDFlVDR1Unk3R0xQMVVhdGJwT240MUJST0ZlQnNiTFB2d29vUWExeHNJZ3BhQQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1213,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '원청 책임 강화를 골자로 한 중대재해처벌법 개정안 상정',
+      author: '관리자',
+      date: '2026.07.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>원청 기업의 안전보건 조치 의무와 책임을 대폭 강화하는 내용의 중대재해처벌법 개정안이 국회에 상정되었습니다. 이번 법안은 하청 노동자의 산재 예방을 위해 원청의 실질적인 관리감독 책임을 명확히 하고 확립하는 것을 목적으로 합니다. 이에 따라 기업들은 공급망 전반의 안전보건 관리체계를 전면 재점검하고, ESG 경영 측면에서 사회적(S) 책임을 더욱 강화해야 할 과제를 안게 되었습니다.</p><h3>주요 포인트</h3><ul><li>원청 기업의 하청 사업장에 대한 안전보건 조치 의무 및 책임 범위 확대</li><li>중대재해 발생 시 원청 경영책임자의 관리 소홀에 대한 법적 처벌 강화</li><li>기업 공급망 산재 예방 및 ESG '사회(S)' 영역의 위험 관리 중요성 증대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE01LVJiUDlPZDdaVlYzczk3T2tkZUh0V0owQzVZOE1qcW4yMXljOXNweHBYNU5FdkZ4MEx1Mm5jS1dGNDJBRjIwWE9ncURmZlJjZUZBUXJvSXMxTVllZlJMak92OFYzQ00ybk1BUjhxWno?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1214,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스, 공급망 ESG 협업 플랫폼 전면 개방',
+      author: '관리자',
+      date: '2026.07.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가기관 에코바디스(EcoVadis)가 기업들의 공급망 지속가능성 관리를 한층 강화하기 위해 ESG 협업 플랫폼을 전면 개방했습니다. 이번 조치는 기업들이 협력사의 ESG 리스크를 보다 효과적으로 파악하고 개선 활동을 함께 추진할 수 있도록 돕습니다. 이를 통해 강화되는 글로벌 공급망 실사 규제에 효율적으로 대응할 수 있는 기반이 마련될 전망입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 ESG 협업 플랫폼 개방을 통한 데이터 접근성 확대</li><li>EU 공급망 실사법 등 글로벌 지속가능성 규제 대응력 제고</li><li>협력사와의 지속가능성 데이터 공유 및 선제적 리스크 관리 지원</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBPNzR3UmRma3FkdUQwUmUwOUVnd1VNbC1GcUdLdWlFazc0M0RhWDhOZ2s5OFdrSUV1aGRINEpjQjAxTkNFbUU2T3lQSVNNZl82UHBKaW1UU1RiSU1lUkdDdDI5a2xZdVZsN3g1TA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1205,
       pinned: false,
       category: 'news', categoryName: '소식',
