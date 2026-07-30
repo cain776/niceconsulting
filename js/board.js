@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1215,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'NTT 데이터-앙지, 글로벌 데이터센터 탈탄소화 파트너십 체결',
+      author: '관리자',
+      date: '2026.07.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일본의 글로벌 IT 서비스 기업 NTT 데이터(NTT Data)가 프랑스계 에너지 기업 앙지(Engie)와 전 세계 데이터센터의 탈탄소화를 위한 청정에너지 파트너십을 체결했습니다. 이번 파트너십을 통해 NTT 데이터는 급증하는 AI 및 디지털 서비스 수요에 맞춰 인프라를 확장하는 동시에 운영 전반의 탄소 배출을 줄일 계획입니다. 앙지는 장기 전력구매계약(PPA) 및 다양한 친환경 에너지 솔루션을 제공하여 NTT 데이터의 넷제로 목표 달성을 적극 지원할 예정입니다.</p><h3>주요 포인트</h3><ul><li>NTT 데이터와 앙지, 전 세계 데이터센터 발자국의 탄소 배출 감축을 위한 청정에너지 파트너십 발표</li><li>재생에너지 전력구매계약(PPA) 공급 및 에너지 효율 솔루션을 통한 청정에너지 전환 가속화</li><li>AI 확장으로 증가하는 데이터센터 전력 수요를 지속가능한 청정에너지로 충당하는 전략적 대응</li></ul><p>원문: <a href="https://www.esgtoday.com/ntt-data-engie-launch-clean-energy-partnership-to-decarbonize-global-data-center-footprint/?utm_source=rss&utm_medium=rss&utm_campaign=ntt-data-engie-launch-clean-energy-partnership-to-decarbonize-global-data-center-footprint" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1216,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'UN 초안 보고서 "2030년 자연보전 목표 23개 중 22개 미달 위기"',
+      author: '관리자',
+      date: '2026.07.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유엔(UN)의 최근 초안 보고서에 따르면, 세계 각국이 2030년까지 달성하기로 한 23개의 자연 보전 목표 중 22개에서 성과가 미흡한 것으로 나타났습니다. 보고서는 각국의 대응 조치가 획기적으로 가속화되지 않는 한, 2030년까지 자연 손실을 멈추고 회복시키겠다는 전 지구적 목표는 달성하기 어려울 것이라고 경고했습니다. 이에 따라 생물다양성 파괴를 막기 위한 세계 각국의 더욱 과감하고 즉각적인 이행 노력이 시급히 요구되고 있습니다.</p><h3>주요 포인트</h3><ul><li>2030년까지 설정된 23개 글로벌 자연 목표 중 22개 목표 달성 미흡</li><li>각국의 실행 속도가 대폭 가속화되지 않을 경우 자연 손실 회복 목표 달성 불가능</li><li>UN, 생물다양성 위기 극복을 위해 전 세계의 즉각적이고 적극적인 행동 촉구</li></ul><p>원문: <a href="https://www.carbonbrief.org/world-falling-short-on-22-of-23-nature-targets-for-2030-says-draft-un-report" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1217,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '월마트, AI로 기상 악화에 따른 공급망 차질 최소화',
+      author: '관리자',
+      date: '2026.07.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>월마트가 기상 악화로 인한 공급망 차질을 최소화하기 위해 인공지능(AI) 기술을 적극 활용하고 있습니다. AI 시스템은 심각한 기후 이벤트가 발생하기 전에 재고 이동 경로를 변경하거나 최적의 위치에 선제적으로 재고를 배치하도록 지원합니다. 이를 통해 월마트는 기후 위기 상황에서도 매장의 재고 부족을 방지하고 공급망 리스크를 효과적으로 관리하며 지속 가능한 공급망 탄력성을 확보하고 있습니다.</p><h3>주요 포인트</h3><ul><li>AI 기술을 활용해 심각한 기상 악화 발생 전 선제적 재고 재배치 및 운송 경로 변경</li><li>기후 리스크 상황에서도 매장 재고 유지 및 지속 가능한 공급망 탄력성 강화</li><li>데이터 기반의 예측 관리를 통해 기후 변화에 따른 물류 지연과 비효율 최소화</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/how-walmart-uses-ai-to-limit-weather-disruptions-in-its-supply-chain/826391/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1218,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메르세데스-벤츠, 하이드로와 저탄소 알루미늄 공급 계약 체결',
+      author: '관리자',
+      date: '2026.07.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>메르세데스-벤츠가 노르웨이의 알루미늄 및 재생에너지 기업 하이드로(Hydro)와의 파트너십을 확대하여 자동차 제조용 저탄소 알루미늄 공급 계약을 체결했습니다. 양사는 2030년까지 탄소 배출이 거의 없는 초저탄소 알루미늄 소재를 차량 생산에 도입하는 것을 목표로 협력합니다. 이를 통해 메르세데스-벤츠는 2039년까지 전체 공급망 및 신차 가치사슬 전반에서 탄소 중립을 달성한다는 'Ambition 2039' 비전에 한 발 더 다가서게 됩니다.</p><h3>주요 포인트</h3><ul><li>메르세데스-벤츠, 노르웨이 하이드로(Hydro)와 저탄소 알루미늄 공급 파트너십 확대</li><li>2023년부터 탄소 발자국을 대폭 줄인 저탄소 알루미늄 소재를 양산 차량에 적용</li><li>2030년까지 탄소 배출 제로 수준의 알루미늄 상용화 및 순환경제 구축 목표</li></ul><p>원문: <a href="https://www.esgtoday.com/mercedes-benz-signs-deal-for-low-carbon-aluminum-for-cars/?utm_source=rss&utm_medium=rss&utm_campaign=mercedes-benz-signs-deal-for-low-carbon-aluminum-for-cars" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1210,
       pinned: false,
       category: 'news', categoryName: '소식',
