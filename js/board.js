@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1219,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스-노바타, 기업·투자자 탄소 감축 위한 파트너십 체결',
+      author: '관리자',
+      date: '2026.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 평가 기관 에코바디스(EcoVadis)와 ESG 데이터 플랫폼 노바타(Novata)가 기업 및 투자자의 탈탄소화를 지원하기 위한 새로운 파트너십을 체결했습니다. 양사는 파트너십을 통해 고정밀 1차 탄소 데이터(Primary Carbon Data) 통합 솔루션을 제공할 예정입니다. 이를 통해 기업과 투자자는 공급망 및 포트폴리오 전반에 걸친 탄소 배출량을 보다 정확하게 측정하고 관리할 수 있게 됩니다. 이번 협력은 기업과 비상장 시장 투자자의 ESG 규제 대응 및 실질적인 탄소 감축 이행을 한층 강화할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>에코바디스와 노바타의 파트너십을 통한 고정밀 1차 탄소 데이터 통합 제공</li><li>기업 및 투자자의 포트폴리오·공급망 탄소 배출량 측정 정밀도 향상</li><li>신뢰도 높은 데이터를 바탕으로 ESG 공시 대응 및 실질적 탈탄소화 달성 지원</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiowJBVV95cUxOT0RVX3oyOHNnUjBVNy0zNFpNLUs1enV3azZDTE05U3YxWl83bF9FNnJacUprOVVCSFZ2eHg0UmpKN3R3T3kzOHFxT2dYZEtHem5JdkZFTVN2M0YzcThNampqU09VbHRrM0xtckl5Yy1mV19qa05pY0JIWE1CUk9ldmVfN3RaSm5ENmFBY25PSVRhRGtSc1JkeExrYy1oYzJQZ1RYNk1KeUkwU0xBa1gxSVFCY0NONXNqUTl1U0ZoVFFBVzFXaWs5ak1FcTFhWVFzTkZ6ZC1mcDNiVXlfQ05hQmxSdFlTbUxFOFhrcy00dUFERlhoYVBxajBnYlpNMTd5ZEtVY25vT3ZfcWpGSkJ3UVlvS0pXdmc3Q3dDd2gwTGlpbE0?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1220,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '한국ESG인권경영인증원, ESG·에코바디스·인권경영 온라인 교육 성료',
+      author: '관리자',
+      date: '2026.07.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국ESG인권경영인증원이 기업들의 ESG 대응력 강화와 글로벌 공급망 규제 대비를 위한 'ESG·에코바디스(EcoVadis)·인권경영' 온라인 교육을 성공적으로 마쳤습니다. 이번 교육 프로그램은 최근 강화되고 있는 글로벌 에코바디스 평가 대응 전략과 인권경영 체계 구축 방안을 다루었습니다. 참가자들은 실무에 바로 적용할 수 있는 사례와 가이드라인을 제공받아 자사의 ESG 역량을 높이는 계기를 마련했습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스(EcoVadis) 평가 기준 분석 및 글로벌 공급망 ESG 대응 전략 공유</li><li>기업 내 인권경영 체계 구축 및 공급망 인권 실사 대비 실무 가이드 제시</li><li>국내 기업의 글로벌 ESG 규제 응전력 및 시장 경쟁력 강화를 위한 교육 진행</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBNT3g0blJTU2kyVDk3OXZpazh2SHpWX1R6bE1ydThCdTNud3NDZVJvdVB2emlJM054Z29KUzBXWmhORkxnUmRMSHZUUWdCTzF6eDB3MzFCRkJjSDZuNERwZWZnYnRwVkVRLVVJcw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1221,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후 오인 수정이 기후 행동 증대로 이어지지 않을 수도 있어',
+      author: '관리자',
+      date: '2026.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>일반 대중은 기후 행동에 대한 사회적 지지율은 저평가하면서도, 타인이 실제로 취하는 기후 대응 조치는 과대평가하는 경향이 있습니다. 최근 연구에 따르면 이러한 기후 관련 오인을 바로잡아 주는 것이 반드시 개인의 기후 대응 행동 촉진으로 이어지지는 않는 것으로 나타났습니다. 인식의 오류를 정정하는 것만으로는 실제 실천 변화를 끌어내는 데 한계가 있음을 시사합니다. 따라서 효과적인 기후 대응을 위해서는 단순한 정보 교정을 넘어 실질적인 행동을 유도할 다각적 전략이 필요합니다.</p><h3>주요 포인트</h3><ul><li>대중은 기후 대응에 대한 사회적 지지는 저평가하고 타인의 실제 행동은 과대평가함</li><li>잘못된 인식을 정정해 주는 정보 제공이 기후 실천 행동을 직접적으로 촉진하지는 못함</li><li>실질적인 기후 행동 변화를 유도하기 위해 단순 정보 제공 이상의 동기부여 전략이 요구됨</li></ul><p>원문: <a href="https://www.carbonbrief.org/correcting-climate-misperceptions-may-not-boost-climate-action" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1222,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '태양광 공포 유포하는 인플루언서, 화석연료 세력의 청사진 되다',
+      author: '관리자',
+      date: '2026.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>소셜 미디어 인플루언서 알렉산드라 파술로가 농장과 야생동물 보호를 명목으로 수백만 명에게 태양광 에너지에 대한 공포와 불신을 심어주고 있습니다. 그녀가 주도하는 태양광 반대 캠페인은 친환경 에너지 확산을 저지하려는 화석연료 업계와 우파 정치 세력의 새로운 전략적 청사진이 되고 있습니다. 환경 보호를 가장한 메시지가 청정에너지 전환을 막는 무기로 악용되고 있다는 점에서 ESG 및 기후 대응 측면의 우려가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li><strong>태양광 공포 선동:</strong> 인플루언서의 영향력을 활용해 대중에게 태양광 발전 시설에 대한 부정적 인식과 두려움을 유포.</li><li><strong>보호 명분의 악용:</strong> 농경지 및 야생동물 보호라는 프레임을 내세워 지역 신재생에너지 프로젝트 사업을 방해.</li><li><strong>화석연료 업계와의 결합:</strong> 해당 캠페인 방식이 화석연료 관련 이익집단과 우파 세력의 에너지 전환 저지 표준 모델로 활용됨.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vb32e2/the_influencer_teaching_millions_to_fear_solar/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1223,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'JP모건 AM, 레슬리 리치 지속가능투자 리서치 총괄 임명',
+      author: '관리자',
+      date: '2026.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>J.P.모건 자산운용(J.P. Morgan Asset Management)이 레슬리 리치(Leslie Rich)를 지속가능투자 리서치 인사이트 글로벌 총괄로 임명했습니다. 신임 총괄은 자산운용 투자 플랫폼 전반에 걸쳐 지속가능투자 관련 리서치와 인사이트 역량을 강화하는 역할을 수행하게 됩니다. 이를 통해 JP모건 AM은 글로벌 ESG 트렌드 분석을 심화하고 투자자를 위한 리서치 품질을 한층 높일 계획입니다.</p><h3>주요 포인트</h3><ul><li>J.P.모건 자산운용, 레슬리 리치를 지속가능투자 리서치 인사이트 글로벌 총괄로 선임</li><li>자산운용 플랫폼 전반의 지속가능투자 분석 및 인사이트 역량 강화 추진</li><li>글로벌 ESG 트렌드 연구를 바탕으로 고도화된 투자 리서치 제공 주력</li></ul><p>원문: <a href="https://www.esgtoday.com/jpmorgan-am-appoints-leslie-rich-as-global-head-of-sustainable-investing-research-insights/?utm_source=rss&utm_medium=rss&utm_campaign=jpmorgan-am-appoints-leslie-rich-as-global-head-of-sustainable-investing-research-insights" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1215,
       pinned: false,
       category: 'news', categoryName: '소식',
