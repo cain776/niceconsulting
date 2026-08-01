@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1224,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'AI 확대로 아마존 2025년 탄소 배출량 급증',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아마존의 2025년 온실가스 절대 배출량이 전년 대비 16% 증가했습니다. 이러한 상승세는 인공지능(AI) 서비스 가속화 및 데이터 센터 용량의 급격한 확장에 따른 스코프 3(Scope 3) 배출량 급증이 주된 원인입니다. AI 기술 발전이 사업에 강력한 성장 동력을 제공하는 동시에, 아마존의 기후 대응 및 지속가능성 목표 달성 과제를 더욱 복잡하게 만들고 있습니다.</p><h3>주요 포인트</h3><ul><li>아마존의 2025년 절대 탄소 배출량이 데이터 센터 확충 영향으로 전년 대비 16% 증가함.</li><li>공급망 및 인프라 구축 과정에서 발생하는 스코프 3(Scope 3) 배출량이 증가를 주도함.</li><li>급증하는 AI 인프라 수요가 아마존의 2040 탄소 중립(Net Zero) 목표 달성에 부담을 가중시킴.</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/amazon-2025-emissions-jump-as-ai-brings-momentum-and-complexity-report/826171/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1225,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '열배터리 기업 안토라, 산업·데이터센터 전력용 5.5억 달러 투자 유치',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>에너지 저장 스타트업 안토라 에너지(Antora Energy)가 산업 현장 및 데이터센터에 청정에너지를 공급하기 위해 5억 5,000만 달러 규모의 투자를 유치했습니다. 안토라는 풍력 및 태양광 등 저렴한 재생에너지를 고온의 열 형태로 탄소 블록에 저장하는 열배터리 기술을 보유하고 있습니다. 저장된 에너지 magnate는 공장의 고온 열 공정에 직접 활용되거나 전력으로 재변환되어, 제조업의 탈탄소화와 AI 데이터센터의 안정적인 무탄소 전력 공급에 기여합니다.</p><h3>주요 포인트</h3><ul><li>안토라 에너지, 사업 확장을 위해 5억 5,000만 달러 자금 조달 완료</li><li>남는 재생에너지를 고온 열로 저장해 필요시 열과 전력으로 상시 공급하는 기술 보유</li><li>산업 열 공정의 탈탄소화 및 전력 수요가 급증하는 AI 데이터센터 시장 집중 공략</li></ul><p>원문: <a href="https://www.esgtoday.com/thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers/?utm_source=rss&utm_medium=rss&utm_campaign=thermal-battery-provider-antora-raises-550-million-to-power-industry-data-centers" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1226,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'UN 사무총장 경고 "엘니뇨 영향으로 기후위기 과열 상태"',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>안토니오 구테흐스 UN 사무총장은 엘니뇨 현상이 지구 온난화를 부채질하면서 기후위기가 '과열 상태'에 진입했다고 경고했습니다. 주요 정치인들과 과학자들은 최근 발생한 치명적인 대형 산불의 주원인으로 기후위기를 지적했습니다. 이들은 이번 사태를 계기로 더욱 적극적인 온실가스 배출 감축과 기후 변화 적응 대책이 시급히 추진되어야 한다고 강조했습니다.</p><h3>주요 포인트</h3><ul><li>UN 사무총장, 엘니뇨 현상으로 인한 기후위기 가속화 경고</li><li>대형 산불 등 기후 재앙의 근본 원인으로 기후위기 지적</li><li>온실가스 감축 목표 강화 및 기후 적응 조치 마련 촉구</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/31/un-chief-warns-climate-crisis-in-overdrive-as-el-nino-threatens-to-fuel-the-fire/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1227,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스·노바타, 스코프 3 배출량 측정 지원 파트너십 체결',
+      author: '관리자',
+      date: '2026.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)와 ESG 데이터 플랫폼 노바타(Novata)가 기업과 투자자들의 스코프 3(Scope 3) 온실가스 배출량 측정을 지원하기 위해 파트너십을 체결했습니다. 이번 협력을 통해 양사는 민간 시장의 투자자 및 피투자 기업들이 가치사슬 전반의 탄소 배출 데이터를 보다 쉽고 정확하게 수집·분석할 수 있도록 지원합니다. 이를 통해 기업들은 공급망 탄소 발자국을 체계적으로 관리하고 강화되는 글로벌 ESG 공시 규제에 효과적으로 대응할 수 있게 됩니다.</p><h3>주요 포인트</h3><ul><li>에코바디스와 노바타, 기업 및 투자자의 스코프 3 온실가스 배출량 측정 파트너십 체결</li><li>민간 시장 투자자와 피투자 기업 간의 공급망 ESG 데이터 수집 및 연계성 강화</li><li>가치사슬 탄소 관리를 통한 ESG 공시 규제 대응 및 지속가능성 보고 역량 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2V6cFdBOFgweVI1U25JNW1QRFFVS0g4a1h4c2tzcDcyaVc3LXA4bnl6Z3JpMWxsWmFlTXMxWXNJLXpzUklMdDhVUldubEZDOFMwVGpsbFI1V2NKTkoyVnY3cjFKTm4wTVY1anZwdGRmLWNtampTbXdiNDREQmVHbEZhZVJNRTVmSU94M0lwWENOdndoWmdYcGRISVZxREdrZ1dFcnhB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1228,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '부유층의 탄소 배출 습관에 과세하지 않는 이유는?',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>개인 전용기 이용이나 초대형 요트 소유 등 부유층의 소비 습관은 일반 대중에 비해 압도적으로 많은 양의 탄소를 배출하며 기후 위기를 가중시킵니다. 그럼에도 불구하고 현행 과세 제도는 이러한 고탄소 소비 형태에 대해 환경적 책임을 충분히 묻지 못하고 있다는 지적이 이어집니다. 부유층의 탄소 집약적 습관에 누진세나 환경세를 부과함으로써 과도한 배출을 억제하고 사회적 형평성을 제고해야 한다는 목소리가 높아지고 있습니다.</p><h3>주요 포인트</h3><ul><li>개인 전용기 및 초호화 요트 등 부유층의 특권적 소비가 유발하는 심각한 탄소 배출 문제</li><li>고탄소·사치성 소비 행동에 대한 누진적 환경세 도입 필요성 제기</li><li>세수 확보를 통한 기후 변화 대응 및 친환경 기술 투자 재원 마련 가능성</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vbxhp4/why_dont_we_tax_rich_habits/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1219,
       pinned: false,
       category: 'news', categoryName: '소식',
