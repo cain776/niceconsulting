@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1229,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '알텐(ALTEN), 에코바디스 CSR 평가에서 87점 획득',
+      author: '관리자',
+      date: '2026.07.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 엔지니어링 및 IT 컨설팅 기업 알텐(ALTEN)이 글로벌 지속가능성 평가기관 에코바디스(EcoVadis)의 기업 사회적 책임(CSR) 평가에서 100점 만점 중 87점을 기록했습니다. 이번 성과는 알텐이 환경, 노동 및 인권, 윤리, 지속가능한 조달 부문에서 실천해 온 지속적인 ESG 경영 노력이 반영된 결과입니다. 알텐은 이번 평가를 통해 글로벌 시장에서의 높은 지속가능경영 역량과 책임 있는 기업 운영 성과를 다시 한번 입증했습니다.</p><h3>주요 포인트</h3><ul><li>알텐(ALTEN), 에코바디스 CSR 성과 평가에서 87/100점 달성</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 부문 전반의 우수성 입증</li><li>지속가능한 기술 컨설팅 및 ESG 실천 리더십 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPNngtTnBzMzFUalYycmNlVGtoX0hPeGtVcGpaRkFvNnVfQjZHaURXTERoaTE0Z0wwS1BsTUNBOWV0T29LZzBkTTN1d25HYmNKS1BFbWhNb2N6SHlVVDNTdjZoZmQ1QXBENGxIQXBuTlBlT0d5eDR3SElYLVNJMnZ6UF9HN2JLMzktYWcxb3pVaVZjMktKVDhRWWlpLS1OaGJlSFFySg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1230,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '베스트바이, 캘리포니아 물류센터에 태양광 발전 시설 구축',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 최대 가전 유통기업 베스트바이(Best Buy)가 캘리포니아 물류센터에 전력을 공급하기 위한 태양광 발전 시설을 구축했습니다. 이번 태양광 발전 단지 도입은 베스트바이가 공급망 전반의 온실가스 배출량을 절감하기 위해 추진하는 지속가능성 이니셔티브의 일환입니다. 베스트바이는 재생에너지 활용을 확대함으로써 물류 운용 과정에서 발생하는 탄소 발자국을 크게 줄일 것으로 기대하고 있습니다.</p><h3>주요 포인트</h3><ul><li>캘리포니아 물류센터 가동을 위한 신규 태양광 발전 시설 구축</li><li>공급망(Supply Chain) 중심의 온실가스 배출량 절감 목표 달성 추진</li><li>재생에너지 전환을 통한 기업 차원의 지속가능경영 및 ESG 강화</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/best-buy-adds-solar-field-to-power-california-distribution-center/826609/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1231,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'IEA "호르무즈 위기로 전기차 전환 가속화"',
+      author: '관리자',
+      date: '2026.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제에너지기구(IEA) 데이터에 따르면 이란 전쟁 여파로 호르무즈 해협 위기가 고조되고 유가가 급등하면서 전기차로의 전환이 가속화되고 있습니다. 올해 4월부터 6월 사이에 운전자들이 내연기관 차량 대신 전기차를 선택하는 비율이 크게 늘어났습니다. 화석연료 가격의 불확실성이 커짐에 따라 소비자들의 친환경 모빌리티 선호 현상이 더욱 강화되고 있는 것으로 분석됩니다.</p><h3>주요 포인트</h3><ul><li>이란 전쟁 및 호르무즈 해협 위기로 인한 국제 유가 급등</li><li>올해 2분기(4~6월) 내연기관차 대비 전기차 구매 비중 대폭 증가</li><li>IEA 데이터를 통해 확인된 에너지 위기 속 전기차 전환 가속화 경향</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/07/30/hormuz-crisis-speeds-up-transition-to-electric-cars-iea-data-shows/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1232,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '시흥 기업 84%, 중대재해처벌법 시행 후 안전관리 개선',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>시흥 지역 기업들을 대상으로 실시한 조사 결과, 응답 기업의 84%가 중대재해처벌법 시행 이후 사업장 내 안전관리 수준이 실제로 개선되었다고 답했습니다. 기업들은 법적 기준을 준수하기 위해 안전보건 관리체계를 강화하고 위험성 평가 및 안전 설비 투자를 늘리고 있습니다. 그러나 전문 인력 구인의 어려움과 비용 부담, 모호한 법조항으로 인한 현장의 애로사항도 여전히 지속되고 있는 것으로 나타났습니다.</p><h3>주요 포인트</h3><ul><li>시흥 기업 84%가 중대재해처벌법 이후 사업장 안전관리 수준 향상 응답</li><li>안전 예방 활동 강화, 설비 투자 확대 등 실질적인 안전 조치 이행</li><li>중소기업의 부담 완화를 위한 인력·예산 등 정부 차원의 실질적 지원 절실</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15cTFnMDNscnBPM2VhSXRXbUxQMGRpNkhrYnpZVjJpQVR3bmJ0WWd2U1ZPQjI2ejVodGlqZFJ2WmlMM3lXZHVLNG5oS2hMY2RZem1BeWxmYTJZTUVEZGF1d0w1d044RVk?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1233,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '[팩트체크] "유럽 산불 최저치 기록" 주장은 사실이 아니다',
+      author: '관리자',
+      date: '2026.07.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 기후변화 회의론자들과 일부 논객들이 소셜 미디어를 통해 유럽의 산불 발생이 역사상 가장 적은 수준이라는 잘못된 정보를 유포하고 있습니다. 이들은 데이터의 특정 부분만 체리피킹하여 기후위기의 심각성을 저평가하려 시도했습니다. 그러나 검증 결과, 지속되는 폭염과 이상 기후로 인해 유럽은 여전히 심각한 산불 위협을 겪고 있으며 해당 주장은 사실이 아닙니다.</p><h3>주요 포인트</h3><ul><li>기후 회의론자들이 유포한 차트는 산불 데이터를 자의적으로 곡해하여 왜곡한 결과입니다.</li><li>지중해 연안을 비롯한 유럽 다수 지역은 기후변화로 인한 전례 없는 폭염과 산불에 지속적으로 시달리고 있습니다.</li><li>가짜 기후 정보는 기후위기에 대한 대중의 인식을 왜곡하고 필요한 대응 정책을 방해할 위험이 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/factcheck-no-europe-is-not-having-its-quietest-year-for-wildfires" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1224,
       pinned: false,
       category: 'news', categoryName: '소식',
