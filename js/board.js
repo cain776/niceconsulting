@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1234,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후변화, 아프리카 아동 말라리아 위험 지역 지형 바꾼다',
+      author: '관리자',
+      date: '2026.07.29',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후변화로 인한 기온 상승이 사하라 이남 아프리카 지역의 아동 말라리아 감염 위험 지형을 재편하고 있습니다. 기존 전염 지역의 양상이 변하는 것은 물론, 온난화로 인해 이전에 안전했던 지역에 '새로운 위험 지대'가 출현하고 있습니다. 이는 아프리카 전역 아동 보건에 심각한 위협을 가하며 맞춤형 기후-보건 대응책의 필요성을 시사합니다.</p><h3>주요 포인트</h3><ul><li>기온 상승으로 사하라 이남 아프리카 내 아동 말라리아 위험 지역 재배치</li><li>이전에 서식하지 못했던 고지대 및 신규 지역으로 말라리아 매개체 이동</li><li>기후변화 예측 모델에 기반한 보건 인프라 및 예방 대책 마련 시급</li></ul><p>원문: <a href="https://www.carbonbrief.org/climate-change-is-driving-a-shift-in-childhood-malaria-risk-across-africa" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1235,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '블루베리 밭 위 태양광 패널… 농작물 성장과 맛 바꿨다',
+      author: '관리자',
+      date: '2026.08.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 매사추세츠주에서 블루베리 농장 상부 9피트(약 2.7m) 높이에 태양광 패널을 설치한 영농형 태양광(Agrivoltaics) 프로젝트가 진행되고 있습니다. 패널이 형성하는 그늘이 토양 수분을 보존하고 농장의 미기후를 변화시켜 블루베리의 생육 환경을 크게 바꿨습니다. 그 결과 열매의 크기, 수확 시기, 당도 등 맛과 성장에 긍정적인 변화가 관찰되었습니다. 이는 청정에너지 생산과 지속가능한 농업을 동시에 달성하는 우수 사례로 주목받고 있습니다.</p><h3>주요 포인트</h3><ul><li>농경지 2.7m 높이에 태양광 패널을 설치해 토지 이중 활용 도모</li><li>패널 그늘 효과로 토양 수분 증발 억제 및 생육 환경 개선</li><li>재생에너지 생산과 농업 생산성 향상을 통한 지속가능한 영농 모델 구축</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vdkra2/in_massachusetts_a_solar_farm_was_raised_nine/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1236,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '주간 ESG 동향: GHG 프로토콜·ISO 탄소 회계 표준 통합',
+      author: '관리자',
+      date: '2026.08.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>이번 주 ESG 뉴스에서는 온실가스 프로토콜(GHG Protocol)과 국제표준화기구(ISO)가 통일된 글로벌 탄소 회계 표준을 출범한다는 발표가 주요하게 다루어졌습니다. 이번 협력을 통해 기업들의 탄소 배출량 산정 및 보고 기준의 일관성이 향상되고 표준화가 가속화될 것으로 기대됩니다. 또한 유럽중앙은행(ECB)을 포함한 주요 기관들의 기후 리스크 대응과 ESG 관련 최신 동향들이 함께 정리되었습니다.</p><h3>주요 포인트</h3><ul><li>GHG 프로토콜과 ISO, 통일된 탄소 회계 및 배출량 보고 표준 공동 개발</li><li>유럽중앙은행(ECB)의 기후 및 환경 리스크 관리 규제 동향</li><li>글로벌 기업들의 지속가능성 공시 및 ESG 이행 노력 확대</li></ul><p>원문: <a href="https://www.esgtoday.com/esg-today-week-in-review-272/?utm_source=rss&utm_medium=rss&utm_campaign=esg-today-week-in-review-272" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1237,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'GS ITM, ITSM 국제표준 \'ISO 20000\' 인증 획득',
+      author: '관리자',
+      date: '2026.08.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>GS ITM이 IT서비스 관리(ITSM) 분야의 국제 표준 인증인 'ISO 20000'을 획득하며 IT 아웃소싱 사업 경쟁력을 크게 강화했습니다. 이번 인증은 GS ITM의 IT 서비스 관리 프로세스와 운영 체계가 글로벌 품질 기준에 부합함을 입증한 결과입니다. GS ITM은 이를 바탕으로 고객사에게 신뢰도 높고 안정적인 IT 서비스를 제공하며, 서비스 품질 및 운영 효율성을 한층 끌어올릴 계획입니다.</p><h3>주요 포인트</h3><ul><li>GS ITM, IT서비스 관리 국제표준 'ISO 20000' 인증 취득</li><li>IT 아웃소싱 품질에 대한 글로벌 신뢰성 및 경쟁력 확보</li><li>체계적인 IT 서비스 운영 체계를 바탕으로 고객 만족도 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE91TlhWMjk2NTVzSWJ3LUpHZjZWUUVONE9CdVViOFBvZFNfWXhSVUFBa0NqY0RGYkVTNkFsaDR2d3ZQaEZfMzFRNDFWbW1OZENXclJ0VkNVN3BCdkxQQzZFMl9vMEZJUGJDd3pSTg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1238,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스·노바타, 스코프 3 탄소 데이터 파트너십 체결',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가 기관인 에코바디스(EcoVadis)와 ESG 데이터 플랫폼 노바타(Novata)가 스코프 3(Scope 3) 탄소 배출량 데이터 연동을 위한 파트너십을 체결했습니다. 이번 제휴를 통해 민간 시장 투자자와 기업들은 공급망 전반의 온실가스 배출 데이터를 보다 효율적이고 정확하게 측정·관리할 수 있게 됩니다. 양사는 기업들의 ESG 공시 대응 및 공급망 지속가능성 강화를 다각도로 지원할 계획입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스와 노바타의 파트너십을 통한 스코프 3 탄소 배출 데이터 수집 및 연동 강화</li><li>기업 및 민간 투자자를 위한 공급망 ESG 데이터의 투명성과 접근성 제고</li><li>글로벌 지속가능성 공시 규제 대응 및 탄소 감축 목표 달성 지원</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5uUGJaN0djS0hieXJDUUdtYnlzbmU5VnpJRF9rTU02X0NsNlMxZE9tY0pUUkRSN0hXUzZiOG5fRDBBcjM3eHJJc1RIR0lfR1g1eUl4SVVQUHVhR3AyY1hxY215WEItbVZpOWdEcGZvdVVpMWdUdkE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1229,
       pinned: false,
       category: 'news', categoryName: '소식',
