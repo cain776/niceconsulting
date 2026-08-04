@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1239,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스 평가 기준 활용을 통한 현장 안전보건 체질 개선',
+      author: '관리자',
+      date: '2026.08.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 ESG 평가 기관인 에코바디스(EcoVadis)의 기준을 현장 안전보건 관리에 적용하여 기업의 체질을 개선하는 방안이 강조되고 있습니다. 단순한 규제 준수를 넘어 체계적인 안전보건 경영시스템을 구축하고 위험 요인을 사전에 발굴·관리하는 것이 핵심입니다. 이를 통해 기업은 현장의 안전성을 대폭 향상시키는 동시에 글로벌 공급망 평가에서도 높은 경쟁력을 확보할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 ESG 평가 기준을 반영한 현장 맞춤형 안전보건 관리체계 구축</li><li>체계적인 위험성 평가와 사전 예방 중심의 안전보건 경영 실천</li><li>글로벌 공급망 ESG 요구사항 충족 및 지속가능한 작업 환경 조성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9hdkJkQmQ5TWNtLTlucjFIUk0xRHlhTVRXLU90djBYajlnYmFfb1gyRlhObnhMSDFJVU5fdEUxbURxblZvYV9DU1VLOHFzVVNhOVNaV2FBZnBNNVlyalpveVFweGV5S2VlU0dVOA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1240,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '팜 리오, 공급망 디지털화 및 추적성 강화 추진',
+      author: '관리자',
+      date: '2026.08.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 의류 브랜드 팜 리오(Farm Rio)가 세계 시장 확장에 발맞추어 공급망 디지털화 및 추적성 향상에 나섭니다. 이를 위해 소프트웨어 기업 인스펙토리오(Inspectorio)의 솔루션을 도입하여 품질 관리 및 생산 모니터링 등의 주요 운영 절차를 자동화하고 있습니다. 이번 전환을 통해 팜 리오는 데이터 기반의 효율성을 높이고 투명하고 지속가능한 공급망 관리 체계를 구축할 계획입니다.</p><h3>주요 포인트</h3><ul><li><strong>솔루션 도입:</strong> 소프트웨어 기업 인스펙토리오의 플랫폼을 활용해 공급망 전반의 운영 자동화</li><li><strong>글로벌 확장 대응:</strong> 빠르게 성장하는 해외 시장 규모에 맞춰 품질 모니터링 및 관리 효율성 강화</li><li><strong>추적성 및 ESG 향상:</strong> 공급망 투명성을 극대화하여 지속가능경영(ESG) 및 원자재 추적성 목표 제고</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/farm-rio-targets-digitized-supply-chain-improved-traceability/826737/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1241,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '\'막연한 느낌\'보다 \'객관적 증거\': 데이터 기반 지속가능성',
+      author: '관리자',
+      date: '2026.08.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 및 ESG 분야에서는 단순한 이미지나 막연한 직관('vibes') 대신 측정 가능한 객관적 데이터('evidence')의 중요성이 더욱 강조되고 있습니다. 기업들은 친환경적인 이미지만 내세우는 그린워싱을 극복하고, 실제 환경적·사회적 영향을 과학적 지표로 입증해야 하는 과제에 직면해 있습니다. 실증적인 데이터를 바탕으로 한 실행만이 이해관계자의 신뢰를 확보하고 진정한 지속가능성을 달성하는 길입니다.</p><h3>주요 포인트</h3><ul><li><strong>그린워싱 탈피:</strong> 감정적 호소나 상징적 선언에서 벗어나 정량적 데이터 중심의 성과 입증 필요</li><li><strong>과학적 평가 도입:</strong> 전생애주기평가(LCA) 및 데이터 기반 탄소회계를 통한 객관적 영향 측정</li><li><strong>이해관계자 신뢰 확보:</strong> 강화되는 글로벌 ESG 공시 규제와 투자자 요구에 부응하는 투명한 데이터 제공</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1veidzz/evidence_over_vibes/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1242,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '넷제로 달성에 탄소 포집 및 저장(CCS)이 필수적일까?',
+      author: '관리자',
+      date: '2026.08.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>탄소 포집 및 저장(CCS)은 공장이나 발전소에서 배출되는 이산화탄소를 포집하여 지하에 영구 격리하는 기술입니다. 지구 온난화를 1.5℃로 제한하고 넷제로(탄소중립) 목표를 달성하는 과정에서 CCS의 역할에 대해 전문가들 사이에서 활발한 논의가 이루어지고 있습니다. 주요 기후 시나리오들은 감축이 어려운 산업 분야의 배출량을 상쇄하기 위해 CCS가 필요하다고 지적하지만, 높은 비용과 재생에너지 전환 지연 가능성에 대한 우려도 공존합니다.</p><h3>주요 포인트</h3><ul><li><strong>탈탄소 난이도가 높은 산업의 필수 수단</strong>: 시멘트, 철강 등 재생에너지 대체가 어려운 중공업 분야의 핵심 감축 수단으로 평가받습니다.</li><li><strong>주요 기후 경로의 핵심 요소</strong>: IPCC 및 IEA의 넷제로 달성 시나리오 다수에서 CCS 기술 적용이 주요 과제로 포함되어 있습니다.</li><li><strong>높은 비용과 화석연료 연장 우려</strong>: 고비용 구조, 기술적 효율성의 불확실성, 화석연료 사용 기간을 연장할 수 있다는 지적이 지속되고 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-does-the-world-need-carbon-capture-and-storage-to-reach-net-zero" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1243,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[안전Q&A] 중대재해처벌법상 직업성 질병 인정 기준',
+      author: '관리자',
+      date: '2026.08.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 기사는 중대재해처벌법에 따른 중대산업재해 중 '직업성 질병'의 구체적인 발생 및 인정 기준을 다룹니다. 중대재해처벌법 시행령에 따르면 동일한 유해인자로 인해 대통령령으로 정하는 직업성 질병자가 1년 이내에 3명 이상 발생할 경우 중대산업재해로 정의됩니다. 대상 질병은 화학물질에 의한 급성중독, 산소결핍증, 기압 이상에 따른 장해 등 총 24가지로 명시되어 있으며, 사업장의 철저한 유해인자 예방 대책 수립이 필요합니다.</p><h3>주요 포인트</h3><ul><li>동일한 유해인자로 1년 이내 3명 이상 질병자 발생 시 중대산업재해 해당</li><li>시행령(별표 2)에서 규정한 급성중독 등 24가지 직업성 질병에 한정</li><li>사업주의 유해인자 노출 관리 및 안전보건관리체계 구축 의무 강조</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EODFycGVrX0o1dEZEUEVidzVFTl96LWtaeGZ3MkR5R0RSS0VSVDZBMVFtS3hSeHZoTU9pZFNnNVViYXZqZWE2VlhPS1hPYVZDTzdjVzZEaFBlaWJWOUZ5MmVUc1lfaTQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1234,
       pinned: false,
       category: 'news', categoryName: '소식',
