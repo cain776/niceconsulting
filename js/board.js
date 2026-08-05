@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1244,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'FOMO(소외 공포)가 기후 외교를 방해하고 있는가?',
+      author: '관리자',
+      date: '2026.08.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>UN 기후변화협약 당사국총회(COP)의 참가자 수가 폭발적으로 증가하면서 본래의 기후 외교 협상 기능이 저해되고 있다는 지적이 제기되고 있습니다. 실제 협상 주체의 규모는 거의 변화하지 않았으나, 정치인부터 기업 임원에 이르기까지 일반 참석자가 급증했습니다. 이는 중요한 논의에서 소외되는 것에 대한 두려움인 'FOMO(Fear Of Missing Out)' 심리가 주요 원인으로 분석됩니다. 결과적으로 기후 당사국총회가 실질적인 성과보다는 초대형 이벤트로 변질되어 당면한 기후 과제 해결을 방해하고 있습니다.</p><h3>주요 포인트</h3><ul><li>COP 참석자 수는 과거 대비 대폭 늘어났으나, 실질적인 기후 협상 전문가의 규모는 정체되어 있습니다.</li><li>정치인 및 기업 임원들의 참가 급증 배경에는 행사에서 제외되는 것에 대한 두려움(FOMO)이 작용하고 있습니다.</li><li>총회의 비대화와 이벤트화가 본래 목적인 외교적 협상과 기후 대응 성과 달성에 걸림돌이 되고 있습니다.</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/04/is-fomo-undermining-climate-diplomacy/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1245,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '건물관리업 중대재해 대응을 위한 경영진 안전보건 대책 논의',
+      author: '관리자',
+      date: '2026.08.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>건물관리 업계 경영진이 중대재해 예방 및 현장 안전 강화를 위한 안전보건 대책 마련에 나섰습니다. 이번 논의는 건물관리 현장에서 발생할 수 있는 중대재해 위험 요인을 점검하고 경영진 차원의 실질적인 대응 방안을 수립하기 위해 진행되었습니다. 안전보건 관리 체계를 재정비하고 현장 근로자의 안전 확보를 위한 선제적 노력을 지속해 나갈 방침입니다.</p><h3>주요 포인트</h3><ul><li>건물관리 분야 중대재해 예방 및 안전보건 관리 체계 강화 방안 모색</li><li>경영진 주도의 현장 위험 요인 점검 및 안전보건 대책 수립</li><li>근로자 안전 확보와 중대재해 제로화를 위한 ESG 안전경영 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBodFFia1MwZERrUm00c2ZrM2g0aWRxekVHaVl5LWhibDFJZDJaVnItSmpBcll4cWFqTDY4YmRHYlRBbVY5ZnZBU2RRbjFUZ2hZakpQRmhxU2QxMU9CSjlfc3FfektIOU5s?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1246,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '소네딕스, 남유럽 재생에너지 개발에 7억 3,000만 유로 확보',
+      author: '관리자',
+      date: '2026.08.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>재생에너지 전문 기업 소네딕스(Sonnedix)가 남유럽 지역의 재생에너지 포트폴리오를 개발하고 확장하기 위해 7억 3,000만 유로(약 8억 4,000만 달러) 규모의 자금을 확보했다고 발표했습니다. 이번에 조달된 자금은 스페인과 이탈리아 등 남유럽 핵심 시장에서 태양광 및 신재생에너지 프로젝트의 건설과 개발을 본격화하는 데 투입될 예정입니다. 소네딕스는 이를 통해 유럽 내 지속 가능한 에너지 전환을 가속화하고 지역 탈탄소화 목표 달성에 기여할 계획입니다.</p><h3>주요 포인트</h3><ul><li>남유럽 재생에너지 포트폴리오 개발을 위한 7억 3,000만 유로 규모 자금 조달</li><li>스페인, 이탈리아 등 남유럽 주요 국가의 태양광 및 신재생에너지 사업에 자금 투입</li><li>유럽 지역의 지속 가능한 에너지 전환 가속화 및 탈탄소화 목표 지원</li></ul><p>원문: <a href="https://www.esgtoday.com/sonnedix-secures-e730-million-to-develop-renewables-portfolio-in-southern-europe/?utm_source=rss&utm_medium=rss&utm_campaign=sonnedix-secures-e730-million-to-develop-renewables-portfolio-in-southern-europe" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1247,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '우시앱텍, 에코바디스 지속가능성 평가 2년 연속 골드 등급 획득',
+      author: '관리자',
+      date: '2026.07.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 바이오·제약 기업 우시앱텍(WuXi AppTec)이 글로벌 ESG 평가기관 에코바디스(EcoVadis)의 지속가능성 평가에서 2년 연속 골드 등급(Gold Medal)을 받았습니다. 에코바디스는 환경, 노동 및 인권, 윤리, 지속가능한 조달 부문 전반을 평가하여 우수한 ESG 성과를 거둔 기업에 이 등급을 부여합니다. 이번 성과는 우시앱텍이 고품질 ESG 경영 체계를 바탕으로 지속가능한 글로벌 제약 생태계 조성에 기여하고 있음을 입증합니다.</p><h3>주요 포인트</h3><ul><li>우시앱텍, 에코바디스(EcoVadis) 지속가능성 평가에서 2년 연속 골드 등급 달성</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 분야 전반에서 높은 수준의 ESG 성과 인정</li><li>글로벌 제약·바이오 공급망에서의 지속가능 경영 실천 및 책임감 있는 운영 입증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxNdXBLbTBCWGtWb09SaFdtejUyNkFURU16alZWR1RMeVQ3QXY3cXdJOXk5ckRnXzRlMWxObEFpSnNYaGZUX2lNLWt4OU02UjB1QWpLR0g0bmlOaGVwTmRzOXYwSG9xMzA4eDBDYUlLMGhPSndzeEQ5ZEtXamlGbFZlV1lFWXpoY280UHByT0ZrZ1pzZ0JaSXBDTDNjRFR4Y3ZaWmwtWmZQVF80dk92WUJ5Vnc1eVRReFVUSUU3Uy1zOEhnbHNJVWFmWDZBTkdjbTQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1239,
       pinned: false,
       category: 'news', categoryName: '소식',
