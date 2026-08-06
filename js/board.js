@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1248,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '폭염이 원자력·가스·풍력·태양광 발전에 미치는 영향',
+      author: '관리자',
+      date: '2026.08.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후변화로 인해 폭염의 빈도와 강도가 증가하면서 전 세계 전력 생산 자원들이 직접적인 타격을 받고 있습니다. 폭염 기간 동안 원자력과 가스 발전은 냉각수 온도 상승 및 열효율 저하로 인해 출력을 줄여야 하는 상황에 직면합니다. 태양광 패널 또한 고온 환경에서 발전 효율이 떨어지며, 폭염을 유발하는 고기압은 바람을 약화시켜 풍력 발전량을 감소시킵니다.</p><h3>주요 포인트</h3><ul><li>원자력·가스 발전: 냉각수 온도 제한 및 열효율 저하로 폭염 시 감발 운전 불가피</li><li>태양광·풍력 발전: 고온으로 인한 패널 효율 감소 및 바람 약화에 따른 발전량 저하</li><li>전력 수급 리스크: 냉방 수요가 폭증하는 시점에 주요 발전원의 공급 능력이 동시에 약화되는 위험 존재</li></ul><p>원문: <a href="https://www.carbonbrief.org/factcheck-how-nuclear-gas-wind-and-solar-power-are-affected-during-heatwaves" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1249,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '콘티넨탈, 에코바디스 지속가능성 평가 \'골드\' 등급 획득',
+      author: '관리자',
+      date: '2026.08.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 타이어 및 자동차 부품 기업 콘티넨탈(Continental)이 세계적인 ESG 평가 기관인 에코바디스(EcoVadis)로부터 '골드(Gold)' 등급을 획득했습니다. 콘티넨탈은 이번 평가에서 전 세계 평가 대상 기업 중 상위 5% 내에 오르며 우수한 지속가능 경영 성과를 인정받았습니다. 이번 결과는 환경 영향 감소, 인권 및 노동권 보호, 지속가능한 공급망 구축 등 전방위적인 ESG 경영 노력이 결실을 맺은 것입니다. 콘티넨탈은 이를 바탕으로 2050년까지 100% 지속가능한 재료 사용 및 완전한 탄소 중립 달성을 목표로 노력을 이어갈 계획입니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 지속가능성 평가에서 전 세계 기업 상위 5% 수준에 해당하는 '골드' 등급 획득</li><li>환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 주요 영역 전반에서 높은 성과 입증</li><li>2050년까지 가치사슬 전반에 걸친 탄소 중립 실현 및 지속가능한 타이어 제조 목표 가속화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNRlV4TGs0NTlpUmhOeTRHY21CX18wb25iZ21oUkw2TUpPN3RZcGtaUE5kU1ZBLV9RNU1BLVBHcVlUSXUxdGp6SnNlX1ZJNld6d0h5ZDBFVmtiWGpLZngxX3dSLXQ4ZDB6VHNkckVpQVA3cnVXWTd4Z1Y3eEkzd0UxUw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1250,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '몬박, 구글·맥킨지에 아마존 산림복원 탄소배출권 2년 조기 전달',
+      author: '관리자',
+      date: '2026.08.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>브라질의 탄소 프로젝트 개발사 몬박(Mombak)이 구글과 맥킨지앤컴퍼니에 예정보다 2년 앞당겨 첫 아마존 산림 복원 기반 탄소 제거 배출권을 전달했습니다. 이번 배출권은 황폐화된 아마존 목초지를 토종 수종으로 복원하는 대규모 재림식 사업을 통해 생성되었습니다. 몬박은 고품질 탄소 제거 크레딧의 신속한 조달을 입증하며 글로벌 기업들의 기후 목표 달성을 적극 지원하고 있습니다.</p><h3>주요 포인트</h3><ul><li>브라질 몬박, 구글 및 맥킨지에 아마존 산림 복원 탄소 크레딧을 계획보다 2년 조기 인도</li><li>황폐화된 토지를 토종 나무로 복원하는 자발적 탄소 시장(VCM) 기반 고품질 크레딧 생성</li><li>대규모 자연 기반 탄소 제거 솔루션의 실현 가능성과 투명성을 입증한 모범 사례</li></ul><p>원문: <a href="https://www.esgtoday.com/mombak-delivers-amazon-reforestation-carbon-credits-to-google-mckinsey-2-years-early/?utm_source=rss&utm_medium=rss&utm_campaign=mombak-delivers-amazon-reforestation-carbon-credits-to-google-mckinsey-2-years-early" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1251,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '한국가스기술공사, 중대재해 예방 최고경영자 주관 안전회의 개최',
+      author: '관리자',
+      date: '2026.08.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국가스기술공사는 사업장 내 중대재해를 예방하고 안전보건 관리체계를 강화하기 위해 최고경영자(CEO)가 주관하는 '안전실천 월간회의'를 개최했습니다. 이번 회의에서는 현장의 안전 실태 및 위험 요인을 점검하고 실질적인 재해 예방 대책을 다각도로 논의했습니다. 공사는 앞으로도 CEO 주도의 지속적인 안전 실천 활동을 통해 근로자의 안전을 최우선으로 하는 경영 문화를 정착시켜 나갈 방침입니다.</p><h3>주요 포인트</h3><ul><li>최고경영자(CEO) 주관 중대재해 예방 안전실천 월간회의 개최</li><li>현장 위험요인 점검 및 실질적인 안전보건 관리 방안 논의</li><li>근로자 안전 최우선 경영을 통한 중대재해 Zero 목표 달성 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Oc3hVNVhrM0s4MnFBOWJyeElTTFVqSjFOLUZLcmxJSnRoalhRZmpFSnR2NEctem9oUkVacE5vNVgxb1F1NllOMFVEOXpsODY4czQ0Y3djUFkyUFdGMDFIRzg2QWg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1252,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '석유 시장 모니터링 및 내부자 거래 감시 강화',
+      author: '관리자',
+      date: '2026.08.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>본 게시물은 석유 시장의 가격 형성 과정과 미공개 정보를 활용한 내부자 거래에 대한 당국의 지속적인 감시 및 모니터링 체계를 조명합니다. ESG 지배구조(G) 관점에서 에너지 시장의 불투명성과 부정거래는 기업 및 시장 전반의 신뢰도를 실추시키는 주요 위험 요소입니다. 따라서 공정한 에너지 거래 환경 조성과 불법 행위 근절을 위한 모니터링의 중요성이 점점 더 강조되고 있습니다.</p><h3>주요 포인트</h3><ul><li>석유 시장 내 미공개 정보 활용 및 내부자 거래에 대한 당국의 감시 지속</li><li>에너지 시장의 투명성 확보와 준법 경영을 통한 ESG 지배구조(G) 강화 필요성</li><li>시장 교란 행위 예방을 위한 공정 거래 규제 및 모니터링의 중요성</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vghu5x/they_have_been_watching_the_oil_markets_and_have/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1244,
       pinned: false,
       category: 'news', categoryName: '소식',
