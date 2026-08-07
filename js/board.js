@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1253,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'ETRI, 자율주행차 국제표준 선점 및 첫 의장직 수임',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국전자통신연구원(ETRI)이 소프트웨어 중심 자동차(SDV) 및 자율주행 기술 분야의 국제표준 제정을 주도하며 글로벌 기술 주도권을 확보했습니다. ETRI 연구진은 관련 국제표준화 기구에서 첫 의장직을 수임하여 글로벌 자율주행 기술 표준화 작업을 직접 이끌게 되었습니다. 이번 성과는 차세대 스마트 모빌리티 생태계 조성과 국내 자동차 소프트웨어 기업들의 글로벌 시장 경쟁력 강화에 크게 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>ETRI, 자율주행 및 SDV 기술 국제표준화 기구 첫 의장직 수임</li><li>소프트웨어 중심 차세대 자동차 기술 표준 선점을 통한 글로벌 경쟁력 강화</li><li>자율주행 안전성 및 호환성 기준 마련으로 지속가능한 미래 교통 생태계 구축</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5fMEo4bmhoeWJBU1l6bUNuSTZOWkhMZzZwUzgyS1h3Sm4zd1dnWlJvNTBmU2ljR3NkN2VtbVBmQ2NCamRCazNVY3lMUTdQa3YtellQcm9sWmFtcU1EczI0Q0pudWJwTGJqT0E?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1254,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '짐샤크, 신임 최고공급망책임자에 맷 로저스 선임',
+      author: '관리자',
+      date: '2026.08.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>피트니스 의류 브랜드 짐샤크(Gymshark)가 맷 로저스(Matt Rogers)를 신임 최고공급망책임자(CSCO)로 선임했습니다. 맷 로저스는 2023년에 짐샤크에 합류하여 최근까지 글로벌 공급망 이사 직무를 수행해 왔습니다. 이번 인사를 통해 짐샤크는 글로벌 시장 확장에 맞춰 공급망 운영의 효율성과 지속가능성을 한층 강화할 계획입니다.</p><h3>주요 포인트</h3><ul><li>맷 로저스, 짐샤크의 신임 최고공급망책임자(CSCO)로 승진</li><li>2023년 합류 이후 글로벌 공급망 이사로서 물류 및 공급망 역량 강화 주도</li><li>글로벌 사업 확대 및 최적화된 공급망 전략 추진 예정</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/gymshark-names-new-chief-supply-chain-officer/826891/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1255,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '파주시, \'중대시민재해 예방 컨설팅\' 착수보고회 개최',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>파주시는 시민 안전을 강화하고 중대재해처벌법에 대응하기 위해 '중대시민재해 예방 컨설팅 용역' 착수보고회를 개최했습니다. 이번 용역은 관내 공공시설물 및 대중교통수단 등의 안전관리 체계를 종합적으로 점검하고 재해 예방 방안을 수립하기 위해 추진됩니다. 파주시는 전문적인 컨설팅을 통해 안전 의무 이행 실태를 진단하고, 맞춤형 관리 체계를 구축하여 안전한 도시 환경을 조성할 방침입니다.</p><h3>주요 포인트</h3><ul><li>중대시민재해 대상 공공시설물 및 교량·터널 등 안전점검 체계 마련</li><li>중대재해처벌법상 의무 이행 사항 점검 및 맞춤형 안전관리 대응책 수립</li><li>시민 안전 확보를 위한 선제적 재해 예방 활동 및 관리 역량 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE13Z2tOM1g1LWZFdWNqM1gtX1BOMjh5clhyb1NIRXFBNHZRZndqUWpiaHpNNVFmc2hlMHJZQVY5U2xIa1pkd1pVQmI3Nm5oVUJLUk9FNFdKbnc0TjRGT0xobU1MZDh5b3ZDOTl1NkQ4Z1g?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1256,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'Q&A: 중국의 신규 기후변화 대응 5개년 계획 주요 내용',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중국이 기후변화 대응을 위한 새로운 국가 5개년 계획을 발표했습니다. 이번 계획은 탄소 배출 감축, 재생에너지 확대, 에너지 효율 향상 등 중국의 기후 목표 달성을 위한 세부 로드맵을 담고 있습니다. 세계 최대 온실가스 배출국인 중국의 향후 정책 방향과 글로벌 기후 목표에 미칠 영향에 대해 다루고 있습니다.</p><h3>주요 포인트</h3><ul><li>중국 정부의 기후변화 대응 전용 국가 5개년 계획 수립 및 가이드라인 제정</li><li>탄소중립 달성을 위한 재생에너지 비중 확대 및 감축 세부 추진 과제 포함</li><li>산업 구조의 친환경 전환과 에너지 효율 개선을 위한 구체적 정책 방향 제시</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-what-is-in-chinas-new-five-year-plan-for-climate-change" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1257,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '기후변화는 해결 가능한 문제: 맞춤형 기후 행동 탐색 툴',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후변화는 복잡하지만 적절한 노력과 접근으로 충분히 해결할 수 있는 문제입니다. 연구진들은 개인이 기후변화 대응에서 자신의 역량을 가장 잘 발휘할 수 있는 분야를 찾을 수 있도록 돕는 탐색 도구를 개발했습니다. 지금 바로 행동해야 한다는 시급성을 바탕으로, 이 도구는 각자의 상황에 맞는 실질적인 기후 행동 방향을 제시합니다.</p><h3>주요 포인트</h3><ul><li>기후변화는 명확한 솔루션을 통해 통제 및 해결 가능한 과제임</li><li>수백 시간의 연구를 통해 개인 맞춤형 기후 행동 역할 탐색 툴 개발</li><li>개개인이 자신의 위치와 역량에 맞춰 실질적으로 기여할 수 있는 방안 제공</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vh0nla/climate_change_is_a_tractable_problem_if_not_us/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1248,
       pinned: false,
       category: 'news', categoryName: '소식',
