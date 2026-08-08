@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1258,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '구글, RWE 미국 태양광 프로젝트 전력 전량 구매 계약 체결',
+      author: '관리자',
+      date: '2026.08.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>구글이 독일 전력 생산업체 RWE와 15년 장기 전력구매계약(PPA)을 체결하고 미국 내 태양광 프로젝트에서 생산되는 전력을 전량 구매하기로 했습니다. 이번 계약으로 확보한 청정에너지는 구글의 데이터센터 및 사업장 운영에 공급되어 지역 전력망의 탈탄소화에 기여할 예정입니다. 이는 2030년까지 모든 사업장에서 24시간 내내 탄소 무배출 에너지(24/7 CFE)를 달성하려는 구글의 친환경 목표 이행의 일환입니다. RWE 역시 이번 협력을 바탕으로 미국 재생에너지 시장에서의 입지를 더욱 강화하게 되었습니다.</p><h3>주요 포인트</h3><ul><li><strong>15년 장기 PPA 체결:</strong> 구글이 RWE의 미국 태양광 발전소에서 생산되는 전력 전체를 15년간 구매하는 계약 체결.</li><li><strong>구글의 24/7 CFE 목표 지원:</strong> 2030년까지 전 세계 데이터센터와 사업장을 100% 무탄소 에너지로 운영하기 위한 전략적 투자.</li><li><strong>미국 재생에너지 확산:</strong> RWE의 미국 내 친환경 발전 인프라 구축 가속화 및 지역 전력망 탈탄소화 촉진.</li></ul><p>원문: <a href="https://www.esgtoday.com/google-purchases-entire-output-from-rwe-u-s-solar-project/?utm_source=rss&utm_medium=rss&utm_campaign=google-purchases-entire-output-from-rwe-u-s-solar-project" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1259,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'VMI 그룹, 에코바디스 ESG 평가서 최고 등급 \'플래티넘\' 달성',
+      author: '관리자',
+      date: '2026.08.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>고무 및 타이어 제조 장비 글로벌 기업인 VMI 그룹이 지속가능성 평가기관 에코바디스(EcoVadis)로부터 최고 등급인 '플래티넘(Platinum)'을 획득했습니다. 이번 평가로 VMI 그룹은 전 세계 평가 대상 기업 중 상위 1%에 진입하는 성과를 거두었습니다. 회사는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 모든 항목에서 높은 평가를 받으며 ESG 경영 역량을 입증했습니다. 이는 친환경 생산 기술 개발과 지속가능한 공급망 관리를 위해 지속적으로 노력한 결과입니다.</p><h3>주요 포인트</h3><ul><li>VMI 그룹, 에코바디스 ESG 지속가능성 평가에서 최고 등급인 '플래티넘' 획득</li><li>전 세계 평가 대상 기업 중 상위 1%에 해당하는 우수한 지속가능성 역량 입증</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 영역 전반에서 뛰어난 성과 기록</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQVzRrNm9nUkdwMWJ0a0F1U0J4TnFTX0xlcEpyOUkxRjF6UWo5X0JySWUydDJ0ZGE0S2g1TTFkZFFQZUlFRHdsVG9HUFpGSHZpYndKMTI1VEp3MTVjdE9YTUlUc1hEeTNXWmtoUEd4VzVhZUlxUXdUdy1oQ1ZVMzBsNmhXakFLNnJISVg1d1JoNERHWHZHMksw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1260,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '산불과 폭염의 시대, GDP를 넘어선 세상을 상상할 때',
+      author: '관리자',
+      date: '2026.08.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>삼림 벌채와 같은 환경 파괴 행위는 단기적인 경제 활동으로 집계되어 국내총생산(GDP)을 올릴 수 있지만, 궁극적으로는 국가의 실질적인 부를 감소시킵니다. 기후변화로 인한 산불과 폭염이 심화되는 가운데, 전통적인 GDP 지표는 지구 생태계의 파괴와 자연 자본의 손실을 반영하지 못한다는 한계를 지닙니다. 이에 따라 단기적 경제 성장을 넘어 지속가능성과 실질적인 삶의 질을 측정할 수 있는 새로운 지표 전환이 시급합니다.</p><h3>주요 포인트</h3><ul><li>삼림 개간 등 환경 파괴 활동이 단기적으로 GDP 수치를 상승시키는 지표적 착시 발생</li><li>GDP 증가가 반드시 국가의 지속가능한 부와 자연 자본의 증대를 의미하지는 않음</li><li>기후위기 시대에 맞춰 환경적 가치와 생태계 손실을 반영하는 'GDP 넘어의 경제 지표' 모색 필요</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/07/as-fires-burn-and-temperatures-soar-its-time-to-imagine-a-world-beyond-gdp/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1261,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: 'LG이노텍 구미 기숙사 사망사건, 당국 원인 조사 착수',
+      author: '관리자',
+      date: '2026.08.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>LG이노텍 구미 사업장 기숙사에서 직원이 사망하는 사건이 발생하여 관할 당국이 원인 규명에 착수했습니다. 고용노동부와 경찰은 정확한 사망 원인을 밝히기 위해 업무 관련 스트레스, 과로 여부 및 기숙사 안전 관리 실태 등을 종합적으로 조사 중입니다. 이번 사건으로 인해 기업의 ESG 경영 요소 중 근로자 안전 및 보건 관리(Social)에 대한 주의가 요구되고 있습니다.</p><h3>주요 포인트</h3><ul><li>LG이노텍 구미 기숙사 내 직원 사망 사고 발생</li><li>고용노동부 및 경찰, 사망 원인 및 과로 여부 조사 착수</li><li>기업의 근로자 안전보건 및 상생 관리(S) 리스크 부각</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE40R3dmbUdhN0wzZkM0WDdLd3NRSl9uSjB3eGdsc0FOelhMazFDekZ1dXNRaTV5ZWdnYzRsN2F5OEU1QkhuYktsYjJKbWVLQy1yY3V3cUZKTEp1Zw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1262,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '캐나다 BC주 원시림 벌목 강행… 시위대 도로 점거 저지',
+      author: '관리자',
+      date: '2026.08.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>캐나다 브리티시컬럼비아(BC)주에서 얼마 남지 않은 원시림(Old-growth forest)을 대상으로 한 벌목 작업이 지속되면서 거센 논란이 일고 있습니다. 환경 보호 활동가들과 시위대는 소중한 생태계를 지키기 위해 도로에 누워 벌목 장비의 진입을 막아서는 등 강하게 반발하고 있습니다. 원시림은 생물 다양성 유지와 대규모 탄소 저장에 필수적인 역할을 하는 만큼, 환경(E) 보호 관점에서의 비판과 대책 마련 요구가 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li>캐나다 BC주의 마지막 남은 원시림 벌목 작업으로 인한 환경 파괴 논란</li><li>벌목을 저지하기 위한 시위대의 도로 점거 등 적극적인 구호 활동</li><li>생물 다양성 보전 및 탄소 흡수원으로서 원시림 보호의 중요성 부각</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vhs239/british_columbia_is_logging_its_last_old_growth/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1253,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
