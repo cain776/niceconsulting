@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1263,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: 'RBA, 대러시아 제재 관련 성명 발표 및 공급망 실사 당부',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>책임감 있는 비즈니스 연합(RBA)과 책임있는 광물 이니셔티브(RMI)는 러시아에 대한 각국 정부의 제재 조치에 발맞춰 관련 성명을 발표했습니다. RMI는 제재 대상에 포함되거나 제재 대상 기관이 소유·통제하는 러시아 내 제련소 및 정련소에 대한 책임있는 광물 보증 프로세스(RMAP) 평가를 중단했습니다. RBA와 RMI는 회원사들에게 대러시아 제재를 철저히 준수하고 공급망 내 제재 관련 리스크를 완화하기 위해 실사를 강화할 것을 권고했습니다.</p><h3>주요 포인트</h3><ul><li>러시아 소재 및 제재 대상 기관 관련 제련소·정련소 대상 RMAP 평가 중단</li><li>국제 제재 준수를 위한 기업들의 자발적 공급망 실사(Due Diligence) 강화 권고</li><li>분쟁 광물 및 주요 원자재 조달 과정에서 법적 제재 준수 및 리스크 관리 강조</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/russia/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1264,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '알제네시스, 에코바디스 ESG 평가 \'골드\' 등급 획득… 상위 5% 진입',
+      author: '관리자',
+      date: '2026.08.05',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>친환경 바이오 소재 기업 알제네시스(Algenesis)가 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 '골드(Gold)' 등급을 획득했습니다. 이는 기존 실버 등급에서 한 단계 승격된 것으로, 전 세계 평가 대상 기업 중 상위 5% 이내에 해당하는 우수한 성과입니다. 알제네시스는 생분해성 바이오 기반 폴리우레탄 기술을 통해 미세플라스틱 오염을 줄이고 ESG 경영 실천을 지속적으로 강화하고 있습니다.</p><h3>주요 포인트</h3><ul><li>알제네시스, 에코바디스 지속가능성 평가서 '골드' 등급 상향 달성</li><li>전 세계 평가 대상 기업 중 상위 5% 내에 진입하며 우수한 ESG 성과 입증</li><li>생분해성 바이오 소재 혁신을 통한 친환경 지속가능 경영 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQWVNicG9VaDV0elRjN2xOV21URzVPcVBOM00ySUJpcjl6c09laGtubkNnT2JrSDBBLUdIUnB1MURHeHdtNXgxa1VneEhvNmt5eXRKNE4yZ3BXa3Y1S250TTRjVWl2aVlpYUlDTFZkUk1kSmN6YTdIbndIRkNOdm1BQVNXY0tFYkJaZzVmVXh4QjlOYXBNX1FaM2lpMzF2MHBs?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1265,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엘니뇨, 내년 말까지 5천만 명 기아 위기 몰아넣을 수 있어',
+      author: '관리자',
+      date: '2026.08.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>강력한 엘니뇨 현상으로 인해 내년 말까지 약 5,000만 명의 인구가 심각한 기아 상태에 빠질 수 있다는 경고가 나왔습니다. 전문가들은 엘니뇨가 지구 온난화와 상호작용하여 지구 기온을 사상 최고치로 끌어올릴 수 있다고 지적합니다. 이에 따라 올해 또는 2027년에 역대 가장 뜨거운 해가 기록될 가능성이 높아지고 있습니다.</p><h3>주요 포인트</h3><ul><li>엘니뇨 여파로 내년 말까지 5,000만 명이 극심한 식량 부족에 직면할 전망</li><li>지구 온난화와 엘니뇨의 결합으로 올해 또는 2027년 사상 최고 기온 경신 가능성</li><li>기후 위기가 글로벌 식량 안보와 빈곤 문제에 미치는 심각한 영향 우려</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1viqlpa/el_niño_could_push_50m_people_into_acute_hunger/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1266,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '국제표준안전재단 경북본부, 제6회 김영광가요제 안전봉사 활동',
+      author: '관리자',
+      date: '2026.08.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국제표준안전재단 경북본부가 제6회 김영광가요제 현장에서 관람객과 행사 관계자들의 안전을 위한 봉사활동을 펼쳤습니다. 이번 활동은 대규모 인원이 모이는 지역 문화 행사에서 발생할 수 있는 안전사고를 예방하고 원활한 행사 진행을 돕기 위해 추진되었습니다. 재단 봉사단원들은 현장 질서 유지, 동선 안내 및 비상 상황 대비 등 다각적인 안전 지원 활동을 수행했습니다.</p><h3>주요 포인트</h3><ul><li>제6회 김영광가요제 현장 안전 관리 및 관람객 질서 유지 봉사 수행</li><li>안전사고 예방을 위한 현장 동선 안내 및 비상 대응 체계 지원</li><li>지역사회 문화 행사의 안전성 강화와 사회적(S) 가치 실천에 기여</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE15NHdIZnZoY0I4Z0_HWLVSaDfL2Xe2QRRs3UfWF-cKOdMP_eZpY0_Y6vNiI_6FvtZ-HcGX19hYRxkfD7Lcz9QSV1imzEprB_vtY13Yhg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1267,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '카리브해 단수 사태, 엘니뇨 탓만 할 수 없는 이유',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>카리브해 지역에서 극심한 가뭄으로 인해 수돗물이 끊기는 등 심각한 물 부족 사태가 지속되고 있습니다. 이러한 현상은 단지 엘니뇨 때문이 아니라, 기후변화로 인해 이미 열이 축적된 육지와 바다가 엘니뇨와 결합하면서 피해가 더욱 가중된 결과입니다. 인류가 초래한 기후변화는 엘니뇨의 영향을 한층 더 증폭시키며 카리브해는 물론 전 세계에 괴멸적인 피해를 주고 있습니다.</p><h3>주요 포인트</h3><ul><li>카리브해 지역 내 가뭄 심화로 인한 심각한 단수 사태 발생</li><li>기후변화로 이미 상승한 지표면·해수면 온도가 엘니뇨와 결합하여 피해 증폭</li><li>자연적인 기상 현상(엘니뇨)을 넘어선 근본적인 기후위기 대응의 필요성</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/06/as-heatwave-hits-caribbean-its-not-just-el-nino-to-blame/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1258,
       pinned: false,
       category: 'news', categoryName: '소식',
