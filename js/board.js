@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1268,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미국 소고기 가격 급등에도 축산농가 수익은 제자리',
+      author: '관리자',
+      date: '2026.08.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 내 소고기 소비자 가격이 최근 급등했으나, 정작 소를 키우는 축산농가들의 수익은 늘어나지 않은 것으로 나타났습니다. 사료비, 유류비 등 생산 비용이 크게 오른 데다 소수 대형 육가공 업체들이 시장을 독과점하고 있는 구조적 문제가 원인으로 지적됩니다. 이로 인해 소비자와 농가 모두 경제적 어려움을 겪는 반면, 중간 유통 대기업이 이익을 독점하는 불균형이 심화되고 있습니다.</p><h3>주요 포인트</h3><ul><li>소비자 가격 폭등에도 불구하고 축산농가의 실질 소득은 증가하지 않음</li><li>사료, 에너지, 운송비 등 전반적인 농가 생산 비용의 가파른 상승</li><li>소수 육가공 대기업의 시장 독과점으로 인한 유통 마진 독식 문제 제기</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vk6ejt/us_beef_prices_have_soared_but_farmers_arent/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1269,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '재해 예방을 위한 안전보건 예산 편성 및 집행 방안',
+      author: '관리자',
+      date: '2026.08.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법 시행에 따라 사업장 내 재해 예방을 위한 적정한 안전보건 예산 편성 및 집행의 중요성이 더욱 강조되고 있습니다. 경영책임자는 사업장의 위험 요인을 발굴하고 이를 개선하기 위한 실질적인 예산을 확보해야 합니다. 이는 안전 시설 확충, 보호구 지급, 안전 교육 실시 등 현장에 필요한 예산을 체계적으로 집행함으로써 중대재해를 예방하고 법적 의무를 준수하기 위함입니다.</p><h3>주요 포인트</h3><ul><li>재해 예방에 필수적인 안전보건 예산의 체계적 편성 및 실질적 집행</li><li>위험성 평가 결과 및 현장 개선 요구사항을 반영한 예산 확보</li><li>경영책임자의 안전보건 확보 의무 이행을 통한 산업재해 예방 및 ESG 경영 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE43YWpSd05yc09HLS04LVVwOGdoNWFWMDIxN3BVdWp6dklmZ3B3eng1dzY5VEVjeVFiWWdlczBrN0pmTGxSQjV2WG1aaHo3d0xOVUhnWHBETzRwX0dvQWNuaEFXRU1rWGU2eG1jZg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1270,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '오어 에너지, 철·물·공기 기반 장기 저장 기술로 4,300만 달러 유치',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>장기 에너지 저장(LDES) 스타트업 '오어 에너지(Ore Energy)'가 철, 물, 공기를 활용한 수일간 지속되는 에너지 저장 솔루션 개발을 위해 4,300만 달러(약 590억 원) 규모의 투자 유치에 성공했습니다. 오어 에너지는 희귀 금속 대신 풍부하고 안전한 원자재를 사용해 저비용 친환경 배터리 기술을 선보이고 있습니다. 이번 투자금은 기술 대형화, 시범 프로젝트 가동 및 상업화 가속화에 집중 투입될 예정입니다. 이를 통해 풍력 및 태양광 등 재생에너지의 간헐성 문제를 해결하고 전력망의 안정성을 끌어올릴 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li><strong>4,300만 달러 투자 유치:</strong> 오어 에너지가 다일(Multi-day) 저장 기술 상용화를 위한 대규모 자금 확보</li><li><strong>친환경·저비용 소재 활용:</strong> 희귀 금속 대신 풍부한 철, 물, 공기를 이용한 친환경 장기 저장 배터리 솔루션 개발</li><li><strong>전력망 안정화 기여:</strong> 재생에너지의 공급 불안정성을 보완하고 저렴한 장기 에너지 저장 생태계 구축 추진</li></ul><p>원문: <a href="https://www.esgtoday.com/ore-energy-raises-43-million-for-multi-day-storage-solution-made-from-iron-water-and-air/?utm_source=rss&utm_medium=rss&utm_campaign=ore-energy-raises-43-million-for-multi-day-storage-solution-made-from-iron-water-and-air" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1271,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '의료제품 국가표준 20종 신설…연속혈당측정·의료 AI 포함',
+      author: '관리자',
+      date: '2026.08.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>정부가 연속혈당측정기, 의료용 인공지능(AI) 등 첨단 의료제품 분야의 국가표준(KS) 20종을 새로 제정합니다. 이번 표준 신설은 바이오·헬스케어 산업의 글로벌 경쟁력을 강화하고 국내 첨단 기술의 표준화를 도모하기 위해 추진됩니다. 이를 통해 의료기기의 안전성과 유효성을 확보하고 신산업 생태계의 지속 가능한 성장 기반을 마련할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>연속혈당측정기, 의료 AI 등 첨단 의료제품 대상 국가표준(KS) 20종 신설</li><li>국내 바이오·헬스케어 기술의 국제 표준화 추진 및 글로벌 경쟁력 제고</li><li>의료기기 안전성·유효성 표준 정립을 통한 산업 성장 기반 마련</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1nX3E2ZGhpU2FScDM4cE9ueHYxTXZieS1UTXQ3dERkS01IT3RrNTMzbWxPd2k3ZTNNUG5wbE4tczFhOVJhM05ySDdjOEVuTWtEWUlJY2JGeFdQRWk5NFAyQjhpSXZVcVNzVF9wU0kzcw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1272,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '전 세계 국가 25%, 마감 18개월 지나도 UN 기후 계획 미제출',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>파리협정에 따른 제출 마감일이 18개월이나 지났음에도 불구하고 전 세계 국가의 약 4분의 1에 달하는 45개국이 여전히 UN에 국가 기후 계획을 제출하지 않은 것으로 나타났습니다. 이집트, 베트남, 아르헨티나, 필리핀 등의 국가들이 제출을 완료하지 않아 파리협정 의무를 위반하고 있습니다. 글로벌 온실가스 감축 목표를 달성하기 위해서는 이들 국가의 조속한 기후 목표 수립과 제출이 시급합니다.</p><h3>주요 포인트</h3><ul><li>전 세계 45개국(전체의 약 25%)이 마감 18개월 후에도 UN 기후 계획 미제출</li><li>이집트, 베트남, 아르헨티나, 필리핀 등 주요국이 포함되어 파리협정 위반</li><li>글로벌 기후 위기 대응 실효성을 위해 해당 국가들의 신속한 이행 계획 제출 필요</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/06/quarter-of-countries-still-missing-un-climate-plans-18-months-after-deadline/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1263,
       pinned: false,
       category: 'news', categoryName: '소식',
