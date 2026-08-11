@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1273,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아홀드 델하이즈, 자동화 냉동 물류창고 2곳 사업 축소·중단',
+      author: '관리자',
+      date: '2026.08.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 식품 유통기업 아홀드 델하이즈와 물류 솔루션 기업 아메리콜드가 자동화 냉동 물류센터 추진 계획을 축소합니다. 양사는 펜실베이니아주 랭커스터의 기존 시설 운영을 중단하고, 커네티컷주 플레인필드에 계획했던 신규 물류센터 설립 사업을 철회하기로 합의했습니다. 이번 결정은 유통 및 공급망 환경 변화에 맞춰 물류 자동화 투자의 효율성을 재검토하는 과정에서 이루어졌습니다.</p><h3>주요 포인트</h3><ul><li>아홀드 델하이즈 및 아메리콜드, 자동화 냉동 물류센터 프로젝트 중단 발표</li><li>펜실베이니아 시설 폐쇄 및 커네티컷 신규 건설 계획 철회</li><li>변화하는 시장 환경 및 공급망 전략에 맞춘 물류 투자 재조정</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/ahold-delhaize-winds-down-plans-for-2-automated-frozen-warehouses/827086/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1274,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '윌로, 에코바디스 ESG 평가 5년 연속 플래티넘 등급 획득',
+      author: '관리자',
+      date: '2026.08.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 펌프 및 펌프 시스템 제조기업 윌로(Wilo)가 세계적인 지속가능성 평가기관 에코바디스(EcoVadis)로부터 5년 연속 최고 등급인 '플래티넘'을 획득했습니다. 이는 전 세계 평가 대상 기업 중 상위 1%에 해당하는 성과로, 윌로의 탁월한 ESG 경영 실천력을 다시 한번 입증했습니다. 윌로는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 전 부문에서 높은 평가를 받았습니다.</p><h3>주요 포인트</h3><ul><li>윌로, 에코바디스 지속가능성 평가에서 5년 연속 최고 등급인 '플래티넘' 달성</li><li>전 세계 평가 기업 중 상위 1%에 속하는 뛰어난 ESG 경영 성과 입증</li><li>환경, 노동·인권, 윤리, 지속가능한 수주 및 조달 전 영역에서 고득점 기록</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxNbG1ScTNmZHFMVGNtSkQ5SkFvck0tREVUZ0JjWGp1MVVvSWUwa1BLc3hpank4QTlXSDl3RWRXTXp1N0xsQVpMb0NSU01uOVpxYWI5My1VMUxZN3ljWFktUE5MaEtEMVlmRnNkTjZKRVNFaElKMFA4Vld4MV83T2c3di1LWTlFN01wNGVKV0I2UUNlcGtpZXlJTUlR?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1275,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국, 청정에너지 낭비 속 석탄 발전 반등',
+      author: '관리자',
+      date: '2026.08.06',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중국에서 기록적인 양의 청정에너지가 생산되고 있음에도 불구하고 석탄 발전량이 다시 반등하고 있다는 보고서가 발표되었습니다. 전력 수요와 관계없이 석탄 화력 발전소에 구매자를 보장해 주는 장기 계약 구조로 인해 재생에너지가 전력망에서 밀려나고 버려지는 현상이 발생하고 있습니다. 결과적으로 이러한 구조적 한계가 중국의 석탄 사용량 감소를 막고 탄소 감축 효과를 저해하고 있습니다.</p><h3>주요 포인트</h3><ul><li>장기 계약 제도로 인해 수요 변동과 무관하게 석탄 발전소의 판로가 보장됨</li><li>우선순위에서 밀려난 기록적인 양의 청정에너지가 전력망에 흡수되지 못하고 낭비됨</li><li>제도적 문제로 인해 중국의 석탄 사용량이 줄어들지 않고 다시 반등하는 추세임</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/06/china-wastes-clean-power-stopping-coal-use-from-falling/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1276,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '국표원, 선박·해양구조물용 KS 표준 개정 예고',
+      author: '관리자',
+      date: '2026.08.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>국가기술표준원(국표원)이 선박 및 해양구조물용 철강재에 대한 KS 표준 개정을 예고했습니다. 이번 개정은 최신 국제표준(ISO) 동향과 강화되는 글로벌 해양 환경 규제에 적극 대응하기 위해 추진됩니다. 고성능·친환경 해양 소재의 기술 기준을 보완하여 국내 조선 및 철강 산업의 경쟁력을 제고할 것으로 기대됩니다. 주요 관계 기관 및 업계의 의견 수렴 과정을 거쳐 최종 제·개정 고시가 완료될 예정입니다.</p><h3>주요 포인트</h3><ul><li>선박 및 해양구조물용 주요 철강 재료의 KS 표준 제·개정 추진</li><li>국제표준(ISO)과의 기술적 정합성 확보 및 해양 안전·환경 기준 강화</li><li>국내 조선·철강 업계의 품질 신뢰도 향상 및 글로벌 시장 경쟁력 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5wZm5wbjNyWkhnNVdSckNZSVM2aEVjcXNzRGZQTExQbXd1OFNrSklkelI5eWwtTGttZGRTS3RlYnBDYzZXOUxnaUduZ1FkeDQ3QnlEdU13V3MzSXNKVjdwZGgxOGFHbjVMN2c?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1277,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '제로 웨이스트 식사를 준비할 때 느끼는 큰 만족감',
+      author: '관리자',
+      date: '2026.08.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>개인 용기를 가져가 벌크 코너에서 식재료를 구매하고 쓰레기가 전혀 나오지 않는 식사를 만드는 경험에 대한 글입니다. 필요한 만큼만 식재료를 사용해 조리하고 나면 버릴 쓰레기 없이 오직 설거지거리만 남게 됩니다. 쓰레기 배출, 재활용, 음식물 쓰레기 처리조차 필요 없는 식사는 매우 건강하고 깊은 성취감을 줍니다.</p><h3>주요 포인트</h3><ul><li>다회용 용기를 활용한 벌크 코너 식재료 구매</li><li>쓰레기, 재활용, 퇴비화가 전혀 발생하지 않는 제로 웨이스트 조리</li><li>환경 보호 실천을 통해 얻는 건강하고 만족스러운 식사 경험</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vktgyc/i_feel_so_satisfied_when_i_make_a_waste_free_meal/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1268,
       pinned: false,
       category: 'news', categoryName: '소식',
