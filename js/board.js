@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1278,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '월마트, 공급업체 기준 위반 사례 전년 대비 35% 감소',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>월마트의 최신 ESG 보고서에 따르면 2026 회계연도 공급업체 표준 위반 사례가 총 754건으로 집계되었습니다. 이는 전년 대비 35% 감소한 수치로, 공급망 내 준법 및 ESG 기준 관리가 강화되고 있음을 보여줍니다. 월마트는 지속적인 모니터링을 통해 공급업체들의 노동 및 환경 표준 준수를 독려하고 있습니다.</p><h3>주요 포인트</h3><ul><li>2026 회계연도 공급업체 표준 위반 사례 총 754건 기록</li><li>전년 대비 위반 건수 35% 감소하며 개선세 기록</li><li>최신 ESG 보고서를 통해 공급망 투명성 및 관리 성과 공개</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/walmart-flags-fewer-supplier-standard-violations/827562/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1279,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마이크로소프트, 폐수 처리 기술 기반 탄소 제거 계약 체결',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>마이크로소프트(Microsoft)가 수처리 기술 스타트업 크루 카본(Crew Carbon)과 하수 처리 기술을 활용한 탄소 제거 구매 계약을 체결했습니다. 크루 카본은 폐수 처리 시설 내에서 이산화탄소를 영구적으로 광물화하여 격리하는 강화 풍화 기술을 제공합니다. 이번 협력은 마이크로소프트가 2030년까지 탄소 마이너스(Carbon Negative)를 달성하기 위해 추진하는 혁신적 탄소 제거 프로젝트 투자 전략의 일환입니다.</p><h3>주요 포인트</h3><ul><li>마이크로소프트, 물 기술 스타트업 크루 카본과 탄소 제거 구매 계약 체결</li><li>폐수 처리 과정에서 CO2를 안정적인 무기 탄산염으로 영구 격리하는 기술 활용</li><li>2030 탄소 마이너스 목표 달성을 위한 다양한 탄소 제거 포트폴리오 확장</li></ul><p>원문: <a href="https://www.esgtoday.com/microsoft-signs-wastewater-based-carbon-removal-deal/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-signs-wastewater-based-carbon-removal-deal" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1280,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '"후퇴했다" - 새 플라스틱 협약 초안, 생산 감축 기대 어둡게 해',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 플라스틱 협약 협상이 난항을 겪는 가운데 공개된 새로운 초안으로 인해 플라스틱 생산 감축에 대한 기대가 어두워지고 있습니다. 화석연료 생산국들은 문제의 근본 원인인 플라스틱 생산량 자체를 줄이기보다 폐기물 처리 및 관리만을 다루는 협약을 주장하고 있습니다. 이에 따라 플라스틱의 근본적인 감축을 기대했던 국가들과 환경 진영에서는 협상이 오히려 후퇴했다며 강한 우려를 나타내고 있습니다.</p><h3>주요 포인트</h3><ul><li>플라스틱 생산량 감축 규정이 후퇴한 새로운 국제 플라스틱 협약 초안 공개</li><li>화석연료 생산국들의 반대로 생산 제한 대신 폐기물 관리 중심의 협약으로 편중</li><li>생산 감축 없는 반쪽짜리 협약에 대해 주요 참가국 및 환경 진영의 거센 반발 발생</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/12/weve-gone-backwards-new-plastics-treaty-text-dims-hopes-for-production-curbs/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1281,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '[단독] 현장서 숨진 감리단장, 중대재해법 보호 제외 논란',
+      author: '관리자',
+      date: '2026.08.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>건설 현장에서 중대재해로 사망한 감리단장이 중대재해처벌법상의 보호 및 처벌 대상에서 제외되어 논란이 일고 있습니다. 감리업체는 시공사와 별도로 발주처와 계약을 맺는 구조여서 시공사의 안전보건 조치 의무 대상인 '종사자' 범위에 포함되지 않는다는 법적 해석 때문입니다. 이에 따라 현장의 안전을 감독하는 감리원들이 위험에 함께 노출되어 있음에도 법적 보호의 사각지대에 방치되어 있다는 비판과 함께 유족들의 울분이 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li>건설 현장에서 숨진 감리단장이 중대재해처벌법 적용 대상에서 제외됨</li><li>발주처-감리업체 간 별도 계약 구조로 인해 시공사 법적 책임 범위에서 벗어나는 사각지대 발생</li><li>현장 실무를 담당하는 감리원의 안전 확보를 위한 중대재해처벌법 관련 제도 개선 필요성 제기</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE92WmpVTUdYMmducV9DMW1kenU1Ri1EQlY0N2tSOWVPNHE1ejBkN1o3cXBBemdUYmw0TkIyNm14TE5uSGswdWhaOEUzLXBRVU1aRFRoMVZhenp4M2NnMWQxMXU5NA?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1282,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'ChatGPT 물 사용량 논란과 그보다 더 큰 물 발자국',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>최근 ChatGPT 등 생성형 AI의 물 사용량과 환경적 영향에 대한 대중의 관심이 고조되고 있습니다. 하지만 실제로는 축산업 및 육류 생산 과정에서 AI 기술보다 훨씬 더 막대한 양의 수자원이 소비됩니다. 개인 차원에서 수자원 소비와 환경적 영향을 실질적으로 줄이기 위해서는 육류 섭취를 줄이는 것이 가장 효과적인 시작점입니다. AI의 환경적 영향에 주목하는 것과 더불어 일상적인 식습관이 수자원에 미치는 영향도 함께 고려해야 합니다.</p><h3>주요 포인트</h3><ul><li>AI 기술의 물 소비에 관심이 쏠리고 있지만, 실제로는 육류 생산에 훨씬 많은 물이 소모됨</li><li>수자원 보호 및 물 발자국 감소를 위해 가장 실천적인 방법은 육류 소비 축소</li><li>신기술의 환경 영향과 더불어 기존 1차 산업의 환경 부하에 대한 균형 잡힌 인식 필요</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vmf0bn/everyones_talking_about_chatgpts_water_use_almost/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1273,
       pinned: false,
       category: 'news', categoryName: '소식',
