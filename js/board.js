@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1283,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '2026년 추천하는 최고의 가성비 중고 전기차',
+      author: '관리자',
+      date: '2026.08.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속 가능한 모빌리티 전환을 위해 2026년 기준 구매 가치가 높은 중고 전기차(EV)에 대한 정보를 다룹니다. 전기차 신차 대비 합리적인 가격으로 친환경 이동 수단을 확보할 수 있어 경제성과 환경성을 동시에 충족할 수 있습니다. 중고 전기차 선택 시에는 배터리 잔존 수명(SOH), 실 주행거리, 충전 편의성 등을 종합적으로 고려해야 합니다.</p><h3>주요 포인트</h3><ul><li>신차 대비 경제적 부담을 줄이고 자원 재순환에 기여하는 중고 전기차 시장 주목</li><li>배터리 잔존 수명(SOH) 및 제조사 배터리 보증 기간 확인 필수</li><li>충전 인프라 호환성 및 실주행 효율성을 고려한 최적의 모델 선택 필요</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1voib1e/the_best_used_electric_cars_in_2026/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1284,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '시즌 그룹, 에코바디스 실버 메달 획득…상위 15% 기록',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 전자 제조 서비스(EMS) 기업 시즌 그룹(Season Group)이 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 실버 메달을 획득했습니다. 이번 평가를 통해 시즌 그룹은 전 세계 평가 대상 기업 중 상위 15%에 이름을 올렸습니다. 회사는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 다양한 ESG 영역에서의 탁월한 성과와 노력을 공식적으로 인정받았습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 지속가능성 평가에서 글로벌 상위 15%에 진입하며 실버 메달 수상</li><li>환경, 노동·인권, 윤리, 지속가능한 조달 등 4대 핵심 ESG 분야에서 우수한 성과 기록</li><li>글로벌 제조 파트너로서 지속가능경영 실천 및 책임 있는 비즈니스 강화 약속</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSmN4cllmRjFTMHVid3g1ODRpQzVRbl8xenU5cmJnSlY0S1hjN2tIcUFLRG9kak9QQm5CYWpNZzNPVmZkSTd2LU5YVGw4cy1aNXcwOGdKR3RPcFpMY3dFelA4NTRqLUZQWXlWY1lDcDQ5aU1fc2I4VFpDTDd5eTA3aDZ3YVM5V3lDMXFfSm5nN1VnTUFKc0pRd0NHeHFIREgwbkd2VlJObWVZMjB4cHllejJuUGlCWjhETXpocGJLQUc2ZUFqZk1sbFpPaEh1UlhKQUY3V1R6enZHSWVnQmxtTWJWVE5ldw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1285,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'CIP, 신흥 시장 청정 에너지 인프라 펀드로 30억 달러 유치',
+      author: '관리자',
+      date: '2026.08.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 에너지 인프라 투자 운용사인 코펜하겐 인프라스트럭처 파트너스(CIP)가 성장 시장을 겨냥한 청정 에너지 펀드인 '성장 시장 펀드 II(Growth Markets Fund II, CI GMF II)'의 최종 결성을 완료하고 30억 달러(약 4조 1천억 원)를 유치했다고 발표했습니다. 이번 펀드는 아시아, 라틴아메리카 등 고성장 신흥 시장의 대규모 재생에너지 프로젝트 개발 및 건설을 지원하는 데 집중될 예정입니다. CIP는 글로벌 기관 투자자들의 높은 관심을 바탕으로 목표액을 초과 달성하며 신흥국의 에너지 전환을 가속화할 자금을 확보했습니다.</p><h3>주요 포인트</h3><ul><li>코펜하겐 인프라스트럭처 파트너스(CIP), 성장 시장 청정 에너지 펀드로 30억 달러 유치 성공</li><li>해상풍력, 육상풍력, 태양광 발전 및 에너지 저장 시스템(ESS) 등 대규모 재생에너지 인프라에 투자 계획</li><li>아시아, 라틴아메리카 등 신흥국의 탈탄소화 및 지속가능한 경제 성장 지원 목표</li></ul><p>원문: <a href="https://www.esgtoday.com/cip-raises-3-billion-for-growth-markets-focused-clean-energy-infrastructure-fund/?utm_source=rss&utm_medium=rss&utm_campaign=cip-raises-3-billion-for-growth-markets-focused-clean-energy-infrastructure-fund" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1278,
       pinned: false,
       category: 'news', categoryName: '소식',
