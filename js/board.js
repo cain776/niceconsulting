@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1286,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '창의재단, 기록경영 국제표준 \'ISO 30301\' 획득',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국과학창의재단이 기록경영시스템 국제표준인 'ISO 30301' 인증을 획득했습니다. 이번 인증은 재단의 공공기록물 관리 체계와 데이터 투명성이 글로벌 기준에 부합함을 입증한 성과입니다. 이를 통해 창의재단은 ESG 경영의 지배구조(G) 부문 경쟁력을 한층 강화하게 되었습니다.</p><h3>주요 포인트</h3><ul><li>한국과학창의재단, 기록경영시스템 국제표준 'ISO 30301' 획득</li><li>체계적인 기록물 관리와 업무 투명성 및 대외 신뢰도 제고</li><li>공공기관으로서의 투명경영 및 ESG 거버넌스 역량 입증</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE05OFZJUV9IcVhFUmZmTWZIOUNXcnl4LWUwNW1mcWVFVU41Zmd6SkYtNG1rMFkyVzh0enFfSWJoU0ZBQWk1ZTBKMUkxZUY5UQ?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1287,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '효과적인 기후 단체 기부, 출산 줄이기보다 탄소 감축에 효과적',
+      author: '관리자',
+      date: '2026.08.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후 변화 대응을 위해 자녀를 적게 낳는 것보다 검증되고 효과적인 기후 자선 단체에 기부하는 것이 탄소 배출 감축에 더 큰 영향을 미친다는 주장이 제기되었습니다. 일반적으로 개인의 출산 제한이 가장 강력한 탄소 저감 방안으로 알려져 있으나, 체계적인 기부 활동이 시스템 차원의 변화를 이끌어내어 더 높은 효율성을 낼 수 있다는 분석입니다. 이에 따라 개인의 극단적인 라이프스타일 변화보다 효과적인 환경 기금 지원 및 정책 변화 유도가 기후 위기 극복의 실질적 대안으로 논의되고 있습니다.</p><h3>주요 포인트</h3><ul><li>효과적인 기후 자선단체 기부가 개인의 출산 감소보다 더 높은 온실가스 감축 효과를 낼 수 있음</li><li>개인의 생활 습관 변화를 넘어선 구조적·시스템적 탄소 감축 솔루션에 자금을 지원하는 것의 중요성 강조</li><li>기후 위기 대응 방안으로서 효과적 이타주의(Effective Altruism) 관점의 환경 기부 접근법 부각</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vnxdcs/donating_to_effective_climate_charities_is_more/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1288,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '메차보드, 에코바디스 ESG 평가서 플래티넘 등급 획득',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 프리미엄 신선 섬유 판지 제조업체인 메차보드(Metsä Board)가 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 최고 등급인 '플래티넘(Platinum)'을 획득했습니다. 메차보드는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 주요 평가 부문 전반에서 뛰어난 성과를 인정받았습니다. 이번 획득으로 메차보드는 전 세계 평가 대상 기업 중 상위 1%에 해당하는 지속가능성 우수 기업임을 다시 한번 입증했습니다.</p><h3>주요 포인트</h3><ul><li>메차보드, 글로벌 공급망 ESG 평가 기관 에코바디스에서 최상위 '플래티넘' 등급 획득</li><li>환경, 노동/인권, 윤리, 지속가능 조달 등 전 부문에서 고득점 달성하여 상위 1% 기업에 선정</li><li>지속가능한 포장재 및 친환경 섬유 판지 분야의 ESG 리더십 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ3lXeWdTZ3U5Vk9vWEo2N0NHdzhpaF9ONDFsYUtsWEhqWkhBb29WMFp5dGxEM0dUN3hfY1NUTDlhOUZFODdCRWJUcFU4cXBWWHBqWGZRRHp2OXMweVB4ZnJGNHItT3JtY1l2dlpscjVacTRSdEhiVUhuaDZoVWh6aTg1MnNXVWE1?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1289,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '남아공 최고법원, 셸(Shell) 해상 석유 탐사권 차단',
+      author: '관리자',
+      date: '2026.08.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>남아프리카공화국 헌법재판소가 글로벌 에너지 기업 셸(Shell)과 파트너사들의 해상 석유 탐사권을 무효화하는 판결을 내렸습니다. 재판부는 탐사 승인 과정에서 피해가 예상되는 지역 사회와의 충분한 협의가 이루어지지 않았다고 판단했습니다. 또한 해상 탐사 작업이 해양 생태계 및 환경에 미칠 수 있는 잠재적 위험에 대해 적절한 평가가 결여되었다고 지적했습니다.</p><h3>주요 포인트</h3><ul><li>남아공 헌법재판소, 셸 및 파트너사의 해상 석유 탐사권 차단 판결</li><li>원주민 및 지역 공동체 대상 사전 협의 절차 결여 지적</li><li>해양 환경 및 기후 영향 평가 부실을 주요 기각 사유로 명시</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/14/south-africas-top-court-blocks-shells-offshore-oil-exploration-right/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1283,
       pinned: false,
       category: 'news', categoryName: '소식',
