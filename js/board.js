@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1290,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'rba', topicName: 'RBA',
+      title: '중국 상무부 제재 조치에 대한 RBA의 공식 입장',
+      author: '관리자',
+      date: '2026.08.14',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>책임감 있는 비즈니스 연합(RBA)은 최근 중국 상무부가 발표한 대미 대응 조치 명단에 포함된 것에 대한 공식 성명을 발표했습니다. RBA는 글로벌 공급망에서 근로자 권리 보호, 환경 지속가능성, 윤리적 경영을 촉진하는 비영리 다자간 이니셔티브라는 점을 강조했습니다. 아울러 이번 결정에 유감을 표하며, 글로벌 회원사 및 이해관계자들과 협력하여 지속가능한 공급망 실사 노력을 이어가겠다는 입장을 밝혔습니다.</p><h3>주요 포인트</h3><ul><li>중국 상무부의 대미 대응 조치 명단에 글로벌 ESG 공급망 연합인 RBA 포함</li><li>공급망 내 인권, 환경, 윤리적 비즈니스 표준을 준수하기 위한 RBA의 독립적 역할 강조</li><li>글로벌 회원사 지원 및 공급망 지속가능성 실사 표준 유지 의지 표명</li></ul><p>원문: <a href="https://www.responsiblebusiness.org/news/mofcom/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1291,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽 기록적 폭염, 일주일 새 사망자 1만 6천 명 급증',
+      author: '관리자',
+      date: '2026.08.16',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기후변화로 인한 유럽의 기록적인 폭염 기간 중 단 일주일 만에 초과 사망자가 약 16,000명 증가한 것으로 나타났습니다. 극단적인 고온 현상은 특히 취약계층의 건강을 위협하며 심각한 사회·보건적 위기를 초래하고 있습니다. 기후 위기가 단순한 환경 문제를 넘어 인명 피해로 직결되고 있음을 보여주며 신속한 적응 및 대응 조치의 필요성을 시사합니다.</p><h3>주요 포인트</h3><ul><li>유럽 내 기록적 폭염 발생 기간 중 일주일간 사망자가 16,000명 급증함</li><li>기후변화에 따른 극한 기후가 공중보건 및 사회 시스템에 미치는 심각한 타격 확인</li><li>취약계층 보호를 위한 도시 차원의 폭염 적응 대책 및 기후 위기 대응 강화 시급</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vprjwj/in_one_week_during_europes_record_heat_wave/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1286,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
