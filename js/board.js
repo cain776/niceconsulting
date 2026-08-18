@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1292,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '시흥도시공사, 폐기물 혁신 및 ISO 인증으로 ESG 경영 고도화',
+      author: '관리자',
+      date: '2026.08.17',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>시흥도시공사가 ISO 국제표준 인증 획득을 넘어 폐기물 처리 혁신을 추진하며 ESG 경영 체계를 본격적으로 고도화하고 있습니다. 공사는 자원 순환 시스템 구축과 친환경 프로세스 도입을 통해 환경(E) 부문의 성과를 대폭 강화하고 있습니다. 이를 바탕으로 공공기관으로서의 사회적 책임을 다하고 지속가능한 도시 발전을 위한 ESG 경영 실천에 박차를 가하고 있습니다.</p><h3>주요 포인트</h3><ul><li>ISO 국제표준 인증 획득 및 관리 체계 확립을 통한 대내외 신뢰도 제고</li><li>폐기물 감축 및 자원 순환 혁신 프로세스 도입으로 친환경 경영 강화</li><li>지속가능한 지역사회 발전을 견인하는 공공부문 ESG 책임경영 실천</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBLX1UycXpxSEJ6NUF0dGxrb3ZJeHhrWjNmd3pocU1oM2hCZjN1Q3JvSFRsTUlHYmNkRVRBLTFETEV1bkRZUVlaSHQ2blAycG91U1JIRjltZUFEei1CZ2UxUURDQzkybS1NTEE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1293,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '코오롱생명과학, 에코바디스 ESG ‘골드 메달’ 획득',
+      author: '관리자',
+      date: '2026.08.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>코오롱생명과학이 글로벌 지속가능성 평가 기관인 에코바디스(EcoVadis)의 2024년도 ESG 평가에서 상위 3%에 해당하는 ‘골드 메달(Gold Medal)’ 등급을 획득했습니다. 에코바디스는 전 세계 기업을 대상으로 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 분야를 종합 평가해 메달을 부여합니다. 코오롱생명과학은 전 영역에서 고른 성과를 인정받아 지속가능경영 역량을 입증했습니다.</p><h3>주요 포인트</h3><ul><li>에코바디스 ESG 평가에서 전 세계 기업 중 상위 3% 이내에 진입하며 '골드 메달' 획득</li><li>환경, 노동·인권, 윤리경영, 공급망 관리 전반에서 우수한 지속가능경영 실천 성과 입증</li><li>글로벌 파트너십 및 바이오·생명과학 비즈니스 경쟁력 강화 기대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9iQjByUWdsZnZ3NkN1QnZob0NHTGZiRjYxejFrb0VteDNEclNwWW96NklZd1dDVkVDcVVvX2Q4S3NLX2pMOWFtcl9vVm9IYXNYZW9YbzFtTjh0QWM4dkY2aHl4ck1Ha0hHY1pITTZFV0RaZDNjakZB0gF3QVVfeXFMT2JCMHJRZ2xmdnc2Q3VCdmhvQ0dMZmJGNjF6MWtvRW14M0RyU3BZb3o2SVl3V0NWRUNxVW9fZDhLc0tfakw5YW1yX29Wb0hhc1hlb1hvMW1OOHRBYzh2RjZoeXhyTUdrSEdjWkhNNkVXRFpkM2NqRkE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1294,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '유럽 중공업에 대한 배출권 무상할당 특혜 중단 촉구',
+      author: '관리자',
+      date: '2026.08.12',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>EU 배출권거래제(EU ETS)가 도입된 지 20년이 지났음에도 유럽 중공업 기업들은 여전히 오염 물질 배출에 상응하는 비용을 제대로 지불하지 않고 있습니다. 많은 기업들이 산업 전환에 필요한 필수적인 투자는 진행하지 않은 채, 무상할당 배출권을 활용해 이익을 얻고 있는 실정입니다. 유럽연합 집행위원회의 개정안은 이러한 무상 배출권 지급을 완전히 종료하기에는 여전히 미흡하다는 비판이 제기되고 있습니다.</p><h3>주요 포인트</h3><ul><li>EU ETS 도입 20년 경과에도 유럽 중공업의 무상 배출권 수혜 지속</li><li>친환경 산업 전환 투자 없이 탄소배출권 거래를 통해 부당 이익 획득</li><li>유럽연합 집행위원회의 제도 개정안, 무상할당 종료 계획 여전히 미흡</li></ul><p>원문: <a href="https://carbonmarketwatch.org/2026/08/12/era-of-european-industry-free-lunches-needs-to-stop/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1290,
       pinned: false,
       category: 'news', categoryName: '소식',
