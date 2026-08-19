@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1295,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아마존, 美 코네티컷에 100만 평방피트 규모 대형 물류센터 구축',
+      author: '관리자',
+      date: '2026.08.18',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아마존이 미국 코네티컷주 노리치(Norwich)에 약 100만 평방피트(약 2만 8천 평) 규모의 대형 유통 센터 구축을 준비하고 있습니다. 이번에 신설되는 시설은 상품의 보관, 피킹, 포장 및 발송을 담당하며, 공급망 하류에 위치한 분류 센터와 지역 배송 센터로 물품을 전달하는 핵심 허브 역할을 맡게 됩니다. 아마존은 이를 통해 지역 내 배송 효율성을 개선하고 물류 처리 역량을 한층 강화할 계획입니다.</p><h3>주요 포인트</h3><ul><li>코네티컷주 노리치에 약 100만 평방피트 규모의 대규모 유통 센터 신설 추진</li><li>상품 보관·포장·발송을 전담하여 하류 분류 및 지역 배송 센터로 물량 공급</li><li>지역 물류 네트워크 강화 및 배송 처리 속도·효율성 개선 기대</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/amazon-preps-1m-square-foot-distribution-center-in-connecticut/828085/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1296,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법 시행 4년, 실효성 점검 시점',
+      author: '관리자',
+      date: '2026.08.13',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법이 시행된 지 4년 차에 접어들면서 법률의 실제 산업재해 예방 효과와 실효성에 대한 면밀한 점검이 요구되고 있습니다. 법 시행 이후 기업들의 안전보건 관리체계 구축 노력은 확대되었으나, 현장 사고 감소로 이어지는지에 대한 평가는 엇갈리고 있습니다. 이에 따라 단순 처벌 중심의 규제에서 벗어나 실질적인 예방 중심의 제도 개선과 현장 밀착형 지원책 마련이 필요하다는 지적이 제기됩니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법 시행 4년을 맞아 제도 전반의 실효성 평가 필요성 대두</li><li>처벌 위주 정책의 한계 극복 및 실질적 산업재해 예방 체계로의 전환 요구</li><li>중소기업 대상 안전관리 역량 강화 지원 및 규제 현실화 논의 가속화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5aUtCUFozc1ppaXhxVkVFeEhST0NQdVVHZE9zZlFOVGZYeFU1Y3dBSTlWeGJzclBXNW9RdWt0WTBCM181d0o2bHdQM2tHVzEwanhNdmFVanA1VVhGVDZ2N293UXQxNkE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1292,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
