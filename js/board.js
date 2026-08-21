@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1297,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '베스팍, 에코바디스 지속가능성 평가 \'골드\' 등급 획득',
+      author: '관리자',
+      date: '2026.08.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>약물 전달 솔루션 및 위탁개발생산(CDMO) 전문 기업 베스팍(Bespak)이 글로벌 지속가능성 평가기관 에코바디스(EcoVadis)로부터 '골드(Gold)' 등급을 획득했습니다. 에코바디스는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 주요 분야에서 기업의 ESG 성과를 종합적으로 평가합니다. 베스팍의 골드 등급 획득은 전 세계 평가 대상 기업 중 상위권에 속하는 우수한 지속가능경영 수준을 입증한 결과입니다.</p><h3>주요 포인트</h3><ul><li>베스팍, 글로벌 ESG 평가 기관 에코바디스로부터 골드 메달 획득</li><li>환경, 노동/인권, 윤리, 공급망 관리 등 ESG 전반의 우수성 입증</li><li>제약 및 약물 전달 장치 CDMO 분야에서 지속가능경영 리더십 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPTU15QWJwNG5nVzFjdHFkVW9URG1rNEJESk83STJySDgyRGh1aWVLYVhKUGk2ODNtOEdlNDhNSktFQmlUNWVjSlU5V3UwaEs4cGZ0YnFIUlVKQ0J4a1dNczVhVU9LSEhkSnBxMmZzbEpFaUdBdjFWdUx0TXBsV3B0WG1vakVMZGZDS0dpZjZqZVZHYnZwT0s4c3Rn?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1298,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: 'CPP 인베스트먼츠, 포트폴리오 탄소 집약도 및 전환 거버넌스 보고 개시',
+      author: '관리자',
+      date: '2026.08.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>캐나다 연금투자위원회(CPP Investments)가 포트폴리오의 탄소 집약도와 전환 거버넌스(Transition Governance) 현황을 공개하는 신규 보고 체계를 도입했습니다. 이번 보고는 포트폴리오 기업들이 넷제로 목표에 맞춰 탄소 배출을 어떻게 감축하고 전환을 관리하고 있는지 투명하게 추적하기 위해 마련되었습니다. CPP 인베스트먼츠는 기후 리스크를 정밀하게 평가하고 에너지 전환 과정에서의 장기적인 투자 가치를 확보하는 데 집중할 방침입니다.</p><h3>주요 포인트</h3><ul><li>CPP 인베스트먼츠, 포트폴리오 기업의 탄소 집약도 및 기후 전환 거버넌스 측정 지표 신규 도입</li><li>2050 넷제로 달성을 위한 포트폴리오 기업의 탈탄소화 진행 상황과 전환 계획 이행 여부 평가</li><li>기후 관련 재무 정보 공개 투명성을 높이고 에너지 전환 투자 전략의 신뢰도 제고</li></ul><p>원문: <a href="https://www.esgtoday.com/cpp-investments-launches-reporting-on-portfolio-carbon-intensity-transition-governance/?utm_source=rss&utm_medium=rss&utm_campaign=cpp-investments-launches-reporting-on-portfolio-carbon-intensity-transition-governance" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1295,
       pinned: false,
       category: 'news', categoryName: '소식',
