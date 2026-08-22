@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1299,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '경기도시장상권진흥원, 부패방지경영시스템 국제 표준 인증 획득',
+      author: '관리자',
+      date: '2026.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>경기도시장상권진흥원이 부패방지경영시스템 국제 표준 인증을 획득하며 투명 경영 역량을 입증했습니다. 이번 인증은 기관 내 반부패 및 청렴 경영 체계가 글로벌 기준에 부합함을 공식적으로 인정받은 결과입니다. 진흥원은 이를 계기로 임직원의 청렴 의식을 고취하고 윤리경영 실천을 더욱 강화할 방침입니다. 공공기관으로서의 신뢰도를 높이고 투명한 상권 지원 환경을 구축하는 데 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>부패방지경영시스템 국제 표준 인증 취득을 통한 윤리경영 체계 확립</li><li>공공기관의 ESG 중 지배구조(G) 및 투명경영 역량 강화</li><li>청렴한 조직문화 확산 및 소상공인·전통시장 지원 신뢰도 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXTXQ4V0ZibVhjWTVVb3oycXZFQ05oOGJNM0pNQXpfTWVWclRwd0VOREhnaXE1cklzS1FEbk1RLU5vOUVIMnhITmZKeUlyajE3Z1EwbnJ3?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1300,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미국 콜로라도 폐석탄 광산 부지, 태양광 발전소로 전환',
+      author: '관리자',
+      date: '2026.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 콜로라도주의 옛 석탄 광산 부지가 대규모 태양광 발전 시설로 탈바꿈했습니다. 이번 프로젝트는 화석연료 기반의 산업 유휴지를 청정에너지 생산 거점으로 재활용하는 대표적인 에너지 전환 사례로 주목받고 있습니다. 이를 통해 지역 사회에 지속 가능한 친환경 전력을 공급하고 탄소 배출 저감에 크게 기여할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>콜로라도 내 과거 석탄 채굴 부지를 친환경 태양광 발전 단지로 성공적으로 재개발</li><li>화석연료 인프라의 재생에너지 전환을 통한 부지 재활용 및 탄소 저감 효과 달성</li><li>지역 경제 활성화 및 청정에너지 공급 확대를 위한 모범적 ESG 실천 사례</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vujk6q/site_of_former_colorado_coal_mine_converted_into/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1297,
       pinned: false,
       category: 'news', categoryName: '소식',
