@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1301,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '하나로마트 지게차 사망사고, 중대재해법 엄정 처벌 촉구',
+      author: '관리자',
+      date: '2026.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>제주 지역 하나로마트에서 발생한 지게차 사망사고와 관련해 노동계와 시민사회가 철저한 진상 규명과 책임자 처벌을 강력히 촉구하고 있습니다. 이들은 해당 사고가 안전관리 체계 미흡과 산업안전보건법 위반 소지에서 비롯된 중대재해라고 주장했습니다. 이에 따라 수사당국이 중대재해처벌법을 엄격히 적용해 사업장 내 안전보건 확보 의무 위반 여부를 철저히 수사해야 한다고 강조했습니다.</p><h3>주요 포인트</h3><ul><li>하나로마트 작업장 내 지게차 작업 중 발생한 노동자 사망사고에 대한 논란 확산</li><li>노동안전 및 보건 조치 미흡을 지적하며 중대재해처벌법 적용 및 엄정한 수사 요구</li><li>재발 방지를 위한 유통 매장 및 물류 현장 전반의 안전관리 시스템 강화 필요성 제기</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE56ZXlmb0VoWEM1dHduQ1VobWNLS203NVpiSVF2MjJfWmh5U0lqUUlEM2JCd3RDWHNkSWxyRVRraGdxTXMxRkZ3VFdldlB0OF9NdWJHUEFGbGpZUGJ6aGw1TEtnTjJOay1TdUpCQWYxUzlYUzg?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1302,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '마픽스, 탄소 제거 비료 개발 위해 540만 달러 투자 유치',
+      author: '관리자',
+      date: '2026.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>농업 기술 스타트업 마픽스(Mafix)가 암석을 탄소 제거 비료로 전환하는 기술 개발을 위해 540만 달러(약 75억 원) 규모의 프리 시드 투자를 유치했습니다. 마픽스는 광물 풍화 과정을 활용하여 대기 중의 이산화탄소를 포집하고 동시에 토양 건강을 증진하는 혁신적인 비료 솔루션을 제공합니다. 이번에 확보한 자금은 생산 공정의 확장과 글로벌 농가 공급망 확대를 위한 연구 개발에 사용될 예정입니다.</p><h3>주요 포인트</h3><ul><li>농업 스타트업 마픽스, 프리 시드 펀딩으로 540만 달러 조달 완료</li><li>암석을 활용한 풍화 촉진 기술로 탄소 영구 격리 및 토양 영양분 공급 비료 생산</li><li>생산 설비 확장과 탄소 제거 역량 검증 및 상용화 가속화 계획</li></ul><p>원문: <a href="https://www.esgtoday.com/mafix-raises-5-4-million-to-rocks-into-carbon-removing-fertilizer/?utm_source=rss&utm_medium=rss&utm_campaign=mafix-raises-5-4-million-to-rocks-into-carbon-removing-fertilizer" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1303,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '영국 보수당 \'저렴한 전력\' 보고서의 10가지 맹점 팩트체크',
+      author: '관리자',
+      date: '2026.08.20',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국 야당인 보수당이 발표한 신규 보고서에서는 영국의 전기 요금이 지나치게 높으며 청정에너지 목표를 축소해야 한다고 주장했습니다. 그러나 카본브리프(Carbon Brief)의 팩트체크 결과, 해당 보고서는 과거 영국 에너지 가격 급등의 핵심 원인이었던 화석가스 가격 변동성을 간과한 것으로 나타났습니다. 또한 재생에너지의 비용 하락 효과와 청정 전력 전환에 따른 실질적인 경제적·환경적 이익을 축소 및 왜곡하는 등 10가지 중대한 분석적 오류가 지적되었습니다.</p><h3>주요 포인트</h3><ul><li><strong>가스 가격 영향 간과:</strong> 최근 수년간 지속된 에너지 위기와 고물가의 주요 원인이 천연가스 가격 급등이었음에도 이를 배제한 채 분석함</li><li><strong>재생에너지 비용 왜곡:</strong> 태양광 및 풍력 등 재생에너지가 현재 가장 저렴한 발전원이라는 다수의 공식 연구 결과를 부정확하게 인용함</li><li><strong>기후 목표 역행 위험:</strong> 보고서의 권고안을 따를 경우 탄소 배출량이 증가하고 에너지 안보가 취약해질 수 있다는 전문가 경고 제기</li></ul><p>원문: <a href="https://www.carbonbrief.org/factcheck-10-flaws-in-the-conservative-report-on-cheap-power" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1304,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '베스트바이, 공급망 시설서 \'폐기물 매립 제로\' 달성',
+      author: '관리자',
+      date: '2026.08.21',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 최대 전자제품 유통업체 베스트바이(Best Buy)가 자사 공급망 시설 29곳에서 '폐기물 매립 제로(Zero Waste)' 인증을 획득했다고 발표했습니다. 이번 인증은 자원 사용 및 효율성 관련 인증 요건을 충족한 결과로, 유통 과정에서 발생하는 폐기물을 획기적으로 감축했음을 의미합니다. 베스트바이는 지속가능한 공급망 구축과 환경 보호를 목표로 재활용 및 자원 순환 체계를 강화해 왔습니다. 회사는 앞으로도 공급망 전반에서 친환경 운영을 확대하여 탄소 배출 저감과 자원 절약에 기여할 방침입니다.</p><h3>주요 포인트</h3><ul><li>베스트바이의 공급망 시설 29곳이 공식 '폐기물 매립 제로' 인증 획득</li><li>자원 사용 최적화 및 효율성 인증 기준을 성공적으로 충족</li><li>공급망 전반의 자원 순환 및 지속가능성 제고를 위한 환경 경영 가속화</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/best-buy-achieves-zero-waste-goal-at-supply-chain-facilities/828412/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1305,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: 'ALOM, 에코바디스 지속가능성 \'실버\' 2년 연속 획득',
+      author: '관리자',
+      date: '2026.08.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망 관리 기업 ALOM이 세계적인 지속가능성 평가 기관인 에코바디스(EcoVadis)로부터 2년 연속 실버 등급을 획득했습니다. 이번 평가는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 네 가지 주요 분야 전반에서 ALOM의 우수한 ESG 경영 성과를 입증한 결과입니다. ALOM은 지속가능한 비즈니스 운영과 투명한 공급망 체계 구축을 위한 노력을 지속해서 강화하고 있습니다.</p><h3>주요 포인트</h3><ul><li>ALOM, 에코바디스 ESG 평가에서 2년 연속 상위 기업에 부여되는 '실버 등급' 획득</li><li>환경, 노동 및 인권, 윤리, 지속가능 조달 부문에서 고른 우수 평가 기록</li><li>책임 있는 공급망 관리와 친환경 경영 실천을 위한 ALOM의 지속적인 ESG 노력 인정</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWNmcW9yeGd4R0YzZVNqVVNodjF6b0hiYkpuSXlEYzFIVXlaZEVTZUl2MHJTSE90X21STjVXQ0FFTVEwYjFjMkVTZXBtVTg2RnU1cGF0XzgzZ2U1RWNlV1ZfcEJZb19URlhvaG1BLVcyQ3Y3aDRxbm5HNUJWdmh4czBybDZsMUliOXRaVVN3cm1yZEJQM1dzMm10am14bDllVU10UlpmbU1FQ1gyMU1zd1dQaW5YdEE5ZmQ5OVZDWF9iTXFRUF8yNw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1299,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
