@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1306,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '딸의 첫 생리를 위한 친환경 다회용 생리대 추천 문의',
+      author: '관리자',
+      date: '2026.08.23',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>해외 온라인 커뮤니티에서 한 부모가 딸의 첫 생리를 준비하기 위해 친환경 다회용 생리대(면 생리대) 키트 추천을 구하는 글이 게재되었습니다. 작성자는 10여 년 전 Etsy에서 다회용 패드를 구매해 사용했던 경험이 있으나, 최근 트렌드와 제품 변화에 대해 조언을 구하고 있습니다. 초경을 맞이하는 청소년에게 적합한 우수한 지속가능 생리용품 브랜드 및 첫 생리 키트에 대한 커뮤니티의 추천과 정보 공유가 이루어지고 있습니다.</p><h3>주요 포인트</h3><ul><li>초경을 앞둔 자녀를 위한 지속가능한 제로웨이스트 다회용 생리대 키트 구성 문의</li><li>10년 전과 비교해 발전한 최신 다회용 면 생리대 브랜드 및 제품 정보 탐색</li><li>청소년이 사용하기 편리하고 적합한 친환경 월경 용품 추천 요청</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1vwbmll/reusable_pads_for_a_first_period_kit/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1301,
       pinned: false,
       category: 'news', categoryName: '소식',
