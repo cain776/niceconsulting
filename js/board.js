@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1307,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '뉴질랜드, 기업 대상 기후 소송 제한 법안 추진',
+      author: '관리자',
+      date: '2026.08.24',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>뉴질랜드 정부가 온실가스 배출로 인한 기후 피해에 대해 기업을 상대로 소송을 제기하지 못하도록 하는 새로운 법안을 추진합니다. 정부는 기후변화 대응이 법정이 아닌 국가 차원의 정책을 통해 다루어져야 한다는 입장을 밝혔습니다. 이번 조치는 기후 소송의 불확실성으로부터 자국 기업들을 보호하기 위한 목적으로 해석됩니다.</p><h3>주요 포인트</h3><ul><li>기업의 탄소 배출로 인한 기후 피해 관련 민사 소송을 제한하는 법안 발의</li><li>뉴질랜드 정부는 기후 행동의 주체가 법원이 아닌 국가 정책이어야 한다고 강조</li><li>기후 리스크에 직면한 기업 보호와 기후 소송 위축에 대한 논란 예상</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/24/new-zealand-moves-to-protect-business-with-law-curtailing-climate-litigation/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1308,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '장주기 에너지 저장(LDES)이란 무엇이며 영국에 왜 필요할까?',
+      author: '관리자',
+      date: '2026.08.19',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>영국은 재생에너지의 간헐적 전력 생산 문제를 해결하고 전력망을 안정화하기 위해 장주기 에너지 저장장치(LDES) 도입을 선도하고 있습니다. 장주기 에너지 저장장치는 풍력 및 태양광 발전으로 생산된 잉여 전력을 수시간에서 수일 이상 장기간 저장하여 전력 수요가 높거나 발전량이 부족할 때 공급하는 기술입니다. 이를 통해 화석연료 기반 백업 발전에 대한 의존도를 낮추고 넷제로(Net-Zero) 전력망 전환을 가속화할 수 있습니다.</p><h3>주요 포인트</h3><ul><li>장주기 에너지 저장(LDES)은 기존 단주기 배터리의 한계를 넘어 수시간~수일간 에너지를 저장·공급하는 차세대 에너지 기술입니다.</li><li>풍력·태양광 등 재생에너지 비중이 높은 영국의 전력망 안정화와 전력 낭비 방지에 필수적인 핵심 인프라입니다.</li><li>화석연료 가스 발전을 대체함으로써 온실가스 감축과 에너지 안보 강화를 동시에 달성할 수 있습니다.</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-what-is-long-duration-energy-storage-and-why-does-the-uk-need-it" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1306,
       pinned: false,
       category: 'news', categoryName: '소식',
