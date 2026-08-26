@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1309,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '대산항 예인줄 사고로 70대 사망, 중대재해법 관심',
+      author: '관리자',
+      date: '2026.08.25',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>충남 서산시 대산항에서 작업 중 끊어진 예인선 줄에 맞은 70대 작업자가 숨지는 사고가 발생했습니다. 해경과 관계 당국은 정확한 사고 경위와 현장의 안전관리 수칙 준수 여부를 조사하고 있습니다. 특히 이번 사고와 관련해 사업장 내 안전보건 확보 의무 위반 여부 및 중대재해처벌법 적용 가능성에 관심이 쏠리고 있습니다.</p><h3>주요 포인트</h3><ul><li>대산항 작업 현장에서 예인줄 파단으로 인한 70대 근로자 사망 사고 발생</li><li>해양경찰 및 노동당국의 현장 안전조치 준수 여부 및 사고 원인 조사 착수</li><li>사업주 및 경영책임자의 중대재해처벌법 및 산업안전보건법 위반 여부 주목</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5wYnFRMXlfNnlLZHlFVEk5bHFfX2pWRUZHQ291YnkyV2ZGQkZGSW9kXzRPbGZCWXZJYkpfYU5xT3NJTm8yVkU0SXpsMnoydmNrT2dyVGRCUDVGQ2hwQ3lMNEp5UjF0SkxGQXhv?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1307,
       pinned: false,
       category: 'news', categoryName: '소식',
