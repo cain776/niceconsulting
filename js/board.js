@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1310,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '짐빔 제조사, 신임 최고공급망책임자에 마누엘 카바냐스 임명',
+      author: '관리자',
+      date: '2026.08.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>짐빔(Jim Beam) 제조사인 산토리 글로벌 스피리츠(Suntory Global Spirits)가 신임 최고공급망책임자(CSCO)로 마누엘 카바냐스를 임명했습니다. 카바냐스는 2000년부터 회사에 몸담아온 베테랑으로, 글로벌 공급망 운영에 대한 깊은 이해를 갖추고 있습니다. 그는 앞으로 전 세계 네트워크 전반에 걸쳐 제조, 유통, 품질 관리, 조달 및 운영 전반을 총괄하게 됩니다.</p><h3>주요 포인트</h3><ul><li>산토리 글로벌 스피리츠, 20년 이상 근속한 내부 인사인 마누엘 카바냐스를 차기 CSCO로 선임</li><li>글로벌 제조 시설, 물류 유통망, 품질 관리 및 지속가능한 소싱 전반 총괄 예정</li><li>글로벌 공급망 복원력 강화 및 운영 효율성 제고에 주력할 방침</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/jim-beam-maker-chooses-next-chief-supply-chain-officer/828859/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1311,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '자가 치유 및 자외선 차단 기능을 갖춘 친환경 \'살아있는 균류 섬유\'',
+      author: '관리자',
+      date: '2026.08.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>기존의 대부분의 섬유 소재는 제조 후 변화하지 않지만, 살아있는 균사체를 활용한 혁신적인 미래형 섬유가 개발되었습니다. 번데기동충하초의 균사체로 만들어진 이 유연한 직물은 재생 성장이 가능한 세포를 유지합니다. 이를 통해 직물이 손상되었을 때 스스로 복구하고 자외선 차단 및 발수 기능을 갖추는 등 친환경 패션의 새로운 가능성을 열고 있습니다.</p><h3>주요 포인트</h3><ul><li>번데기동충하초의 살아있는 균사체를 활용해 스스로 성장·재생할 수 있는 유연한 직물 개발</li><li>자가 복구 기능뿐만 아니라 표면 발수 처리 능력 보유</li><li>색상을 입히거나 자외선(UV)을 차단하는 미생물과의 공존 및 기능 확장 가능</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1w146vf/the_future_of_fashion_living_fungal_fabric_that/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1309,
       pinned: false,
       category: 'news', categoryName: '소식',
