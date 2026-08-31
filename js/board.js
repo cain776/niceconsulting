@@ -10,6 +10,62 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1312,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '아프리카 퇴장에도 사막화총회 가뭄 합의 없이 폐막',
+      author: '관리자',
+      date: '2026.08.28',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>유엔사막화방지협약 당사국총회(Land COP)에서 아프리카 국가들이 강력히 추진했던 가뭄 관련 의정서(drought protocol) 도입이 치열한 대립 끝에 무산되었습니다. 협상 과정에서 아프리카 대표단이 항의 표시로 회의장을 퇴장하는 등 극심한 갈등을 빚었으나 끝내 합의점을 찾지 못했습니다. 이에 따라 국제적인 가뭄 대응 협약 논의는 향후 2년 뒤로 연기되었습니다.</p><h3>주요 포인트</h3><ul><li>아프리카 국가들이 추진한 법적 구속력 있는 가뭄 의정서 채택 불발</li><li>협상 난항 속 아프리카 대표단의 회의장 집단 퇴장 등 국가 간 갈등 심화</li><li>가뭄 대응 관련 후속 협상은 2년 후 차기 총회로 연기</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/08/28/despite-african-walkout-fractious-land-cop-ends-without-drought-agreement/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1313,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '와이더랩, ISO 국제표준 인증 4종 획득하며 ESG 경쟁력 강화',
+      author: '관리자',
+      date: '2026.08.31',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>와이더랩이 품질, 환경, 안전보건 등 글로벌 경영 시스템을 공인하는 ISO 국제표준 인증 4종을 동시 획득했습니다. 이번 인증은 기업 경영 전반의 투명성과 지속가능성을 국제 기준에 맞추어 입증한 성과입니다. 이를 통해 와이더랩은 고객 신뢰도를 제고하고 글로벌 시장에서의 경쟁력을 한층 강화하게 되었습니다.</p><h3>주요 포인트</h3><ul><li>품질·환경·안전보건 등 경영 시스템 전반을 아우르는 ISO 인증 4종 획득</li><li>글로벌 기준에 부합하는 ESG 및 지속가능경영 체계 구축</li><li>대외 신뢰도 제고를 바탕으로 국내외 비즈니스 경쟁력 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aQ2dxcUxsTzJyQ0JMc1FLeVd1dWZVQzVKR0QwSVdmZExGYmRjMGVObV82OC1ta1ZRT1FGbTNGRjJUdHNPWnlxZi0xeWdaaWhjMk9SZ0FsNUJPVVA3amhCcjlB?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1314,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '중대재해처벌법, 헌법 위배되지 않아',
+      author: '관리자',
+      date: '2026.08.30',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>중대재해처벌법의 위헌성을 둘러싼 논란 속에서 해당 법률이 헌법에 위배되지 않는다는 분석과 주장이 제기되었습니다. 중대재해처벌법은 노동자의 생명권과 안전권을 보장하기 위한 최소한의 입법 조치로 평가받고 있습니다. 경영계 일각에서 제기하는 명확성의 원칙 및 과잉금지 원칙 위반 주장은 헌법적 가치와 법 취지를 고려할 때 타당성이 부족하다는 지적입니다.</p><h3>주요 포인트</h3><ul><li>중대재해처벌법은 노동자의 생명권 및 안전보장 권리를 보호하기 위한 정당한 입법 목적을 가짐</li><li>경영계의 명확성의 원칙 및 과잉금지 원칙 위반 주장은 설득력이 낮음</li><li>기업의 ESG 경영 및 산업안전 강화를 위한 법적 안전망 역할 지속 전망</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE45bmd0VC02U2ZYLUxZQ1B0SzJmLWVWUjNXM0lNcldWZ0s2VDVLMjcxcWFOSjRNSnNYZ2g2eUlHcWxsYWJpMXh3bVpRU2t0UldDX3RydndLZHlBN2xPM1lPTTdSLVNyM3Ixcy1GWWFXVkw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1315,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '넬슨-제임슨, 에코바디스 지속가능성 평가 \'실버 메달\' 획득',
+      author: '관리자',
+      date: '2026.08.27',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>식품 및 유제품 가공 유통 솔루션 기업인 넬슨-제임슨(Nelson-Jameson)이 글로벌 지속가능성 평가 기관 에코바디스(EcoVadis)로부터 실버 메달을 획득했습니다. 에코바디스는 환경, 노동 및 인권, 윤리, 지속가능한 조달 등 4개 주요 분야를 종합적으로 평가하며, 실버 메달은 평가 대상 기업 중 상위 15% 이내에 속하는 우수한 성과를 거둔 기업에게 수여됩니다. 넬슨-제임슨은 이번 인증을 통해 식품 안전뿐만 아니라 지속가능한 공급망 구축과 기업의 사회적 책임 실천에 대한 노력을 입증했습니다.</p><h3>주요 포인트</h3><ul><li>넬슨-제임슨, 글로벌 ESG 평가 기관 에코바디스(EcoVadis) 실버 메달 획득</li><li>환경, 노동/인권, 기업 윤리, 지속가능한 조달 부문에서 종합 상위 15% 성과 달성</li><li>식품 안전 및 지속가능한 공급망 관리를 위한 ESG 경영 실천 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQSW5Pcjk2aTJKMV9BU2RDd0tROHNSRzh2c2tYLWFfNHBqOEJsWTdxaXVfdlFDd1l4WkIxMmstTXFNUEE2bjdwZ2x5SUsyZUZQNjV4dlNTT1F5anp6RmstWTd0Z0tBZ0NxRWlPUWVOSlRvRTNrN3plQTBRYURtMHFKR0FnSzQ3amdBVGxEcw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1310,
       pinned: false,
       category: 'news', categoryName: '소식',
