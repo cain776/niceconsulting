@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1316,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '구글, 페르보 에너지와 역대 최대 지열 발전 PPA 체결',
+      author: '관리자',
+      date: '2026.09.01',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>구글(Google)이 차세대 지열 에너지 개발업체인 페르보 에너지(Fervo Energy)와 396MW(메가와트) 규모의 대규모 전력구매계약(PPA)을 체결했습니다. 이번 계약은 지열 발전 분야에서 체결된 기업 간 PPA 중 역대 최대 규모로 알려졌습니다. 구글은 이를 통해 AI 및 데이터센터 운영 등으로 급증하는 전력 수요를 연중무휴 24시간 무탄소 에너지(24/7 CFE)로 충당할 계획입니다. 신규 지열 발전 용량은 미국 유타주 남서부에 건설 중인 페르보의 케이프 스테이션(Cape Station) 프로젝트를 통해 공급될 예정입니다.</p><h3>주요 포인트</h3><ul><li>구글과 페르보 에너지가 체결한 396MW 규모의 지열 전력구매계약(PPA)은 역대 기업 지열 거래 중 최대 규모입니다.</li><li>페르보의 차세대 유압 파쇄 및 시추 기술을 활용한 유타주 '케이프 스테이션' 프로젝트에서 청정 전력을 조달합니다.</li><li>구글은 2030년까지 모든 사업장을 연중무휴 무탄소 에너지(24/7 CFE)로 가동하겠다는 목표 달성에 크게 다가서게 되었습니다.</li></ul><p>원문: <a href="https://www.esgtoday.com/google-signs-record-geothermal-power-deal-with-fervo/?utm_source=rss&utm_medium=rss&utm_campaign=google-signs-record-geothermal-power-deal-with-fervo" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1317,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '한국 주도 원전 해체 ISO 국제표준 집필 착수',
+      author: '관리자',
+      date: '2026.09.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>약 500조 원 규모로 추산되는 글로벌 원전 해체 시장에서 한국이 주도하는 ISO 국제표준이 본격적인 집필 단계에 돌입했습니다. 이번 표준화 작업은 원전 해체 과정의 안전성과 효율성을 보장하는 글로벌 기준을 정립하기 위해 추진됩니다. 한국이 표준 제정을 이끌게 됨에 따라 향후 글로벌 원전 해체 시장에서 국내 기업들의 기술적 입지와 해외 진출 경쟁력이 한층 강화될 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>약 500조 원 규모의 글로벌 원전 해체 시장을 겨냥한 ISO 국제표준 본격 집필</li><li>원전 해체 안전성 및 효율성 확보를 위한 한국 주도 국제 기준 마련</li><li>국내 원자력 및 해체 산업의 글로벌 시장 선점 및 경쟁력 제고 기대</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9LX1F4eVFJOUliV29mdVl4b3RfcTdlYmNfTEdweWdNM0RNVUxSWTJtOHVPdnktVXpjTWEtOF9WNGtqdVZOU2pTSDZWWlVzQ0NoTWRqMGNvbUh2MFF0dzJKT0V2dlBMZXcwMm04bk9B?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1312,
       pinned: false,
       category: 'news', categoryName: '소식',
