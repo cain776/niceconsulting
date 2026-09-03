@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1318,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 2분기 CO2 배출량 1% 감소, 석유 소비 급감이 원인',
+      author: '관리자',
+      date: '2026.09.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>카본브리프(Carbon Brief)의 분석에 따르면 중국의 2분기 이산화탄소(CO2) 배출량이 전년 동기 대비 1% 감소했습니다. 이번 배출량 감소는 석유 소비량이 급격히 줄어든 것이 결정적인 요인으로 작용했습니다. 전기차 보급 가속화와 산업 구조 변화 등으로 석유 수요가 위축되면서 배출량 둔화세가 나타났습니다. 전문가들은 이러한 흐름이 중국의 탄소 배출 정점 조기 도달 가능성을 시사하는지 주목하고 있습니다.</p><h3>주요 포인트</h3><ul><li>중국 2분기 CO2 배출량이 석유 소비 급감에 힘입어 전년 동기 대비 1% 감소</li><li>전기차 보급 확대 등 청정 에너지 전환이 석유 수요 감소를 견인</li><li>중국의 탄소 배출 정점 도달 및 향후 배출량 지속 감소 여부에 관심 집중</li></ul><p>원문: <a href="https://www.carbonbrief.org/analysis-chinas-co2-emissions-fall-in-q2-2026-due-to-plummeting-oil-use" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1316,
       pinned: false,
       category: 'news', categoryName: '소식',
