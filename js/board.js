@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1319,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '예산군, 안전보건 국제표준 2년 연속 \'적합\' 획득',
+      author: '관리자',
+      date: '2026.09.02',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>충남 예산군이 안전보건 분야 국제표준 인증(ISO 45001) 사후 심사에서 2년 연속 '적합' 판정을 받았습니다. 예산군은 근로자의 산업재해 예방과 안전한 근무 환경 조성을 위해 체계적인 안전보건 관리 시스템을 지속해서 운영해 왔습니다. 이번 재인증을 통해 군의 안전보건경영 체계가 국제 기준에 부합함을 다시 한번 입증했습니다. 앞으로도 지자체 차원의 중대재해 예방과 ESG 책임 경영 실천을 한층 강화할 방침입니다.</p><h3>주요 포인트</h3><ul><li>예산군, 국제표준 안전보건경영시스템(ISO 45001) 2년 연속 적합 인증 달성</li><li>체계적인 위험성 평가 및 현장 점검을 통한 중대산업재해 예방 체계 입증</li><li>지자체 근로자의 안전한 작업 환경 보장과 ESG(사회·책임) 경영 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1CNV9FR0FxTmlZNk9fOC1XVkdXRkZfUk56OG1yQ1BOUVRwcmtRaUU2Vm1YWGQ1UUZVdkZBdk13ODNIZFE4U1RwWEV3TTQ4cFJZcnR6SmUtQXA4OE9Da1dWXzd3RnBMSGFEOS1qYnllTzdWZw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1320,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: '천안도시공사, 관리자 대상 중대재해처벌법 교육 실시',
+      author: '관리자',
+      date: '2026.09.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>천안도시공사가 사업장 내 안전사고를 예방하고 관리감독자의 안전보건 역량을 강화하기 위해 관리자 대상 중대재해처벌법 교육을 추진했습니다. 이번 교육은 중대재해처벌법의 주요 내용과 관리감독자의 법적 의무 및 책임을 명확히 이해하도록 돕는 데 초점을 맞췄습니다. 공사는 현장 중심의 안전보건관리체계를 강화해 근로자와 시민이 안심할 수 있는 안전한 환경을 조성할 방침입니다.</p><h3>주요 포인트</h3><ul><li>사업장 관리감독자의 안전보건 관리 책임 및 역량 강화</li><li>중대재해처벌법 주요 내용 및 법적 의무 사항에 대한 교육 진행</li><li>중대재해 예방을 위한 선제적 안전보건관리체계 구축 추진</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1icWkzM2FrSEx4aVd1c20wXy1CRHhfSDRCTlVrWGp3bnVxZEhKa2pIV2U2V3BNdEVOSDVhSjVPUFRzWXU2cVhJZ040eG1DQTczV3NSY3ZTUjNEMVUxZjVVaDRWQUxqajdhcjVOV1h0MGpVaGs?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1318,
       pinned: false,
       category: 'news', categoryName: '소식',
