@@ -10,6 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1321,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '어반 아웃피터스 누울리, 풀필먼트 센터 자동화 확대',
+      author: '관리자',
+      date: '2026.09.04',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>어반 아웃피터스(Urban Outfitters)의 의류 렌탈 구독 서비스 '누울리(Nuuly)'가 캔자스시티 풀필먼트 센터의 자동화 역량을 대폭 강화합니다. 누울리는 증가하는 구독 수요에 발맞추어 자동화 주문 분류 시스템과 최첨단 피킹 솔루션을 도입할 계획입니다. 이를 통해 순환 패션 비즈니스 모델의 물류 운영 효율성을 높이고 반납 및 재배송 처리 속도를 크게 개선할 것으로 기대됩니다.</p><h3>주요 포인트</h3><ul><li>캔자스시티 풀필먼트 시설에 자동 주문 분류 및 피킹 자동화 솔루션 도입 추진</li><li>의류 렌탈 구독 서비스의 빠른 성장에 맞춘 공급망 처리 역량 및 효율성 제고</li><li>패션 순환 경제(렌탈 모델)를 뒷받침하는 지속가능한 스마트 물류 인프라 구축</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/urban-outfitters-nuuly-pursues-more-fulfillment-center-automation/829575/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1322,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스·CO2 AI, 스코프 3 데이터 투명성 강화 협력',
+      author: '관리자',
+      date: '2026.09.03',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망 지속가능성 평가 기관인 에코바디스(EcoVadis)와 탄소 회계 전문 기업 CO2 AI가 기업의 스코프 3(Scope 3) 배출량 투명성을 강화하기 위해 파트너십을 체결했습니다. 양사는 1차 데이터(Primary Data)의 정밀도를 바탕으로 기업들이 공급망 전반의 온실가스 배출량을 보다 정확하게 측정하고 관리할 수 있도록 지원합니다. 이를 통해 기업들은 추정치에 의존하던 기존 방식에서 벗어나 실질적이고 신뢰도 높은 탄소 감축 전략을 수립할 수 있게 됩니다.</p><h3>주요 포인트</h3><ul><li>에코바디스와 CO2 AI의 파트너십을 통한 공급망 스코프 3 탄소 배출 데이터 투명성 향상</li><li>추정치가 아닌 공급업체의 정밀한 1차 데이터를 활용한 탄소 회계 정확도 제고</li><li>기업들의 신뢰성 있는 온실가스 감축 목표 달성 및 글로벌 ESG 공시 대응 지원</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVTBTTjBvMzk3c0lMWmhNWnJxeU5ZMXVrUXpxNWF5UG5wWmRlWXlMMTlHWXhESjdOSWx3RFVNd3NVWUxSbXplT1N0Nm0tNVZPTnZWQ1JTV2JfTURJUVBvZWNRNnZJZ1pQOGlnLUt0VnNkenFSaUJ6RDhISkI5c1otc3R3bUVka1BjMVJzNmt1dUlYVUlRYjR3blE1RFZNZ1VBaHVOZGw4eS1lSE5FcE0yeXlIVDg3UmptUVluWkZVSVFqMmMzaU1oemkwSk05UjZZZ3d0S2VHbWd1RGs?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1319,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
