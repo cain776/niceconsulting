@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1323,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: 'CJ대한통운, 준법경영 국제인증 6년 연속 유지',
+      author: '관리자',
+      date: '2026.09.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>CJ대한통운이 글로벌 기준에 맞춘 내부 준법관리 체계를 지속 강화하며 준법경영 국제표준 인증을 6년 연속 유지했습니다. 회사는 체계적인 컴플라이언스 시스템을 구축해 법적 리스크를 사전에 예방하고 투명한 기업 문화를 정착시키는 데 집중해 왔습니다. 이를 통해 지배구조(G) 영역의 ESG 경쟁력을 공고히 하고 글로벌 파트너 및 고객사와의 신뢰도를 한층 높였습니다.</p><h3>주요 포인트</h3><ul><li>CJ대한통운, 준법경영시스템 국제표준 인증 6년 연속 유지 성공</li><li>내부 준법관리 체계 고도화 및 법적 리스크 사전 예방 역량 입증</li><li>지배구조(G) 경쟁력 강화를 통한 대내외 신뢰도 제고</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fdG5PanNNYS1SQmpidjU4UVcyVTBlTklKaXJ4ZmtWcXpTbkZqblowcUxSSlNlVVpCLS10WElGT2VuVzE1STA4cWN4elFCdkU3OGhmQkxWVkNndw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1321,
       pinned: false,
       category: 'news', categoryName: '소식',
