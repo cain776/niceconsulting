@@ -10,6 +10,76 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1324,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'safety', topicName: '중대재해처벌법',
+      title: 'LG에너지솔루션, 협력사 대상 중대재해처벌법 교육 실시',
+      author: '관리자',
+      date: '2026.09.07',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>LG에너지솔루션이 협력사의 안전보건 관리 역량 강화를 돕기 위해 중대재해처벌법 관련 교육을 실시했습니다. 이번 교육은 확대 적용된 중대재해처벌법에 대한 협력사의 이해도를 높이고 사업장 내 안전사고를 선제적으로 예방하기 위해 마련되었습니다. LG에너지솔루션은 협력사의 실질적인 안전보건 관리체계 구축을 지원함으로써 지속 가능한 공급망 구축과 상생 협력을 강화해 나갈 방침입니다.</p><h3>주요 포인트</h3><ul><li>협력사의 법적 리스크 대응 및 안전보건 관리 역량 제고</li><li>공급망 전반의 중대재해 예방 및 안전보건 관리체계 구축 지원</li><li>상생 협력을 통한 공급망 ESG(사회·안전) 경영 실천 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ISWg4RkItWndDZU1vLWQ0ekxmdTEtRG5EWGFPaFFTM2NLbmNWUkJQR3VsYmVHanl5ck9HMkhrcmlHLWthV1QzQ2NuRlV4RWFLemhPOVczZkF1c2RJR1dJdVVxZ1VoSkNE?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1325,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '번개장터, 국제표준 정보보호 ‘ISO 27001’ 인증 획득',
+      author: '관리자',
+      date: '2026.09.09',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>취향 중고거래 플랫폼 번개장터가 국제표준화기구(ISO)의 정보보호 관리체계 국제 표준인 ‘ISO 27001’ 인증을 획득했습니다. 이번 인증은 번개장터의 정보보호 정책, 물리적 및 기술적 보안 등 전반적인 정보보호 관리 역량이 국제적 기준을 충족했음을 공식 인정받은 것입니다. 이를 통해 번개장터는 사용자 데이터 및 개인정보 보호 역량을 입증하며 플랫폼의 보안 신뢰도를 한층 강화했습니다.</p><h3>주요 포인트</h3><ul><li>국제표준화기구(ISO) 공인 정보보호 관리체계(ISO 27001) 인증 취득</li><li>개인정보 보호 및 기술적 보안 관리체계의 글로벌 기준 충족 검증</li><li>ESG 경영 관점의 정보 보안 강화 및 안전한 중고거래 생태계 조성</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oODE3Vm9OUlFPWk12QjBtckx2YkphR2VvaVdXcWF0YVNkTm5zdnFTX25fWHhGdHZYZDBqcTNoeTRkT3hMOFlBUVBycXhydw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1326,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '식품 공급망 내 기생충 오염 비상: 규제 완화 속 위생 관리 과제',
+      author: '관리자',
+      date: '2026.09.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>올여름 식품 공급망에서 발생한 사이클로스포라(Cyclospora) 기생충 감염 사태 이후 식품 안전에 대한 경각심이 커지고 있습니다. 이 기생충은 오염 경로 추적이 어렵고 일반적인 살균 방식으로 사멸시키기가 매우 까다로운 특성을 지닙니다. 설상가상으로 최근 식품 안전 규제 당국의 예산과 인력이 감축되면서 외식업체 및 식품 제조업체들은 자체적으로 공급망 위생을 유지하는 데 큰 부담을 안게 되었습니다. 공급망 전반의 투명성과 품질 관리가 ESG 핵심 과제로 부각되는 가운데, 기업들의 선제적 위생 관리 대응이 요구됩니다.</p><h3>주요 포인트</h3><ul><li>추적과 사멸이 어려운 사이클로스포라 기생충으로 인한 식품 공급망 안전 위협 증대</li><li>식품 안전 규제 당국의 기능 축소로 인해 레스토랑 및 제조사의 자율적 위생 관리 부담 가중</li><li>공급망 전반에 걸친 엄격한 품질 점검 및 위생 리스크 관리 역량 강화 필요</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/feces-in-the-food-supply-whats-next-after-summer-of-cyclospora/829546/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1327,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '지속가능성 데이터 플랫폼 트라세라, 산딥 찬드 신임 CEO 선임',
+      author: '관리자',
+      date: '2026.09.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>지속가능성 데이터 플랫폼 기업 트라세라(Tracera)가 공동 창립자인 산딥 찬드(Sandeep Chand)를 신임 최고경영자(CEO)로 선임했다고 발표했습니다. 이번 인사는 글로벌 기업들의 지속가능성 데이터 관리 및 ESG 규제 공시 요구가 급증하는 시장 환경에 대응하기 위한 조치입니다. 찬드 신임 CEO는 제품 개발 및 기술 혁신 분야의 전문성을 바탕으로 트라세라의 비즈니스 확장과 플랫폼 고도화를 본격적으로 이끌어갈 예정입니다.</p><h3>주요 포인트</h3><ul><li>트라세라, 공동 창립자 산딥 찬드를 신임 CEO로 공식 임명</li><li>기업들의 ESG 및 지속가능성 공시 대응을 지원하는 데이터 솔루션 역량 강화</li><li>기술 혁신 가속화를 통한 플랫폼 고도화 및 글로벌 시장 확대 추진</li></ul><p>원문: <a href="https://www.esgtoday.com/sustainability-data-platform-tracera-appoints-co-founder-sandeep-chand-as-new-ceo/?utm_source=rss&utm_medium=rss&utm_campaign=sustainability-data-platform-tracera-appoints-co-founder-sandeep-chand-as-new-ceo" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1328,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '중국 산업계, 화석연료 의존 탈피 본격화',
+      author: '관리자',
+      date: '2026.09.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>올해 석탄 발전량의 일시적인 반등에도 불구하고, 중국에서는 풍력 및 태양광 등 청정에너지가 수십 년간 산업 성장을 견인해 온 화석연료를 빠르게 대체하고 있습니다. 대규모 재생에너지 설비 증설에 힘입어 전력 생산에서 청정에너지가 차지하는 비중이 지속적으로 확대되는 추세입니다. 이에 따라 세계 최대 제조업 중심지인 중국의 산업 엔진이 본격적인 탈탄소 전환 국면에 접어들었다는 평가가 나옵니다.</p><h3>주요 포인트</h3><ul><li>단기적인 석탄 발전 반등에도 불구하고 풍력·태양광 등 청정에너지의 점유율 지속 확대</li><li>수십 년간 중국 산업 성장의 기반이었던 화석연료 의존도 점진적 축소</li><li>재생에너지 보급 가속화를 통한 중국 제조업 및 산업 전반의 에너지 구조 개편 본격화</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/09/08/chinas-industrial-engine-starts-to-break-its-fossil-fuel-habit/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1323,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
