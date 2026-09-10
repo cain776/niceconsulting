@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1329,
+      pinned: false,
+      category: 'law', categoryName: '법령·기준',
+      topic: 'iso', topicName: 'ISO',
+      title: '전기안전공사, 부패방지·규범준수 국제인증 갱신',
+      author: '관리자',
+      date: '2026.09.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>한국전기안전공사가 부패방지경영시스템(ISO 37001) 및 규범준수경영시스템(ISO 37301) 통합 인증 갱신을 완료했습니다. 공사는 엄격한 사후 심사를 거쳐 반부패와 법규 준수를 위한 경영 시스템이 국제 표준에 부합하게 체계적으로 운영되고 있음을 입증받았습니다. 이번 갱신을 통해 공사는 윤리·준법 경영을 한층 강화하고 ESG 경영의 지배구조(G) 경쟁력을 공고히 했습니다. 앞으로도 공공기관으로서 투명하고 신뢰받는 경영 문화를 선도해 나갈 방침입니다.</p><h3>주요 포인트</h3><ul><li>ISO 37001(부패방지) 및 ISO 37301(규범준수) 국제표준 통합 인증 갱신</li><li>체계적인 반부패 및 컴플라이언스 관리 역량의 대외적 공인</li><li>투명한 윤리경영 실천을 통한 ESG 지배구조(G) 강화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mWjFXTE82TXN4T05pQnEyOVNDZ0NINHlvOEhZWXhtWEdEMjBnQzdUZ1UwSkFkbTlCQzNMVy1EVW9HeEdTUGZ4dFZiM3hYX1gxNEZxWk1fbVZWbXhuUE1NZNIBeEFVX3lxTE9teW0xbjktdGkxV1pWSzIxRE1tN0JtLUk3QkZsaU96Y3J2YVdGekJ6WTZiVFlwMWZPd3NkQ3d1UHBlR0VZQXlSZWVWeTR5aTJkRTZ4eENaVTNlZ1lDSEloQ2xza3ZFRGliMU1FUnNIVk5LdEoxWnZVNw?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1330,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '히말라야 홍수와 지구온난화의 연관성 분석',
+      author: '관리자',
+      date: '2026.09.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>네팔과 중국 국경 인근 히말라야 지역에서 발생한 돌발 홍수와 관련하여, 지구온난화가 미친 영향과 한계에 대한 과학적 분석이 제시되었습니다. 기후변화는 극한 강우 현상과 빙하 융해를 촉진해 산악 지역의 자연재해 위험을 높이는 주요 요인으로 지목됩니다. 그러나 특정 국지적 홍수 사건 전체를 기후변화 탓으로만 돌리기에는 지형적 특성, 토지 이용 변화 등 복합적인 요인이 작용하므로 기여도 분석에 신중한 접근이 필요합니다.</p><h3>주요 포인트</h3><ul><li>히말라야 산악 지역의 극한 강우 및 빙하 호수 붕괴 위험 증가와 기후변화의 연관성 조명</li><li>개별 홍수 사태에 대한 온난화 영향 분석 시 기상 패턴과 지형적 요인의 복합성 고려 필요</li><li>기후 적응 및 재난 조기 경보 시스템 강화를 위한 과학적 데이터 기반 평가의 중요성</li></ul><p>원문: <a href="https://www.carbonbrief.org/qa-what-can-and-cannot-be-said-about-global-warmings-role-in-the-2026-himalayan-floods" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1331,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '미 관세국경보호청, 공급망 가시성 확대 위한 의견 수렴',
+      author: '관리자',
+      date: '2026.09.08',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국 관세국경보호청(CBP)이 공급망 가시성 확대를 위한 정책 추진 과정에서 업계 이해관계자들의 의견 수렴에 나섰습니다. 이번 의견 수렴은 공급망 추적 기술의 활용 방안과 잠재적인 수출 서류 수집 의무화 등을 주요 주제로 다룹니다. CBP는 공급망 전반의 투명성을 높여 강제노동 연루 물품의 유입을 차단하고 통관 절차를 강화한다는 계획입니다. 이에 따라 수출입 기업들의 공급망 실사 및 데이터 추적성 확보가 더욱 중요해질 전망입니다.</p><h3>주요 포인트</h3><ul><li>CBP, 공급망 투명성 제고를 위한 추적성 기술 활용 방안 의견 수렴</li><li>원산지 및 유통 경로 검증을 위한 잠재적 수출 서류 수집 확대 검토</li><li>강제노동 방지 등 ESG 통관 규제 대응을 위한 공급망 가시성 강화 추진</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/cbp-wants-stakeholder-input-on-supply-chain-visibility-push/829687/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1324,
       pinned: false,
       category: 'news', categoryName: '소식',
