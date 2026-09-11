@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1332,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '美 작가이자 환경운동가 웬델 베리 별세, 향년 92세',
+      author: '관리자',
+      date: '2026.09.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>미국의 저명한 작가이자 농부, 환경운동가인 웬델 베리(Wendell Berry)가 향년 92세로 타계했습니다. 그는 평생 전자기기를 멀리하는 소박한 삶을 살면서도 석탄 발전 중심의 켄터키주에서 태양광 발전 설비를 도입하는 등 청정에너지에 대한 확고한 신념을 보여주었습니다. 또한 환경 파괴적인 석탄 채굴에 맞서 모교와의 인연을 끊고 주지사실 점거 농성에 참여하는 등 적극적인 환경 운동을 펼쳤습니다.</p><h3>주요 포인트</h3><ul><li><strong>청정에너지 신념 실천:</strong> 컴퓨터나 TV 없이 생활하면서도 2005년 석탄 의존도가 높은 지역에서 태양광 설비를 직접 설치했습니다.</li><li><strong>석탄 자본에 대한 저항:</strong> 모교 켄터키 대학교가 석탄 회사 주도의 700만 달러 기부금을 수용하자 모교와의 관계를 단절했습니다.</li><li><strong>환경 보호 직접 행동:</strong> 2011년 산림을 파괴하는 노천 채굴(Strip-mining)에 항의하기 위해 주지사실 점거 농성에 동참했습니다.</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1wd3ka9/wendell_berry_us_author_farmer_and/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1333,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '델, AI 수요 급증 속 공급망 부족 현상 심화 직면',
+      author: '관리자',
+      date: '2026.09.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>델 테크놀로지스(Dell Technologies)가 인공지능(AI) 인프라 수요 폭증으로 인해 주요 하드웨어 부품 공급 부족 문제에 직면해 있습니다. 제프리 클라크(Jeffrey Clarke) 최고운영책임자(COO)는 지속해서 부품을 조달해야 하는 공급망 담당자의 어려움과 긴박한 현 상황을 설명했습니다. 고성능 AI 서버 제품군에 대한 시장 수요가 유지되면서 부품 수급 격차가 점차 확대되는 추세입니다. 이에 따라 델은 공급망 리스크를 완화하고 납기를 맞추기 위해 공급업체와의 협력을 강화하는 등 대응책 마련에 집중하고 있습니다.</p><h3>주요 포인트</h3><ul><li>AI 서버 및 관련 인프라 수요 급증으로 핵심 부품 조달 부족 현상 심화</li><li>델 경영진, 부품 확보를 위한 지속적인 추적과 공급망 관리 부담 토로</li><li>지속적인 AI 시장 성장에 맞춘 공급망 다변화 및 리스크 관리 전략 추진</li></ul><p>원문: <a href="https://www.supplychaindive.com/news/dell-faces-widening-supply-shortages-as-high-ai-demand-persists/830083/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1334,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'ecovadis', topicName: '에코바디스',
+      title: '에코바디스-CO2 AI 협력, 공급망 탄소 데이터 경쟁 심화',
+      author: '관리자',
+      date: '2026.09.10',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>글로벌 공급망 ESG 평가기관 에코바디스(EcoVadis)와 탄소 회계 AI 솔루션 기업 CO2 AI가 전략적 파트너십을 체결했습니다. 양사의 이번 협력은 기업들의 스코프 3(공급망 간접 배출) 탄소 배출량 측정과 관리의 정확도를 대폭 향상시키는 데 목적이 있습니다. 공급망 전반에 걸친 탄소 배출 데이터 수집 및 공시 요구가 강화됨에 따라, 관련 탄소 데이터 플랫폼 간의 기술 경쟁과 시장 주도권 다툼이 한층 치열해질 것으로 전망됩니다.</p><h3>주요 포인트</h3><ul><li>에코바디스와 CO2 AI의 파트너십 체결을 통한 공급망 탄소 관리 솔루션 고도화</li><li>기업의 스코프 3(Scope 3) 배출량 산출 정밀도 및 신뢰성 개선 추진</li><li>글로벌 ESG 공시 규제 강화에 대응하는 탄소 회계 데이터 플랫폼 간 경쟁 가속화</li></ul><p>원문: <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NQjBSUlRKTFRxcnhfN0dETm5GbWJIZElDVVRhWHlTbUV3VWQ2b2JEN1FDOVlfWmtHNUtSLVJsWUJ2RS1xTGp4aHA2dEtSWnpkTm1iX01aczlDamM?oc=5" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1329,
       pinned: false,
       category: 'law', categoryName: '법령·기준',
