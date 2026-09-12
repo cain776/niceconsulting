@@ -10,6 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
   // topic: 주제 (esg/ecovadis/iso/safety/rba)
   const boardData = [
     {
+      id: 1335,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '메이드 인 나이지리아: 아프리카 태양광 산업 육성 도전',
+      author: '관리자',
+      date: '2026.09.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>아프리카 전역에서 태양광 발전 혁명이 가속화되는 가운데, 나이지리아가 자체 태양광 제조 산업 육성에 본격적으로 뛰어들고 있습니다. 급성장하는 청정에너지 시장에서 단순 소비국을 넘어 자체 공급망을 구축해 녹색 일자리와 경제적 부가가치를 창출하겠다는 목표입니다. 하지만 세계 시장을 장악하고 있는 저렴한 중국산 수입품과의 치열한 가격 및 기술 경쟁을 극복하는 것이 최대 난제로 꼽힙니다.</p><h3>주요 포인트</h3><ul><li>아프리카 대륙의 태양광 수요 확대에 발맞춰 나이지리아가 자체 태양광 제조 산업 기반 구축 추진</li><li>외부 의존도를 줄이고 현지 녹색 일자리 및 경제 성장을 견인하려는 전략적 움직임</li><li>가격 경쟁력을 앞세운 중국산 수입 제품과의 경쟁 및 현지 인프라 부족 극복이 주요 과제</li></ul><p>원문: <a href="https://www.climatechangenews.com/2026/09/11/made-in-nigeria-the-race-to-build-an-african-solar-industry-from-scratch/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1336,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '엘니뇨 영향 인도네시아 산불 배출량, 금세기 최고치 육박 전망',
+      author: '관리자',
+      date: '2026.09.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>엘니뇨 현상으로 인한 극심한 건조 기후 속에서 인도네시아 전역에 대규모 산불이 확산되고 있습니다. 현재 산불로 인한 탄소 배출량 추세는 금세기 최고 기록에 육박할 것으로 예상됩니다. 특히 탄소를 대량으로 흡수 및 저장하는 이탄지가 불타면서 막대한 양의 온실가스가 대기 중으로 방출되어 지구 온난화를 더욱 가속화할 위험이 커지고 있습니다.</p><h3>주요 포인트</h3><ul><li>엘니뇨로 인한 가뭄이 인도네시아 산불 확산 및 장기화의 주요 원인으로 작용</li><li>산불로 인한 연간 탄소 배출량이 금세기 역대 최고치 수준에 도달할 것으로 관측</li><li>열대우림과 이탄지 파괴로 인한 글로벌 온실가스 감축 목표 달성에 차질 우려</li></ul><p>원문: <a href="https://www.carbonbrief.org/el-nino-indonesia-fire-emissions-in-2026-on-track-to-match-record-for-this-century" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
+      id: 1337,
+      pinned: false,
+      category: 'news', categoryName: '소식',
+      topic: 'esg', topicName: 'ESG',
+      title: '재생 농업으로 인류 부양 가능할까? "지구 5개 필요해"',
+      author: '관리자',
+      date: '2026.09.11',
+      views: 0,
+      hasAttachment: false,
+      content: `
+        <h2>핵심 내용</h2><p>재생 농업(Regenerative agriculture)이 기후변화 대응과 토양 생태계 복원의 유력한 해법으로 주목받고 있으나, 전 세계 식량 수요를 감당하기에는 심각한 토지 한계가 있다는 분석이 제기되었습니다. 가축 방목 및 저투입 농법 기반의 재생 농업은 기존 관행 농업에 비해 단위 면적당 생산성이 낮아, 현재의 소비 패턴을 충족하려면 지구 5개 규모의 토지가 필요하다는 지적입니다. 이에 따라 재생 농업이 실질적인 지속가능성을 확보하려면 식단 전환 및 토지 이용 효율화가 반드시 병행되어야 한다는 논의가 이어지고 있습니다.</p><h3>주요 포인트</h3><ul><li>재생 농업의 낮은 생산성으로 인해 전 세계 인구를 부양하기 위한 막대한 토지 면적 필요</li><li>육류 및 식량 소비 감축 없이 농법만 전환할 경우 지구 5개 수준의 자원이 요구되는 한계</li><li>토양 복원이라는 환경적 이점과 식량 안보 간의 균형을 위한 복합적인 지속가능성 전략 필요</li></ul><p>원문: <a href="https://www.reddit.com/r/sustainability/comments/1wdeudd/can_regenerative_farming_feed_the_world_it_would/" target="_blank" rel="noopener">원문 보기</a></p>
+      `
+    },
+    {
       id: 1332,
       pinned: false,
       category: 'news', categoryName: '소식',
